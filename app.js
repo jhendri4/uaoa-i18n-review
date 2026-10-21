@@ -61,7 +61,11 @@
 
   function api(path, opts) {
     opts = opts || {};
-    var headers = Object.assign({ 'Accept': 'application/json' }, opts.headers || {});
+    var headers = Object.assign({
+      'Accept': 'application/json',
+      // Skip localtunnel browser interstitial when apiBase is *.loca.lt
+      'Bypass-Tunnel-Reminder': 'true',
+    }, opts.headers || {});
     if (opts.body && !headers['Content-Type']) headers['Content-Type'] = 'application/json';
     return fetch(API + path, {
       method: opts.method || 'GET',

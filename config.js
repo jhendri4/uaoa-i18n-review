@@ -1,7 +1,5 @@
-// Public API (Cloudflare quick tunnel → local GitHub-backed server).
-// Restart tunnel + update this URL if the trycloudflare host changes.
 window.UAOA_I18N_REVIEW = Object.assign({
-  apiBase: 'https://appliances-unity-rank-remaining.trycloudflare.com',
+  apiBase: 'https://5f24f66ea1aa7e.lhr.life',
   locales: [
     { code: 'es', label: 'Spanish' },
     { code: 'cs', label: 'Czech' },
