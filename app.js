@@ -59,30 +59,58 @@
     toast._t = setTimeout(function () { el.toast.classList.remove('show'); }, 2400);
   }
 
+  function isLocalTunnel(base) {
+    return /\.loca\.lt$/i.test(String(base || '').replace(/^https?:\/\//i, '').split('/')[0] || '');
+  }
+
   function api(path, opts) {
     opts = opts || {};
     var headers = Object.assign({
       'Accept': 'application/json',
-      // Skip localtunnel browser interstitial when apiBase is *.loca.lt
-      'Bypass-Tunnel-Reminder': 'true',
     }, opts.headers || {});
+    // Only for localtunnel — custom header forces CORS preflight; Render must allow it.
+    if (isLocalTunnel(API)) headers['Bypass-Tunnel-Reminder'] = 'true';
     if (opts.body && !headers['Content-Type']) headers['Content-Type'] = 'application/json';
-    return fetch(API + path, {
-      method: opts.method || 'GET',
-      headers: headers,
-      body: opts.body ? JSON.stringify(opts.body) : undefined,
-      cache: 'no-store',
-    }).then(function (res) {
-      return res.json().catch(function () { return {}; }).then(function (data) {
-        if (!res.ok) {
-          var err = new Error((data && data.error) || ('HTTP ' + res.status));
-          err.status = res.status;
-          err.data = data;
-          throw err;
-        }
-        return data;
+
+    var attempts = typeof opts.retries === 'number' ? opts.retries : 2;
+    var timeoutMs = typeof opts.timeoutMs === 'number' ? opts.timeoutMs : 45000;
+
+    function once() {
+      var ctrl = typeof AbortController !== 'undefined' ? new AbortController() : null;
+      var timer = ctrl ? setTimeout(function () { ctrl.abort(); }, timeoutMs) : null;
+      return fetch(API + path, {
+        method: opts.method || 'GET',
+        headers: headers,
+        body: opts.body ? JSON.stringify(opts.body) : undefined,
+        cache: 'no-store',
+        signal: ctrl ? ctrl.signal : undefined,
+      }).then(function (res) {
+        return res.json().catch(function () { return {}; }).then(function (data) {
+          if (!res.ok) {
+            var err = new Error((data && data.error) || ('HTTP ' + res.status));
+            err.status = res.status;
+            err.data = data;
+            throw err;
+          }
+          return data;
+        });
+      }).finally(function () {
+        if (timer) clearTimeout(timer);
       });
-    });
+    }
+
+    function run(left) {
+      return once().catch(function (e) {
+        var retriable = !e.status || e.status >= 500 || e.name === 'AbortError' ||
+          /Failed to fetch|NetworkError|timeout/i.test(String(e.message || e));
+        if (left <= 0 || !retriable) throw e;
+        return new Promise(function (r) { setTimeout(r, 1500); }).then(function () {
+          return run(left - 1);
+        });
+      });
+    }
+
+    return run(attempts);
   }
 
   function leafText(node) {

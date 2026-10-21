@@ -72,7 +72,12 @@ def parse_iso(s: str | None) -> datetime | None:
 def cors(handler: SimpleHTTPRequestHandler) -> None:
     handler.send_header('Access-Control-Allow-Origin', '*')
     handler.send_header('Access-Control-Allow-Methods', 'GET,POST,PUT,OPTIONS')
-    handler.send_header('Access-Control-Allow-Headers', 'Content-Type')
+    # Echo requested headers when present so browser preflights (custom headers
+    # like Bypass-Tunnel-Reminder from older clients) succeed against github.io.
+    req_hdrs = handler.headers.get('Access-Control-Request-Headers')
+    allow = req_hdrs or 'Content-Type, Accept, Bypass-Tunnel-Reminder'
+    handler.send_header('Access-Control-Allow-Headers', allow)
+    handler.send_header('Access-Control-Max-Age', '86400')
 
 
 def read_json_body(handler: SimpleHTTPRequestHandler) -> dict:
