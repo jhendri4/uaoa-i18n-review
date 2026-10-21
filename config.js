@@ -1,6 +1,6 @@
-// Live API via Cloudflare quick tunnel → local review server.
+// Durable API on Render (GitHub-backed locks/approvals). No local tunnels.
 window.UAOA_I18N_REVIEW = Object.assign({
-  apiBase: 'https://remedies-satisfied-scholar-bali.trycloudflare.com',
+  apiBase: 'https://uaoa-i18n-review-api.onrender.com',
   locales: [
     { code: 'es', label: 'Spanish' },
     { code: 'cs', label: 'Czech' },

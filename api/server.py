@@ -19,6 +19,7 @@ import base64
 import json
 import os
 import re
+import ssl
 import sys
 import urllib.error
 import urllib.request
@@ -39,6 +40,14 @@ GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN') or os.environ.get('GH_TOKEN') or '
 GITHUB_REPO = os.environ.get('GITHUB_REPO', '')
 GITHUB_BRANCH = os.environ.get('GITHUB_BRANCH', 'main')
 USE_GITHUB = bool(GITHUB_TOKEN and GITHUB_REPO)
+
+# Render / slim images often lack a working system CA bundle; prefer certifi.
+try:
+    import certifi
+
+    SSL_CONTEXT = ssl.create_default_context(cafile=certifi.where())
+except Exception:  # noqa: BLE001
+    SSL_CONTEXT = ssl.create_default_context()
 
 
 def utcnow() -> datetime:
@@ -107,12 +116,14 @@ def gh_api(method: str, path: str, body: dict | None = None) -> dict:
         },
     )
     try:
-        with urllib.request.urlopen(req, timeout=30) as res:
+        with urllib.request.urlopen(req, timeout=30, context=SSL_CONTEXT) as res:
             raw = res.read().decode('utf-8')
             return json.loads(raw) if raw else {}
     except urllib.error.HTTPError as e:
         err = e.read().decode('utf-8', errors='replace')
         raise RuntimeError(f'GitHub {method} {path} -> {e.code}: {err[:400]}') from e
+    except urllib.error.URLError as e:
+        raise RuntimeError(f'GitHub {method} {path} -> network/SSL error: {e}') from e
 
 
 def gh_get_file(path: str) -> tuple[Any, str | None]:

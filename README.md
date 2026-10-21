@@ -9,11 +9,14 @@ Public review UI for approving / editing course translations.
 - Name gate on load (no account)  
 - **Locale checkout lease** — one active editor per language (others read-only)
 
-## Live UI
+## Live
 
-https://jhendri4.github.io/uaoa-i18n-review/
+| | URL |
+|---|---|
+| **UI (GitHub Pages)** | https://jhendri4.github.io/uaoa-i18n-review/ |
+| **API (Render)** | https://uaoa-i18n-review-api.onrender.com |
 
-The Pages site is static. Shared locks/saves need the API below (token stays on the server).
+The Pages site is static (`config.js` → `apiBase`). Shared locks/saves go through the Render API; the GitHub token stays on the server.
 
 ## Local (UI + API together)
 
@@ -25,27 +28,36 @@ python3 api/server.py        # http://127.0.0.1:8787/
 
 Open that URL (not the raw `index.html` file). Filesystem mode writes under `data/` + `state/`.
 
-## Public shared mode
+## Deploy / redeploy the API (Render)
 
-1. Create a fine-grained PAT with **Contents: Read & write** on `jhendri4/uaoa-i18n-review` only.
-2. Host `api/server.py` (Render free tier works — see `render.yaml`):
+Prefer the **standalone** repo so Render’s root is the app (not the elearning monorepo):
 
-```bash
-export GITHUB_TOKEN=github_pat_...
-export GITHUB_REPO=jhendri4/uaoa-i18n-review
-export GITHUB_BRANCH=main
-python3 api/server.py --host 0.0.0.0 --port 8787
-```
+1. Create a fine-grained GitHub PAT with **Contents: Read & write** on `jhendri4/uaoa-i18n-review` only.
+2. One-click Blueprint (first time), or open the existing service:
 
-3. Point the Pages site at the API by committing `config.js`:
+   https://dashboard.render.com/blueprints/new?repo=https%3A%2F%2Fgithub.com%2Fjhendri4%2Fuaoa-i18n-review
+
+3. Set env var **`GITHUB_TOKEN`** to that PAT (repo already sets `GITHUB_REPO` / `GITHUB_BRANCH` in `render.yaml`).
+4. Deploy. Health check: `GET /api/health` → `{"ok":true,"storage":"github",...}`.
+
+**Redeploy after API changes:** push to `jhendri4/uaoa-i18n-review` `main` (auto-deploy if the Render service is linked), or **Manual Deploy** in the Render dashboard.
+
+**CLI (optional):** `brew install render` → `render login` → `render deploys create` for service `uaoa-i18n-review-api`.
+
+Free-tier services sleep when idle; the first request after sleep can take ~30–60s.
+
+## Point Pages at the API
+
+In both this folder and the Pages repo, `config.js` should be:
 
 ```js
 window.UAOA_I18N_REVIEW = {
-  apiBase: 'https://YOUR-RENDER-SERVICE.onrender.com',
+  apiBase: 'https://uaoa-i18n-review-api.onrender.com',
+  // ...
 };
 ```
 
-Until `apiBase` is set, use the local all-in-one server for real review sessions.
+Bump the `?v=` query on the script tags in `index.html` when changing `config.js` / `app.js` so browsers pick up the new API URL.
 
 ## Sync catalogs
 

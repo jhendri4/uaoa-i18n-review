@@ -3,9 +3,12 @@ services:
     name: uaoa-i18n-review-api
     runtime: python
     plan: free
-    buildCommand: "true"
-    startCommand: python3 api/server.py --host 0.0.0.0 --port $PORT
+    buildCommand: pip install -r requirements.txt
+    startCommand: python api/server.py --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
     envVars:
+      - key: PYTHON_VERSION
+        value: "3.12.8"
       - key: GITHUB_TOKEN
         sync: false
       - key: GITHUB_REPO
