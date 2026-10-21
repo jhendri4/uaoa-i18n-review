@@ -177,6 +177,8 @@ button, input, textarea, select { font: inherit; }
   position: fixed; inset: 0; background: rgba(9,19,36,.45);
   display: grid; place-items: center; z-index: 50; padding: 16px;
 }
+/* display:grid above beats the UA [hidden] rule — force dismiss */
+.modal-backdrop[hidden] { display: none !important; }
 .modal {
   width: min(440px, 100%);
   background: #fff; border-radius: 16px; padding: 22px;
