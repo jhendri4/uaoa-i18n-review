@@ -188,6 +188,21 @@
     return out;
   }
 
+  /** Sticky approval: valid only while EN source fingerprint still matches. */
+  function approvalEntry(key) {
+    return state.approvals[key] || null;
+  }
+
+  function isApproved(key) {
+    var a = approvalEntry(key);
+    return !!(a && a.approved && !a.stale);
+  }
+
+  function isStale(key) {
+    var a = approvalEntry(key);
+    return !!(a && a.stale && !a.approved);
+  }
+
   function ensureSession() {
     if (!state.sessionId) {
       state.sessionId = uid();
@@ -284,7 +299,7 @@
       var m = moduleOf(r.key);
       if (!by[m]) by[m] = { total: 0, approved: 0 };
       by[m].total += 1;
-      if (state.approvals[r.key] && state.approvals[r.key].approved) by[m].approved += 1;
+      if (isApproved(r.key)) by[m].approved += 1;
     });
     return by;
   }
@@ -321,11 +336,11 @@
 
   function renderRows() {
     var rows = filteredRows();
-    var approved = rows.filter(function (r) {
-      return state.approvals[r.key] && state.approvals[r.key].approved;
-    }).length;
+    var approved = rows.filter(function (r) { return isApproved(r.key); }).length;
+    var stale = rows.filter(function (r) { return isStale(r.key); }).length;
     el.stats.textContent = (MODULE_LABELS[state.module] || state.module) +
-      ' · ' + rows.length + ' strings · ' + approved + ' approved';
+      ' · ' + rows.length + ' strings · ' + approved + ' approved' +
+      (stale ? ' · ' + stale + ' stale' : '');
 
     if (!rows.length) {
       el.rows.innerHTML = '<div class="empty">No strings in this module' +
@@ -357,7 +372,8 @@
   }
 
   function renderRow(r) {
-    var approved = !!(state.approvals[r.key] && state.approvals[r.key].approved);
+    var approved = isApproved(r.key);
+    var stale = isStale(r.key);
     var editing = state.editingKey === r.key;
     var pending = state.pendingKey === r.key;
     var pendingSave = pending && state.pendingAction === 'save';
@@ -366,7 +382,7 @@
     var trText = leafText(getByPath(state.tr, r.key));
 
     var row = document.createElement('article');
-    row.className = 'row' + (pending ? ' is-pending' : '');
+    row.className = 'row' + (pending ? ' is-pending' : '') + (stale ? ' is-stale' : '');
     row.dataset.key = r.key;
 
     var keyEl = document.createElement('div');
@@ -411,8 +427,17 @@
 
     if (!state.canEdit) {
       var ro = document.createElement('span');
-      ro.className = 'pill ro';
-      ro.textContent = approved ? 'Approved' : 'Read-only';
+      if (approved) {
+        ro.className = 'pill ok';
+        ro.textContent = 'Approved';
+      } else if (stale) {
+        ro.className = 'pill busy';
+        ro.title = 'English source changed since this string was approved';
+        ro.textContent = 'Stale — source updated';
+      } else {
+        ro.className = 'pill ro';
+        ro.textContent = 'Read-only';
+      }
       actions.appendChild(ro);
     } else if (editing) {
       var save = document.createElement('button');
@@ -454,10 +479,20 @@
       actions.appendChild(locked);
       actions.appendChild(unlock);
     } else {
+      if (stale) {
+        var stalePill = document.createElement('span');
+        stalePill.className = 'pill busy';
+        stalePill.title = 'English source changed since this string was approved — re-approve after review';
+        stalePill.textContent = 'Stale — source updated';
+        actions.appendChild(stalePill);
+      }
       var approve = document.createElement('button');
       approve.type = 'button';
       approve.className = 'btn btn-approve' + (pendingApprove ? ' is-busy' : '');
-      approve.innerHTML = btnLabel(pendingApprove ? 'Approving…' : 'Approve', pendingApprove);
+      approve.innerHTML = btnLabel(
+        pendingApprove ? 'Approving…' : (stale ? 'Re-approve' : 'Approve'),
+        pendingApprove
+      );
       approve.disabled = pendingApprove;
       approve.setAttribute('aria-busy', pendingApprove ? 'true' : 'false');
       approve.addEventListener('click', function () {

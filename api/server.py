@@ -30,6 +30,13 @@ from typing import Any
 from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from approval_util import (  # noqa: E402
+    flatten_catalog,
+    make_approval,
+    reconcile_approvals,
+)
+
 DATA = ROOT / 'data'
 STATE = ROOT / 'state'
 LOCKS = STATE / 'locks'
@@ -199,7 +206,7 @@ def save_catalog(locale: str, catalog: dict, message: str) -> None:
         fs_write(DATA / f'{locale}.json', catalog)
 
 
-def load_approvals(locale: str) -> dict:
+def load_approvals_raw(locale: str) -> dict:
     if locale not in LOCALES:
         raise ValueError(f'unsupported locale: {locale}')
     rel = f'state/approvals/{locale}.json'
@@ -207,6 +214,17 @@ def load_approvals(locale: str) -> dict:
         data, _ = gh_get_file(rel)
         return data if isinstance(data, dict) else {}
     return fs_read(APPROVALS / f'{locale}.json', {})
+
+
+def en_text_map() -> dict[str, str]:
+    return flatten_catalog(load_catalog('en'))
+
+
+def load_approvals(locale: str) -> dict:
+    """Approvals reconciled against current English source (sticky / stale)."""
+    raw = load_approvals_raw(locale)
+    reconciled, _stats = reconcile_approvals(raw, en_text_map(), mark_stale=True)
+    return reconciled
 
 
 def save_approvals(locale: str, approvals: dict, message: str) -> None:
@@ -408,8 +426,12 @@ class Handler(SimpleHTTPRequestHandler):
             require_holder(load_lock(locale), session_id)
             if not key:
                 raise ValueError('key required')
+            en_map = en_text_map()
+            if key not in en_map:
+                raise ValueError('unknown English key')
+            # Reconcile first so EN changes on other keys persist as stale/migrated
             approvals = load_approvals(locale)
-            entry = {'approved': True, 'by': name, 'at': iso(utcnow())}
+            entry = make_approval(name, en_map[key])
             approvals[key] = entry
             save_approvals(locale, approvals, f'i18n-review: approve {locale} {key}')
             send_json(self, 200, {'approvals': approvals, 'entry': entry})

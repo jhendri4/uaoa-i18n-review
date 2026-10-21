@@ -82,6 +82,10 @@ button, input, textarea, select { font: inherit; }
 .pill.ok { background: var(--ok-bg); color: var(--ok); border-color: #B7E0C8; }
 .pill.busy { background: var(--warn-bg); color: var(--warn); border-color: #F0D39A; }
 .pill.ro { background: #F1F2F4; color: var(--muted); }
+.row.is-stale .tr-box:not(.locked) {
+  border-color: #F0D39A;
+  background: #FFFCF5;
+}
 
 .layout {
   display: grid;

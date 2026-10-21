@@ -8,6 +8,7 @@ Public review UI for approving / editing course translations.
 - Locale dropdown or shareable `?locale=es`  
 - Name gate on load (no account)  
 - **Locale checkout lease** — one active editor per language (others read-only). **Start reviewing** / load a locale claims a lease; a heartbeat renews it while the tab is open; **Release** gives up edit rights (view-only until **Check out** again); stale leases expire after `leaseMinutes`.
+- **Sticky approvals** — approvals fingerprint the English source string at approve time (`enFp`). Re-syncing catalogs does **not** clear approvals when EN text is unchanged. If EN is added/updated/removed, that key becomes unapproved (UI: “Stale — source updated”) or the approval is dropped. Locale-only edits do not invalidate EN-stable approvals.
 
 ## Live
 
@@ -69,7 +70,35 @@ From the elearning monorepo:
 
 ```bash
 python3 tools/i18n-review/scripts/sync_catalogs.py
-# then copy tools/i18n-review/data → uaoa-i18n-review and push
+# then copy tools/i18n-review/data (+ approval_util.py / API / UI) → uaoa-i18n-review and push
 ```
 
+`sync_catalogs.py` also reconciles `state/approvals/{locale}.json` against current EN:
+migrates legacy entries (backfills `enFp`), marks EN-changed keys stale, drops removed keys.
+
 Reviewed `data/<locale>.json` can be copied back into `source/i18n/`.
+
+### Approval entry shape
+
+```json
+{
+  "approved": true,
+  "by": "Reviewer Name",
+  "at": "2026-10-21T20:00:00Z",
+  "enFp": "<sha256 hex of English source text at approve time>"
+}
+```
+
+When EN source for a key changes:
+
+```json
+{
+  "approved": false,
+  "stale": true,
+  "staleReason": "en_source_changed",
+  "staleAt": "2026-10-21T21:00:00Z",
+  "by": "Reviewer Name",
+  "at": "2026-10-21T20:00:00Z",
+  "enFp": "<previous fingerprint>"
+}
+```
