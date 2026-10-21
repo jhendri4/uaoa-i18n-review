@@ -21,6 +21,7 @@ import os
 import re
 import ssl
 import sys
+import time
 import urllib.error
 import urllib.request
 from datetime import datetime, timedelta, timezone
@@ -216,15 +217,35 @@ def load_approvals_raw(locale: str) -> dict:
     return fs_read(APPROVALS / f'{locale}.json', {})
 
 
-def en_text_map() -> dict[str, str]:
-    return flatten_catalog(load_catalog('en'))
+# Short TTL cache — loadLocale hits catalog + approvals + claim in a burst;
+# each approvals path previously re-fetched EN from GitHub and amplified 5xxs.
+_EN_MAP_CACHE: tuple[float, dict[str, str]] | None = None
+_EN_MAP_TTL_SEC = 60.0
+
+
+def en_text_map(*, force: bool = False) -> dict[str, str]:
+    global _EN_MAP_CACHE
+    now = time.time()
+    if (
+        not force
+        and _EN_MAP_CACHE is not None
+        and (now - _EN_MAP_CACHE[0]) < _EN_MAP_TTL_SEC
+    ):
+        return _EN_MAP_CACHE[1]
+    mapping = flatten_catalog(load_catalog('en'))
+    _EN_MAP_CACHE = (now, mapping)
+    return mapping
 
 
 def load_approvals(locale: str) -> dict:
     """Approvals reconciled against current English source (sticky / stale)."""
     raw = load_approvals_raw(locale)
-    reconciled, _stats = reconcile_approvals(raw, en_text_map(), mark_stale=True)
-    return reconciled
+    try:
+        reconciled, _stats = reconcile_approvals(raw, en_text_map(), mark_stale=True)
+        return reconciled
+    except Exception as e:  # noqa: BLE001 — never 500 the UI over reconcile
+        sys.stderr.write(f'approval reconcile failed for {locale}: {e}\n')
+        return raw if isinstance(raw, dict) else {}
 
 
 def save_approvals(locale: str, approvals: dict, message: str) -> None:
@@ -384,10 +405,15 @@ class Handler(SimpleHTTPRequestHandler):
                 save_lock(locale, lock, f'i18n-review: {name} claimed {locale}')
                 current = lock
                 acquired = True
+            try:
+                approvals = load_approvals(locale)
+            except Exception as e:  # noqa: BLE001
+                sys.stderr.write(f'claim approvals load failed for {locale}: {e}\n')
+                approvals = load_approvals_raw(locale)
             send_json(self, 200, {
                 'acquired': acquired,
                 'lock': current,
-                'approvals': load_approvals(locale),
+                'approvals': approvals,
             })
             return
 

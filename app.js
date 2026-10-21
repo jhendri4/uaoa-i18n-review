@@ -697,10 +697,19 @@
           !state.rowsCache.some(function (r) { return moduleOf(r.key) === state.module; })) {
         state.module = 'common';
       }
-      return claimLocale();
-    }).then(function () {
+      // Paint catalogs immediately. Checkout is best-effort — a claim/reconcile
+      // failure must not leave the UI blank after sticky-approvals deploy.
+      state.canEdit = !!(state.lock && state.lock.sessionId === state.sessionId);
+      updateChrome();
       renderModules(state.rowsCache);
       renderRows();
+      return claimLocale().then(function () {
+        renderRows();
+      }).catch(function (e) {
+        toast(e.message || 'Checkout failed — browsing read-only', 'error');
+        updateChrome();
+        renderRows();
+      });
     });
   }
 
