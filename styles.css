@@ -56,6 +56,19 @@ button, input, textarea, select { font: inherit; }
   margin-left: 4px;
   padding: 8px 14px 8px 12px;
 }
+/* Held / unavailable checkout: gray, not clickable (overrides .btn:disabled wait cursor). */
+.btn-checkout:disabled,
+.btn-checkout.is-held,
+.btn-checkout.is-busy-other {
+  background: #E8EAEE;
+  color: #8A93A3;
+  border: 1.5px solid #D5D9E0;
+  opacity: 1;
+  cursor: not-allowed;
+}
+.btn-checkout.btn-approve:not(:disabled) {
+  border: 0;
+}
 .btn-icon {
   flex: 0 0 auto;
   display: block;

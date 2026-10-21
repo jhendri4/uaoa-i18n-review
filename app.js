@@ -233,9 +233,28 @@
       el.lockPill.className = 'pill busy';
     }
 
-    // Release only while you hold the lease; Check out when free and named.
+    // Release only while you hold the lease. Check out stays visible once named:
+    // enabled (primary) when free; disabled gray when you hold or someone else does.
     el.releaseBtn.hidden = !(state.canEdit && mine);
-    el.checkoutBtn.hidden = !(free && state.name && !state.canEdit);
+    el.checkoutBtn.hidden = !state.name;
+
+    var checkoutHeldByMe = !!(state.canEdit && mine);
+    var checkoutBlocked = !free; // mine or someone else
+    el.checkoutBtn.disabled = checkoutBlocked || !state.name;
+    el.checkoutBtn.classList.toggle('is-held', checkoutHeldByMe);
+    el.checkoutBtn.classList.toggle('is-busy-other', !!(lock && !mine));
+    el.checkoutBtn.classList.toggle('btn-approve', free && !!state.name);
+    el.checkoutBtn.classList.toggle('btn-ghost', !free || !state.name);
+    if (checkoutHeldByMe) {
+      el.checkoutBtn.title = 'Checked out by you';
+      el.checkoutBtn.setAttribute('aria-label', 'Checked out by you');
+    } else if (lock && !mine) {
+      el.checkoutBtn.title = 'Checked out by ' + (lock.holder || 'someone else');
+      el.checkoutBtn.setAttribute('aria-label', 'Locale checked out by someone else');
+    } else {
+      el.checkoutBtn.title = 'Check out this locale to approve or edit';
+      el.checkoutBtn.setAttribute('aria-label', 'Check out locale');
+    }
 
     if (!state.canEdit) {
       el.banner.hidden = false;
@@ -675,7 +694,7 @@
     });
 
     el.checkoutBtn.addEventListener('click', function () {
-      if (!state.name || !state.locale) return;
+      if (!state.name || !state.locale || el.checkoutBtn.disabled) return;
       claimLocale().then(function (data) {
         renderRows();
         if (data && data.acquired) {
