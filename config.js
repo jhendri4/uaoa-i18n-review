@@ -1,7 +1,7 @@
-// Override at deploy time if the API is hosted elsewhere.
-// Local default: same origin (python api/server.py serves UI + API).
+// Public API (Cloudflare quick tunnel → local GitHub-backed server).
+// Restart tunnel + update this URL if the trycloudflare host changes.
 window.UAOA_I18N_REVIEW = Object.assign({
-  apiBase: '', // e.g. 'https://uaoa-i18n-api.onrender.com'
+  apiBase: 'https://appliances-unity-rank-remaining.trycloudflare.com',
   locales: [
     { code: 'es', label: 'Spanish' },
     { code: 'cs', label: 'Czech' },
