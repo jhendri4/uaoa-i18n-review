@@ -101,7 +101,6 @@ def reconcile_approvals(
         'migrated': 0,
         'stale': 0,
         'dropped': 0,
-        'unchanged_stale': 0,
     }
     out: dict[str, Any] = {}
 
