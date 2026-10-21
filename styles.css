@@ -29,7 +29,7 @@ button, input, textarea, select { font: inherit; }
   position: sticky; top: 0; z-index: 20;
   display: flex; flex-wrap: wrap; gap: 12px; align-items: center;
   justify-content: space-between;
-  padding: 14px 20px;
+  padding: 14px 28px 14px 20px;
   background: rgba(255,255,255,.92);
   border-bottom: 1px solid var(--line);
   backdrop-filter: blur(8px);
@@ -39,7 +39,10 @@ button, input, textarea, select { font: inherit; }
   margin: 0; font-size: 18px; line-height: 1.2; color: var(--navy); font-weight: 800;
 }
 .brand p { margin: 0; font-size: 12px; color: var(--muted); }
-.header-controls { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.header-controls {
+  display: flex; flex-wrap: wrap; gap: 10px; align-items: center;
+  margin-left: auto;
+}
 .header-controls label {
   display: flex; align-items: center; gap: 8px;
   font-size: 13px; font-weight: 700; color: var(--navy);
@@ -47,6 +50,14 @@ button, input, textarea, select { font: inherit; }
 .header-controls select {
   min-width: 140px; padding: 8px 10px;
   border: 1.5px solid var(--line); border-radius: 999px; background: #fff;
+}
+.btn-release {
+  margin-left: 4px;
+  padding: 8px 14px 8px 12px;
+}
+.btn-icon {
+  flex: 0 0 auto;
+  display: block;
 }
 .pill {
   display: inline-flex; align-items: center; gap: 6px;
@@ -180,6 +191,11 @@ button, input, textarea, select { font: inherit; }
 .btn.is-busy { opacity: 1; cursor: wait; }
 .btn-approve { background: var(--navy); color: #fff; }
 .btn-edit { background: #EEF3FB; color: var(--navy); }
+.btn-ghost {
+  background: #fff; color: var(--navy);
+  border: 1.5px solid #C5D0E6;
+}
+.btn-ghost:hover { background: #EEF3FB; border-color: var(--navy); }
 .btn-save { background: var(--teal); color: #091324; }
 .btn-cancel { background: #F1F2F4; color: var(--ink); }
 .btn-unlock { background: #fff; color: var(--danger); border: 1.5px solid #E7B4B2; }
