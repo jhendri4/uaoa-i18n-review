@@ -349,7 +349,7 @@ class Handler(SimpleHTTPRequestHandler):
             locale = (body.get('locale') or '').strip().lower()
             name = (body.get('name') or '').strip()
             session_id = (body.get('sessionId') or '').strip()
-            minutes = int(body.get('minutes') or 30)
+            minutes = int(body.get('minutes') or 15)
             if locale not in LOCALES:
                 raise ValueError('unsupported locale')
             if len(name) < 2 or not session_id:
@@ -377,7 +377,7 @@ class Handler(SimpleHTTPRequestHandler):
             locale = (body.get('locale') or '').strip().lower()
             name = (body.get('name') or '').strip()
             session_id = (body.get('sessionId') or '').strip()
-            minutes = int(body.get('minutes') or 30)
+            minutes = int(body.get('minutes') or 15)
             current = load_lock(locale)
             if current and current.get('sessionId') == session_id:
                 current = {

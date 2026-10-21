@@ -498,7 +498,7 @@
         locale: state.locale,
         name: state.name,
         sessionId: state.sessionId,
-        minutes: CFG.leaseMinutes || 30,
+        minutes: CFG.leaseMinutes || 15,
       },
     }).then(function (data) {
       state.lock = data.lock || null;
@@ -533,7 +533,7 @@
         locale: state.locale,
         name: state.name,
         sessionId: state.sessionId,
-        minutes: CFG.leaseMinutes || 30,
+        minutes: CFG.leaseMinutes || 15,
       },
     }).then(function (data) {
       if (data.lock) state.lock = data.lock;

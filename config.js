@@ -8,6 +8,6 @@ window.UAOA_I18N_REVIEW = Object.assign({
     { code: 'sv', label: 'Swedish' },
     { code: 'fr', label: 'French' },
   ],
-  leaseMinutes: 30,
+  leaseMinutes: 15,
   pageSizeHint: 50,
 }, window.UAOA_I18N_REVIEW || {});
