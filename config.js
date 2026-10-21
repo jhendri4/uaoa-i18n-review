@@ -1,5 +1,6 @@
+// Live API via Cloudflare quick tunnel → local review server.
 window.UAOA_I18N_REVIEW = Object.assign({
-  apiBase: 'https://5f10fdd78c2a8e.lhr.life',
+  apiBase: 'https://remedies-satisfied-scholar-bali.trycloudflare.com',
   locales: [
     { code: 'es', label: 'Spanish' },
     { code: 'cs', label: 'Czech' },
