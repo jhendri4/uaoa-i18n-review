@@ -1,5 +1,6 @@
+// Live API via localhost.run (ephemeral — updates when tunnel restarts).
 window.UAOA_I18N_REVIEW = Object.assign({
-  apiBase: 'https://9fa203b7cb0f8d.lhr.life',
+  apiBase: 'https://65b9a98cdae833.lhr.life',
   locales: [
     { code: 'es', label: 'Spanish' },
     { code: 'cs', label: 'Czech' },
