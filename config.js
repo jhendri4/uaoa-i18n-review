@@ -1,5 +1,6 @@
+// Live trial API via localhost.run (ephemeral). Hard-refresh if Start reviewing 404s.
 window.UAOA_I18N_REVIEW = Object.assign({
-  apiBase: 'https://5f24f66ea1aa7e.lhr.life',
+  apiBase: 'https://7afd935b073e6b.lhr.life',
   locales: [
     { code: 'es', label: 'Spanish' },
     { code: 'cs', label: 'Czech' },
