@@ -7,7 +7,7 @@
   "common": {
     "checkUnderstandingHeading": {
       "text": "Vérifiez votre compréhension",
-      "note": "Learning-section pill before knowledge-check widgets (Off-black #0F1524 / Sky blue #21B7CB)"
+      "note": "Learning-section pill before knowledge-check widgets (slate #323F53 / lavender border #C5CCDF / cyan dot #21B7CB / white label)"
     },
     "learningActivityHeading": {
       "text": "Activité d'apprentissage",
@@ -294,6 +294,9 @@
         },
         "done": {
           "text": "Tous les groupes ont exploré"
+        },
+        "instruction": {
+          "text": "Sélectionnez une carte pour découvrir comment ces plateformes peuvent diffuser les abus en ligne."
         }
       },
       "groups": {
@@ -303,7 +306,7 @@
             "note": "Primary front-of-card label"
           },
           "platforms": {
-            "text": "[TikTok, Instagram, Facebook]",
+            "text": "TikTok, Instagram, Facebook",
             "note": "Shown under title in bold brackets"
           },
           "body": {
@@ -315,7 +318,7 @@
             "text": "Partage de vidéos et diffusion en direct"
           },
           "platforms": {
-            "text": "[YouTube, Twitch, Kick]"
+            "text": "YouTube, Twitch, Kick"
           },
           "body": {
             "text": "Les commentaires haineux sur les vidéos peuvent rester visibles longtemps après leur publication, permettant ainsi aux abus de se perpétuer. Lors des diffusions en direct, les messages injurieux peuvent apparaître et se multiplier rapidement en fonction des réactions des spectateurs en temps réel."
@@ -326,7 +329,7 @@
             "text": "Conversations publiques"
           },
           "platforms": {
-            "text": "[X, Fils]"
+            "text": "X, Fils"
           },
           "body": {
             "text": "Les réponses, les partages et les mentions peuvent diffuser des messages injurieux dans les conversations publiques. Lorsque de nombreux utilisateurs y participent, un simple commentaire malveillant peut donner lieu à des attaques répétées ou coordonnées contre une personne."
@@ -337,7 +340,7 @@
             "text": "Communautés de discussion"
           },
           "platforms": {
-            "text": "[Reddit, Groupes Facebook]"
+            "text": "Reddit, Groupes Facebook"
           },
           "body": {
             "text": "Les commentaires haineux peuvent se propager au sein des communautés en ligne lorsque les membres y répondent, les partagent ou encouragent des comportements similaires. Les discussions de groupe peuvent renforcer les attitudes négatives et entraîner des abus répétés visant la même personne."
@@ -348,7 +351,7 @@
             "text": "Messagerie et discussions de groupe"
           },
           "platforms": {
-            "text": "[Discord, WhatsApp]"
+            "text": "Discord, WhatsApp"
           },
           "body": {
             "text": "Les messages injurieux peuvent être transférés ou partagés entre individus et groupes, propageant ainsi des contenus nuisibles lors de conversations privées. Le manque de visibilité en dehors de ces espaces peut rendre difficile l'identification et la lutte contre les abus en cours."
@@ -1084,6 +1087,10 @@
       "section5": {
         "text": "Le tableau d'ensemble",
         "note": "Section heading"
+      },
+      "barometerCallout": {
+        "text": "<p>To learn more about the impact and harms of online abuse, we invite you to explore the findings of UAOA’s landmark study captured in the <a href=\"https://unitedagainstonlineabuse.com/uaoa-barometer-2025/\" target=\"_blank\" rel=\"noopener\">UAOA Barometer 2025</a> - which measures online abuse in sport, with participation from leading NGOs and International Federations.</p>",
+        "note": "Module 2 image_with_text callout (Barometer brochure); link title only"
       }
     }
   },
@@ -1793,6 +1800,39 @@
         },
         "overview": {
           "text": "Aperçu"
+        },
+        "actionLevelOf": {
+          "text": "Action level {n} of 3"
+        },
+        "clickToReveal": {
+          "text": "Click to reveal"
+        },
+        "exploredOf": {
+          "text": "{n} of 3 layers explored"
+        },
+        "exploredReview": {
+          "text": "Explored · Review"
+        },
+        "hideWhy": {
+          "text": "Hide explanation"
+        },
+        "howItConnects": {
+          "text": "How it connects"
+        },
+        "layerOf": {
+          "text": "Layer {n} of 3"
+        },
+        "nextPrefix": {
+          "text": "Next:"
+        },
+        "orpShort": {
+          "text": "ORP"
+        },
+        "startExploring": {
+          "text": "Start exploring"
+        },
+        "whyMatter": {
+          "text": "Why does this matter?"
         }
       },
       "tracks": {
@@ -1820,6 +1860,12 @@
           "intro": {
             "text": "<p><strong>L'action commence par les individus.</strong></p><p>Dans le monde du sport, chacun peut contribuer, qu'il subisse ou non des abus en ligne, qu'il en soit témoin, ou qu'il soutienne une personne ciblée.</p><p>Découvrez comment vous pouvez :</p><ul><li>Vous protéger</li><li>Soutenir les autres</li><li>Agir en toute sécurité</li></ul>",
             "note": "HTML allowed"
+          },
+          "headline": {
+            "text": "Action starts with people."
+          },
+          "prompt": {
+            "text": "Explore ways in which you can:"
           }
         },
         "t2": {
@@ -1846,6 +1892,63 @@
           "intro": {
             "text": "<p>Les organisations peuvent fournir le cadre, les ressources et le soutien coordonné nécessaires pour protéger les personnes et lutter efficacement contre les abus en ligne. Il s'agit notamment des organisations et fédérations sportives, des clubs et associations, des médias, des plateformes en ligne, des groupes de défense des droits et autres institutions du monde sportif.</p><p>Découvrez comment les organisations peuvent se préparer, prévenir et réagir aux abus en ligne.</p>",
             "note": "HTML allowed"
+          },
+          "headline": {
+            "text": "Organisations build the structure for protection."
+          },
+          "orpBody": {
+            "text": "UAOA’s ORP helps sporting organisations assess their preparedness, identify areas for improvement, and strengthen their approaches to preventing and responding to online abuse."
+          },
+          "orpTitle": {
+            "text": "Organisational Readiness Platform (ORP)"
+          },
+          "prompt": {
+            "text": "Explore how organisations can prepare for, prevent, and respond to online abuse:"
+          },
+          "who": {
+            "advocacy": {
+              "body": {
+                "text": "Contribute specialised support and education."
+              },
+              "title": {
+                "text": "Advocacy groups"
+              }
+            },
+            "clubs": {
+              "body": {
+                "text": "Provide frontline support."
+              },
+              "title": {
+                "text": "Clubs"
+              }
+            },
+            "federations": {
+              "body": {
+                "text": "Set shared standards."
+              },
+              "title": {
+                "text": "Federations"
+              }
+            },
+            "media": {
+              "body": {
+                "text": "Manage published content."
+              },
+              "title": {
+                "text": "Media organisations"
+              }
+            },
+            "platforms": {
+              "body": {
+                "text": "Enable reporting and moderation."
+              },
+              "title": {
+                "text": "Platforms"
+              }
+            }
+          },
+          "whoLabel": {
+            "text": "Who does what"
           }
         },
         "t3": {
@@ -1872,6 +1975,12 @@
           "intro": {
             "text": "<p>Les abus en ligne sont souvent influencés par des facteurs qui échappent au contrôle direct des individus et des organisations. Le contexte personnel, les technologies utilisées, l'accès à l'éducation et les normes culturelles environnantes peuvent tous avoir une incidence sur la manière dont les comportements nuisibles sont encouragés, normalisés, contestés ou prévenus.</p><p>Découvrez comment le contexte social peut influencer les abus en ligne et contribuer à créer des espaces numériques plus sûrs dans le sport.</p>",
             "note": "HTML allowed"
+          },
+          "headline": {
+            "text": "Culture shapes what happens online."
+          },
+          "prompt": {
+            "text": "Learn how wider social contexts can influence online abuse and help create safer digital spaces in sport:"
           }
         }
       }
@@ -2174,6 +2283,32 @@
       "goToFinalQuiz": {
         "text": "Accédez au quiz final",
         "note": "Nav button label"
+      }
+    },
+    "widerSystem": {
+      "connectBody": {
+        "text": "Through <a href=\"https://unitedagainstonlineabuse.com/about-us/\" target=\"_blank\" rel=\"noopener\">Stronger Together, UAOA</a> brings people and organisations across sport together to strengthen how they prepare for, prevent, and respond to online abuse, turning shared knowledge and coordinated action into practical support for the sporting community.",
+        "note": "HTML allowed"
+      },
+      "connectLead": {
+        "text": "UAOA helps connect these levels of action."
+      },
+      "heading": {
+        "text": "You are part of a wider system"
+      },
+      "rows": {
+        "individual": {
+          "text": "<strong>Individual</strong> actions can reduce harm and support others.",
+          "note": "HTML allowed"
+        },
+        "organisations": {
+          "text": "<strong>Organisations</strong> provide the structures that turn those actions into collective responses.",
+          "note": "HTML allowed"
+        },
+        "society": {
+          "text": "Across <strong>society</strong>, connected efforts in education, policy, technology, research, and community standards can help create safer digital spaces in sport.",
+          "note": "HTML allowed"
+        }
       }
     }
   },

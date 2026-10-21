@@ -6,8 +6,8 @@
   },
   "common": {
     "checkUnderstandingHeading": {
-      "text": "Check your understanding",
-      "note": "Learning-section pill before knowledge-check widgets (Off-black #0F1524 / Sky blue #21B7CB)"
+      "text": "Check Your Understanding",
+      "note": "Learning-section pill before knowledge-check widgets (slate #323F53 / lavender border #C5CCDF / cyan dot #21B7CB / white label)"
     },
     "learningActivityHeading": {
       "text": "Learning Activity",
@@ -257,10 +257,12 @@
     },
     "formsOverlap": {
       "line1": {
-        "text": "More than one form of abuse can be"
+        "text": "More than one form of abuse",
+        "note": "Callout line 1 (widget-forms-overlap-callout); forced break before line2"
       },
       "line2": {
-        "text": "present at the same time."
+        "text": "can be present at the time.",
+        "note": "Callout line 2 — design copy uses “at the time” (not “same time”)"
       }
     },
     "protected": {
@@ -289,6 +291,10 @@
     },
     "platforms": {
       "ui": {
+        "instruction": {
+          "text": "Select a card to learn how these platforms can spread online abuse.",
+          "note": "Top instruction above the flip-card grid"
+        },
         "progress": {
           "text": "{n} of {total} explored"
         },
@@ -303,8 +309,8 @@
             "note": "Primary front-of-card label"
           },
           "platforms": {
-            "text": "[TikTok, Instagram, Facebook]",
-            "note": "Shown under title in bold brackets"
+            "text": "TikTok, Instagram, Facebook",
+            "note": "Comma-separated names rendered as border pills under the title"
           },
           "body": {
             "text": "Recommendation feeds and sharing features can expose harmful content to people beyond the original audience. As more users view, comment on, or share the content, online abuse can spread quickly and reach larger audiences."
@@ -315,7 +321,7 @@
             "text": "Video Sharing & Livestreaming"
           },
           "platforms": {
-            "text": "[YouTube, Twitch, Kick]"
+            "text": "YouTube, Twitch, Kick"
           },
           "body": {
             "text": "Harmful comments on videos can remain visible long after they are posted, allowing abuse to continue over time. During livestreams, abusive messages can appear and multiply rapidly as viewers react in real time."
@@ -326,7 +332,7 @@
             "text": "Public Conversations"
           },
           "platforms": {
-            "text": "[X, Threads]"
+            "text": "X, Threads"
           },
           "body": {
             "text": "Replies, reposts, and mentions can spread abusive messages across public conversations. When many users join in, a single harmful comment can develop into repeated or coordinated attacks against an individual."
@@ -337,7 +343,7 @@
             "text": "Discussion Communities"
           },
           "platforms": {
-            "text": "[Reddit, Facebook Groups]"
+            "text": "Reddit, Facebook Groups"
           },
           "body": {
             "text": "Harmful comments can spread within online communities as members respond, share, or encourage similar behaviour. Group discussions may reinforce negative attitudes and lead to repeated abuse targeting the same person."
@@ -348,7 +354,7 @@
             "text": "Messaging & Group Chats"
           },
           "platforms": {
-            "text": "[Discord, WhatsApp]"
+            "text": "Discord, WhatsApp"
           },
           "body": {
             "text": "Abusive messages can be forwarded or shared between individuals and groups, spreading harmful content through private conversations. Limited visibility outside these spaces can make it difficult to identify and address ongoing abuse."
@@ -831,7 +837,7 @@
         },
         "bad": {
           "text": "<strong>Not quite. Try again.</strong>",
-          "note": "HTML allowed — shown when first submit is missing some impacts"
+          "note": "HTML allowed — shown when submit has fewer than 4 impacts selected"
         }
       },
       "labels": {
@@ -1084,6 +1090,10 @@
       "section5": {
         "text": "The wider picture",
         "note": "Section heading"
+      },
+      "barometerCallout": {
+        "text": "<p>To learn more about the impact and harms of online abuse, we invite you to explore the findings of UAOA’s landmark study captured in the <a href=\"https://unitedagainstonlineabuse.com/uaoa-barometer-2025/\" target=\"_blank\" rel=\"noopener\">UAOA Barometer 2025</a> - which measures online abuse in sport, with participation from leading NGOs and International Federations.</p>",
+        "note": "Module 2 image_with_text callout (Barometer brochure); link title only"
       }
     }
   },
@@ -1777,7 +1787,7 @@
     "layers": {
       "ui": {
         "prompt": {
-          "text": "Explore the three layers of action."
+          "text": "Safer sport depends on action at every level. Select a layer to explore what each one can do."
         },
         "tracksAria": {
           "text": "Action layers"
@@ -1789,10 +1799,43 @@
           "text": "All three layers explored"
         },
         "openLayer": {
-          "text": "Open layer"
+          "text": "Explore"
         },
         "overview": {
           "text": "Overview"
+        },
+        "exploredOf": {
+          "text": "{n} of 3 layers explored"
+        },
+        "exploredReview": {
+          "text": "Explored · Review"
+        },
+        "startExploring": {
+          "text": "Start exploring"
+        },
+        "whyMatter": {
+          "text": "Why does this matter?"
+        },
+        "hideWhy": {
+          "text": "Hide explanation"
+        },
+        "orpShort": {
+          "text": "ORP"
+        },
+        "clickToReveal": {
+          "text": "Click to reveal"
+        },
+        "nextPrefix": {
+          "text": "Next:"
+        },
+        "howItConnects": {
+          "text": "How it connects"
+        },
+        "actionLevelOf": {
+          "text": "Action level {n} of 3"
+        },
+        "layerOf": {
+          "text": "Layer {n} of 3"
         }
       },
       "tracks": {
@@ -1805,6 +1848,12 @@
           },
           "eyebrow": {
             "text": "Layer 1 · Individuals"
+          },
+          "headline": {
+            "text": "Action starts with people."
+          },
+          "prompt": {
+            "text": "Explore ways in which you can:"
           },
           "labels": {
             "l1": {
@@ -1832,6 +1881,12 @@
           "eyebrow": {
             "text": "Layer 2 · Organisations"
           },
+          "headline": {
+            "text": "Organisations build the structure for protection."
+          },
+          "prompt": {
+            "text": "Explore how organisations can prepare for, prevent, and respond to online abuse:"
+          },
           "labels": {
             "l1": {
               "text": "Build frameworks"
@@ -1846,6 +1901,57 @@
           "intro": {
             "text": "<p>Organisations can provide the framework, resources, and coordinated support needed to protect people and respond effectively to online abuse. These include sporting organisations and federations, clubs and associations, media organisations, online platforms, advocacy groups, and other institutions across the sporting community.</p><p>Explore how organisations can prepare for, prevent and respond to online abuse.</p>",
             "note": "HTML allowed"
+          },
+          "whoLabel": {
+            "text": "Who does what"
+          },
+          "who": {
+            "clubs": {
+              "title": {
+                "text": "Clubs"
+              },
+              "body": {
+                "text": "Provide frontline support."
+              }
+            },
+            "federations": {
+              "title": {
+                "text": "Federations"
+              },
+              "body": {
+                "text": "Set shared standards."
+              }
+            },
+            "platforms": {
+              "title": {
+                "text": "Platforms"
+              },
+              "body": {
+                "text": "Enable reporting and moderation."
+              }
+            },
+            "media": {
+              "title": {
+                "text": "Media organisations"
+              },
+              "body": {
+                "text": "Manage published content."
+              }
+            },
+            "advocacy": {
+              "title": {
+                "text": "Advocacy groups"
+              },
+              "body": {
+                "text": "Contribute specialised support and education."
+              }
+            }
+          },
+          "orpTitle": {
+            "text": "Organisational Readiness Platform (ORP)"
+          },
+          "orpBody": {
+            "text": "UAOA’s ORP helps sporting organisations assess their preparedness, identify areas for improvement, and strengthen their approaches to preventing and responding to online abuse."
           }
         },
         "t3": {
@@ -1857,6 +1963,12 @@
           },
           "eyebrow": {
             "text": "Layer 3 · Society"
+          },
+          "headline": {
+            "text": "Culture shapes what happens online."
+          },
+          "prompt": {
+            "text": "Learn how wider social contexts can influence online abuse and help create safer digital spaces in sport:"
           },
           "labels": {
             "l1": {
@@ -2125,6 +2237,32 @@
             "note": "HTML allowed"
           }
         }
+      }
+    },
+    "widerSystem": {
+      "heading": {
+        "text": "You are part of a wider system"
+      },
+      "rows": {
+        "individual": {
+          "text": "<strong>Individual</strong> actions can reduce harm and support others.",
+          "note": "HTML allowed"
+        },
+        "organisations": {
+          "text": "<strong>Organisations</strong> provide the structures that turn those actions into collective responses.",
+          "note": "HTML allowed"
+        },
+        "society": {
+          "text": "Across <strong>society</strong>, connected efforts in education, policy, technology, research, and community standards can help create safer digital spaces in sport.",
+          "note": "HTML allowed"
+        }
+      },
+      "connectLead": {
+        "text": "UAOA helps connect these levels of action."
+      },
+      "connectBody": {
+        "text": "Through <a href=\"https://unitedagainstonlineabuse.com/about-us/\" target=\"_blank\" rel=\"noopener\">Stronger Together, UAOA</a> brings people and organisations across sport together to strengthen how they prepare for, prevent, and respond to online abuse, turning shared knowledge and coordinated action into practical support for the sporting community.",
+        "note": "HTML allowed"
       }
     },
     "takeaways": {

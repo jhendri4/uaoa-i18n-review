@@ -7,7 +7,7 @@
   "common": {
     "checkUnderstandingHeading": {
       "text": "Preverite svoje razumevanje",
-      "note": "Learning-section pill before knowledge-check widgets (Off-black #0F1524 / Sky blue #21B7CB)"
+      "note": "Learning-section pill before knowledge-check widgets (slate #323F53 / lavender border #C5CCDF / cyan dot #21B7CB / white label)"
     },
     "learningActivityHeading": {
       "text": "Učna dejavnost",
@@ -294,6 +294,9 @@
         },
         "done": {
           "text": "Vse raziskane skupine"
+        },
+        "instruction": {
+          "text": "Izberite kartico in izveste, kako lahko te platforme širijo spletne zlorabe."
         }
       },
       "groups": {
@@ -303,7 +306,7 @@
             "note": "Primary front-of-card label"
           },
           "platforms": {
-            "text": "[TikTok, Instagram, Facebook]",
+            "text": "TikTok, Instagram, Facebook",
             "note": "Shown under title in bold brackets"
           },
           "body": {
@@ -315,7 +318,7 @@
             "text": "Deljenje videoposnetkov in pretakanje v živo"
           },
           "platforms": {
-            "text": "[YouTube, Twitch, Brcni]"
+            "text": "YouTube, Twitch, Brcni"
           },
           "body": {
             "text": "Škodljivi komentarji na videoposnetkih lahko ostanejo vidni še dolgo po objavi, kar omogoča nadaljnje zlorabe. Med prenosi v živo se lahko pojavijo in hitro množijo žaljiva sporočila, saj se gledalci odzivajo v realnem času."
@@ -326,7 +329,7 @@
             "text": "Javni pogovori"
           },
           "platforms": {
-            "text": "[X, Niti]"
+            "text": "X, Niti"
           },
           "body": {
             "text": "Odgovori, ponovne objave in omembe lahko širijo žaljiva sporočila v javnih pogovorih. Ko se pridruži veliko uporabnikov, se lahko en sam škodljiv komentar razvije v ponavljajoče se ali usklajene napade na posameznika."
@@ -337,7 +340,7 @@
             "text": "Diskusijske skupnosti"
           },
           "platforms": {
-            "text": "[Reddit, Facebook skupine]"
+            "text": "Reddit, Facebook skupine"
           },
           "body": {
             "text": "Škodljivi komentarji se lahko širijo znotraj spletnih skupnosti, ko se člani odzivajo, delijo ali spodbujajo podobno vedenje. Skupinske razprave lahko okrepijo negativna stališča in vodijo do ponavljajočih se zlorab, usmerjenih proti isti osebi."
@@ -348,7 +351,7 @@
             "text": "Sporočila in skupinski klepeti"
           },
           "platforms": {
-            "text": "[Discord, WhatsApp]"
+            "text": "Discord, WhatsApp"
           },
           "body": {
             "text": "Žaljiva sporočila se lahko posredujejo ali delijo med posamezniki in skupinami, s čimer se škodljiva vsebina širi prek zasebnih pogovorov. Omejena vidljivost zunaj teh prostorov lahko oteži prepoznavanje in obravnavanje nenehnih zlorab."
@@ -1084,6 +1087,10 @@
       "section5": {
         "text": "Širša slika",
         "note": "Section heading"
+      },
+      "barometerCallout": {
+        "text": "<p>To learn more about the impact and harms of online abuse, we invite you to explore the findings of UAOA’s landmark study captured in the <a href=\"https://unitedagainstonlineabuse.com/uaoa-barometer-2025/\" target=\"_blank\" rel=\"noopener\">UAOA Barometer 2025</a> - which measures online abuse in sport, with participation from leading NGOs and International Federations.</p>",
+        "note": "Module 2 image_with_text callout (Barometer brochure); link title only"
       }
     }
   },
@@ -1793,6 +1800,39 @@
         },
         "overview": {
           "text": "Pregled"
+        },
+        "actionLevelOf": {
+          "text": "Action level {n} of 3"
+        },
+        "clickToReveal": {
+          "text": "Click to reveal"
+        },
+        "exploredOf": {
+          "text": "{n} of 3 layers explored"
+        },
+        "exploredReview": {
+          "text": "Explored · Review"
+        },
+        "hideWhy": {
+          "text": "Hide explanation"
+        },
+        "howItConnects": {
+          "text": "How it connects"
+        },
+        "layerOf": {
+          "text": "Layer {n} of 3"
+        },
+        "nextPrefix": {
+          "text": "Next:"
+        },
+        "orpShort": {
+          "text": "ORP"
+        },
+        "startExploring": {
+          "text": "Start exploring"
+        },
+        "whyMatter": {
+          "text": "Why does this matter?"
         }
       },
       "tracks": {
@@ -1820,6 +1860,12 @@
           "intro": {
             "text": "<p><strong>Ukrepanje se začne z ljudmi.</strong></p><p>Vsakdo v športu lahko prispeva, ne glede na to, ali je žrtev spletne zlorabe, je njen priča ali podpira nekoga, ki je bil žrtev.</p><p>Raziščite načine, kako lahko:</p><ul><li>Zaščitite se</li><li>Podprite druge</li><li>Vedno ravnate</li></ul>",
             "note": "HTML allowed"
+          },
+          "headline": {
+            "text": "Action starts with people."
+          },
+          "prompt": {
+            "text": "Explore ways in which you can:"
           }
         },
         "t2": {
@@ -1846,6 +1892,63 @@
           "intro": {
             "text": "<p>Organizacije lahko zagotovijo okvir, vire in usklajeno podporo, potrebno za zaščito ljudi in učinkovito odzivanje na spletne zlorabe. Sem spadajo športne organizacije in zveze, klubi in združenja, medijske organizacije, spletne platforme, zagovorniške skupine in druge institucije v športni skupnosti.</p><p>Raziščite, kako se lahko organizacije pripravijo na spletne zlorabe, jih preprečijo in se odzovejo nanje.</p>",
             "note": "HTML allowed"
+          },
+          "headline": {
+            "text": "Organisations build the structure for protection."
+          },
+          "orpBody": {
+            "text": "UAOA’s ORP helps sporting organisations assess their preparedness, identify areas for improvement, and strengthen their approaches to preventing and responding to online abuse."
+          },
+          "orpTitle": {
+            "text": "Organisational Readiness Platform (ORP)"
+          },
+          "prompt": {
+            "text": "Explore how organisations can prepare for, prevent, and respond to online abuse:"
+          },
+          "who": {
+            "advocacy": {
+              "body": {
+                "text": "Contribute specialised support and education."
+              },
+              "title": {
+                "text": "Advocacy groups"
+              }
+            },
+            "clubs": {
+              "body": {
+                "text": "Provide frontline support."
+              },
+              "title": {
+                "text": "Clubs"
+              }
+            },
+            "federations": {
+              "body": {
+                "text": "Set shared standards."
+              },
+              "title": {
+                "text": "Federations"
+              }
+            },
+            "media": {
+              "body": {
+                "text": "Manage published content."
+              },
+              "title": {
+                "text": "Media organisations"
+              }
+            },
+            "platforms": {
+              "body": {
+                "text": "Enable reporting and moderation."
+              },
+              "title": {
+                "text": "Platforms"
+              }
+            }
+          },
+          "whoLabel": {
+            "text": "Who does what"
           }
         },
         "t3": {
@@ -1872,6 +1975,12 @@
           "intro": {
             "text": "<p>Spletno zlorabo pogosto oblikujejo dejavniki, ki so zunaj neposrednega nadzora posameznikov in organizacij. Osebni konteksti ljudi, tehnologije, ki jih uporabljajo, njihov dostop do izobraževanja in splošne kulturne norme okoli njih lahko vplivajo na to, ali se škodljivo vedenje spodbuja, normalizira, izpodbija ali preprečuje.</p><p>Spoznajte, kako lahko širši družbeni konteksti vplivajo na spletno zlorabo in pomagajo ustvariti varnejše digitalne prostore v športu.</p>",
             "note": "HTML allowed"
+          },
+          "headline": {
+            "text": "Culture shapes what happens online."
+          },
+          "prompt": {
+            "text": "Learn how wider social contexts can influence online abuse and help create safer digital spaces in sport:"
           }
         }
       }
@@ -2174,6 +2283,32 @@
       "goToFinalQuiz": {
         "text": "Pojdi na zadnji kviz",
         "note": "Nav button label"
+      }
+    },
+    "widerSystem": {
+      "connectBody": {
+        "text": "Through <a href=\"https://unitedagainstonlineabuse.com/about-us/\" target=\"_blank\" rel=\"noopener\">Stronger Together, UAOA</a> brings people and organisations across sport together to strengthen how they prepare for, prevent, and respond to online abuse, turning shared knowledge and coordinated action into practical support for the sporting community.",
+        "note": "HTML allowed"
+      },
+      "connectLead": {
+        "text": "UAOA helps connect these levels of action."
+      },
+      "heading": {
+        "text": "You are part of a wider system"
+      },
+      "rows": {
+        "individual": {
+          "text": "<strong>Individual</strong> actions can reduce harm and support others.",
+          "note": "HTML allowed"
+        },
+        "organisations": {
+          "text": "<strong>Organisations</strong> provide the structures that turn those actions into collective responses.",
+          "note": "HTML allowed"
+        },
+        "society": {
+          "text": "Across <strong>society</strong>, connected efforts in education, policy, technology, research, and community standards can help create safer digital spaces in sport.",
+          "note": "HTML allowed"
+        }
       }
     }
   },
