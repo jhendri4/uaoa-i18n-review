@@ -570,6 +570,18 @@
       renderRows();
     });
 
+    function startReview() {
+      api('/api/health').then(function () {
+        return loadLocale(localeFromUrl());
+      }).catch(function (e) {
+        el.banner.hidden = false;
+        el.banner.className = 'banner';
+        el.banner.textContent = 'API unavailable (' + (e.message || 'network') +
+          '). Run python3 api/server.py locally, or host the API (Render) and set config.js apiBase.';
+        toast('API unavailable');
+      });
+    }
+
     el.nameStart.addEventListener('click', function () {
       var name = (el.nameInput.value || '').trim();
       if (name.length < 2) {
@@ -579,9 +591,7 @@
       state.name = name;
       sessionStorage.setItem('uaoa.reviewer', name);
       el.nameModal.hidden = true;
-      loadLocale(localeFromUrl()).catch(function (e) {
-        toast(e.message || 'Failed to start');
-      });
+      startReview();
     });
 
     el.nameInput.addEventListener('keydown', function (e) {
@@ -604,16 +614,13 @@
 
     setInterval(heartbeat, 120000);
 
+    el.localeSelect.value = localeFromUrl();
     if (!state.name) {
       el.nameModal.hidden = false;
       el.nameInput.focus();
-      el.localeSelect.value = localeFromUrl();
     } else {
       el.nameModal.hidden = true;
-      loadLocale(localeFromUrl()).catch(function (e) {
-        toast(e.message || 'Failed to load');
-        el.nameModal.hidden = false;
-      });
+      startReview();
     }
   }
 

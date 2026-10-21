@@ -1,28 +1,27 @@
 #!/usr/bin/env python3
-"""Copy catalogs from sibling uaoa-elearning repo when available."""
+"""Copy latest locale catalogs from source/i18n into tools/i18n-review/data."""
 from __future__ import annotations
+
 import shutil
 from pathlib import Path
 
-HERE = Path(__file__).resolve().parents[1]
-DST = HERE / 'data'
+ROOT = Path(__file__).resolve().parents[3]  # uaoa-elearning
+SRC = ROOT / 'source' / 'i18n'
+DST = Path(__file__).resolve().parents[1] / 'data'
 LOCALES = ('en', 'es', 'cs', 'sl', 'sv', 'fr')
-CANDIDATES = [
-    HERE.parent / 'uaoa-elearning' / 'source' / 'i18n',
-    Path('/Users/jhendri4/Documents/GitHub/uaoa-elearning/source/i18n'),
-]
+
 
 def main() -> None:
-    src_dir = next((p for p in CANDIDATES if p.is_dir()), None)
-    if not src_dir:
-        raise SystemExit('Could not find uaoa-elearning/source/i18n')
     DST.mkdir(parents=True, exist_ok=True)
     for loc in LOCALES:
-        src = src_dir / f'{loc}.json'
-        if src.is_file():
-            shutil.copy2(src, DST / f'{loc}.json')
-            print('copied', src.name)
+        src = SRC / f'{loc}.json'
+        if not src.is_file():
+            print('skip missing', src)
+            continue
+        shutil.copy2(src, DST / f'{loc}.json')
+        print('copied', src.name)
     print('done →', DST)
+
 
 if __name__ == '__main__':
     main()
