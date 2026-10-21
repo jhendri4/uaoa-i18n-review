@@ -165,13 +165,28 @@ button, input, textarea, select { font: inherit; }
 .btn {
   border: 0; border-radius: 999px; padding: 9px 12px; cursor: pointer;
   font-weight: 700; font-size: 13px;
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
 }
-.btn:disabled { opacity: .45; cursor: not-allowed; }
+.btn:disabled { opacity: .7; cursor: wait; }
+.btn.is-busy { opacity: 1; cursor: wait; }
 .btn-approve { background: var(--navy); color: #fff; }
 .btn-edit { background: #EEF3FB; color: var(--navy); }
 .btn-save { background: var(--teal); color: #091324; }
 .btn-cancel { background: #F1F2F4; color: var(--ink); }
 .btn-unlock { background: #fff; color: var(--danger); border: 1.5px solid #E7B4B2; }
+
+.btn-spinner {
+  width: 12px; height: 12px; flex: 0 0 12px;
+  border: 2px solid currentColor; border-right-color: transparent;
+  border-radius: 50%;
+  animation: btn-spin .7s linear infinite;
+}
+@keyframes btn-spin { to { transform: rotate(360deg); } }
+
+.row.is-pending { background: #F8FBFD; }
+.tr-box.editable.is-busy {
+  opacity: .75; cursor: wait; background: #F7F8FA;
+}
 
 .modal-backdrop {
   position: fixed; inset: 0; background: rgba(9,19,36,.45);
@@ -198,6 +213,8 @@ button, input, textarea, select { font: inherit; }
   opacity: 0; transform: translateY(8px); transition: .2s; pointer-events: none;
 }
 .toast.show { opacity: 1; transform: none; }
+.toast.ok { background: var(--ok); }
+.toast.error { background: var(--danger); }
 .empty {
   padding: 28px; text-align: center; color: var(--muted);
   border: 1px dashed var(--line); border-radius: var(--radius); background: #fff;

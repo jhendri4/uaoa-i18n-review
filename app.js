@@ -28,6 +28,8 @@
     lock: null,
     canEdit: false,
     editingKey: null,
+    pendingKey: null,
+    pendingAction: null, // 'save' | 'approve' | 'unapprove'
     filter: '',
     rowsCache: [],
   };
@@ -52,11 +54,28 @@
     return 's-' + Math.random().toString(36).slice(2) + Date.now().toString(36);
   }
 
-  function toast(msg) {
+  function toast(msg, kind) {
     el.toast.textContent = msg;
-    el.toast.classList.add('show');
+    el.toast.className = 'toast show' + (kind === 'error' ? ' error' : kind === 'ok' ? ' ok' : '');
     clearTimeout(toast._t);
-    toast._t = setTimeout(function () { el.toast.classList.remove('show'); }, 2400);
+    toast._t = setTimeout(function () {
+      el.toast.classList.remove('show');
+    }, 2400);
+  }
+
+  function setPending(key, action) {
+    state.pendingKey = key || null;
+    state.pendingAction = action || null;
+  }
+
+  function clearPending() {
+    state.pendingKey = null;
+    state.pendingAction = null;
+  }
+
+  function btnLabel(text, busy) {
+    if (!busy) return text;
+    return '<span class="btn-spinner" aria-hidden="true"></span><span>' + text + '</span>';
   }
 
   function isLocalTunnel(base) {
@@ -315,10 +334,14 @@
   function renderRow(r) {
     var approved = !!(state.approvals[r.key] && state.approvals[r.key].approved);
     var editing = state.editingKey === r.key;
+    var pending = state.pendingKey === r.key;
+    var pendingSave = pending && state.pendingAction === 'save';
+    var pendingApprove = pending && state.pendingAction === 'approve';
+    var pendingUnlock = pending && state.pendingAction === 'unapprove';
     var trText = leafText(getByPath(state.tr, r.key));
 
     var row = document.createElement('article');
-    row.className = 'row';
+    row.className = 'row' + (pending ? ' is-pending' : '');
     row.dataset.key = r.key;
 
     var keyEl = document.createElement('div');
@@ -346,9 +369,10 @@
     var trBox;
     if (editing) {
       trBox = document.createElement('textarea');
-      trBox.className = 'tr-box editable';
+      trBox.className = 'tr-box editable' + (pendingSave ? ' is-busy' : '');
       trBox.value = trText;
       trBox.id = 'edit-' + r.key;
+      if (pendingSave) trBox.disabled = true;
     } else {
       trBox = document.createElement('div');
       trBox.className = 'tr-box' + (approved ? ' locked' : '');
@@ -368,14 +392,21 @@
     } else if (editing) {
       var save = document.createElement('button');
       save.type = 'button';
-      save.className = 'btn btn-save';
-      save.textContent = 'Save';
-      save.addEventListener('click', function () { saveEdit(r.key, trBox.value); });
+      save.className = 'btn btn-save' + (pendingSave ? ' is-busy' : '');
+      save.innerHTML = btnLabel(pendingSave ? 'Saving…' : 'Save', pendingSave);
+      save.disabled = pendingSave;
+      save.setAttribute('aria-busy', pendingSave ? 'true' : 'false');
+      save.addEventListener('click', function () {
+        if (state.pendingKey) return;
+        saveEdit(r.key, trBox.value);
+      });
       var cancel = document.createElement('button');
       cancel.type = 'button';
       cancel.className = 'btn btn-cancel';
       cancel.textContent = 'Cancel';
+      cancel.disabled = pendingSave;
       cancel.addEventListener('click', function () {
+        if (state.pendingKey) return;
         state.editingKey = null;
         renderRows();
       });
@@ -387,22 +418,34 @@
       locked.textContent = 'Locked';
       var unlock = document.createElement('button');
       unlock.type = 'button';
-      unlock.className = 'btn btn-unlock';
-      unlock.textContent = 'Unlock';
-      unlock.addEventListener('click', function () { unapprove(r.key); });
+      unlock.className = 'btn btn-unlock' + (pendingUnlock ? ' is-busy' : '');
+      unlock.innerHTML = btnLabel(pendingUnlock ? 'Unlocking…' : 'Unlock', pendingUnlock);
+      unlock.disabled = pendingUnlock;
+      unlock.setAttribute('aria-busy', pendingUnlock ? 'true' : 'false');
+      unlock.addEventListener('click', function () {
+        if (state.pendingKey) return;
+        unapprove(r.key);
+      });
       actions.appendChild(locked);
       actions.appendChild(unlock);
     } else {
       var approve = document.createElement('button');
       approve.type = 'button';
-      approve.className = 'btn btn-approve';
-      approve.textContent = 'Approve';
-      approve.addEventListener('click', function () { approveKey(r.key); });
+      approve.className = 'btn btn-approve' + (pendingApprove ? ' is-busy' : '');
+      approve.innerHTML = btnLabel(pendingApprove ? 'Approving…' : 'Approve', pendingApprove);
+      approve.disabled = pendingApprove;
+      approve.setAttribute('aria-busy', pendingApprove ? 'true' : 'false');
+      approve.addEventListener('click', function () {
+        if (state.pendingKey) return;
+        approveKey(r.key);
+      });
       var edit = document.createElement('button');
       edit.type = 'button';
       edit.className = 'btn btn-edit';
       edit.textContent = 'Edit';
+      edit.disabled = pendingApprove;
       edit.addEventListener('click', function () {
+        if (state.pendingKey) return;
         state.editingKey = r.key;
         renderRows();
         var ta = document.getElementById('edit-' + r.key);
@@ -438,6 +481,9 @@
   }
 
   function approveKey(key) {
+    if (state.pendingKey) return;
+    setPending(key, 'approve');
+    renderRows();
     api('/api/approve', {
       method: 'POST',
       body: {
@@ -449,13 +495,21 @@
     }).then(function (data) {
       state.approvals = data.approvals || state.approvals;
       state.approvals[key] = data.entry || { approved: true, by: state.name };
-      toast('Approved');
+      clearPending();
+      toast('Approved', 'ok');
       renderModules(state.rowsCache);
       renderRows();
-    }).catch(function (e) { toast(e.message || 'Approve failed'); });
+    }).catch(function (e) {
+      clearPending();
+      toast(e.message || 'Approve failed', 'error');
+      renderRows();
+    });
   }
 
   function unapprove(key) {
+    if (state.pendingKey) return;
+    setPending(key, 'unapprove');
+    renderRows();
     api('/api/unapprove', {
       method: 'POST',
       body: {
@@ -466,13 +520,23 @@
       },
     }).then(function (data) {
       state.approvals = data.approvals || {};
-      toast('Unlocked');
+      clearPending();
+      toast('Unlocked', 'ok');
       renderModules(state.rowsCache);
       renderRows();
-    }).catch(function (e) { toast(e.message || 'Unlock failed'); });
+    }).catch(function (e) {
+      clearPending();
+      toast(e.message || 'Unlock failed', 'error');
+      renderRows();
+    });
   }
 
   function saveEdit(key, text) {
+    if (state.pendingKey) return;
+    // Keep editingKey so the row stays in edit mode until the request finishes.
+    setByPathLocal(state.tr, key, text);
+    setPending(key, 'save');
+    renderRows();
     api('/api/translation', {
       method: 'PUT',
       body: {
@@ -485,10 +549,15 @@
     }).then(function (data) {
       if (data.catalog) state.tr = data.catalog;
       else setByPathLocal(state.tr, key, text);
+      clearPending();
       state.editingKey = null;
-      toast('Saved');
+      toast('Saved', 'ok');
       renderRows();
-    }).catch(function (e) { toast(e.message || 'Save failed'); });
+    }).catch(function (e) {
+      clearPending();
+      toast(e.message || 'Save failed', 'error');
+      renderRows();
+    });
   }
 
   function claimLocale() {
