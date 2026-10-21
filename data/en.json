@@ -1,0 +1,3666 @@
+{
+  "_meta": {
+    "locale": "en",
+    "version": 1,
+    "description": "UAOA elearning — learner-facing string catalog (source language). Keys use module.widget.path naming. Values are plain strings or {text, note} for translator context. HTML is allowed where noted."
+  },
+  "common": {
+    "checkUnderstandingHeading": {
+      "text": "Check your understanding",
+      "note": "Learning-section pill before knowledge-check widgets (Off-black #0F1524 / Sky blue #21B7CB)"
+    },
+    "learningActivityHeading": {
+      "text": "Learning Activity",
+      "note": "Learning-section pill before interactives (same shell as checkUnderstandingHeading)"
+    },
+    "next": {
+      "text": "Next",
+      "note": "Primary forward button on series / quiz widgets"
+    },
+    "completed": {
+      "text": "Completed",
+      "note": "Replaces Next after the last step on some widgets"
+    },
+    "tryAgain": {
+      "text": "Try again",
+      "note": "Retry full activity"
+    },
+    "activityComplete": {
+      "text": "Activity complete",
+      "note": "Short done banner"
+    },
+    "activityCompleteRevisit": {
+      "text": "Activity complete. You can revisit the questions anytime.",
+      "note": "Done banner with revisit hint (knowledge-check style)"
+    },
+    "answerChoicesAria": {
+      "text": "Answer choices",
+      "note": "aria-label on radiogroup / options"
+    },
+    "notQuiteReview": {
+      "text": "<strong>Not quite. Review the options and try again.</strong>",
+      "note": "Shared incorrect feedback; HTML allowed"
+    },
+    "previous": {
+      "text": "Previous",
+      "note": "Back / previous step button"
+    },
+    "submitAnswers": {
+      "text": "Submit Answers",
+      "note": "Primary submit on multi-select / sorting"
+    },
+    "submitted": {
+      "text": "Submitted",
+      "note": "Disabled submit label after success"
+    },
+    "continue": {
+      "text": "Continue",
+      "note": "End-of-activity or scroll continue"
+    },
+    "correct": {
+      "text": "<strong>Correct!</strong>",
+      "note": "Short correct prefix; HTML allowed"
+    },
+    "notQuite": {
+      "text": "<strong>Not quite. Review the options and try again.</strong>",
+      "note": "Shared incorrect; HTML allowed"
+    },
+    "selectAllThatApply": {
+      "text": "Select all that apply, then submit."
+    },
+    "nSelected": {
+      "text": "{n} selected",
+      "note": "Count label; {n} = number"
+    },
+    "nOfTotalSelected": {
+      "text": "{n} of {total} selected",
+      "note": "Count label; {n}/{total}"
+    },
+    "nOfTotalExplored": {
+      "text": "{n} of {total} explored",
+      "note": "Flip progress"
+    },
+    "allExplored": {
+      "text": "All platforms explored",
+      "note": "Flip done — platforms; override per widget if needed"
+    },
+    "allStepsReviewed": {
+      "text": "All steps reviewed."
+    },
+    "questionsCorrect": {
+      "text": "questions correct",
+      "note": "Score footer under X/Y"
+    },
+    "chooseEllipsis": {
+      "text": "choose…",
+      "note": "Blank dropdown placeholder"
+    },
+    "true": {
+      "text": "True"
+    },
+    "false": {
+      "text": "False"
+    },
+    "keyTakeaways": {
+      "text": "Key Takeaways",
+      "note": "Native takeaways heading"
+    },
+    "wrongPlain": {
+      "text": "Not quite. Review the options and try again.",
+      "note": "uaoa_common.WRONG — plain, no HTML"
+    }
+  },
+  "m1": {
+    "apply": {
+      "ui": {
+        "choicesAria": {
+          "text": "Choose the behaviour",
+          "note": "aria-label on the three behaviour choice buttons"
+        }
+      },
+      "labels": {
+        "offensiveSpeech": {
+          "text": "Offensive speech",
+          "note": "Choice button; answer index 0"
+        },
+        "digitalHostility": {
+          "text": "Digital hostility",
+          "note": "Choice button; answer index 1"
+        },
+        "hateSpeech": {
+          "text": "Hate speech",
+          "note": "Choice button; answer index 2"
+        }
+      },
+      "scenarios": {
+        "s1": {
+          "text": {
+            "text": "After missing a decisive penalty, a player receives hundreds of hostile messages across multiple social media platforms over several days.",
+            "note": "Scenario prompt; answer = digital hostility"
+          },
+          "ok": {
+            "text": "<strong>Correct!</strong> The repeated and sustained pattern of hostile interactions across digital platforms is a form of <strong>digital hostility</strong>.",
+            "note": "HTML allowed"
+          },
+          "bad": {
+            "text": "<strong>Not quite.</strong> Look at the pattern of interactions and how they develop over time. <strong>Try again.</strong>",
+            "note": "HTML allowed"
+          }
+        },
+        "s2": {
+          "text": {
+            "text": "An athlete receives a derogatory comment that specifically attacks their religion.",
+            "note": "Scenario prompt; answer = hate speech"
+          },
+          "ok": {
+            "text": "<strong>Correct!</strong> The comment targets the athlete based on their religion, a protected characteristic, making this an example of <strong>hate speech</strong>.",
+            "note": "HTML allowed"
+          },
+          "bad": {
+            "text": "<strong>Not quite.</strong> Look at the pattern of interactions and how they develop over time. <strong>Try again.</strong>",
+            "note": "HTML allowed"
+          }
+        },
+        "s3": {
+          "text": {
+            "text": "After a controversial decision, a referee receives a comment using humiliating and degrading language from a section of fans who were not happy about it.",
+            "note": "Scenario prompt; answer = offensive speech"
+          },
+          "ok": {
+            "text": "<strong>Correct!</strong> The comment uses insulting and degrading language directed at the referee, making this an example of <strong>offensive speech</strong>.",
+            "note": "HTML allowed"
+          },
+          "bad": {
+            "text": "<strong>Not quite.</strong> Focus on the language being used and what makes it harmful. <strong>Try again.</strong>",
+            "note": "HTML allowed"
+          }
+        },
+        "s4": {
+          "text": {
+            "text": "After an important match, a female athlete receives insulting comments from a fan criticizing her performance.",
+            "note": "Scenario prompt; answer = offensive speech"
+          },
+          "ok": {
+            "text": "<strong>Correct!</strong> The comments use insulting and degrading language focused on the athlete’s performance, making this an example of <strong>offensive speech</strong>. Women may experience a greater volume of online abuse because of their gender, even when individual messages do not explicitly target gender as a protected characteristic.",
+            "note": "HTML allowed"
+          },
+          "bad": {
+            "text": "<strong>Not quite.</strong> Consider what the comments are targeting. <strong>Try again.</strong>",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "forms": {
+      "ui": {
+        "progress": {
+          "text": "{n} of {total} explored",
+          "note": "Flip progress counter"
+        },
+        "done": {
+          "text": "All forms explored"
+        }
+      },
+      "cards": {
+        "c1": {
+          "name": {
+            "text": "Offensive Speech",
+            "note": "Flip card 1 title"
+          },
+          "body": {
+            "text": "Language targeting someone's identity, appearance, or performance with the intention of humiliating, insulting, or degrading them."
+          },
+          "front1": {
+            "text": "OFFENSIVE",
+            "note": "Front-of-card stacked label line"
+          },
+          "front2": {
+            "text": "SPEECH",
+            "note": "Front-of-card stacked label line"
+          }
+        },
+        "c2": {
+          "name": {
+            "text": "Digital Hostility",
+            "note": "Flip card 2 title"
+          },
+          "body": {
+            "text": "Harmful behaviour directed at a person or group through repeated or coordinated negative online interactions, such as mass reporting or collective harassment."
+          },
+          "front1": {
+            "text": "DIGITAL",
+            "note": "Front-of-card stacked label line"
+          },
+          "front2": {
+            "text": "HOSTILITY",
+            "note": "Front-of-card stacked label line"
+          }
+        },
+        "c3": {
+          "name": {
+            "text": "Hate Speech",
+            "note": "Flip card 3 title"
+          },
+          "body": {
+            "text": "Hostile or malicious language targeting someone because of a protected characteristic, including race, religion, gender, sexual orientation, or disability."
+          },
+          "front1": {
+            "text": "HATE",
+            "note": "Front-of-card stacked label line"
+          },
+          "front2": {
+            "text": "SPEECH",
+            "note": "Front-of-card stacked label line"
+          }
+        }
+      }
+    },
+    "formsOverlap": {
+      "line1": {
+        "text": "More than one form of abuse can be"
+      },
+      "line2": {
+        "text": "present at the same time."
+      }
+    },
+    "protected": {
+      "race": {
+        "text": "Race"
+      },
+      "ethnicity": {
+        "text": "Ethnicity"
+      },
+      "nationality": {
+        "text": "Nationality"
+      },
+      "gender": {
+        "text": "Gender"
+      },
+      "sexualOrientation": {
+        "text": "Sexual Orientation",
+        "note": "May wrap to two lines on the tile"
+      },
+      "disability": {
+        "text": "Disability"
+      },
+      "religion": {
+        "text": "Religion"
+      }
+    },
+    "platforms": {
+      "ui": {
+        "progress": {
+          "text": "{n} of {total} explored"
+        },
+        "done": {
+          "text": "All groups explored"
+        }
+      },
+      "groups": {
+        "g1": {
+          "title": {
+            "text": "Discovery & Social Feeds",
+            "note": "Primary front-of-card label"
+          },
+          "platforms": {
+            "text": "[TikTok, Instagram, Facebook]",
+            "note": "Shown under title in bold brackets"
+          },
+          "body": {
+            "text": "Recommendation feeds and sharing features can expose harmful content to people beyond the original audience. As more users view, comment on, or share the content, online abuse can spread quickly and reach larger audiences."
+          }
+        },
+        "g2": {
+          "title": {
+            "text": "Video Sharing & Livestreaming"
+          },
+          "platforms": {
+            "text": "[YouTube, Twitch, Kick]"
+          },
+          "body": {
+            "text": "Harmful comments on videos can remain visible long after they are posted, allowing abuse to continue over time. During livestreams, abusive messages can appear and multiply rapidly as viewers react in real time."
+          }
+        },
+        "g3": {
+          "title": {
+            "text": "Public Conversations"
+          },
+          "platforms": {
+            "text": "[X, Threads]"
+          },
+          "body": {
+            "text": "Replies, reposts, and mentions can spread abusive messages across public conversations. When many users join in, a single harmful comment can develop into repeated or coordinated attacks against an individual."
+          }
+        },
+        "g4": {
+          "title": {
+            "text": "Discussion Communities"
+          },
+          "platforms": {
+            "text": "[Reddit, Facebook Groups]"
+          },
+          "body": {
+            "text": "Harmful comments can spread within online communities as members respond, share, or encourage similar behaviour. Group discussions may reinforce negative attitudes and lead to repeated abuse targeting the same person."
+          }
+        },
+        "g5": {
+          "title": {
+            "text": "Messaging & Group Chats"
+          },
+          "platforms": {
+            "text": "[Discord, WhatsApp]"
+          },
+          "body": {
+            "text": "Abusive messages can be forwarded or shared between individuals and groups, spreading harmful content through private conversations. Limited visibility outside these spaces can make it difficult to identify and address ongoing abuse."
+          }
+        }
+      }
+    },
+    "factors": {
+      "ui": {
+        "prompt": {
+          "text": "Select the three factors that can directly influence how harmful content travels and reaches new audiences online."
+        },
+        "hint": {
+          "text": "Select exactly three options."
+        },
+        "hintReady": {
+          "text": "Three selected — ready to submit."
+        },
+        "hintDone": {
+          "text": "All three correct factors selected."
+        },
+        "choicesAria": {
+          "text": "Select exactly three factors"
+        },
+        "count": {
+          "text": "{n} of {total} selected"
+        },
+        "ok": {
+          "text": "<strong>Correct!</strong> Platform features, recommendation systems, and user interactions can all influence how content is distributed, amplified, and exposed to new audiences.",
+          "note": "HTML allowed"
+        },
+        "bad": {
+          "text": "<strong>Not quite. Review the options and try again.</strong>",
+          "note": "HTML allowed"
+        }
+      },
+      "labels": {
+        "a": {
+          "text": "Platform design and features",
+          "note": "Correct"
+        },
+        "b": {
+          "text": "The age of the person targeted"
+        },
+        "c": {
+          "text": "Recommendation and distribution systems",
+          "note": "Correct"
+        },
+        "d": {
+          "text": "The sporting role of the person targeted"
+        },
+        "e": {
+          "text": "User interactions such as commenting, sharing, and reposting",
+          "note": "Correct"
+        },
+        "f": {
+          "text": "Whether the original content is considered offensive"
+        }
+      }
+    },
+    "check": {
+      "ui": {
+        "instructionComplete": {
+          "text": "Complete the sentence."
+        },
+        "instructionBlanks": {
+          "text": "Choose a word for each blank. Each word is used once."
+        },
+        "instructionMulti": {
+          "text": "Select all that apply."
+        },
+        "instructionPair": {
+          "text": "Choose the pair of words that completes the sentence."
+        },
+        "blankAria": {
+          "text": "Blank {n}",
+          "note": "aria-label; {n} = 1-based index"
+        },
+        "questionsCorrect": {
+          "text": "questions correct"
+        },
+        "scorePerfect": {
+          "text": "Perfect — you got every question right.",
+          "note": "Score message; may vary — check widget"
+        },
+        "scorePartial": {
+          "text": "Nice work — review any missed items below.",
+          "note": "Fallback score message"
+        },
+        "scoreLow": {
+          "text": "Keep going — try again to strengthen your understanding."
+        }
+      },
+      "questions": {
+        "q1": {
+          "label": {
+            "text": "1. Complete the sentence: What defines online abuse?"
+          },
+          "prompt": {
+            "text": "Online abuse involves harmful behaviour directed at a person or group through __________."
+          },
+          "choices": {
+            "a": {
+              "text": "competitive environments"
+            },
+            "b": {
+              "text": "digital platforms",
+              "note": "Correct"
+            },
+            "c": {
+              "text": "public spaces"
+            },
+            "d": {
+              "text": "sporting events"
+            }
+          }
+        },
+        "q2": {
+          "label": {
+            "text": "2. Complete the statement: What helps you understand the context that defines online abuse"
+          },
+          "sentenceBefore": {
+            "text": "When identifying online abuse, consider the"
+          },
+          "sentenceMid1": {
+            "text": "being used, whether the behaviour has a clear"
+          },
+          "sentenceMid2": {
+            "text": "and the"
+          },
+          "sentenceAfter": {
+            "text": "of repeated interactions."
+          },
+          "choices": {
+            "language": {
+              "text": "language",
+              "note": "Correct blank 1"
+            },
+            "target": {
+              "text": "target",
+              "note": "Correct blank 2 — clear target"
+            },
+            "pattern": {
+              "text": "pattern",
+              "note": "Correct blank 3 — pattern of repeated interactions"
+            }
+          }
+        },
+        "q3": {
+          "label": {
+            "text": "3. Which is a protected characteristic?"
+          },
+          "choices": {
+            "religion": {
+              "text": "Religion",
+              "note": "Correct"
+            },
+            "performance": {
+              "text": "Athletic performance"
+            },
+            "disability": {
+              "text": "Disability",
+              "note": "Correct"
+            },
+            "position": {
+              "text": "Team position"
+            },
+            "ethnicity": {
+              "text": "Ethnicity",
+              "note": "Correct"
+            }
+          }
+        },
+        "q4": {
+          "label": {
+            "text": "4. Fill in the blanks: How can online abuse develop?"
+          },
+          "prompt": {
+            "text": "Different forms of online abuse can __________, and a single harmful interaction can __________ as others comment, share, repost, or amplify it."
+          },
+          "choices": {
+            "a": {
+              "text": "overlap · escalate",
+              "note": "Correct"
+            },
+            "b": {
+              "text": "remain separate · disappear"
+            },
+            "c": {
+              "text": "alternate · become private"
+            },
+            "d": {
+              "text": "interact · become harmless"
+            }
+          }
+        }
+      }
+    },
+    "matteo": {
+      "ui": {
+        "navAria": {
+          "text": "Card navigation"
+        },
+        "prevAria": {
+          "text": "Previous card"
+        },
+        "nextAria": {
+          "text": "Next card"
+        }
+      },
+      "cards": {
+        "c1": {
+          "title": {
+            "text": "1 - Pressure"
+          },
+          "alt": {
+            "text": "Matteo preparing under pressure",
+            "note": "Image alt text"
+          },
+          "html": {
+            "text": "<p><strong>Matteo is a high-performing college volleyball athlete with ambitions of joining the national team.</strong></p><p>Between demanding coursework and intensive training, he has been under considerable pressure and struggling to stay focused.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "c2": {
+          "title": {
+            "text": "2 - The Match"
+          },
+          "alt": {
+            "text": "Matteo during the match",
+            "note": "Image alt text"
+          },
+          "html": {
+            "text": "<p>During an important match, Matteo serves into the net on match point, costing his team the match. The crowd reacts strongly, and some spectators begin shouting harsh criticism about his performance from the stands. The reaction continues as Matteo leaves the court.</p><p><strong>Is this online abuse? No.</strong></p><p>The criticism may be aggressive and harmful, but this is still happening <strong>offline</strong>. However, reactions that begin at a sporting event / on the ground, can quickly move into digital spaces, where they may reach a much wider audience.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "c3": {
+          "title": {
+            "text": "3 - It moves online"
+          },
+          "alt": {
+            "text": "Criticism moving onto social media",
+            "note": "Image alt text"
+          },
+          "html": {
+            "text": "<p>After the match, the criticism moves online. A fan posts a video of Matteo’s missing serve, tags Matteo’s social media account, and adds insulting and humiliating comments intended to ridicule him.</p><p><strong>The situation has become online abuse.</strong></p><p>The fan is using insulting and humiliating content directed at Matteo through a digital platform. This is <strong>offensive speech.</strong></p>",
+            "note": "HTML allowed"
+          }
+        },
+        "c4": {
+          "title": {
+            "text": "4 - The situation escalates"
+          },
+          "alt": {
+            "text": "Hostile comments spreading online",
+            "note": "Image alt text"
+          },
+          "html": {
+            "text": "<p>By the next day, many users had joined in. Hostile comments are appearing across Matteo’s social media accounts, and the video of his missed serve is being repeatedly shared alongside insulting posts.</p><p><strong>The situation has escalated to digital hostility.</strong></p><p>What began with one user has developed into a <strong>repeated and collective pattern of hostile online interactions.</strong></p>",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "takeaways": {
+      "heading": {
+        "text": "Key Takeaways"
+      },
+      "items": {
+        "i1": {
+          "text": "<strong>Online abuse takes different forms.</strong> Offensive speech, hate speech, and digital hostility help us recognise different ways harmful behaviour can appear and develop online.",
+          "note": "HTML allowed"
+        },
+        "i2": {
+          "text": "<strong>Context matters.</strong> Consider the language being used, who or what is being targeted, and the pattern of interactions when identifying online abuse.",
+          "note": "HTML allowed"
+        },
+        "i3": {
+          "text": "<strong>Different forms of abuse can overlap.</strong> A single interaction may involve more than one behaviour, and its characteristics can change as the situation develops.",
+          "note": "HTML allowed"
+        },
+        "i4": {
+          "text": "<strong>Online abuse can escalate.</strong> A single harmful post can develop into repeated or collective hostility as others comment, share, repost, or amplify the content.",
+          "note": "HTML allowed"
+        },
+        "i5": {
+          "text": "<strong>Some people face disproportionate risk.</strong> Identity, visibility, role, and other contextual factors can affect who is targeted and the nature or intensity of the abuse they experience.",
+          "note": "HTML allowed"
+        },
+        "i6": {
+          "text": "<strong>Recognition is the first step towards action.</strong> Understanding what online abuse looks like helps people identify harmful situations and respond more effectively.",
+          "note": "HTML allowed"
+        }
+      }
+    },
+    "slide": {
+      "title": {
+        "text": "Module 1: Recognising Online Abuse",
+        "note": "Module / summary slide title"
+      }
+    }
+  },
+  "m2": {
+    "check": {
+      "questions": {
+        "q1": {
+          "prompt": {
+            "text": "Who can be affected by online abuse in sport?",
+            "note": "MCQ stem"
+          },
+          "choices": {
+            "c0": {
+              "text": "Only primarily professional athletes and match officials."
+            },
+            "c1": {
+              "text": "Anyone with a public social media account."
+            },
+            "c2": {
+              "text": "Athletes, officials, journalists, organisations and their representatives, families, fans, and others across sporting communities.",
+              "note": "Correct answer"
+            },
+            "c3": {
+              "text": "Primarily people whose work involves communicating directly with fans."
+            }
+          },
+          "ok": {
+            "text": "<strong>Correct!</strong> Online abuse can affect people across the sporting ecosystem, including those directly targeted and others who witness or experience its wider consequences.",
+            "note": "HTML allowed"
+          }
+        },
+        "q2": {
+          "prompt": {
+            "text": "Which statement best describes the potential impact of online abuse in sport?"
+          },
+          "choices": {
+            "c0": {
+              "text": "Its effects are mainly limited to how people feel or react immediately after receiving abusive content."
+            },
+            "c1": {
+              "text": "It can have long-term effects on wellbeing, professional activity, relationships, participation, and the wider sporting community.",
+              "note": "Correct answer"
+            },
+            "c2": {
+              "text": "It is something that concerns only the elite athletes because they have the greatest public visibility."
+            },
+            "c3": {
+              "text": "Its impact depends mainly on how frequently someone uses social media."
+            }
+          },
+          "ok": {
+            "text": "<strong>Correct!</strong> Online abuse can have effects across multiple areas of a person’s life and work. While in sport, it might affect athletes the most, irrespective of their levels, but the consequences can also extend to families, colleagues, teams, fans, and sporting communities.",
+            "note": "HTML allowed"
+          }
+        },
+        "q3": {
+          "prompt": {
+            "text": "An athlete who has experienced repeated online abuse begins sleeping poorly, struggles to concentrate during training, and posts less frequently online. What does this example illustrate?"
+          },
+          "choices": {
+            "c0": {
+              "text": "Different impacts of online abuse can overlap and influence several areas of a person’s life.",
+              "note": "Correct answer"
+            },
+            "c1": {
+              "text": "Reduced social media activity is usually the primary effect of online abuse."
+            },
+            "c2": {
+              "text": "Performance effects occur after a coach recommends using less social media."
+            },
+            "c3": {
+              "text": "The effects of online abuse depend mainly on how frequently a person uses social media."
+            }
+          },
+          "ok": {
+            "text": "<strong>Correct!</strong> Effects can be interconnected. Emotional distress, sleep, confidence, safety, performance, and participation can influence one another and may develop over time.",
+            "note": "HTML allowed"
+          }
+        },
+        "q4": {
+          "prompt": {
+            "text": "What does the evidence presented in this module suggest about how people respond to online abuse?"
+          },
+          "choices": {
+            "c0": {
+              "text": "People generally experience similar effects when exposed to similar content."
+            },
+            "c1": {
+              "text": "Strong resilience prevents online abuse from affecting wellbeing."
+            },
+            "c2": {
+              "text": "Effects can vary between people, and personal and contextual factors can shape how someone responds.",
+              "note": "Correct answer"
+            },
+            "c3": {
+              "text": "People who continue participating in sport are unlikely to have been significantly affected."
+            }
+          },
+          "ok": {
+            "text": "<strong>Correct!</strong> The impact of online abuse varies. Research discussed in the module indicates that factors such as resilience and self-esteem can be associated with how people respond, but continuing to participate does not mean that someone has been unaffected.",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "affected": {
+      "ui": {
+        "progress": {
+          "text": "{n} of {total} explored"
+        }
+      },
+      "cards": {
+        "c1": {
+          "name": {
+            "text": "Athletes"
+          },
+          "body": {
+            "text": "High public visibility can make athletes frequent targets of online abuse. Hateful reactions may arise from sporting outcomes, public perceptions, or interpretations of an athlete’s performance, actions, or personal decisions. These reactions can escalate quickly, allowing harmful content to spread across digital platforms."
+          }
+        },
+        "c2": {
+          "name": {
+            "text": "Match officials"
+          },
+          "body": {
+            "text": "Officials can face online abuse following decisions made during competition, adding to the verbal and physical abuse they may already experience in person. Repeated criticism, threats, and hostility can contribute to stress and affect their confidence, perceived authority, and wellbeing."
+          }
+        },
+        "c3": {
+          "name": {
+            "text": "Journalists"
+          },
+          "body": {
+            "text": "Journalists play an important role in connecting athletes, teams, and sporting organisations with wider audiences. Journalists may become targets of online hostility in response to their reporting, commentary or perceived position on an issue."
+          }
+        },
+        "c4": {
+          "name": {
+            "text": "Sponsors and representatives"
+          },
+          "body": {
+            "text": "Sporting organisations and the people who fund, manage, and represent them can also become targets of online abuse. Hostile content may be directed at an organisation itself, its decisions, policies or actions, or at individual staff and representatives. This can affect organisational reputation, professional activity, decision-making, and the wellbeing of those involved."
+          }
+        },
+        "c5": {
+          "name": {
+            "text": "Families"
+          },
+          "body": {
+            "text": "The effects of online abuse can extend to the families and loved ones of those targeted. They may witness the abuse and its impact, become indirect targets through their association with the person experiencing abuse, or receive harmful messages directed at them personally. These experiences can also increase concern and fear for the safety and wellbeing of someone close to them."
+          }
+        },
+        "c6": {
+          "name": {
+            "text": "Fans"
+          },
+          "body": {
+            "text": "Fans are the largest group in sport and are often overlooked. They can be affected by the abuse they encounter within sporting communities, even when they are not a direct target. Identity-based abuse aimed at an athlete, official, or other public figure can also affect fans who share that identity, contributing to an environment in which they may feel unwelcome or unsafe."
+          }
+        }
+      }
+    },
+    "exploreImpacts": {
+      "ui": {
+        "eyebrow": {
+          "text": "Explore"
+        },
+        "prompt": {
+          "text": "After receiving repeated abusive messages online, an athlete begins posting on social media less frequently. Their coach notices they seem distracted during training, and they have recently mentioned sleeping poorly and feeling anxious about attending public events."
+        },
+        "hint": {
+          "text": "Select at least 4 that apply, then submit."
+        },
+        "count": {
+          "text": "{n} selected"
+        },
+        "ok": {
+          "text": "<strong>These impacts can be interconnected.</strong> Online abuse may affect several areas of a person’s life at the same time, and the effects may develop or intensify over time. Recognising these signs can help people across sport respond with greater awareness and support.",
+          "note": "HTML allowed"
+        },
+        "bad": {
+          "text": "<strong>Not quite. Try again.</strong>",
+          "note": "HTML allowed — shown when first submit is missing some impacts"
+        }
+      },
+      "labels": {
+        "c0": {
+          "text": "Emotional distress"
+        },
+        "c1": {
+          "text": "Sleep disruption"
+        },
+        "c2": {
+          "text": "Reduced confidence"
+        },
+        "c3": {
+          "text": "Sense of safety"
+        },
+        "c4": {
+          "text": "Focus and performance"
+        },
+        "c5": {
+          "text": "Stepping away"
+        }
+      }
+    },
+    "impacts": {
+      "ui": {
+        "pathwayAria": {
+          "text": "Impact pathway"
+        },
+        "navAria": {
+          "text": "Carousel navigation"
+        },
+        "prevAria": {
+          "text": "Previous impact"
+        },
+        "nextAria": {
+          "text": "Next impact"
+        },
+        "researchHeading": {
+          "text": "What the research shows"
+        },
+        "done": {
+          "text": "Activity complete — you’ve reviewed all six impacts"
+        }
+      },
+      "cards": {
+        "c1": {
+          "title": {
+            "text": "Emotional distress"
+          },
+          "short": {
+            "text": "Distress",
+            "note": "Pathway short label"
+          },
+          "alt": {
+            "text": "Temporary illustration · emotional distress",
+            "note": "Image alt"
+          },
+          "body": {
+            "text": "<p>Receiving online abuse can trigger feelings of fear, sadness, anger, and frustration. For athletes, these experiences may also raise concerns about their reputation, career opportunities, relationships with family and friends, and team performance. When abuse occurs publicly, its visibility and potential spread can further intensify psychological distress.</p>",
+            "note": "HTML allowed"
+          },
+          "research": {
+            "text": "In a survey of 85 NCAA Division I athletes, greater exposure to online harassment was associated with <strong>higher levels of depressive symptoms</strong>. The researchers describe hostile online content as a meaningful source of psychological stress for college athletes.",
+            "note": "HTML allowed"
+          },
+          "source": {
+            "text": "Hughes, M. C., Demaray, M. K., Skiba, E. A., & Warriner, S. E. (2026). Online harassment and mental health among collegiate student-athletes: Findings from an NCAA Division I conference survey. Journal of Issues in Intercollegiate Athletics.",
+            "note": "Citation; keep author names"
+          }
+        },
+        "c2": {
+          "title": {
+            "text": "Sleep"
+          },
+          "short": {
+            "text": "Sleep",
+            "note": "Pathway short label"
+          },
+          "alt": {
+            "text": "Temporary illustration · sleep",
+            "note": "Image alt"
+          },
+          "body": {
+            "text": "<p>Online abuse can disrupt sleep and recovery. Harmful online experiences can continue beyond the initial interaction, affecting an athlete’s ability to rest and recover.</p>",
+            "note": "HTML allowed"
+          },
+          "research": {
+            "text": "In a study of 912 young athletes aged 12–24, 10.4% reported experiencing online abuse. Among those affected, 44.3% reported moderate to severe effects on their sleep quality.",
+            "note": "HTML allowed"
+          },
+          "source": {
+            "text": "Tooth, C., Kaux, J.-F., Tscholl, P., Touré, A., Muller, F., & Seil, K. (2026). The influence of social media on young athletes' mental health: A cross-sectional study. Frontiers in Psychology.",
+            "note": "Citation; keep author names"
+          }
+        },
+        "c3": {
+          "title": {
+            "text": "Confidence and self-esteem"
+          },
+          "short": {
+            "text": "Confidence",
+            "note": "Pathway short label"
+          },
+          "alt": {
+            "text": "Temporary illustration · confidence",
+            "note": "Image alt"
+          },
+          "body": {
+            "text": "<p>Online abuse often targets a person's abilities, body, or identity. Repeated criticism, including comments shared publicly to humiliate or hurt someone, can affect the targeted person's confidence and make them doubt their skills, decisions, and place in sport.</p>",
+            "note": "HTML allowed"
+          },
+          "research": {
+            "text": "Research suggests that internal factors can shape how people respond to online hate. In a study of <strong>60 public figures, including Olympic athletes, and 1,128 internet users</strong>, higher <strong>resilience and self-esteem were associated with lower levels of concern about the online hate they received</strong>. This suggests that people can experience the same type of hostility differently, depending in part on their psychological resources.",
+            "note": "HTML allowed"
+          },
+          "source": {
+            "text": "Jędryczka, W., Sorokowski, P., & Dobrowolska, M. (2022). The role of victim's resilience and self-esteem in experiencing internet hate. International Journal of Environmental Research and Public Health.",
+            "note": "Citation; keep author names"
+          }
+        },
+        "c4": {
+          "title": {
+            "text": "Sense of safety"
+          },
+          "short": {
+            "text": "Safety",
+            "note": "Pathway short label"
+          },
+          "alt": {
+            "text": "Temporary illustration · sense of safety",
+            "note": "Image alt"
+          },
+          "body": {
+            "text": "<p>Threats and hostility online can extend concerns about safety <strong>beyond digital spaces</strong>. People targeted may worry about their own safety <strong>at home, during competition, and in public spaces.</strong> When threats also involve those close to them, these concerns can extend to <strong>family members and loved ones.</strong></p>",
+            "note": "HTML allowed"
+          },
+          "research": {
+            "text": "In the 2025 UAOA Barometer, <strong>nearly three in four sporting federations surveyed</strong> reported that threats to harm sportspeople or their dependents remain a reality for those using social media platforms. The finding was also reported in the previous edition of the Barometer, indicating an ongoing concern across sport.",
+            "note": "HTML allowed"
+          },
+          "source": {
+            "text": "United Against Online Abuse. (2025). Online Abuse in Sport Barometer 2025.",
+            "note": "Citation; keep author names"
+          }
+        },
+        "c5": {
+          "title": {
+            "text": "Focus and performance"
+          },
+          "short": {
+            "text": "Focus",
+            "note": "Pathway short label"
+          },
+          "alt": {
+            "text": "Temporary illustration · focus and performance",
+            "note": "Image alt"
+          },
+          "body": {
+            "text": "<p>The detrimental effects of psychological stress on focus and performance are well documented. Because online abuse can cause mental distress, it can thus negatively affect the focus and performance of sportpeople, making it harder to concentrate, make decisions under pressure, and perform consistently.</p>",
+            "note": "HTML allowed"
+          },
+          "research": {
+            "text": "In a study of <strong>274 Canadian basketball referees</strong>, higher wellbeing was significantly associated with <strong>better self-rated officiating performance</strong>, even after accounting for experience. Previous research cited by the authors also found that <strong>90% of football referees believed common mental health symptoms could negatively affect their refereeing performance.</strong>",
+            "note": "HTML allowed"
+          },
+          "source": {
+            "text": "Taylor, N., Hancock, D., & Sullivan, P. (2026). Mental health and officiating performance. Frontiers in Psychology.",
+            "note": "Citation; keep author names"
+          }
+        },
+        "c6": {
+          "title": {
+            "text": "Stepping away"
+          },
+          "short": {
+            "text": "Stepping away",
+            "note": "Pathway short label"
+          },
+          "alt": {
+            "text": "Temporary illustration · stepping away",
+            "note": "Image alt"
+          },
+          "body": {
+            "text": "<p>Online abuse can influence whether people <strong>continue participating, working, or communicating openly in sport.</strong> Some may reduce their social media presence, reconsider their involvement, or become more cautious about what they share publicly.</p>",
+            "note": "HTML allowed"
+          },
+          "research": {
+            "text": "Research on abuse in sport found that both <strong>physical and non-physical abuse were associated with a greater intention to quit</strong> among association football referees in England and Canada. Abuse was also associated with reduced wellbeing. In the 2025 UAOA Barometer, <strong>90% of sporting federations surveyed expressed concern that online abuse could drive talented athletes out of sport.</strong>",
+            "note": "HTML allowed"
+          },
+          "source": {
+            "text": "Downward, P., Webb, T., & Dawson, P. (2024). Referee abuse, intention to quit, and well-being. Research Quarterly for Exercise and Sport. United Against Online Abuse. (2025). Online Abuse in Sport Barometer 2025.",
+            "note": "Citation; keep author names"
+          }
+        }
+      }
+    },
+    "takeaways": {
+      "heading": {
+        "text": "Key Takeaways"
+      },
+      "items": {
+        "i1": {
+          "text": "<strong>Online abuse can have wide-ranging effects.</strong> Its impact can extend across wellbeing, confidence, sense of safety, performance, participation, and other areas of a person’s life.",
+          "note": "HTML allowed"
+        },
+        "i2": {
+          "text": "<strong>The effects can be interconnected.</strong> Emotional distress, disrupted sleep, reduced confidence, safety concerns, and difficulties with focus can overlap and influence one another.",
+          "note": "HTML allowed"
+        },
+        "i3": {
+          "text": "<strong>People can be affected differently.</strong> Personal and contextual factors can shape how someone experiences and responds to online abuse.",
+          "note": "HTML allowed"
+        },
+        "i4": {
+          "text": "<strong>The impact extends beyond those directly targeted.</strong> Families, teammates, colleagues, fans, organisations, and others across sporting communities can also experience its consequences.",
+          "note": "HTML allowed"
+        },
+        "i5": {
+          "text": "<strong>Online abuse can affect participation and sporting culture.</strong> Persistent hostility can influence who feels safe, welcome, and able to participate in sport.",
+          "note": "HTML allowed"
+        },
+        "i6": {
+          "text": "<strong>The consequences can extend beyond sport.</strong> When discriminatory and abusive behaviours become normalised, they can reinforce prejudice, exclusion, and hostility in wider society.",
+          "note": "HTML allowed"
+        }
+      }
+    },
+    "slide": {
+      "title": {
+        "text": "Module 2: Understanding the Impact",
+        "note": "Module / summary slide title"
+      },
+      "section1": {
+        "text": "Why the human impact matters",
+        "note": "Section heading"
+      },
+      "section2": {
+        "text": "Who is affected by online abuse?",
+        "note": "Section heading"
+      },
+      "section3": {
+        "text": "The impact of online abuse on people",
+        "note": "Section heading"
+      },
+      "section4": {
+        "text": "Explore: Which potential impacts of online abuse can you identify?",
+        "note": "Section heading"
+      },
+      "section5": {
+        "text": "The wider picture",
+        "note": "Section heading"
+      }
+    }
+  },
+  "m3": {
+    "regionTabs": {
+      "ui": {
+        "eyebrow": {
+          "text": "Regional example"
+        },
+        "prompt": {
+          "text": "Select a region"
+        },
+        "placeholder": {
+          "text": "Select a region to view an example."
+        },
+        "regionsAria": {
+          "text": "Regions"
+        },
+        "close": {
+          "text": "Close"
+        },
+        "closeAria": {
+          "text": "Close"
+        },
+        "subCountriesAria": {
+          "text": "EU member examples"
+        },
+        "overview": {
+          "text": "Overview"
+        }
+      },
+      "tabs": {
+        "t1": {
+          "title": {
+            "text": "European Union"
+          },
+          "html": {
+            "text": "<p>The <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/\" target=\"_blank\" rel=\"noopener\"><strong>European Union AI Act</strong></a> uses a risk-based framework for AI and introduces transparency requirements for certain AI-generated and manipulated content, including some deepfakes.</p>",
+            "note": "HTML allowed — European Union AI Act links to EUR-Lex"
+          },
+          "subs": {
+            "slovenia": {
+              "title": {
+                "text": "Slovenia"
+              },
+              "html": {
+                "text": "<p>In Slovenia, AI is governed by <a href=\"https://pisrs.si/pregledPredpisa?id=ZAKO9225#naslov-parent-393613415\" target=\"_blank\" rel=\"noopener\">national legislation</a> and the <a href=\"https://eur-lex.europa.eu/legal-content/SL/TXT/HTML/?uri=OJ:L_202401689\" target=\"_blank\" rel=\"noopener\">EU AI Act</a>. <a href=\"https://www.gov.si/novice/2026-08-03-zacela-so-se-uporabljati-pravila-o-preglednosti-sistemov-umetne-inteligence/\" target=\"_blank\" rel=\"noopener\">Government guidance</a>, <a href=\"https://www.ip-rs.si/umetna-inteligenca/pogosta-vpra%C5%A1anja/\" target=\"_blank\" rel=\"noopener\">answers to common questions</a>, and regulatory information from the <a href=\"https://www.gov.si/en/state-authorities/ministries/ministry-of-the-interior-and-public-administration/about-the-ministry/\" target=\"_blank\" rel=\"noopener\">responsible ministry</a> are also available.</p>",
+                "note": "HTML allowed — linked phrases open official sources"
+              }
+            },
+            "sweden": {
+              "title": {
+                "text": "Sweden"
+              },
+              "html": {
+                "text": "<p>In Sweden, the EU AI Act applies directly and provides the legal framework for regulating artificial intelligence, including AI-generated content. Sweden has no separate national legislation specifically addressing AI-generated content.</p>",
+                "note": "HTML allowed"
+              }
+            },
+            "czechia": {
+              "title": {
+                "text": "Czechia"
+              },
+              "html": {
+                "text": "<p>In Czechia, the EU AI Act applies directly and provides the legal framework for regulating artificial intelligence, including AI-generated content.</p>",
+                "note": "HTML allowed"
+              }
+            },
+            "spain": {
+              "title": {
+                "text": "Spain"
+              },
+              "html": {
+                "text": "<p>In Spain, the EU AI Act applies directly and provides the legal framework for regulating artificial intelligence, including AI-generated content. The Spanish Agency for the Supervision of Artificial Intelligence (AESIA) oversees compliance with AI regulations and supports their implementation at the national level.</p>",
+                "note": "HTML allowed"
+              }
+            }
+          }
+        },
+        "t2": {
+          "title": {
+            "text": "United Kingdom"
+          },
+          "html": {
+            "text": "<p>Under the <a href=\"https://www.legislation.gov.uk/ukpga/2023/50\" target=\"_blank\" rel=\"noopener\"><strong>Online Safety Act</strong></a>, AI-generated content shared by users can fall within the responsibilities of regulated online services, including relevant duties concerning illegal content and user safety.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "t3": {
+          "title": {
+            "text": "United States"
+          },
+          "html": {
+            "text": "<p>The <a href=\"https://www.congress.gov/bill/119th-congress/senate-bill/146\" target=\"_blank\" rel=\"noopener\"><strong>TAKE IT DOWN Act</strong></a> addresses the sharing of intimate images without consent, including AI-generated deepfakes. It requires covered online platforms to provide a way to request their removal and to remove qualifying content within 48 hours of a valid request.</p>",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "checklist": {
+      "ui": {
+        "eyebrow": {
+          "text": "Checklist"
+        },
+        "title": {
+          "text": "Reporting steps"
+        },
+        "progress": {
+          "text": "{n} of {total} reviewed"
+        },
+        "hint": {
+          "text": "Tick each step as you review it. Not graded.",
+          "note": "Removed from widget UI; kept for translators / legacy"
+        },
+        "done": {
+          "text": "All steps reviewed."
+        }
+      },
+      "items": {
+        "i1": {
+          "text": "1. Assess the situation and your safety. Consider the nature of the content and whether you or someone else may be at immediate risk."
+        },
+        "i2": {
+          "text": "2. Collect evidence. Save abusive posts, messages, profile information, URLs, and screenshots where appropriate."
+        },
+        "i3": {
+          "text": "3. Record key details. Note the date, time, username or account, and relevant information about what occurred."
+        },
+        "i4": {
+          "text": "4. Use platform safety tools. Restrict, mute, or block the account where appropriate to limit further contact or exposure."
+        },
+        "i5": {
+          "text": "5. Report through the platform. Review the platform’s relevant policies and flag the content or account using its built-in reporting options."
+        },
+        "i6": {
+          "text": "6. Seek additional support or escalate when needed. Contact your organisation’s welfare or safeguarding lead where relevant. If you feel there is a threat to your safety, contact the appropriate local authorities or emergency services."
+        }
+      }
+    },
+    "reportingSystems": {
+      "ui": {
+        "listAria": {
+          "text": "Reporting systems by country",
+          "note": "aria-label on accordion list"
+        },
+        "placeholder": {
+          "text": "Select a country to view reporting systems and support resources."
+        },
+        "closeAria": {
+          "text": "Close"
+        }
+      },
+      "items": {
+        "uk": {
+          "title": {
+            "text": "United Kingdom"
+          },
+          "html": {
+            "text": "<p>In the UK, online abuse can be reported to the relevant platform or, when it may constitute a criminal offence, to the police. Individuals are encouraged to preserve evidence, including screenshots, messages and URLs. Specialist organisations also provide confidential support and guidance.</p><ul><li><strong>Police</strong> — Report threats, stalking, harassment and other potentially criminal online behaviour. Call 999 in an emergency or 101 for non-emergency assistance.</li><li><a href=\"https://reportharmfulcontent.com/\" target=\"_blank\" rel=\"noopener\"><strong>Report Harmful Content</strong></a> — Guidance and assistance with reporting harmful online content, including harassment, threats and abuse.</li><li><a href=\"https://www.stophateuk.org/report-hate-crime/\" target=\"_blank\" rel=\"noopener\"><strong>Stop Hate UK</strong></a> — Independent, confidential support and general hate crime reporting services in participating areas.</li></ul>",
+            "note": "HTML allowed — linked resource names open official sources"
+          }
+        },
+        "us": {
+          "title": {
+            "text": "United States"
+          },
+          "html": {
+            "text": "<p>In the United States, online abuse can be reported to the relevant platform or law enforcement, depending on the nature of the incident. Threats, stalking and other potentially criminal behaviour can be reported to local police, while federal agencies provide additional reporting channels. Individuals are encouraged to preserve evidence, including screenshots, messages and URLs.</p><ul><li><a href=\"https://www.usa.gov/report-crime\" target=\"_blank\" rel=\"noopener\"><strong>Local Law Enforcement</strong></a> — Police departments can receive reports of threats, stalking, harassment and other potentially criminal online behaviour. Call 911 in an emergency.</li><li><a href=\"https://www.stopbullying.gov/cyberbullying/how-to-report\" target=\"_blank\" rel=\"noopener\"><strong>StopBullying.gov: Report Cyberbullying</strong></a> — Government guidance on documenting cyberbullying, reporting harmful content to platforms and contacting law enforcement when appropriate.</li><li><a href=\"https://www.ic3.gov/\" target=\"_blank\" rel=\"noopener\"><strong>FBI: Internet Crime Complaint Center (IC3)</strong></a> — Reports of cyber-enabled crime, including online extortion, harassment and stalking where criminal conduct is suspected.</li><li><a href=\"https://tips.fbi.gov/\" target=\"_blank\" rel=\"noopener\"><strong>FBI: Report a Federal Crime</strong></a> — Reports of suspected federal crimes, including serious threats and other criminal activity that may involve online abuse.</li></ul>",
+            "note": "HTML allowed — linked resource names open official sources"
+          }
+        },
+        "si": {
+          "title": {
+            "text": "Slovenia"
+          },
+          "html": {
+            "text": "<p>In Slovenia, athletes and sports professionals can seek independent support and guidance on online abuse through the Ombudsman for Athletes’ Rights. Additional resources address cybersecurity incidents, personal data protection and misconduct within sport, including dedicated reporting channels.</p><ul><li><a href=\"https://www.gov.si/en/state-authorities/ministries/ministry-of-the-economy-labour-and-sport/about-the-ministry-of-economy-tourism-and-sport/sport-directorate/\" target=\"_blank\" rel=\"noopener\"><strong>Ombudsman for Athletes’ Rights</strong></a> — Independent support and free legal guidance for athletes and sports professionals.</li><li><a href=\"https://www.cert.si/en/about-si-cert/\" target=\"_blank\" rel=\"noopener\"><strong>SI.CERT</strong></a> — Slovenia’s national cybersecurity incident response centre, providing assistance with online security incidents.</li><li><a href=\"https://www.gov.si/drzavni-organi/vladne-sluzbe/urad-vlade-za-informacijsko-varnost/\" target=\"_blank\" rel=\"noopener\"><strong>Government Information Security Office</strong></a> — Government authority responsible for national information security and cybersecurity.</li><li><a href=\"https://www.ip-rs.si/en/about/information-commissioner\" target=\"_blank\" rel=\"noopener\"><strong>Information Commissioner</strong></a> — Independent authority overseeing personal data protection and privacy rights.</li><li><a href=\"https://oks.zvizgavka.si/\" target=\"_blank\" rel=\"noopener\"><strong>Olympic Committee of Slovenia: Whistleblowing Channel</strong></a> — Reporting channel for raising concerns about misconduct within sport.</li></ul>",
+            "note": "HTML allowed — linked resource names open official sources"
+          }
+        },
+        "se": {
+          "title": {
+            "text": "Sweden"
+          },
+          "html": {
+            "text": "<p>In Sweden, potentially criminal online abuse, including threats, harassment and defamation, can be reported to the police. Athletes and sports professionals can also seek independent support or report misconduct within sport through the Swedish Sports Confederation’s Sports Ombudsman.</p><ul><li><a href=\"https://polisen.se/utsatt-for-brott/polisanmalan/\" target=\"_blank\" rel=\"noopener\"><strong>Swedish Police</strong></a> — Official reporting channel for potential crimes, including online threats, harassment and defamation. Reports can also be made by calling 114 14.</li><li><a href=\"https://www.rf.se/rf-arbetar-med/idrottsombudsmannen/kontakta-idrottsombudsmannen\" target=\"_blank\" rel=\"noopener\"><strong>Swedish Sports Confederation (RF): Sports Ombudsman</strong></a> — Independent support and whistleblowing service for reporting harassment, abuse and misconduct within Swedish sport.</li></ul>",
+            "note": "HTML allowed — linked resource names open official sources"
+          }
+        },
+        "cz": {
+          "title": {
+            "text": "Czechia"
+          },
+          "html": {
+            "text": "<p>In Czechia, online abuse can be reported through several channels, depending on the nature of the incident. STOPonline accepts reports of illegal or harmful online content, including cyberbullying, cyber grooming, non-consensual sharing of intimate images and cyber threats. Reports are reviewed by specialists and may be referred to the Czech Police or international partners. Incidents involving potential criminal offences, such as threats, stalking or extortion, should be reported directly to the Czech Police. Individuals are encouraged to preserve evidence, including screenshots, messages and links, and can also report harmful content directly to online platforms.</p><ul><li><a href=\"https://www.stoponline.cz/en/\" target=\"_blank\" rel=\"noopener\"><strong>STOPonline.cz</strong></a> — Online reporting service operated by CZ.NIC in cooperation with CSIRT.CZ. Accepts reports of illegal or harmful online content and refers potentially illegal cases to relevant authorities. The service focuses on content assessment and reporting, not counselling.</li><li><a href=\"https://policie.gov.cz/hlaseni-kyberkriminality\" target=\"_blank\" rel=\"noopener\"><strong>Czech Police: Cybercrime Reporting</strong></a> — Official information on reporting suspected cybercrime, including online threats, stalking, extortion and other potentially criminal activities.</li><li><a href=\"https://policie.gov.cz/kyberkriminalita/co-delat-vpripade-ze-se-setkate-spodezrelou-aktivitou-vonline-prostoru\" target=\"_blank\" rel=\"noopener\"><strong>Czech Police: Guidance on Suspicious Online Activity</strong></a> — Practical guidance on responding to suspicious online activity, preserving evidence and seeking police assistance.</li></ul>",
+            "note": "HTML allowed — linked resource names open official sources"
+          }
+        },
+        "es": {
+          "title": {
+            "text": "Spain"
+          },
+          "html": {
+            "text": "<p>In Spain, potentially criminal online abuse, including harassment, threats and hate-related offences, can be reported to the Spanish National Police or Civil Guard. Individuals are encouraged to preserve evidence, including screenshots, messages and URLs. Additional services provide confidential guidance and assistance with removing harmful content.</p><ul><li><a href=\"https://www.policia.es/\" target=\"_blank\" rel=\"noopener\"><strong>Spanish National Police (Policía Nacional)</strong></a> and Civil Guard (Guardia Civil) — Official authorities for reporting potentially criminal online abuse.</li><li><a href=\"https://www.incibe.es/linea-de-ayuda-en-ciberseguridad\" target=\"_blank\" rel=\"noopener\"><strong>INCIBE: Cybersecurity Helpline (017)</strong></a> — Free, confidential advice on cyberbullying, online harassment and digital privacy. This is an advisory service, not a formal criminal reporting channel.</li><li><a href=\"https://www.aepd.es/canalprioritario\" target=\"_blank\" rel=\"noopener\"><strong>Spanish Data Protection Agency (AEPD): Priority Channel</strong></a> — Allows individuals to request the urgent removal of unlawfully shared sexual or violent content in particularly serious cases.</li></ul>",
+            "note": "HTML allowed — linked resource names open official sources"
+          }
+        }
+      }
+    },
+    "sorting": {
+      "ui": {
+        "eyebrow": {
+          "text": "Ordering",
+          "note": "Removed from widget UI; kept for translators / legacy"
+        },
+        "prompt": {
+          "text": "1. Put the steps below in the recommended order."
+        },
+        "hint": {
+          "text": "Drag items or use the arrows to reorder, then submit."
+        },
+        "moveUp": {
+          "text": "Move up"
+        },
+        "moveDown": {
+          "text": "Move down"
+        },
+        "ok": {
+          "text": "<strong>Correct!</strong> You’ve identified the recommended sequence for responding to online abuse on social media. Following a clear process helps preserve important information, reduce further exposure, and ensure the situation is reported or escalated appropriately.",
+          "note": "HTML allowed"
+        },
+        "bad": {
+          "text": "<strong>Not quite. Review the options and try again.</strong>",
+          "note": "HTML allowed"
+        }
+      },
+      "items": {
+        "i1": {
+          "text": "Assess the situation and your safety"
+        },
+        "i2": {
+          "text": "Collect evidence"
+        },
+        "i3": {
+          "text": "Record key details"
+        },
+        "i4": {
+          "text": "Use platform safety tools"
+        },
+        "i5": {
+          "text": "Report through the platform"
+        },
+        "i6": {
+          "text": "Seek additional support or escalate when needed"
+        }
+      }
+    },
+    "trueFalse": {
+      "bad": {
+        "text": "<strong>Not quite. Review the statement and try again.</strong>",
+        "note": "HTML allowed"
+      },
+      "questions": {
+        "q1": {
+          "prompt": {
+            "text": "If an athlete receives abusive content, they should delete it immediately and respond directly to the person responsible."
+          },
+          "choices": {
+            "c0": {
+              "text": "True"
+            },
+            "c1": {
+              "text": "False"
+            }
+          },
+          "ok": {
+            "text": "<strong>Correct!</strong> It is recommended to collect relevant evidence before deleting content, and avoid engaging directly with the person responsible for the abuse.",
+            "note": "HTML allowed"
+          }
+        },
+        "q2": {
+          "prompt": {
+            "text": "Publicly sharing abusive content can help address the situation by drawing more attention to it."
+          },
+          "choices": {
+            "c0": {
+              "text": "True"
+            },
+            "c1": {
+              "text": "False"
+            }
+          },
+          "ok": {
+            "text": "<strong>Correct!</strong> Sharing or reposting abusive content can increase its reach and expose the person targeted, and others, to the harmful content again. Use appropriate reporting channels instead.",
+            "note": "HTML allowed"
+          }
+        },
+        "q3": {
+          "prompt": {
+            "text": "AI can help identify potentially harmful content, but human judgement remains important when interpreting context."
+          },
+          "choices": {
+            "c0": {
+              "text": "True"
+            },
+            "c1": {
+              "text": "False"
+            }
+          },
+          "ok": {
+            "text": "<strong>Correct!</strong> AI can support early detection and flag potentially harmful content for review, but context, language, and changing abuse tactics can make human judgement important.",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "takeaways": {
+      "heading": {
+        "text": "Key Takeaways"
+      },
+      "items": {
+        "i1": {
+          "text": "<strong>Platform design influences how content spreads.</strong> Different digital environments shape who encounters content, how people interact with it, and how long it remains visible.",
+          "note": "HTML allowed"
+        },
+        "i2": {
+          "text": "<strong>Online harm can be amplified.</strong> Recommendation systems, sharing, live interaction, and community dynamics can increase the reach and intensity of harmful content.",
+          "note": "HTML allowed"
+        },
+        "i3": {
+          "text": "<strong>Abusive tactics can adapt.</strong> Harmful content may use altered language, visual formats, indirect targeting, or different digital spaces to make detection more difficult.",
+          "note": "HTML allowed"
+        },
+        "i4": {
+          "text": "<strong>People can take steps to reduce exposure.</strong> Privacy controls, interaction settings, blocking, muting, and thoughtful choices about online spaces can support digital wellbeing.",
+          "note": "HTML allowed"
+        },
+        "i5": {
+          "text": "<strong>Effective reporting follows a clear process.</strong> Assess the situation, document relevant evidence, report through an appropriate channel, and seek support or escalate when safety is at risk.",
+          "note": "HTML allowed"
+        },
+        "i6": {
+          "text": "<strong>AI has a dual role.</strong> It can increase the scale and sophistication of harmful content, and it can also support detection, moderation, and other online safety measures.",
+          "note": "HTML allowed"
+        },
+        "i7": {
+          "text": "<strong>Technology alone cannot address online abuse.</strong> Effective responses combine platform tools, responsible user behaviour, human judgement, organisational support, and appropriate regulation.",
+          "note": "HTML allowed"
+        }
+      }
+    },
+    "slide": {
+      "title": {
+        "text": "Module 3: How Online Harm Spreads",
+        "note": "Module / summary slide title"
+      }
+    }
+  },
+  "m4": {
+    "lawTabs": {
+      "ui": {
+        "prompt": {
+          "text": "Select a pathway"
+        },
+        "placeholder": {
+          "text": "Select a pathway"
+        },
+        "pathwaysAria": {
+          "text": "Legal pathways"
+        },
+        "seeExample": {
+          "text": "See an example"
+        },
+        "backToPathway": {
+          "text": "Back to pathway"
+        },
+        "returnMain": {
+          "text": "Return to main page"
+        },
+        "closeAria": {
+          "text": "Close"
+        }
+      },
+      "tabs": {
+        "t1": {
+          "title": {
+            "text": "Criminal law"
+          },
+          "image": {
+            "text": "https://preview.scormstack.io/medias/courses/428b8e0e-9238-4608-a1a3-962afd799ccf/UAOA_pathway_crimina_64f037dc-941a-4af3-90b3-ac5e5fb45a9f.jpg",
+            "note": "CDN URL for scenario illustration"
+          },
+          "imageAlt": {
+            "text": "Referee receiving repeated warning alerts on a phone"
+          },
+          "pathway": {
+            "text": "<p><strong>What it can cover:</strong> Conduct that constitutes a criminal offence under the applicable law, which may include certain threats, stalking, hate crimes, or non-consensual sharing of intimate images.</p><p><strong>Who takes action:</strong> Law enforcement may investigate, and the relevant prosecuting authority determines whether a case proceeds.</p><p><strong>Possible outcomes:</strong> Criminal penalties can include fines or imprisonment, depending on the offence and jurisdiction.</p>",
+            "note": "HTML allowed"
+          },
+          "example": {
+            "text": "<p>Following a decision during a match, a referee begins receiving repeated messages in their social media from the same account. The messages become increasingly threatening and include references to seriously harming the referee and members of their family.</p><p>Depending on the applicable law and circumstances, threats of this nature could lead to a report to law enforcement and a criminal investigation.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "t2": {
+          "title": {
+            "text": "Civil law"
+          },
+          "image": {
+            "text": "https://preview.scormstack.io/medias/courses/428b8e0e-9238-4608-a1a3-962afd799ccf/UAOA_pathway_civil_e89ec7dc-a23c-4bea-af45-ba6d00b25544.jpg",
+            "note": "CDN URL for scenario illustration"
+          },
+          "imageAlt": {
+            "text": "Athlete facing circulating online claims and a lost sponsorship"
+          },
+          "pathway": {
+            "text": "<p><strong>What it can cover:</strong> Disputes involving legal rights between individuals or organisations, which may include defamation, harassment, misuse of private information, or other privacy-related claims.</p><p><strong>Who takes action:</strong> The person or organisation bringing the claim initiates the legal process.</p><p><strong>Possible outcomes:</strong> Depending on the applicable law, remedies can include compensation or court orders requiring particular conduct to stop.</p>",
+            "note": "HTML allowed"
+          },
+          "example": {
+            "text": "<p>False allegations about an athlete begin circulating online and are repeatedly shared. The claims damage the athlete’s professional reputation, and a sponsor ends its relationship with them after seeing such allegations.</p><p>Depending on the applicable law and circumstances, the athlete may be able to bring a civil claim seeking a remedy for the harm caused, including orders for removal of existing false content, injunctions to prevent further publication, monetary claims against the perpetuator if identifiable etc..</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "t3": {
+          "title": {
+            "text": "Administrative law and regulations"
+          },
+          "image": {
+            "text": "https://preview.scormstack.io/medias/courses/428b8e0e-9238-4608-a1a3-962afd799ccf/UAOA_pathway_admin_55f163bb-0d7b-4f46-9cb3-20fd51f67cd0.jpg",
+            "note": "CDN URL for scenario illustration"
+          },
+          "imageAlt": {
+            "text": "Athlete concerned about personal contact details exposed online"
+          },
+          "pathway": {
+            "text": "<p><strong>What it can cover:</strong> Legal obligations enforced by regulators, including rules applying to online services or the handling of personal data.</p><p><strong>Who takes action:</strong> Relevant regulatory authorities oversee and enforce these requirements. Individuals and organisations may also be able to submit complaints.</p><p><strong>Possible outcomes:</strong> Regulators may investigate, require changes, or impose penalties where the applicable law gives them those powers.</p>",
+            "note": "HTML allowed"
+          },
+          "example": {
+            "text": "<p>An athlete discovers that their personal contact information has been published online without their permission. The information continues to circulate, creating concerns about their privacy and safety.</p><p>Depending on the applicable data protection rules, the athlete or their organisation may be able to raise the matter with the relevant regulatory authority.</p>",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "limits": {
+      "items": {
+        "i1": {
+          "title": {
+            "text": "Jurisdiction"
+          },
+          "html": {
+            "text": "<p>Online abuse can cross national borders immediately. The person targeted, the person responsible, and the platform may all be located in different jurisdictions, with different laws and enforcement processes.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "i2": {
+          "title": {
+            "text": "Identifying who is responsible"
+          },
+          "html": {
+            "text": "<p>Accounts may use pseudonyms, false identities, or limited identifying information, making it difficult to determine who is responsible for particular behaviour. Identifying an account holder can require information held by platforms and, in some cases, formal legal processes.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "i3": {
+          "title": {
+            "text": "Enforcement"
+          },
+          "html": {
+            "text": "<p>The volume and speed of online activity can make investigation and enforcement difficult. Available resources, specialist expertise, evidentiary requirements, and enforcement priorities can all affect what happens after an incident is reported.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "i4": {
+          "title": {
+            "text": "Legal thresholds"
+          },
+          "html": {
+            "text": "<p>Each harmful or abusive behaviour does not automatically constitute a legal offence or give rise to a legal claim. The applicable legal definition, evidence, context, and jurisdiction all matter.</p><p>This means that legal action is one part of the response to online abuse. Policies of the online platforms and the sporting organisations’ own standards and policies can also help address certain behaviours that may not have enough grounds for a legal action.</p>",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "regions": {
+      "ui": {
+        "prompt": {
+          "text": "Select a region"
+        },
+        "placeholder": {
+          "text": "Select a region to see an example of how existing laws can apply to online behaviour."
+        },
+        "countriesAria": {
+          "text": "Regions"
+        }
+      },
+      "items": {
+        "i1": {
+          "title": {
+            "text": "United Kingdom"
+          },
+          "html": {
+            "text": "<p>In the UK, several laws address harmful online conduct. The <strong>Online Safety Act 2023</strong> introduces offences relating to threatening communications, cyberflashing, and sharing or threatening to share intimate images without consent. The <strong>Protection from Harassment Act 1997</strong> also covers harassment and stalking, including conduct involving digital communications. The Online Safety Act additionally places duties on regulated platforms to address illegal content and protect children from harmful material. The applicable protections depend on the conduct and jurisdiction.</p><p><em>Source: <a href=\"https://www.legislation.gov.uk/\" target=\"_blank\" rel=\"noopener\">Legislation.gov.uk</a></em></p>",
+            "note": "HTML allowed"
+          }
+        },
+        "i2": {
+          "title": {
+            "text": "United States"
+          },
+          "html": {
+            "text": "<p>In the United States, online abuse is addressed through a combination of federal and state laws. Federal legislation, including <strong>18 U.S.C. 2261A</strong>, addresses certain forms of cyberstalking involving electronic communications. Other federal provisions cover threats and specific forms of online harassment, while state laws may provide additional protections against cyberbullying, harassment, stalking, and non-consensual sharing of intimate images. Legal definitions, enforcement, and available remedies vary by jurisdiction and the circumstances of each case.</p><p><em>Source: <a href=\"https://uscode.house.gov/\" target=\"_blank\" rel=\"noopener\">U.S. Code</a></em></p>",
+            "note": "HTML allowed"
+          }
+        },
+        "i3": {
+          "title": {
+            "text": "Czechia"
+          },
+          "html": {
+            "text": "<p>Czech law does not rely on a single offence of “online abuse”. Existing legislation can apply to specific harmful behaviours carried out online. For example, <strong>Section 354 of the Czech Criminal Code (Act No. 40/2009 Coll.)</strong> addresses stalking, including conduct carried out through electronic communications. <a href=\"https://policie.gov.cz/stalking---nebezpecne-pronasledovani--354-trestniho-zakoniku\" target=\"_blank\" rel=\"noopener\">Czech Police guidance on stalking</a> explains this provision and identifies repeated social media messages, threats, misuse of personal data, and reputational attacks among behaviours that may occur in stalking cases.</p><p>The <strong>Czech Civil Code (Act No. 89/2012 Coll.)</strong> also protects personality rights, including a person’s dignity, honour and privacy. A person affected by unlawful interference can seek to have the interference stopped and its consequences remedied.</p><p><em>Source: <a href=\"https://e-sbirka.gov.cz\" target=\"_blank\" rel=\"noopener\">e-Sbírka</a></em></p>",
+            "note": "HTML allowed"
+          }
+        },
+        "i4": {
+          "title": {
+            "text": "Spain"
+          },
+          "html": {
+            "text": "<p><a href=\"https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444\" target=\"_blank\" rel=\"noopener\"><strong>Spain’s Criminal Code (Organic Law 10/1995)</strong></a> addresses several forms of online abuse. <strong>Article 172 ter</strong> covers stalking, including repeated unwanted contact, misuse of personal data and the creation of fake social-media profiles using someone’s image without consent when this causes harassment or humiliation.</p><p><strong>Article 510</strong> addresses online hate speech, with increased penalties for certain offences when digital platforms make the content accessible to a large audience.</p><p>Victims can report suspected offences to <a href=\"https://www.policia.es/\" target=\"_blank\" rel=\"noopener\">the Spanish National Police</a> or Civil Guard (Guardia Civil). Additional support is available through <a href=\"https://www.incibe.es/linea-de-ayuda-en-ciberseguridad\" target=\"_blank\" rel=\"noopener\">INCIBE’s free, confidential 017 helpline</a>, while the <a href=\"https://www.aepd.es/canalprioritario\" target=\"_blank\" rel=\"noopener\">Spanish Data Protection Agency (AEPD)</a> provides a Priority Channel for requesting the urgent removal of unlawfully shared sexual or violent content.</p><p><em>Source: <a href=\"https://www.mpr.gob.es/Paginas/index.aspx\" target=\"_blank\" rel=\"noopener\">Gobierno de España</a></em></p>",
+            "note": "HTML allowed"
+          }
+        },
+        "i5": {
+          "title": {
+            "text": "Sweden"
+          },
+          "html": {
+            "text": "<p>In Sweden, online hate or abuse is not a separate legal category. The Swedish Police explains that the same criminal laws generally apply to conduct online as they do offline, with relevant offences potentially including unlawful threats, harassment, defamation, insult, unlawful invasion of privacy, sexual harassment, unlawful identity misuse (e.g. fake profiles in someone else's name), and agitation against a population group. If an offence is motivated by, for example, the victim's ethnicity, religion or sexual orientation, this is an aggravating circumstance in sentencing.</p><p>Swedish law also recognises unlawful persecution, which can arise from repeated criminal acts against the same person. Police guidance specifically advises people experiencing stalking to preserve emails, text messages, call records and other digital communications as potential evidence.</p><p><em>Sources: <a href=\"https://polisen.se\" target=\"_blank\" rel=\"noopener\">polisen.se</a>; <a href=\"https://www.riksdagen.se/sv/dokument-och-lagar/\" target=\"_blank\" rel=\"noopener\">Swedish Parliament</a></em></p>",
+            "note": "HTML allowed"
+          }
+        },
+        "i6": {
+          "title": {
+            "text": "Slovenia"
+          },
+          "html": {
+            "text": "<p>Slovenian law addresses online abuse through existing legislation covering specific harmful behaviours. A particularly relevant example is <strong>Article 134a of the Slovenian Criminal Code (KZ-1)</strong>, which defines stalking to include repeated attempts to establish unwanted contact through electronic communications, where the conduct causes fear or a sense of threat. Slovenian authorities have also recognised the online dimension of stalking in guidance concerning the application of this provision.</p><p>Slovenian Police guidance recognises online violence as including behaviours such as threats, harassment, spreading false or insulting content, misuse of photographs, impersonation and the creation of harmful fake profiles. Whether particular conduct constitutes a criminal offence depends on the circumstances of the individual case.</p><p><em>Source: <a href=\"https://www.gov.si/\" target=\"_blank\" rel=\"noopener\">GOV.SI</a></em></p>",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "check": {
+      "questions": {
+        "q1": {
+          "prompt": {
+            "text": "An abusive online incident may potentially involve more than one legal pathway. Which statement best explains why?"
+          },
+          "choices": {
+            "c0": {
+              "text": "The person targeted can choose whichever law they prefer."
+            },
+            "c1": {
+              "text": "The same incident may raise different legal issues depending on the conduct, circumstances, and applicable law."
+            },
+            "c2": {
+              "text": "Online incidents automatically involve criminal and civil law."
+            },
+            "c3": {
+              "text": "Each social media platform determines which legal pathway applies."
+            }
+          },
+          "ok": {
+            "text": "<strong>Correct!</strong>",
+            "note": "HTML allowed"
+          }
+        },
+        "q2": {
+          "prompt": {
+            "text": "Someone experiences harmful online behaviour, but the conduct does not meet the legal threshold for an offence or claim. What does this mean?"
+          },
+          "choices": {
+            "c0": {
+              "text": "The behaviour cannot be considered online abuse because the words used in the comments are not identical to what the law describes."
+            },
+            "c1": {
+              "text": "The platform is solely responsible for responding and deciding what is online abuse."
+            },
+            "c2": {
+              "text": "Other responses may still be available through platform rules, organisational policies, safeguarding procedures, or codes of conduct."
+            },
+            "c3": {
+              "text": "The person should wait to see whether the behaviour becomes more serious."
+            }
+          },
+          "ok": {
+            "text": "<strong>Correct!</strong>",
+            "note": "HTML allowed"
+          }
+        },
+        "q3": {
+          "prompt": {
+            "text": "Why can responding to online abuse through the law be challenging?"
+          },
+          "choices": {
+            "c0": {
+              "text": "Online behaviour falls outside national laws."
+            },
+            "c1": {
+              "text": "People, platforms, and harmful activity may cross jurisdictions, and identifying those responsible or gathering evidence can be difficult."
+            },
+            "c2": {
+              "text": "Online abuse can only be investigated when the responsible account uses a real name."
+            },
+            "c3": {
+              "text": "Sporting organisations must complete their own investigation before authorities can become involved."
+            }
+          },
+          "ok": {
+            "text": "<strong>Correct!</strong>",
+            "note": "HTML allowed"
+          }
+        },
+        "q4": {
+          "prompt": {
+            "text": "Which statement best describes how legal responses to online abuse can differ between countries?"
+          },
+          "choices": {
+            "c0": {
+              "text": "Every country has a specific offence called online abuse."
+            },
+            "c1": {
+              "text": "European countries apply the same national laws because they share regional regulations."
+            },
+            "c2": {
+              "text": "Online conduct is governed primarily by the country where the social media company is based."
+            },
+            "c3": {
+              "text": "Countries may apply different existing laws to online conduct, and some legislation explicitly addresses particular digital behaviours."
+            }
+          },
+          "ok": {
+            "text": "<strong>Correct!</strong>",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "takeaways": {
+      "heading": {
+        "text": "Key Takeaways"
+      },
+      "items": {
+        "i1": {
+          "text": "<strong>Online abuse can engage different areas of law.</strong> Criminal, civil, and administrative pathways involve different processes, actors, and possible outcomes.",
+          "note": "HTML allowed"
+        },
+        "i2": {
+          "text": "<strong>More than one pathway may apply.</strong> The same incident can raise criminal, civil, or regulatory issues depending on the circumstances.",
+          "note": "HTML allowed"
+        },
+        "i3": {
+          "text": "<strong>Legal responses depend on context and jurisdiction.</strong> The applicable law, available evidence, and location of the people and services involved can affect what action is possible.",
+          "note": "HTML allowed"
+        },
+        "i4": {
+          "text": "<strong>Legal pathways have practical limits.</strong> Cross-border activity, identifying responsible individuals, enforcement capacity, and legal thresholds can make action difficult.",
+          "note": "HTML allowed"
+        },
+        "i5": {
+          "text": "<strong>Responsibility extends beyond the law.</strong> Sporting organisations can establish policies, reporting procedures, safeguarding support, and consequences for harmful behaviour.",
+          "note": "HTML allowed"
+        },
+        "i6": {
+          "text": "<strong>Sportsmanship extends to digital spaces.</strong> Respect, fair play, and responsible conduct remain relevant when people participate in sport online.",
+          "note": "HTML allowed"
+        }
+      }
+    },
+    "slide": {
+      "title": {
+        "text": "Module 4: Knowing Your Rights and Responsibilities",
+        "note": "Module / summary slide title"
+      }
+    }
+  },
+  "m5": {
+    "layers": {
+      "ui": {
+        "prompt": {
+          "text": "Explore the three layers of action."
+        },
+        "tracksAria": {
+          "text": "Action layers"
+        },
+        "backToLayers": {
+          "text": "Back to layers"
+        },
+        "done": {
+          "text": "All three layers explored"
+        },
+        "openLayer": {
+          "text": "Open layer"
+        },
+        "overview": {
+          "text": "Overview"
+        }
+      },
+      "tracks": {
+        "t1": {
+          "num": {
+            "text": "1"
+          },
+          "title": {
+            "text": "Individual"
+          },
+          "eyebrow": {
+            "text": "Layer 1 · Individuals"
+          },
+          "labels": {
+            "l1": {
+              "text": "Protect yourself"
+            },
+            "l2": {
+              "text": "Support others"
+            },
+            "l3": {
+              "text": "Act safely"
+            }
+          },
+          "intro": {
+            "text": "<p><strong>Action starts with people.</strong></p><p>Everyone in sport can contribute, whether they are experiencing online abuse, witnessing it, or supporting someone who has been targeted.</p><p>Explore ways in which you can:</p><ul><li>Protect yourself</li><li>Support others</li><li>Act safely</li></ul>",
+            "note": "HTML allowed"
+          }
+        },
+        "t2": {
+          "num": {
+            "text": "2"
+          },
+          "title": {
+            "text": "Organisations"
+          },
+          "eyebrow": {
+            "text": "Layer 2 · Organisations"
+          },
+          "labels": {
+            "l1": {
+              "text": "Build frameworks"
+            },
+            "l2": {
+              "text": "Strengthen safeguarding"
+            },
+            "l3": {
+              "text": "Coordinate action"
+            }
+          },
+          "intro": {
+            "text": "<p>Organisations can provide the framework, resources, and coordinated support needed to protect people and respond effectively to online abuse. These include sporting organisations and federations, clubs and associations, media organisations, online platforms, advocacy groups, and other institutions across the sporting community.</p><p>Explore how organisations can prepare for, prevent and respond to online abuse.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "t3": {
+          "num": {
+            "text": "3"
+          },
+          "title": {
+            "text": "Society"
+          },
+          "eyebrow": {
+            "text": "Layer 3 · Society"
+          },
+          "labels": {
+            "l1": {
+              "text": "Advance education"
+            },
+            "l2": {
+              "text": "Generate evidence"
+            },
+            "l3": {
+              "text": "Shape norms"
+            }
+          },
+          "intro": {
+            "text": "<p>Online abuse is often shaped by factors beyond the immediate control of individuals and organisations. The personal contexts of people, the technologies they use, their access to education, and the general cultural norms around them can all influence whether harmful behaviour is encouraged, normalised, challenged, or prevented.</p><p>Learn how wider social contexts can influence online abuse and help create safer digital spaces in sport.</p>",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "flow1": {
+      "ui": {
+        "title": {
+          "text": "What each of us can do"
+        }
+      },
+      "steps": {
+        "s1": {
+          "title": {
+            "text": "Protect yourself"
+          },
+          "body": {
+            "text": "<p>For athletes and others with public-facing roles:</p><ul><li><strong>Manage your exposure.</strong> Review privacy and safety settings and control who can contact, mention, or tag you.</li><li><strong>Use safety tools.</strong> Mute, restrict, block, and report harmful accounts or content.</li><li><strong>Preserve evidence.</strong> Save relevant information when behaviour may need to be reported or escalated.</li><li><strong>Protect your wellbeing.</strong> You can choose to take a break from online interactions and seek support from people you trust.</li></ul><details><summary><strong>Why does this matter?</strong></summary><p>Your wellbeing matters, and support is a shared responsibility. When people use safety and wellbeing tools, they are better equipped to prevent harm within the wider sporting community.</p></details>",
+            "note": "HTML allowed"
+          }
+        },
+        "s2": {
+          "title": {
+            "text": "Support others"
+          },
+          "body": {
+            "text": "<p>As a teammate, colleague, fan, friend, or bystander:</p><ul><li><strong>Avoid amplification.</strong> Prevent further circulation of abusive content.</li><li><strong>Check in privately.</strong> Offer personal support to the person targeted.</li><li><strong>Report appropriately.</strong> Take action through established channels, generally without public confrontation.</li><li><strong>Speak up safely.</strong> Express concern about abusive behaviour or seek help from someone who can intervene, including organisational authorities or the police when necessary.</li></ul><details><summary><strong>Why does this matter?</strong></summary><p>Supporting others strengthens the sporting community. Small actions from teammates, colleagues, friends, fans, and other bystanders can help create a social support system where people feel heard, protected, and cared for, and harmful behaviour is less likely to go unchallenged.</p></details>",
+            "note": "HTML allowed"
+          }
+        },
+        "s3": {
+          "title": {
+            "text": "Act safely"
+          },
+          "body": {
+            "text": "<p>When responding to online abuse, consider the situation, personal safety, and whether additional support is needed:</p><ul><li><strong>Assess the situation.</strong> Consider the nature of the behaviour, whether it is escalating, and whether anyone may be at risk.</li><li><strong>Avoid unsafe engagement.</strong> Do not confront or engage directly when doing so could increase harm or place someone at risk.</li><li><strong>Know when to seek support.</strong> Involve a trusted person or the appropriate organisational contact when the situation requires additional help.</li><li><strong>Escalate safety concerns.</strong> Threats, repeated unwanted contact, exposure of personal information, or other safety concerns may require further organisational or external support.</li></ul><details><summary><strong>Why does this matter?</strong></summary><p>Acting safely helps connect individual action with the right level of support. Recognising when a situation requires additional help allows others to become involved and helps ensure that safety remains the priority.</p></details>",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "flow2": {
+      "ui": {
+        "title": {
+          "text": "What organisations can do"
+        }
+      },
+      "steps": {
+        "s1": {
+          "title": {
+            "text": "Prepare"
+          },
+          "body": {
+            "text": "<p>Develop policies and codes of conduct, provide education and training, and establish clear expectations for digital behaviour.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "s2": {
+          "title": {
+            "text": "Protect"
+          },
+          "body": {
+            "text": "<p>Provide welfare and safeguarding support, platform safety tools, moderation, and appropriate mechanisms for people at risk.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "s3": {
+          "title": {
+            "text": "Respond"
+          },
+          "body": {
+            "text": "<p>Create accessible reporting pathways, preserve appropriate records, apply organisational procedures, and coordinate escalation when necessary.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "s4": {
+          "title": {
+            "text": "Connect"
+          },
+          "body": {
+            "text": "<p>Work with other organisations, platforms, authorities, researchers, advocacy groups, and specialist services when a response extends beyond the organisation’s own capabilities.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "s5": {
+          "title": {
+            "text": "Stronger together"
+          },
+          "body": {
+            "text": "<p>Organisations are stronger when they work together.</p><p>Clubs can provide frontline support, federations set shared standards, platforms enable reporting and moderation, media organisations manage published content, and advocacy groups may contribute with specialised support and education. Together, they can create a coordinated network of protection and response against online abuse.</p><p><strong>UAOA’s Organisational Readiness Platform (ORP)</strong> supports these efforts by helping sporting organisations assess their preparedness, identify areas for improvement, and strengthen their approaches to preventing and responding to online abuse.</p>",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "flow3": {
+      "ui": {
+        "title": {
+          "text": "What shapes safer digital sport"
+        }
+      },
+      "steps": {
+        "s1": {
+          "title": {
+            "text": "Education"
+          },
+          "body": {
+            "text": "<p>Education can help people recognise online abuse, understand its consequences, and know how to respond safely. Digital and media literacy can also strengthen critical thinking about what behaviours are appropriate in online settings.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "s2": {
+          "title": {
+            "text": "Shared standards"
+          },
+          "body": {
+            "text": "<p>Clear expectations help establish which behaviours are considered acceptable within sporting communities. Shared standards around respect, inclusion, fair play, and digital participation can guide behaviour and give individuals and organisations a stronger basis for challenging abuse.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "s3": {
+          "title": {
+            "text": "Research and evidence"
+          },
+          "body": {
+            "text": "<p>Evidence and data-driven research help map the patterns where online abuse occurs, how harmful behaviour evolves in time, and which responses are more effective. Stronger knowledge can inform prevention, education, organisational practice, technology, and policy.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "s4": {
+          "title": {
+            "text": "Policy and law"
+          },
+          "body": {
+            "text": "<p>Policies and laws can establish boundaries, responsibilities, protections, and routes to accountability. They can influence behaviour by clarifying consequences and providing mechanisms for reporting, intervention, and redress.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "s5": {
+          "title": {
+            "text": "Technology and platform design"
+          },
+          "body": {
+            "text": "<p>The design of digital platforms can influence how easily harmful content is created, discovered, amplified, reported, or removed. Moderation, detection, reporting tools, and other safety features can help reduce opportunities for abuse to spread and persist.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "s6": {
+          "title": {
+            "text": "Community norms"
+          },
+          "body": {
+            "text": "<p>Social norms influence what people perceive as normal, acceptable, or worth challenging. Athletes, fans, media, organisations, and public figures all contribute to the culture surrounding sport. When communities consistently challenge abusive behaviour and reinforce respect, they can help shift the norms that allow online abuse to persist.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "s7": {
+          "title": {
+            "text": "Working together"
+          },
+          "body": {
+            "text": "<p><strong>These factors work together across sport and in our society.</strong></p><p>Education can shape how people understand online behaviours, while shared standards and laws can clarify expectations, research can identify emerging risks, and technology can influence how harmful content spreads.</p><p>Sporting communities are only a part of our society: they are influenced by broader cultural norms, and athletes, fans, media, organisations, and other voices in sport can also help shape the world we live in together.</p>",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "match": {
+      "ui": {
+        "eyebrow": {
+          "text": "Check your understanding"
+        },
+        "prompt": {
+          "text": "Match each scenario to a level"
+        },
+        "hint": {
+          "text": "Drag each level card into the matching scenario on the right. Place all three before submitting."
+        },
+        "choicesAria": {
+          "text": "Choose a level of action"
+        },
+        "trayAria": {
+          "text": "Level cards"
+        },
+        "dropHint": {
+          "text": "Drop level here"
+        },
+        "submit": {
+          "text": "Submit"
+        },
+        "feedbackOk": {
+          "text": "<strong>That’s right!</strong> You’ve matched each scenario to the appropriate level of action.",
+          "note": "HTML allowed"
+        },
+        "feedbackBad": {
+          "text": "<strong>Not quite.</strong> Review your choices and try again.",
+          "note": "HTML allowed"
+        },
+        "done": {
+          "text": "<strong>That’s right!</strong> You’ve matched each scenario to the appropriate level of action.",
+          "note": "HTML allowed"
+        }
+      },
+      "labels": {
+        "l0": {
+          "text": "Individual"
+        },
+        "l1": {
+          "text": "Organisation"
+        },
+        "l2": {
+          "text": "Society"
+        }
+      },
+      "scenarios": {
+        "s1": {
+          "text": {
+            "text": "After seeing an athlete targeted online, someone checks in privately and reports the harmful content without sharing it further."
+          },
+          "ok": {
+            "text": "<strong>Correct!</strong> Checking in privately and reporting without amplifying are individual actions.",
+            "note": "HTML allowed"
+          },
+          "bad": {
+            "text": "<strong>Not quite.</strong> Think about who is taking this action in the moment. <strong>Try again.</strong>",
+            "note": "HTML allowed"
+          }
+        },
+        "s2": {
+          "text": {
+            "text": "Following several online abuse incidents, a sports federation introduces a reporting pathway, staff training, and safeguarding procedures."
+          },
+          "ok": {
+            "text": "<strong>Correct!</strong> Reporting pathways, training, and safeguarding procedures are organisational frameworks.",
+            "note": "HTML allowed"
+          },
+          "bad": {
+            "text": "<strong>Not quite.</strong> Consider which level sets frameworks and procedures for a sporting body. <strong>Try again.</strong>",
+            "note": "HTML allowed"
+          }
+        },
+        "s3": {
+          "text": {
+            "text": "Research shows how a new form of online abuse is spreading, helping inform education, technology, and future public policy responses."
+          },
+          "ok": {
+            "text": "<strong>Correct!</strong> Research and evidence that informs education, technology, and policy operate at the level of society.",
+            "note": "HTML allowed"
+          },
+          "bad": {
+            "text": "<strong>Not quite.</strong> Consider which level shapes wider education, technology, and policy. <strong>Try again.</strong>",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "takeaways": {
+      "heading": {
+        "text": "Key Takeaways"
+      },
+      "items": {
+        "i1": {
+          "text": "<strong>Tackling online abuse is a shared responsibility.</strong> Individuals, sport organisations, platforms, media, advocacy groups, policymakers, and other stakeholders each have a role in prevention and response.",
+          "note": "HTML allowed"
+        },
+        "i2": {
+          "text": "<strong>Individual actions can reduce harm.</strong> Managing exposure, using safety tools, preserving evidence, supporting others, and knowing when to seek additional help can protect safety and wellbeing.",
+          "note": "HTML allowed"
+        },
+        "i3": {
+          "text": "<strong>Organisations provide structure and support.</strong> Clear frameworks, safeguarding, reporting pathways, and coordinated action help organisations prepare for and respond to online abuse.",
+          "note": "HTML allowed"
+        },
+        "i4": {
+          "text": "<strong>Cooperation strengthens the response.</strong> Clubs, federations, platforms, media organisations, advocacy groups, and other stakeholders can contribute different forms of support, expertise, and action.",
+          "note": "HTML allowed"
+        },
+        "i5": {
+          "text": "<strong>Social conditions influence online behaviour.</strong> Education, standards, research, policy, technology, and cultural norms can affect how online abuse is understood, enabled, prevented, and challenged.",
+          "note": "HTML allowed"
+        },
+        "i6": {
+          "text": "<strong>Sport is part of a wider social context.</strong> Sporting communities are influenced by wider cultural norms and can also contribute to shaping expectations and behaviour across society.",
+          "note": "HTML allowed"
+        }
+      }
+    },
+    "slide": {
+      "title": {
+        "text": "Module 5: Take Action: Building Safer Digital Sport Communities",
+        "note": "Module / summary slide title"
+      },
+      "continueLayer2": {
+        "text": "Continue to Layer 2",
+        "note": "Nav button label"
+      },
+      "continueLayer3": {
+        "text": "Continue to Layer 3",
+        "note": "Nav button label"
+      },
+      "goToFinalQuiz": {
+        "text": "Go to final quiz",
+        "note": "Nav button label"
+      }
+    }
+  },
+  "summary": {
+    "quiz": {
+      "questions": {
+        "q1": {
+          "prompt": {
+            "text": "In the <strong>2025 UAOA Barometer</strong>, about how many sporting federations were concerned that online abuse could drive talented athletes out of sport?",
+            "note": "HTML allowed — do not bold option list items"
+          },
+          "choices": {
+            "c0": {
+              "text": "Less than 50%"
+            },
+            "c1": {
+              "text": "About 72%"
+            },
+            "c2": {
+              "text": "About 90%"
+            }
+          },
+          "reveal": {
+            "text": "<strong>About 90%</strong><br>The UAOA Barometer shows that about nine in ten sporting federations surveyed expressed concern that online abuse could drive talented athletes out of sport. Online abuse can ultimately influence whether people continue participating in sporting communities.",
+            "note": "HTML allowed"
+          },
+          "next": {
+            "text": "That seems a lot"
+          }
+        },
+        "q2": {
+          "prompt": {
+            "text": "According to research, what has greater exposure to online harassment been associated with among sportspeople?"
+          },
+          "choices": {
+            "c0": {
+              "text": "Psychological distress"
+            },
+            "c1": {
+              "text": "Fewer friends"
+            },
+            "c2": {
+              "text": "More training hours"
+            }
+          },
+          "reveal": {
+            "text": "Greater exposure to online harassment has been associated with <strong>higher levels of psychological distress</strong>, highlighting how hostile online content can affect psychological wellbeing.",
+            "note": "HTML allowed"
+          },
+          "next": {
+            "text": "That is concerning"
+          }
+        },
+        "q3": {
+          "prompt": {
+            "text": "When a harmful comment about an athlete appears online, which features can influence how far it travels?"
+          },
+          "choices": {
+            "c0": {
+              "text": "Platform design and recommendation systems"
+            },
+            "c1": {
+              "text": "User interactions and reporting mechanisms"
+            },
+            "c2": {
+              "text": "Both"
+            }
+          },
+          "reveal": {
+            "text": "<strong>Both.</strong> Platform design, recommendation systems, user interactions, and reporting mechanisms can influence how harmful content travels and reaches new audiences.",
+            "note": "HTML allowed"
+          },
+          "next": {
+            "text": "That makes sense"
+          }
+        },
+        "q4": {
+          "prompt": {
+            "text": "<span class=\"scenario\">If a player receives humiliating comments after a loss. Similar messages flood their account for days, also attacking their race.</span>What is happening?",
+            "note": "HTML allowed"
+          },
+          "choices": {
+            "c0": {
+              "text": "Offensive speech only"
+            },
+            "c1": {
+              "text": "Digital hostility and hate speech only"
+            },
+            "c2": {
+              "text": "Several forms of online abuse are overlapping"
+            }
+          },
+          "reveal": {
+            "text": "<strong>Several forms can overlap.</strong><br>The humiliating language is offensive speech, the repeated public aggression creates digital hostility, and racist targeting may constitute hate speech.",
+            "note": "HTML allowed"
+          },
+          "next": {
+            "text": "Let’s take action!"
+          }
+        },
+        "q5": {
+          "prompt": {
+            "text": "What is the best recommendation for staying safe when someone encounters online abuse?"
+          },
+          "choices": {
+            "c0": {
+              "text": "Respond directly to stop the behaviour"
+            },
+            "c1": {
+              "text": "Assess the situation, avoid unsafe engagement, and report appropriately"
+            },
+            "c2": {
+              "text": "Delete the content and leave the platform"
+            }
+          },
+          "reveal": {
+            "text": "<strong>Act safely and use the right reporting channels.</strong><br>Assess whether the behaviour is escalating or anyone may be at risk, avoid unsafe engagement, preserve relevant evidence, and report through the appropriate platform or organisational channels. Seek additional support when needed.",
+            "note": "HTML allowed"
+          },
+          "next": {
+            "text": "Keep going"
+          }
+        },
+        "q6": {
+          "prompt": {
+            "text": "Can existing laws help protect people from online abuse, including abuse involving AI-generated content?"
+          },
+          "choices": {
+            "c0": {
+              "text": "Yes, but protections vary between countries."
+            },
+            "c1": {
+              "text": "Only when the abuse involves physical threats."
+            },
+            "c2": {
+              "text": "Only when the content is shared publicly."
+            }
+          },
+          "reveal": {
+            "text": "<strong>Laws can help protect people from online abuse.</strong><br>However, legal protections and responsibilities vary between countries. Some jurisdictions have introduced specific measures addressing AI-generated intimate images and other forms of digital abuse.",
+            "note": "HTML allowed"
+          },
+          "next": {
+            "text": "Laws are only part of the response. What else can we do?"
+          }
+        },
+        "q7": {
+          "prompt": {
+            "text": "<span class=\"scenario\">A teammate has been receiving abusive messages and seems increasingly distressed.</span>What is the strongest response from a supportive system?",
+            "note": "HTML allowed"
+          },
+          "choices": {
+            "c0": {
+              "text": "Share the messages publicly so others can defend them"
+            },
+            "c1": {
+              "text": "Check in privately and help them access appropriate support"
+            },
+            "c2": {
+              "text": "Limit interactions with the teammate"
+            }
+          },
+          "reveal": {
+            "text": "<strong>Support starts with you!</strong><br>Check in privately, avoid amplifying the abuse, use appropriate reporting channels, and speak up when it is safe to do so.",
+            "note": "HTML allowed"
+          },
+          "next": {
+            "text": "Everyone’s safety matters!"
+          }
+        },
+        "q8": {
+          "prompt": {
+            "text": "Positive action starts with each of us. What can we do?"
+          },
+          "choices": {
+            "c0": {
+              "text": "Protect yourself, Support others, Act safely"
+            },
+            "c1": {
+              "text": "Monitor content, Confront abuser, Delete evidence"
+            },
+            "c2": {
+              "text": "Report everything, Respond publicly, Stay online"
+            }
+          },
+          "reveal": {
+            "text": "<strong>Protect yourself. Support others. Act safely.</strong><br>We can manage our social media exposure, use safety tools, preserve evidence, support others who are targeted, and recognise when a situation requires additional help.",
+            "note": "HTML allowed"
+          },
+          "next": {
+            "text": "Of course we can!"
+          }
+        },
+        "q9": {
+          "prompt": {
+            "text": "<strong>Organisations have a role too.</strong> Several people in a sporting organisation have reported online abuse.<br>What would create the strongest organisational response?",
+            "note": "HTML allowed"
+          },
+          "choices": {
+            "c0": {
+              "text": "Focus primarily on responding to individual incidents"
+            },
+            "c1": {
+              "text": "Build frameworks, strengthen safeguarding and coordinate action"
+            },
+            "c2": {
+              "text": "Expect the platforms to manage the problem"
+            }
+          },
+          "reveal": {
+            "text": "Effective organisational responses connect preparation, protection, response and cooperation.",
+            "note": "HTML allowed"
+          },
+          "next": {
+            "text": "Tell me more!"
+          }
+        },
+        "q10": {
+          "prompt": {
+            "text": "<span class=\"scenario\">Online abuse is also shaped by conditions beyond any one person or organisation.</span>Which can influence whether harmful behaviour is normalised, challenged or prevented?",
+            "note": "HTML allowed"
+          },
+          "choices": {
+            "c0": {
+              "text": "Education and community norms"
+            },
+            "c1": {
+              "text": "Research and policies"
+            },
+            "c2": {
+              "text": "Technology and AI solutions"
+            },
+            "c3": {
+              "text": "All of these"
+            }
+          },
+          "reveal": {
+            "text": "<strong>All of these.</strong> Education, shared standards, research and evidence, policy and law, technological solutions and platform design, and community norms can all shape online behaviour.<br><br>Sport is influenced by these wider social conditions, and sporting communities can also help shape the world we live in together.",
+            "note": "HTML allowed"
+          },
+          "next": {
+            "text": "Stronger together!"
+          }
+        },
+        "q11": {
+          "prompt": {
+            "text": "Would you like to take further action with UAOA?"
+          },
+          "choices": {
+            "c0": {
+              "text": "I want to take action"
+            },
+            "c1": {
+              "text": "I want to keep learning"
+            },
+            "c2": {
+              "text": "I want to strengthen my organisation"
+            },
+            "c3": {
+              "text": "Not right now"
+            }
+          },
+          "reveal": {
+            "text": "<strong>There are different ways to take action.</strong> UAOA brings people and organisations across sport together to strengthen how they prepare for, prevent and respond to online abuse.",
+            "note": "HTML allowed — ungraded item"
+          },
+          "next": {
+            "text": "See your readiness!"
+          },
+          "links": {
+            "act": {
+              "text": "Explore UAOA initiatives and Stronger Together"
+            },
+            "learn": {
+              "text": "UAOA research, evidence and educational resources"
+            },
+            "org": {
+              "text": "UAOA organisational resources"
+            }
+          }
+        }
+      },
+      "ui": {
+        "chooseOne": {
+          "text": "Choose one answer",
+          "note": "Hint under the question on the open final-quiz layout"
+        },
+        "ok": {
+          "text": "OK",
+          "note": "Confirm selection before reveal"
+        },
+        "pressEnter": {
+          "text": "press Enter ↵",
+          "note": "Keyboard hint beside OK"
+        },
+        "questionOf": {
+          "text": "Question {n} of {total}",
+          "note": "Footer progress; {n} and {total} are replaced in JS"
+        },
+        "choicesAria": {
+          "text": "Answer choices",
+          "note": "aria-label on options group"
+        },
+        "prevAria": {
+          "text": "Previous question",
+          "note": "aria-label on prev chevron"
+        },
+        "nextAria": {
+          "text": "Next question",
+          "note": "aria-label on next chevron when advancing"
+        }
+      },
+      "score": {
+        "youScored": {
+          "text": "You scored",
+          "note": "Flip-card modal front label above large %"
+        },
+        "clickToComplete": {
+          "text": "Click to complete",
+          "note": "Flip-card modal front CTA"
+        },
+        "headline": {
+          "text": "You scored {pct}%!",
+          "note": "Legacy / optional; modal uses youScored + large %"
+        },
+        "body": {
+          "text": "You’ve learned how to recognise online abuse, understand its impact, and respond more safely across individual, organisational, and wider sporting contexts."
+        },
+        "note": {
+          "text": "Your score reflects your understanding of the key concepts covered in this course."
+        },
+        "finish": {
+          "text": "Close",
+          "note": "Closes readiness flip modal on the back face"
+        }
+      }
+    },
+    "furtherAction": {
+      "questions": {
+        "q1": {
+          "prompt": {
+            "text": "Would you like to take further action with UAOA?"
+          },
+          "choices": {
+            "c0": {
+              "text": "I want to take action"
+            },
+            "c1": {
+              "text": "I want to keep learning"
+            },
+            "c2": {
+              "text": "I want to strengthen my organisation"
+            },
+            "c3": {
+              "text": "Not right now"
+            }
+          },
+          "ok": {
+            "text": "<strong>There are different ways to take action.</strong> UAOA brings people and organisations across sport together to strengthen how they prepare for, prevent and respond to online abuse.",
+            "note": "HTML allowed — legacy further-action widget; Q11 lives in summary.quiz"
+          }
+        }
+      }
+    },
+    "slide": {
+      "title": {
+        "text": "Summary: Key Takeaways",
+        "note": "Module / summary slide title"
+      },
+      "finishCourse": {
+        "text": "Finish course",
+        "note": "Nav button label"
+      },
+      "postSurvey": {
+        "text": "Take the post-course survey",
+        "note": "Nav button label"
+      },
+      "getCertificate": {
+        "text": "Get your certificate",
+        "note": "Nav button label"
+      }
+    }
+  },
+  "embeds": {
+    "sensitiveNotice": {
+      "title": {
+        "text": "Sensitive Topic Notice"
+      },
+      "body": {
+        "text": "This course covers topics that some readers may find difficult or upsetting. You are encouraged to work through the material at a pace that feels appropriate and to access support where needed. Please remember that you may step out of the course at any time, and return when you feel ready."
+      },
+      "viewSupport": {
+        "text": "View support options"
+      },
+      "supportTitle": {
+        "text": "Support options"
+      },
+      "supportIntro": {
+        "text": "If anything in this course has affected you, you can pause and come back when you feel ready."
+      },
+      "someoneTrusted": {
+        "text": "Someone you trust"
+      },
+      "someoneTrustedDetail": {
+        "text": "A friend, family member, teammate or coach."
+      },
+      "orgLead": {
+        "text": "Your organisation’s welfare or safeguarding lead"
+      },
+      "closeAria": {
+        "text": "Close"
+      }
+    },
+    "miniDictionary": {
+      "teaser": {
+        "text": "Want to learn about other forms of online abuse?"
+      },
+      "bodyBefore": {
+        "text": "Online abuse can take many forms beyond the three behaviours introduced here. Explore the"
+      },
+      "linkLabel": {
+        "text": "Mini Dictionary"
+      },
+      "bodyAfter": {
+        "text": "for a quick reference to other tactics you may encounter online."
+      },
+      "discretionLabel": {
+        "text": "Reader discretion:"
+      },
+      "discretion": {
+        "text": "Some entries describe harmful or abusive behaviours that may be sensitive or upsetting. Explore this resource at your own discretion, and return to the course whenever you are ready."
+      },
+      "cta": {
+        "text": "Explore the Mini Dictionary"
+      },
+      "closeAria": {
+        "text": "Close"
+      },
+      "title": {
+        "text": "Mini Dictionary: Other Possible Forms of Online Abuse",
+        "note": "Dictionary document title"
+      },
+      "fullText": {
+        "text": "Mini Dictionary: Other Possible Forms of Online Abuse\nToxic Content\n* Purposeful embarrassment - Intentionally causing someone shame or humiliation, often publicly.\n* Cyberbullying - Repeated use of electronic communication to intimidate, scare, or shame a person.\n* Trolling - Posting provocative or offensive messages to trigger strong reactions or disrupt discussion.\n* Profane or offensive content - Vulgar or disrespectful language, images, or communication.\n* Threats of violence - Messages meant to create fear of physical harm.\n* Incitement - Urging others to act violently or unlawfully.\n* Sexual harassment - Unwanted sexual advances or comments.\n* Unwanted explicit content - Sharing sexually explicit images or messages without consent.\nContent Leakage\n* Sextortion - Blackmail that threatens to release private material unless demands are met.\n* Doxxing - Publishing private or identifying information with malicious intent.\n* Outing - Disclosing someone's sexuality or gender identity without permission.\n* Deadnaming - Using a transgender or non-binary person's former name without consent.\n* Non-consensual image exposure - Sharing private or intimate images or videos without consent.\n* Leaked chats or profiles - Exposing private conversations or accounts without authorisation.\nOverloading\n* System or account flooding - Overwhelming a person or platform with excessive content or requests to disrupt service or silence speech.\n* Zoombombing - Uninvited intrusion into a video call to disrupt it.\n* Negative ratings and reviews - Coordinated unfair or biased feedback meant to damage a reputation.\nFalse Reporting\n* Swatting - A hoax emergency call meant to trigger an armed police response at someone's location.\n* Falsified abuse report - Knowingly submitting a false report to cause harm.\n* Falsified abuse flag - Wrongly flagging legitimate content as abusive to have it removed or censored.\nImpersonation\n* Impersonated profiles - Fake accounts created to deceive or defraud.\n* Impersonated chats or images - Fabricated or altered content falsely attributed to someone.\n* Synthetic pornography - Deepfake technology used to create explicit content without consent.\n* Impersonated web pages - Counterfeit sites built to deceive users or harm a competitor's standing.\n* Hijacked communication - Unauthorised takeover of an account or channel to spread false messages.\nSurveillance\n* Stalking or tracking - Repeated, unwanted monitoring of a person's movements or activity.\n* Account monitoring - Unauthorised access to and tracking of someone's account activity.\n* Device monitoring - Unauthorised tracking of activity on a person's phone, computer, or tablet.\n* IoT monitoring - Passive data collection from wearables or smart devices without consent.\n* Browser monitoring - Tracking someone's browsing history or activity without their knowledge.\nLockout and Control\n* Content deletion - Unauthorised removal of files, posts, or data to suppress information or cause harm.\n* Browser or device hijacking - Taking control of someone's browser or connected devices without consent.\n* Account lockouts - Deliberately blocking a person from accessing their own accounts or content.",
+        "note": "Full mini-dictionary source; HTML/markdown structure — translate carefully"
+      }
+    },
+    "scroll": {
+      "continue": {
+        "text": "Continue",
+        "note": "Scroll / fade continue control"
+      },
+      "continueAria": {
+        "text": "Continue to more content"
+      },
+      "continueRevealAria": {
+        "text": "Continue to reveal more content"
+      },
+      "noBlock": {
+        "text": "No following block found on this slide.",
+        "note": "Dev/fallback message"
+      }
+    }
+  },
+  "_inventory": {
+    "summary": {
+      "learner_facing_keys": 469,
+      "widgets_and_embeds_wired": 30,
+      "native_slide_keys": "m1.slide / m2.slide / m3.slide / m4.slide / m5.slide / summary.slide + common.keyTakeaways + common.wrongPlain (cataloged; builders mostly still hardcode except uaoa_common.WRONG)"
+    },
+    "wired_widgets": [
+      "mini-dictionary-embed.html",
+      "more-scroll-embed.html",
+      "scroll-fade-embed.html",
+      "sensitive-notice-embed.html",
+      "widget-affected-flips.html",
+      "widget-apply-scenarios.html",
+      "widget-check-understanding-heading.html",
+      "widget-explore-factors.html",
+      "widget-forms-flips.html",
+      "widget-forms-overlap-callout.html",
+      "widget-impact-carousel.html",
+      "widget-key-takeaways.html",
+      "widget-knowledge-check.html",
+      "widget-m1-protected-tiles.html",
+      "widget-m2-explore-impacts.html",
+      "widget-m2-key-takeaways.html",
+      "widget-m2-knowledge-check.html",
+      "widget-m3-key-takeaways.html",
+      "widget-m3-region-tabs.html",
+      "widget-m3-reporting-checklist.html",
+      "widget-m3-reporting-systems.html",
+      "widget-m3-sorting.html",
+      "widget-m3-true-false.html",
+      "widget-m4-key-takeaways.html",
+      "widget-m4-knowledge-check.html",
+      "widget-m4-law-tabs.html",
+      "widget-m4-limits-list.html",
+      "widget-m4-regions-accordion.html",
+      "widget-m5-key-takeaways.html",
+      "widget-m5-layers.html",
+      "widget-m5-match.html",
+      "widget-matteo-cards.html",
+      "widget-platform-flips.html",
+      "widget-summary-final-quiz.html",
+      "widget-summary-further-action.html"
+    ],
+    "cataloged_widgets": [
+      "m1.apply → widget-apply-scenarios.html",
+      "m1.forms → widget-forms-flips.html",
+      "m1.formsOverlap → widget-forms-overlap-callout.html",
+      "m1.protected → widget-m1-protected-tiles.html",
+      "common.checkUnderstandingHeading → widget-check-understanding-heading.html",
+      "m1.platforms → widget-platform-flips.html",
+      "m1.factors → widget-explore-factors.html",
+      "m1.check → widget-knowledge-check.html",
+      "m1.matteo → widget-matteo-cards.html",
+      "m1.takeaways → widget-key-takeaways.html",
+      "m2.takeaways → widget-m2-key-takeaways.html",
+      "m3.takeaways → widget-m3-key-takeaways.html",
+      "m4.takeaways → widget-m4-key-takeaways.html",
+      "m5.takeaways → widget-m5-key-takeaways.html",
+      "m2.check → widget-m2-knowledge-check.html",
+      "m2.affected → widget-affected-flips.html",
+      "m2.exploreImpacts → widget-m2-explore-impacts.html",
+      "m2.impacts → widget-impact-carousel.html",
+      "m3.reportingSystems → widget-m3-reporting-systems.html",
+      "m3.regionTabs → widget-m3-region-tabs.html",
+      "m3.checklist → widget-m3-reporting-checklist.html",
+      "m3.sorting → widget-m3-sorting.html",
+      "m3.trueFalse → widget-m3-true-false.html",
+      "m4.lawTabs → widget-m4-law-tabs.html",
+      "m4.limits → widget-m4-limits-list.html",
+      "m4.regions → widget-m4-regions-accordion.html",
+      "m4.check → widget-m4-knowledge-check.html",
+      "m5.layers (+ flow1/flow2/flow3 step bodies) → widget-m5-layers.html",
+      "m5.match → widget-m5-match.html",
+      "summary.quiz → widget-summary-final-quiz.html",
+      "summary.furtherAction → widget-summary-further-action.html",
+      "embeds.sensitiveNotice → sensitive-notice-embed.html",
+      "embeds.miniDictionary → mini-dictionary-embed.html",
+      "embeds.scroll → more-scroll-embed.html / scroll-fade-embed.html"
+    ],
+    "widgets_pending_wire": [],
+    "native_slide_text": {
+      "status": "cataloged_under_mN.slide.* — builders still hardcode strings when posting to ScormStack (except WRONG via uaoa_common)",
+      "wired": false,
+      "sources": [
+        "scripts/build_module1.py",
+        "scripts/build_module2.py",
+        "scripts/build_module3.py",
+        "scripts/build_module4.py",
+        "scripts/build_module5.py",
+        "scripts/build_summary.py",
+        "scripts/uaoa_common.py",
+        "scripts/uaoa_notice.py",
+        "source/mini-dictionary.txt"
+      ]
+    },
+    "scormstack_system_labels": "216 player/system labels from course default_locale (en). Export keys: player.systemLabels.<group>.<name>. Omitted from widget embeds."
+  },
+  "player": {
+    "systemLabels": {
+      "access": {
+        "choose_nickname": {
+          "text": "Choose a Nickname",
+          "note": "ScormStack player/system label `access.choose_nickname`"
+        },
+        "contact_provider": {
+          "text": "Contact the course provider if you need the password.",
+          "note": "ScormStack player/system label `access.contact_provider`"
+        },
+        "continue": {
+          "text": "Continue",
+          "note": "ScormStack player/system label `access.continue`"
+        },
+        "enter_email": {
+          "text": "Enter Your Email",
+          "note": "ScormStack player/system label `access.enter_email`"
+        },
+        "enter_email_description": {
+          "text": "We use your email to identify yourself",
+          "note": "ScormStack player/system label `access.enter_email_description`"
+        },
+        "enter_email_placeholder": {
+          "text": "your@email.com",
+          "note": "ScormStack player/system label `access.enter_email_placeholder`"
+        },
+        "enter_name": {
+          "text": "Enter Your Name",
+          "note": "ScormStack player/system label `access.enter_name`"
+        },
+        "enter_password": {
+          "text": "Enter password",
+          "note": "ScormStack player/system label `access.enter_password`"
+        },
+        "failed_to_save": {
+          "text": "Failed to save. Please try again.",
+          "note": "ScormStack player/system label `access.failed_to_save`"
+        },
+        "field_required": {
+          "text": "This field is required",
+          "note": "ScormStack player/system label `access.field_required`"
+        },
+        "incorrect_password": {
+          "text": "Incorrect password. Please try again.",
+          "note": "ScormStack player/system label `access.incorrect_password`"
+        },
+        "invalid_email": {
+          "text": "Please enter a valid email address",
+          "note": "ScormStack player/system label `access.invalid_email`"
+        },
+        "max_length": {
+          "text": "Must be 100 characters or less",
+          "note": "ScormStack player/system label `access.max_length`"
+        },
+        "min_length": {
+          "text": "Must be at least 2 characters",
+          "note": "ScormStack player/system label `access.min_length`"
+        },
+        "name_description": {
+          "text": "Enter your name to identify yourself",
+          "note": "ScormStack player/system label `access.name_description`"
+        },
+        "name_placeholder": {
+          "text": "e.g., John Doe",
+          "note": "ScormStack player/system label `access.name_placeholder`"
+        },
+        "nickname_description": {
+          "text": "Pick a nickname to identify yourself",
+          "note": "ScormStack player/system label `access.nickname_description`"
+        },
+        "nickname_placeholder": {
+          "text": "e.g., BluePhoenix42",
+          "note": "ScormStack player/system label `access.nickname_placeholder`"
+        },
+        "password_description": {
+          "text": "This course is password protected. Please enter the password to access the content.",
+          "note": "ScormStack player/system label `access.password_description`"
+        },
+        "password_not_configured": {
+          "text": "Password verification not configured properly.",
+          "note": "ScormStack player/system label `access.password_not_configured`"
+        },
+        "password_required": {
+          "text": "Password Required",
+          "note": "ScormStack player/system label `access.password_required`"
+        },
+        "progress_tracked": {
+          "text": "Your progress will be tracked",
+          "note": "ScormStack player/system label `access.progress_tracked`"
+        },
+        "saved": {
+          "text": "Saved!",
+          "note": "ScormStack player/system label `access.saved`"
+        },
+        "saving": {
+          "text": "Saving...",
+          "note": "ScormStack player/system label `access.saving`"
+        },
+        "unable_to_verify": {
+          "text": "Unable to verify password. Please try again.",
+          "note": "ScormStack player/system label `access.unable_to_verify`"
+        },
+        "verifying": {
+          "text": "Verifying...",
+          "note": "ScormStack player/system label `access.verifying`"
+        }
+      },
+      "accordion": {
+        "collapse": {
+          "text": "Collapse",
+          "note": "ScormStack player/system label `accordion.collapse`"
+        },
+        "expand": {
+          "text": "Expand",
+          "note": "ScormStack player/system label `accordion.expand`"
+        }
+      },
+      "assessment": {
+        "assessment_not_passed": {
+          "text": "Assessment not passed",
+          "note": "ScormStack player/system label `assessment.assessment_not_passed`"
+        },
+        "assessment_passed": {
+          "text": "Assessment passed",
+          "note": "ScormStack player/system label `assessment.assessment_passed`"
+        },
+        "assessment_results": {
+          "text": "Assessment results",
+          "note": "ScormStack player/system label `assessment.assessment_results`"
+        },
+        "attempts": {
+          "text": "Attempts",
+          "note": "ScormStack player/system label `assessment.attempts`"
+        },
+        "attempts_available": {
+          "text": "attempts available",
+          "note": "ScormStack player/system label `assessment.attempts_available`"
+        },
+        "attempts_per_question": {
+          "text": "Maximum attempts per question is",
+          "note": "ScormStack player/system label `assessment.attempts_per_question`"
+        },
+        "blanks": {
+          "text": "blanks",
+          "note": "ScormStack player/system label `assessment.blanks`"
+        },
+        "case_insensitive": {
+          "text": "Case insensitive",
+          "note": "ScormStack player/system label `assessment.case_insensitive`"
+        },
+        "case_sensitive": {
+          "text": "Case sensitive",
+          "note": "ScormStack player/system label `assessment.case_sensitive`"
+        },
+        "complete_assessment": {
+          "text": "Complete assessment",
+          "note": "ScormStack player/system label `assessment.complete_assessment`"
+        },
+        "continue_assessment": {
+          "text": "Continue assessment",
+          "note": "ScormStack player/system label `assessment.continue_assessment`"
+        },
+        "correct": {
+          "text": "Correct",
+          "note": "ScormStack player/system label `assessment.correct`"
+        },
+        "correct_answer": {
+          "text": "Correct answer",
+          "note": "ScormStack player/system label `assessment.correct_answer`"
+        },
+        "edit_response": {
+          "text": "Edit Response",
+          "note": "ScormStack player/system label `assessment.edit_response`"
+        },
+        "empty_description": {
+          "text": "Add questions to make this assessment available.",
+          "note": "ScormStack player/system label `assessment.empty_description`"
+        },
+        "enter_response": {
+          "text": "Enter your response here...",
+          "note": "ScormStack player/system label `assessment.enter_response`"
+        },
+        "explanation": {
+          "text": "Explanation",
+          "note": "ScormStack player/system label `assessment.explanation`"
+        },
+        "fill_in_blank": {
+          "choose": {
+            "text": "Choose...",
+            "note": "ScormStack player/system label `assessment.fill_in_blank.choose`"
+          },
+          "type_here": {
+            "text": "Type here...",
+            "note": "ScormStack player/system label `assessment.fill_in_blank.type_here`"
+          }
+        },
+        "incorrect": {
+          "text": "Incorrect",
+          "note": "ScormStack player/system label `assessment.incorrect`"
+        },
+        "next_question": {
+          "text": "Next question",
+          "note": "ScormStack player/system label `assessment.next_question`"
+        },
+        "numerical": {
+          "tolerance": {
+            "text": "Tolerance",
+            "note": "ScormStack player/system label `assessment.numerical.tolerance`"
+          },
+          "type_here": {
+            "text": "Type here...",
+            "note": "ScormStack player/system label `assessment.numerical.type_here`"
+          }
+        },
+        "of": {
+          "text": "of",
+          "note": "ScormStack player/system label `assessment.of`"
+        },
+        "overview": {
+          "text": "Overview",
+          "note": "ScormStack player/system label `assessment.overview`"
+        },
+        "partially_correct": {
+          "text": "Partially correct",
+          "note": "ScormStack player/system label `assessment.partially_correct`"
+        },
+        "points_possible": {
+          "text": "Points possible",
+          "note": "ScormStack player/system label `assessment.points_possible`"
+        },
+        "previous": {
+          "text": "Previous",
+          "note": "ScormStack player/system label `assessment.previous`"
+        },
+        "progress": {
+          "text": "Progress",
+          "note": "ScormStack player/system label `assessment.progress`"
+        },
+        "question": {
+          "text": "Question",
+          "note": "ScormStack player/system label `assessment.question`"
+        },
+        "questions": {
+          "text": "Questions",
+          "note": "ScormStack player/system label `assessment.questions`"
+        },
+        "required": {
+          "text": "Required",
+          "note": "ScormStack player/system label `assessment.required`"
+        },
+        "response_saved": {
+          "text": "Response saved",
+          "note": "ScormStack player/system label `assessment.response_saved`"
+        },
+        "results": {
+          "text": "Results",
+          "note": "ScormStack player/system label `assessment.results`"
+        },
+        "review_questions": {
+          "text": "Review questions",
+          "note": "ScormStack player/system label `assessment.review_questions`"
+        },
+        "score": {
+          "text": "Score",
+          "note": "ScormStack player/system label `assessment.score`"
+        },
+        "start_assessment": {
+          "text": "Start assessment",
+          "note": "ScormStack player/system label `assessment.start_assessment`"
+        },
+        "string": {
+          "type_here": {
+            "text": "Type here...",
+            "note": "ScormStack player/system label `assessment.string.type_here`"
+          }
+        },
+        "submit": {
+          "text": "Submit",
+          "note": "ScormStack player/system label `assessment.submit`"
+        },
+        "submitted": {
+          "text": "Answer submitted",
+          "note": "ScormStack player/system label `assessment.submitted`"
+        },
+        "success_meter": {
+          "checkpoint_reached": {
+            "text": "Checkpoint reached!",
+            "note": "ScormStack player/system label `assessment.success_meter.checkpoint_reached`"
+          },
+          "continue_with_extra_questions": {
+            "text": "Continue with extra questions",
+            "note": "ScormStack player/system label `assessment.success_meter.continue_with_extra_questions`"
+          },
+          "extra_question": {
+            "text": "Extra question",
+            "note": "ScormStack player/system label `assessment.success_meter.extra_question`"
+          },
+          "lets_try_a_few_more_questions_to_boost_your_score": {
+            "text": "Let's try a few more questions to boost your score!",
+            "note": "ScormStack player/system label `assessment.success_meter.lets_try_a_few_more_questions_to_boost_your_score`"
+          },
+          "maximum_attempts_reached": {
+            "text": "Maximum attempts reached",
+            "note": "ScormStack player/system label `assessment.success_meter.maximum_attempts_reached`"
+          },
+          "performance_level": {
+            "text": "Level",
+            "note": "ScormStack player/system label `assessment.success_meter.performance_level`"
+          },
+          "points": {
+            "text": "Points",
+            "note": "ScormStack player/system label `assessment.success_meter.points`"
+          },
+          "to_complete_the_assessment": {
+            "text": "to complete the assessment",
+            "note": "ScormStack player/system label `assessment.success_meter.to_complete_the_assessment`"
+          },
+          "you_need": {
+            "text": "You need",
+            "note": "ScormStack player/system label `assessment.success_meter.you_need`"
+          }
+        },
+        "total_point_possible": {
+          "text": "The total point possible is",
+          "note": "ScormStack player/system label `assessment.total_point_possible`"
+        },
+        "total_points_possible": {
+          "text": "The total points possible are",
+          "note": "ScormStack player/system label `assessment.total_points_possible`"
+        },
+        "try_again": {
+          "text": "Try again",
+          "note": "ScormStack player/system label `assessment.try_again`"
+        },
+        "ungraded_submitted": {
+          "text": "Response submitted",
+          "note": "ScormStack player/system label `assessment.ungraded_submitted`"
+        },
+        "unlimited_attempts": {
+          "text": "You have unlimited attempts to answer this assessment",
+          "note": "ScormStack player/system label `assessment.unlimited_attempts`"
+        },
+        "view_results": {
+          "text": "View results",
+          "note": "ScormStack player/system label `assessment.view_results`"
+        }
+      },
+      "audio": {
+        "show_transcript": {
+          "text": "Show Transcript",
+          "note": "ScormStack player/system label `audio.show_transcript`"
+        }
+      },
+      "categorization": {
+        "drop_here": {
+          "text": "Drop items here",
+          "note": "ScormStack player/system label `categorization.drop_here`"
+        },
+        "item": {
+          "text": "Item",
+          "note": "ScormStack player/system label `categorization.item`"
+        }
+      },
+      "click_on_image": {
+        "click_to_place_area": {
+          "text": "Click to place an area",
+          "note": "ScormStack player/system label `click_on_image.click_to_place_area`"
+        },
+        "click_to_place_area_to_remove": {
+          "text": "Click on placed area to remove it",
+          "note": "ScormStack player/system label `click_on_image.click_to_place_area_to_remove`"
+        },
+        "click_to_place_areas": {
+          "text": "Click to place areas",
+          "note": "ScormStack player/system label `click_on_image.click_to_place_areas`"
+        },
+        "click_to_place_areas_to_remove": {
+          "text": " Click on placed areas to remove them",
+          "note": "ScormStack player/system label `click_on_image.click_to_place_areas_to_remove`"
+        },
+        "click_to_place_areas_up_to_end": {
+          "text": ").",
+          "note": "ScormStack player/system label `click_on_image.click_to_place_areas_up_to_end`"
+        },
+        "click_to_place_areas_up_to_start": {
+          "text": " (up to ",
+          "note": "ScormStack player/system label `click_on_image.click_to_place_areas_up_to_start`"
+        }
+      },
+      "completion": {
+        "completed_description": {
+          "text": "You have successfully completed this course. Well done!",
+          "note": "ScormStack player/system label `completion.completed_description`"
+        },
+        "completed_title": {
+          "text": "Course Completed",
+          "note": "ScormStack player/system label `completion.completed_title`"
+        },
+        "continue_reviewing": {
+          "text": "Continue Reviewing",
+          "note": "ScormStack player/system label `completion.continue_reviewing`"
+        },
+        "debug_info": {
+          "text": "Debug Info",
+          "note": "ScormStack player/system label `completion.debug_info`"
+        },
+        "exit_course": {
+          "text": "Exit Course",
+          "note": "ScormStack player/system label `completion.exit_course`"
+        },
+        "failed_description": {
+          "text": "You have completed this course. You may want to review the material and try again to achieve a passing score.",
+          "note": "ScormStack player/system label `completion.failed_description`"
+        },
+        "na": {
+          "text": "N/A",
+          "note": "ScormStack player/system label `completion.na`"
+        },
+        "passed_title": {
+          "text": "Congratulations! You passed!",
+          "note": "ScormStack player/system label `completion.passed_title`"
+        },
+        "passing": {
+          "text": "Passing",
+          "note": "ScormStack player/system label `completion.passing`"
+        },
+        "score": {
+          "text": "Score",
+          "note": "ScormStack player/system label `completion.score`"
+        },
+        "scorm_version": {
+          "text": "SCORM Version",
+          "note": "ScormStack player/system label `completion.scorm_version`"
+        },
+        "status": {
+          "text": "Status",
+          "note": "ScormStack player/system label `completion.status`"
+        },
+        "your_score": {
+          "text": "Your Score",
+          "note": "ScormStack player/system label `completion.your_score`"
+        }
+      },
+      "continue": {
+        "auto_progress": {
+          "text": "Auto progress after delay",
+          "note": "ScormStack player/system label `continue.auto_progress`"
+        },
+        "button_text": {
+          "text": "Button Text",
+          "note": "ScormStack player/system label `continue.button_text`"
+        },
+        "continue": {
+          "text": "Continue",
+          "note": "ScormStack player/system label `continue.continue`"
+        }
+      },
+      "flashcard": {
+        "card": {
+          "text": "Flashcard",
+          "note": "ScormStack player/system label `flashcard.card`"
+        },
+        "card_number": {
+          "text": "Card",
+          "note": "ScormStack player/system label `flashcard.card_number`"
+        },
+        "click_to_flip": {
+          "text": "Click to flip",
+          "note": "ScormStack player/system label `flashcard.click_to_flip`"
+        },
+        "click_to_flip_back": {
+          "text": "Click to flip back",
+          "note": "ScormStack player/system label `flashcard.click_to_flip_back`"
+        },
+        "no_flashcards": {
+          "text": "No flashcards available",
+          "note": "ScormStack player/system label `flashcard.no_flashcards`"
+        },
+        "press_to_flip": {
+          "text": "Press Enter or Space to flip",
+          "note": "ScormStack player/system label `flashcard.press_to_flip`"
+        },
+        "showing_back": {
+          "text": "Showing back side",
+          "note": "ScormStack player/system label `flashcard.showing_back`"
+        },
+        "showing_front": {
+          "text": "Showing front side",
+          "note": "ScormStack player/system label `flashcard.showing_front`"
+        }
+      },
+      "flow": {
+        "begin": {
+          "text": "Begin",
+          "note": "ScormStack player/system label `flow.begin`"
+        },
+        "of": {
+          "text": "of",
+          "note": "ScormStack player/system label `flow.of`"
+        },
+        "start_again": {
+          "text": "Start Again",
+          "note": "ScormStack player/system label `flow.start_again`"
+        },
+        "step": {
+          "text": "Step",
+          "note": "ScormStack player/system label `flow.step`"
+        }
+      },
+      "general": {
+        "cancel": {
+          "text": "Cancel",
+          "note": "ScormStack player/system label `general.cancel`"
+        },
+        "close": {
+          "text": "Close",
+          "note": "ScormStack player/system label `general.close`"
+        },
+        "download": {
+          "text": "Download",
+          "note": "ScormStack player/system label `general.download`"
+        },
+        "error": {
+          "text": "Error",
+          "note": "ScormStack player/system label `general.error`"
+        },
+        "loading": {
+          "text": "Loading...",
+          "note": "ScormStack player/system label `general.loading`"
+        },
+        "retry": {
+          "text": "Retry",
+          "note": "ScormStack player/system label `general.retry`"
+        },
+        "save": {
+          "text": "Save",
+          "note": "ScormStack player/system label `general.save`"
+        }
+      },
+      "homepage": {
+        "course_home": {
+          "text": "Home",
+          "note": "ScormStack player/system label `homepage.course_home`"
+        },
+        "start_course": {
+          "text": "Start course",
+          "note": "ScormStack player/system label `homepage.start_course`"
+        },
+        "table_of_contents": {
+          "text": "Table of contents",
+          "note": "ScormStack player/system label `homepage.table_of_contents`"
+        }
+      },
+      "interactive_image": {
+        "click_to_view": {
+          "text": "Click to view content",
+          "note": "ScormStack player/system label `interactive_image.click_to_view`"
+        },
+        "close_modal": {
+          "text": "Close modal",
+          "note": "ScormStack player/system label `interactive_image.close_modal`"
+        },
+        "close_sidebar": {
+          "text": "Close sidebar",
+          "note": "ScormStack player/system label `interactive_image.close_sidebar`"
+        },
+        "close_tooltip": {
+          "text": "Close tooltip",
+          "note": "ScormStack player/system label `interactive_image.close_tooltip`"
+        },
+        "hotspot": {
+          "text": "Hotspot",
+          "note": "ScormStack player/system label `interactive_image.hotspot`"
+        },
+        "press_escape_close": {
+          "text": "Press Escape to close",
+          "note": "ScormStack player/system label `interactive_image.press_escape_close`"
+        },
+        "press_to_view": {
+          "text": "Press Enter or Space to view details",
+          "note": "ScormStack player/system label `interactive_image.press_to_view`"
+        }
+      },
+      "matching": {
+        "pairedItems": {
+          "text": "Paired Items",
+          "note": "ScormStack player/system label `matching.pairedItems`"
+        },
+        "pairedItemsAriaLabel": {
+          "text": "Paired items. Press Space or Enter to unpair.",
+          "note": "ScormStack player/system label `matching.pairedItemsAriaLabel`"
+        }
+      },
+      "media": {
+        "alt_text": {
+          "text": "Image description",
+          "note": "ScormStack player/system label `media.alt_text`"
+        },
+        "caption": {
+          "text": "Caption",
+          "note": "ScormStack player/system label `media.caption`"
+        },
+        "error": {
+          "text": "Failed to load media",
+          "note": "ScormStack player/system label `media.error`"
+        },
+        "loading": {
+          "text": "Loading media...",
+          "note": "ScormStack player/system label `media.loading`"
+        }
+      },
+      "navigation": {
+        "back": {
+          "text": "Back",
+          "note": "ScormStack player/system label `navigation.back`"
+        },
+        "completed": {
+          "text": "Completed",
+          "note": "ScormStack player/system label `navigation.completed`"
+        },
+        "continue": {
+          "text": "Continue",
+          "note": "ScormStack player/system label `navigation.continue`"
+        },
+        "current_page": {
+          "text": "Current page",
+          "note": "ScormStack player/system label `navigation.current_page`"
+        },
+        "finish": {
+          "text": "Finish",
+          "note": "ScormStack player/system label `navigation.finish`"
+        },
+        "go_to_card": {
+          "text": "Go to card {card}",
+          "note": "ScormStack player/system label `navigation.go_to_card`"
+        },
+        "go_to_page": {
+          "text": "Go to page {page}",
+          "note": "ScormStack player/system label `navigation.go_to_page`"
+        },
+        "next": {
+          "text": "Next",
+          "note": "ScormStack player/system label `navigation.next`"
+        },
+        "of": {
+          "text": "of",
+          "note": "ScormStack player/system label `navigation.of`"
+        },
+        "previous": {
+          "text": "Previous",
+          "note": "ScormStack player/system label `navigation.previous`"
+        }
+      },
+      "reactions": {
+        "comment_help": {
+          "text": "This comment is sent with analytics but not stored in resume data.",
+          "note": "ScormStack player/system label `reactions.comment_help`"
+        },
+        "comment_label": {
+          "text": "Add a short comment",
+          "note": "ScormStack player/system label `reactions.comment_label`"
+        },
+        "comment_placeholder": {
+          "text": "Share a short comment (150 characters max)",
+          "note": "ScormStack player/system label `reactions.comment_placeholder`"
+        },
+        "comment_sent": {
+          "text": "Comment sent",
+          "note": "ScormStack player/system label `reactions.comment_sent`"
+        },
+        "complete_above": {
+          "text": "Complete the content above to react.",
+          "note": "ScormStack player/system label `reactions.complete_above`"
+        },
+        "learned_something": {
+          "text": "I learnt something",
+          "note": "ScormStack player/system label `reactions.learned_something`"
+        },
+        "like": {
+          "text": "I Like",
+          "note": "ScormStack player/system label `reactions.like`"
+        },
+        "not_up_to_date": {
+          "text": "This is outdated",
+          "note": "ScormStack player/system label `reactions.not_up_to_date`"
+        },
+        "prompt": {
+          "text": "How do you feel about this content?",
+          "note": "ScormStack player/system label `reactions.prompt`"
+        },
+        "question": {
+          "text": "I have a question",
+          "note": "ScormStack player/system label `reactions.question`"
+        },
+        "rating_prompt": {
+          "text": "How would you rate this content?",
+          "note": "ScormStack player/system label `reactions.rating_prompt`"
+        },
+        "selection_locked": {
+          "text": "Your reaction is saved and locked.",
+          "note": "ScormStack player/system label `reactions.selection_locked`"
+        },
+        "send_comment": {
+          "text": "Send comment",
+          "note": "ScormStack player/system label `reactions.send_comment`"
+        }
+      },
+      "resume": {
+        "last_on": {
+          "text": "You were last on",
+          "note": "ScormStack player/system label `resume.last_on`"
+        },
+        "loading_course": {
+          "text": "Loading course...",
+          "note": "ScormStack player/system label `resume.loading_course`"
+        },
+        "of": {
+          "text": "of",
+          "note": "ScormStack player/system label `resume.of`"
+        },
+        "please_wait": {
+          "text": "Please wait while we prepare your learning experience.",
+          "note": "ScormStack player/system label `resume.please_wait`"
+        },
+        "progress_saved": {
+          "text": "Your progress has been saved automatically",
+          "note": "ScormStack player/system label `resume.progress_saved`"
+        },
+        "resume_course": {
+          "text": "Resume Course",
+          "note": "ScormStack player/system label `resume.resume_course`"
+        },
+        "slide": {
+          "text": "Slide",
+          "note": "ScormStack player/system label `resume.slide`"
+        },
+        "start_over": {
+          "text": "Start Over",
+          "note": "ScormStack player/system label `resume.start_over`"
+        },
+        "welcome_back": {
+          "text": "Welcome back!",
+          "note": "ScormStack player/system label `resume.welcome_back`"
+        }
+      },
+      "separator": {
+        "section_break": {
+          "text": "Section break",
+          "note": "ScormStack player/system label `separator.section_break`"
+        }
+      },
+      "slide_intro": {
+        "learning_objectives": {
+          "text": "Learning Objectives",
+          "note": "ScormStack player/system label `slide_intro.learning_objectives`"
+        },
+        "lesson": {
+          "text": "Lesson",
+          "note": "ScormStack player/system label `slide_intro.lesson`"
+        },
+        "minute": {
+          "text": "minute",
+          "note": "ScormStack player/system label `slide_intro.minute`"
+        },
+        "minutes": {
+          "text": "minutes",
+          "note": "ScormStack player/system label `slide_intro.minutes`"
+        },
+        "of": {
+          "text": "of",
+          "note": "ScormStack player/system label `slide_intro.of`"
+        },
+        "table_of_contents": {
+          "text": "Table of contents",
+          "note": "ScormStack player/system label `slide_intro.table_of_contents`"
+        },
+        "untitled_lesson": {
+          "text": "Untitled Lesson",
+          "note": "ScormStack player/system label `slide_intro.untitled_lesson`"
+        }
+      },
+      "sorting": {
+        "correct_order": {
+          "text": "Correct order",
+          "note": "ScormStack player/system label `sorting.correct_order`"
+        },
+        "correct_position": {
+          "text": "Correct position",
+          "note": "ScormStack player/system label `sorting.correct_position`"
+        },
+        "drag_item": {
+          "text": "Drag item",
+          "note": "ScormStack player/system label `sorting.drag_item`"
+        },
+        "item": {
+          "text": "Item",
+          "note": "ScormStack player/system label `sorting.item`"
+        },
+        "move_next": {
+          "text": "Move next",
+          "note": "ScormStack player/system label `sorting.move_next`"
+        },
+        "move_previous": {
+          "text": "Move previous",
+          "note": "ScormStack player/system label `sorting.move_previous`"
+        },
+        "position_for": {
+          "text": "Position for",
+          "note": "ScormStack player/system label `sorting.position_for`"
+        }
+      },
+      "tabs": {
+        "more": {
+          "text": "more",
+          "note": "ScormStack player/system label `tabs.more`"
+        }
+      },
+      "time_requirements": {
+        "completed": {
+          "text": "Time requirement completed",
+          "note": "ScormStack player/system label `time_requirements.completed`"
+        },
+        "done": {
+          "text": "Done",
+          "note": "ScormStack player/system label `time_requirements.done`"
+        },
+        "elapsed": {
+          "text": "Elapsed: {time}",
+          "note": "ScormStack player/system label `time_requirements.elapsed`"
+        },
+        "minute": {
+          "text": "minute",
+          "note": "ScormStack player/system label `time_requirements.minute`"
+        },
+        "minutes": {
+          "text": "minutes",
+          "note": "ScormStack player/system label `time_requirements.minutes`"
+        },
+        "remaining": {
+          "text": "{time} remaining",
+          "note": "ScormStack player/system label `time_requirements.remaining`"
+        },
+        "second": {
+          "text": "second",
+          "note": "ScormStack player/system label `time_requirements.second`"
+        },
+        "seconds": {
+          "text": "seconds",
+          "note": "ScormStack player/system label `time_requirements.seconds`"
+        },
+        "spend_at_least": {
+          "text": "Spend at least {time} on this section",
+          "note": "ScormStack player/system label `time_requirements.spend_at_least`"
+        }
+      },
+      "timeline": {
+        "no_events": {
+          "text": "No timeline events to display",
+          "note": "ScormStack player/system label `timeline.no_events`"
+        }
+      },
+      "video": {
+        "error": {
+          "text": "Error loading video",
+          "note": "ScormStack player/system label `video.error`"
+        },
+        "loading": {
+          "text": "Loading video...",
+          "note": "ScormStack player/system label `video.loading`"
+        },
+        "pause": {
+          "text": "Pause",
+          "note": "ScormStack player/system label `video.pause`"
+        },
+        "play": {
+          "text": "Play",
+          "note": "ScormStack player/system label `video.play`"
+        }
+      },
+      "web_simulation": {
+        "area": {
+          "text": "area",
+          "note": "ScormStack player/system label `web_simulation.area`"
+        },
+        "click_on_image": {
+          "text": "Click on image",
+          "note": "ScormStack player/system label `web_simulation.click_on_image`"
+        },
+        "failed_to_load_image": {
+          "text": "Failed to load image",
+          "note": "ScormStack player/system label `web_simulation.failed_to_load_image`"
+        },
+        "loading": {
+          "text": "Loading simulation...",
+          "note": "ScormStack player/system label `web_simulation.loading`"
+        },
+        "navigate_to": {
+          "text": "Navigate to",
+          "note": "ScormStack player/system label `web_simulation.navigate_to`"
+        },
+        "no_image_configured": {
+          "text": "No image configured for this step",
+          "note": "ScormStack player/system label `web_simulation.no_image_configured`"
+        },
+        "of": {
+          "text": "of",
+          "note": "ScormStack player/system label `web_simulation.of`"
+        },
+        "progress": {
+          "text": "Progress",
+          "note": "ScormStack player/system label `web_simulation.progress`"
+        },
+        "restart": {
+          "text": "Restart",
+          "note": "ScormStack player/system label `web_simulation.restart`"
+        },
+        "start": {
+          "text": "Start",
+          "note": "ScormStack player/system label `web_simulation.start`"
+        },
+        "step": {
+          "text": "Step",
+          "note": "ScormStack player/system label `web_simulation.step`"
+        }
+      }
+    }
+  }
+}

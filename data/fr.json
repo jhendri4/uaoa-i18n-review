@@ -1,0 +1,3569 @@
+{
+  "_meta": {
+    "locale": "fr",
+    "version": 1,
+    "description": "UAOA elearning — fr overlay (imported from CSV)"
+  },
+  "common": {
+    "checkUnderstandingHeading": {
+      "text": "Vérifiez votre compréhension",
+      "note": "Learning-section pill before knowledge-check widgets (Off-black #0F1524 / Sky blue #21B7CB)"
+    },
+    "learningActivityHeading": {
+      "text": "Activité d'apprentissage",
+      "note": "Learning-section pill before interactives (same shell as checkUnderstandingHeading)"
+    },
+    "next": {
+      "text": "Suivant",
+      "note": "Primary forward button on series / quiz widgets"
+    },
+    "completed": {
+      "text": "Complété",
+      "note": "Replaces Next after the last step on some widgets"
+    },
+    "tryAgain": {
+      "text": "Essayer à nouveau",
+      "note": "Retry full activity"
+    },
+    "activityComplete": {
+      "text": "Activité terminée",
+      "note": "Short done banner"
+    },
+    "activityCompleteRevisit": {
+      "text": "Activité terminée. Vous pouvez revenir sur les questions à tout moment.",
+      "note": "Done banner with revisit hint (knowledge-check style)"
+    },
+    "answerChoicesAria": {
+      "text": "choix de réponses",
+      "note": "aria-label on radiogroup / options"
+    },
+    "notQuiteReview": {
+      "text": "<strong>Pas tout à fait. Examinez les options et réessayez.</strong>",
+      "note": "Shared incorrect feedback; HTML allowed"
+    },
+    "previous": {
+      "text": "Précédent",
+      "note": "Back / previous step button"
+    },
+    "submitAnswers": {
+      "text": "Soumettre les réponses",
+      "note": "Primary submit on multi-select / sorting"
+    },
+    "submitted": {
+      "text": "Soumis",
+      "note": "Disabled submit label after success"
+    },
+    "continue": {
+      "text": "Continuer",
+      "note": "End-of-activity or scroll continue"
+    },
+    "correct": {
+      "text": "<strong>Correct!</strong>",
+      "note": "Short correct prefix; HTML allowed"
+    },
+    "notQuite": {
+      "text": "<strong>Pas tout à fait. Examinez les options et réessayez.</strong>",
+      "note": "Shared incorrect; HTML allowed"
+    },
+    "selectAllThatApply": {
+      "text": "Sélectionnez toutes les réponses qui s'appliquent, puis soumettez."
+    },
+    "nSelected": {
+      "text": "{n} sélectionné",
+      "note": "Count label; {n} = number"
+    },
+    "nOfTotalSelected": {
+      "text": "{n} sur {total} sélectionnés",
+      "note": "Count label; {n}/{total}"
+    },
+    "nOfTotalExplored": {
+      "text": "{n} de {total} exploré",
+      "note": "Flip progress"
+    },
+    "allExplored": {
+      "text": "Toutes les plateformes explorées",
+      "note": "Flip done — platforms; override per widget if needed"
+    },
+    "allStepsReviewed": {
+      "text": "Toutes les étapes ont été examinées."
+    },
+    "questionsCorrect": {
+      "text": "questions correctes",
+      "note": "Score footer under X/Y"
+    },
+    "chooseEllipsis": {
+      "text": "choisir…",
+      "note": "Blank dropdown placeholder"
+    },
+    "true": {
+      "text": "VRAI"
+    },
+    "false": {
+      "text": "FAUX"
+    },
+    "keyTakeaways": {
+      "text": "Points clés à retenir",
+      "note": "Native takeaways heading"
+    },
+    "wrongPlain": {
+      "text": "Pas tout à fait. Examinez les options et réessayez.",
+      "note": "uaoa_common.WRONG — plain, no HTML"
+    }
+  },
+  "m1": {
+    "apply": {
+      "ui": {
+        "choicesAria": {
+          "text": "Choisissez le comportement",
+          "note": "aria-label on the three behaviour choice buttons"
+        }
+      },
+      "labels": {
+        "offensiveSpeech": {
+          "text": "Discours offensant",
+          "note": "Choice button; answer index 0"
+        },
+        "digitalHostility": {
+          "text": "hostilité numérique",
+          "note": "Choice button; answer index 1"
+        },
+        "hateSpeech": {
+          "text": "discours haineux",
+          "note": "Choice button; answer index 2"
+        }
+      },
+      "scenarios": {
+        "s1": {
+          "text": {
+            "text": "Après avoir raté un penalty décisif, un joueur reçoit des centaines de messages hostiles sur plusieurs plateformes de médias sociaux pendant plusieurs jours.",
+            "note": "Scenario prompt; answer = digital hostility"
+          },
+          "ok": {
+            "text": "<strong>Correct !</strong>Le schéma répété et soutenu d'interactions hostiles sur les plateformes numériques est une forme de<strong>hostilité numérique</strong>.",
+            "note": "HTML allowed"
+          },
+          "bad": {
+            "text": "<strong>Pas tout à fait.</strong>Observez le schéma des interactions et leur évolution au fil du temps.<strong>Réessayez.</strong>",
+            "note": "HTML allowed"
+          }
+        },
+        "s2": {
+          "text": {
+            "text": "Un athlète reçoit un commentaire désobligeant qui s'attaque spécifiquement à sa religion.",
+            "note": "Scenario prompt; answer = hate speech"
+          },
+          "ok": {
+            "text": "<strong>Correct !</strong>Le commentaire cible l'athlète en raison de sa religion, une caractéristique protégée, ce qui en fait un exemple de<strong>discours de haine</strong>.",
+            "note": "HTML allowed"
+          },
+          "bad": {
+            "text": "<strong>Pas tout à fait.</strong>Observez le schéma des interactions et leur évolution au fil du temps.<strong>Réessayez.</strong>",
+            "note": "HTML allowed"
+          }
+        },
+        "s3": {
+          "text": {
+            "text": "Suite à une décision controversée, un arbitre reçoit des commentaires humiliants et dégradants de la part d'une partie des supporters mécontents.",
+            "note": "Scenario prompt; answer = offensive speech"
+          },
+          "ok": {
+            "text": "<strong>Correct !</strong>Le commentaire utilise un langage insultant et dégradant dirigé contre l'arbitre, ce qui en fait un exemple de<strong>discours offensant</strong>.",
+            "note": "HTML allowed"
+          },
+          "bad": {
+            "text": "<strong>Pas tout à fait.</strong>Concentrez-vous sur le langage utilisé et sur ce qui le rend nuisible.<strong>Réessayez.</strong>",
+            "note": "HTML allowed"
+          }
+        },
+        "s4": {
+          "text": {
+            "text": "Après un match important, une athlète reçoit des commentaires insultants de la part d'un fan critiquant sa performance.",
+            "note": "Scenario prompt; answer = offensive speech"
+          },
+          "ok": {
+            "text": "<strong>Exact !</strong>Les commentaires utilisent un langage insultant et dégradant centré sur la performance de l'athlète, ce qui constitue un exemple de<strong>propos offensants ¦. Les femmes peuvent être davantage victimes de harcèlement en ligne en raison de leur sexe, même lorsque les messages ne ciblent pas explicitement le sexe comme caractéristique protégée.</strong>",
+            "note": "HTML allowed"
+          },
+          "bad": {
+            "text": "<strong>Pas tout à fait.</strong>Réfléchissez à ce que visent les commentaires.<strong>Réessayez.</strong>",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "forms": {
+      "ui": {
+        "progress": {
+          "text": "{n} de {total} exploré",
+          "note": "Flip progress counter"
+        },
+        "done": {
+          "text": "Toutes les formes explorées"
+        }
+      },
+      "cards": {
+        "c1": {
+          "name": {
+            "text": "discours offensant",
+            "note": "Flip card 1 title"
+          },
+          "body": {
+            "text": "Un langage visant l'identité, l'apparence ou les performances d'une personne dans le but de l'humilier, de l'insulter ou de la dégrader."
+          },
+          "front1": {
+            "text": "OFFENSANT",
+            "note": "Front-of-card stacked label line"
+          },
+          "front2": {
+            "text": "DISCOURS",
+            "note": "Front-of-card stacked label line"
+          }
+        },
+        "c2": {
+          "name": {
+            "text": "Hostilité numérique",
+            "note": "Flip card 2 title"
+          },
+          "body": {
+            "text": "Comportements nuisibles dirigés contre une personne ou un groupe par le biais d'interactions négatives en ligne répétées ou coordonnées, comme les signalements massifs ou le harcèlement collectif."
+          },
+          "front1": {
+            "text": "NUMÉRIQUE",
+            "note": "Front-of-card stacked label line"
+          },
+          "front2": {
+            "text": "HOSTILITÉ",
+            "note": "Front-of-card stacked label line"
+          }
+        },
+        "c3": {
+          "name": {
+            "text": "discours haineux",
+            "note": "Flip card 3 title"
+          },
+          "body": {
+            "text": "Tout langage hostile ou malveillant visant une personne en raison d'une caractéristique protégée, notamment la race, la religion, le sexe, l'orientation sexuelle ou le handicap."
+          },
+          "front1": {
+            "text": "DÉTESTER",
+            "note": "Front-of-card stacked label line"
+          },
+          "front2": {
+            "text": "DISCOURS",
+            "note": "Front-of-card stacked label line"
+          }
+        }
+      }
+    },
+    "formsOverlap": {
+      "line1": {
+        "text": "Il peut exister plusieurs formes de maltraitance."
+      },
+      "line2": {
+        "text": "présents en même temps."
+      }
+    },
+    "protected": {
+      "race": {
+        "text": "Course"
+      },
+      "ethnicity": {
+        "text": "Ethnicité"
+      },
+      "nationality": {
+        "text": "Nationalité"
+      },
+      "gender": {
+        "text": "Genre"
+      },
+      "sexualOrientation": {
+        "text": "Orientation sexuelle",
+        "note": "May wrap to two lines on the tile"
+      },
+      "disability": {
+        "text": "Invalidité"
+      },
+      "religion": {
+        "text": "Religion"
+      }
+    },
+    "platforms": {
+      "ui": {
+        "progress": {
+          "text": "{n} de {total} exploré"
+        },
+        "done": {
+          "text": "Tous les groupes ont exploré"
+        }
+      },
+      "groups": {
+        "g1": {
+          "title": {
+            "text": "Flux de découverte et réseaux sociaux",
+            "note": "Primary front-of-card label"
+          },
+          "platforms": {
+            "text": "[TikTok, Instagram, Facebook]",
+            "note": "Shown under title in bold brackets"
+          },
+          "body": {
+            "text": "Les flux de recommandations et les fonctionnalités de partage peuvent exposer des contenus préjudiciables à un public plus large que celui initialement visé. Plus le nombre d'utilisateurs qui consultent, commentent ou partagent ces contenus augmente, plus les abus en ligne peuvent se propager rapidement et toucher un public plus vaste."
+          }
+        },
+        "g2": {
+          "title": {
+            "text": "Partage de vidéos et diffusion en direct"
+          },
+          "platforms": {
+            "text": "[YouTube, Twitch, Kick]"
+          },
+          "body": {
+            "text": "Les commentaires haineux sur les vidéos peuvent rester visibles longtemps après leur publication, permettant ainsi aux abus de se perpétuer. Lors des diffusions en direct, les messages injurieux peuvent apparaître et se multiplier rapidement en fonction des réactions des spectateurs en temps réel."
+          }
+        },
+        "g3": {
+          "title": {
+            "text": "Conversations publiques"
+          },
+          "platforms": {
+            "text": "[X, Fils]"
+          },
+          "body": {
+            "text": "Les réponses, les partages et les mentions peuvent diffuser des messages injurieux dans les conversations publiques. Lorsque de nombreux utilisateurs y participent, un simple commentaire malveillant peut donner lieu à des attaques répétées ou coordonnées contre une personne."
+          }
+        },
+        "g4": {
+          "title": {
+            "text": "Communautés de discussion"
+          },
+          "platforms": {
+            "text": "[Reddit, Groupes Facebook]"
+          },
+          "body": {
+            "text": "Les commentaires haineux peuvent se propager au sein des communautés en ligne lorsque les membres y répondent, les partagent ou encouragent des comportements similaires. Les discussions de groupe peuvent renforcer les attitudes négatives et entraîner des abus répétés visant la même personne."
+          }
+        },
+        "g5": {
+          "title": {
+            "text": "Messagerie et discussions de groupe"
+          },
+          "platforms": {
+            "text": "[Discord, WhatsApp]"
+          },
+          "body": {
+            "text": "Les messages injurieux peuvent être transférés ou partagés entre individus et groupes, propageant ainsi des contenus nuisibles lors de conversations privées. Le manque de visibilité en dehors de ces espaces peut rendre difficile l'identification et la lutte contre les abus en cours."
+          }
+        }
+      }
+    },
+    "factors": {
+      "ui": {
+        "prompt": {
+          "text": "Sélectionnez les trois facteurs qui peuvent influencer directement la manière dont un contenu préjudiciable se propage et atteint de nouveaux publics en ligne."
+        },
+        "hint": {
+          "text": "Sélectionnez exactement trois options."
+        },
+        "hintReady": {
+          "text": "Trois candidats sélectionnés — prêts à être soumis."
+        },
+        "hintDone": {
+          "text": "Les trois facteurs corrects ont été sélectionnés."
+        },
+        "choicesAria": {
+          "text": "Sélectionnez exactement trois facteurs"
+        },
+        "count": {
+          "text": "{n} sur {total} sélectionnés"
+        },
+        "ok": {
+          "text": "<strong>Exact !</strong>Les fonctionnalités de la plateforme, les systèmes de recommandation et les interactions des utilisateurs peuvent tous influencer la manière dont le contenu est distribué, amplifié et présenté à de nouveaux publics.",
+          "note": "HTML allowed"
+        },
+        "bad": {
+          "text": "<strong>Pas tout à fait. Examinez les options et réessayez.</strong>",
+          "note": "HTML allowed"
+        }
+      },
+      "labels": {
+        "a": {
+          "text": "Conception et fonctionnalités de la plateforme",
+          "note": "Correct"
+        },
+        "b": {
+          "text": "L'âge de la personne ciblée"
+        },
+        "c": {
+          "text": "Systèmes de recommandation et de distribution",
+          "note": "Correct"
+        },
+        "d": {
+          "text": "Le rôle sportif de la personne ciblée"
+        },
+        "e": {
+          "text": "Interactions des utilisateurs telles que les commentaires, les partages et les republications",
+          "note": "Correct"
+        },
+        "f": {
+          "text": "Que le contenu original soit considéré comme offensant"
+        }
+      }
+    },
+    "check": {
+      "ui": {
+        "instructionComplete": {
+          "text": "Complétez la phrase."
+        },
+        "instructionBlanks": {
+          "text": "Choisissez un mot pour chaque espace vide. Chaque mot ne peut être utilisé qu'une seule fois."
+        },
+        "instructionMulti": {
+          "text": "Sélectionnez toutes les réponses qui s'appliquent."
+        },
+        "instructionPair": {
+          "text": "Choisissez la paire de mots qui complète la phrase."
+        },
+        "blankAria": {
+          "text": "Vide {n}",
+          "note": "aria-label; {n} = 1-based index"
+        },
+        "questionsCorrect": {
+          "text": "questions correctes"
+        },
+        "scorePerfect": {
+          "text": "Parfait ! Vous avez répondu correctement à toutes les questions.",
+          "note": "Score message; may vary — check widget"
+        },
+        "scorePartial": {
+          "text": "Beau travail ! Veuillez vérifier ci-dessous les éléments manquants.",
+          "note": "Fallback score message"
+        },
+        "scoreLow": {
+          "text": "Continuez — essayez encore une fois d'approfondir votre compréhension."
+        }
+      },
+      "questions": {
+        "q1": {
+          "label": {
+            "text": "1. Complétez la phrase : Qu’est-ce qui définit la violence en ligne ?"
+          },
+          "prompt": {
+            "text": "La violence en ligne implique des comportements nuisibles dirigés contre une personne ou un groupe par le biais de __________."
+          },
+          "choices": {
+            "a": {
+              "text": "environnements concurrentiels"
+            },
+            "b": {
+              "text": "plateformes numériques",
+              "note": "Correct"
+            },
+            "c": {
+              "text": "espaces publics"
+            },
+            "d": {
+              "text": "événements sportifs"
+            }
+          }
+        },
+        "q2": {
+          "label": {
+            "text": "2. Complétez la phrase : Qu’est-ce qui vous aide à comprendre le contexte qui définit l’abus en ligne ?"
+          },
+          "sentenceBefore": {
+            "text": "Lors de l'identification d'abus en ligne, tenez compte des"
+          },
+          "sentenceMid1": {
+            "text": "étant utilisé, que le comportement ait une signification claire"
+          },
+          "sentenceMid2": {
+            "text": "et le"
+          },
+          "sentenceAfter": {
+            "text": "d'interactions répétées."
+          },
+          "choices": {
+            "language": {
+              "text": "langue",
+              "note": "Correct blank 1"
+            },
+            "target": {
+              "text": "cible",
+              "note": "Correct blank 2 — clear target"
+            },
+            "pattern": {
+              "text": "modèle",
+              "note": "Correct blank 3 — pattern of repeated interactions"
+            }
+          }
+        },
+        "q3": {
+          "label": {
+            "text": "3. Quelle est la caractéristique protégée ?"
+          },
+          "choices": {
+            "religion": {
+              "text": "Religion",
+              "note": "Correct"
+            },
+            "performance": {
+              "text": "performance athlétique"
+            },
+            "disability": {
+              "text": "Invalidité",
+              "note": "Correct"
+            },
+            "position": {
+              "text": "Position dans l'équipe"
+            },
+            "ethnicity": {
+              "text": "Ethnicité",
+              "note": "Correct"
+            }
+          }
+        },
+        "q4": {
+          "label": {
+            "text": "4. Complétez la phrase : Comment les abus en ligne peuvent-ils se développer ?"
+          },
+          "prompt": {
+            "text": "Différentes formes de violence en ligne peuvent __________, et une seule interaction nuisible peut __________ lorsque d'autres personnes la commentent, la partagent, la republient ou l'amplifient."
+          },
+          "choices": {
+            "a": {
+              "text": "chevauchement · escalade",
+              "note": "Correct"
+            },
+            "b": {
+              "text": "rester séparés · disparaître"
+            },
+            "c": {
+              "text": "alternative · devenir privé"
+            },
+            "d": {
+              "text": "interagir · devenir inoffensif"
+            }
+          }
+        }
+      }
+    },
+    "matteo": {
+      "ui": {
+        "navAria": {
+          "text": "Navigation par carte"
+        },
+        "prevAria": {
+          "text": "Carte précédente"
+        },
+        "nextAria": {
+          "text": "Carte suivante"
+        }
+      },
+      "cards": {
+        "c1": {
+          "title": {
+            "text": "1 - Pression"
+          },
+          "alt": {
+            "text": "Matteo se prépare sous pression",
+            "note": "Image alt text"
+          },
+          "html": {
+            "text": "<p><strong>Matteo est un athlète universitaire de volley-ball de haut niveau qui ambitionne de rejoindre l'équipe nationale.</strong></p><p>Entre des cours exigeants et un entraînement intensif, il subit une pression considérable et a du mal à rester concentré.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "c2": {
+          "title": {
+            "text": "2 - Le Match"
+          },
+          "alt": {
+            "text": "Matteo pendant le match",
+            "note": "Image alt text"
+          },
+          "html": {
+            "text": "<p>Lors d'un match important, Matteo rate son service sur la balle de match, offrant la victoire à son équipe. Le public réagit vivement et certains spectateurs, depuis les tribunes, profèrent des critiques acerbes à son sujet. Les réactions se poursuivent alors que Matteo quitte le court.</p><p><strong>S'agit-il de harcèlement en ligne ? Non.</strong></p><p>Les critiques peuvent être agressives et blessantes, mais ce phénomène existe aussi<strong>hors ligne ¦. Cependant, les réactions qui naissent lors d'un événement sportif, sur le terrain, peuvent rapidement se propager dans l'espace numérique et toucher un public beaucoup plus large.</strong></p>",
+            "note": "HTML allowed"
+          }
+        },
+        "c3": {
+          "title": {
+            "text": "3 - Il passe en ligne"
+          },
+          "alt": {
+            "text": "Les critiques se déplacent sur les réseaux sociaux",
+            "note": "Image alt text"
+          },
+          "html": {
+            "text": "<p>Après le match, les critiques se déplacent en ligne. Un fan publie une vidéo du service raté de Matteo, identifie son compte sur les réseaux sociaux et ajoute des commentaires insultants et humiliants destinés à le ridiculiser.</p><p><strong>La situation relève du harcèlement en ligne.</strong></p><p>Ce fan utilise un contenu insultant et humiliant à l'encontre de Matteo via une plateforme numérique. Il s'agit de propos offensants.<strong></strong></p>",
+            "note": "HTML allowed"
+          }
+        },
+        "c4": {
+          "title": {
+            "text": "4 - La situation s'aggrave"
+          },
+          "alt": {
+            "text": "Des commentaires hostiles se propagent en ligne",
+            "note": "Image alt text"
+          },
+          "html": {
+            "text": "<p>Le lendemain, de nombreux utilisateurs se sont joints à la polémique. Des commentaires hostiles fleurissent sur les réseaux sociaux de Matteo, et la vidéo de son service raté est partagée en boucle, accompagnée de messages insultants. La situation a dégénéré en harcèlement en ligne. Ce qui a commencé avec un seul utilisateur s'est transformé en un schéma répété et collectif d'interactions hostiles sur Internet.</p><p><strong></strong></p><p><strong></strong></p>",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "takeaways": {
+      "heading": {
+        "text": "Points clés à retenir"
+      },
+      "items": {
+        "i1": {
+          "text": "<strong>Les abus en ligne prennent différentes formes.</strong>Les propos injurieux, les discours haineux et l'hostilité numérique nous aident à reconnaître les différentes manières dont les comportements nuisibles peuvent apparaître et se développer en ligne.",
+          "note": "HTML allowed"
+        },
+        "i2": {
+          "text": "<strong>Le contexte est important.</strong>Tenez compte du langage utilisé, de la personne ou de la chose visée et du schéma des interactions pour identifier les abus en ligne.",
+          "note": "HTML allowed"
+        },
+        "i3": {
+          "text": "<strong>Différentes formes de violence peuvent se chevaucher. Une même interaction peut impliquer plusieurs comportements, et ses caractéristiques peuvent évoluer au fil de la situation.</strong>",
+          "note": "HTML allowed"
+        },
+        "i4": {
+          "text": "<strong>Les abus en ligne peuvent s'aggraver.</strong>Un simple message malveillant peut engendrer une hostilité répétée ou collective lorsque d'autres personnes commentent, partagent, republient ou amplifient le contenu.",
+          "note": "HTML allowed"
+        },
+        "i5": {
+          "text": "<strong>Certaines personnes sont exposées à des risques disproportionnés.</strong>L’identité, la visibilité, le rôle et d’autres facteurs contextuels peuvent influencer les personnes ciblées ainsi que la nature ou l’intensité des abus qu’elles subissent.",
+          "note": "HTML allowed"
+        },
+        "i6": {
+          "text": "<strong>La prise de conscience est la première étape vers l'action.</strong>Comprendre à quoi ressemble la violence en ligne aide à identifier les situations préjudiciables et à réagir plus efficacement.",
+          "note": "HTML allowed"
+        }
+      }
+    },
+    "slide": {
+      "title": {
+        "text": "Module 1 : Reconnaître les abus en ligne",
+        "note": "Module / summary slide title"
+      }
+    }
+  },
+  "m2": {
+    "check": {
+      "questions": {
+        "q1": {
+          "prompt": {
+            "text": "Qui peut être touché par les abus en ligne dans le sport ?",
+            "note": "MCQ stem"
+          },
+          "choices": {
+            "c0": {
+              "text": "Uniquement des athlètes professionnels et des officiels de match, principalement."
+            },
+            "c1": {
+              "text": "Toute personne possédant un compte public sur les réseaux sociaux."
+            },
+            "c2": {
+              "text": "Athlètes, officiels, journalistes, organisations et leurs représentants, familles, supporters et autres membres des communautés sportives.",
+              "note": "Correct answer"
+            },
+            "c3": {
+              "text": "Principalement des personnes dont le travail consiste à communiquer directement avec les fans."
+            }
+          },
+          "ok": {
+            "text": "<strong>Exact !</strong>Les abus en ligne peuvent affecter les personnes de tout l'écosystème sportif, y compris celles directement visées et celles qui en sont témoins ou qui en subissent les conséquences plus larges.",
+            "note": "HTML allowed"
+          }
+        },
+        "q2": {
+          "prompt": {
+            "text": "Quelle affirmation décrit le mieux l'impact potentiel des abus en ligne dans le sport ?"
+          },
+          "choices": {
+            "c0": {
+              "text": "Ses effets se limitent principalement à la façon dont les gens se sentent ou réagissent immédiatement après avoir reçu un contenu abusif."
+            },
+            "c1": {
+              "text": "Cela peut avoir des effets à long terme sur le bien-être, l'activité professionnelle, les relations, la participation et la communauté sportive dans son ensemble.",
+              "note": "Correct answer"
+            },
+            "c2": {
+              "text": "C'est un problème qui ne concerne que les athlètes d'élite car ils bénéficient de la plus grande visibilité publique."
+            },
+            "c3": {
+              "text": "Son impact dépend principalement de la fréquence d'utilisation des réseaux sociaux."
+            }
+          },
+          "ok": {
+            "text": "<strong>Tout à fait !</strong>Le harcèlement en ligne peut avoir des répercussions sur de nombreux aspects de la vie et du travail d'une personne. Dans le sport, il affecte souvent davantage les athlètes, quel que soit leur niveau, mais ses conséquences peuvent également toucher les familles, les collègues, les équipes, les supporters et les communautés sportives.",
+            "note": "HTML allowed"
+          }
+        },
+        "q3": {
+          "prompt": {
+            "text": "Un athlète victime de cyberharcèlement répété commence à mal dormir, a des difficultés à se concentrer pendant l'entraînement et publie moins souvent en ligne. Que démontre cet exemple ?"
+          },
+          "choices": {
+            "c0": {
+              "text": "Les différents impacts des abus en ligne peuvent se chevaucher et influencer plusieurs aspects de la vie d'une personne.",
+              "note": "Correct answer"
+            },
+            "c1": {
+              "text": "La réduction de l'activité sur les réseaux sociaux est généralement le principal effet des abus en ligne."
+            },
+            "c2": {
+              "text": "Les performances s'améliorent après qu'un entraîneur a recommandé de réduire l'utilisation des réseaux sociaux."
+            },
+            "c3": {
+              "text": "Les effets des abus en ligne dépendent principalement de la fréquence d'utilisation des réseaux sociaux."
+            }
+          },
+          "ok": {
+            "text": "<strong>Exact !</strong>Les effets peuvent être interdépendants. La détresse émotionnelle, le sommeil, la confiance en soi, la sécurité, la performance et la participation peuvent s'influencer mutuellement et évoluer au fil du temps.",
+            "note": "HTML allowed"
+          }
+        },
+        "q4": {
+          "prompt": {
+            "text": "Que suggèrent les éléments de preuve présentés dans ce module quant à la façon dont les gens réagissent aux abus en ligne ?"
+          },
+          "choices": {
+            "c0": {
+              "text": "Les individus ressentent généralement des effets similaires lorsqu'ils sont exposés à un contenu similaire."
+            },
+            "c1": {
+              "text": "Une forte résilience empêche les abus en ligne d'affecter le bien-être."
+            },
+            "c2": {
+              "text": "Les effets peuvent varier d'une personne à l'autre, et des facteurs personnels et contextuels peuvent influencer la façon dont une personne réagit.",
+              "note": "Correct answer"
+            },
+            "c3": {
+              "text": "Les personnes qui continuent à pratiquer un sport ont peu de chances d'avoir été significativement affectées."
+            }
+          },
+          "ok": {
+            "text": "<strong>Exact !</strong>L’impact des abus en ligne est variable. Les recherches présentées dans ce module indiquent que des facteurs tels que la résilience et l’estime de soi peuvent influencer la façon dont les individus réagissent, mais le fait de continuer à participer ne signifie pas qu’une personne n’a pas été affectée.",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "affected": {
+      "ui": {
+        "progress": {
+          "text": "{n} de {total} exploré"
+        }
+      },
+      "cards": {
+        "c1": {
+          "name": {
+            "text": "Athlètes"
+          },
+          "body": {
+            "text": "La forte visibilité des athlètes les expose fréquemment au harcèlement en ligne. Les résultats sportifs, la perception du public ou l'interprétation de leurs performances, actions ou décisions personnelles peuvent susciter des réactions haineuses. Ces réactions peuvent s'amplifier rapidement, permettant ainsi la diffusion de contenus préjudiciables sur les plateformes numériques."
+          }
+        },
+        "c2": {
+          "name": {
+            "text": "Arbitres"
+          },
+          "body": {
+            "text": "Les officiels peuvent être victimes de harcèlement en ligne suite à des décisions prises pendant une compétition, ce qui s'ajoute aux agressions verbales et physiques qu'ils subissent déjà en personne. Les critiques répétées, les menaces et l'hostilité peuvent engendrer du stress et affecter leur confiance en eux, leur autorité perçue et leur bien-être."
+          }
+        },
+        "c3": {
+          "name": {
+            "text": "Journalistes"
+          },
+          "body": {
+            "text": "Les journalistes jouent un rôle important en reliant les athlètes, les équipes et les organisations sportives à un public plus large. Ils peuvent devenir la cible d'hostilité en ligne en raison de leurs reportages, de leurs commentaires ou de leur position perçue sur un sujet."
+          }
+        },
+        "c4": {
+          "name": {
+            "text": "Sponsors et représentants"
+          },
+          "body": {
+            "text": "Les organisations sportives et leurs financeurs, gestionnaires et représentants peuvent également être la cible d'insultes en ligne. Les contenus hostiles peuvent viser l'organisation elle-même, ses décisions, ses politiques ou ses actions, ou encore certains de ses employés et représentants. Cela peut nuire à sa réputation, à son activité professionnelle, à sa prise de décision et au bien-être des personnes concernées."
+          }
+        },
+        "c5": {
+          "name": {
+            "text": "Familles"
+          },
+          "body": {
+            "text": "Les conséquences des violences en ligne peuvent s'étendre aux familles et aux proches des victimes. Ces derniers peuvent être témoins des violences et de leurs effets, devenir indirectement visés par leur lien avec la personne victime, ou recevoir des messages malveillants qui leur sont personnellement adressés. Ces expériences peuvent également accroître l'inquiétude et la peur pour la sécurité et le bien-être d'un proche."
+          }
+        },
+        "c6": {
+          "name": {
+            "text": "Les fans"
+          },
+          "body": {
+            "text": "Les supporters constituent le groupe le plus important du sport et sont souvent négligés. Ils peuvent être affectés par les abus dont ils sont victimes au sein des communautés sportives, même lorsqu'ils ne sont pas directement visés. Les abus fondés sur l'identité et visant un athlète, un officiel ou une autre personnalité publique peuvent également affecter les supporters qui partagent cette identité, contribuant à créer un climat où ils peuvent se sentir indésirables ou en danger."
+          }
+        }
+      }
+    },
+    "exploreImpacts": {
+      "ui": {
+        "eyebrow": {
+          "text": "Explorer"
+        },
+        "prompt": {
+          "text": "Après avoir reçu à plusieurs reprises des messages injurieux en ligne, un athlète commence à publier moins fréquemment sur les réseaux sociaux. Son entraîneur remarque qu'il semble distrait pendant les entraînements, et il a récemment mentionné des troubles du sommeil et une anxiété liée à la participation à des événements publics."
+        },
+        "hint": {
+          "text": "Sélectionnez au moins 4 réponses qui s'appliquent, puis soumettez."
+        },
+        "count": {
+          "text": "{n} sélectionné"
+        },
+        "ok": {
+          "text": "<strong>Ces impacts peuvent être interdépendants.</strong>Les abus en ligne peuvent affecter simultanément plusieurs aspects de la vie d'une personne, et leurs effets peuvent se développer ou s'intensifier avec le temps. Reconnaître ces signes peut aider les acteurs du monde sportif à réagir avec plus de vigilance et à apporter un soutien accru.",
+          "note": "HTML allowed"
+        },
+        "bad": {
+          "text": "<strong>Pas tout à fait. Réessayez.</strong>",
+          "note": "HTML allowed — shown when first submit is missing some impacts"
+        }
+      },
+      "labels": {
+        "c0": {
+          "text": "Détresse émotionnelle"
+        },
+        "c1": {
+          "text": "Perturbation du sommeil"
+        },
+        "c2": {
+          "text": "Confiance réduite"
+        },
+        "c3": {
+          "text": "Sentiment de sécurité"
+        },
+        "c4": {
+          "text": "Concentration et performance"
+        },
+        "c5": {
+          "text": "S'éloigner"
+        }
+      }
+    },
+    "impacts": {
+      "ui": {
+        "pathwayAria": {
+          "text": "Voie d'impact"
+        },
+        "navAria": {
+          "text": "Navigation du carrousel"
+        },
+        "prevAria": {
+          "text": "Impact antérieur"
+        },
+        "nextAria": {
+          "text": "prochain impact"
+        },
+        "researchHeading": {
+          "text": "Ce que la recherche montre"
+        },
+        "done": {
+          "text": "Activité terminée — vous avez examiné les six impacts"
+        }
+      },
+      "cards": {
+        "c1": {
+          "title": {
+            "text": "Détresse émotionnelle"
+          },
+          "short": {
+            "text": "Détresse",
+            "note": "Pathway short label"
+          },
+          "alt": {
+            "text": "Illustration temporaire · détresse émotionnelle",
+            "note": "Image alt"
+          },
+          "body": {
+            "text": "<p>Le harcèlement en ligne peut engendrer des sentiments de peur, de tristesse, de colère et de frustration. Chez les athlètes, ces expériences peuvent également susciter des inquiétudes quant à leur réputation, leurs perspectives de carrière, leurs relations familiales et amicales, et les performances de leur équipe. Lorsque ce harcèlement est public, sa visibilité et son potentiel de diffusion peuvent aggraver la détresse psychologique.</p>",
+            "note": "HTML allowed"
+          },
+          "research": {
+            "text": "Dans une enquête menée auprès de 85 athlètes de la Division I de la NCAA, une plus grande exposition au harcèlement en ligne était associée à des niveaux plus élevés de symptômes dépressifs. Les chercheurs décrivent les contenus hostiles en ligne comme une source importante de stress psychologique pour les athlètes universitaires.<strong></strong>",
+            "note": "HTML allowed"
+          },
+          "source": {
+            "text": "Hughes, M. C., Demaray, M. K., Skiba, E. A., et Warriner, S. E. (2026). Harcèlement en ligne et santé mentale chez les étudiants-athlètes universitaires : résultats d'une enquête de la conférence NCAA Division I. Journal of Issues in Intercollegiate Athletics.",
+            "note": "Citation; keep author names"
+          }
+        },
+        "c2": {
+          "title": {
+            "text": "Dormir"
+          },
+          "short": {
+            "text": "Dormir",
+            "note": "Pathway short label"
+          },
+          "alt": {
+            "text": "Illustration temporaire · sommeil",
+            "note": "Image alt"
+          },
+          "body": {
+            "text": "<p>Les abus en ligne peuvent perturber le sommeil et la récupération. Les expériences néfastes en ligne peuvent se prolonger au-delà de l'interaction initiale, affectant la capacité d'un athlète à se reposer et à récupérer.</p>",
+            "note": "HTML allowed"
+          },
+          "research": {
+            "text": "Dans une étude menée auprès de 912 jeunes athlètes âgés de 12 à 24 ans, 10,4 % ont déclaré avoir subi des abus en ligne. Parmi eux, 44,3 % ont rapporté des répercussions modérées à graves sur la qualité de leur sommeil.",
+            "note": "HTML allowed"
+          },
+          "source": {
+            "text": "Tooth, C., Kaux, J.-F., Tscholl, P., Touré, A., Muller, F., & Seil, K. (2026). L'influence des médias sociaux sur la santé mentale des jeunes athlètes : une étude transversale. Frontiers in Psychology.",
+            "note": "Citation; keep author names"
+          }
+        },
+        "c3": {
+          "title": {
+            "text": "Confiance et estime de soi"
+          },
+          "short": {
+            "text": "Confiance",
+            "note": "Pathway short label"
+          },
+          "alt": {
+            "text": "Illustration temporaire · confiance",
+            "note": "Image alt"
+          },
+          "body": {
+            "text": "<p>Les abus en ligne ciblent souvent les capacités, le physique ou l'identité d'une personne. Les critiques répétées, notamment les commentaires publiés dans le but d'humilier ou de blesser, peuvent affecter la confiance en soi de la personne visée et la faire douter de ses compétences, de ses décisions et de sa place dans le sport.</p>",
+            "note": "HTML allowed"
+          },
+          "research": {
+            "text": "Des recherches suggèrent que des facteurs internes peuvent influencer la façon dont les individus réagissent à la haine en ligne. Dans une étude menée auprès de 60 personnalités publiques, dont des athlètes olympiques, et de 1 128 internautes, une plus grande résilience et une meilleure estime de soi étaient associées à une moindre préoccupation face à la haine en ligne dont ils étaient victimes. Cela laisse penser que les individus peuvent ressentir différemment un même type d'hostilité, notamment en fonction de leurs ressources psychologiques.<strong></strong><strong></strong>",
+            "note": "HTML allowed"
+          },
+          "source": {
+            "text": "Jędryczka, W., Sorokowski, P., et Dobrowolska, M. (2022). Le rôle de la résilience et de l'estime de soi de la victime face à la haine en ligne. International Journal of Environmental Research and Public Health.",
+            "note": "Citation; keep author names"
+          }
+        },
+        "c4": {
+          "title": {
+            "text": "Sentiment de sécurité"
+          },
+          "short": {
+            "text": "Sécurité",
+            "note": "Pathway short label"
+          },
+          "alt": {
+            "text": "Illustration temporaire · sentiment de sécurité",
+            "note": "Image alt"
+          },
+          "body": {
+            "text": "<p>Les menaces et l'hostilité en ligne peuvent étendre les préoccupations liées à la sécurité au-delà des espaces numériques. Les personnes visées peuvent s'inquiéter pour leur propre sécurité à domicile, pendant les compétitions et dans les lieux publics. Lorsque les menaces concernent également leurs proches, ces préoccupations peuvent s'étendre à leur famille et à leurs êtres chers.<strong></strong><strong></strong><strong></strong></p>",
+            "note": "HTML allowed"
+          },
+          "research": {
+            "text": "Dans le Baromètre 2025 de l'UAOA, près des trois quarts des fédérations sportives interrogées ont indiqué que les menaces visant les sportifs ou leurs proches restent une réalité pour les utilisateurs des réseaux sociaux. Ce constat, déjà présent dans l'édition précédente du Baromètre, témoigne d'une préoccupation constante dans le monde du sport.<strong></strong>",
+            "note": "HTML allowed"
+          },
+          "source": {
+            "text": "Unis contre les abus en ligne. (2025). Baromètre des abus en ligne dans le sport 2025.",
+            "note": "Citation; keep author names"
+          }
+        },
+        "c5": {
+          "title": {
+            "text": "Concentration et performance"
+          },
+          "short": {
+            "text": "Se concentrer",
+            "note": "Pathway short label"
+          },
+          "alt": {
+            "text": "Illustration temporaire · focus et performance",
+            "note": "Image alt"
+          },
+          "body": {
+            "text": "<p>Les effets néfastes du stress psychologique sur la concentration et la performance sont bien documentés. Le harcèlement en ligne pouvant engendrer une détresse psychologique, il peut ainsi nuire à la concentration et aux performances des sportifs, rendant plus difficile la concentration, la prise de décision sous pression et la régularité des performances.</p>",
+            "note": "HTML allowed"
+          },
+          "research": {
+            "text": "Dans une étude menée auprès de 274 arbitres de basketball canadiens, un bien-être accru était significativement associé à une meilleure auto-évaluation de leurs performances d'arbitrage, même après prise en compte de l'expérience. Des recherches antérieures citées par les auteurs ont également révélé que 90 % des arbitres de football estimaient que des symptômes courants de santé mentale pouvaient nuire à leurs performances.<strong></strong><strong></strong><strong></strong>",
+            "note": "HTML allowed"
+          },
+          "source": {
+            "text": "Taylor, N., Hancock, D., et Sullivan, P. (2026). Santé mentale et performance d'arbitrage. Frontiers in Psychology.",
+            "note": "Citation; keep author names"
+          }
+        },
+        "c6": {
+          "title": {
+            "text": "S'éloigner"
+          },
+          "short": {
+            "text": "S'éloigner",
+            "note": "Pathway short label"
+          },
+          "alt": {
+            "text": "Illustration temporaire · s'éloigner",
+            "note": "Image alt"
+          },
+          "body": {
+            "text": "<p>Les abus en ligne peuvent influencer la décision des personnes de continuer à participer, à travailler ou à communiquer ouvertement dans le sport. Certaines peuvent réduire leur présence sur les réseaux sociaux, reconsidérer leur engagement ou devenir plus prudentes quant à ce qu'elles partagent publiquement.<strong></strong></p>",
+            "note": "HTML allowed"
+          },
+          "research": {
+            "text": "Des recherches sur les abus dans le sport ont révélé que les abus, qu'ils soient physiques ou non, étaient associés à une plus forte intention de quitter le sport chez les arbitres de football en Angleterre et au Canada. Ces abus étaient également associés à une diminution du bien-être. Dans le Baromètre 2025 de l'UAOA, 90 % des fédérations sportives interrogées se sont dites préoccupées par le fait que les abus en ligne puissent dissuader des athlètes talentueux de pratiquer leur sport.<strong></strong><strong></strong>",
+            "note": "HTML allowed"
+          },
+          "source": {
+            "text": "Downward, P., Webb, T. et Dawson, P. (2024). Abus des arbitres, intention de quitter le sport et bien-être. Research Quarterly for Exercise and Sport. United Against Online Abuse. (2025). Baromètre des abus en ligne dans le sport 2025.",
+            "note": "Citation; keep author names"
+          }
+        }
+      }
+    },
+    "takeaways": {
+      "heading": {
+        "text": "Points clés à retenir"
+      },
+      "items": {
+        "i1": {
+          "text": "<strong>Les abus en ligne peuvent avoir des conséquences très diverses.</strong>Leur impact peut toucher le bien-être, la confiance en soi, le sentiment de sécurité, les performances, la participation et d'autres aspects de la vie d'une personne.",
+          "note": "HTML allowed"
+        },
+        "i2": {
+          "text": "<strong>Les effets peuvent être interdépendants.</strong>Détresse émotionnelle, troubles du sommeil, perte de confiance en soi, inquiétudes liées à la sécurité et difficultés de concentration peuvent se chevaucher et s'influencer mutuellement.",
+          "note": "HTML allowed"
+        },
+        "i3": {
+          "text": "<strong>Les personnes peuvent être affectées différemment.</strong>Des facteurs personnels et contextuels peuvent influencer la manière dont une personne vit et réagit aux abus en ligne.",
+          "note": "HTML allowed"
+        },
+        "i4": {
+          "text": "<strong>L’impact dépasse le cadre des personnes directement visées.</strong>Les familles, les coéquipiers, les collègues, les supporters, les organisations et d’autres acteurs des communautés sportives peuvent également en subir les conséquences.",
+          "note": "HTML allowed"
+        },
+        "i5": {
+          "text": "<strong>Les abus en ligne peuvent nuire à la participation et à la culture sportive.</strong>Une hostilité persistante peut influencer le sentiment de sécurité, d'accueil et de capacité à participer au sport.",
+          "note": "HTML allowed"
+        },
+        "i6": {
+          "text": "<strong>Les conséquences peuvent aller au-delà du sport.</strong>Lorsque les comportements discriminatoires et abusifs se normalisent, ils peuvent renforcer les préjugés, l'exclusion et l'hostilité au sein de la société en général.",
+          "note": "HTML allowed"
+        }
+      }
+    },
+    "slide": {
+      "title": {
+        "text": "Module 2 : Comprendre l'impact",
+        "note": "Module / summary slide title"
+      },
+      "section1": {
+        "text": "Pourquoi l'impact humain est important",
+        "note": "Section heading"
+      },
+      "section2": {
+        "text": "Qui est touché par les abus en ligne ?",
+        "note": "Section heading"
+      },
+      "section3": {
+        "text": "L'impact des abus en ligne sur les personnes",
+        "note": "Section heading"
+      },
+      "section4": {
+        "text": "Explorez : Quels impacts potentiels des abus en ligne pouvez-vous identifier ?",
+        "note": "Section heading"
+      },
+      "section5": {
+        "text": "Le tableau d'ensemble",
+        "note": "Section heading"
+      }
+    }
+  },
+  "m3": {
+    "regionTabs": {
+      "ui": {
+        "eyebrow": {
+          "text": "Exemple régional"
+        },
+        "prompt": {
+          "text": "Sélectionnez une région"
+        },
+        "placeholder": {
+          "text": "Sélectionnez une région pour afficher un exemple."
+        },
+        "regionsAria": {
+          "text": "Régions"
+        },
+        "close": {
+          "text": "Fermer"
+        },
+        "closeAria": {
+          "text": "Fermer"
+        },
+        "subCountriesAria": {
+          "text": "exemples de membres de l'UE"
+        },
+        "overview": {
+          "text": "Aperçu"
+        }
+      },
+      "tabs": {
+        "t1": {
+          "title": {
+            "text": "Union européenne"
+          },
+          "html": {
+            "text": "<p>Le <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/\" target=\"_blank\" rel=\"noopener\"><strong>Règlement de l'Union européenne sur l'IA</strong></a> utilise un cadre basé sur les risques pour l'IA et introduit des exigences de transparence pour certains contenus générés et manipulés par l'IA, y compris certains deepfakes.</p>",
+            "note": "HTML allowed — European Union AI Act links to EUR-Lex"
+          },
+          "subs": {
+            "slovenia": {
+              "title": {
+                "text": "Slovénie"
+              },
+              "html": {
+                "text": "<p>En Slovénie, l'IA est régie par la <a href=\"https://pisrs.si/pregledPredpisa?id=ZAKO9225#naslov-parent-393613415\" target=\"_blank\" rel=\"noopener\">législation nationale</a> et le <a href=\"https://eur-lex.europa.eu/legal-content/SL/TXT/HTML/?uri=OJ:L_202401689\" target=\"_blank\" rel=\"noopener\">règlement de l'UE sur l'IA</a>. <a href=\"https://www.gov.si/novice/2026-08-03-zacela-so-se-uporabljati-pravila-o-preglednosti-sistemov-umetne-inteligence/\" target=\"_blank\" rel=\"noopener\">Orientations gouvernementales</a>, <a href=\"https://www.ip-rs.si/umetna-inteligenca/pogosta-vpra%C5%A1anja/\" target=\"_blank\" rel=\"noopener\">réponses aux questions courantes</a> et informations réglementaires du <a href=\"https://www.gov.si/en/state-authorities/ministries/ministry-of-the-interior-and-public-administration/about-the-ministry/\" target=\"_blank\" rel=\"noopener\">ministère responsable</a> sont également disponibles.</p>",
+                "note": "HTML allowed — linked phrases open official sources"
+              }
+            },
+            "sweden": {
+              "title": {
+                "text": "Suède"
+              },
+              "html": {
+                "text": "<p>En Suède, la loi européenne sur l'IA s'applique directement et constitue le cadre juridique de la réglementation de l'intelligence artificielle, y compris des contenus générés par l'IA. La Suède ne dispose pas de législation nationale spécifique relative aux contenus générés par l'IA.</p>",
+                "note": "HTML allowed"
+              }
+            },
+            "czechia": {
+              "title": {
+                "text": "Tchéquie"
+              },
+              "html": {
+                "text": "<p>En République tchèque, la loi européenne sur l'IA s'applique directement et fournit le cadre juridique pour la réglementation de l'intelligence artificielle, y compris les contenus générés par l'IA.</p>",
+                "note": "HTML allowed"
+              }
+            },
+            "spain": {
+              "title": {
+                "text": "Espagne"
+              },
+              "html": {
+                "text": "<p>En Espagne, la loi européenne sur l'IA s'applique directement et constitue le cadre juridique de la réglementation de l'intelligence artificielle, y compris des contenus générés par l'IA. L'Agence espagnole de surveillance de l'intelligence artificielle (AESIA) veille au respect de la réglementation en matière d'IA et soutient sa mise en œuvre au niveau national.</p>",
+                "note": "HTML allowed"
+              }
+            }
+          }
+        },
+        "t2": {
+          "title": {
+            "text": "Royaume-Uni"
+          },
+          "html": {
+            "text": "<p>En vertu de la <a href=\"https://www.legislation.gov.uk/ukpga/2023/50\" target=\"_blank\" rel=\"noopener\"><strong>Online Safety Act</strong></a>, le contenu généré par l'IA et partagé par les utilisateurs peut relever des responsabilités des services en ligne réglementés, y compris des obligations pertinentes concernant le contenu illégal et la sécurité des utilisateurs.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "t3": {
+          "title": {
+            "text": "États-Unis"
+          },
+          "html": {
+            "text": "<p>La loi <a href=\"https://www.congress.gov/bill/119th-congress/senate-bill/146\" target=\"_blank\" rel=\"noopener\"><strong>TAKE IT DOWN Act</strong></a> vise à lutter contre le partage d'images intimes sans consentement, y compris les deepfakes générés par l'IA. Elle oblige les plateformes en ligne concernées à proposer un moyen de demander leur retrait et à supprimer les contenus concernés dans les 48 heures suivant une demande valide.</p>",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "checklist": {
+      "ui": {
+        "eyebrow": {
+          "text": "Liste de contrôle"
+        },
+        "title": {
+          "text": "Étapes de signalement"
+        },
+        "progress": {
+          "text": "{n} sur {total} examiné"
+        },
+        "hint": {
+          "text": "Cochez chaque étape au fur et à mesure de votre révision. Non noté.",
+          "note": "Removed from widget UI; kept for translators / legacy"
+        },
+        "done": {
+          "text": "Toutes les étapes ont été examinées."
+        }
+      },
+      "items": {
+        "i1": {
+          "text": "1. Évaluez la situation et votre sécurité. Tenez compte de la nature du contenu et déterminez si vous ou quelqu'un d'autre courez un danger immédiat."
+        },
+        "i2": {
+          "text": "2. Rassemblez des preuves. Sauvegardez les publications abusives, les messages, les informations de profil, les URL et les captures d'écran, le cas échéant."
+        },
+        "i3": {
+          "text": "3. Consignez les détails essentiels. Notez la date, l'heure, le nom d'utilisateur ou le compte, ainsi que toute information pertinente concernant l'incident."
+        },
+        "i4": {
+          "text": "4. Utilisez les outils de sécurité de la plateforme. Restreignez, mettez en sourdine ou bloquez le compte le cas échéant afin de limiter tout contact ou exposition ultérieurs."
+        },
+        "i5": {
+          "text": "5. Signalez le problème via la plateforme. Consultez les politiques pertinentes de la plateforme et signalez le contenu ou le compte à l'aide de ses options de signalement intégrées."
+        },
+        "i6": {
+          "text": "6. N’hésitez pas à solliciter de l’aide supplémentaire ou à signaler le problème si nécessaire. Contactez le responsable du bien-être ou de la protection des personnes de votre organisation, le cas échéant. Si vous pensez que votre sécurité est menacée, contactez les autorités locales compétentes ou les services d’urgence."
+        }
+      }
+    },
+    "reportingSystems": {
+      "ui": {
+        "listAria": {
+          "text": "Systèmes de signalement par pays",
+          "note": "aria-label on accordion list"
+        },
+        "placeholder": {
+          "text": "Sélectionnez un pays pour consulter les systèmes de signalement et les ressources d'assistance."
+        },
+        "closeAria": {
+          "text": "Fermer"
+        }
+      },
+      "items": {
+        "uk": {
+          "title": {
+            "text": "Royaume-Uni"
+          },
+          "html": {
+            "text": "<p>Au Royaume-Uni, les abus en ligne peuvent être signalés à la plateforme concernée ou, lorsqu'ils constituent une infraction pénale, à la police. Il est conseillé de conserver les preuves, notamment les captures d'écran, les messages et les URL. Des organismes spécialisés offrent également un soutien et des conseils confidentiels.</p><ul><li><strong>Police</strong>— Signalez les menaces, le harcèlement et tout autre comportement en ligne potentiellement criminel. Composez le 999 en cas d'urgence ou le 101 pour une assistance non urgente.</li><li><a href=\"https://reportharmfulcontent.com/\" target=\"_blank\" rel=\"noopener\"><strong>Signaler un contenu préjudiciable</strong></a> — Conseils et assistance pour signaler les contenus préjudiciables en ligne, notamment le harcèlement, les menaces et les abus.</li><li><a href=\"https://www.stophateuk.org/report-hate-crime/\" target=\"_blank\" rel=\"noopener\"><strong>Stop Hate UK</strong></a> — Soutien indépendant et confidentiel et services généraux de signalement des crimes haineux dans les zones participantes.</li></ul>",
+            "note": "HTML allowed — linked resource names open official sources"
+          }
+        },
+        "us": {
+          "title": {
+            "text": "États-Unis"
+          },
+          "html": {
+            "text": "<p>Aux États-Unis, les abus en ligne peuvent être signalés à la plateforme concernée ou aux forces de l'ordre, selon la nature de l'incident. Les menaces, le harcèlement et autres comportements potentiellement criminels peuvent être signalés à la police locale, tandis que les agences fédérales offrent des canaux de signalement supplémentaires. Il est conseillé aux victimes de conserver les preuves, notamment les captures d'écran, les messages et les URL.</p><ul><li><a href=\"https://www.usa.gov/report-crime\" target=\"_blank\" rel=\"noopener\"><strong>Forces de l'ordre locales</strong></a> — Les services de police peuvent recevoir les signalements de menaces, de harcèlement et autres comportements en ligne potentiellement criminels. Composez le 911 en cas d'urgence.</li><li><a href=\"https://www.stopbullying.gov/cyberbullying/how-to-report\" target=\"_blank\" rel=\"noopener\"><strong>StopBullying.gov : Signaler le cyberharcèlement</strong></a> — Conseils gouvernementaux sur la documentation du cyberharcèlement, le signalement des contenus préjudiciables aux plateformes et la prise de contact avec les forces de l'ordre le cas échéant.</li><li><a href=\"https://www.ic3.gov/\" target=\"_blank\" rel=\"noopener\"><strong>FBI : Centre de plaintes pour la cybercriminalité (IC3)</strong></a> — Signalements de cybercrimes, notamment l'extorsion en ligne, le harcèlement et le harcèlement criminel lorsqu'une conduite criminelle est suspectée.</li><li><a href=\"https://tips.fbi.gov/\" target=\"_blank\" rel=\"noopener\"><strong>FBI : Signaler un crime fédéral</strong></a> — Signalements de crimes fédéraux présumés, notamment les menaces graves et autres activités criminelles pouvant impliquer abus en ligne.</li></ul>",
+            "note": "HTML allowed — linked resource names open official sources"
+          }
+        },
+        "si": {
+          "title": {
+            "text": "Slovénie"
+          },
+          "html": {
+            "text": "<p>En Slovénie, les athlètes et les professionnels du sport peuvent obtenir de l'aide et des conseils indépendants en cas de cyberharcèlement auprès du Médiateur des droits des athlètes. Des ressources supplémentaires, notamment des canaux de signalement dédiés, traitent des incidents de cybersécurité, de la protection des données personnelles et des manquements à l'éthique dans le sport.</p><ul><li><a href=\"https://www.gov.si/en/state-authorities/ministries/ministry-of-the-economy-labour-and-sport/about-the-ministry-of-economy-tourism-and-sport/sport-directorate/\" target=\"_blank\" rel=\"noopener\"><strong>Médiateur des droits des athlètes</strong></a> — Soutien indépendant et conseils juridiques gratuits pour les athlètes et les professionnels du sport.</li><li><a href=\"https://www.cert.si/en/about-si-cert/\" target=\"_blank\" rel=\"noopener\"><strong>SI.CERT</strong></a> — Centre national slovène de réponse aux incidents de cybersécurité, fournissant une assistance en cas d'incidents de sécurité en ligne.</li><li><a href=\"https://www.gov.si/drzavni-organi/vladne-sluzbe/urad-vlade-za-informacijsko-varnost/\" target=\"_blank\" rel=\"noopener\"><strong>Bureau gouvernemental de la sécurité de l'information</strong></a> — Autorité gouvernementale responsable de la sécurité nationale de l'information et de la cybersécurité.</li><li><a href=\"https://www.ip-rs.si/en/about/information-commissioner\" target=\"_blank\" rel=\"noopener\"><strong>Commissaire à l'information</strong></a> — Autorité indépendante chargée de la protection des données personnelles et du respect de la vie privée.</li><li><a href=\"https://oks.zvizgavka.si/\" target=\"_blank\" rel=\"noopener\"><strong>Comité olympique slovène : Canal d'alerte</strong></a> — Canal de signalement pour faire part de vos préoccupations concernant les comportements inappropriés dans le sport.</li></ul>",
+            "note": "HTML allowed — linked resource names open official sources"
+          }
+        },
+        "se": {
+          "title": {
+            "text": "Suède"
+          },
+          "html": {
+            "text": "<p>En Suède, les abus en ligne potentiellement criminels, tels que les menaces, le harcèlement et la diffamation, peuvent être signalés à la police. Les athlètes et les professionnels du sport peuvent également solliciter un soutien indépendant ou signaler les comportements inappropriés dans le sport auprès du Médiateur du sport de la Confédération suédoise des sports.</p><ul><li><a href=\"https://polisen.se/utsatt-for-brott/polisanmalan/\" target=\"_blank\" rel=\"noopener\"><strong>Police suédoise</strong></a> — Canal officiel de signalement des infractions potentielles, notamment les menaces, le harcèlement et la diffamation en ligne. Les signalements peuvent également être effectués en appelant le 114 14.</li><li><a href=\"https://www.rf.se/rf-arbetar-med/idrottsombudsmannen/kontakta-idrottsombudsmannen\" target=\"_blank\" rel=\"noopener\"><strong>Confédération suédoise des sports (RF) : Médiateur du sport</strong></a> — Service indépendant d’assistance et de signalement des cas de harcèlement, d’abus et de comportements inappropriés dans le sport suédois.</li></ul>",
+            "note": "HTML allowed — linked resource names open official sources"
+          }
+        },
+        "cz": {
+          "title": {
+            "text": "Tchéquie"
+          },
+          "html": {
+            "text": "<p>En République tchèque, les abus en ligne peuvent être signalés par différents canaux, selon la nature de l'incident. STOPonline accepte les signalements de contenus en ligne illégaux ou préjudiciables, notamment le cyberharcèlement, le cybermanipulation, le partage non consensuel d'images intimes et les cybermenaces. Les signalements sont examinés par des spécialistes et peuvent être transmis à la police tchèque ou à des partenaires internationaux. Les incidents susceptibles de constituer des infractions pénales, tels que les menaces, le harcèlement ou l'extorsion, doivent être signalés directement à la police tchèque. Il est conseillé aux victimes de conserver des preuves, notamment des captures d'écran, des messages et des liens, et de signaler les contenus préjudiciables directement aux plateformes en ligne.</p><ul><li><a href=\"https://www.stoponline.cz/en/\" target=\"_blank\" rel=\"noopener\"><strong>STOPonline.cz</strong></a> — Service de signalement en ligne géré par CZ.NIC en coopération avec CSIRT.CZ. Accepte les signalements de contenus en ligne illégaux ou préjudiciables et transmet les cas potentiellement illégaux aux autorités compétentes. Ce service est axé sur l'évaluation et le signalement des contenus, et non sur le conseil.</li><li><a href=\"https://policie.gov.cz/hlaseni-kyberkriminalita/co-delat-vpripade-ze-se-setkate-spodezrelou-aktivitou-vonline-prostoru\" target=\"_blank\" rel=\"noopener\"><strong>Police tchèque : Signalement des cybercrimes</strong></a> — Informations officielles sur le signalement des cybercrimes présumés, notamment les menaces en ligne, le harcèlement, l'extorsion et autres activités potentiellement criminelles.</li><li><a href=\"https://policie.gov.cz/kyberkriminalita/co-delat-vpripade-ze-se-setkate-spodezrelou-aktivitou-vonline-prostoru\" target=\"_blank\" rel=\"noopener\"><strong>Police tchèque : Conseils sur les activités en ligne suspectes</strong></a> — Conseils pratiques pour réagir face à des activités en ligne suspectes, préserver les preuves et solliciter l'assistance de la police.</li></ul>",
+            "note": "HTML allowed — linked resource names open official sources"
+          }
+        },
+        "es": {
+          "title": {
+            "text": "Espagne"
+          },
+          "html": {
+            "text": "<p>En Espagne, les abus en ligne potentiellement criminels, tels que le harcèlement, les menaces et les infractions liées à la haine, peuvent être signalés à la Police nationale espagnole ou à la Garde civile. Il est conseillé de conserver les preuves, notamment les captures d'écran, les messages et les URL. Des services complémentaires offrent des conseils confidentiels et une assistance pour supprimer les contenus préjudiciables.</p><ul><li><a href=\"https://www.policia.es/\" target=\"_blank\" rel=\"noopener\"><strong>Police nationale espagnole (Policía Nacional)</strong></a> et Garde civile (Guardia Civil) — Autorités officielles pour le signalement des abus en ligne potentiellement criminels.</li><li><a href=\"https://www.incibe.es/linea-de-ayuda-en-ciberseguridad\" target=\"_blank\" rel=\"noopener\"><strong>INCIBE : Ligne d'assistance en cybersécurité (017)</strong></a> — Conseils gratuits et confidentiels sur le cyberharcèlement, le harcèlement en ligne et la protection de la vie privée numérique. Il s'agit d'un service de conseil, et non d'un canal de signalement officiel aux autorités pénales.</li><li><a href=\"https://www.aepd.es/canalprioritario\" target=\"_blank\" rel=\"noopener\"><strong>Agence espagnole de protection des données (AEPD) : Canal prioritaire</strong></a> — Permet aux personnes de demander le retrait urgent de contenus sexuels ou violents partagés illégalement dans les cas particulièrement graves.</li></ul>",
+            "note": "HTML allowed — linked resource names open official sources"
+          }
+        }
+      }
+    },
+    "sorting": {
+      "ui": {
+        "eyebrow": {
+          "text": "Commander",
+          "note": "Removed from widget UI; kept for translators / legacy"
+        },
+        "prompt": {
+          "text": "1. Suivez les étapes ci-dessous dans l'ordre recommandé."
+        },
+        "hint": {
+          "text": "Faites glisser les éléments ou utilisez les flèches pour les réorganiser, puis soumettez."
+        },
+        "moveUp": {
+          "text": "Monter en gamme"
+        },
+        "moveDown": {
+          "text": "Descendre"
+        },
+        "ok": {
+          "text": "<strong>Exact !</strong>Vous avez identifié la procédure recommandée pour réagir aux abus en ligne sur les réseaux sociaux. Suivre une démarche claire permet de préserver les informations importantes, de limiter la diffusion de l’information et de garantir que la situation est signalée ou prise en charge de manière appropriée.",
+          "note": "HTML allowed"
+        },
+        "bad": {
+          "text": "<strong>Pas tout à fait. Examinez les options et réessayez.</strong>",
+          "note": "HTML allowed"
+        }
+      },
+      "items": {
+        "i1": {
+          "text": "Évaluez la situation et votre sécurité."
+        },
+        "i2": {
+          "text": "Recueillir des preuves"
+        },
+        "i3": {
+          "text": "Détails clés de l'enregistrement"
+        },
+        "i4": {
+          "text": "Utilisez les outils de sécurité de la plateforme"
+        },
+        "i5": {
+          "text": "Signalez via la plateforme"
+        },
+        "i6": {
+          "text": "Demandez de l'aide supplémentaire ou faites remonter le problème si nécessaire."
+        }
+      }
+    },
+    "trueFalse": {
+      "bad": {
+        "text": "<strong>Pas tout à fait. Relisez la déclaration et réessayez.</strong>",
+        "note": "HTML allowed"
+      },
+      "questions": {
+        "q1": {
+          "prompt": {
+            "text": "Si un athlète reçoit un contenu abusif, il doit le supprimer immédiatement et répondre directement à la personne responsable."
+          },
+          "choices": {
+            "c0": {
+              "text": "VRAI"
+            },
+            "c1": {
+              "text": "FAUX"
+            }
+          },
+          "ok": {
+            "text": "<strong>Exact !</strong>Il est recommandé de rassembler les preuves pertinentes avant de supprimer un contenu et d'éviter tout contact direct avec la personne responsable de l'abus.",
+            "note": "HTML allowed"
+          }
+        },
+        "q2": {
+          "prompt": {
+            "text": "Le partage public de contenus abusifs peut contribuer à résoudre le problème en attirant davantage l'attention sur celui-ci."
+          },
+          "choices": {
+            "c0": {
+              "text": "VRAI"
+            },
+            "c1": {
+              "text": "FAUX"
+            }
+          },
+          "ok": {
+            "text": "<strong>Exact !</strong>Partager ou republier du contenu abusif peut en accroître la portée et exposer à nouveau la personne visée, ainsi que d'autres personnes, à ce contenu préjudiciable. Veuillez plutôt utiliser les canaux de signalement appropriés.",
+            "note": "HTML allowed"
+          }
+        },
+        "q3": {
+          "prompt": {
+            "text": "L'IA peut aider à identifier les contenus potentiellement nuisibles, mais le jugement humain reste important pour interpréter le contexte."
+          },
+          "choices": {
+            "c0": {
+              "text": "VRAI"
+            },
+            "c1": {
+              "text": "FAUX"
+            }
+          },
+          "ok": {
+            "text": "<strong>Exact !</strong>L'IA peut faciliter la détection précoce et signaler les contenus potentiellement nuisibles pour examen, mais le contexte, le langage et l'évolution des tactiques d'abus peuvent rendre le jugement humain important.",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "takeaways": {
+      "heading": {
+        "text": "Points clés à retenir"
+      },
+      "items": {
+        "i1": {
+          "text": "<strong>La conception de la plateforme influence la diffusion du contenu.</strong>Différents environnements numériques déterminent qui découvre le contenu, comment les utilisateurs interagissent avec lui et combien de temps il reste visible.",
+          "note": "HTML allowed"
+        },
+        "i2": {
+          "text": "<strong>Les méfaits en ligne peuvent être amplifiés.</strong>Les systèmes de recommandation, le partage, les interactions en direct et la dynamique communautaire peuvent accroître la portée et l'intensité des contenus nuisibles.",
+          "note": "HTML allowed"
+        },
+        "i3": {
+          "text": "<strong>Les tactiques abusives peuvent s'adapter.</strong>Les contenus préjudiciables peuvent utiliser un langage modifié, des formats visuels différents, un ciblage indirect ou des espaces numériques différents pour rendre leur détection plus difficile.",
+          "note": "HTML allowed"
+        },
+        "i4": {
+          "text": "<strong>Il est possible de prendre des mesures pour réduire son exposition.</strong>Les paramètres de confidentialité, les options d'interaction, le blocage, la mise en sourdine et des choix judicieux concernant les espaces en ligne peuvent contribuer au bien-être numérique.",
+          "note": "HTML allowed"
+        },
+        "i5": {
+          "text": "<strong>Un signalement efficace suit une procédure claire.</strong>Évaluer la situation, documenter les preuves pertinentes, signaler l'incident par la voie appropriée et demander de l'aide ou alerter les autorités compétentes lorsque la sécurité est menacée.",
+          "note": "HTML allowed"
+        },
+        "i6": {
+          "text": "<strong>L'IA a un double rôle. Elle peut accroître l'ampleur et la sophistication des contenus nuisibles, et elle peut également contribuer à la détection, à la modération et à d'autres mesures de sécurité en ligne.</strong>",
+          "note": "HTML allowed"
+        },
+        "i7": {
+          "text": "<strong>La technologie seule ne peut pas lutter contre les abus en ligne.</strong>Des réponses efficaces combinent les outils des plateformes, un comportement responsable des utilisateurs, le jugement humain, le soutien organisationnel et une réglementation appropriée.",
+          "note": "HTML allowed"
+        }
+      }
+    },
+    "slide": {
+      "title": {
+        "text": "Module 3 : Comment se propagent les préjudices en ligne",
+        "note": "Module / summary slide title"
+      }
+    }
+  },
+  "m4": {
+    "lawTabs": {
+      "ui": {
+        "prompt": {
+          "text": "Sélectionnez un chemin"
+        },
+        "placeholder": {
+          "text": "Sélectionnez un chemin"
+        },
+        "pathwaysAria": {
+          "text": "Voies légales"
+        },
+        "seeExample": {
+          "text": "Voir un exemple"
+        },
+        "backToPathway": {
+          "text": "Retour au chemin"
+        },
+        "returnMain": {
+          "text": "Retour à la page principale"
+        },
+        "closeAria": {
+          "text": "Fermer"
+        }
+      },
+      "tabs": {
+        "t1": {
+          "title": {
+            "text": "droit pénal"
+          },
+          "image": {
+            "text": "https://preview.scormstack.io/medias/courses/428b8e0e-9238-4608-a1a3-962afd799ccf/UAOA_pathway_crimina_64f037dc-941a-4af3-90b3-ac5e5fb45a9f.jpg",
+            "note": "CDN URL for scenario illustration"
+          },
+          "imageAlt": {
+            "text": "Un arbitre reçoit des alertes d'avertissement répétées sur son téléphone."
+          },
+          "pathway": {
+            "text": "<p><strong>Ce que cela peut couvrir :</strong>Les comportements constituant une infraction pénale en vertu de la loi applicable, notamment certaines menaces, le harcèlement, les crimes haineux ou le partage non consensuel d’images intimes.</p><p><strong>Qui intervient :</strong>Les forces de l’ordre peuvent mener une enquête, et le ministère public compétent décide des suites à donner.</p><p><strong>Sanctions possibles :</strong>Les sanctions pénales peuvent inclure des amendes ou une peine d’emprisonnement, selon l’infraction et la juridiction.</p>",
+            "note": "HTML allowed"
+          },
+          "example": {
+            "text": "<p>À la suite d'une décision prise pendant un match, un arbitre reçoit des messages répétés sur les réseaux sociaux, provenant du même compte. Ces messages deviennent de plus en plus menaçants et font état de possibles attaques graves contre l'arbitre et sa famille.</p><p>Selon la loi applicable et les circonstances, de telles menaces pourraient donner lieu à un signalement aux forces de l'ordre et à une enquête pénale.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "t2": {
+          "title": {
+            "text": "droit civil"
+          },
+          "image": {
+            "text": "https://preview.scormstack.io/medias/courses/428b8e0e-9238-4608-a1a3-962afd799ccf/UAOA_pathway_civil_e89ec7dc-a23c-4bea-af45-ba6d00b25544.jpg",
+            "note": "CDN URL for scenario illustration"
+          },
+          "imageAlt": {
+            "text": "Un athlète confronté à des allégations circulant en ligne et à la perte d'un sponsor"
+          },
+          "pathway": {
+            "text": "<p><strong>Ce que cela peut couvrir :</strong>Litiges relatifs aux droits légaux entre personnes physiques ou morales, notamment la diffamation, le harcèlement, l’utilisation abusive d’informations privées ou d’autres atteintes à la vie privée.</p><p><strong>Qui intente l’action :</strong>La personne ou l’organisation qui porte plainte engage la procédure judiciaire.</p><p><strong>Résultats possibles :</strong>Selon la loi applicable, les recours peuvent inclure des dommages-intérêts ou des injonctions judiciaires exigeant la cessation de certains comportements.</p>",
+            "note": "HTML allowed"
+          },
+          "example": {
+            "text": "<p>De fausses allégations concernant un athlète commencent à circuler en ligne et sont partagées à maintes reprises. Ces allégations portent atteinte à sa réputation professionnelle et un sponsor met fin à sa collaboration avec lui après en avoir pris connaissance.</p><p>Selon la loi applicable et les circonstances, l'athlète peut intenter une action civile afin d'obtenir réparation du préjudice subi, notamment le retrait des contenus mensongers existants, des injonctions pour empêcher leur diffusion ultérieure, des demandes de dommages et intérêts contre l'auteur des faits s'il est identifiable, etc.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "t3": {
+          "title": {
+            "text": "Droit administratif et réglementation"
+          },
+          "image": {
+            "text": "https://preview.scormstack.io/medias/courses/428b8e0e-9238-4608-a1a3-962afd799ccf/UAOA_pathway_admin_55f163bb-0d7b-4f46-9cb3-20fd51f67cd0.jpg",
+            "note": "CDN URL for scenario illustration"
+          },
+          "imageAlt": {
+            "text": "Un athlète s'inquiète de la divulgation de ses coordonnées personnelles en ligne"
+          },
+          "pathway": {
+            "text": "<p><strong>Ce que cela peut couvrir :</strong>Obligations légales imposées par les autorités de réglementation, y compris les règles applicables aux services en ligne ou au traitement des données personnelles.</p><p><strong>Qui intervient :</strong>Les autorités de réglementation compétentes supervisent et font appliquer ces exigences. Les particuliers et les organisations peuvent également déposer des plaintes.</p><p><strong>Résultats possibles :</strong>Les autorités de réglementation peuvent enquêter, exiger des modifications ou imposer des sanctions lorsque la loi applicable leur en confère les pouvoirs.</p>",
+            "note": "HTML allowed"
+          },
+          "example": {
+            "text": "<p>Un athlète découvre que ses coordonnées personnelles ont été publiées en ligne sans son autorisation. Ces informations continuent de circuler, soulevant des inquiétudes quant à son respect de la vie privée et à sa sécurité.</p><p>Selon la réglementation applicable en matière de protection des données, l'athlète ou son organisation peut saisir l'autorité de régulation compétente.</p>",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "limits": {
+      "items": {
+        "i1": {
+          "title": {
+            "text": "Juridiction"
+          },
+          "html": {
+            "text": "<p>Les abus en ligne peuvent franchir les frontières nationales instantanément. La victime, l'auteur et la plateforme peuvent se trouver dans des juridictions différentes, soumises à des lois et des procédures d'application différentes.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "i2": {
+          "title": {
+            "text": "Identifier les responsables"
+          },
+          "html": {
+            "text": "<p>Les comptes peuvent utiliser des pseudonymes, de fausses identités ou des informations d'identification limitées, ce qui rend difficile l'identification du responsable d'un comportement donné. L'identification du titulaire d'un compte peut nécessiter des informations détenues par les plateformes et, dans certains cas, des procédures judiciaires formelles.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "i3": {
+          "title": {
+            "text": "Application de la loi"
+          },
+          "html": {
+            "text": "<p>Le volume et la rapidité des activités en ligne peuvent compliquer les enquêtes et les mesures d'application de la loi. Les ressources disponibles, l'expertise spécialisée, les exigences en matière de preuves et les priorités d'application de la loi peuvent toutes influencer le déroulement des opérations après le signalement d'un incident.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "i4": {
+          "title": {
+            "text": "seuils légaux"
+          },
+          "html": {
+            "text": "<p>Tout comportement nuisible ou abusif ne constitue pas automatiquement une infraction ni ne donne lieu à une action en justice. La définition juridique applicable, les preuves, le contexte et la juridiction compétente sont autant d'éléments déterminants. Cela signifie que les poursuites judiciaires ne représentent qu'une partie de la réponse aux abus en ligne. Les politiques des plateformes en ligne et les normes et politiques propres aux organisations sportives peuvent également contribuer à encadrer certains comportements qui ne justifient pas nécessairement une action en justice.</p><p></p>",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "regions": {
+      "ui": {
+        "prompt": {
+          "text": "Sélectionnez une région"
+        },
+        "placeholder": {
+          "text": "Sélectionnez une région pour voir un exemple de la manière dont les lois existantes peuvent s'appliquer au comportement en ligne."
+        },
+        "countriesAria": {
+          "text": "Régions"
+        }
+      },
+      "items": {
+        "i1": {
+          "title": {
+            "text": "Royaume-Uni"
+          },
+          "html": {
+            "text": "<p>Au Royaume-Uni, plusieurs lois encadrent les comportements nuisibles en ligne. La loi de 2023 sur la sécurité en ligne (Online Safety Act 2023) introduit des infractions liées aux communications menaçantes, à l'exhibitionnisme en ligne et au partage ou à la menace de partage d'images intimes sans consentement. La loi de 1997 sur la protection contre le harcèlement (Protection from Harassment Act 1997) couvre également le harcèlement et le harcèlement criminel, y compris les comportements impliquant des communications numériques. La loi sur la sécurité en ligne impose en outre aux plateformes réglementées l'obligation de lutter contre les contenus illégaux et de protéger les enfants contre les contenus préjudiciables. Les protections applicables dépendent du comportement et de la juridiction. Source : <a href=\"https://www.legislation.gov.uk/\" target=\"_blank\" rel=\"noopener\">Legislation.gov.uk</a><strong></strong><strong></strong></p><p><em></em></p>",
+            "note": "HTML allowed"
+          }
+        },
+        "i2": {
+          "title": {
+            "text": "États-Unis"
+          },
+          "html": {
+            "text": "<p>Aux États-Unis, la lutte contre les abus en ligne est encadrée par une combinaison de lois fédérales et étatiques. La législation fédérale, notamment l'article 2261A du titre 18 du Code des États-Unis (18 U.S.C. 2261A), traite de certaines formes de cyberharcèlement impliquant des communications électroniques. D'autres dispositions fédérales couvrent les menaces et certaines formes de harcèlement en ligne, tandis que les lois étatiques peuvent offrir des protections supplémentaires contre la cyberintimidation, le harcèlement, le harcèlement criminel et le partage non consensuel d'images intimes. Les définitions juridiques, l'application de la loi et les recours disponibles varient selon la juridiction et les circonstances de chaque affaire.<strong></strong></p><p><em></em></p>",
+            "note": "HTML allowed"
+          }
+        },
+        "i3": {
+          "title": {
+            "text": "Tchéquie"
+          },
+          "html": {
+            "text": "<p>Le droit tchèque ne repose pas sur une infraction unique d’« abus en ligne ». La législation existante peut s’appliquer à des comportements préjudiciables spécifiques commis en ligne. Par exemple, l’article 354 du Code pénal tchèque (loi n° 40/2009 Coll.) traite du harcèlement, y compris des agissements commis par voie électronique. <a href=\"https://policie.gov.cz/stalking---nebezpecne-pronasledovani--354-trestniho-zakoniku\" target=\"_blank\" rel=\"noopener\">Guide de la police tchèque sur le harcèlement</a> explique cette disposition et identifie les messages répétés sur les réseaux sociaux, les menaces, l’utilisation abusive de données personnelles et les atteintes à la réputation parmi les comportements pouvant caractériser des cas de harcèlement. Le Code civil tchèque (loi n° 89/2012 Coll.) protège également les droits de la personnalité, notamment la dignité, l’honneur et la vie privée. Une personne victime d'une ingérence illicite peut demander que celle-ci cesse et que ses conséquences soient réparées.<strong>Source : <a href=\"https://e-sbirka.gov.cz\" target=\"_blank\" rel=\"noopener\">e-Sbírka</a></strong></p><p><strong></strong></p><p><em></em></p>",
+            "note": "HTML allowed"
+          }
+        },
+        "i4": {
+          "title": {
+            "text": "Espagne"
+          },
+          "html": {
+            "text": "<p><a href=\"https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444\" target=\"_blank\" rel=\"noopener\"><strong>Le Code pénal espagnol (Loi organique 10/1995)</strong></a> traite de plusieurs formes de violence en ligne.<strong>L’article 172 ter</strong>couvre le harcèlement, notamment les contacts non désirés répétés, l’utilisation abusive de données personnelles et la création de faux profils sur les réseaux sociaux utilisant l’image d’une personne sans son consentement, lorsque cela cause du harcèlement ou de l’humiliation.</p><p><strong>L’article 510</strong>traite des discours de haine en ligne, avec des peines alourdies pour certaines infractions lorsque les plateformes numériques rendent le contenu accessible à un large public.</p><p>Les victimes peuvent signaler les infractions présumées à la <a href=\"https://www.policia.es/\" target=\"_blank\" rel=\"noopener\">Police nationale espagnole</a> ou à la Garde civile (Guardia Civil). Une assistance supplémentaire est disponible via la ligne d'assistance téléphonique gratuite et confidentielle 017 d'INCIBE (https://www.incibe.es/linea-de-ayuda-en-ciberseguridad). L'Agence espagnole de protection des données (AEPD) (https://www.aepd.es/canalprioritario) propose quant à elle un canal prioritaire pour demander le retrait urgent de contenus sexuels ou violents diffusés illégalement.</p><p><em>Source : Gouvernement espagnol (https://www.mpr.gob.es/Paginas/index.aspx)</em></p>",
+            "note": "HTML allowed"
+          }
+        },
+        "i5": {
+          "title": {
+            "text": "Suède"
+          },
+          "html": {
+            "text": "<p>En Suède, la haine ou les abus en ligne ne constituent pas une catégorie juridique distincte. La police suédoise explique que les mêmes lois pénales s'appliquent généralement aux comportements en ligne et hors ligne, les infractions pertinentes pouvant inclure les menaces illégales, le harcèlement, la diffamation, l'injure, l'atteinte illégale à la vie privée, le harcèlement sexuel, l'usurpation d'identité (par exemple, la création de faux profils au nom d'une autre personne) et l'incitation à la haine contre un groupe de population. Si une infraction est motivée, par exemple, par l'origine ethnique, la religion ou l'orientation sexuelle de la victime, cela constitue une circonstance aggravante lors du prononcé de la peine.</p><p>Le droit suédois reconnaît également la persécution illégale, qui peut résulter d'actes criminels répétés contre une même personne. Les recommandations de la police conseillent spécifiquement aux personnes victimes de harcèlement de conserver leurs courriels, SMS, relevés d'appels et autres communications numériques comme preuves potentielles.</p><p><em>Sources : <a href=\"https://polisen.se\" target=\"_blank\" rel=\"noopener\">polisen.se</a> <a href=\"https://www.riksdagen.se/sv/dokument-och-lagar/\" target=\"_blank\" rel=\"noopener\">Parlement suédois</a></em></p>",
+            "note": "HTML allowed"
+          }
+        },
+        "i6": {
+          "title": {
+            "text": "Slovénie"
+          },
+          "html": {
+            "text": "<p>Le droit slovène lutte contre les abus en ligne grâce à une législation existante qui couvre des comportements préjudiciables spécifiques. À titre d'exemple, l'article 134a du Code pénal slovène (KZ-1) définit le harcèlement comme incluant les tentatives répétées d'établir un contact non désiré par voie électronique, lorsque ce comportement engendre la peur ou un sentiment de menace. Les autorités slovènes ont également reconnu la dimension en ligne du harcèlement dans leurs directives relatives à l'application de cette disposition. Les directives de la police slovène reconnaissent que la violence en ligne englobe des comportements tels que les menaces, le harcèlement, la diffusion de contenus faux ou injurieux, l'utilisation abusive de photographies, l'usurpation d'identité et la création de faux profils malveillants. La qualification pénale d'un comportement donné dépend des circonstances propres à chaque cas. Source : <a href=\"https://www.gov.si/\" target=\"_blank\" rel=\"noopener\">GOV.SI</a><strong></strong></p><p></p><p><em></em></p>",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "check": {
+      "questions": {
+        "q1": {
+          "prompt": {
+            "text": "Un incident abusif en ligne peut potentiellement impliquer plusieurs voies de recours juridiques. Quelle affirmation explique le mieux pourquoi ?"
+          },
+          "choices": {
+            "c0": {
+              "text": "La personne visée peut choisir la loi qu'elle préfère."
+            },
+            "c1": {
+              "text": "Un même incident peut soulever différentes questions juridiques selon la conduite, les circonstances et le droit applicable."
+            },
+            "c2": {
+              "text": "Les incidents en ligne relèvent automatiquement du droit pénal et civil."
+            },
+            "c3": {
+              "text": "Chaque plateforme de médias sociaux détermine la voie juridique applicable."
+            }
+          },
+          "ok": {
+            "text": "<strong>Correct!</strong>",
+            "note": "HTML allowed"
+          }
+        },
+        "q2": {
+          "prompt": {
+            "text": "Une personne subit des comportements nuisibles en ligne, mais ces comportements ne constituent pas une infraction légale ni ne donnent lieu à une plainte. Qu'est-ce que cela signifie ?"
+          },
+          "choices": {
+            "c0": {
+              "text": "Ce comportement ne peut être considéré comme un abus en ligne car les termes utilisés dans les commentaires ne correspondent pas à ce que décrit la loi."
+            },
+            "c1": {
+              "text": "La plateforme est seule responsable de répondre aux signalements et de déterminer ce qui constitue un abus en ligne."
+            },
+            "c2": {
+              "text": "D'autres réponses peuvent encore être disponibles via les règles de la plateforme, les politiques organisationnelles, les procédures de protection ou les codes de conduite."
+            },
+            "c3": {
+              "text": "La personne devrait attendre de voir si le comportement s'aggrave."
+            }
+          },
+          "ok": {
+            "text": "<strong>Correct!</strong>",
+            "note": "HTML allowed"
+          }
+        },
+        "q3": {
+          "prompt": {
+            "text": "Pourquoi la lutte contre les abus en ligne par la voie légale peut-elle s'avérer difficile ?"
+          },
+          "choices": {
+            "c0": {
+              "text": "Les comportements en ligne échappent aux lois nationales."
+            },
+            "c1": {
+              "text": "Les personnes, les plateformes et les activités nuisibles peuvent franchir plusieurs juridictions, et identifier les responsables ou rassembler des preuves peut s'avérer difficile."
+            },
+            "c2": {
+              "text": "Les abus en ligne ne peuvent faire l'objet d'une enquête que si le compte responsable utilise un vrai nom."
+            },
+            "c3": {
+              "text": "Les organisations sportives doivent mener leur propre enquête avant que les autorités puissent intervenir."
+            }
+          },
+          "ok": {
+            "text": "<strong>Correct!</strong>",
+            "note": "HTML allowed"
+          }
+        },
+        "q4": {
+          "prompt": {
+            "text": "Quelle affirmation décrit le mieux les différences de réponses juridiques aux abus en ligne selon les pays ?"
+          },
+          "choices": {
+            "c0": {
+              "text": "Chaque pays possède une infraction spécifique appelée abus en ligne."
+            },
+            "c1": {
+              "text": "Les pays européens appliquent les mêmes lois nationales car ils partagent des réglementations régionales."
+            },
+            "c2": {
+              "text": "La conduite en ligne est principalement régie par le pays où est basée l'entreprise de médias sociaux."
+            },
+            "c3": {
+              "text": "Les pays peuvent appliquer différentes lois existantes aux comportements en ligne, et certaines législations traitent explicitement de comportements numériques particuliers."
+            }
+          },
+          "ok": {
+            "text": "<strong>Correct!</strong>",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "takeaways": {
+      "heading": {
+        "text": "Points clés à retenir"
+      },
+      "items": {
+        "i1": {
+          "text": "<strong>Les abus en ligne peuvent relever de différents domaines du droit. Les voies pénales, civiles et administratives impliquent des processus, des acteurs et des issues possibles différents.</strong>",
+          "note": "HTML allowed"
+        },
+        "i2": {
+          "text": "<strong>Plusieurs voies peuvent s'appliquer.</strong>Un même incident peut soulever des questions pénales, civiles ou réglementaires selon les circonstances.",
+          "note": "HTML allowed"
+        },
+        "i3": {
+          "text": "<strong>Les réponses juridiques dépendent du contexte et de la juridiction.</strong>Le droit applicable, les preuves disponibles et le lieu où se trouvent les personnes et les services concernés peuvent influencer les actions possibles.",
+          "note": "HTML allowed"
+        },
+        "i4": {
+          "text": "<strong>Les voies légales ont leurs limites pratiques.</strong>Les activités transfrontalières, l'identification des responsables, les capacités de répression et les seuils juridiques peuvent rendre l'action difficile.",
+          "note": "HTML allowed"
+        },
+        "i5": {
+          "text": "<strong>La responsabilité ne se limite pas à la loi.</strong>Les organisations sportives peuvent établir des politiques, des procédures de signalement, des dispositifs de protection et des sanctions en cas de comportements préjudiciables.",
+          "note": "HTML allowed"
+        },
+        "i6": {
+          "text": "<strong>L’esprit sportif s’étend aux espaces numériques.</strong>Le respect, le fair-play et la conduite responsable restent essentiels lors de la pratique sportive en ligne.",
+          "note": "HTML allowed"
+        }
+      }
+    },
+    "slide": {
+      "title": {
+        "text": "Module 4 : Connaître vos droits et vos responsabilités",
+        "note": "Module / summary slide title"
+      }
+    }
+  },
+  "m5": {
+    "layers": {
+      "ui": {
+        "prompt": {
+          "text": "Explorez les trois niveaux d'action."
+        },
+        "tracksAria": {
+          "text": "Couches d'action"
+        },
+        "backToLayers": {
+          "text": "Retour aux couches"
+        },
+        "done": {
+          "text": "Les trois couches ont été explorées"
+        },
+        "openLayer": {
+          "text": "Couche ouverte"
+        },
+        "overview": {
+          "text": "Aperçu"
+        }
+      },
+      "tracks": {
+        "t1": {
+          "num": {
+            "text": "1"
+          },
+          "title": {
+            "text": "Individuel"
+          },
+          "eyebrow": {
+            "text": "Couche 1 · Individus"
+          },
+          "labels": {
+            "l1": {
+              "text": "Protégez-vous"
+            },
+            "l2": {
+              "text": "Soutenir les autres"
+            },
+            "l3": {
+              "text": "Agissez en toute sécurité"
+            }
+          },
+          "intro": {
+            "text": "<p><strong>L'action commence par les individus.</strong></p><p>Dans le monde du sport, chacun peut contribuer, qu'il subisse ou non des abus en ligne, qu'il en soit témoin, ou qu'il soutienne une personne ciblée.</p><p>Découvrez comment vous pouvez :</p><ul><li>Vous protéger</li><li>Soutenir les autres</li><li>Agir en toute sécurité</li></ul>",
+            "note": "HTML allowed"
+          }
+        },
+        "t2": {
+          "num": {
+            "text": "2"
+          },
+          "title": {
+            "text": "Organisations"
+          },
+          "eyebrow": {
+            "text": "Couche 2 · Organisations"
+          },
+          "labels": {
+            "l1": {
+              "text": "Construire des cadres"
+            },
+            "l2": {
+              "text": "Renforcer la protection"
+            },
+            "l3": {
+              "text": "Action coordonnée"
+            }
+          },
+          "intro": {
+            "text": "<p>Les organisations peuvent fournir le cadre, les ressources et le soutien coordonné nécessaires pour protéger les personnes et lutter efficacement contre les abus en ligne. Il s'agit notamment des organisations et fédérations sportives, des clubs et associations, des médias, des plateformes en ligne, des groupes de défense des droits et autres institutions du monde sportif.</p><p>Découvrez comment les organisations peuvent se préparer, prévenir et réagir aux abus en ligne.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "t3": {
+          "num": {
+            "text": "3"
+          },
+          "title": {
+            "text": "Société"
+          },
+          "eyebrow": {
+            "text": "Couche 3 · Société"
+          },
+          "labels": {
+            "l1": {
+              "text": "enseignement supérieur"
+            },
+            "l2": {
+              "text": "Générer des preuves"
+            },
+            "l3": {
+              "text": "Normes de forme"
+            }
+          },
+          "intro": {
+            "text": "<p>Les abus en ligne sont souvent influencés par des facteurs qui échappent au contrôle direct des individus et des organisations. Le contexte personnel, les technologies utilisées, l'accès à l'éducation et les normes culturelles environnantes peuvent tous avoir une incidence sur la manière dont les comportements nuisibles sont encouragés, normalisés, contestés ou prévenus.</p><p>Découvrez comment le contexte social peut influencer les abus en ligne et contribuer à créer des espaces numériques plus sûrs dans le sport.</p>",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "flow1": {
+      "ui": {
+        "title": {
+          "text": "Ce que chacun de nous peut faire"
+        }
+      },
+      "steps": {
+        "s1": {
+          "title": {
+            "text": "Protégez-vous"
+          },
+          "body": {
+            "text": "<p>Pour les athlètes et autres personnes ayant des rôles en contact avec le public :</p><ul><li><strong>Gérez votre exposition.</strong>Vérifiez vos paramètres de confidentialité et de sécurité et contrôlez qui peut vous contacter, vous mentionner ou vous identifier.</li><li><strong>Utilisez les outils de sécurité.</strong>Mettez en sourdine, restreignez, bloquez et signalez les comptes ou contenus nuisibles.</li><li><strong>Conservez les preuves.</strong>Sauvegardez les informations pertinentes au cas où un comportement devrait être signalé ou faire l’objet d’une escalade.</li><li><strong>Protégez votre bien-être.</strong>Vous pouvez choisir de faire une pause dans vos interactions en ligne et de demander de l’aide à des personnes de confiance.</li></ul><details><summary><strong>Pourquoi est-ce important ?</strong></summary><p>Votre bien-être est important et le soutien est une responsabilité partagée. Lorsque les personnes utilisent des outils de sécurité et de bien-être, elles sont mieux armées pour prévenir les préjudices au sein de la communauté sportive au sens large.</p></details>",
+            "note": "HTML allowed"
+          }
+        },
+        "s2": {
+          "title": {
+            "text": "Soutenir les autres"
+          },
+          "body": {
+            "text": "<p>En tant que coéquipier, collègue, supporter, ami ou témoin :</p><ul><li><strong>Évitez d’amplifier le problème.</strong>Empêchez la diffusion de contenu abusif.</li><li><strong>Prenez des nouvelles en privé.</strong>Offrez votre soutien à la personne visée.</li><li><strong>Signalez les faits de manière appropriée.</strong>Agissez par les voies établies, généralement sans confrontation publique.</li><li><strong>Exprimez-vous en toute sécurité.</strong>Faites part de vos inquiétudes concernant un comportement abusif ou demandez de l’aide à une personne pouvant intervenir, notamment aux autorités de l’organisation ou à la police si nécessaire.</li></ul><details><summary><strong>Pourquoi est-ce important ?</strong></summary><p>Soutenir les autres renforce la communauté sportive. De petits gestes de la part des coéquipiers, collègues, amis, supporters et autres témoins peuvent contribuer à créer un réseau de soutien social où chacun se sent écouté, protégé et soutenu, et où les comportements nuisibles ont moins de chances de rester impunis.</p></details>",
+            "note": "HTML allowed"
+          }
+        },
+        "s3": {
+          "title": {
+            "text": "Agissez en toute sécurité"
+          },
+          "body": {
+            "text": "<p>Face à des abus en ligne, tenez compte de la situation, de votre sécurité personnelle et de la nécessité d'un soutien supplémentaire :</p><ul><li><strong>Évaluez la situation.</strong>Analysez la nature du comportement, son éventuelle escalade et les risques encourus par autrui.</li><li><strong>Évitez toute interaction dangereuse.</strong>N'affrontez pas directement l'auteur des abus et n'engagez pas la conversation si cela risque d'aggraver la situation ou de mettre quelqu'un en danger.</li><li><strong>Sachez quand demander de l'aide.</strong>Contactez une personne de confiance ou le service compétent de l'organisation si la situation requiert une aide supplémentaire.</li><li><strong>Signalez tout problème de sécurité.</strong>Les menaces, les contacts indésirables répétés, la divulgation d'informations personnelles ou tout autre problème de sécurité peuvent nécessiter un soutien organisationnel ou externe.</li></ul><details><summary><strong>Pourquoi est-ce important ?</strong></summary><p>Agir en toute sécurité permet d'associer les actions individuelles au niveau de soutien approprié. Savoir reconnaître quand une situation nécessite une aide supplémentaire permet à d'autres personnes d'intervenir et contribue à garantir que la sécurité reste la priorité.</p>",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "flow2": {
+      "ui": {
+        "title": {
+          "text": "Ce que les organisations peuvent faire"
+        }
+      },
+      "steps": {
+        "s1": {
+          "title": {
+            "text": "Préparer"
+          },
+          "body": {
+            "text": "<p>Élaborer des politiques et des codes de conduite, dispenser une éducation et une formation, et établir des attentes claires en matière de comportement numérique.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "s2": {
+          "title": {
+            "text": "Protéger"
+          },
+          "body": {
+            "text": "<p>Fournir un soutien en matière de bien-être et de protection, des outils de sécurité pour la plateforme, une modération et des mécanismes appropriés pour les personnes à risque.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "s3": {
+          "title": {
+            "text": "Répondre"
+          },
+          "body": {
+            "text": "<p>Créer des voies de signalement accessibles, conserver les documents appropriés, appliquer les procédures organisationnelles et coordonner l'escalade lorsque cela est nécessaire.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "s4": {
+          "title": {
+            "text": "Connecter"
+          },
+          "body": {
+            "text": "<p>Collaborer avec d’autres organisations, plateformes, autorités, chercheurs, groupes de défense des droits et services spécialisés lorsque la réponse dépasse les capacités de l’organisation.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "s5": {
+          "title": {
+            "text": "Plus forts ensemble"
+          },
+          "body": {
+            "text": "<p>Les organisations sont plus fortes lorsqu'elles collaborent. Les clubs peuvent assurer un soutien de première ligne, les fédérations définissent des normes communes, les plateformes permettent le signalement et la modération, les médias gèrent les contenus publiés et les associations de défense des droits peuvent apporter un soutien et une formation spécialisés. Ensemble, ils peuvent créer un réseau coordonné de protection et de réponse contre les abus en ligne. La plateforme de préparation organisationnelle (ORP) de l'UAOA soutient ces efforts en aidant les organisations sportives à évaluer leur niveau de préparation, à identifier les axes d'amélioration et à renforcer leurs stratégies de prévention et de réponse aux abus en ligne.</p><p></p><p><strong></strong></p>",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "flow3": {
+      "ui": {
+        "title": {
+          "text": "Qu'est-ce qui façonne un sport numérique plus sûr ?"
+        }
+      },
+      "steps": {
+        "s1": {
+          "title": {
+            "text": "Éducation"
+          },
+          "body": {
+            "text": "<p>L’éducation peut aider les individus à reconnaître les abus en ligne, à en comprendre les conséquences et à savoir comment réagir en toute sécurité. L’éducation aux médias et au numérique peut également renforcer l’esprit critique quant aux comportements appropriés en ligne.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "s2": {
+          "title": {
+            "text": "normes partagées"
+          },
+          "body": {
+            "text": "<p>Des attentes claires permettent de définir les comportements acceptables au sein des communautés sportives. Des normes partagées en matière de respect, d'inclusion, de fair-play et de participation numérique peuvent orienter les comportements et offrir aux individus et aux organisations une base plus solide pour lutter contre les abus.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "s3": {
+          "title": {
+            "text": "Recherche et preuves"
+          },
+          "body": {
+            "text": "<p>Les recherches fondées sur des données probantes permettent de cartographier les schémas d'abus en ligne, l'évolution des comportements nuisibles au fil du temps et les réponses les plus efficaces. Une meilleure connaissance de ces phénomènes peut éclairer la prévention, l'éducation, les pratiques organisationnelles, les technologies et les politiques publiques.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "s4": {
+          "title": {
+            "text": "Politique et droit"
+          },
+          "body": {
+            "text": "<p>Les politiques et les lois peuvent établir des limites, des responsabilités, des protections et des voies de recours. Elles peuvent influencer les comportements en clarifiant les conséquences et en fournissant des mécanismes de signalement, d'intervention et de réparation.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "s5": {
+          "title": {
+            "text": "Conception technologique et de plateforme"
+          },
+          "body": {
+            "text": "<p>La conception des plateformes numériques peut influencer la facilité avec laquelle les contenus préjudiciables sont créés, découverts, amplifiés, signalés ou supprimés. La modération, la détection, les outils de signalement et autres dispositifs de sécurité peuvent contribuer à réduire les possibilités de propagation et de persistance des abus.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "s6": {
+          "title": {
+            "text": "normes communautaires"
+          },
+          "body": {
+            "text": "<p>Les normes sociales influencent ce que les gens perçoivent comme normal, acceptable ou digne d'être remis en question. Athlètes, supporters, médias, organisations et personnalités publiques contribuent tous à la culture qui entoure le sport. Lorsque les communautés s'opposent systématiquement aux comportements abusifs et promeuvent le respect, elles peuvent contribuer à faire évoluer les normes qui permettent à la violence en ligne de perdurer.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "s7": {
+          "title": {
+            "text": "Travailler ensemble"
+          },
+          "body": {
+            "text": "<p><strong>Ces facteurs interagissent dans le sport et dans notre société. L’éducation peut influencer la compréhension des comportements en ligne, tandis que des normes et des lois partagées peuvent clarifier les attentes, la recherche identifier les risques émergents et la technologie avoir un impact sur la diffusion des contenus préjudiciables. Les communautés sportives ne représentent qu’une partie de notre société : elles sont influencées par des normes culturelles plus larges, et les athlètes, les supporters, les médias, les organisations et les autres acteurs du sport peuvent également contribuer à façonner le monde dans lequel nous vivons.</strong></p><p></p><p></p>",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "match": {
+      "ui": {
+        "eyebrow": {
+          "text": "Vérifiez votre compréhension"
+        },
+        "prompt": {
+          "text": "Associez chaque scénario à un niveau."
+        },
+        "hint": {
+          "text": "Faites glisser chaque carte de niveau dans le scénario correspondant à droite. Placez les trois cartes avant de soumettre."
+        },
+        "choicesAria": {
+          "text": "Choisissez un niveau d'action"
+        },
+        "trayAria": {
+          "text": "Cartes de niveau"
+        },
+        "dropHint": {
+          "text": "Descendez ici"
+        },
+        "submit": {
+          "text": "Soumettre"
+        },
+        "feedbackOk": {
+          "text": "<strong>C’est exact !</strong>Vous avez associé chaque scénario au niveau d’action approprié.",
+          "note": "HTML allowed"
+        },
+        "feedbackBad": {
+          "text": "<strong>Pas tout à fait.</strong>Revoyez vos choix et réessayez.",
+          "note": "HTML allowed"
+        },
+        "done": {
+          "text": "<strong>C’est exact !</strong>Vous avez associé chaque scénario au niveau d’action approprié.",
+          "note": "HTML allowed"
+        }
+      },
+      "labels": {
+        "l0": {
+          "text": "Individuel"
+        },
+        "l1": {
+          "text": "Organisation"
+        },
+        "l2": {
+          "text": "Société"
+        }
+      },
+      "scenarios": {
+        "s1": {
+          "text": {
+            "text": "Après avoir constaté qu'un athlète était ciblé en ligne, une personne vérifie en privé et signale le contenu préjudiciable sans le diffuser davantage."
+          },
+          "ok": {
+            "text": "<strong>Exact !</strong>Le fait de s'informer en privé et de signaler sans donner plus de détails sont des actions individuelles.",
+            "note": "HTML allowed"
+          },
+          "bad": {
+            "text": "<strong>Pas tout à fait.</strong>Réfléchissez à qui agit en ce moment.<strong>Réessayez.</strong>",
+            "note": "HTML allowed"
+          }
+        },
+        "s2": {
+          "text": {
+            "text": "Suite à plusieurs incidents d'abus en ligne, une fédération sportive met en place un système de signalement, une formation du personnel et des procédures de protection."
+          },
+          "ok": {
+            "text": "<strong>Exact !</strong>Les voies de signalement, la formation et les procédures de protection constituent des cadres organisationnels.",
+            "note": "HTML allowed"
+          },
+          "bad": {
+            "text": "<strong>Pas tout à fait.</strong>Examinez quel niveau définit les cadres et les procédures d'un organisme sportif.<strong>Réessayez.</strong>",
+            "note": "HTML allowed"
+          }
+        },
+        "s3": {
+          "text": {
+            "text": "Les recherches montrent comment une nouvelle forme de violence en ligne se propage, contribuant ainsi à éclairer les domaines de l'éducation, de la technologie et des futures politiques publiques."
+          },
+          "ok": {
+            "text": "<strong>Exact !</strong>Les recherches et les données probantes qui éclairent l'éducation, la technologie et les politiques opèrent au niveau de la société.",
+            "note": "HTML allowed"
+          },
+          "bad": {
+            "text": "<strong>Pas tout à fait.</strong>Réfléchissez au niveau qui influence l'éducation, la technologie et les politiques publiques en général.<strong>Réessayez.</strong>",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "takeaways": {
+      "heading": {
+        "text": "Points clés à retenir"
+      },
+      "items": {
+        "i1": {
+          "text": "<strong>La lutte contre les abus en ligne est une responsabilité partagée.</strong>Les individus, les organisations sportives, les plateformes, les médias, les groupes de défense des droits, les décideurs politiques et les autres parties prenantes ont tous un rôle à jouer dans la prévention et la réponse.",
+          "note": "HTML allowed"
+        },
+        "i2": {
+          "text": "<strong>Les actions individuelles peuvent réduire les risques.</strong>Gérer l’exposition, utiliser les outils de sécurité, préserver les preuves, soutenir les autres et savoir quand demander de l’aide supplémentaire peuvent protéger la sécurité et le bien-être.",
+          "note": "HTML allowed"
+        },
+        "i3": {
+          "text": "<strong>Les organisations fournissent une structure et un soutien.</strong>Des cadres clairs, des mesures de protection, des voies de signalement et une action coordonnée aident les organisations à se préparer et à réagir aux abus en ligne.",
+          "note": "HTML allowed"
+        },
+        "i4": {
+          "text": "<strong>La coopération renforce la réponse.</strong>Les clubs, les fédérations, les plateformes, les médias, les groupes de défense des droits et autres parties prenantes peuvent apporter différentes formes de soutien, d'expertise et d'action.",
+          "note": "HTML allowed"
+        },
+        "i5": {
+          "text": "<strong>Les conditions sociales influencent les comportements en ligne.</strong>L’éducation, les normes, la recherche, les politiques, la technologie et les normes culturelles peuvent avoir une incidence sur la façon dont les abus en ligne sont compris, favorisés, prévenus et combattus.",
+          "note": "HTML allowed"
+        },
+        "i6": {
+          "text": "<strong>Le sport s'inscrit dans un contexte social plus large. Les communautés sportives sont influencées par des normes culturelles plus générales et peuvent également contribuer à façonner les attentes et les comportements au sein de la société.</strong>",
+          "note": "HTML allowed"
+        }
+      }
+    },
+    "slide": {
+      "title": {
+        "text": "Module 5 : Agir : Construire des communautés sportives numériques plus sûres",
+        "note": "Module / summary slide title"
+      },
+      "continueLayer2": {
+        "text": "Passez à la couche 2",
+        "note": "Nav button label"
+      },
+      "continueLayer3": {
+        "text": "Passez à la couche 3",
+        "note": "Nav button label"
+      },
+      "goToFinalQuiz": {
+        "text": "Accédez au quiz final",
+        "note": "Nav button label"
+      }
+    }
+  },
+  "summary": {
+    "quiz": {
+      "questions": {
+        "q1": {
+          "prompt": {
+            "text": "Dans le<strong>Baromètre UAOA 2025</strong>, combien de fédérations sportives s'inquiétaient du fait que les abus en ligne puissent chasser les athlètes talentueux du sport ?",
+            "note": "HTML allowed — do not bold option list items"
+          },
+          "choices": {
+            "c0": {
+              "text": "Moins de 50%"
+            },
+            "c1": {
+              "text": "Environ 72%"
+            },
+            "c2": {
+              "text": "Environ 90%"
+            }
+          },
+          "reveal": {
+            "text": "<strong>Environ 90 %</strong><br>Le baromètre de l'UAOA révèle que près de neuf fédérations sportives sur dix interrogées s'inquiètent du fait que les abus en ligne puissent dissuader les athlètes talentueux de pratiquer leur sport. Ces abus peuvent influencer, à terme, la décision des individus de continuer à s'investir dans les communautés sportives.",
+            "note": "HTML allowed"
+          },
+          "next": {
+            "text": "Cela semble beaucoup"
+          }
+        },
+        "q2": {
+          "prompt": {
+            "text": "Selon les recherches, à quoi est associé, chez les sportifs, une plus grande exposition au harcèlement en ligne ?"
+          },
+          "choices": {
+            "c0": {
+              "text": "Détresse psychologique"
+            },
+            "c1": {
+              "text": "Moins d'amis"
+            },
+            "c2": {
+              "text": "Plus d'heures de formation"
+            }
+          },
+          "reveal": {
+            "text": "Une plus grande exposition au harcèlement en ligne a été associée à des niveaux plus élevés de détresse psychologique, soulignant comment les contenus hostiles en ligne peuvent affecter le bien-être psychologique.<strong></strong>",
+            "note": "HTML allowed"
+          },
+          "next": {
+            "text": "C'est inquiétant"
+          }
+        },
+        "q3": {
+          "prompt": {
+            "text": "Lorsqu'un commentaire nuisible concernant un athlète apparaît en ligne, quels facteurs peuvent influencer sa diffusion ?"
+          },
+          "choices": {
+            "c0": {
+              "text": "Conception de plateformes et systèmes de recommandation"
+            },
+            "c1": {
+              "text": "Interactions des utilisateurs et mécanismes de signalement"
+            },
+            "c2": {
+              "text": "Les deux"
+            }
+          },
+          "reveal": {
+            "text": "<strong>Les deux.</strong>La conception de la plateforme, les systèmes de recommandation, les interactions des utilisateurs et les mécanismes de signalement peuvent influencer la manière dont les contenus nuisibles se propagent et atteignent de nouveaux publics.",
+            "note": "HTML allowed"
+          },
+          "next": {
+            "text": "Cela paraît logique."
+          }
+        },
+        "q4": {
+          "prompt": {
+            "text": "<span class=\"scenario\">Si un joueur reçoit des commentaires humiliants après une défaite. Des messages similaires inondent son compte pendant des jours, s'attaquant également à sa race.</span>Que se passe-t-il ?",
+            "note": "HTML allowed"
+          },
+          "choices": {
+            "c0": {
+              "text": "Discours offensant uniquement"
+            },
+            "c1": {
+              "text": "L'hostilité numérique et les discours de haine uniquement"
+            },
+            "c2": {
+              "text": "Plusieurs formes de violence en ligne se chevauchent."
+            }
+          },
+          "reveal": {
+            "text": "<strong>Plusieurs formes peuvent se chevaucher.</strong><br>Le langage humiliant constitue un discours offensant, l'agression publique répétée crée une hostilité numérique et le ciblage raciste peut constituer un discours de haine.",
+            "note": "HTML allowed"
+          },
+          "next": {
+            "text": "Passons à l'action !"
+          }
+        },
+        "q5": {
+          "prompt": {
+            "text": "Quel est le meilleur conseil pour rester en sécurité face aux abus en ligne ?"
+          },
+          "choices": {
+            "c0": {
+              "text": "Réagissez directement pour faire cesser ce comportement."
+            },
+            "c1": {
+              "text": "Évaluez la situation, évitez toute interaction dangereuse et signalez-la de manière appropriée."
+            },
+            "c2": {
+              "text": "Supprimez le contenu et quittez la plateforme"
+            }
+          },
+          "reveal": {
+            "text": "<strong>Agissez en toute sécurité et utilisez les canaux de signalement appropriés.</strong><br>Évaluez si le comportement s'aggrave ou si quelqu'un est en danger, évitez toute interaction dangereuse, conservez les preuves pertinentes et signalez les faits via la plateforme ou les canaux organisationnels appropriés. Sollicitez un soutien supplémentaire si nécessaire.",
+            "note": "HTML allowed"
+          },
+          "next": {
+            "text": "Continue"
+          }
+        },
+        "q6": {
+          "prompt": {
+            "text": "Les lois existantes peuvent-elles contribuer à protéger les personnes contre les abus en ligne, y compris ceux impliquant du contenu généré par l'IA ?"
+          },
+          "choices": {
+            "c0": {
+              "text": "Oui, mais les protections varient d'un pays à l'autre."
+            },
+            "c1": {
+              "text": "Uniquement lorsque les abus impliquent des menaces physiques."
+            },
+            "c2": {
+              "text": "Uniquement lorsque le contenu est partagé publiquement."
+            }
+          },
+          "reveal": {
+            "text": "<strong>Les lois peuvent contribuer à protéger les personnes contre les abus en ligne. Toutefois, les protections et les responsabilités juridiques varient d'un pays à l'autre. Certaines juridictions ont mis en place des mesures spécifiques concernant les images intimes générées par l'IA et d'autres formes d'abus numériques.</strong><br>",
+            "note": "HTML allowed"
+          },
+          "next": {
+            "text": "Les lois ne constituent qu'une partie de la réponse. Que pouvons-nous faire d'autre ?"
+          }
+        },
+        "q7": {
+          "prompt": {
+            "text": "Un coéquipier reçoit des messages injurieux et semble de plus en plus angoissé. Quelle est la réponse la plus appropriée de la part d'un système de soutien ?",
+            "note": "HTML allowed"
+          },
+          "choices": {
+            "c0": {
+              "text": "Partagez publiquement ces messages afin que d'autres puissent les défendre."
+            },
+            "c1": {
+              "text": "Prenez de leurs nouvelles en privé et aidez-les à accéder au soutien approprié."
+            },
+            "c2": {
+              "text": "Limitez les interactions avec le coéquipier"
+            }
+          },
+          "reveal": {
+            "text": "<strong>Le soutien commence par vous !</strong><br>Prenez des nouvelles en privé, évitez d'amplifier les abus, utilisez les canaux de signalement appropriés et prenez la parole lorsque vous êtes en sécurité.",
+            "note": "HTML allowed"
+          },
+          "next": {
+            "text": "La sécurité de chacun compte !"
+          }
+        },
+        "q8": {
+          "prompt": {
+            "text": "L'action positive commence par chacun d'entre nous. Que pouvons-nous faire ?"
+          },
+          "choices": {
+            "c0": {
+              "text": "Protégez-vous, soutenez les autres, agissez en toute sécurité"
+            },
+            "c1": {
+              "text": "Surveiller le contenu, confronter l'agresseur, supprimer les preuves"
+            },
+            "c2": {
+              "text": "Signalez tout, répondez publiquement, restez en ligne"
+            }
+          },
+          "reveal": {
+            "text": "<strong>Protégez-vous. Soutenez les autres. Agissez en toute sécurité.</strong><br>Nous pouvons gérer notre présence sur les réseaux sociaux, utiliser des outils de sécurité, préserver les preuves, soutenir les personnes ciblées et reconnaître les situations nécessitant une aide supplémentaire.",
+            "note": "HTML allowed"
+          },
+          "next": {
+            "text": "Bien sûr que nous pouvons !"
+          }
+        },
+        "q9": {
+          "prompt": {
+            "text": "<strong>Les organisations ont aussi un rôle à jouer.</strong>Plusieurs personnes au sein d'une organisation sportive ont signalé des abus en ligne.<br>Quelle serait la réponse organisationnelle la plus efficace ?",
+            "note": "HTML allowed"
+          },
+          "choices": {
+            "c0": {
+              "text": "Concentrez-vous principalement sur la réponse aux incidents individuels"
+            },
+            "c1": {
+              "text": "Mettre en place des cadres, renforcer les mécanismes de protection et coordonner les actions"
+            },
+            "c2": {
+              "text": "Attendez-vous à ce que les plateformes gèrent le problème."
+            }
+          },
+          "reveal": {
+            "text": "Les réponses organisationnelles efficaces associent préparation, protection, intervention et coopération.",
+            "note": "HTML allowed"
+          },
+          "next": {
+            "text": "Dites-m'en plus !"
+          }
+        },
+        "q10": {
+          "prompt": {
+            "text": "<span class=\"scenario\">Les abus en ligne sont également façonnés par des conditions qui dépassent le cadre d'une seule personne ou organisation.</span>Quelles sont les causes qui peuvent influencer la normalisation, la contestation ou la prévention des comportements nuisibles ?",
+            "note": "HTML allowed"
+          },
+          "choices": {
+            "c0": {
+              "text": "Éducation et normes communautaires"
+            },
+            "c1": {
+              "text": "Recherche et politiques"
+            },
+            "c2": {
+              "text": "Solutions technologiques et d'IA"
+            },
+            "c3": {
+              "text": "Tous ces"
+            }
+          },
+          "reveal": {
+            "text": "<strong>Tout cela.</strong>L’éducation, les normes partagées, la recherche et les données probantes, les politiques et le droit, les solutions technologiques et la conception des plateformes, ainsi que les normes communautaires peuvent tous influencer les comportements en ligne.<br><br>Le sport est influencé par ces conditions sociales plus larges, et les communautés sportives peuvent également contribuer à façonner le monde dans lequel nous vivons ensemble.",
+            "note": "HTML allowed"
+          },
+          "next": {
+            "text": "Plus forts ensemble !"
+          }
+        },
+        "q11": {
+          "prompt": {
+            "text": "Souhaiteriez-vous entreprendre d'autres démarches auprès de l'UAOA ?"
+          },
+          "choices": {
+            "c0": {
+              "text": "Je veux passer à l'action"
+            },
+            "c1": {
+              "text": "Je veux continuer à apprendre"
+            },
+            "c2": {
+              "text": "Je souhaite renforcer mon organisation"
+            },
+            "c3": {
+              "text": "Pas maintenant"
+            }
+          },
+          "reveal": {
+            "text": "<strong>Il existe différentes manières d'agir.</strong>L'UAOA rassemble des personnes et des organisations du monde du sport afin de renforcer leurs efforts de préparation, de prévention et de réponse aux abus en ligne.",
+            "note": "HTML allowed — ungraded item"
+          },
+          "next": {
+            "text": "Vérifiez votre niveau de préparation !"
+          },
+          "links": {
+            "act": {
+              "text": "Explorez les initiatives de l'UAOA et Plus forts ensemble"
+            },
+            "learn": {
+              "text": "Ressources de recherche, de données probantes et pédagogiques de l'UAOA"
+            },
+            "org": {
+              "text": "Ressources organisationnelles de l'UAOA"
+            }
+          }
+        }
+      },
+      "ui": {
+        "chooseOne": {
+          "text": "Choisissez une réponse",
+          "note": "Hint under the question on the open final-quiz layout"
+        },
+        "ok": {
+          "text": "D'ACCORD",
+          "note": "Confirm selection before reveal"
+        },
+        "pressEnter": {
+          "text": "appuyez sur Entrée ↵",
+          "note": "Keyboard hint beside OK"
+        },
+        "questionOf": {
+          "text": "Question {n} de {total}",
+          "note": "Footer progress; {n} and {total} are replaced in JS"
+        },
+        "choicesAria": {
+          "text": "choix de réponses",
+          "note": "aria-label on options group"
+        },
+        "prevAria": {
+          "text": "Question précédente",
+          "note": "aria-label on prev chevron"
+        },
+        "nextAria": {
+          "text": "Question suivante",
+          "note": "aria-label on next chevron when advancing"
+        }
+      },
+      "score": {
+        "youScored": {
+          "text": "Vous avez marqué",
+          "note": "Flip-card modal front label above large %"
+        },
+        "clickToComplete": {
+          "text": "Cliquez pour terminer",
+          "note": "Flip-card modal front CTA"
+        },
+        "headline": {
+          "text": "Vous avez obtenu {pct}% !",
+          "note": "Legacy / optional; modal uses youScored + large %"
+        },
+        "body": {
+          "text": "Vous avez appris à reconnaître les abus en ligne, à comprendre leur impact et à réagir de manière plus sûre dans les contextes individuels, organisationnels et sportifs au sens large."
+        },
+        "note": {
+          "text": "Votre score reflète votre compréhension des concepts clés abordés dans ce cours."
+        },
+        "finish": {
+          "text": "Fermer",
+          "note": "Closes readiness flip modal on the back face"
+        }
+      }
+    },
+    "furtherAction": {
+      "questions": {
+        "q1": {
+          "prompt": {
+            "text": "Souhaiteriez-vous entreprendre d'autres démarches auprès de l'UAOA ?"
+          },
+          "choices": {
+            "c0": {
+              "text": "Je veux passer à l'action"
+            },
+            "c1": {
+              "text": "Je veux continuer à apprendre"
+            },
+            "c2": {
+              "text": "Je souhaite renforcer mon organisation"
+            },
+            "c3": {
+              "text": "Pas maintenant"
+            }
+          },
+          "ok": {
+            "text": "<strong>Il existe différentes manières d'agir.</strong>L'UAOA rassemble des personnes et des organisations du monde du sport afin de renforcer leurs efforts de préparation, de prévention et de réponse aux abus en ligne.",
+            "note": "HTML allowed — legacy further-action widget; Q11 lives in summary.quiz"
+          }
+        }
+      }
+    },
+    "slide": {
+      "title": {
+        "text": "Résumé : Points clés à retenir",
+        "note": "Module / summary slide title"
+      },
+      "finishCourse": {
+        "text": "Finir le parcours",
+        "note": "Nav button label"
+      },
+      "postSurvey": {
+        "text": "Répondez au questionnaire post-formation",
+        "note": "Nav button label"
+      },
+      "getCertificate": {
+        "text": "Obtenez votre certificat",
+        "note": "Nav button label"
+      }
+    }
+  },
+  "embeds": {
+    "sensitiveNotice": {
+      "title": {
+        "text": "Avis relatif à un sujet sensible"
+      },
+      "body": {
+        "text": "Ce cours aborde des sujets qui peuvent être difficiles ou bouleversants pour certains lecteurs. Nous vous encourageons à progresser à votre rythme et à solliciter de l'aide en cas de besoin. N'oubliez pas que vous pouvez interrompre le cours à tout moment et le reprendre lorsque vous vous sentirez prêt(e)."
+      },
+      "viewSupport": {
+        "text": "Afficher les options d'assistance"
+      },
+      "supportTitle": {
+        "text": "Options de support"
+      },
+      "supportIntro": {
+        "text": "Si un élément de ce cours vous a affecté, vous pouvez faire une pause et revenir lorsque vous vous sentirez prêt."
+      },
+      "someoneTrusted": {
+        "text": "Une personne en qui vous avez confiance"
+      },
+      "someoneTrustedDetail": {
+        "text": "Un ami, un membre de la famille, un coéquipier ou un entraîneur."
+      },
+      "orgLead": {
+        "text": "Responsable du bien-être ou de la protection au sein de votre organisation"
+      },
+      "closeAria": {
+        "text": "Fermer"
+      }
+    },
+    "miniDictionary": {
+      "teaser": {
+        "text": "Vous souhaitez en savoir plus sur les autres formes de violence en ligne ?"
+      },
+      "bodyBefore": {
+        "text": "Les abus en ligne peuvent prendre de nombreuses formes, au-delà des trois comportements présentés ici. Explorez les"
+      },
+      "linkLabel": {
+        "text": "Mini dictionnaire"
+      },
+      "bodyAfter": {
+        "text": "pour un aperçu rapide des autres tactiques que vous pourriez rencontrer en ligne."
+      },
+      "discretionLabel": {
+        "text": "Avertissement au lecteur :"
+      },
+      "discretion": {
+        "text": "Certains passages décrivent des comportements nuisibles ou abusifs qui peuvent être sensibles ou perturbants. Explorez cette ressource à votre propre discrétion et reprenez le cours lorsque vous vous sentirez prêt(e)."
+      },
+      "cta": {
+        "text": "Explorez le mini-dictionnaire"
+      },
+      "closeAria": {
+        "text": "Fermer"
+      },
+      "title": {
+        "text": "Mini-dictionnaire : Autres formes possibles de violence en ligne",
+        "note": "Dictionary document title"
+      },
+      "fullText": {
+        "text": "Mini-dictionnaire : Autres formes possibles de violence en ligne\n\nContenu toxique\n\n* Humiliation intentionnelle : Faire honte ou humilier quelqu’un délibérément, souvent publiquement.\n\n* Cyberintimidation : Utilisation répétée des moyens de communication électroniques pour intimider, effrayer ou humilier une personne.\n\n* Provocation : Publication de messages provocateurs ou offensants pour susciter des réactions vives ou perturber les discussions.\n\n* Contenu vulgaire ou offensant : Langage, images ou communications vulgaires ou irrespectueux.\n\n* Menaces de violence : Messages destinés à susciter la peur de violences physiques.\n\n* Incitation à la violence : Inciter autrui à agir violemment ou illégalement.\n\n* Harcèlement sexuel : Avances ou commentaires à caractère sexuel non désirés.\n\n* Contenu explicite non désiré : Partage d’images ou de messages à caractère sexuel explicite sans consentement.\n\nFuite de contenu\n\n* Sextorsion : Chantage consistant à menacer de diffuser des informations privées si les exigences ne sont pas satisfaites.\n\n* Doxxing : Publication d’informations privées ou permettant d’identifier une personne dans une intention malveillante. * Révélation de l'orientation sexuelle ou de l'identité de genre d'une personne sans son consentement.\n\n* Utilisation du « deadnaming » (ancien nom) d'une personne transgenre ou non binaire sans son consentement.\n\n* Diffusion non consensuelle d'images : partage d'images ou de vidéos privées ou intimes sans consentement.\n\n* Fuite de conversations ou de profils : divulgation de conversations ou de comptes privés sans autorisation.\n\n* Surcharge\n* Inondation de système ou de compte : submerger une personne ou une plateforme de contenu excessif ou de requêtes dans le but de perturber le service ou de faire taire les utilisateurs.\n\n* Zoombombing : intrusion non sollicitée dans un appel vidéo dans le but de le perturber.\n\n* Évaluations et commentaires négatifs : commentaires injustes ou biaisés, coordonnés, visant à nuire à la réputation d'une personne.\n\n* Fausses alertes\n\n* Appel d'urgence malveillant : appel d'urgence frauduleux visant à déclencher une intervention policière armée au domicile d'une personne.\n\n* Signalement d'abus falsifié : soumission délibérée d'un faux signalement dans le but de nuire.\n\n* Signalement d'abus falsifié : signalement erroné d'un contenu légitime comme étant abusif afin de le faire supprimer ou censurer. Usurpation d'identité\n\n* Profils usurpés : faux comptes créés dans le but de tromper ou d'escroquer.\n\n* Conversations ou images usurpées : contenu fabriqué ou modifié et faussement attribué à une personne.\n\n* Pornographie synthétique : utilisation de la technologie Deepfake pour créer du contenu explicite sans consentement.\n\n* Pages web usurpées : sites contrefaits conçus pour tromper les utilisateurs ou nuire à la réputation d'un concurrent.\n\n* Communication piratée : prise de contrôle non autorisée d'un compte ou d'un canal pour diffuser de faux messages.\n\nSurveillance\n\n* Harcèlement ou filature : surveillance répétée et non désirée des déplacements ou des activités d'une personne.\n\n* Surveillance de compte : accès non autorisé à l'activité d'un compte et suivi de celle-ci.\n\n* Surveillance d'appareil : suivi non autorisé de l'activité sur le téléphone, l'ordinateur ou la tablette d'une personne.\n\n* Surveillance des objets connectés : collecte passive de données provenant d'objets connectés ou d'appareils intelligents sans consentement.\n\n* Surveillance du navigateur : suivi de l'historique de navigation ou de l'activité d'une personne à son insu. Blocage et contrôle\n\n* Suppression de contenu : retrait non autorisé de fichiers, de publications ou de données dans le but de dissimuler des informations ou de nuire.\n\n* Piratage de navigateur ou d’appareil : prise de contrôle du navigateur ou des appareils connectés d’une personne sans son consentement.\n\n* Blocage de compte : blocage délibéré de l’accès d’une personne à ses propres comptes ou contenus.",
+        "note": "Full mini-dictionary source; HTML/markdown structure — translate carefully"
+      }
+    },
+    "scroll": {
+      "continue": {
+        "text": "Continuer",
+        "note": "Scroll / fade continue control"
+      },
+      "continueAria": {
+        "text": "Poursuivez votre lecture pour plus de contenu."
+      },
+      "continueRevealAria": {
+        "text": "Continuez à dévoiler plus de contenu"
+      },
+      "noBlock": {
+        "text": "Aucun bloc suivant n'a été trouvé sur cette diapositive.",
+        "note": "Dev/fallback message"
+      }
+    }
+  },
+  "player": {
+    "systemLabels": {
+      "access": {
+        "choose_nickname": {
+          "text": "Choisir un surnom",
+          "note": "ScormStack player/system label `access.choose_nickname`"
+        },
+        "contact_provider": {
+          "text": "Contactez l'organisme de formation si vous avez besoin du mot de passe.",
+          "note": "ScormStack player/system label `access.contact_provider`"
+        },
+        "continue": {
+          "text": "Continuer",
+          "note": "ScormStack player/system label `access.continue`"
+        },
+        "enter_email": {
+          "text": "Saisissez votre adresse e-mail",
+          "note": "ScormStack player/system label `access.enter_email`"
+        },
+        "enter_email_description": {
+          "text": "Nous utilisons votre adresse e-mail pour vous identifier.",
+          "note": "ScormStack player/system label `access.enter_email_description`"
+        },
+        "enter_email_placeholder": {
+          "text": "votre@email.com",
+          "note": "ScormStack player/system label `access.enter_email_placeholder`"
+        },
+        "enter_name": {
+          "text": "Entrez votre nom",
+          "note": "ScormStack player/system label `access.enter_name`"
+        },
+        "enter_password": {
+          "text": "Saisissez le mot de passe",
+          "note": "ScormStack player/system label `access.enter_password`"
+        },
+        "failed_to_save": {
+          "text": "Impossible d'enregistrer. Veuillez réessayer.",
+          "note": "ScormStack player/system label `access.failed_to_save`"
+        },
+        "field_required": {
+          "text": "Ce champ est obligatoire",
+          "note": "ScormStack player/system label `access.field_required`"
+        },
+        "incorrect_password": {
+          "text": "Mot de passe incorrect. Veuillez réessayer.",
+          "note": "ScormStack player/system label `access.incorrect_password`"
+        },
+        "invalid_email": {
+          "text": "S'il vous plaît, mettez une adresse email valide",
+          "note": "ScormStack player/system label `access.invalid_email`"
+        },
+        "max_length": {
+          "text": "Doit comporter 100 caractères ou moins.",
+          "note": "ScormStack player/system label `access.max_length`"
+        },
+        "min_length": {
+          "text": "Doit comporter au moins 2 caractères",
+          "note": "ScormStack player/system label `access.min_length`"
+        },
+        "name_description": {
+          "text": "Saisissez votre nom pour vous identifier.",
+          "note": "ScormStack player/system label `access.name_description`"
+        },
+        "name_placeholder": {
+          "text": "par exemple, John Doe",
+          "note": "ScormStack player/system label `access.name_placeholder`"
+        },
+        "nickname_description": {
+          "text": "Choisissez un surnom pour vous identifier.",
+          "note": "ScormStack player/system label `access.nickname_description`"
+        },
+        "nickname_placeholder": {
+          "text": "par exemple, BluePhoenix42",
+          "note": "ScormStack player/system label `access.nickname_placeholder`"
+        },
+        "password_description": {
+          "text": "Ce cours est protégé par un mot de passe. Veuillez saisir le mot de passe pour accéder au contenu.",
+          "note": "ScormStack player/system label `access.password_description`"
+        },
+        "password_not_configured": {
+          "text": "La vérification du mot de passe n'est pas correctement configurée.",
+          "note": "ScormStack player/system label `access.password_not_configured`"
+        },
+        "password_required": {
+          "text": "Mot de passe requis",
+          "note": "ScormStack player/system label `access.password_required`"
+        },
+        "progress_tracked": {
+          "text": "Votre progression sera suivie.",
+          "note": "ScormStack player/system label `access.progress_tracked`"
+        },
+        "saved": {
+          "text": "Sauvé !",
+          "note": "ScormStack player/system label `access.saved`"
+        },
+        "saving": {
+          "text": "Économie...",
+          "note": "ScormStack player/system label `access.saving`"
+        },
+        "unable_to_verify": {
+          "text": "Impossible de vérifier le mot de passe. Veuillez réessayer.",
+          "note": "ScormStack player/system label `access.unable_to_verify`"
+        },
+        "verifying": {
+          "text": "Vérification en cours...",
+          "note": "ScormStack player/system label `access.verifying`"
+        }
+      },
+      "accordion": {
+        "collapse": {
+          "text": "Effondrement",
+          "note": "ScormStack player/system label `accordion.collapse`"
+        },
+        "expand": {
+          "text": "Développer",
+          "note": "ScormStack player/system label `accordion.expand`"
+        }
+      },
+      "assessment": {
+        "assessment_not_passed": {
+          "text": "Évaluation non réussie",
+          "note": "ScormStack player/system label `assessment.assessment_not_passed`"
+        },
+        "assessment_passed": {
+          "text": "Évaluation réussie",
+          "note": "ScormStack player/system label `assessment.assessment_passed`"
+        },
+        "assessment_results": {
+          "text": "Résultats de l'évaluation",
+          "note": "ScormStack player/system label `assessment.assessment_results`"
+        },
+        "attempts": {
+          "text": "Tentatives",
+          "note": "ScormStack player/system label `assessment.attempts`"
+        },
+        "attempts_available": {
+          "text": "tentatives disponibles",
+          "note": "ScormStack player/system label `assessment.attempts_available`"
+        },
+        "attempts_per_question": {
+          "text": "Le nombre maximal de tentatives par question est",
+          "note": "ScormStack player/system label `assessment.attempts_per_question`"
+        },
+        "blanks": {
+          "text": "blancs",
+          "note": "ScormStack player/system label `assessment.blanks`"
+        },
+        "case_insensitive": {
+          "text": "Insensible à la casse",
+          "note": "ScormStack player/system label `assessment.case_insensitive`"
+        },
+        "case_sensitive": {
+          "text": "Sensible aux majuscules et minuscules",
+          "note": "ScormStack player/system label `assessment.case_sensitive`"
+        },
+        "complete_assessment": {
+          "text": "Évaluation complète",
+          "note": "ScormStack player/system label `assessment.complete_assessment`"
+        },
+        "continue_assessment": {
+          "text": "Poursuivre l'évaluation",
+          "note": "ScormStack player/system label `assessment.continue_assessment`"
+        },
+        "correct": {
+          "text": "Correct",
+          "note": "ScormStack player/system label `assessment.correct`"
+        },
+        "correct_answer": {
+          "text": "Réponse correcte",
+          "note": "ScormStack player/system label `assessment.correct_answer`"
+        },
+        "edit_response": {
+          "text": "Modifier la réponse",
+          "note": "ScormStack player/system label `assessment.edit_response`"
+        },
+        "empty_description": {
+          "text": "Ajoutez des questions pour rendre cette évaluation disponible.",
+          "note": "ScormStack player/system label `assessment.empty_description`"
+        },
+        "enter_response": {
+          "text": "Saisissez votre réponse ici...",
+          "note": "ScormStack player/system label `assessment.enter_response`"
+        },
+        "explanation": {
+          "text": "Explication",
+          "note": "ScormStack player/system label `assessment.explanation`"
+        },
+        "fill_in_blank": {
+          "choose": {
+            "text": "Choisir...",
+            "note": "ScormStack player/system label `assessment.fill_in_blank.choose`"
+          },
+          "type_here": {
+            "text": "Saisissez votre texte ici...",
+            "note": "ScormStack player/system label `assessment.fill_in_blank.type_here`"
+          }
+        },
+        "incorrect": {
+          "text": "Incorrect",
+          "note": "ScormStack player/system label `assessment.incorrect`"
+        },
+        "next_question": {
+          "text": "Question suivante",
+          "note": "ScormStack player/system label `assessment.next_question`"
+        },
+        "numerical": {
+          "tolerance": {
+            "text": "Tolérance",
+            "note": "ScormStack player/system label `assessment.numerical.tolerance`"
+          },
+          "type_here": {
+            "text": "Saisissez votre texte ici...",
+            "note": "ScormStack player/system label `assessment.numerical.type_here`"
+          }
+        },
+        "of": {
+          "text": "de",
+          "note": "ScormStack player/system label `assessment.of`"
+        },
+        "overview": {
+          "text": "Aperçu",
+          "note": "ScormStack player/system label `assessment.overview`"
+        },
+        "partially_correct": {
+          "text": "Partiellement correct",
+          "note": "ScormStack player/system label `assessment.partially_correct`"
+        },
+        "points_possible": {
+          "text": "Points possibles",
+          "note": "ScormStack player/system label `assessment.points_possible`"
+        },
+        "previous": {
+          "text": "Précédent",
+          "note": "ScormStack player/system label `assessment.previous`"
+        },
+        "progress": {
+          "text": "Progrès",
+          "note": "ScormStack player/system label `assessment.progress`"
+        },
+        "question": {
+          "text": "Question",
+          "note": "ScormStack player/system label `assessment.question`"
+        },
+        "questions": {
+          "text": "Questions",
+          "note": "ScormStack player/system label `assessment.questions`"
+        },
+        "required": {
+          "text": "Requis",
+          "note": "ScormStack player/system label `assessment.required`"
+        },
+        "response_saved": {
+          "text": "Réponse enregistrée",
+          "note": "ScormStack player/system label `assessment.response_saved`"
+        },
+        "results": {
+          "text": "Résultats",
+          "note": "ScormStack player/system label `assessment.results`"
+        },
+        "review_questions": {
+          "text": "Questions de révision",
+          "note": "ScormStack player/system label `assessment.review_questions`"
+        },
+        "score": {
+          "text": "Score",
+          "note": "ScormStack player/system label `assessment.score`"
+        },
+        "start_assessment": {
+          "text": "Début de l'évaluation",
+          "note": "ScormStack player/system label `assessment.start_assessment`"
+        },
+        "string": {
+          "type_here": {
+            "text": "Saisissez votre texte ici...",
+            "note": "ScormStack player/system label `assessment.string.type_here`"
+          }
+        },
+        "submit": {
+          "text": "Soumettre",
+          "note": "ScormStack player/system label `assessment.submit`"
+        },
+        "submitted": {
+          "text": "Réponse soumise",
+          "note": "ScormStack player/system label `assessment.submitted`"
+        },
+        "success_meter": {
+          "checkpoint_reached": {
+            "text": "Point de contrôle atteint !",
+            "note": "ScormStack player/system label `assessment.success_meter.checkpoint_reached`"
+          },
+          "continue_with_extra_questions": {
+            "text": "Poursuivez avec des questions supplémentaires",
+            "note": "ScormStack player/system label `assessment.success_meter.continue_with_extra_questions`"
+          },
+          "extra_question": {
+            "text": "Question supplémentaire",
+            "note": "ScormStack player/system label `assessment.success_meter.extra_question`"
+          },
+          "lets_try_a_few_more_questions_to_boost_your_score": {
+            "text": "Essayons quelques questions supplémentaires pour améliorer votre score !",
+            "note": "ScormStack player/system label `assessment.success_meter.lets_try_a_few_more_questions_to_boost_your_score`"
+          },
+          "maximum_attempts_reached": {
+            "text": "Nombre maximal de tentatives atteint",
+            "note": "ScormStack player/system label `assessment.success_meter.maximum_attempts_reached`"
+          },
+          "performance_level": {
+            "text": "Niveau",
+            "note": "ScormStack player/system label `assessment.success_meter.performance_level`"
+          },
+          "points": {
+            "text": "Points",
+            "note": "ScormStack player/system label `assessment.success_meter.points`"
+          },
+          "to_complete_the_assessment": {
+            "text": "pour compléter l'évaluation",
+            "note": "ScormStack player/system label `assessment.success_meter.to_complete_the_assessment`"
+          },
+          "you_need": {
+            "text": "Vous avez besoin",
+            "note": "ScormStack player/system label `assessment.success_meter.you_need`"
+          }
+        },
+        "total_point_possible": {
+          "text": "Le score total possible est",
+          "note": "ScormStack player/system label `assessment.total_point_possible`"
+        },
+        "total_points_possible": {
+          "text": "Le nombre total de points possibles est",
+          "note": "ScormStack player/system label `assessment.total_points_possible`"
+        },
+        "try_again": {
+          "text": "Essayer à nouveau",
+          "note": "ScormStack player/system label `assessment.try_again`"
+        },
+        "ungraded_submitted": {
+          "text": "Réponse soumise",
+          "note": "ScormStack player/system label `assessment.ungraded_submitted`"
+        },
+        "unlimited_attempts": {
+          "text": "Vous disposez d'un nombre illimité de tentatives pour répondre à cette évaluation.",
+          "note": "ScormStack player/system label `assessment.unlimited_attempts`"
+        },
+        "view_results": {
+          "text": "Afficher les résultats",
+          "note": "ScormStack player/system label `assessment.view_results`"
+        }
+      },
+      "audio": {
+        "show_transcript": {
+          "text": "Afficher la transcription",
+          "note": "ScormStack player/system label `audio.show_transcript`"
+        }
+      },
+      "categorization": {
+        "drop_here": {
+          "text": "Déposez des objets ici",
+          "note": "ScormStack player/system label `categorization.drop_here`"
+        },
+        "item": {
+          "text": "Article",
+          "note": "ScormStack player/system label `categorization.item`"
+        }
+      },
+      "click_on_image": {
+        "click_to_place_area": {
+          "text": "Cliquez pour définir une zone",
+          "note": "ScormStack player/system label `click_on_image.click_to_place_area`"
+        },
+        "click_to_place_area_to_remove": {
+          "text": "Cliquez sur la zone placée pour la supprimer.",
+          "note": "ScormStack player/system label `click_on_image.click_to_place_area_to_remove`"
+        },
+        "click_to_place_areas": {
+          "text": "Cliquez pour placer les zones",
+          "note": "ScormStack player/system label `click_on_image.click_to_place_areas`"
+        },
+        "click_to_place_areas_to_remove": {
+          "text": "Cliquez sur les zones placées pour les supprimer.",
+          "note": "ScormStack player/system label `click_on_image.click_to_place_areas_to_remove`"
+        },
+        "click_to_place_areas_up_to_end": {
+          "text": ").",
+          "note": "ScormStack player/system label `click_on_image.click_to_place_areas_up_to_end`"
+        },
+        "click_to_place_areas_up_to_start": {
+          "text": "(jusqu'à",
+          "note": "ScormStack player/system label `click_on_image.click_to_place_areas_up_to_start`"
+        }
+      },
+      "completion": {
+        "completed_description": {
+          "text": "Vous avez réussi ce cours. Bravo !",
+          "note": "ScormStack player/system label `completion.completed_description`"
+        },
+        "completed_title": {
+          "text": "Cours terminé",
+          "note": "ScormStack player/system label `completion.completed_title`"
+        },
+        "continue_reviewing": {
+          "text": "Poursuivre la révision",
+          "note": "ScormStack player/system label `completion.continue_reviewing`"
+        },
+        "debug_info": {
+          "text": "Informations de débogage",
+          "note": "ScormStack player/system label `completion.debug_info`"
+        },
+        "exit_course": {
+          "text": "Cours de sortie",
+          "note": "ScormStack player/system label `completion.exit_course`"
+        },
+        "failed_description": {
+          "text": "Vous avez terminé ce cours. Vous pouvez revoir la matière et réessayer pour obtenir la note de passage.",
+          "note": "ScormStack player/system label `completion.failed_description`"
+        },
+        "na": {
+          "text": "N / A",
+          "note": "ScormStack player/system label `completion.na`"
+        },
+        "passed_title": {
+          "text": "Félicitations ! Vous avez réussi !",
+          "note": "ScormStack player/system label `completion.passed_title`"
+        },
+        "passing": {
+          "text": "Passage",
+          "note": "ScormStack player/system label `completion.passing`"
+        },
+        "score": {
+          "text": "Score",
+          "note": "ScormStack player/system label `completion.score`"
+        },
+        "scorm_version": {
+          "text": "Version SCORM",
+          "note": "ScormStack player/system label `completion.scorm_version`"
+        },
+        "status": {
+          "text": "Statut",
+          "note": "ScormStack player/system label `completion.status`"
+        },
+        "your_score": {
+          "text": "Votre score",
+          "note": "ScormStack player/system label `completion.your_score`"
+        }
+      },
+      "continue": {
+        "auto_progress": {
+          "text": "Progression automatique après délai",
+          "note": "ScormStack player/system label `continue.auto_progress`"
+        },
+        "button_text": {
+          "text": "Texte du bouton",
+          "note": "ScormStack player/system label `continue.button_text`"
+        },
+        "continue": {
+          "text": "Continuer",
+          "note": "ScormStack player/system label `continue.continue`"
+        }
+      },
+      "flashcard": {
+        "card": {
+          "text": "Flashcard",
+          "note": "ScormStack player/system label `flashcard.card`"
+        },
+        "card_number": {
+          "text": "Carte",
+          "note": "ScormStack player/system label `flashcard.card_number`"
+        },
+        "click_to_flip": {
+          "text": "Cliquez pour retourner",
+          "note": "ScormStack player/system label `flashcard.click_to_flip`"
+        },
+        "click_to_flip_back": {
+          "text": "Cliquez pour revenir en arrière",
+          "note": "ScormStack player/system label `flashcard.click_to_flip_back`"
+        },
+        "no_flashcards": {
+          "text": "Aucune carte mémoire disponible",
+          "note": "ScormStack player/system label `flashcard.no_flashcards`"
+        },
+        "press_to_flip": {
+          "text": "Appuyez sur Entrée ou Espace pour retourner",
+          "note": "ScormStack player/system label `flashcard.press_to_flip`"
+        },
+        "showing_back": {
+          "text": "Montrant le dos",
+          "note": "ScormStack player/system label `flashcard.showing_back`"
+        },
+        "showing_front": {
+          "text": "Vue de face",
+          "note": "ScormStack player/system label `flashcard.showing_front`"
+        }
+      },
+      "flow": {
+        "begin": {
+          "text": "Commencer",
+          "note": "ScormStack player/system label `flow.begin`"
+        },
+        "of": {
+          "text": "de",
+          "note": "ScormStack player/system label `flow.of`"
+        },
+        "start_again": {
+          "text": "Recommencer",
+          "note": "ScormStack player/system label `flow.start_again`"
+        },
+        "step": {
+          "text": "Étape",
+          "note": "ScormStack player/system label `flow.step`"
+        }
+      },
+      "general": {
+        "cancel": {
+          "text": "Annuler",
+          "note": "ScormStack player/system label `general.cancel`"
+        },
+        "close": {
+          "text": "Fermer",
+          "note": "ScormStack player/system label `general.close`"
+        },
+        "download": {
+          "text": "Télécharger",
+          "note": "ScormStack player/system label `general.download`"
+        },
+        "error": {
+          "text": "Erreur",
+          "note": "ScormStack player/system label `general.error`"
+        },
+        "loading": {
+          "text": "Chargement...",
+          "note": "ScormStack player/system label `general.loading`"
+        },
+        "retry": {
+          "text": "Réessayer",
+          "note": "ScormStack player/system label `general.retry`"
+        },
+        "save": {
+          "text": "Sauvegarder",
+          "note": "ScormStack player/system label `general.save`"
+        }
+      },
+      "homepage": {
+        "course_home": {
+          "text": "Maison",
+          "note": "ScormStack player/system label `homepage.course_home`"
+        },
+        "start_course": {
+          "text": "Début du cours",
+          "note": "ScormStack player/system label `homepage.start_course`"
+        },
+        "table_of_contents": {
+          "text": "Table des matières",
+          "note": "ScormStack player/system label `homepage.table_of_contents`"
+        }
+      },
+      "interactive_image": {
+        "click_to_view": {
+          "text": "Cliquez pour afficher le contenu",
+          "note": "ScormStack player/system label `interactive_image.click_to_view`"
+        },
+        "close_modal": {
+          "text": "Fermer la fenêtre modale",
+          "note": "ScormStack player/system label `interactive_image.close_modal`"
+        },
+        "close_sidebar": {
+          "text": "Fermer la barre latérale",
+          "note": "ScormStack player/system label `interactive_image.close_sidebar`"
+        },
+        "close_tooltip": {
+          "text": "Fermer l'infobulle",
+          "note": "ScormStack player/system label `interactive_image.close_tooltip`"
+        },
+        "hotspot": {
+          "text": "Point chaud",
+          "note": "ScormStack player/system label `interactive_image.hotspot`"
+        },
+        "press_escape_close": {
+          "text": "Appuyez sur Échap pour fermer",
+          "note": "ScormStack player/system label `interactive_image.press_escape_close`"
+        },
+        "press_to_view": {
+          "text": "Appuyez sur Entrée ou Espace pour afficher les détails",
+          "note": "ScormStack player/system label `interactive_image.press_to_view`"
+        }
+      },
+      "matching": {
+        "pairedItems": {
+          "text": "Articles appariés",
+          "note": "ScormStack player/system label `matching.pairedItems`"
+        },
+        "pairedItemsAriaLabel": {
+          "text": "Éléments associés. Appuyez sur Espace ou Entrée pour dissocier.",
+          "note": "ScormStack player/system label `matching.pairedItemsAriaLabel`"
+        }
+      },
+      "media": {
+        "alt_text": {
+          "text": "Description de l'image",
+          "note": "ScormStack player/system label `media.alt_text`"
+        },
+        "caption": {
+          "text": "Légende",
+          "note": "ScormStack player/system label `media.caption`"
+        },
+        "error": {
+          "text": "Impossible de charger le média",
+          "note": "ScormStack player/system label `media.error`"
+        },
+        "loading": {
+          "text": "Chargement des médias...",
+          "note": "ScormStack player/system label `media.loading`"
+        }
+      },
+      "navigation": {
+        "back": {
+          "text": "Dos",
+          "note": "ScormStack player/system label `navigation.back`"
+        },
+        "completed": {
+          "text": "Complété",
+          "note": "ScormStack player/system label `navigation.completed`"
+        },
+        "continue": {
+          "text": "Continuer",
+          "note": "ScormStack player/system label `navigation.continue`"
+        },
+        "current_page": {
+          "text": "Page actuelle",
+          "note": "ScormStack player/system label `navigation.current_page`"
+        },
+        "finish": {
+          "text": "Finition",
+          "note": "ScormStack player/system label `navigation.finish`"
+        },
+        "go_to_card": {
+          "text": "Aller à la carte {carte}",
+          "note": "ScormStack player/system label `navigation.go_to_card`"
+        },
+        "go_to_page": {
+          "text": "Aller à la page {page}",
+          "note": "ScormStack player/system label `navigation.go_to_page`"
+        },
+        "next": {
+          "text": "Suivant",
+          "note": "ScormStack player/system label `navigation.next`"
+        },
+        "of": {
+          "text": "de",
+          "note": "ScormStack player/system label `navigation.of`"
+        },
+        "previous": {
+          "text": "Précédent",
+          "note": "ScormStack player/system label `navigation.previous`"
+        }
+      },
+      "reactions": {
+        "comment_help": {
+          "text": "Ce commentaire est envoyé avec les outils d'analyse mais n'est pas enregistré dans les données du CV.",
+          "note": "ScormStack player/system label `reactions.comment_help`"
+        },
+        "comment_label": {
+          "text": "Ajouter un court commentaire",
+          "note": "ScormStack player/system label `reactions.comment_label`"
+        },
+        "comment_placeholder": {
+          "text": "Partagez un court commentaire (150 caractères maximum)",
+          "note": "ScormStack player/system label `reactions.comment_placeholder`"
+        },
+        "comment_sent": {
+          "text": "Commentaire envoyé",
+          "note": "ScormStack player/system label `reactions.comment_sent`"
+        },
+        "complete_above": {
+          "text": "Complétez le contenu ci-dessus pour réagir.",
+          "note": "ScormStack player/system label `reactions.complete_above`"
+        },
+        "learned_something": {
+          "text": "J'ai appris quelque chose",
+          "note": "ScormStack player/system label `reactions.learned_something`"
+        },
+        "like": {
+          "text": "J'aime",
+          "note": "ScormStack player/system label `reactions.like`"
+        },
+        "not_up_to_date": {
+          "text": "Ceci est obsolète",
+          "note": "ScormStack player/system label `reactions.not_up_to_date`"
+        },
+        "prompt": {
+          "text": "Que pensez-vous de ce contenu ?",
+          "note": "ScormStack player/system label `reactions.prompt`"
+        },
+        "question": {
+          "text": "J'ai une question",
+          "note": "ScormStack player/system label `reactions.question`"
+        },
+        "rating_prompt": {
+          "text": "Comment évalueriez-vous ce contenu ?",
+          "note": "ScormStack player/system label `reactions.rating_prompt`"
+        },
+        "selection_locked": {
+          "text": "Votre réaction a été enregistrée et verrouillée.",
+          "note": "ScormStack player/system label `reactions.selection_locked`"
+        },
+        "send_comment": {
+          "text": "Envoyer un commentaire",
+          "note": "ScormStack player/system label `reactions.send_comment`"
+        }
+      },
+      "resume": {
+        "last_on": {
+          "text": "Vous étiez en dernier sur",
+          "note": "ScormStack player/system label `resume.last_on`"
+        },
+        "loading_course": {
+          "text": "Chargement du cours...",
+          "note": "ScormStack player/system label `resume.loading_course`"
+        },
+        "of": {
+          "text": "de",
+          "note": "ScormStack player/system label `resume.of`"
+        },
+        "please_wait": {
+          "text": "Veuillez patienter pendant que nous préparons votre expérience d'apprentissage.",
+          "note": "ScormStack player/system label `resume.please_wait`"
+        },
+        "progress_saved": {
+          "text": "Votre progression a été enregistrée automatiquement.",
+          "note": "ScormStack player/system label `resume.progress_saved`"
+        },
+        "resume_course": {
+          "text": "Cours de CV",
+          "note": "ScormStack player/system label `resume.resume_course`"
+        },
+        "slide": {
+          "text": "Glisser",
+          "note": "ScormStack player/system label `resume.slide`"
+        },
+        "start_over": {
+          "text": "Recommencer",
+          "note": "ScormStack player/system label `resume.start_over`"
+        },
+        "welcome_back": {
+          "text": "Content de te revoir!",
+          "note": "ScormStack player/system label `resume.welcome_back`"
+        }
+      },
+      "separator": {
+        "section_break": {
+          "text": "rupture de section",
+          "note": "ScormStack player/system label `separator.section_break`"
+        }
+      },
+      "slide_intro": {
+        "learning_objectives": {
+          "text": "Objectifs d'apprentissage",
+          "note": "ScormStack player/system label `slide_intro.learning_objectives`"
+        },
+        "lesson": {
+          "text": "Leçon",
+          "note": "ScormStack player/system label `slide_intro.lesson`"
+        },
+        "minute": {
+          "text": "minute",
+          "note": "ScormStack player/system label `slide_intro.minute`"
+        },
+        "minutes": {
+          "text": "minutes",
+          "note": "ScormStack player/system label `slide_intro.minutes`"
+        },
+        "of": {
+          "text": "de",
+          "note": "ScormStack player/system label `slide_intro.of`"
+        },
+        "table_of_contents": {
+          "text": "Table des matières",
+          "note": "ScormStack player/system label `slide_intro.table_of_contents`"
+        },
+        "untitled_lesson": {
+          "text": "Leçon sans titre",
+          "note": "ScormStack player/system label `slide_intro.untitled_lesson`"
+        }
+      },
+      "sorting": {
+        "correct_order": {
+          "text": "Ordre correct",
+          "note": "ScormStack player/system label `sorting.correct_order`"
+        },
+        "correct_position": {
+          "text": "Position correcte",
+          "note": "ScormStack player/system label `sorting.correct_position`"
+        },
+        "drag_item": {
+          "text": "Élément glisser",
+          "note": "ScormStack player/system label `sorting.drag_item`"
+        },
+        "item": {
+          "text": "Article",
+          "note": "ScormStack player/system label `sorting.item`"
+        },
+        "move_next": {
+          "text": "Passer à la suite",
+          "note": "ScormStack player/system label `sorting.move_next`"
+        },
+        "move_previous": {
+          "text": "Déplacer le précédent",
+          "note": "ScormStack player/system label `sorting.move_previous`"
+        },
+        "position_for": {
+          "text": "Poste pour",
+          "note": "ScormStack player/system label `sorting.position_for`"
+        }
+      },
+      "tabs": {
+        "more": {
+          "text": "plus",
+          "note": "ScormStack player/system label `tabs.more`"
+        }
+      },
+      "time_requirements": {
+        "completed": {
+          "text": "Délai respecté",
+          "note": "ScormStack player/system label `time_requirements.completed`"
+        },
+        "done": {
+          "text": "Fait",
+          "note": "ScormStack player/system label `time_requirements.done`"
+        },
+        "elapsed": {
+          "text": "Temps écoulé : {temps}",
+          "note": "ScormStack player/system label `time_requirements.elapsed`"
+        },
+        "minute": {
+          "text": "minute",
+          "note": "ScormStack player/system label `time_requirements.minute`"
+        },
+        "minutes": {
+          "text": "minutes",
+          "note": "ScormStack player/system label `time_requirements.minutes`"
+        },
+        "remaining": {
+          "text": "{temps} restant",
+          "note": "ScormStack player/system label `time_requirements.remaining`"
+        },
+        "second": {
+          "text": "deuxième",
+          "note": "ScormStack player/system label `time_requirements.second`"
+        },
+        "seconds": {
+          "text": "secondes",
+          "note": "ScormStack player/system label `time_requirements.seconds`"
+        },
+        "spend_at_least": {
+          "text": "Consacrez au moins {temps} à cette section",
+          "note": "ScormStack player/system label `time_requirements.spend_at_least`"
+        }
+      },
+      "timeline": {
+        "no_events": {
+          "text": "Aucun événement à afficher dans la chronologie",
+          "note": "ScormStack player/system label `timeline.no_events`"
+        }
+      },
+      "video": {
+        "error": {
+          "text": "Erreur lors du chargement de la vidéo",
+          "note": "ScormStack player/system label `video.error`"
+        },
+        "loading": {
+          "text": "Chargement de la vidéo...",
+          "note": "ScormStack player/system label `video.loading`"
+        },
+        "pause": {
+          "text": "Pause",
+          "note": "ScormStack player/system label `video.pause`"
+        },
+        "play": {
+          "text": "Jouer",
+          "note": "ScormStack player/system label `video.play`"
+        }
+      },
+      "web_simulation": {
+        "area": {
+          "text": "zone",
+          "note": "ScormStack player/system label `web_simulation.area`"
+        },
+        "click_on_image": {
+          "text": "Cliquez sur l'image",
+          "note": "ScormStack player/system label `web_simulation.click_on_image`"
+        },
+        "failed_to_load_image": {
+          "text": "Impossible de charger l'image",
+          "note": "ScormStack player/system label `web_simulation.failed_to_load_image`"
+        },
+        "loading": {
+          "text": "Chargement de la simulation...",
+          "note": "ScormStack player/system label `web_simulation.loading`"
+        },
+        "navigate_to": {
+          "text": "Naviguer vers",
+          "note": "ScormStack player/system label `web_simulation.navigate_to`"
+        },
+        "no_image_configured": {
+          "text": "Aucune image configurée pour cette étape",
+          "note": "ScormStack player/system label `web_simulation.no_image_configured`"
+        },
+        "of": {
+          "text": "de",
+          "note": "ScormStack player/system label `web_simulation.of`"
+        },
+        "progress": {
+          "text": "Progrès",
+          "note": "ScormStack player/system label `web_simulation.progress`"
+        },
+        "restart": {
+          "text": "Redémarrage",
+          "note": "ScormStack player/system label `web_simulation.restart`"
+        },
+        "start": {
+          "text": "Commencer",
+          "note": "ScormStack player/system label `web_simulation.start`"
+        },
+        "step": {
+          "text": "Étape",
+          "note": "ScormStack player/system label `web_simulation.step`"
+        }
+      }
+    }
+  }
+}

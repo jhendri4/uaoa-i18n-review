@@ -1,0 +1,3569 @@
+{
+  "_meta": {
+    "locale": "cs",
+    "version": 1,
+    "description": "UAOA elearning — cs overlay (imported from CSV)"
+  },
+  "common": {
+    "checkUnderstandingHeading": {
+      "text": "Ověřte si své znalosti",
+      "note": "Learning-section pill before knowledge-check widgets (Off-black #0F1524 / Sky blue #21B7CB)"
+    },
+    "learningActivityHeading": {
+      "text": "Vzdělávací aktivita",
+      "note": "Learning-section pill before interactives (same shell as checkUnderstandingHeading)"
+    },
+    "next": {
+      "text": "Další",
+      "note": "Primary forward button on series / quiz widgets"
+    },
+    "completed": {
+      "text": "Dokončeno",
+      "note": "Replaces Next after the last step on some widgets"
+    },
+    "tryAgain": {
+      "text": "Zkuste to znovu",
+      "note": "Retry full activity"
+    },
+    "activityComplete": {
+      "text": "Aktivita dokončena",
+      "note": "Short done banner"
+    },
+    "activityCompleteRevisit": {
+      "text": "Aktivita dokončena. K otázkám se můžete kdykoli vrátit.",
+      "note": "Done banner with revisit hint (knowledge-check style)"
+    },
+    "answerChoicesAria": {
+      "text": "Možnosti odpovědí",
+      "note": "aria-label on radiogroup / options"
+    },
+    "notQuiteReview": {
+      "text": "<strong>Ne tak docela. Zkontrolujte možnosti a zkuste to znovu.</strong>",
+      "note": "Shared incorrect feedback; HTML allowed"
+    },
+    "previous": {
+      "text": "Předchozí",
+      "note": "Back / previous step button"
+    },
+    "submitAnswers": {
+      "text": "Odeslat odpovědi",
+      "note": "Primary submit on multi-select / sorting"
+    },
+    "submitted": {
+      "text": "Odesláno",
+      "note": "Disabled submit label after success"
+    },
+    "continue": {
+      "text": "Pokračovat",
+      "note": "End-of-activity or scroll continue"
+    },
+    "correct": {
+      "text": "<strong>Opravit!</strong>",
+      "note": "Short correct prefix; HTML allowed"
+    },
+    "notQuite": {
+      "text": "<strong>Ne tak docela. Zkontrolujte možnosti a zkuste to znovu.</strong>",
+      "note": "Shared incorrect; HTML allowed"
+    },
+    "selectAllThatApply": {
+      "text": "Vyberte vše, co se hodí, a poté odešlete."
+    },
+    "nSelected": {
+      "text": "Vybráno {n}",
+      "note": "Count label; {n} = number"
+    },
+    "nOfTotalSelected": {
+      "text": "Vybráno {n} z {celkem}",
+      "note": "Count label; {n}/{total}"
+    },
+    "nOfTotalExplored": {
+      "text": "Prozkoumané: {n} z {celkem}",
+      "note": "Flip progress"
+    },
+    "allExplored": {
+      "text": "Všechny prozkoumané platformy",
+      "note": "Flip done — platforms; override per widget if needed"
+    },
+    "allStepsReviewed": {
+      "text": "Všechny kroky zkontrolovány."
+    },
+    "questionsCorrect": {
+      "text": "otázky správné",
+      "note": "Score footer under X/Y"
+    },
+    "chooseEllipsis": {
+      "text": "vybrat…",
+      "note": "Blank dropdown placeholder"
+    },
+    "true": {
+      "text": "VĚRNÝ"
+    },
+    "false": {
+      "text": "FALEŠNÝ"
+    },
+    "keyTakeaways": {
+      "text": "Klíčové poznatky",
+      "note": "Native takeaways heading"
+    },
+    "wrongPlain": {
+      "text": "Ne tak docela. Zkontrolujte možnosti a zkuste to znovu.",
+      "note": "uaoa_common.WRONG — plain, no HTML"
+    }
+  },
+  "m1": {
+    "apply": {
+      "ui": {
+        "choicesAria": {
+          "text": "Vyberte si chování",
+          "note": "aria-label on the three behaviour choice buttons"
+        }
+      },
+      "labels": {
+        "offensiveSpeech": {
+          "text": "Urážlivý projev",
+          "note": "Choice button; answer index 0"
+        },
+        "digitalHostility": {
+          "text": "Digitální nepřátelství",
+          "note": "Choice button; answer index 1"
+        },
+        "hateSpeech": {
+          "text": "Nenávistné projevy",
+          "note": "Choice button; answer index 2"
+        }
+      },
+      "scenarios": {
+        "s1": {
+          "text": {
+            "text": "Poté, co hráč neproměnil rozhodující penaltu, obdrží během několika dní stovky nepřátelských zpráv na různých platformách sociálních médií.",
+            "note": "Scenario prompt; answer = digital hostility"
+          },
+          "ok": {
+            "text": "<strong>Správně!</strong>Opakovaný a trvalý vzorec nepřátelských interakcí napříč digitálními platformami je formou<strong>digitálního nepřátelství ¦.</strong>",
+            "note": "HTML allowed"
+          },
+          "bad": {
+            "text": "<strong>Ne tak docela.</strong>Podívejte se na vzorec interakcí a na to, jak se vyvíjejí v čase.<strong>Zkuste to znovu.</strong>",
+            "note": "HTML allowed"
+          }
+        },
+        "s2": {
+          "text": {
+            "text": "Sportovec obdrží hanlivou poznámku, která konkrétně útočí na jeho náboženství.",
+            "note": "Scenario prompt; answer = hate speech"
+          },
+          "ok": {
+            "text": "<strong>Správně!</strong>Komentář cílí na sportovce na základě jeho náboženství, což je chráněná charakteristika, což z něj činí příklad<strong>nenávistných projevů</strong>.",
+            "note": "HTML allowed"
+          },
+          "bad": {
+            "text": "<strong>Ne tak docela.</strong>Podívejte se na vzorec interakcí a na to, jak se vyvíjejí v čase.<strong>Zkuste to znovu.</strong>",
+            "note": "HTML allowed"
+          }
+        },
+        "s3": {
+          "text": {
+            "text": "Po kontroverzním rozhodnutí obdrží rozhodčí od části fanoušků, kteří s rozhodnutím nebyli spokojeni, ponižující a urážlivý komentář.",
+            "note": "Scenario prompt; answer = offensive speech"
+          },
+          "ok": {
+            "text": "<strong>Správně!</strong>Komentář používá urážlivý a ponižující jazyk namířený proti rozhodčímu, což z něj činí příklad<strong>urážlivé řeči ¦.</strong>",
+            "note": "HTML allowed"
+          },
+          "bad": {
+            "text": "<strong>Ne tak docela.</strong>Zaměřte se na používaný jazyk a co ho činí škodlivým.<strong>Zkuste to znovu.</strong>",
+            "note": "HTML allowed"
+          }
+        },
+        "s4": {
+          "text": {
+            "text": "Po důležitém zápase se sportovkyně dočká urážlivých komentářů od fanouška, který kritizuje její výkon.",
+            "note": "Scenario prompt; answer = offensive speech"
+          },
+          "ok": {
+            "text": "<strong>Správně!</strong>Komentáře používají urážlivý a ponižující jazyk zaměřený na výkon sportovce, což z nich činí příklad<strong>urážlivé řeči ¦. Ženy mohou být vystaveny většímu množství online zneužívání kvůli svému pohlaví, a to i v případě, že jednotlivé zprávy výslovně nezaměřují na pohlaví jako chráněnou charakteristiku.</strong>",
+            "note": "HTML allowed"
+          },
+          "bad": {
+            "text": "<strong>Ne tak docela.</strong>Zvažte, na co se komentáře zaměřují.<strong>Zkuste to znovu.</strong>",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "forms": {
+      "ui": {
+        "progress": {
+          "text": "Prozkoumané: {n} z {celkem}",
+          "note": "Flip progress counter"
+        },
+        "done": {
+          "text": "Všechny prozkoumané formy"
+        }
+      },
+      "cards": {
+        "c1": {
+          "name": {
+            "text": "Urážlivý projev",
+            "note": "Flip card 1 title"
+          },
+          "body": {
+            "text": "Vulgarismy zaměřené na něčí identitu, vzhled nebo výkon s úmyslem danou osobu ponížit, urazit nebo ponížit."
+          },
+          "front1": {
+            "text": "URÁŽLIVÝ",
+            "note": "Front-of-card stacked label line"
+          },
+          "front2": {
+            "text": "ŘEČ",
+            "note": "Front-of-card stacked label line"
+          }
+        },
+        "c2": {
+          "name": {
+            "text": "Digitální nepřátelství",
+            "note": "Flip card 2 title"
+          },
+          "body": {
+            "text": "Škodlivé chování namířené proti osobě nebo skupině prostřednictvím opakovaných nebo koordinovaných negativních online interakcí, jako je hromadné hlášení nebo kolektivní obtěžování."
+          },
+          "front1": {
+            "text": "DIGITÁLNÍ",
+            "note": "Front-of-card stacked label line"
+          },
+          "front2": {
+            "text": "NEPŘÁTELSTVÍ",
+            "note": "Front-of-card stacked label line"
+          }
+        },
+        "c3": {
+          "name": {
+            "text": "Nenávistné projevy",
+            "note": "Flip card 3 title"
+          },
+          "body": {
+            "text": "Nepřátelský nebo zlomyslný jazyk namířený proti někomu z důvodu chráněné charakteristiky, včetně rasy, náboženství, pohlaví, sexuální orientace nebo postižení."
+          },
+          "front1": {
+            "text": "NENÁVIST",
+            "note": "Front-of-card stacked label line"
+          },
+          "front2": {
+            "text": "ŘEČ",
+            "note": "Front-of-card stacked label line"
+          }
+        }
+      }
+    },
+    "formsOverlap": {
+      "line1": {
+        "text": "Může existovat více než jedna forma zneužívání"
+      },
+      "line2": {
+        "text": "přítomné současně."
+      }
+    },
+    "protected": {
+      "race": {
+        "text": "Rasa"
+      },
+      "ethnicity": {
+        "text": "Etnická příslušnost"
+      },
+      "nationality": {
+        "text": "Státní příslušnost"
+      },
+      "gender": {
+        "text": "Pohlaví"
+      },
+      "sexualOrientation": {
+        "text": "Sexuální orientace",
+        "note": "May wrap to two lines on the tile"
+      },
+      "disability": {
+        "text": "Postižení"
+      },
+      "religion": {
+        "text": "Náboženství"
+      }
+    },
+    "platforms": {
+      "ui": {
+        "progress": {
+          "text": "Prozkoumané: {n} z {celkem}"
+        },
+        "done": {
+          "text": "Všechny prozkoumané skupiny"
+        }
+      },
+      "groups": {
+        "g1": {
+          "title": {
+            "text": "Objevování a sociální kanály",
+            "note": "Primary front-of-card label"
+          },
+          "platforms": {
+            "text": "[TikTok, Instagram, Facebook]",
+            "note": "Shown under title in bold brackets"
+          },
+          "body": {
+            "text": "Doporučovací kanály a funkce sdílení mohou škodlivý obsah vystavit lidem mimo původní publikum. S tím, jak si obsah prohlíží, komentuje nebo sdílí více uživatelů, se online zneužívání může rychle šířit a oslovit širší publikum."
+          }
+        },
+        "g2": {
+          "title": {
+            "text": "Sdílení videa a živé streamování"
+          },
+          "platforms": {
+            "text": "[YouTube, Twitch, Kick]"
+          },
+          "body": {
+            "text": "Škodlivé komentáře k videím mohou zůstat viditelné dlouho po jejich zveřejnění, což umožňuje pokračování zneužívání. Během živých přenosů se mohou objevovat a rychle se množit urážlivé zprávy, jak diváci reagují v reálném čase."
+          }
+        },
+        "g3": {
+          "title": {
+            "text": "Veřejné rozhovory"
+          },
+          "platforms": {
+            "text": "[X, Vlákna]"
+          },
+          "body": {
+            "text": "Odpovědi, opětovné zveřejnění a zmínky mohou šířit urážlivé zprávy ve veřejných konverzacích. Když se zapojí mnoho uživatelů, může se jeden škodlivý komentář rozvinout v opakované nebo koordinované útoky proti dané osobě."
+          }
+        },
+        "g4": {
+          "title": {
+            "text": "Diskusní komunity"
+          },
+          "platforms": {
+            "text": "[Reddit, Skupiny na Facebooku]"
+          },
+          "body": {
+            "text": "Škodlivé komentáře se mohou šířit v online komunitách, protože členové reagují, sdílejí nebo povzbuzují k podobnému chování. Skupinové diskuse mohou posilovat negativní postoje a vést k opakovanému zneužívání namířenému proti téže osobě."
+          }
+        },
+        "g5": {
+          "title": {
+            "text": "Zprávy a skupinové chaty"
+          },
+          "platforms": {
+            "text": "[Discord, WhatsApp]"
+          },
+          "body": {
+            "text": "Urážlivé zprávy mohou být přeposílány nebo sdíleny mezi jednotlivci a skupinami, čímž se šíří škodlivý obsah prostřednictvím soukromých konverzací. Omezená viditelnost mimo tyto prostory může ztížit identifikaci a řešení probíhajícího zneužívání."
+          }
+        }
+      }
+    },
+    "factors": {
+      "ui": {
+        "prompt": {
+          "text": "Vyberte tři faktory, které mohou přímo ovlivnit, jak se škodlivý obsah šíří a oslovuje nové publikum online."
+        },
+        "hint": {
+          "text": "Vyberte přesně tři možnosti."
+        },
+        "hintReady": {
+          "text": "Tři vybrané – připravené k odeslání."
+        },
+        "hintDone": {
+          "text": "Všechny tři správné faktory byly vybrány."
+        },
+        "choicesAria": {
+          "text": "Vyberte přesně tři faktory"
+        },
+        "count": {
+          "text": "Vybráno {n} z {celkem}"
+        },
+        "ok": {
+          "text": "<strong>Správně!</strong>Funkce platformy, systémy doporučení a interakce uživatelů mohou ovlivnit, jak je obsah distribuován, rozšiřován a zpřístupňován novému publiku.",
+          "note": "HTML allowed"
+        },
+        "bad": {
+          "text": "<strong>Ne tak docela. Zkontrolujte možnosti a zkuste to znovu.</strong>",
+          "note": "HTML allowed"
+        }
+      },
+      "labels": {
+        "a": {
+          "text": "Design a funkce platformy",
+          "note": "Correct"
+        },
+        "b": {
+          "text": "Věk cílové osoby"
+        },
+        "c": {
+          "text": "Doporučovací a distribuční systémy",
+          "note": "Correct"
+        },
+        "d": {
+          "text": "Sportovní role cílové osoby"
+        },
+        "e": {
+          "text": "Interakce uživatelů, jako je komentování, sdílení a opětovné publikování",
+          "note": "Correct"
+        },
+        "f": {
+          "text": "Zda je původní obsah považován za urážlivý"
+        }
+      }
+    },
+    "check": {
+      "ui": {
+        "instructionComplete": {
+          "text": "Doplň větu."
+        },
+        "instructionBlanks": {
+          "text": "Vyberte slovo pro každé mezeru. Každé slovo se použije jednou."
+        },
+        "instructionMulti": {
+          "text": "Vyberte vše, co se hodí."
+        },
+        "instructionPair": {
+          "text": "Vyberte dvojici slov, která doplní větu."
+        },
+        "blankAria": {
+          "text": "Prázdné {n}",
+          "note": "aria-label; {n} = 1-based index"
+        },
+        "questionsCorrect": {
+          "text": "otázky správné"
+        },
+        "scorePerfect": {
+          "text": "Perfektní – odpověděl/a jsi správně na každou otázku.",
+          "note": "Score message; may vary — check widget"
+        },
+        "scorePartial": {
+          "text": "Dobrá práce – zkontrolujte níže uvedené položky, které jste přehlédli.",
+          "note": "Fallback score message"
+        },
+        "scoreLow": {
+          "text": "Pokračujte – zkuste to znovu, abyste si prohloubili své znalosti."
+        }
+      },
+      "questions": {
+        "q1": {
+          "label": {
+            "text": "1. Doplňte větu: Co definuje online zneužívání?"
+          },
+          "prompt": {
+            "text": "Online zneužívání zahrnuje škodlivé chování namířené proti osobě nebo skupině prostřednictvím __________."
+          },
+          "choices": {
+            "a": {
+              "text": "konkurenční prostředí"
+            },
+            "b": {
+              "text": "digitální platformy",
+              "note": "Correct"
+            },
+            "c": {
+              "text": "veřejná prostranství"
+            },
+            "d": {
+              "text": "sportovní události"
+            }
+          }
+        },
+        "q2": {
+          "label": {
+            "text": "2. Doplňte tvrzení: Co vám pomáhá pochopit kontext, který definuje online zneužívání"
+          },
+          "sentenceBefore": {
+            "text": "Při identifikaci online zneužívání zvažte"
+          },
+          "sentenceMid1": {
+            "text": "používáno, zda má dané chování jasný"
+          },
+          "sentenceMid2": {
+            "text": "a"
+          },
+          "sentenceAfter": {
+            "text": "opakovaných interakcí."
+          },
+          "choices": {
+            "language": {
+              "text": "jazyk",
+              "note": "Correct blank 1"
+            },
+            "target": {
+              "text": "cíl",
+              "note": "Correct blank 2 — clear target"
+            },
+            "pattern": {
+              "text": "vzor",
+              "note": "Correct blank 3 — pattern of repeated interactions"
+            }
+          }
+        },
+        "q3": {
+          "label": {
+            "text": "3. Která vlastnost je chráněná?"
+          },
+          "choices": {
+            "religion": {
+              "text": "Náboženství",
+              "note": "Correct"
+            },
+            "performance": {
+              "text": "Atletický výkon"
+            },
+            "disability": {
+              "text": "Postižení",
+              "note": "Correct"
+            },
+            "position": {
+              "text": "Pozice v týmu"
+            },
+            "ethnicity": {
+              "text": "Etnická příslušnost",
+              "note": "Correct"
+            }
+          }
+        },
+        "q4": {
+          "label": {
+            "text": "4. Doplňte: Jak se může vyvinout online zneužívání?"
+          },
+          "prompt": {
+            "text": "Různé formy online zneužívání mohou __________ a jediná škodlivá interakce může __________, protože ji ostatní komentují, sdílejí, znovu zveřejňují nebo šíří."
+          },
+          "choices": {
+            "a": {
+              "text": "překrývání · stupňovat",
+              "note": "Correct"
+            },
+            "b": {
+              "text": "zůstat oddělený · zmizet"
+            },
+            "c": {
+              "text": "alternativní · stát se soukromým"
+            },
+            "d": {
+              "text": "interagovat · stát se neškodným"
+            }
+          }
+        }
+      }
+    },
+    "matteo": {
+      "ui": {
+        "navAria": {
+          "text": "Navigace karet"
+        },
+        "prevAria": {
+          "text": "Předchozí karta"
+        },
+        "nextAria": {
+          "text": "Další karta"
+        }
+      },
+      "cards": {
+        "c1": {
+          "title": {
+            "text": "1 - Tlak"
+          },
+          "alt": {
+            "text": "Matteo se připravuje pod tlakem",
+            "note": "Image alt text"
+          },
+          "html": {
+            "text": "<p><strong>Matteo je vysoce výkonný vysokoškolský volejbalový sportovec s ambicí dostat se do národního týmu.</strong></p><p>Mezi náročnými kurzy a intenzivním tréninkem je pod značným tlakem a snaží se udržet soustředění.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "c2": {
+          "title": {
+            "text": "2 - Zápas"
+          },
+          "alt": {
+            "text": "Matteo během zápasu",
+            "note": "Image alt text"
+          },
+          "html": {
+            "text": "<p>Během důležitého zápasu Matteo podá do sítě na mečbol, čímž svůj tým připravil o vítězství. Dav reaguje bouřlivě a někteří diváci začínají z tribuny křičet ostrou kritiku jeho výkonu. Reakce pokračují i ​​poté, co Matteo opouští hřiště.</p><p><strong>Jedná se o online napadání? Ne.</strong></p><p>Kritika může být agresivní a škodlivá, ale to se stále děje<strong>offline</strong>. Reakce, které začínají na sportovní události / na hřišti, se však mohou rychle přesunout do digitálního prostoru, kde mohou oslovit mnohem širší publikum.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "c3": {
+          "title": {
+            "text": "3 - Přesouvá se online"
+          },
+          "alt": {
+            "text": "Kritika se přesouvá na sociální média",
+            "note": "Image alt text"
+          },
+          "html": {
+            "text": "<p>Po zápase se kritika přesouvá na internet. Fanoušek zveřejní video Matteova minulého podání, označí Matteův účet na sociálních sítích a přidá urážlivé a ponižující komentáře, které ho mají zesměšnit.</p><p><strong>Situace se stala online zneužíváním.</strong></p><p>Fanoušek používá urážlivý a ponižující obsah namířený proti Matteovi prostřednictvím digitální platformy. Toto je<strong>urážlivý projev.</strong></p>",
+            "note": "HTML allowed"
+          }
+        },
+        "c4": {
+          "title": {
+            "text": "4 - Situace se vyhrocuje"
+          },
+          "alt": {
+            "text": "Nepřátelské komentáře se šíří na internetu",
+            "note": "Image alt text"
+          },
+          "html": {
+            "text": "<p>Do druhého dne se k nim připojilo mnoho uživatelů. Na Matteových účtech na sociálních sítích se objevují nepřátelské komentáře a video jeho neproměněného podání je opakovaně sdíleno spolu s urážlivými příspěvky.</p><p><strong>Situace eskalovala v digitální nepřátelství.</strong></p><p>Co začalo s jedním uživatelem, se vyvinulo v<strong>opakovaný a kolektivní vzorec nepřátelských online interakcí.</strong></p>",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "takeaways": {
+      "heading": {
+        "text": "Klíčové poznatky"
+      },
+      "items": {
+        "i1": {
+          "text": "<strong>Online zneužívání má různé podoby.</strong>Urážlivé projevy, nenávistné projevy a digitální nepřátelství nám pomáhají rozpoznat různé způsoby, jakými se škodlivé chování může online objevovat a rozvíjet.",
+          "note": "HTML allowed"
+        },
+        "i2": {
+          "text": "<strong>Kontext je důležitý.</strong>Při identifikaci online zneužívání zvažte použitý jazyk, na koho nebo na co se útočí a vzorce interakcí.",
+          "note": "HTML allowed"
+        },
+        "i3": {
+          "text": "<strong>Různé formy zneužívání se mohou překrývat.</strong>Jedna interakce může zahrnovat více než jeden druh chování a její charakteristiky se mohou měnit s vývojem situace.",
+          "note": "HTML allowed"
+        },
+        "i4": {
+          "text": "<strong>Online zneužívání se může stupňovat.</strong>Jeden škodlivý příspěvek se může rozvinout v opakovanou nebo kolektivní nevraživost, protože ostatní komentují, sdílejí, znovu zveřejňují nebo šíří obsah.",
+          "note": "HTML allowed"
+        },
+        "i5": {
+          "text": "<strong>Někteří lidé čelí nepřiměřenému riziku.</strong>Identita, viditelnost, role a další kontextové faktory mohou ovlivnit, kdo je cílem, a povahu nebo intenzitu zneužívání, které zažívají.",
+          "note": "HTML allowed"
+        },
+        "i6": {
+          "text": "<strong>Rozpoznání je prvním krokem k akci.</strong>Pochopení toho, jak vypadá online zneužívání, pomáhá lidem identifikovat škodlivé situace a efektivněji na ně reagovat.",
+          "note": "HTML allowed"
+        }
+      }
+    },
+    "slide": {
+      "title": {
+        "text": "Modul 1: Rozpoznávání online zneužívání",
+        "note": "Module / summary slide title"
+      }
+    }
+  },
+  "m2": {
+    "check": {
+      "questions": {
+        "q1": {
+          "prompt": {
+            "text": "Koho může ovlivnit online zneužívání ve sportu?",
+            "note": "MCQ stem"
+          },
+          "choices": {
+            "c0": {
+              "text": "Pouze primárně profesionální sportovci a rozhodčí."
+            },
+            "c1": {
+              "text": "Kdokoli s veřejným účtem na sociálních sítích."
+            },
+            "c2": {
+              "text": "Sportovci, funkcionáři, novináři, organizace a jejich zástupci, rodiny, fanoušci a další osoby napříč sportovními komunitami.",
+              "note": "Correct answer"
+            },
+            "c3": {
+              "text": "Především lidé, jejichž práce zahrnuje přímou komunikaci s fanoušky."
+            }
+          },
+          "ok": {
+            "text": "<strong>Správně!</strong>Online zneužívání může ovlivnit lidi napříč sportovním ekosystémem, včetně těch, kteří jsou přímo terčem, a dalších, kteří jsou svědky jeho širších důsledků nebo je zažívají.",
+            "note": "HTML allowed"
+          }
+        },
+        "q2": {
+          "prompt": {
+            "text": "Které tvrzení nejlépe popisuje potenciální dopad online zneužívání ve sportu?"
+          },
+          "choices": {
+            "c0": {
+              "text": "Jeho účinky se omezují hlavně na to, jak se lidé cítí nebo reagují bezprostředně po obdržení urážlivého obsahu."
+            },
+            "c1": {
+              "text": "Může mít dlouhodobé dopady na pohodu, profesní činnost, vztahy, účast a širší sportovní komunitu.",
+              "note": "Correct answer"
+            },
+            "c2": {
+              "text": "Je to něco, co se týká pouze elitních sportovců, protože ti jsou nejvíce viditelní u veřejnosti."
+            },
+            "c3": {
+              "text": "Jeho dopad závisí hlavně na tom, jak často člověk používá sociální média."
+            }
+          },
+          "ok": {
+            "text": "<strong>Správně!</strong>Online zneužívání může mít dopad na mnoho oblastí života a práce člověka. Ve sportu může nejvíce postihnout sportovce bez ohledu na jejich úroveň, ale důsledky se mohou rozšířit i na rodiny, kolegy, týmy, fanoušky a sportovní komunity.",
+            "note": "HTML allowed"
+          }
+        },
+        "q3": {
+          "prompt": {
+            "text": "Sportovec, který opakovaně zažil online zneužívání, začíná špatně spát, má potíže s koncentrací během tréninku a méně často zveřejňuje příspěvky online. Co tento příklad ilustruje?"
+          },
+          "choices": {
+            "c0": {
+              "text": "Různé dopady online zneužívání se mohou překrývat a ovlivňovat několik oblastí života člověka.",
+              "note": "Correct answer"
+            },
+            "c1": {
+              "text": "Snížená aktivita na sociálních sítích je obvykle primárním důsledkem online zneužívání."
+            },
+            "c2": {
+              "text": "Účinky na výkon se projeví poté, co trenér doporučí méně používat sociální média."
+            },
+            "c3": {
+              "text": "Důsledky online zneužívání závisí hlavně na tom, jak často daná osoba používá sociální média."
+            }
+          },
+          "ok": {
+            "text": "<strong>Správně!</strong>Účinky mohou být vzájemně propojené. Emoční tíseň, spánek, sebevědomí, bezpečí, výkon a účast se mohou navzájem ovlivňovat a mohou se časem vyvíjet.",
+            "note": "HTML allowed"
+          }
+        },
+        "q4": {
+          "prompt": {
+            "text": "Co naznačují důkazy prezentované v tomto modulu o tom, jak lidé reagují na online zneužívání?"
+          },
+          "choices": {
+            "c0": {
+              "text": "Lidé obecně zažívají podobné účinky, když jsou vystaveni podobnému obsahu."
+            },
+            "c1": {
+              "text": "Silná odolnost zabraňuje tomu, aby online zneužívání ovlivnilo blahobyt."
+            },
+            "c2": {
+              "text": "Účinky se mohou u jednotlivých lidí lišit a osobní a kontextové faktory mohou ovlivnit, jak někdo reaguje.",
+              "note": "Correct answer"
+            },
+            "c3": {
+              "text": "Lidé, kteří se nadále věnují sportu, pravděpodobně nebyli významně ovlivněni."
+            }
+          },
+          "ok": {
+            "text": "<strong>Správně!</strong>Dopad online zneužívání se liší. Výzkum diskutovaný v modulu naznačuje, že faktory, jako je odolnost a sebevědomí, mohou souviset s tím, jak lidé reagují, ale pokračující účast neznamená, že někdo nebyl ovlivněn.",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "affected": {
+      "ui": {
+        "progress": {
+          "text": "Prozkoumané: {n} z {celkem}"
+        }
+      },
+      "cards": {
+        "c1": {
+          "name": {
+            "text": "Sportovci"
+          },
+          "body": {
+            "text": "Vysoká publicita může sportovce učinit častým cílem online zneužívání. Nenávistné reakce mohou vznikat ze sportovních výsledků, veřejného vnímání nebo interpretací výkonu, činů či osobních rozhodnutí sportovce. Tyto reakce se mohou rychle stupňovat, což umožňuje šíření škodlivého obsahu napříč digitálními platformami."
+          }
+        },
+        "c2": {
+          "name": {
+            "text": "Rozhodčí zápasu"
+          },
+          "body": {
+            "text": "Rozhodčí mohou čelit online útokům po rozhodnutích učiněných během soutěže, což se dále přidává k verbálnímu a fyzickému napadání, které již mohou zažít osobně. Opakovaná kritika, výhrůžky a nepřátelství mohou přispívat ke stresu a ovlivňovat jejich sebevědomí, vnímanou autoritu a pohodu."
+          }
+        },
+        "c3": {
+          "name": {
+            "text": "Novináři"
+          },
+          "body": {
+            "text": "Novináři hrají důležitou roli v propojování sportovců, týmů a sportovních organizací s širším publikem. Novináři se mohou stát terčem online nepřátelství v reakci na své reportáže, komentáře nebo vnímaný postoj k určitému tématu."
+          }
+        },
+        "c4": {
+          "name": {
+            "text": "Sponzoři a zástupci"
+          },
+          "body": {
+            "text": "Sportovní organizace a osoby, které je financují, řídí a zastupují, se mohou také stát terčem online zneužívání. Nepřátelský obsah může být namířen proti samotné organizaci, jejím rozhodnutím, politikám či akcím, nebo proti jednotlivým zaměstnancům a zástupcům. To může ovlivnit reputaci organizace, její profesní činnost, rozhodování a blahobyt zúčastněných."
+          }
+        },
+        "c5": {
+          "name": {
+            "text": "Rodiny"
+          },
+          "body": {
+            "text": "Dopady online zneužívání se mohou rozšířit i na rodiny a blízké obětí. Mohou být svědky zneužívání a jeho dopadu, stát se nepřímými cíli prostřednictvím spojení s osobou, která je obětí zneužívání, nebo přijímat škodlivé zprávy namířené proti nim osobně. Tyto zkušenosti mohou také zvýšit obavy a strach o bezpečnost a blaho někoho z jejich blízkých."
+          }
+        },
+        "c6": {
+          "name": {
+            "text": "Fanoušci"
+          },
+          "body": {
+            "text": "Fanoušci jsou největší skupinou ve sportu a často jsou přehlíženi. Mohou být ovlivněni zneužíváním, s nímž se setkávají ve sportovních komunitách, i když nejsou přímým cílem. Zneužívání na základě identity namířené proti sportovci, funkcionáři nebo jiné veřejné osobě může ovlivnit i fanoušky, kteří tuto identitu sdílejí, a přispívat tak k prostředí, ve kterém se mohou cítit nevítaní nebo nebezpeční."
+          }
+        }
+      }
+    },
+    "exploreImpacts": {
+      "ui": {
+        "eyebrow": {
+          "text": "Prozkoumat"
+        },
+        "prompt": {
+          "text": "Poté, co sportovec opakovaně dostával online urážlivé zprávy, začal méně často zveřejňovat příspěvky na sociálních sítích. Jeho trenér si všiml, že se během tréninku jeví roztržitě, a nedávno zmínil, že špatně spí a má úzkost z účasti na veřejných akcích."
+        },
+        "hint": {
+          "text": "Vyberte alespoň 4, které se hodí, a poté odešlete."
+        },
+        "count": {
+          "text": "Vybráno {n}"
+        },
+        "ok": {
+          "text": "<strong>Tyto dopady mohou být vzájemně propojeny.</strong>Online zneužívání může ovlivnit několik oblastí života člověka současně a jeho účinky se mohou časem rozvíjet nebo zesilovat. Rozpoznání těchto příznaků může pomoci lidem ve sportu reagovat s větším povědomím a podporou.",
+          "note": "HTML allowed"
+        },
+        "bad": {
+          "text": "<strong>Ne tak docela. Zkuste to znovu.</strong>",
+          "note": "HTML allowed — shown when first submit is missing some impacts"
+        }
+      },
+      "labels": {
+        "c0": {
+          "text": "Emoční tíseň"
+        },
+        "c1": {
+          "text": "Porušení spánku"
+        },
+        "c2": {
+          "text": "Snížená sebedůvěra"
+        },
+        "c3": {
+          "text": "Pocit bezpečí"
+        },
+        "c4": {
+          "text": "Soustředění a výkon"
+        },
+        "c5": {
+          "text": "Odstup"
+        }
+      }
+    },
+    "impacts": {
+      "ui": {
+        "pathwayAria": {
+          "text": "Dráha dopadu"
+        },
+        "navAria": {
+          "text": "Karuselová navigace"
+        },
+        "prevAria": {
+          "text": "Předchozí dopad"
+        },
+        "nextAria": {
+          "text": "Další dopad"
+        },
+        "researchHeading": {
+          "text": "Co ukazuje výzkum"
+        },
+        "done": {
+          "text": "Aktivita dokončena – zkontrolovali jste všech šest dopadů"
+        }
+      },
+      "cards": {
+        "c1": {
+          "title": {
+            "text": "Emoční tíseň"
+          },
+          "short": {
+            "text": "Nouze",
+            "note": "Pathway short label"
+          },
+          "alt": {
+            "text": "Dočasná ilustrace · emocionální strádání",
+            "note": "Image alt"
+          },
+          "body": {
+            "text": "<p>Online napadání může vyvolat pocity strachu, smutku, hněvu a frustrace. U sportovců mohou tyto zkušenosti také vyvolat obavy o jejich reputaci, kariérní příležitosti, vztahy s rodinou a přáteli a výkonnost týmu. Pokud k napadání dochází veřejně, jeho viditelnost a potenciální šíření může dále prohloubit psychickou úzkost.</p>",
+            "note": "HTML allowed"
+          },
+          "research": {
+            "text": "V průzkumu mezi 85 sportovci NCAA divize I byla větší expozice online obtěžování spojena s<strong>vyšší úrovní depresivních symptomů¦. Výzkumníci popisují nepřátelský online obsah jako významný zdroj psychického stresu pro vysokoškolské sportovce.</strong>",
+            "note": "HTML allowed"
+          },
+          "source": {
+            "text": "Hughes, M. C., Demaray, M. K., Skiba, E. A., & Warriner, S. E. (2026). Online obtěžování a duševní zdraví mezi vysokoškolskými studentskými sportovci: Zjištění z průzkumu konference NCAA Division I. Journal of Issues in Intercollegiate Athletics.",
+            "note": "Citation; keep author names"
+          }
+        },
+        "c2": {
+          "title": {
+            "text": "Spát"
+          },
+          "short": {
+            "text": "Spát",
+            "note": "Pathway short label"
+          },
+          "alt": {
+            "text": "Dočasná ilustrace · spánek",
+            "note": "Image alt"
+          },
+          "body": {
+            "text": "<p>Online zneužívání může narušit spánek a regeneraci. Škodlivé online zážitky mohou přetrvávat i po počáteční interakci a ovlivňovat schopnost sportovce odpočívat a regenerovat se.</p>",
+            "note": "HTML allowed"
+          },
+          "research": {
+            "text": "Ve studii 912 mladých sportovců ve věku 12–24 let 10,4 % uvedlo, že zažili online zneužívání. Z postižených 44,3 % uvedlo středně závažné až závažné dopady na kvalitu spánku.",
+            "note": "HTML allowed"
+          },
+          "source": {
+            "text": "Tooth, C., Kaux, J.-F., Tscholl, P., Touré, A., Muller, F., & Seil, K. (2026). Vliv sociálních médií na duševní zdraví mladých sportovců: Průřezová studie. Frontiers in Psychology.",
+            "note": "Citation; keep author names"
+          }
+        },
+        "c3": {
+          "title": {
+            "text": "Sebevědomí a sebeúcta"
+          },
+          "short": {
+            "text": "Důvěra",
+            "note": "Pathway short label"
+          },
+          "alt": {
+            "text": "Dočasná ilustrace · sebevědomí",
+            "note": "Image alt"
+          },
+          "body": {
+            "text": "<p>Online zneužívání se často zaměřuje na schopnosti, tělo nebo identitu dané osoby. Opakovaná kritika, včetně komentářů sdílených veřejně s cílem někoho ponížit nebo zranit, může ovlivnit sebevědomí cílené osoby a vést ji k pochybnostem o jejích dovednostech, rozhodnutích a místě ve sportu.</p>",
+            "note": "HTML allowed"
+          },
+          "research": {
+            "text": "Výzkum naznačuje, že vnitřní faktory mohou ovlivňovat, jak lidé reagují na online nenávist. Ve studii zahrnující<strong>60 veřejně známých osobností, včetně olympijských sportovců, a 1 128 uživatelů internetu</strong>byla vyšší<strong>odolnost a sebevědomí spojeno s nižší úrovní obav z online nenávisti, které se jim dostalo</strong>. To naznačuje, že lidé mohou prožívat stejný typ nepřátelství odlišně, částečně v závislosti na svých psychologických zdrojích.",
+            "note": "HTML allowed"
+          },
+          "source": {
+            "text": "Jędryczka, W., Sorokowski, P., & Dobrowolska, M. (2022). Role odolnosti a sebeúcty oběti v prožívání nenávisti na internetu. International Journal of Environmental Research and Public Health.",
+            "note": "Citation; keep author names"
+          }
+        },
+        "c4": {
+          "title": {
+            "text": "Pocit bezpečí"
+          },
+          "short": {
+            "text": "Bezpečnost",
+            "note": "Pathway short label"
+          },
+          "alt": {
+            "text": "Dočasná ilustrace · pocit bezpečí",
+            "note": "Image alt"
+          },
+          "body": {
+            "text": "<p>Hrozby a nepřátelství online mohou rozšířit obavy o bezpečnost<strong>za hranice digitálních prostor ¦. Cílové osoby se mohou obávat o svou vlastní bezpečnost</strong>doma, během soutěží a na veřejných prostranstvích.<strong>Pokud se hrozby týkají i osob jim blízkých, mohou se tyto obavy rozšířit i na</strong>rodinné příslušníky a blízké.<strong></strong></p>",
+            "note": "HTML allowed"
+          },
+          "research": {
+            "text": "V Barometru UAOA z roku 2025 – téměř tři ze čtyř dotázaných sportovních federací – uvedly, že hrozby újmy na sportovcích nebo osobách na nich závislých zůstávají realitou pro ty, kteří používají platformy sociálních médií. Toto zjištění bylo uvedeno i v předchozím vydání Barometru, což naznačuje přetrvávající obavy v celém sportu.<strong></strong>",
+            "note": "HTML allowed"
+          },
+          "source": {
+            "text": "Sjednoceni proti online zneužívání. (2025). Online zneužívání ve sportovním barometru 2025.",
+            "note": "Citation; keep author names"
+          }
+        },
+        "c5": {
+          "title": {
+            "text": "Soustředění a výkon"
+          },
+          "short": {
+            "text": "Soustředit",
+            "note": "Pathway short label"
+          },
+          "alt": {
+            "text": "Dočasná ilustrace · zaměření a výkon",
+            "note": "Image alt"
+          },
+          "body": {
+            "text": "<p>Negativní účinky psychického stresu na soustředění a výkon jsou dobře zdokumentovány. Protože online zneužívání může způsobovat duševní tíseň, může negativně ovlivnit soustředění a výkon sportovců, což ztěžuje soustředění, rozhodování pod tlakem a konzistentní výkon.</p>",
+            "note": "HTML allowed"
+          },
+          "research": {
+            "text": "Ve studii zahrnující<strong>274 kanadských basketbalových rozhodčích</strong>byla vyšší pohoda významně spojena s<strong>lepším sebehodnocením rozhodčího výkonu</strong>, a to i po započtení zkušeností. Předchozí výzkum citovaný autory také zjistil, že<strong>90 % fotbalových rozhodčích se domnívalo, že běžné příznaky duševního zdraví mohou negativně ovlivnit jejich rozhodčí výkon.</strong>",
+            "note": "HTML allowed"
+          },
+          "source": {
+            "text": "Taylor, N., Hancock, D., & Sullivan, P. (2026). Duševní zdraví a výkon rozhodčího. Frontiers in Psychology.",
+            "note": "Citation; keep author names"
+          }
+        },
+        "c6": {
+          "title": {
+            "text": "Odstup"
+          },
+          "short": {
+            "text": "Odstup",
+            "note": "Pathway short label"
+          },
+          "alt": {
+            "text": "Dočasná ilustrace · odchod",
+            "note": "Image alt"
+          },
+          "body": {
+            "text": "<p>Online zneužívání může ovlivnit, zda se lidé budou i nadále účastnit sportu, pracovat ve sportu nebo otevřeně komunikovat ve sportu. Někteří mohou omezit svou přítomnost na sociálních sítích, přehodnotit své zapojení nebo se stát opatrnějšími v tom, co veřejně sdílejí.<strong></strong></p>",
+            "note": "HTML allowed"
+          },
+          "research": {
+            "text": "Výzkum zneužívání ve sportu zjistil, že jak fyzické, tak nefyzické zneužívání bylo spojeno s větším úmyslem přestat s kouřením u fotbalových rozhodčích v Anglii a Kanadě. Zneužívání bylo také spojeno se sníženou pohodou. V průzkumu UAOA Barometer z roku 2025 vyjádřilo 90 % dotázaných sportovních federací obavy, že online zneužívání by mohlo talentované sportovce vyhnat ze sportu.<strong></strong><strong></strong>",
+            "note": "HTML allowed"
+          },
+          "source": {
+            "text": "Downward, P., Webb, T., & Dawson, P. (2024). Zneužívání ze strany rozhodčího, úmysl ukončit a pohoda. Research Quarterly for Exercise and Sport. United Against Online Abuse. (2025). Online Abuse in Sport Barometer 2025.",
+            "note": "Citation; keep author names"
+          }
+        }
+      }
+    },
+    "takeaways": {
+      "heading": {
+        "text": "Klíčové poznatky"
+      },
+      "items": {
+        "i1": {
+          "text": "<strong>Online zneužívání může mít širokou škálu dopadů.</strong>Jeho dopad se může rozšířit na pohodu, sebevědomí, pocit bezpečí, výkonnost, účast a další oblasti života člověka.",
+          "note": "HTML allowed"
+        },
+        "i2": {
+          "text": "<strong>Účinky mohou být vzájemně propojeny.</strong>Emoční tíseň, narušený spánek, snížená sebedůvěra, obavy o bezpečnost a potíže se soustředěním se mohou překrývat a navzájem ovlivňovat.",
+          "note": "HTML allowed"
+        },
+        "i3": {
+          "text": "<strong>Lidé mohou být ovlivněni různě.</strong>Osobní a kontextové faktory mohou ovlivňovat, jak někdo prožívá a reaguje na online zneužívání.",
+          "note": "HTML allowed"
+        },
+        "i4": {
+          "text": "<strong>Dopad sahá i za hranice těch, kterých je přímo cíl.</strong>Jeho důsledky mohou pocítit i rodiny, spoluhráči, kolegové, fanoušci, organizace a další lidé napříč sportovními komunitami.",
+          "note": "HTML allowed"
+        },
+        "i5": {
+          "text": "<strong>Online zneužívání může ovlivnit účast a sportovní kulturu.</strong>Přetrvávající nepřátelství může ovlivnit to, kdo se cítí bezpečně, vítán a je schopen se věnovat sportu.",
+          "note": "HTML allowed"
+        },
+        "i6": {
+          "text": "<strong>Důsledky mohou přesahovat rámec sportu.</strong>Když se diskriminační a zneužívající chování stane normalizovaným, může posílit předsudky, vyloučení a nepřátelství v širší společnosti.",
+          "note": "HTML allowed"
+        }
+      }
+    },
+    "slide": {
+      "title": {
+        "text": "Modul 2: Pochopení dopadu",
+        "note": "Module / summary slide title"
+      },
+      "section1": {
+        "text": "Proč je důležitý lidský dopad",
+        "note": "Section heading"
+      },
+      "section2": {
+        "text": "Koho se online zneužívání týká?",
+        "note": "Section heading"
+      },
+      "section3": {
+        "text": "Dopad online zneužívání na lidi",
+        "note": "Section heading"
+      },
+      "section4": {
+        "text": "Prozkoumejte: Jaké potenciální dopady online zneužívání můžete identifikovat?",
+        "note": "Section heading"
+      },
+      "section5": {
+        "text": "Širší obraz",
+        "note": "Section heading"
+      }
+    }
+  },
+  "m3": {
+    "regionTabs": {
+      "ui": {
+        "eyebrow": {
+          "text": "Regionální příklad"
+        },
+        "prompt": {
+          "text": "Vyberte oblast"
+        },
+        "placeholder": {
+          "text": "Vyberte oblast pro zobrazení příkladu."
+        },
+        "regionsAria": {
+          "text": "Regiony"
+        },
+        "close": {
+          "text": "Blízko"
+        },
+        "closeAria": {
+          "text": "Blízko"
+        },
+        "subCountriesAria": {
+          "text": "Příklady členských států EU"
+        },
+        "overview": {
+          "text": "Přehled"
+        }
+      },
+      "tabs": {
+        "t1": {
+          "title": {
+            "text": "Evropská unie"
+          },
+          "html": {
+            "text": "<p>Zákon Evropské unie o umělé inteligenci (AI Act) <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/\" target=\"_blank\" rel=\"noopener\"><strong>Zákon Evropské unie o umělé inteligenci</strong></a> používá rámec pro umělou inteligenci založený na riziku a zavádí požadavky na transparentnost pro určitý obsah generovaný a manipulovaný umělou inteligencí, včetně některých deepfaků.</p>",
+            "note": "HTML allowed — European Union AI Act links to EUR-Lex"
+          },
+          "subs": {
+            "slovenia": {
+              "title": {
+                "text": "Slovinsko"
+              },
+              "html": {
+                "text": "<p>Ve Slovinsku se umělá inteligence řídí <a href=\"https://pisrs.si/pregledPredpisa?id=ZAKO9225#naslov-parent-393613415\" target=\"_blank\" rel=\"noopener\">národní legislativou</a> a <a href=\"https://eur-lex.europa.eu/legal-content/SL/TXT/HTML/?uri=OJ:L_202401689\" target=\"_blank\" rel=\"noopener\">zákonem EU o umělé inteligenci</a>. <a href=\"https://www.gov.si/novice/2026-08-03-zacela-so-se-uporabljati-pravila-o-preglednosti-sistemov-umetne-inteligence/\" target=\"_blank\" rel=\"noopener\">Pokyny vlády</a>, <a href=\"https://www.ip-rs.si/umetna-inteligenca/pogosta-vpra%C5%A1anja/\" target=\"_blank\" rel=\"noopener\">odpovědi na běžné otázky</a> a regulační informace z <a href=\"https://www.gov.si/en/state-authorities/ministries/ministry-of-the-ministration/interbior\" target=\"_blank\" rel=\"noopener\">odpovědné ministerstvo</a> jsou také k dispozici.</p>",
+                "note": "HTML allowed — linked phrases open official sources"
+              }
+            },
+            "sweden": {
+              "title": {
+                "text": "Švédsko"
+              },
+              "html": {
+                "text": "<p>Ve Švédsku se přímo uplatňuje zákon EU o umělé inteligenci (AI Act), který poskytuje právní rámec pro regulaci umělé inteligence, včetně obsahu generovaného umělou inteligencí. Švédsko nemá žádnou samostatnou národní legislativu, která by se konkrétně zabývala obsahem generovaným umělou inteligencí.</p>",
+                "note": "HTML allowed"
+              }
+            },
+            "czechia": {
+              "title": {
+                "text": "Česko"
+              },
+              "html": {
+                "text": "<p>V Česku se přímo uplatňuje zákon EU o umělé inteligenci, který poskytuje právní rámec pro regulaci umělé inteligence, včetně obsahu generovaného umělou inteligencí.</p>",
+                "note": "HTML allowed"
+              }
+            },
+            "spain": {
+              "title": {
+                "text": "Španělsko"
+              },
+              "html": {
+                "text": "<p>Ve Španělsku se přímo uplatňuje zákon EU o umělé inteligenci, který poskytuje právní rámec pro regulaci umělé inteligence, včetně obsahu generovaného umělou inteligencí. Španělská agentura pro dohled nad umělou inteligencí (AESIA) dohlíží na dodržování předpisů týkajících se umělé inteligence a podporuje jejich implementaci na národní úrovni.</p>",
+                "note": "HTML allowed"
+              }
+            }
+          }
+        },
+        "t2": {
+          "title": {
+            "text": "Spojené království"
+          },
+          "html": {
+            "text": "<p>Podle zákona o online bezpečnosti <a href=\"https://www.legislation.gov.uk/ukpga/2023/50\" target=\"_blank\" rel=\"noopener\"><strong>Online Safety Act</strong></a> může obsah generovaný umělou inteligencí sdílený uživateli spadat do odpovědností regulovaných online služeb, včetně příslušných povinností týkajících se nelegálního obsahu a bezpečnosti uživatelů.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "t3": {
+          "title": {
+            "text": "Spojené státy"
+          },
+          "html": {
+            "text": "<p>Zákon <a href=\"https://www.congress.gov/bill/119th-congress/senate-bill/146\" target=\"_blank\" rel=\"noopener\"><strong>Zákon o odstranění snímků</strong></a> se zabývá sdílením intimních obrázků bez souhlasu, včetně deepfaků generovaných umělou inteligencí. Vyžaduje, aby dotčené online platformy poskytovaly způsob, jak požádat o jejich odstranění, a aby odstranily příslušný obsah do 48 hodin od platné žádosti.</p>",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "checklist": {
+      "ui": {
+        "eyebrow": {
+          "text": "Kontrolní seznam"
+        },
+        "title": {
+          "text": "Kroky hlášení"
+        },
+        "progress": {
+          "text": "{n} z {celkem} zkontrolováno"
+        },
+        "hint": {
+          "text": "Zaškrtněte každý krok při jeho kontrole. Nehodnotí se.",
+          "note": "Removed from widget UI; kept for translators / legacy"
+        },
+        "done": {
+          "text": "Všechny kroky zkontrolovány."
+        }
+      },
+      "items": {
+        "i1": {
+          "text": "1. Zhodnoťte situaci a svou bezpečnost. Zvažte povahu obsahu a to, zda vy nebo někdo jiný můžete být vystaveni bezprostřednímu riziku."
+        },
+        "i2": {
+          "text": "2. Shromažďujte důkazy. V případě potřeby ukládejte urážlivé příspěvky, zprávy, informace o profilech, URL adresy a snímky obrazovky."
+        },
+        "i3": {
+          "text": "3. Zaznamenejte si klíčové údaje. Poznamenejte si datum, čas, uživatelské jméno nebo účet a relevantní informace o tom, co se stalo."
+        },
+        "i4": {
+          "text": "4. Používejte bezpečnostní nástroje platformy. V případě potřeby omezte, ztlumte nebo zablokujte účet, abyste omezili další kontakt nebo vystavení se riziku."
+        },
+        "i5": {
+          "text": "5. Nahlaste prostřednictvím platformy. Projděte si příslušné zásady platformy a nahlaste obsah nebo účet pomocí jejích vestavěných možností hlášení."
+        },
+        "i6": {
+          "text": "6. Vyhledejte další podporu nebo v případě potřeby eskalujte situaci. V případě potřeby kontaktujte vedoucího oddělení sociálních věcí nebo ochrany dětí ve vaší organizaci. Pokud máte pocit, že existuje ohrožení vaší bezpečnosti, kontaktujte příslušné místní úřady nebo záchranné složky."
+        }
+      }
+    },
+    "reportingSystems": {
+      "ui": {
+        "listAria": {
+          "text": "Systémy hlášení podle země",
+          "note": "aria-label on accordion list"
+        },
+        "placeholder": {
+          "text": "Vyberte zemi pro zobrazení systémů hlášení a podpůrných zdrojů."
+        },
+        "closeAria": {
+          "text": "Blízko"
+        }
+      },
+      "items": {
+        "uk": {
+          "title": {
+            "text": "Spojené království"
+          },
+          "html": {
+            "text": "<p>Ve Spojeném království lze online zneužívání nahlásit na příslušné platformě nebo, pokud může představovat trestný čin, policii. Jednotlivci se vyzývají, aby si uchovávali důkazy, včetně snímků obrazovky, zpráv a URL adres. Specializované organizace také poskytují důvěrnou podporu a poradenství.</p><ul><li><strong>Policie</strong>— Nahlaste výhrůžky, stalking, obtěžování a další potenciálně kriminální online chování. V případě nouze volejte 999 nebo v případě běžné pomoci 101.</li><li><a href=\"https://reportharmfulcontent.com/\" target=\"_blank\" rel=\"noopener\"><strong>Nahlásit škodlivý obsah</strong></a> — Poradenství a pomoc s hlášením škodlivého online obsahu, včetně obtěžování, výhrůžek a zneužívání.</li><li><a href=\"https://www.stophateuk.org/report-hate-crime/\" target=\"_blank\" rel=\"noopener\"><strong>Stop Hate UK</strong></a> — Nezávislá, důvěrná podpora a obecné služby hlášení trestných činů z nenávisti v zúčastněných oblastech.</li></ul>",
+            "note": "HTML allowed — linked resource names open official sources"
+          }
+        },
+        "us": {
+          "title": {
+            "text": "Spojené státy"
+          },
+          "html": {
+            "text": "<p>Ve Spojených státech lze online zneužívání hlásit příslušné platformě nebo orgánům činným v trestním řízení v závislosti na povaze incidentu. Výhrůžky, stalking a další potenciálně kriminální chování lze hlásit místní policii, zatímco federální agentury poskytují další kanály pro hlášení. Jednotlivci se vyzývají, aby si uchovávali důkazy, včetně snímků obrazovky, zpráv a URL adres.</p><ul><li><a href=\"https://www.usa.gov/report-crime\" target=\"_blank\" rel=\"noopener\"><strong>Místní orgány činné v trestním řízení</strong></a> — Policejní oddělení mohou přijímat hlášení o výhrůžkách, stalkingu, obtěžování a dalším potenciálně kriminálním online chování. V případě nouze volejte 911.</li><li><a href=\"https://www.stopbullying.gov/cyberbullying/how-to-report\" target=\"_blank\" rel=\"noopener\"><strong>StopBullying.gov: Nahlásit kyberšikanu</strong></a> – Vládní pokyny k dokumentaci kyberšikany, hlášení škodlivého obsahu platformám a kontaktování orgánů činných v trestním řízení, pokud je to vhodné.</li><li><a href=\"https://www.ic3.gov/\" target=\"_blank\" rel=\"noopener\"><strong>FBI: Centrum pro stížnosti na internetovou kriminalitu (IC3)</strong></a> – Hlášení o kybernetické kriminalitě, včetně online vydírání, obtěžování a stalkingu v případě podezření z trestné činnosti.</li><li><a href=\"https://tips.fbi.gov/\" target=\"_blank\" rel=\"noopener\"><strong>FBI: Nahlásit federální trestný čin</strong></a> – Hlášení o podezření z federálních trestných činů, včetně závažných hrozeb a jiné trestné činnosti, která může zahrnovat online zneužívání.</li></ul>",
+            "note": "HTML allowed — linked resource names open official sources"
+          }
+        },
+        "si": {
+          "title": {
+            "text": "Slovinsko"
+          },
+          "html": {
+            "text": "<p>Ve Slovinsku mohou sportovci a sportovní profesionálové vyhledat nezávislou podporu a poradenství v oblasti online zneužívání prostřednictvím ombudsmana pro práva sportovců. Další zdroje se zabývají kybernetickými incidenty, ochranou osobních údajů a pochybením ve sportu, včetně specializovaných kanálů pro hlášení.</p><ul><li><a href=\"https://www.gov.si/en/state-authorities/ministries/ministry-of-the-economy-labour-and-sport/about-the-ministry-of-economy-tourism-and-sport/sport-directorate/\" target=\"_blank\" rel=\"noopener\"><strong>Ombudsman pro práva sportovců</strong></a> — Nezávislá podpora a bezplatné právní poradenství pro sportovce a sportovní profesionály.</li><li><a href=\"https://www.cert.si/en/about-si-cert/\" target=\"_blank\" rel=\"noopener\"><strong>SI.CERT</strong></a> — Slovinské národní centrum pro reakci na kybernetické incidenty, které poskytuje pomoc s online bezpečnostními incidenty.</li><li><a href=\"https://www.gov.si/drzavni-organi/vladne-sluzbe/urad-vlade-za-informacijsko-varnost/\" target=\"_blank\" rel=\"noopener\"><strong>Vládní úřad pro informační bezpečnost</strong></a> — Vládní orgán odpovědný za národní informační bezpečnost a kybernetickou bezpečnost.</li><li><a href=\"https://www.ip-rs.si/en/about/information-commissioner\" target=\"_blank\" rel=\"noopener\"><strong>Informační komisař</strong></a> — Nezávislý orgán dohlížející na ochranu osobních údajů a práva na soukromí.</li><li><a href=\"https://oks.zvizgavka.si/\" target=\"_blank\" rel=\"noopener\"><strong>Olympijský výbor Slovinska: Kanál pro oznamování nekalých praktik</strong></a> — Kanál pro hlášení obav týkajících se pochybení ve sportu.</li></ul>",
+            "note": "HTML allowed — linked resource names open official sources"
+          }
+        },
+        "se": {
+          "title": {
+            "text": "Švédsko"
+          },
+          "html": {
+            "text": "<p>Ve Švédsku lze potenciálně trestné online zneužívání, včetně výhrůžek, obtěžování a pomluvy, nahlásit policii. Sportovci a sportovní profesionálové mohou také vyhledat nezávislou podporu nebo nahlásit pochybení ve sportu prostřednictvím sportovního ombudsmana Švédské sportovní konfederace.</p><ul><li><a href=\"https://polisen.se/utsatt-for-brott/polisanmalan/\" target=\"_blank\" rel=\"noopener\"><strong>Švédská policie</strong></a> – Oficiální kanál pro hlášení potenciálních trestných činů, včetně online výhrůžek, obtěžování a pomluvy. Hlášení lze také podat na telefonním čísle 114 14.</li><li><a href=\"https://www.rf.se/rf-arbetar-med/idrottsombudsmannen/kontakta-idrottsombudsmannen\" target=\"_blank\" rel=\"noopener\"><strong>Švédská sportovní konfederace (RF): Sportovní ombudsman</strong></a> – Nezávislá podpůrná a oznamovací služba pro hlášení obtěžování, zneužívání a pochybení ve švédském sportu.</li></ul>",
+            "note": "HTML allowed — linked resource names open official sources"
+          }
+        },
+        "cz": {
+          "title": {
+            "text": "Česko"
+          },
+          "html": {
+            "text": "<p>V Česku lze online zneužívání hlásit několika kanály v závislosti na povaze incidentu. STOPonline přijímá hlášení o nelegálním nebo škodlivém online obsahu, včetně kyberšikany, kybergroomingu, sdílení intimních fotografií bez souhlasu a kybernetických hrozeb. Hlášení posuzují specialisté a mohou být postoupena Policii ČR nebo mezinárodním partnerům. Incidenty zahrnující potenciální trestné činy, jako jsou výhrůžky, stalking nebo vydírání, by měly být hlášeny přímo Policii ČR. Jednotlivci se vyzývají, aby si uchovávali důkazy, včetně snímků obrazovky, zpráv a odkazů, a mohou také hlásit škodlivý obsah přímo na online platformách.</p><ul><li><a href=\"https://www.stoponline.cz/en/\" target=\"_blank\" rel=\"noopener\"><strong>STOPonline.cz</strong></a> — Online služba pro hlášení provozovaná organizací CZ.NIC ve spolupráci s CSIRT.CZ. Přijímá hlášení o nelegálním nebo škodlivém online obsahu a postoupí potenciálně nelegální případy příslušným orgánům. Služba se zaměřuje na hodnocení a hlášení obsahu, nikoli na poradenství.</li><li><a href=\"https://policie.gov.cz/hlaseni-kyberkriminality\" target=\"_blank\" rel=\"noopener\"><strong>Policie ČR: Hlášení kyberkriminality</strong></a> — Oficiální informace o hlášení podezření z kyberkriminality, včetně online hrozeb, stalkingu, vydírání a dalších potenciálně trestných aktivit.</li><li><a href=\"https://policie.gov.cz/kyberkriminalita/co-delat-vpripade-ze-se-setkate-spodezrelou-aktivitou-vonline-prostoru\" target=\"_blank\" rel=\"noopener\"><strong>Policie ČR: Pokyny k podezřelé online aktivitě</strong></a> — Praktické pokyny k reakci na podezřelou online aktivitu, zachování důkazů a vyhledání policejní pomoci.</li></ul>",
+            "note": "HTML allowed — linked resource names open official sources"
+          }
+        },
+        "es": {
+          "title": {
+            "text": "Španělsko"
+          },
+          "html": {
+            "text": "<p>Ve Španělsku lze potenciálně trestné online zneužívání, včetně obtěžování, výhrůžek a trestných činů z nenávisti, hlásit španělské národní policii nebo civilní gardě. Jednotlivci se vyzývají, aby si uchovávali důkazy, včetně snímků obrazovky, zpráv a URL adres. Další služby poskytují důvěrné poradenství a pomoc s odstraňováním škodlivého obsahu.</p><ul><li><a href=\"https://www.policia.es/\" target=\"_blank\" rel=\"noopener\"><strong>Španělská národní policie (Policía Nacional)</strong></a> a civilní garda (Guardia Civil) – oficiální orgány pro hlášení potenciálně trestného online zneužívání.</li><li><a href=\"https://www.incibe.es/linea-de-ayuda-en-ciberseguridad\" target=\"_blank\" rel=\"noopener\"><strong>INCIBE: Linka pomoci pro kybernetickou bezpečnost (017)</strong></a> – bezplatné a důvěrné poradenství ohledně kyberšikany, online obtěžování a digitálního soukromí. Toto je poradenská služba, nikoli formální kanál pro hlášení trestných činů.</li><li><a href=\"https://www.aepd.es/canalprioritario\" target=\"_blank\" rel=\"noopener\"><strong>Španělský úřad pro ochranu osobních údajů (AEPD): Prioritní kanál</strong></a> – Umožňuje jednotlivcům požádat o naléhavé odstranění nezákonně sdíleného sexuálního nebo násilného obsahu v obzvláště závažných případech.</li></ul>",
+            "note": "HTML allowed — linked resource names open official sources"
+          }
+        }
+      }
+    },
+    "sorting": {
+      "ui": {
+        "eyebrow": {
+          "text": "Objednávání",
+          "note": "Removed from widget UI; kept for translators / legacy"
+        },
+        "prompt": {
+          "text": "1. Uspořádejte níže uvedené kroky v doporučeném pořadí."
+        },
+        "hint": {
+          "text": "Přetáhněte položky nebo je uspořádejte pomocí šipek a poté je odešlete."
+        },
+        "moveUp": {
+          "text": "Posunout nahoru"
+        },
+        "moveDown": {
+          "text": "Přesunout dolů"
+        },
+        "ok": {
+          "text": "<strong>Správně!</strong>Identifikovali jste doporučený postup pro reakci na online zneužívání na sociálních sítích. Dodržování jasného postupu pomáhá zachovat důležité informace, omezit další publicitu a zajistit, aby byla situace odpovídajícím způsobem nahlášena nebo eskalována.",
+          "note": "HTML allowed"
+        },
+        "bad": {
+          "text": "<strong>Ne tak docela. Zkontrolujte možnosti a zkuste to znovu.</strong>",
+          "note": "HTML allowed"
+        }
+      },
+      "items": {
+        "i1": {
+          "text": "Zhodnoťte situaci a svou bezpečnost"
+        },
+        "i2": {
+          "text": "Shromáždit důkazy"
+        },
+        "i3": {
+          "text": "Zaznamenejte klíčové detaily"
+        },
+        "i4": {
+          "text": "Používejte nástroje pro bezpečnost platformy"
+        },
+        "i5": {
+          "text": "Nahlásit prostřednictvím platformy"
+        },
+        "i6": {
+          "text": "Vyhledejte další podporu nebo v případě potřeby eskalujte"
+        }
+      }
+    },
+    "trueFalse": {
+      "bad": {
+        "text": "<strong>Ne tak docela. Zkontrolujte prohlášení a zkuste to znovu.</strong>",
+        "note": "HTML allowed"
+      },
+      "questions": {
+        "q1": {
+          "prompt": {
+            "text": "Pokud sportovec obdrží urážlivý obsah, měl by jej okamžitě smazat a reagovat přímo na odpovědnou osobu."
+          },
+          "choices": {
+            "c0": {
+              "text": "VĚRNÝ"
+            },
+            "c1": {
+              "text": "FALEŠNÝ"
+            }
+          },
+          "ok": {
+            "text": "<strong>Správně!</strong>Před smazáním obsahu se doporučuje shromáždit relevantní důkazy a vyhnout se přímé interakci s osobou odpovědnou za zneužití.",
+            "note": "HTML allowed"
+          }
+        },
+        "q2": {
+          "prompt": {
+            "text": "Veřejné sdílení urážlivého obsahu může pomoci situaci řešit tím, že na ni upozorní více."
+          },
+          "choices": {
+            "c0": {
+              "text": "VĚRNÝ"
+            },
+            "c1": {
+              "text": "FALEŠNÝ"
+            }
+          },
+          "ok": {
+            "text": "<strong>Správně!</strong>Sdílení nebo opětovné zveřejnění urážlivého obsahu může zvýšit jeho dosah a znovu vystavit cílovou osobu i další osoby škodlivému obsahu. Použijte místo toho vhodné kanály pro hlášení.",
+            "note": "HTML allowed"
+          }
+        },
+        "q3": {
+          "prompt": {
+            "text": "Umělá inteligence může pomoci identifikovat potenciálně škodlivý obsah, ale lidský úsudek zůstává důležitý při interpretaci kontextu."
+          },
+          "choices": {
+            "c0": {
+              "text": "VĚRNÝ"
+            },
+            "c1": {
+              "text": "FALEŠNÝ"
+            }
+          },
+          "ok": {
+            "text": "<strong>Správně!</strong>Umělá inteligence může podpořit včasnou detekci a označit potenciálně škodlivý obsah ke kontrole, ale kontext, jazyk a měnící se taktiky zneužívání mohou lidský úsudek učinit důležitým.",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "takeaways": {
+      "heading": {
+        "text": "Klíčové poznatky"
+      },
+      "items": {
+        "i1": {
+          "text": "<strong>Design platformy ovlivňuje šíření obsahu.</strong>Různá digitální prostředí formují, kdo se s obsahem setkává, jak s ním lidé interagují a jak dlouho zůstává viditelný.",
+          "note": "HTML allowed"
+        },
+        "i2": {
+          "text": "<strong>Online škody lze zesílit.</strong>Systémy doporučování, sdílení, živá interakce a dynamika komunity mohou zvýšit dosah a intenzitu škodlivého obsahu.",
+          "note": "HTML allowed"
+        },
+        "i3": {
+          "text": "<strong>Zneužívající taktiky se mohou přizpůsobit.</strong>Škodlivý obsah může používat pozměněný jazyk, vizuální formáty, nepřímé cílení nebo různé digitální prostory, aby se jeho odhalení ztížilo.",
+          "note": "HTML allowed"
+        },
+        "i4": {
+          "text": "<strong>Lidé mohou podniknout kroky ke snížení expozice.</strong>Digitální pohodu mohou podpořit ovládací prvky ochrany soukromí, nastavení interakce, blokování, ztlumení a promyšlená rozhodnutí o online prostorech.",
+          "note": "HTML allowed"
+        },
+        "i5": {
+          "text": "<strong>Efektivní hlášení se řídí jasným postupem.</strong>Vyhodnoťte situaci, zdokumentujte relevantní důkazy, nahlaste situaci vhodným kanálem a vyhledejte podporu nebo eskalujte situaci, pokud je ohrožena bezpečnost.",
+          "note": "HTML allowed"
+        },
+        "i6": {
+          "text": "<strong>Umělá inteligence má dvojí roli.</strong>Může zvýšit rozsah a sofistikovanost škodlivého obsahu a zároveň může podporovat detekci, moderování a další online bezpečnostní opatření.",
+          "note": "HTML allowed"
+        },
+        "i7": {
+          "text": "<strong>Technologie sama o sobě nedokáže řešit online zneužívání.</strong>Účinné reakce kombinují nástroje platformy, zodpovědné chování uživatelů, lidský úsudek, organizační podporu a vhodnou regulaci.",
+          "note": "HTML allowed"
+        }
+      }
+    },
+    "slide": {
+      "title": {
+        "text": "Modul 3: Jak se šíří online škody",
+        "note": "Module / summary slide title"
+      }
+    }
+  },
+  "m4": {
+    "lawTabs": {
+      "ui": {
+        "prompt": {
+          "text": "Vyberte cestu"
+        },
+        "placeholder": {
+          "text": "Vyberte cestu"
+        },
+        "pathwaysAria": {
+          "text": "Právní cesty"
+        },
+        "seeExample": {
+          "text": "Viz příklad"
+        },
+        "backToPathway": {
+          "text": "Zpět na cestu"
+        },
+        "returnMain": {
+          "text": "Zpět na hlavní stránku"
+        },
+        "closeAria": {
+          "text": "Blízko"
+        }
+      },
+      "tabs": {
+        "t1": {
+          "title": {
+            "text": "Trestní právo"
+          },
+          "image": {
+            "text": "https://preview.scormstack.io/medias/courses/428b8e0e-9238-4608-a1a3-962afd799ccf/UAOA_pathway_crimina_64f037dc-941a-4af3-90b3-ac5e5fb45a9f.jpg",
+            "note": "CDN URL for scenario illustration"
+          },
+          "imageAlt": {
+            "text": "Rozhodčí dostává opakovaná varování na telefon"
+          },
+          "pathway": {
+            "text": "<p><strong>Co se může týkat:</strong>Jednání, které představuje trestný čin podle platných právních předpisů, včetně určitých výhrůžek, stalkingu, trestných činů z nenávisti nebo sdílení intimních fotografií bez souhlasu.</p><p><strong>Kdo podniká kroky:</strong>Vyšetřování může provést orgán činný v trestním řízení a příslušný orgán činný v trestním řízení rozhodne, zda bude případ projednáván.</p><p><strong>Možné výsledky:</strong>Trestní sankce mohou zahrnovat pokuty nebo odnětí svobody v závislosti na trestném činu a jurisdikci.</p>",
+            "note": "HTML allowed"
+          },
+          "example": {
+            "text": "<p>Po rozhodnutí během zápasu začne rozhodčí dostávat opakované zprávy na sociálních sítích ze stejného účtu. Zprávy jsou čím dál výhružnější a obsahují zmínky o vážném ublížení rozhodčímu a členům jeho rodiny.</p><p>V závislosti na platných zákonech a okolnostech mohou výhrůžky tohoto druhu vést k oznámení orgánům činným v trestním řízení a zahájení trestního vyšetřování.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "t2": {
+          "title": {
+            "text": "Občanské právo"
+          },
+          "image": {
+            "text": "https://preview.scormstack.io/medias/courses/428b8e0e-9238-4608-a1a3-962afd799ccf/UAOA_pathway_civil_e89ec7dc-a23c-4bea-af45-ba6d00b25544.jpg",
+            "note": "CDN URL for scenario illustration"
+          },
+          "imageAlt": {
+            "text": "Sportovec čelí šíření online tvrzení a ztrátě sponzorství"
+          },
+          "pathway": {
+            "text": "<p><strong>Co může zahrnovat:</strong>Spory týkající se zákonných práv mezi jednotlivci nebo organizacemi, které mohou zahrnovat pomluvu, obtěžování, zneužití soukromých informací nebo jiné nároky týkající se soukromí.</p><p><strong>Kdo podniká kroky:</strong>Osoba nebo organizace, která podává žalobu, zahajuje právní řízení.</p><p><strong>Možné výsledky:</strong>V závislosti na platných právních předpisech mohou nápravná opatření zahrnovat odškodnění nebo soudní příkazy vyžadující ukončení určitého chování.</p>",
+            "note": "HTML allowed"
+          },
+          "example": {
+            "text": "<p>Na internetu se začínají šířit nepravdivá obvinění o sportovci, která jsou opakovaně sdílena. Tato tvrzení poškozují profesionální pověst sportovce a sponzor s ním po seznámení s takovými obviněními ukončí spolupráci.</p><p>V závislosti na platných právních předpisech a okolnostech může sportovec podat občanskoprávní žalobu, v níž se domáhá náhrady způsobené škody, včetně příkazů k odstranění existujícího nepravdivého obsahu, soudních zákazů zabránění dalšímu publikování, peněžních nároků vůči pachateli, pokud je identifikovatelný atd.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "t3": {
+          "title": {
+            "text": "Správní právo a předpisy"
+          },
+          "image": {
+            "text": "https://preview.scormstack.io/medias/courses/428b8e0e-9238-4608-a1a3-962afd799ccf/UAOA_pathway_admin_55f163bb-0d7b-4f46-9cb3-20fd51f67cd0.jpg",
+            "note": "CDN URL for scenario illustration"
+          },
+          "imageAlt": {
+            "text": "Sportovec se obává zveřejnění osobních kontaktních údajů na internetu"
+          },
+          "pathway": {
+            "text": "<p><strong>Co může zahrnovat:</strong>Právní povinnosti vynucované regulačními orgány, včetně pravidel vztahujících se na online služby nebo nakládání s osobními údaji.</p><p><strong>Kdo podniká kroky:</strong>Příslušné regulační orgány dohlížejí na tyto požadavky a vymáhají je. Stížnosti mohou podávat i jednotlivci a organizace.</p><p><strong>Možné výsledky:</strong>Regulační orgány mohou vyšetřovat, požadovat změny nebo ukládat sankce, pokud jim platné právní předpisy tyto pravomoci dávají.</p>",
+            "note": "HTML allowed"
+          },
+          "example": {
+            "text": "<p>Sportovec zjistí, že jeho osobní kontaktní údaje byly zveřejněny online bez jeho svolení. Informace se nadále šíří, což vyvolává obavy o jeho soukromí a bezpečnost.</p><p>V závislosti na platných pravidlech ochrany osobních údajů může sportovec nebo jeho organizace tuto záležitost vznést u příslušného regulačního orgánu.</p>",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "limits": {
+      "items": {
+        "i1": {
+          "title": {
+            "text": "Jurisdikce"
+          },
+          "html": {
+            "text": "<p>Online zneužívání může okamžitě překročit hranice států. Cílová osoba, odpovědná osoba a platforma se mohou nacházet v různých jurisdikcích s různými zákony a postupy vymáhání práva.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "i2": {
+          "title": {
+            "text": "Určení, kdo je zodpovědný"
+          },
+          "html": {
+            "text": "<p>Účty mohou používat pseudonymy, falešné identity nebo omezené identifikační informace, což ztěžuje určení, kdo je za konkrétní chování zodpovědný. Identifikace majitele účtu může vyžadovat informace, které platformy uchovávají, a v některých případech i formální právní procesy.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "i3": {
+          "title": {
+            "text": "Vynucení"
+          },
+          "html": {
+            "text": "<p>Objem a rychlost online aktivity může ztížit vyšetřování a vymáhání práva. Dostupné zdroje, odborné znalosti, požadavky na důkazy a priority vymáhání práva mohou ovlivnit, co se stane po nahlášení incidentu.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "i4": {
+          "title": {
+            "text": "Právní prahové hodnoty"
+          },
+          "html": {
+            "text": "<p>Každé škodlivé nebo zneužívající chování nemusí automaticky představovat trestný čin ani vést k právnímu nároku. Důležitá je příslušná právní definice, důkazy, kontext a jurisdikce.</p><p>To znamená, že právní kroky jsou součástí reakce na online zneužívání. Zásady online platforem a vlastní standardy a zásady sportovních organizací mohou také pomoci řešit určité chování, které nemusí mít dostatečný důvod k právnímu kroku.</p>",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "regions": {
+      "ui": {
+        "prompt": {
+          "text": "Vyberte oblast"
+        },
+        "placeholder": {
+          "text": "Vyberte region a podívejte se na příklad, jak se stávající zákony mohou vztahovat na online chování."
+        },
+        "countriesAria": {
+          "text": "Regiony"
+        }
+      },
+      "items": {
+        "i1": {
+          "title": {
+            "text": "Spojené království"
+          },
+          "html": {
+            "text": "<p>Ve Spojeném království se několik zákonů zabývá škodlivým chováním na internetu.<strong>Zákon o online bezpečnosti z roku 2023</strong>zavádí trestné činy týkající se výhružné komunikace, kyberflashingu a sdílení nebo vyhrožování sdílením intimních obrázků bez souhlasu.<strong>Zákon o ochraně před obtěžováním z roku 1997</strong>se rovněž vztahuje na obtěžování a stalking, včetně chování zahrnujícího digitální komunikaci. Zákon o online bezpečnosti dále ukládá regulovaným platformám povinnosti řešit nelegální obsah a chránit děti před škodlivým materiálem. Použitelné ochranné mechanismy závisí na chování a jurisdikci.</p><p><em>Zdroj: <a href=\"https://www.legislation.gov.uk/\" target=\"_blank\" rel=\"noopener\">Legislation.gov.uk</a></em></p>",
+            "note": "HTML allowed"
+          }
+        },
+        "i2": {
+          "title": {
+            "text": "Spojené státy"
+          },
+          "html": {
+            "text": "<p>Ve Spojených státech je online zneužívání řešeno kombinací federálních a státních zákonů. Federální legislativa, včetně § 18 U.S.C. 2261A, se zabývá určitými formami kybernetické hanlivosti zahrnující elektronickou komunikaci. Další federální ustanovení se vztahují na hrozby a specifické formy online obtěžování, zatímco státní zákony mohou poskytovat dodatečnou ochranu před kyberšikanou, obtěžováním, stalkingem a sdílením intimních obrázků bez souhlasu. Právní definice, vymáhání a dostupné opravné prostředky se liší v závislosti na jurisdikci a okolnostech každého případu.<strong>Zdroj: <a href=\"https://uscode.house.gov/\" target=\"_blank\" rel=\"noopener\">Zákoník USA</a></strong></p><p><em></em></p>",
+            "note": "HTML allowed"
+          }
+        },
+        "i3": {
+          "title": {
+            "text": "Česko"
+          },
+          "html": {
+            "text": "<p>České právo se nespoléhá na jediný trestný čin „zneužívání online“. Stávající legislativa se může vztahovat na specifické škodlivé chování prováděné online. Například<strong>§ 354 trestního zákoníku (zákon č. 40/2009 Sb.)</strong>se zabývá stalkingem, včetně chování prováděného prostřednictvím elektronických komunikací. <a href=\"https://policie.gov.cz/stalking---nebezpecne-pronasledovani--354-trestniho-zakoniku\" target=\"_blank\" rel=\"noopener\">Pokyny Policie ČR ke stalkingu</a> vysvětlují toto ustanovení a mezi chování, ke kterému může dojít v případech stalkingu, uvádí opakované zprávy na sociálních sítích, výhrůžky, zneužití osobních údajů a útoky na pověst.</p><p>Občanský zákoník (zákon č. 89/2012 Sb.)<strong>také chrání osobnostní práva, včetně důstojnosti, cti a soukromí osoby. Osoba dotčená protiprávním zásahem se může domáhat ukončení zásahu a nápravy jeho následků.</strong>Zdroj: <a href=\"https://e-sbirka.gov.cz\" target=\"_blank\" rel=\"noopener\">e-Sbírka</a></p><p><em></em></p>",
+            "note": "HTML allowed"
+          }
+        },
+        "i4": {
+          "title": {
+            "text": "Španělsko"
+          },
+          "html": {
+            "text": "<p><a href=\"https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444\" target=\"_blank\" rel=\"noopener\"><strong>Španělský trestní zákoník (Organický zákon 10/1995)</strong></a> se zabývá několika formami online zneužívání.<strong>Článek 172 ter</strong>se zabývá stalkingem, včetně opakovaného nežádoucího kontaktu, zneužití osobních údajů a vytváření falešných profilů na sociálních sítích s použitím něčího obrázku bez souhlasu, pokud to vede k obtěžování nebo ponižování.</p><p><strong>Článek 510</strong>se zabývá online nenávistnými projevy a stanoví zvýšené tresty za určité trestné činy, pokud digitální platformy zpřístupňují obsah širokému publiku.</p><p>Oběti mohou nahlásit podezření z trestného činu <a href=\"https://www.policia.es/\" target=\"_blank\" rel=\"noopener\">španělské národní policii</a> nebo civilní gardě (Guardia Civil). Další podpora je k dispozici prostřednictvím <a href=\"https://www.incibe.es/linea-de-ayuda-en-ciberseguridad\" target=\"_blank\" rel=\"noopener\">bezplatné a důvěrné linky pomoci 017 INCIBE</a>, zatímco <a href=\"https://www.aepd.es/canalprioritario\" target=\"_blank\" rel=\"noopener\">Španělský úřad pro ochranu osobních údajů (AEPD)</a> poskytuje prioritní kanál pro žádost o naléhavé odstranění nezákonně sdíleného sexuálního nebo násilného obsahu.</p><p><em>Zdroj: <a href=\"https://www.mpr.gob.es/Paginas/index.aspx\" target=\"_blank\" rel=\"noopener\">Gobierno de España</a></em></p>",
+            "note": "HTML allowed"
+          }
+        },
+        "i5": {
+          "title": {
+            "text": "Švédsko"
+          },
+          "html": {
+            "text": "<p>Ve Švédsku není online nenávist nebo zneužívání samostatnou právní kategorií. Švédská policie vysvětluje, že na chování online se obecně vztahují stejné trestní zákony jako na chování offline, přičemž mezi relevantní trestné činy může patřit nezákonné vyhrožování, obtěžování, pomluva, urážka, nezákonné narušení soukromí, sexuální obtěžování, nezákonné zneužití identity (např. falešné profily na jméno někoho jiného) a štvaní proti skupině obyvatelstva. Pokud je trestný čin motivován například etnickou příslušností, náboženstvím nebo sexuální orientací oběti, je to při uložení trestu přitěžující okolnost.</p><p>Švédské právo rovněž uznává nezákonné pronásledování, které může vyplývat z opakovaných trestných činů proti téže osobě. Policejní pokyny konkrétně doporučují osobám, které zažívají stalking, aby si uchovávaly e-maily, textové zprávy, záznamy hovorů a další digitální komunikaci jako potenciální důkazy.</p><p><em>Zdroje: <a href=\"https://polisen.se\" target=\"_blank\" rel=\"noopener\">polisen.se</a>; <a href=\"https://www.riksdagen.se/sv/dokument-och-lagar/\" target=\"_blank\" rel=\"noopener\">Švédský parlament</a></em></p>",
+            "note": "HTML allowed"
+          }
+        },
+        "i6": {
+          "title": {
+            "text": "Slovinsko"
+          },
+          "html": {
+            "text": "<p>Slovinské právo řeší online zneužívání prostřednictvím stávající legislativy, která se zabývá specifickými druhy škodlivého chování. Obzvláště relevantním příkladem je<strong>článek 134a slovinského trestního zákoníku (KZ-1),</strong>který definuje stalking jako opakované pokusy o navázání nežádoucího kontaktu prostřednictvím elektronické komunikace, pokud toto chování vyvolává strach nebo pocit ohrožení. Slovinské orgány také uznaly online rozměr stalkingu v pokynech týkajících se uplatňování tohoto ustanovení.</p><p>Pokyny slovinské policie uznává online násilí jako chování, jako jsou výhrůžky, obtěžování, šíření nepravdivého nebo urážlivého obsahu, zneužívání fotografií, vydávání se za jinou osobu a vytváření škodlivých falešných profilů. Zda konkrétní jednání představuje trestný čin, závisí na okolnostech jednotlivého případu.</p><p><em>Zdroj: <a href=\"https://www.gov.si/\" target=\"_blank\" rel=\"noopener\">GOV.SI</a></em></p>",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "check": {
+      "questions": {
+        "q1": {
+          "prompt": {
+            "text": "Online incident zneužívání může potenciálně zahrnovat více než jednu právní cestu. Které tvrzení nejlépe vysvětluje proč?"
+          },
+          "choices": {
+            "c0": {
+              "text": "Cílová osoba si může zvolit libovolný zákon, který preferuje."
+            },
+            "c1": {
+              "text": "Stejný incident může vyvolat různé právní otázky v závislosti na chování, okolnostech a platných právních předpisech."
+            },
+            "c2": {
+              "text": "Online incidenty automaticky zahrnují trestní a občanskoprávní právo."
+            },
+            "c3": {
+              "text": "Každá platforma sociálních médií určuje, která právní cesta se uplatňuje."
+            }
+          },
+          "ok": {
+            "text": "<strong>Opravit!</strong>",
+            "note": "HTML allowed"
+          }
+        },
+        "q2": {
+          "prompt": {
+            "text": "Někdo se setkává se škodlivým chováním online, ale toto chování nesplňuje zákonnou hranici pro trestný čin nebo nárok. Co to znamená?"
+          },
+          "choices": {
+            "c0": {
+              "text": "Toto chování nelze považovat za online zneužívání, protože slova použitá v komentářích nejsou totožná s tím, co popisuje zákon."
+            },
+            "c1": {
+              "text": "Platforma je výhradně zodpovědná za reakci a rozhodnutí o tom, co je online zneužití."
+            },
+            "c2": {
+              "text": "Další možnosti řešení mohou být stále k dispozici prostřednictvím pravidel platformy, organizačních politik, ochranných postupů nebo kodexů chování."
+            },
+            "c3": {
+              "text": "Osoba by měla počkat, zda se chování stane závažnějším."
+            }
+          },
+          "ok": {
+            "text": "<strong>Opravit!</strong>",
+            "note": "HTML allowed"
+          }
+        },
+        "q3": {
+          "prompt": {
+            "text": "Proč může být řešení online zneužívání prostřednictvím zákona náročné?"
+          },
+          "choices": {
+            "c0": {
+              "text": "Chování online nespadá pod národní zákony."
+            },
+            "c1": {
+              "text": "Lidé, platformy a škodlivé aktivity mohou překračovat jurisdikce a identifikace odpovědných osob nebo shromažďování důkazů může být obtížné."
+            },
+            "c2": {
+              "text": "Online zneužívání lze vyšetřit pouze tehdy, když odpovědný účet používá skutečné jméno."
+            },
+            "c3": {
+              "text": "Sportovní organizace musí provést vlastní vyšetřování, než se do věci mohou zapojit úřady."
+            }
+          },
+          "ok": {
+            "text": "<strong>Opravit!</strong>",
+            "note": "HTML allowed"
+          }
+        },
+        "q4": {
+          "prompt": {
+            "text": "Které tvrzení nejlépe popisuje, jak se právní reakce na online zneužívání mohou v jednotlivých zemích lišit?"
+          },
+          "choices": {
+            "c0": {
+              "text": "Každá země má specifický trestný čin zvaný online zneužívání."
+            },
+            "c1": {
+              "text": "Evropské země uplatňují stejné národní zákony, protože sdílejí regionální předpisy."
+            },
+            "c2": {
+              "text": "Chování online se řídí především zemí, kde má společnost sociálních médií sídlo."
+            },
+            "c3": {
+              "text": "Země mohou na online chování uplatňovat různé stávající zákony a některé právní předpisy se výslovně zabývají konkrétním digitálním chováním."
+            }
+          },
+          "ok": {
+            "text": "<strong>Opravit!</strong>",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "takeaways": {
+      "heading": {
+        "text": "Klíčové poznatky"
+      },
+      "items": {
+        "i1": {
+          "text": "<strong>Online zneužívání se může týkat různých oblastí práva.</strong>Trestní, občanskoprávní a správní řízení zahrnují různé procesy, aktéry a možné výsledky.",
+          "note": "HTML allowed"
+        },
+        "i2": {
+          "text": "<strong>Může se použít více než jeden způsob řešení.</strong>Stejný incident může v závislosti na okolnostech vyvolat trestní, občanskoprávní nebo regulační problémy.",
+          "note": "HTML allowed"
+        },
+        "i3": {
+          "text": "<strong>Právní reakce závisí na kontextu a jurisdikci.</strong>Možné kroky mohou ovlivnit platné právo, dostupné důkazy a umístění dotčených osob a služeb.",
+          "note": "HTML allowed"
+        },
+        "i4": {
+          "text": "<strong>Právní cesty mají praktická omezení.</strong>Přeshraniční činnost, identifikace odpovědných osob, kapacita vymáhání práva a zákonné prahové hodnoty mohou jednání ztěžovat.",
+          "note": "HTML allowed"
+        },
+        "i5": {
+          "text": "<strong>Odpovědnost přesahuje rámec zákona.</strong>Sportovní organizace mohou zavádět zásady, postupy podávání zpráv, ochrannou podporu a důsledky za škodlivé chování.",
+          "note": "HTML allowed"
+        },
+        "i6": {
+          "text": "<strong>Sportovní chování se rozšiřuje i do digitálních prostorů.</strong>Respekt, fair play a zodpovědné chování zůstávají relevantní, když se lidé účastní sportu online.",
+          "note": "HTML allowed"
+        }
+      }
+    },
+    "slide": {
+      "title": {
+        "text": "Modul 4: Znalost vašich práv a povinností",
+        "note": "Module / summary slide title"
+      }
+    }
+  },
+  "m5": {
+    "layers": {
+      "ui": {
+        "prompt": {
+          "text": "Prozkoumejte tři vrstvy akce."
+        },
+        "tracksAria": {
+          "text": "Akční vrstvy"
+        },
+        "backToLayers": {
+          "text": "Zpět k vrstvám"
+        },
+        "done": {
+          "text": "Všechny tři vrstvy prozkoumány"
+        },
+        "openLayer": {
+          "text": "Otevřít vrstvu"
+        },
+        "overview": {
+          "text": "Přehled"
+        }
+      },
+      "tracks": {
+        "t1": {
+          "num": {
+            "text": "1"
+          },
+          "title": {
+            "text": "Individuální"
+          },
+          "eyebrow": {
+            "text": "Vrstva 1 · Jednotlivci"
+          },
+          "labels": {
+            "l1": {
+              "text": "Chraňte se"
+            },
+            "l2": {
+              "text": "Podporujte ostatní"
+            },
+            "l3": {
+              "text": "Jednejte bezpečně"
+            }
+          },
+          "intro": {
+            "text": "<p><strong>Činnost začíná u lidí.</strong></p><p>Každý ve sportu může přispět, ať už zažívá online zneužívání, je jeho svědkem nebo podporuje někoho, kdo se stal terčem.</p><p>Prozkoumejte způsoby, jak můžete:</p><ul><li>Chránit se</li><li>Podporovat ostatní</li><li>Jednat se bezpečně</li></ul>",
+            "note": "HTML allowed"
+          }
+        },
+        "t2": {
+          "num": {
+            "text": "2"
+          },
+          "title": {
+            "text": "Organizace"
+          },
+          "eyebrow": {
+            "text": "Vrstva 2 · Organizace"
+          },
+          "labels": {
+            "l1": {
+              "text": "Vytvářejte frameworky"
+            },
+            "l2": {
+              "text": "Posílení ochrany"
+            },
+            "l3": {
+              "text": "Koordinovaná akce"
+            }
+          },
+          "intro": {
+            "text": "<p>Organizace mohou poskytnout rámec, zdroje a koordinovanou podporu potřebnou k ochraně lidí a efektivní reakci na online zneužívání. Patří mezi ně sportovní organizace a federace, kluby a asociace, mediální organizace, online platformy, advokační skupiny a další instituce v celé sportovní komunitě.</p><p>Prozkoumejte, jak se organizace mohou na online zneužívání připravit, jak mu předcházet a jak na něj reagovat.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "t3": {
+          "num": {
+            "text": "3"
+          },
+          "title": {
+            "text": "Společnost"
+          },
+          "eyebrow": {
+            "text": "Vrstva 3 · Společnost"
+          },
+          "labels": {
+            "l1": {
+              "text": "Pokročilé vzdělávání"
+            },
+            "l2": {
+              "text": "Generování důkazů"
+            },
+            "l3": {
+              "text": "Normy tvaru"
+            }
+          },
+          "intro": {
+            "text": "<p>Online zneužívání je často formováno faktory, které jednotlivci a organizace nemají přímou kontrolu. Osobní kontext lidí, technologie, které používají, jejich přístup ke vzdělání a obecné kulturní normy kolem nich mohou ovlivnit, zda je škodlivé chování podporováno, normalizováno, zpochybňováno nebo mu předcházíno.</p><p>Zjistěte, jak širší sociální kontexty mohou ovlivnit online zneužívání a pomoci vytvořit bezpečnější digitální prostor ve sportu.</p>",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "flow1": {
+      "ui": {
+        "title": {
+          "text": "Co každý z nás může udělat"
+        }
+      },
+      "steps": {
+        "s1": {
+          "title": {
+            "text": "Chraňte se"
+          },
+          "body": {
+            "text": "<p>Pro sportovce a další osoby s veřejným kontaktem:</p><ul><li><strong>Spravujte svou expozici.</strong>Zkontrolujte nastavení soukromí a bezpečnosti a určete, kdo vás může kontaktovat, zmínit se o vás nebo vás označit.</li><li><strong>Používejte bezpečnostní nástroje.</strong>Ztlumte, omezte, blokujte a hláste škodlivé účty nebo obsah.</li><li><strong>Uchovejte důkazy.</strong>Uložte relevantní informace, když je třeba nahlásit nebo eskalovat chování.</li><li><strong>Chraňte svou pohodu.</strong>Můžete si dát pauzu od online interakcí a vyhledat podporu od lidí, kterým důvěřujete.</li></ul><details><summary><strong>Proč je to důležité?</strong></summary><p>Na vaší pohodě záleží a podpora je sdílenou odpovědností. Když lidé používají nástroje pro bezpečnost a pohodu, jsou lépe vybaveni k tomu, aby předcházeli škodám v širší sportovní komunitě.</p></details>",
+            "note": "HTML allowed"
+          }
+        },
+        "s2": {
+          "title": {
+            "text": "Podporujte ostatní"
+          },
+          "body": {
+            "text": "<p>Jako spoluhráč, kolega, fanoušek, přítel nebo přihlížející:</p><ul><li><strong>Vyhněte se šíření.</strong>Zabraňte dalšímu šíření urážlivého obsahu.</li><li><strong>Soukromě se informujte.</strong>Nabídněte osobní podporu cílové osobě.</li><li><strong>Nahlaste případ vhodným způsobem.</strong>Podnikněte kroky zavedenými kanály, obvykle bez veřejné konfrontace.</li><li><strong>Ozvěte se bezpečně.</strong>Vyjádřete znepokojení nad urážlivým chováním nebo vyhledejte pomoc od někoho, kdo může zasáhnout, včetně organizačních orgánů nebo policie, je-li to nutné.</li></ul><details><summary><strong>Proč je to důležité?</strong></summary><p>Podpora druhých posiluje sportovní komunitu. Malé činy od spoluhráčů, kolegů, přátel, fanoušků a dalších přihlížejících mohou pomoci vytvořit systém sociální podpory, kde se lidé cítí slyšet, chráněni a opečováváni a kde je méně pravděpodobné, že škodlivé chování zůstane bez povšimnutí.</p></details>",
+            "note": "HTML allowed"
+          }
+        },
+        "s3": {
+          "title": {
+            "text": "Jednejte bezpečně"
+          },
+          "body": {
+            "text": "<p>Při reakci na online zneužívání zvažte situaci, osobní bezpečnost a zda je potřeba další podpora:</p><ul><li><strong>Zhodnoťte situaci.</strong>Zvažte povahu chování, zda se stupňuje a zda může být někdo v ohrožení.</li><li><strong>Vyhýbejte se nebezpečné interakci.</strong>Nekonfrontujte se ani se neangažujte přímo, pokud by to mohlo zvýšit újmu nebo někoho ohrozit.</li><li><strong>Vědět, kdy vyhledat podporu.</strong>Pokud situace vyžaduje další pomoc, zapojte důvěryhodnou osobu nebo příslušný kontakt v organizaci.</li><li><strong>Eskalujte obavy o bezpečnost.</strong>Hrozby, opakovaný nežádoucí kontakt, zveřejnění osobních údajů nebo jiné obavy o bezpečnost mohou vyžadovat další organizační nebo externí podporu.</li></ul><details><summary><strong>Proč je to důležité?</strong></summary><p>Bezpečné jednání pomáhá propojit individuální jednání se správnou úrovní podpory. Rozpoznání, kdy situace vyžaduje další pomoc, umožňuje zapojit se ostatním a pomáhá zajistit, aby bezpečnost zůstala prioritou.</p></details>",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "flow2": {
+      "ui": {
+        "title": {
+          "text": "Co mohou organizace udělat"
+        }
+      },
+      "steps": {
+        "s1": {
+          "title": {
+            "text": "Připravit"
+          },
+          "body": {
+            "text": "<p>Vypracovat zásady a kodexy chování, poskytovat vzdělávání a školení a stanovit jasná očekávání ohledně digitálního chování.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "s2": {
+          "title": {
+            "text": "Chránit"
+          },
+          "body": {
+            "text": "<p>Poskytněte podporu v oblasti sociálního zabezpečení a ochrany, nástroje pro bezpečnost platformy, moderování a vhodné mechanismy pro ohrožené osoby.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "s3": {
+          "title": {
+            "text": "Reagovat"
+          },
+          "body": {
+            "text": "<p>Vytvořte přístupné způsoby hlášení, uchovávejte příslušné záznamy, používejte organizační postupy a v případě potřeby koordinujte eskalaci.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "s4": {
+          "title": {
+            "text": "Připojit"
+          },
+          "body": {
+            "text": "<p>Spolupracujte s dalšími organizacemi, platformami, úřady, výzkumníky, advokačními skupinami a specializovanými službami, pokud reakce přesahuje vlastní možnosti organizace.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "s5": {
+          "title": {
+            "text": "Silnější společně"
+          },
+          "body": {
+            "text": "<p>Organizace jsou silnější, když spolupracují.</p><p>Kluby mohou poskytovat podporu v první linii, federace stanovují společné standardy, platformy umožňují reportování a moderování, mediální organizace spravují publikovaný obsah a advokační skupiny mohou přispívat specializovanou podporou a vzděláváním. Společně mohou vytvořit koordinovanou síť ochrany a reakce na online zneužívání.</p><p><strong>Platforma pro organizační připravenost (ORP) UAOA</strong>podporuje toto úsilí tím, že pomáhá sportovním organizacím posoudit jejich připravenost, identifikovat oblasti pro zlepšení a posílit jejich přístupy k prevenci a reakci na online zneužívání.</p>",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "flow3": {
+      "ui": {
+        "title": {
+          "text": "Co formuje bezpečnější digitální sport"
+        }
+      },
+      "steps": {
+        "s1": {
+          "title": {
+            "text": "Školství"
+          },
+          "body": {
+            "text": "<p>Vzdělání může lidem pomoci rozpoznat online zneužívání, pochopit jeho důsledky a vědět, jak bezpečně reagovat. Digitální a mediální gramotnost může také posílit kritické myšlení o tom, jaké chování je v online prostředí vhodné.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "s2": {
+          "title": {
+            "text": "Sdílené standardy"
+          },
+          "body": {
+            "text": "<p>Jasná očekávání pomáhají stanovit, jaké chování je ve sportovních komunitách považováno za přijatelné. Společné standardy týkající se respektu, inkluze, fair play a digitální participace mohou usměrňovat chování a poskytnout jednotlivcům i organizacím silnější základ pro boj proti zneužívání.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "s3": {
+          "title": {
+            "text": "Výzkum a důkazy"
+          },
+          "body": {
+            "text": "<p>Výzkum založený na důkazech a datech pomáhá zmapovat vzorce, kde dochází k online zneužívání, jak se škodlivé chování vyvíjí v čase a které reakce jsou účinnější. Lepší znalosti mohou ovlivnit prevenci, vzdělávání, organizační praxi, technologie a politiku.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "s4": {
+          "title": {
+            "text": "Politika a právo"
+          },
+          "body": {
+            "text": "<p>Politiky a zákony mohou stanovit hranice, odpovědnosti, ochranu a cesty k odpovědnosti. Mohou ovlivnit chování tím, že objasní důsledky a poskytnou mechanismy pro hlášení, intervenci a nápravu.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "s5": {
+          "title": {
+            "text": "Technologie a design platformy"
+          },
+          "body": {
+            "text": "<p>Design digitálních platforem může ovlivnit, jak snadno je škodlivý obsah vytvářen, objevován, šířen, hlášen nebo odstraňován. Moderování, detekce, nástroje pro hlášení a další bezpečnostní prvky mohou pomoci snížit možnosti šíření a přetrvávání zneužívání.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "s6": {
+          "title": {
+            "text": "Normy komunity"
+          },
+          "body": {
+            "text": "<p>Sociální normy ovlivňují to, co lidé vnímají jako normální, přijatelné nebo co stojí za to zpochybnit. Sportovci, fanoušci, média, organizace a veřejně známé osobnosti, ti všichni přispívají ke kultuře obklopující sport. Když komunity důsledně kritizují zneužívání a posilují respekt, mohou pomoci změnit normy, které umožňují přetrvávání online zneužívání.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "s7": {
+          "title": {
+            "text": "Spolupráce"
+          },
+          "body": {
+            "text": "<p><strong>Tyto faktory působí společně napříč sportem i v naší společnosti.</strong></p><p>Vzdělání může formovat to, jak lidé chápou online chování, zatímco sdílené standardy a zákony mohou objasnit očekávání, výzkum může identifikovat nově vznikající rizika a technologie mohou ovlivnit šíření škodlivého obsahu.</p><p>Sportovní komunity jsou pouze součástí naší společnosti: jsou ovlivňovány širšími kulturními normami a sportovci, fanoušci, média, organizace a další hlasy ve sportu mohou také pomáhat formovat svět, ve kterém společně žijeme.</p>",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "match": {
+      "ui": {
+        "eyebrow": {
+          "text": "Ověřte si své znalosti"
+        },
+        "prompt": {
+          "text": "Přiřaďte každý scénář k určité úrovni"
+        },
+        "hint": {
+          "text": "Přetáhněte každou kartu úrovně do odpovídajícího scénáře vpravo. Před odesláním umístěte všechny tři."
+        },
+        "choicesAria": {
+          "text": "Vyberte úroveň akce"
+        },
+        "trayAria": {
+          "text": "Karty úrovní"
+        },
+        "dropHint": {
+          "text": "Zde snižte úroveň"
+        },
+        "submit": {
+          "text": "Předložit"
+        },
+        "feedbackOk": {
+          "text": "<strong>Přesně tak!</strong>Každý scénář jste přiřadili k odpovídající úrovni akce.",
+          "note": "HTML allowed"
+        },
+        "feedbackBad": {
+          "text": "<strong>Ne tak docela.</strong>Zkontrolujte své volby a zkuste to znovu.",
+          "note": "HTML allowed"
+        },
+        "done": {
+          "text": "<strong>Přesně tak!</strong>Každý scénář jste přiřadili k odpovídající úrovni akce.",
+          "note": "HTML allowed"
+        }
+      },
+      "labels": {
+        "l0": {
+          "text": "Individuální"
+        },
+        "l1": {
+          "text": "Organizace"
+        },
+        "l2": {
+          "text": "Společnost"
+        }
+      },
+      "scenarios": {
+        "s1": {
+          "text": {
+            "text": "Poté, co někdo na internetu uvidí sportovce, který je terčem útoků, se soukromě přihlásí a nahlásí škodlivý obsah, aniž by jej dále sdílel."
+          },
+          "ok": {
+            "text": "<strong>Správně!</strong>Soukromé hlášení a nahlašování bez dalšího šíření informací jsou individuální akce.",
+            "note": "HTML allowed"
+          },
+          "bad": {
+            "text": "<strong>Ne tak docela.</strong>Zamyslete se nad tím, kdo tuto akci v danou chvíli provádí.<strong>Zkuste to znovu.</strong>",
+            "note": "HTML allowed"
+          }
+        },
+        "s2": {
+          "text": {
+            "text": "Po několika incidentech online zneužívání zavedla sportovní federace systém hlášení, školení zaměstnanců a ochranné postupy."
+          },
+          "ok": {
+            "text": "<strong>Správně!</strong>Způsoby hlášení, školení a ochranné postupy jsou organizačními rámci.",
+            "note": "HTML allowed"
+          },
+          "bad": {
+            "text": "<strong>Ne tak docela.</strong>Zvažte, která úroveň stanoví rámce a postupy pro sportovní orgán.<strong>Zkuste to znovu.</strong>",
+            "note": "HTML allowed"
+          }
+        },
+        "s3": {
+          "text": {
+            "text": "Výzkum ukazuje, jak se šíří nová forma online zneužívání, což pomáhá informovat o vzdělávání, technologiích a budoucích reakcích veřejné politiky."
+          },
+          "ok": {
+            "text": "<strong>Správně!</strong>Výzkum a důkazy, které informují o vzdělávání, technologiích a politice, fungují na úrovni společnosti.",
+            "note": "HTML allowed"
+          },
+          "bad": {
+            "text": "<strong>Ne tak docela.</strong>Zvažte, která úroveň formuje širší vzdělávání, technologie a politiku.<strong>Zkuste to znovu.</strong>",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "takeaways": {
+      "heading": {
+        "text": "Klíčové poznatky"
+      },
+      "items": {
+        "i1": {
+          "text": "<strong>Boj proti online zneužívání je společnou odpovědností.</strong>Jednotlivci, sportovní organizace, platformy, média, advokační skupiny, tvůrci politik a další zúčastněné strany hrají roli v prevenci a reakci na něj.",
+          "note": "HTML allowed"
+        },
+        "i2": {
+          "text": "<strong>Individuální opatření mohou snížit škody.</strong>Zvládání expozice, používání bezpečnostních nástrojů, uchovávání důkazů, podpora ostatních a znalost toho, kdy vyhledat další pomoc, mohou chránit bezpečnost a pohodu.",
+          "note": "HTML allowed"
+        },
+        "i3": {
+          "text": "<strong>Organizace poskytují strukturu a podporu. Jasné rámce, ochranná opatření, způsoby hlášení a koordinovaná akce pomáhají organizacím připravit se na online zneužívání a reagovat na něj.</strong>",
+          "note": "HTML allowed"
+        },
+        "i4": {
+          "text": "<strong>Spolupráce posiluje reakci.</strong>Kluby, federace, platformy, mediální organizace, advokační skupiny a další zúčastněné strany mohou přispět různými formami podpory, odborných znalostí a akcí.",
+          "note": "HTML allowed"
+        },
+        "i5": {
+          "text": "<strong>Sociální podmínky ovlivňují online chování.</strong>Vzdělávání, standardy, výzkum, politika, technologie a kulturní normy mohou ovlivnit to, jak je online zneužívání chápáno, umožňováno, jak mu předcházíme a jak se mu čelí.",
+          "note": "HTML allowed"
+        },
+        "i6": {
+          "text": "<strong>Sport je součástí širšího společenského kontextu.</strong>Sportovní komunity jsou ovlivněny širšími kulturními normami a mohou také přispívat k utváření očekávání a chování v celé společnosti.",
+          "note": "HTML allowed"
+        }
+      }
+    },
+    "slide": {
+      "title": {
+        "text": "Modul 5: Akce: Budování bezpečnějších digitálních sportovních komunit",
+        "note": "Module / summary slide title"
+      },
+      "continueLayer2": {
+        "text": "Pokračovat k vrstvě 2",
+        "note": "Nav button label"
+      },
+      "continueLayer3": {
+        "text": "Pokračovat na vrstvu 3",
+        "note": "Nav button label"
+      },
+      "goToFinalQuiz": {
+        "text": "Přejít na závěrečný kvíz",
+        "note": "Nav button label"
+      }
+    }
+  },
+  "summary": {
+    "quiz": {
+      "questions": {
+        "q1": {
+          "prompt": {
+            "text": "V „Barometru UAOA z roku 2025“ se kolik sportovních federací obávalo, že online zneužívání by mohlo talentované sportovce vyhnat ze sportu?<strong></strong>",
+            "note": "HTML allowed — do not bold option list items"
+          },
+          "choices": {
+            "c0": {
+              "text": "Méně než 50 %"
+            },
+            "c1": {
+              "text": "Asi 72 %"
+            },
+            "c2": {
+              "text": "Asi 90 %"
+            }
+          },
+          "reveal": {
+            "text": "<strong>Přibližně 90 %</strong><br>Barometr UAOA ukazuje, že zhruba devět z deseti dotázaných sportovních federací vyjádřilo obavy, že online zneužívání by mohlo talentované sportovce vyhnat ze sportu. Online zneužívání může v konečném důsledku ovlivnit, zda se lidé budou i nadále účastnit sportovních komunit.",
+            "note": "HTML allowed"
+          },
+          "next": {
+            "text": "To se zdá hodně"
+          }
+        },
+        "q2": {
+          "prompt": {
+            "text": "S čím je podle výzkumu spojeno větší vystavení sportovcům online obtěžování?"
+          },
+          "choices": {
+            "c0": {
+              "text": "Psychická tíseň"
+            },
+            "c1": {
+              "text": "Méně přátel"
+            },
+            "c2": {
+              "text": "Více hodin školení"
+            }
+          },
+          "reveal": {
+            "text": "Větší vystavení online obtěžování bylo spojeno s<strong>vyšší úrovní psychické tísně ¦, což zdůrazňuje, jak může nepřátelský online obsah ovlivnit psychickou pohodu.</strong>",
+            "note": "HTML allowed"
+          },
+          "next": {
+            "text": "To se týká"
+          }
+        },
+        "q3": {
+          "prompt": {
+            "text": "Když se online objeví škodlivý komentář o sportovci, jaké funkce mohou ovlivnit, jak daleko se dostane?"
+          },
+          "choices": {
+            "c0": {
+              "text": "Návrh platformy a doporučovací systémy"
+            },
+            "c1": {
+              "text": "Interakce uživatelů a mechanismy hlášení"
+            },
+            "c2": {
+              "text": "Obě"
+            }
+          },
+          "reveal": {
+            "text": "<strong>Obojí.</strong>Design platformy, systémy doporučení, interakce s uživateli a mechanismy hlášení mohou ovlivnit, jak se škodlivý obsah šíří a oslovuje nové publikum.",
+            "note": "HTML allowed"
+          },
+          "next": {
+            "text": "To dává smysl"
+          }
+        },
+        "q4": {
+          "prompt": {
+            "text": "<span class=\"scenario\">Pokud hráč po prohře obdrží ponižující komentáře. Podobné zprávy zaplavují jeho účet po celé dny a útočí také na jeho rasu.</span>Co se děje?",
+            "note": "HTML allowed"
+          },
+          "choices": {
+            "c0": {
+              "text": "Pouze urážlivé projevy"
+            },
+            "c1": {
+              "text": "Pouze digitální nepřátelství a nenávistné projevy"
+            },
+            "c2": {
+              "text": "Několik forem online zneužívání se překrývá"
+            }
+          },
+          "reveal": {
+            "text": "<strong>Několik forem se může překrývat.</strong><br>Ponižující jazyk je urážlivý projev, opakovaná veřejná agrese vytváří digitální nepřátelství a rasistické cílení může představovat nenávistné projevy.",
+            "note": "HTML allowed"
+          },
+          "next": {
+            "text": "Pojďme jednat!"
+          }
+        },
+        "q5": {
+          "prompt": {
+            "text": "Jaké je nejlepší doporučení pro zajištění bezpečnosti, když se někdo setká s online zneužíváním?"
+          },
+          "choices": {
+            "c0": {
+              "text": "Reagujte přímo, abyste chování zastavili"
+            },
+            "c1": {
+              "text": "Zhodnoťte situaci, vyhněte se nebezpečnému střetu a řádně nahlaste situaci"
+            },
+            "c2": {
+              "text": "Smazat obsah a opusťte platformu"
+            }
+          },
+          "reveal": {
+            "text": "<strong>Jednejte bezpečně a používejte správné kanály pro hlášení.</strong><br>Posuďte, zda se chování stupňuje nebo zda může být někdo ohrožen, vyhněte se nebezpečné interakci, uchovejte relevantní důkazy a nahlaste incident prostřednictvím vhodné platformy nebo organizačních kanálů. V případě potřeby vyhledejte další podporu.",
+            "note": "HTML allowed"
+          },
+          "next": {
+            "text": "Pokračuj"
+          }
+        },
+        "q6": {
+          "prompt": {
+            "text": "Mohou stávající zákony pomoci chránit lidi před online zneužíváním, včetně zneužívání zahrnujícího obsah generovaný umělou inteligencí?"
+          },
+          "choices": {
+            "c0": {
+              "text": "Ano, ale ochrana se v jednotlivých zemích liší."
+            },
+            "c1": {
+              "text": "Pouze tehdy, když se jedná o fyzické výhrůžky."
+            },
+            "c2": {
+              "text": "Pouze když je obsah sdílen veřejně."
+            }
+          },
+          "reveal": {
+            "text": "<strong>Zákony mohou pomoci chránit lidi před online zneužíváním.</strong><br>Právní ochrana a povinnosti se však v jednotlivých zemích liší. Některé jurisdikce zavedly specifická opatření týkající se intimních snímků generovaných umělou inteligencí a dalších forem digitálního zneužívání.",
+            "note": "HTML allowed"
+          },
+          "next": {
+            "text": "Zákony jsou jen částí řešení. Co jiného můžeme dělat?"
+          }
+        },
+        "q7": {
+          "prompt": {
+            "text": "<span class=\"scenario\">Spoluhráč dostává urážlivé zprávy a zdá se být čím dál více znepokojený.</span>Jaká je nejsilnější reakce podpůrného systému?",
+            "note": "HTML allowed"
+          },
+          "choices": {
+            "c0": {
+              "text": "Sdílejte zprávy veřejně, aby je ostatní mohli obhájit"
+            },
+            "c1": {
+              "text": "Soukromě se zaregistrujte a pomozte jim získat přístup k odpovídající podpoře"
+            },
+            "c2": {
+              "text": "Omezte interakci se spoluhráčem"
+            }
+          },
+          "reveal": {
+            "text": "<strong>Podpora začíná u vás!</strong><br>Kontaktujte nás v soukromí, vyhněte se šíření zneužívání, používejte vhodné kanály pro hlášení a ozvěte se, kdykoli je to bezpečné.",
+            "note": "HTML allowed"
+          },
+          "next": {
+            "text": "Na bezpečnosti každého záleží!"
+          }
+        },
+        "q8": {
+          "prompt": {
+            "text": "Pozitivní jednání začíná u každého z nás. Co můžeme udělat?"
+          },
+          "choices": {
+            "c0": {
+              "text": "Chraňte se, podpořte ostatní, jednejte bezpečně"
+            },
+            "c1": {
+              "text": "Sledování obsahu, Konfrontace s násilníkem, Mazání důkazů"
+            },
+            "c2": {
+              "text": "Nahlaste vše, reagujte veřejně, zůstaňte online"
+            }
+          },
+          "reveal": {
+            "text": "<strong>Chraňte se. Podpořte ostatní. Jednejte bezpečně.</strong><br>Můžeme řídit naši expozici na sociálních sítích, používat bezpečnostní nástroje, uchovávat důkazy, podporovat ostatní, kteří jsou cílem útoku, a rozpoznat, kdy situace vyžaduje další pomoc.",
+            "note": "HTML allowed"
+          },
+          "next": {
+            "text": "Samozřejmě, že můžeme!"
+          }
+        },
+        "q9": {
+          "prompt": {
+            "text": "<strong>I organizace hrají svou roli.</strong>Několik lidí ve sportovní organizaci nahlásilo online zneužívání.<br>Co by vyvolalo nejsilnější organizační reakci?",
+            "note": "HTML allowed"
+          },
+          "choices": {
+            "c0": {
+              "text": "Zaměřte se především na reakci na jednotlivé incidenty"
+            },
+            "c1": {
+              "text": "Budovat rámce, posilovat ochranná opatření a koordinovat opatření"
+            },
+            "c2": {
+              "text": "Očekávejte, že platformy problém zvládnou"
+            }
+          },
+          "reveal": {
+            "text": "Efektivní organizační reakce propojují přípravu, ochranu, reakci a spolupráci.",
+            "note": "HTML allowed"
+          },
+          "next": {
+            "text": "Řekni mi víc!"
+          }
+        },
+        "q10": {
+          "prompt": {
+            "text": "<span class=\"scenario\">Online zneužívání je také formováno okolnostmi, které přesahují rámec jedné osoby nebo organizace.</span>Které mohou ovlivnit, zda je škodlivé chování normalizováno, zpochybňováno nebo mu předchází?",
+            "note": "HTML allowed"
+          },
+          "choices": {
+            "c0": {
+              "text": "Vzdělání a komunitní normy"
+            },
+            "c1": {
+              "text": "Výzkum a politiky"
+            },
+            "c2": {
+              "text": "Technologická a umělá inteligence"
+            },
+            "c3": {
+              "text": "Všechny tyto"
+            }
+          },
+          "reveal": {
+            "text": "<strong>Toto vše.</strong>Vzdělávání, sdílené standardy, výzkum a důkazy, politika a právo, technologická řešení a design platforem a komunitní normy – to vše může formovat online chování.<br><br>Sport je ovlivněn těmito širšími společenskými podmínkami a sportovní komunity mohou také pomáhat formovat svět, ve kterém společně žijeme.",
+            "note": "HTML allowed"
+          },
+          "next": {
+            "text": "Společně silnější!"
+          }
+        },
+        "q11": {
+          "prompt": {
+            "text": "Chtěli byste s UAOA podniknout další kroky?"
+          },
+          "choices": {
+            "c0": {
+              "text": "Chci jednat"
+            },
+            "c1": {
+              "text": "Chci se dál učit"
+            },
+            "c2": {
+              "text": "Chci posílit svou organizaci"
+            },
+            "c3": {
+              "text": "Ne teď"
+            }
+          },
+          "reveal": {
+            "text": "<strong>Existují různé způsoby, jak jednat.</strong>UAOA sdružuje lidi a organizace napříč sportem, aby posílila způsob, jakým se připravují na online zneužívání, jak mu předcházejí a jak na něj reagují.",
+            "note": "HTML allowed — ungraded item"
+          },
+          "next": {
+            "text": "Podívejte se na svou připravenost!"
+          },
+          "links": {
+            "act": {
+              "text": "Prozkoumejte iniciativy UAOA a program Stronger Together (Společně silnější)"
+            },
+            "learn": {
+              "text": "Výzkum, důkazy a vzdělávací zdroje UAOA"
+            },
+            "org": {
+              "text": "Organizační zdroje UAOA"
+            }
+          }
+        }
+      },
+      "ui": {
+        "chooseOne": {
+          "text": "Vyberte jednu odpověď",
+          "note": "Hint under the question on the open final-quiz layout"
+        },
+        "ok": {
+          "text": "OK",
+          "note": "Confirm selection before reveal"
+        },
+        "pressEnter": {
+          "text": "stiskněte Enter ↵",
+          "note": "Keyboard hint beside OK"
+        },
+        "questionOf": {
+          "text": "Otázka {n} z {celkem}",
+          "note": "Footer progress; {n} and {total} are replaced in JS"
+        },
+        "choicesAria": {
+          "text": "Možnosti odpovědí",
+          "note": "aria-label on options group"
+        },
+        "prevAria": {
+          "text": "Předchozí otázka",
+          "note": "aria-label on prev chevron"
+        },
+        "nextAria": {
+          "text": "Další otázka",
+          "note": "aria-label on next chevron when advancing"
+        }
+      },
+      "score": {
+        "youScored": {
+          "text": "Skóroval jsi",
+          "note": "Flip-card modal front label above large %"
+        },
+        "clickToComplete": {
+          "text": "Kliknutím dokončíte",
+          "note": "Flip-card modal front CTA"
+        },
+        "headline": {
+          "text": "Získali jste {pct} %!",
+          "note": "Legacy / optional; modal uses youScored + large %"
+        },
+        "body": {
+          "text": "Naučili jste se, jak rozpoznat online zneužívání, pochopit jeho dopad a bezpečněji na něj reagovat v individuálním, organizačním i širším sportovním kontextu."
+        },
+        "note": {
+          "text": "Vaše skóre odráží vaše pochopení klíčových konceptů probíraných v tomto kurzu."
+        },
+        "finish": {
+          "text": "Blízko",
+          "note": "Closes readiness flip modal on the back face"
+        }
+      }
+    },
+    "furtherAction": {
+      "questions": {
+        "q1": {
+          "prompt": {
+            "text": "Chtěli byste s UAOA podniknout další kroky?"
+          },
+          "choices": {
+            "c0": {
+              "text": "Chci jednat"
+            },
+            "c1": {
+              "text": "Chci se dál učit"
+            },
+            "c2": {
+              "text": "Chci posílit svou organizaci"
+            },
+            "c3": {
+              "text": "Ne teď"
+            }
+          },
+          "ok": {
+            "text": "<strong>Existují různé způsoby, jak jednat.</strong>UAOA sdružuje lidi a organizace napříč sportem, aby posílila způsob, jakým se připravují na online zneužívání, jak mu předcházejí a jak na něj reagují.",
+            "note": "HTML allowed — legacy further-action widget; Q11 lives in summary.quiz"
+          }
+        }
+      }
+    },
+    "slide": {
+      "title": {
+        "text": "Shrnutí: Klíčové poznatky",
+        "note": "Module / summary slide title"
+      },
+      "finishCourse": {
+        "text": "Dokončit kurz",
+        "note": "Nav button label"
+      },
+      "postSurvey": {
+        "text": "Vyplňte dotazník po kurzu",
+        "note": "Nav button label"
+      },
+      "getCertificate": {
+        "text": "Získejte svůj certifikát",
+        "note": "Nav button label"
+      }
+    }
+  },
+  "embeds": {
+    "sensitiveNotice": {
+      "title": {
+        "text": "Oznámení o citlivém tématu"
+      },
+      "body": {
+        "text": "Tento kurz se zabývá tématy, která mohou být pro některé čtenáře obtížná nebo znepokojivá. Doporučujeme vám procházet látku tempem, které považujete za vhodné, a v případě potřeby vyhledat podporu. Nezapomeňte, že kurz můžete kdykoli opustit a vrátit se, až se budete cítit připraveni."
+      },
+      "viewSupport": {
+        "text": "Zobrazit možnosti podpory"
+      },
+      "supportTitle": {
+        "text": "Možnosti podpory"
+      },
+      "supportIntro": {
+        "text": "Pokud vás cokoli v tomto kurzu ovlivnilo, můžete si ho pozastavit a vrátit se, až budete připraveni."
+      },
+      "someoneTrusted": {
+        "text": "Někdo, komu důvěřuješ"
+      },
+      "someoneTrustedDetail": {
+        "text": "Přítel, člen rodiny, spoluhráč nebo trenér."
+      },
+      "orgLead": {
+        "text": "Vedení vaší organizace v oblasti blahobytu nebo ochrany"
+      },
+      "closeAria": {
+        "text": "Blízko"
+      }
+    },
+    "miniDictionary": {
+      "teaser": {
+        "text": "Chcete se dozvědět o dalších formách online zneužívání?"
+      },
+      "bodyBefore": {
+        "text": "Online zneužívání může mít mnoho podob nad rámec tří zde uvedených chování. Prozkoumejte"
+      },
+      "linkLabel": {
+        "text": "Mini slovník"
+      },
+      "bodyAfter": {
+        "text": "pro rychlý přehled dalších taktik, se kterými se můžete setkat online."
+      },
+      "discretionLabel": {
+        "text": "Uvážení čtenáře:"
+      },
+      "discretion": {
+        "text": "Některé záznamy popisují škodlivé nebo zneužívající chování, které může být citlivé nebo znepokojivé. Prozkoumejte tento zdroj dle vlastního uvážení a vraťte se ke kurzu, až budete připraveni."
+      },
+      "cta": {
+        "text": "Prozkoumejte Mini slovník"
+      },
+      "closeAria": {
+        "text": "Blízko"
+      },
+      "title": {
+        "text": "Mini slovník: Další možné formy online zneužívání",
+        "note": "Dictionary document title"
+      },
+      "fullText": {
+        "text": "Minislovník: Další možné formy online zneužívání\nToxický obsah\n* Účelné ztrapnění - Úmyslné způsobení hanby nebo ponížení někomu, často veřejně.\n* Kyberšikana - Opakované používání elektronické komunikace k zastrašování, vyděšení nebo zostuzení osoby.\n* Trolling - Zveřejňování provokativních nebo urážlivých zpráv za účelem vyvolání silných reakcí nebo narušení diskuse.\n* Rolný nebo urážlivý obsah - Vulgární nebo neuctivý jazyk, obrázky nebo komunikace.\n* Vyhrožování násilím - Zprávy, jejichž cílem je vyvolat strach z fyzického ublížení.\n* Podněcování - Naléhání na ostatní k násilnému nebo protiprávnímu jednání.\n* Sexuální obtěžování - Nežádoucí sexuální návrhy nebo komentáře.\n* Nežádoucí explicitní obsah - Sdílení sexuálně explicitních obrázků nebo zpráv bez souhlasu.\n* Únik obsahu\n* Sextortion - Vydírání, které vyhrožuje zveřejněním soukromého materiálu, pokud nebudou splněny požadavky.\n* Doxxing - Zveřejňování soukromých nebo identifikujících informací se zlým úmyslem.\n* Outing - Zveřejnění něčí sexuality nebo genderové identity bez svolení. * Deadnaming – Používání dřívějšího jména transgender nebo nebinární osoby bez jejího souhlasu. * Nesouhlasné zveřejnění obrázků – Sdílení soukromých nebo intimních obrázků či videí bez jejího souhlasu. * Uniklé chaty nebo profily – Odhalování soukromých konverzací nebo účtů bez autorizace. * Přetížení systému nebo účtu – Zahlcení osoby nebo platformy nadměrným obsahem nebo žádostmi o narušení služby nebo umlčení řeči. * Zoombombing – Nežádané vniknutí do videohovoru za účelem jeho narušení. * Negativní hodnocení a recenze – Koordinovaná nespravedlivá nebo zaujatá zpětná vazba s cílem poškodit reputaci. * Falešné hlášení. * Swatting – Falešné tísňové volání, jehož cílem je vyvolat ozbrojenou policejní reakci na místě pobytu. * Falešné hlášení o zneužití – Vědomé podání falešného hlášení za účelem způsobení újmy. * Falešné hlášení o zneužití – Nesprávné označení legitimního obsahu jako zneužívajícího za účelem jeho odstranění nebo cenzury. * Zosobnění. * Zosobněné profily – Falešné účty vytvořené za účelem klamání nebo podvodu. * Zosobněné chaty nebo obrázky – Vykonstruovaný nebo pozměněný obsah falešně připisovaný někomu.\n* Syntetická pornografie – Technologie Deepfake používaná k vytváření explicitního obsahu bez souhlasu.\n* Zosobněné webové stránky – Padělané weby vytvořené za účelem klamání uživatelů nebo poškození postavení konkurenta.\n* Únos komunikace – Neoprávněné převzetí účtu nebo kanálu za účelem šíření falešných zpráv.\nDohled\n* Pronásledování nebo sledování – Opakované, nežádoucí sledování pohybu nebo aktivity osoby.\n* Monitorování účtu – Neoprávněný přístup k aktivitě na účtu někoho a její sledování.\n* Monitorování zařízení – Neoprávněné sledování aktivity na telefonu, počítači nebo tabletu osoby.\n* Monitorování internetu věcí – Pasivní sběr dat z nositelných zařízení nebo chytrých zařízení bez souhlasu.\n* Monitorování prohlížeče – Sledování historie prohlížení nebo aktivity někoho bez jeho vědomí.\nUzamčení a kontrola\n* Mazání obsahu – Neoprávněné odstraňování souborů, příspěvků nebo dat za účelem potlačení informací nebo způsobení škody.\n* Únos prohlížeče nebo zařízení – Převzetí kontroly nad prohlížečem nebo připojenými zařízeními někoho bez jeho souhlasu. * Zablokování účtů – Úmyslné blokování přístupu osoby k jejím vlastním účtům nebo obsahu.",
+        "note": "Full mini-dictionary source; HTML/markdown structure — translate carefully"
+      }
+    },
+    "scroll": {
+      "continue": {
+        "text": "Pokračovat",
+        "note": "Scroll / fade continue control"
+      },
+      "continueAria": {
+        "text": "Pokračovat k dalšímu obsahu"
+      },
+      "continueRevealAria": {
+        "text": "Pokračujte v odhalování dalšího obsahu"
+      },
+      "noBlock": {
+        "text": "Na tomto snímku nebyl nalezen žádný následující blok.",
+        "note": "Dev/fallback message"
+      }
+    }
+  },
+  "player": {
+    "systemLabels": {
+      "access": {
+        "choose_nickname": {
+          "text": "Vyberte si přezdívku",
+          "note": "ScormStack player/system label `access.choose_nickname`"
+        },
+        "contact_provider": {
+          "text": "Pokud potřebujete heslo, kontaktujte poskytovatele kurzu.",
+          "note": "ScormStack player/system label `access.contact_provider`"
+        },
+        "continue": {
+          "text": "Pokračovat",
+          "note": "ScormStack player/system label `access.continue`"
+        },
+        "enter_email": {
+          "text": "Zadejte svůj e-mail",
+          "note": "ScormStack player/system label `access.enter_email`"
+        },
+        "enter_email_description": {
+          "text": "Váš e-mail používáme k vaší identifikaci",
+          "note": "ScormStack player/system label `access.enter_email_description`"
+        },
+        "enter_email_placeholder": {
+          "text": "your@email.com",
+          "note": "ScormStack player/system label `access.enter_email_placeholder`"
+        },
+        "enter_name": {
+          "text": "Zadejte své jméno",
+          "note": "ScormStack player/system label `access.enter_name`"
+        },
+        "enter_password": {
+          "text": "Zadejte heslo",
+          "note": "ScormStack player/system label `access.enter_password`"
+        },
+        "failed_to_save": {
+          "text": "Uložení se nezdařilo. Zkuste to prosím znovu.",
+          "note": "ScormStack player/system label `access.failed_to_save`"
+        },
+        "field_required": {
+          "text": "Toto pole je povinné",
+          "note": "ScormStack player/system label `access.field_required`"
+        },
+        "incorrect_password": {
+          "text": "Nesprávné heslo. Zkuste to prosím znovu.",
+          "note": "ScormStack player/system label `access.incorrect_password`"
+        },
+        "invalid_email": {
+          "text": "Zadejte prosím platnou e-mailovou adresu",
+          "note": "ScormStack player/system label `access.invalid_email`"
+        },
+        "max_length": {
+          "text": "Musí mít maximálně 100 znaků",
+          "note": "ScormStack player/system label `access.max_length`"
+        },
+        "min_length": {
+          "text": "Musí obsahovat alespoň 2 znaky",
+          "note": "ScormStack player/system label `access.min_length`"
+        },
+        "name_description": {
+          "text": "Zadejte své jméno pro vaši identifikaci",
+          "note": "ScormStack player/system label `access.name_description`"
+        },
+        "name_placeholder": {
+          "text": "např. Jan Novák",
+          "note": "ScormStack player/system label `access.name_placeholder`"
+        },
+        "nickname_description": {
+          "text": "Vyberte si přezdívku, abyste se identifikovali",
+          "note": "ScormStack player/system label `access.nickname_description`"
+        },
+        "nickname_placeholder": {
+          "text": "např. BluePhoenix42",
+          "note": "ScormStack player/system label `access.nickname_placeholder`"
+        },
+        "password_description": {
+          "text": "Tento kurz je chráněn heslem. Pro přístup k obsahu zadejte heslo.",
+          "note": "ScormStack player/system label `access.password_description`"
+        },
+        "password_not_configured": {
+          "text": "Ověření hesla není správně nakonfigurováno.",
+          "note": "ScormStack player/system label `access.password_not_configured`"
+        },
+        "password_required": {
+          "text": "Heslo je vyžadováno",
+          "note": "ScormStack player/system label `access.password_required`"
+        },
+        "progress_tracked": {
+          "text": "Váš pokrok bude sledován",
+          "note": "ScormStack player/system label `access.progress_tracked`"
+        },
+        "saved": {
+          "text": "Zachráněno!",
+          "note": "ScormStack player/system label `access.saved`"
+        },
+        "saving": {
+          "text": "Ukládání...",
+          "note": "ScormStack player/system label `access.saving`"
+        },
+        "unable_to_verify": {
+          "text": "Heslo se nepodařilo ověřit. Zkuste to prosím znovu.",
+          "note": "ScormStack player/system label `access.unable_to_verify`"
+        },
+        "verifying": {
+          "text": "Ověřování...",
+          "note": "ScormStack player/system label `access.verifying`"
+        }
+      },
+      "accordion": {
+        "collapse": {
+          "text": "Kolaps",
+          "note": "ScormStack player/system label `accordion.collapse`"
+        },
+        "expand": {
+          "text": "Rozšířit",
+          "note": "ScormStack player/system label `accordion.expand`"
+        }
+      },
+      "assessment": {
+        "assessment_not_passed": {
+          "text": "Hodnocení neprošlo",
+          "note": "ScormStack player/system label `assessment.assessment_not_passed`"
+        },
+        "assessment_passed": {
+          "text": "Hodnocení proběhlo",
+          "note": "ScormStack player/system label `assessment.assessment_passed`"
+        },
+        "assessment_results": {
+          "text": "Výsledky hodnocení",
+          "note": "ScormStack player/system label `assessment.assessment_results`"
+        },
+        "attempts": {
+          "text": "Pokusy",
+          "note": "ScormStack player/system label `assessment.attempts`"
+        },
+        "attempts_available": {
+          "text": "dostupných pokusů",
+          "note": "ScormStack player/system label `assessment.attempts_available`"
+        },
+        "attempts_per_question": {
+          "text": "Maximální počet pokusů na otázku je",
+          "note": "ScormStack player/system label `assessment.attempts_per_question`"
+        },
+        "blanks": {
+          "text": "prázdné",
+          "note": "ScormStack player/system label `assessment.blanks`"
+        },
+        "case_insensitive": {
+          "text": "Nerozlišuje velká a malá písmena",
+          "note": "ScormStack player/system label `assessment.case_insensitive`"
+        },
+        "case_sensitive": {
+          "text": "Rozlišuje velká a malá písmena",
+          "note": "ScormStack player/system label `assessment.case_sensitive`"
+        },
+        "complete_assessment": {
+          "text": "Kompletní posouzení",
+          "note": "ScormStack player/system label `assessment.complete_assessment`"
+        },
+        "continue_assessment": {
+          "text": "Pokračovat v hodnocení",
+          "note": "ScormStack player/system label `assessment.continue_assessment`"
+        },
+        "correct": {
+          "text": "Opravit",
+          "note": "ScormStack player/system label `assessment.correct`"
+        },
+        "correct_answer": {
+          "text": "Správná odpověď",
+          "note": "ScormStack player/system label `assessment.correct_answer`"
+        },
+        "edit_response": {
+          "text": "Upravit odpověď",
+          "note": "ScormStack player/system label `assessment.edit_response`"
+        },
+        "empty_description": {
+          "text": "Přidejte otázky, aby bylo toto hodnocení k dispozici.",
+          "note": "ScormStack player/system label `assessment.empty_description`"
+        },
+        "enter_response": {
+          "text": "Zde zadejte svou odpověď...",
+          "note": "ScormStack player/system label `assessment.enter_response`"
+        },
+        "explanation": {
+          "text": "Vysvětlení",
+          "note": "ScormStack player/system label `assessment.explanation`"
+        },
+        "fill_in_blank": {
+          "choose": {
+            "text": "Vybrat...",
+            "note": "ScormStack player/system label `assessment.fill_in_blank.choose`"
+          },
+          "type_here": {
+            "text": "Zde napište...",
+            "note": "ScormStack player/system label `assessment.fill_in_blank.type_here`"
+          }
+        },
+        "incorrect": {
+          "text": "Nesprávný",
+          "note": "ScormStack player/system label `assessment.incorrect`"
+        },
+        "next_question": {
+          "text": "Další otázka",
+          "note": "ScormStack player/system label `assessment.next_question`"
+        },
+        "numerical": {
+          "tolerance": {
+            "text": "Tolerance",
+            "note": "ScormStack player/system label `assessment.numerical.tolerance`"
+          },
+          "type_here": {
+            "text": "Zde napište...",
+            "note": "ScormStack player/system label `assessment.numerical.type_here`"
+          }
+        },
+        "of": {
+          "text": "z",
+          "note": "ScormStack player/system label `assessment.of`"
+        },
+        "overview": {
+          "text": "Přehled",
+          "note": "ScormStack player/system label `assessment.overview`"
+        },
+        "partially_correct": {
+          "text": "Částečně správně",
+          "note": "ScormStack player/system label `assessment.partially_correct`"
+        },
+        "points_possible": {
+          "text": "Možné body",
+          "note": "ScormStack player/system label `assessment.points_possible`"
+        },
+        "previous": {
+          "text": "Předchozí",
+          "note": "ScormStack player/system label `assessment.previous`"
+        },
+        "progress": {
+          "text": "Pokrok",
+          "note": "ScormStack player/system label `assessment.progress`"
+        },
+        "question": {
+          "text": "Otázka",
+          "note": "ScormStack player/system label `assessment.question`"
+        },
+        "questions": {
+          "text": "Otázky",
+          "note": "ScormStack player/system label `assessment.questions`"
+        },
+        "required": {
+          "text": "Požadovaný",
+          "note": "ScormStack player/system label `assessment.required`"
+        },
+        "response_saved": {
+          "text": "Odpověď uložena",
+          "note": "ScormStack player/system label `assessment.response_saved`"
+        },
+        "results": {
+          "text": "Výsledky",
+          "note": "ScormStack player/system label `assessment.results`"
+        },
+        "review_questions": {
+          "text": "Kontrolní otázky",
+          "note": "ScormStack player/system label `assessment.review_questions`"
+        },
+        "score": {
+          "text": "Skóre",
+          "note": "ScormStack player/system label `assessment.score`"
+        },
+        "start_assessment": {
+          "text": "Zahájit hodnocení",
+          "note": "ScormStack player/system label `assessment.start_assessment`"
+        },
+        "string": {
+          "type_here": {
+            "text": "Zde napište...",
+            "note": "ScormStack player/system label `assessment.string.type_here`"
+          }
+        },
+        "submit": {
+          "text": "Předložit",
+          "note": "ScormStack player/system label `assessment.submit`"
+        },
+        "submitted": {
+          "text": "Odpověď odeslána",
+          "note": "ScormStack player/system label `assessment.submitted`"
+        },
+        "success_meter": {
+          "checkpoint_reached": {
+            "text": "Dosaženo kontrolního bodu!",
+            "note": "ScormStack player/system label `assessment.success_meter.checkpoint_reached`"
+          },
+          "continue_with_extra_questions": {
+            "text": "Pokračujte s dalšími otázkami",
+            "note": "ScormStack player/system label `assessment.success_meter.continue_with_extra_questions`"
+          },
+          "extra_question": {
+            "text": "Doplňující otázka",
+            "note": "ScormStack player/system label `assessment.success_meter.extra_question`"
+          },
+          "lets_try_a_few_more_questions_to_boost_your_score": {
+            "text": "Zkusme ještě pár otázek, abychom ti zvýšili skóre!",
+            "note": "ScormStack player/system label `assessment.success_meter.lets_try_a_few_more_questions_to_boost_your_score`"
+          },
+          "maximum_attempts_reached": {
+            "text": "Dosaženo maximálního počtu pokusů",
+            "note": "ScormStack player/system label `assessment.success_meter.maximum_attempts_reached`"
+          },
+          "performance_level": {
+            "text": "Úroveň",
+            "note": "ScormStack player/system label `assessment.success_meter.performance_level`"
+          },
+          "points": {
+            "text": "Body",
+            "note": "ScormStack player/system label `assessment.success_meter.points`"
+          },
+          "to_complete_the_assessment": {
+            "text": "dokončit hodnocení",
+            "note": "ScormStack player/system label `assessment.success_meter.to_complete_the_assessment`"
+          },
+          "you_need": {
+            "text": "Potřebujete",
+            "note": "ScormStack player/system label `assessment.success_meter.you_need`"
+          }
+        },
+        "total_point_possible": {
+          "text": "Celkový možný bod je",
+          "note": "ScormStack player/system label `assessment.total_point_possible`"
+        },
+        "total_points_possible": {
+          "text": "Celkový možný počet bodů je",
+          "note": "ScormStack player/system label `assessment.total_points_possible`"
+        },
+        "try_again": {
+          "text": "Zkuste to znovu",
+          "note": "ScormStack player/system label `assessment.try_again`"
+        },
+        "ungraded_submitted": {
+          "text": "Odpověď odeslána",
+          "note": "ScormStack player/system label `assessment.ungraded_submitted`"
+        },
+        "unlimited_attempts": {
+          "text": "Na vyřešení tohoto testu máte neomezený počet pokusů.",
+          "note": "ScormStack player/system label `assessment.unlimited_attempts`"
+        },
+        "view_results": {
+          "text": "Zobrazit výsledky",
+          "note": "ScormStack player/system label `assessment.view_results`"
+        }
+      },
+      "audio": {
+        "show_transcript": {
+          "text": "Zobrazit přepis",
+          "note": "ScormStack player/system label `audio.show_transcript`"
+        }
+      },
+      "categorization": {
+        "drop_here": {
+          "text": "Sem vložte položky",
+          "note": "ScormStack player/system label `categorization.drop_here`"
+        },
+        "item": {
+          "text": "Položka",
+          "note": "ScormStack player/system label `categorization.item`"
+        }
+      },
+      "click_on_image": {
+        "click_to_place_area": {
+          "text": "Kliknutím umístíte oblast",
+          "note": "ScormStack player/system label `click_on_image.click_to_place_area`"
+        },
+        "click_to_place_area_to_remove": {
+          "text": "Kliknutím na umístěnou oblast ji odstraníte.",
+          "note": "ScormStack player/system label `click_on_image.click_to_place_area_to_remove`"
+        },
+        "click_to_place_areas": {
+          "text": "Kliknutím umístíte oblasti",
+          "note": "ScormStack player/system label `click_on_image.click_to_place_areas`"
+        },
+        "click_to_place_areas_to_remove": {
+          "text": "Kliknutím na umístěné oblasti je odstraníte.",
+          "note": "ScormStack player/system label `click_on_image.click_to_place_areas_to_remove`"
+        },
+        "click_to_place_areas_up_to_end": {
+          "text": ").",
+          "note": "ScormStack player/system label `click_on_image.click_to_place_areas_up_to_end`"
+        },
+        "click_to_place_areas_up_to_start": {
+          "text": "(až do",
+          "note": "ScormStack player/system label `click_on_image.click_to_place_areas_up_to_start`"
+        }
+      },
+      "completion": {
+        "completed_description": {
+          "text": "Úspěšně jste dokončili tento kurz. Výborně!",
+          "note": "ScormStack player/system label `completion.completed_description`"
+        },
+        "completed_title": {
+          "text": "Kurz dokončen",
+          "note": "ScormStack player/system label `completion.completed_title`"
+        },
+        "continue_reviewing": {
+          "text": "Pokračovat v recenzi",
+          "note": "ScormStack player/system label `completion.continue_reviewing`"
+        },
+        "debug_info": {
+          "text": "Informace o ladění",
+          "note": "ScormStack player/system label `completion.debug_info`"
+        },
+        "exit_course": {
+          "text": "Ukončit kurz",
+          "note": "ScormStack player/system label `completion.exit_course`"
+        },
+        "failed_description": {
+          "text": "Tento kurz jste dokončili. Možná byste si měli materiál zopakovat a zkusit ho znovu, abyste dosáhli požadovaného skóre.",
+          "note": "ScormStack player/system label `completion.failed_description`"
+        },
+        "na": {
+          "text": "Není k dispozici",
+          "note": "ScormStack player/system label `completion.na`"
+        },
+        "passed_title": {
+          "text": "Gratuluji! Uspěli jste!",
+          "note": "ScormStack player/system label `completion.passed_title`"
+        },
+        "passing": {
+          "text": "Přihrávání",
+          "note": "ScormStack player/system label `completion.passing`"
+        },
+        "score": {
+          "text": "Skóre",
+          "note": "ScormStack player/system label `completion.score`"
+        },
+        "scorm_version": {
+          "text": "Verze SCORM",
+          "note": "ScormStack player/system label `completion.scorm_version`"
+        },
+        "status": {
+          "text": "Postavení",
+          "note": "ScormStack player/system label `completion.status`"
+        },
+        "your_score": {
+          "text": "Vaše skóre",
+          "note": "ScormStack player/system label `completion.your_score`"
+        }
+      },
+      "continue": {
+        "auto_progress": {
+          "text": "Automatický postup po zpoždění",
+          "note": "ScormStack player/system label `continue.auto_progress`"
+        },
+        "button_text": {
+          "text": "Text tlačítka",
+          "note": "ScormStack player/system label `continue.button_text`"
+        },
+        "continue": {
+          "text": "Pokračovat",
+          "note": "ScormStack player/system label `continue.continue`"
+        }
+      },
+      "flashcard": {
+        "card": {
+          "text": "Kartička",
+          "note": "ScormStack player/system label `flashcard.card`"
+        },
+        "card_number": {
+          "text": "Karta",
+          "note": "ScormStack player/system label `flashcard.card_number`"
+        },
+        "click_to_flip": {
+          "text": "Kliknutím přepnete",
+          "note": "ScormStack player/system label `flashcard.click_to_flip`"
+        },
+        "click_to_flip_back": {
+          "text": "Kliknutím přepnete zpět",
+          "note": "ScormStack player/system label `flashcard.click_to_flip_back`"
+        },
+        "no_flashcards": {
+          "text": "Žádné kartičky k dispozici",
+          "note": "ScormStack player/system label `flashcard.no_flashcards`"
+        },
+        "press_to_flip": {
+          "text": "Stiskněte Enter nebo Mezerník pro převrácení",
+          "note": "ScormStack player/system label `flashcard.press_to_flip`"
+        },
+        "showing_back": {
+          "text": "Zobrazení zadní strany",
+          "note": "ScormStack player/system label `flashcard.showing_back`"
+        },
+        "showing_front": {
+          "text": "Zobrazení přední strany",
+          "note": "ScormStack player/system label `flashcard.showing_front`"
+        }
+      },
+      "flow": {
+        "begin": {
+          "text": "Začít",
+          "note": "ScormStack player/system label `flow.begin`"
+        },
+        "of": {
+          "text": "z",
+          "note": "ScormStack player/system label `flow.of`"
+        },
+        "start_again": {
+          "text": "Začít znovu",
+          "note": "ScormStack player/system label `flow.start_again`"
+        },
+        "step": {
+          "text": "Krok",
+          "note": "ScormStack player/system label `flow.step`"
+        }
+      },
+      "general": {
+        "cancel": {
+          "text": "Zrušit",
+          "note": "ScormStack player/system label `general.cancel`"
+        },
+        "close": {
+          "text": "Blízko",
+          "note": "ScormStack player/system label `general.close`"
+        },
+        "download": {
+          "text": "Stáhnout",
+          "note": "ScormStack player/system label `general.download`"
+        },
+        "error": {
+          "text": "Chyba",
+          "note": "ScormStack player/system label `general.error`"
+        },
+        "loading": {
+          "text": "Načítání...",
+          "note": "ScormStack player/system label `general.loading`"
+        },
+        "retry": {
+          "text": "Zkusit znovu",
+          "note": "ScormStack player/system label `general.retry`"
+        },
+        "save": {
+          "text": "Uložit",
+          "note": "ScormStack player/system label `general.save`"
+        }
+      },
+      "homepage": {
+        "course_home": {
+          "text": "Domov",
+          "note": "ScormStack player/system label `homepage.course_home`"
+        },
+        "start_course": {
+          "text": "Zahájit kurz",
+          "note": "ScormStack player/system label `homepage.start_course`"
+        },
+        "table_of_contents": {
+          "text": "Obsah",
+          "note": "ScormStack player/system label `homepage.table_of_contents`"
+        }
+      },
+      "interactive_image": {
+        "click_to_view": {
+          "text": "Kliknutím zobrazíte obsah",
+          "note": "ScormStack player/system label `interactive_image.click_to_view`"
+        },
+        "close_modal": {
+          "text": "Zavřít modální okno",
+          "note": "ScormStack player/system label `interactive_image.close_modal`"
+        },
+        "close_sidebar": {
+          "text": "Zavřít postranní panel",
+          "note": "ScormStack player/system label `interactive_image.close_sidebar`"
+        },
+        "close_tooltip": {
+          "text": "Zavřít popisek",
+          "note": "ScormStack player/system label `interactive_image.close_tooltip`"
+        },
+        "hotspot": {
+          "text": "Hotspot",
+          "note": "ScormStack player/system label `interactive_image.hotspot`"
+        },
+        "press_escape_close": {
+          "text": "Stisknutím klávesy Escape zavřete",
+          "note": "ScormStack player/system label `interactive_image.press_escape_close`"
+        },
+        "press_to_view": {
+          "text": "Stiskněte Enter nebo mezerník pro zobrazení podrobností",
+          "note": "ScormStack player/system label `interactive_image.press_to_view`"
+        }
+      },
+      "matching": {
+        "pairedItems": {
+          "text": "Spárované položky",
+          "note": "ScormStack player/system label `matching.pairedItems`"
+        },
+        "pairedItemsAriaLabel": {
+          "text": "Spárované položky. Stisknutím mezerníku nebo klávesy Enter zrušíte párování.",
+          "note": "ScormStack player/system label `matching.pairedItemsAriaLabel`"
+        }
+      },
+      "media": {
+        "alt_text": {
+          "text": "Popis obrázku",
+          "note": "ScormStack player/system label `media.alt_text`"
+        },
+        "caption": {
+          "text": "Titulek",
+          "note": "ScormStack player/system label `media.caption`"
+        },
+        "error": {
+          "text": "Načtení média se nezdařilo",
+          "note": "ScormStack player/system label `media.error`"
+        },
+        "loading": {
+          "text": "Načítání médií...",
+          "note": "ScormStack player/system label `media.loading`"
+        }
+      },
+      "navigation": {
+        "back": {
+          "text": "Zadní",
+          "note": "ScormStack player/system label `navigation.back`"
+        },
+        "completed": {
+          "text": "Dokončeno",
+          "note": "ScormStack player/system label `navigation.completed`"
+        },
+        "continue": {
+          "text": "Pokračovat",
+          "note": "ScormStack player/system label `navigation.continue`"
+        },
+        "current_page": {
+          "text": "Aktuální stránka",
+          "note": "ScormStack player/system label `navigation.current_page`"
+        },
+        "finish": {
+          "text": "Dokončit",
+          "note": "ScormStack player/system label `navigation.finish`"
+        },
+        "go_to_card": {
+          "text": "Přejít na kartu {card}",
+          "note": "ScormStack player/system label `navigation.go_to_card`"
+        },
+        "go_to_page": {
+          "text": "Přejít na stránku {page}",
+          "note": "ScormStack player/system label `navigation.go_to_page`"
+        },
+        "next": {
+          "text": "Další",
+          "note": "ScormStack player/system label `navigation.next`"
+        },
+        "of": {
+          "text": "z",
+          "note": "ScormStack player/system label `navigation.of`"
+        },
+        "previous": {
+          "text": "Předchozí",
+          "note": "ScormStack player/system label `navigation.previous`"
+        }
+      },
+      "reactions": {
+        "comment_help": {
+          "text": "Tento komentář je odeslán s analytickými údaji, ale není uložen v datech životopisu.",
+          "note": "ScormStack player/system label `reactions.comment_help`"
+        },
+        "comment_label": {
+          "text": "Přidat krátký komentář",
+          "note": "ScormStack player/system label `reactions.comment_label`"
+        },
+        "comment_placeholder": {
+          "text": "Sdílejte krátký komentář (max. 150 znaků)",
+          "note": "ScormStack player/system label `reactions.comment_placeholder`"
+        },
+        "comment_sent": {
+          "text": "Komentář odeslán",
+          "note": "ScormStack player/system label `reactions.comment_sent`"
+        },
+        "complete_above": {
+          "text": "Doplňte výše uvedený obsah pro reakci.",
+          "note": "ScormStack player/system label `reactions.complete_above`"
+        },
+        "learned_something": {
+          "text": "Něco jsem se naučil/a",
+          "note": "ScormStack player/system label `reactions.learned_something`"
+        },
+        "like": {
+          "text": "Líbí se mi",
+          "note": "ScormStack player/system label `reactions.like`"
+        },
+        "not_up_to_date": {
+          "text": "Tohle je zastaralé",
+          "note": "ScormStack player/system label `reactions.not_up_to_date`"
+        },
+        "prompt": {
+          "text": "Jaký máte pocit z tohoto obsahu?",
+          "note": "ScormStack player/system label `reactions.prompt`"
+        },
+        "question": {
+          "text": "Mám otázku",
+          "note": "ScormStack player/system label `reactions.question`"
+        },
+        "rating_prompt": {
+          "text": "Jak byste ohodnotili tento obsah?",
+          "note": "ScormStack player/system label `reactions.rating_prompt`"
+        },
+        "selection_locked": {
+          "text": "Vaše reakce je uložena a uzamčena.",
+          "note": "ScormStack player/system label `reactions.selection_locked`"
+        },
+        "send_comment": {
+          "text": "Odeslat komentář",
+          "note": "ScormStack player/system label `reactions.send_comment`"
+        }
+      },
+      "resume": {
+        "last_on": {
+          "text": "Byl jsi naposledy",
+          "note": "ScormStack player/system label `resume.last_on`"
+        },
+        "loading_course": {
+          "text": "Načítání kurzu...",
+          "note": "ScormStack player/system label `resume.loading_course`"
+        },
+        "of": {
+          "text": "z",
+          "note": "ScormStack player/system label `resume.of`"
+        },
+        "please_wait": {
+          "text": "Prosím, počkejte, než připravíme váš studijní zážitek.",
+          "note": "ScormStack player/system label `resume.please_wait`"
+        },
+        "progress_saved": {
+          "text": "Váš postup byl automaticky uložen",
+          "note": "ScormStack player/system label `resume.progress_saved`"
+        },
+        "resume_course": {
+          "text": "Životopis kurzu",
+          "note": "ScormStack player/system label `resume.resume_course`"
+        },
+        "slide": {
+          "text": "Skluzavka",
+          "note": "ScormStack player/system label `resume.slide`"
+        },
+        "start_over": {
+          "text": "Začít znovu",
+          "note": "ScormStack player/system label `resume.start_over`"
+        },
+        "welcome_back": {
+          "text": "Vítej zpět!",
+          "note": "ScormStack player/system label `resume.welcome_back`"
+        }
+      },
+      "separator": {
+        "section_break": {
+          "text": "Zalomení sekce",
+          "note": "ScormStack player/system label `separator.section_break`"
+        }
+      },
+      "slide_intro": {
+        "learning_objectives": {
+          "text": "Cíle učení",
+          "note": "ScormStack player/system label `slide_intro.learning_objectives`"
+        },
+        "lesson": {
+          "text": "Lekce",
+          "note": "ScormStack player/system label `slide_intro.lesson`"
+        },
+        "minute": {
+          "text": "minuta",
+          "note": "ScormStack player/system label `slide_intro.minute`"
+        },
+        "minutes": {
+          "text": "zápis",
+          "note": "ScormStack player/system label `slide_intro.minutes`"
+        },
+        "of": {
+          "text": "z",
+          "note": "ScormStack player/system label `slide_intro.of`"
+        },
+        "table_of_contents": {
+          "text": "Obsah",
+          "note": "ScormStack player/system label `slide_intro.table_of_contents`"
+        },
+        "untitled_lesson": {
+          "text": "Lekce bez názvu",
+          "note": "ScormStack player/system label `slide_intro.untitled_lesson`"
+        }
+      },
+      "sorting": {
+        "correct_order": {
+          "text": "Správné pořadí",
+          "note": "ScormStack player/system label `sorting.correct_order`"
+        },
+        "correct_position": {
+          "text": "Správná poloha",
+          "note": "ScormStack player/system label `sorting.correct_position`"
+        },
+        "drag_item": {
+          "text": "Přetáhnout položku",
+          "note": "ScormStack player/system label `sorting.drag_item`"
+        },
+        "item": {
+          "text": "Položka",
+          "note": "ScormStack player/system label `sorting.item`"
+        },
+        "move_next": {
+          "text": "Další krok",
+          "note": "ScormStack player/system label `sorting.move_next`"
+        },
+        "move_previous": {
+          "text": "Přesunout na předchozí",
+          "note": "ScormStack player/system label `sorting.move_previous`"
+        },
+        "position_for": {
+          "text": "Pozice pro",
+          "note": "ScormStack player/system label `sorting.position_for`"
+        }
+      },
+      "tabs": {
+        "more": {
+          "text": "více",
+          "note": "ScormStack player/system label `tabs.more`"
+        }
+      },
+      "time_requirements": {
+        "completed": {
+          "text": "Splněn časový požadavek",
+          "note": "ScormStack player/system label `time_requirements.completed`"
+        },
+        "done": {
+          "text": "Hotovo",
+          "note": "ScormStack player/system label `time_requirements.done`"
+        },
+        "elapsed": {
+          "text": "Uplynulo: {time}",
+          "note": "ScormStack player/system label `time_requirements.elapsed`"
+        },
+        "minute": {
+          "text": "minuta",
+          "note": "ScormStack player/system label `time_requirements.minute`"
+        },
+        "minutes": {
+          "text": "zápis",
+          "note": "ScormStack player/system label `time_requirements.minutes`"
+        },
+        "remaining": {
+          "text": "Zbývá {time}",
+          "note": "ScormStack player/system label `time_requirements.remaining`"
+        },
+        "second": {
+          "text": "druhý",
+          "note": "ScormStack player/system label `time_requirements.second`"
+        },
+        "seconds": {
+          "text": "sekundy",
+          "note": "ScormStack player/system label `time_requirements.seconds`"
+        },
+        "spend_at_least": {
+          "text": "Věnujte této sekci alespoň {time}",
+          "note": "ScormStack player/system label `time_requirements.spend_at_least`"
+        }
+      },
+      "timeline": {
+        "no_events": {
+          "text": "Žádné události na časové ose k zobrazení",
+          "note": "ScormStack player/system label `timeline.no_events`"
+        }
+      },
+      "video": {
+        "error": {
+          "text": "Chyba při načítání videa",
+          "note": "ScormStack player/system label `video.error`"
+        },
+        "loading": {
+          "text": "Načítání videa...",
+          "note": "ScormStack player/system label `video.loading`"
+        },
+        "pause": {
+          "text": "Pauza",
+          "note": "ScormStack player/system label `video.pause`"
+        },
+        "play": {
+          "text": "Hrát",
+          "note": "ScormStack player/system label `video.play`"
+        }
+      },
+      "web_simulation": {
+        "area": {
+          "text": "plocha",
+          "note": "ScormStack player/system label `web_simulation.area`"
+        },
+        "click_on_image": {
+          "text": "Klikněte na obrázek",
+          "note": "ScormStack player/system label `web_simulation.click_on_image`"
+        },
+        "failed_to_load_image": {
+          "text": "Nepodařilo se načíst obrázek",
+          "note": "ScormStack player/system label `web_simulation.failed_to_load_image`"
+        },
+        "loading": {
+          "text": "Načítání simulace...",
+          "note": "ScormStack player/system label `web_simulation.loading`"
+        },
+        "navigate_to": {
+          "text": "Přejít na",
+          "note": "ScormStack player/system label `web_simulation.navigate_to`"
+        },
+        "no_image_configured": {
+          "text": "Pro tento krok není nakonfigurován žádný obrázek",
+          "note": "ScormStack player/system label `web_simulation.no_image_configured`"
+        },
+        "of": {
+          "text": "z",
+          "note": "ScormStack player/system label `web_simulation.of`"
+        },
+        "progress": {
+          "text": "Pokrok",
+          "note": "ScormStack player/system label `web_simulation.progress`"
+        },
+        "restart": {
+          "text": "Restartovat",
+          "note": "ScormStack player/system label `web_simulation.restart`"
+        },
+        "start": {
+          "text": "Start",
+          "note": "ScormStack player/system label `web_simulation.start`"
+        },
+        "step": {
+          "text": "Krok",
+          "note": "ScormStack player/system label `web_simulation.step`"
+        }
+      }
+    }
+  }
+}

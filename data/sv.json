@@ -1,0 +1,3569 @@
+{
+  "_meta": {
+    "locale": "sv",
+    "version": 1,
+    "description": "UAOA elearning — sv overlay (imported from CSV)"
+  },
+  "common": {
+    "checkUnderstandingHeading": {
+      "text": "Kontrollera din förståelse",
+      "note": "Learning-section pill before knowledge-check widgets (Off-black #0F1524 / Sky blue #21B7CB)"
+    },
+    "learningActivityHeading": {
+      "text": "Lärandeaktivitet",
+      "note": "Learning-section pill before interactives (same shell as checkUnderstandingHeading)"
+    },
+    "next": {
+      "text": "Nästa",
+      "note": "Primary forward button on series / quiz widgets"
+    },
+    "completed": {
+      "text": "Avslutad",
+      "note": "Replaces Next after the last step on some widgets"
+    },
+    "tryAgain": {
+      "text": "Försök igen",
+      "note": "Retry full activity"
+    },
+    "activityComplete": {
+      "text": "Aktivitet slutförd",
+      "note": "Short done banner"
+    },
+    "activityCompleteRevisit": {
+      "text": "Aktiviteten är klar. Du kan återkomma till frågorna när som helst.",
+      "note": "Done banner with revisit hint (knowledge-check style)"
+    },
+    "answerChoicesAria": {
+      "text": "Svarsalternativ",
+      "note": "aria-label on radiogroup / options"
+    },
+    "notQuiteReview": {
+      "text": "<strong>Inte riktigt. Granska alternativen och försök igen.</strong>",
+      "note": "Shared incorrect feedback; HTML allowed"
+    },
+    "previous": {
+      "text": "Tidigare",
+      "note": "Back / previous step button"
+    },
+    "submitAnswers": {
+      "text": "Skicka in svar",
+      "note": "Primary submit on multi-select / sorting"
+    },
+    "submitted": {
+      "text": "Inskickad",
+      "note": "Disabled submit label after success"
+    },
+    "continue": {
+      "text": "Fortsätta",
+      "note": "End-of-activity or scroll continue"
+    },
+    "correct": {
+      "text": "<strong>Rätta!</strong>",
+      "note": "Short correct prefix; HTML allowed"
+    },
+    "notQuite": {
+      "text": "<strong>Inte riktigt. Granska alternativen och försök igen.</strong>",
+      "note": "Shared incorrect; HTML allowed"
+    },
+    "selectAllThatApply": {
+      "text": "Markera alla som gäller och skicka sedan in."
+    },
+    "nSelected": {
+      "text": "{n} vald",
+      "note": "Count label; {n} = number"
+    },
+    "nOfTotalSelected": {
+      "text": "{n} av {total} valda",
+      "note": "Count label; {n}/{total}"
+    },
+    "nOfTotalExplored": {
+      "text": "{n} av {total} utforskade",
+      "note": "Flip progress"
+    },
+    "allExplored": {
+      "text": "Alla plattformar utforskade",
+      "note": "Flip done — platforms; override per widget if needed"
+    },
+    "allStepsReviewed": {
+      "text": "Alla steg granskade."
+    },
+    "questionsCorrect": {
+      "text": "frågorna är korrekta",
+      "note": "Score footer under X/Y"
+    },
+    "chooseEllipsis": {
+      "text": "välja…",
+      "note": "Blank dropdown placeholder"
+    },
+    "true": {
+      "text": "SANN"
+    },
+    "false": {
+      "text": "FALSK"
+    },
+    "keyTakeaways": {
+      "text": "Viktiga slutsatser",
+      "note": "Native takeaways heading"
+    },
+    "wrongPlain": {
+      "text": "Inte riktigt. Granska alternativen och försök igen.",
+      "note": "uaoa_common.WRONG — plain, no HTML"
+    }
+  },
+  "m1": {
+    "apply": {
+      "ui": {
+        "choicesAria": {
+          "text": "Välj beteendet",
+          "note": "aria-label on the three behaviour choice buttons"
+        }
+      },
+      "labels": {
+        "offensiveSpeech": {
+          "text": "Stötande tal",
+          "note": "Choice button; answer index 0"
+        },
+        "digitalHostility": {
+          "text": "Digital fientlighet",
+          "note": "Choice button; answer index 1"
+        },
+        "hateSpeech": {
+          "text": "Hatpropaganda",
+          "note": "Choice button; answer index 2"
+        }
+      },
+      "scenarios": {
+        "s1": {
+          "text": {
+            "text": "Efter att ha missat en avgörande utvisning får en spelare hundratals fientliga meddelanden på flera sociala medieplattformar under flera dagar.",
+            "note": "Scenario prompt; answer = digital hostility"
+          },
+          "ok": {
+            "text": "<strong>Korrekt!</strong>Det upprepade och ihållande mönstret av fientliga interaktioner över digitala plattformar är en form av<strong>digital fientlighet</strong>.",
+            "note": "HTML allowed"
+          },
+          "bad": {
+            "text": "<strong>Inte riktigt.</strong>Titta på interaktionsmönstret och hur det utvecklas över tid.<strong>Försök igen.</strong>",
+            "note": "HTML allowed"
+          }
+        },
+        "s2": {
+          "text": {
+            "text": "En idrottare får en nedsättande kommentar som specifikt attackerar deras religion.",
+            "note": "Scenario prompt; answer = hate speech"
+          },
+          "ok": {
+            "text": "<strong>Korrekt!</strong>Kommentaren riktar sig mot idrottaren baserat på deras religion, en skyddad egenskap, vilket gör detta till ett exempel på<strong>hatpropaganda</strong>.",
+            "note": "HTML allowed"
+          },
+          "bad": {
+            "text": "<strong>Inte riktigt.</strong>Titta på interaktionsmönstret och hur det utvecklas över tid.<strong>Försök igen.</strong>",
+            "note": "HTML allowed"
+          }
+        },
+        "s3": {
+          "text": {
+            "text": "Efter ett kontroversiellt beslut får en domare en kommentar med förödmjukande och nedvärderande språk från en grupp fans som inte var nöjda med det.",
+            "note": "Scenario prompt; answer = offensive speech"
+          },
+          "ok": {
+            "text": "<strong>Korrekt!</strong>Kommentaren använder förolämpande och förnedrande språk riktat mot domaren, vilket gör detta till ett exempel på<strong>kränkande tal</strong>.",
+            "note": "HTML allowed"
+          },
+          "bad": {
+            "text": "<strong>Inte riktigt.</strong>Fokusera på språket som används och vad som gör det skadligt.<strong>Försök igen.</strong>",
+            "note": "HTML allowed"
+          }
+        },
+        "s4": {
+          "text": {
+            "text": "Efter en viktig match får en kvinnlig idrottare kränkande kommentarer från en supporter som kritiserar hennes prestation.",
+            "note": "Scenario prompt; answer = offensive speech"
+          },
+          "ok": {
+            "text": "<strong>Korrekt!</strong>Kommentarerna använder förolämpande och förnedrande språk med fokus på idrottarens prestation, vilket gör detta till ett exempel på<strong>kränkande tal ¦. Kvinnor kan uppleva en större mängd onlineövergrepp på grund av sitt kön, även när enskilda meddelanden inte uttryckligen riktar sig mot kön som en skyddad egenskap.</strong>",
+            "note": "HTML allowed"
+          },
+          "bad": {
+            "text": "<strong>Inte riktigt.</strong>Tänk på vad kommentarerna riktar sig till.<strong>Försök igen.</strong>",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "forms": {
+      "ui": {
+        "progress": {
+          "text": "{n} av {total} utforskade",
+          "note": "Flip progress counter"
+        },
+        "done": {
+          "text": "Alla former utforskade"
+        }
+      },
+      "cards": {
+        "c1": {
+          "name": {
+            "text": "Stötande tal",
+            "note": "Flip card 1 title"
+          },
+          "body": {
+            "text": "Språk som riktar sig mot någons identitet, utseende eller prestation i avsikt att förödmjuka, förolämpa eller förnedra dem."
+          },
+          "front1": {
+            "text": "OFFENSIV",
+            "note": "Front-of-card stacked label line"
+          },
+          "front2": {
+            "text": "TAL",
+            "note": "Front-of-card stacked label line"
+          }
+        },
+        "c2": {
+          "name": {
+            "text": "Digital fientlighet",
+            "note": "Flip card 2 title"
+          },
+          "body": {
+            "text": "Skadligt beteende riktat mot en person eller grupp genom upprepade eller samordnade negativa interaktioner online, såsom massanmälan eller kollektiva trakasserier."
+          },
+          "front1": {
+            "text": "DIGITAL",
+            "note": "Front-of-card stacked label line"
+          },
+          "front2": {
+            "text": "FIENTLIGHET",
+            "note": "Front-of-card stacked label line"
+          }
+        },
+        "c3": {
+          "name": {
+            "text": "Hatpropaganda",
+            "note": "Flip card 3 title"
+          },
+          "body": {
+            "text": "Fiendtligt eller illvilligt språk riktat mot någon på grund av en skyddad egenskap, inklusive ras, religion, kön, sexuell läggning eller funktionsnedsättning."
+          },
+          "front1": {
+            "text": "HAT",
+            "note": "Front-of-card stacked label line"
+          },
+          "front2": {
+            "text": "TAL",
+            "note": "Front-of-card stacked label line"
+          }
+        }
+      }
+    },
+    "formsOverlap": {
+      "line1": {
+        "text": "Mer än en form av misshandel kan vara"
+      },
+      "line2": {
+        "text": "närvarande samtidigt."
+      }
+    },
+    "protected": {
+      "race": {
+        "text": "Ras"
+      },
+      "ethnicity": {
+        "text": "Etnicitet"
+      },
+      "nationality": {
+        "text": "Nationalitet"
+      },
+      "gender": {
+        "text": "Kön"
+      },
+      "sexualOrientation": {
+        "text": "Sexuell läggning",
+        "note": "May wrap to two lines on the tile"
+      },
+      "disability": {
+        "text": "Handikapp"
+      },
+      "religion": {
+        "text": "Religion"
+      }
+    },
+    "platforms": {
+      "ui": {
+        "progress": {
+          "text": "{n} av {total} utforskade"
+        },
+        "done": {
+          "text": "Alla grupper utforskade"
+        }
+      },
+      "groups": {
+        "g1": {
+          "title": {
+            "text": "Upptäckt och sociala flöden",
+            "note": "Primary front-of-card label"
+          },
+          "platforms": {
+            "text": "[TikTok, Instagram, Facebook]",
+            "note": "Shown under title in bold brackets"
+          },
+          "body": {
+            "text": "Rekommendationsflöden och delningsfunktioner kan exponera skadligt innehåll för personer utanför den ursprungliga målgruppen. I takt med att fler användare tittar på, kommenterar eller delar innehållet kan online-övergrepp spridas snabbt och nå större målgrupper."
+          }
+        },
+        "g2": {
+          "title": {
+            "text": "Videodelning och livestreaming"
+          },
+          "platforms": {
+            "text": "[YouTube, Twitch, Kick]"
+          },
+          "body": {
+            "text": "Skadliga kommentarer på videor kan förbli synliga långt efter att de har publicerats, vilket gör att kränkningar kan fortsätta över tid. Under livesändningar kan kränkande meddelanden dyka upp och mångfaldigas snabbt när tittarna reagerar i realtid."
+          }
+        },
+        "g3": {
+          "title": {
+            "text": "Offentliga samtal"
+          },
+          "platforms": {
+            "text": "[X, Trådar]"
+          },
+          "body": {
+            "text": "Svar, återpubliceringar och omnämnanden kan sprida kränkande meddelanden i offentliga samtal. När många användare deltar kan en enda skadlig kommentar utvecklas till upprepade eller samordnade attacker mot en individ."
+          }
+        },
+        "g4": {
+          "title": {
+            "text": "Diskussionsgrupper"
+          },
+          "platforms": {
+            "text": "[Reddit, Facebook-grupper]"
+          },
+          "body": {
+            "text": "Skadliga kommentarer kan spridas inom onlinegrupper när medlemmar svarar, delar eller uppmuntrar till liknande beteenden. Gruppdiskussioner kan förstärka negativa attityder och leda till upprepade övergrepp riktade mot samma person."
+          }
+        },
+        "g5": {
+          "title": {
+            "text": "Meddelanden och gruppchattar"
+          },
+          "platforms": {
+            "text": "[Discord, WhatsApp]"
+          },
+          "body": {
+            "text": "Kränkande meddelanden kan vidarebefordras eller delas mellan individer och grupper, vilket sprider skadligt innehåll genom privata samtal. Begränsad synlighet utanför dessa utrymmen kan göra det svårt att identifiera och åtgärda pågående kränkningar."
+          }
+        }
+      }
+    },
+    "factors": {
+      "ui": {
+        "prompt": {
+          "text": "Välj de tre faktorer som direkt kan påverka hur skadligt innehåll sprids och når nya målgrupper online."
+        },
+        "hint": {
+          "text": "Välj exakt tre alternativ."
+        },
+        "hintReady": {
+          "text": "Tre utvalda – redo att skickas in."
+        },
+        "hintDone": {
+          "text": "Alla tre korrekta faktorer valda."
+        },
+        "choicesAria": {
+          "text": "Välj exakt tre faktorer"
+        },
+        "count": {
+          "text": "{n} av {total} valda"
+        },
+        "ok": {
+          "text": "<strong>Korrekt!</strong>Plattformfunktioner, rekommendationssystem och användarinteraktioner kan alla påverka hur innehåll distribueras, förstärks och exponeras för nya målgrupper.",
+          "note": "HTML allowed"
+        },
+        "bad": {
+          "text": "<strong>Inte riktigt. Granska alternativen och försök igen.</strong>",
+          "note": "HTML allowed"
+        }
+      },
+      "labels": {
+        "a": {
+          "text": "Plattformsdesign och funktioner",
+          "note": "Correct"
+        },
+        "b": {
+          "text": "Åldern på den person som är föremål för målgruppen"
+        },
+        "c": {
+          "text": "Rekommendations- och distributionssystem",
+          "note": "Correct"
+        },
+        "d": {
+          "text": "Den utvalda personens idrottsliga roll"
+        },
+        "e": {
+          "text": "Användarinteraktioner som att kommentera, dela och återpublicera",
+          "note": "Correct"
+        },
+        "f": {
+          "text": "Huruvida det ursprungliga innehållet anses stötande"
+        }
+      }
+    },
+    "check": {
+      "ui": {
+        "instructionComplete": {
+          "text": "Komplettera meningen."
+        },
+        "instructionBlanks": {
+          "text": "Välj ett ord för varje tomrum. Varje ord används en gång."
+        },
+        "instructionMulti": {
+          "text": "Markera alla som gäller."
+        },
+        "instructionPair": {
+          "text": "Välj det ordpar som kompletterar meningen."
+        },
+        "blankAria": {
+          "text": "Tomt",
+          "note": "aria-label; {n} = 1-based index"
+        },
+        "questionsCorrect": {
+          "text": "frågorna är korrekta"
+        },
+        "scorePerfect": {
+          "text": "Perfekt – du svarade rätt på alla frågor.",
+          "note": "Score message; may vary — check widget"
+        },
+        "scorePartial": {
+          "text": "Bra jobbat – granska eventuella missade artiklar nedan.",
+          "note": "Fallback score message"
+        },
+        "scoreLow": {
+          "text": "Fortsätt – försök igen att stärka din förståelse."
+        }
+      },
+      "questions": {
+        "q1": {
+          "label": {
+            "text": "1. Komplettera meningen: Vad definierar övergrepp online?"
+          },
+          "prompt": {
+            "text": "Onlineövergrepp innebär skadligt beteende riktat mot en person eller grupp genom __________."
+          },
+          "choices": {
+            "a": {
+              "text": "konkurrensutsatta miljöer"
+            },
+            "b": {
+              "text": "digitala plattformar",
+              "note": "Correct"
+            },
+            "c": {
+              "text": "offentliga utrymmen"
+            },
+            "d": {
+              "text": "sportevenemang"
+            }
+          }
+        },
+        "q2": {
+          "label": {
+            "text": "2. Fyll i påståendet: Vad hjälper dig att förstå sammanhanget som definierar onlineövergrepp"
+          },
+          "sentenceBefore": {
+            "text": "När du identifierar övergrepp online, överväg"
+          },
+          "sentenceMid1": {
+            "text": "används, om beteendet har en tydlig"
+          },
+          "sentenceMid2": {
+            "text": "och den"
+          },
+          "sentenceAfter": {
+            "text": "av upprepade interaktioner."
+          },
+          "choices": {
+            "language": {
+              "text": "språk",
+              "note": "Correct blank 1"
+            },
+            "target": {
+              "text": "mål",
+              "note": "Correct blank 2 — clear target"
+            },
+            "pattern": {
+              "text": "mönster",
+              "note": "Correct blank 3 — pattern of repeated interactions"
+            }
+          }
+        },
+        "q3": {
+          "label": {
+            "text": "3. Vilken är en skyddad egenskap?"
+          },
+          "choices": {
+            "religion": {
+              "text": "Religion",
+              "note": "Correct"
+            },
+            "performance": {
+              "text": "Atletisk prestation"
+            },
+            "disability": {
+              "text": "Handikapp",
+              "note": "Correct"
+            },
+            "position": {
+              "text": "Lagposition"
+            },
+            "ethnicity": {
+              "text": "Etnicitet",
+              "note": "Correct"
+            }
+          }
+        },
+        "q4": {
+          "label": {
+            "text": "4. Fyll i luckorna: Hur kan övergrepp online utvecklas?"
+          },
+          "prompt": {
+            "text": "Olika former av onlineövergrepp kan ___________, och en enda skadlig interaktion kan ___________ när andra kommenterar, delar, återpublicerar eller förstärker den."
+          },
+          "choices": {
+            "a": {
+              "text": "överlappning · eskalera",
+              "note": "Correct"
+            },
+            "b": {
+              "text": "förbli separat · försvinna"
+            },
+            "c": {
+              "text": "alternativ · bli privat"
+            },
+            "d": {
+              "text": "interagera · bli ofarlig"
+            }
+          }
+        }
+      }
+    },
+    "matteo": {
+      "ui": {
+        "navAria": {
+          "text": "Kortnavigering"
+        },
+        "prevAria": {
+          "text": "Föregående kort"
+        },
+        "nextAria": {
+          "text": "Nästa kort"
+        }
+      },
+      "cards": {
+        "c1": {
+          "title": {
+            "text": "1 - Tryck"
+          },
+          "alt": {
+            "text": "Matteo förbereder sig under press",
+            "note": "Image alt text"
+          },
+          "html": {
+            "text": "<p><strong>Matteo är en högpresterande volleybollidrottare på college med ambitioner att komma med i landslaget.</strong></p><p>Mellan krävande kurser och intensiv träning har han varit under avsevärd press och kämpat för att hålla fokus.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "c2": {
+          "title": {
+            "text": "2 - Matchen"
+          },
+          "alt": {
+            "text": "Matteo under matchen",
+            "note": "Image alt text"
+          },
+          "html": {
+            "text": "<p>Under en viktig match servar Matteo i nätet på matchboll, vilket kostar hans lag matchen. Publiken reagerar starkt, och några åskådare börjar skrika hård kritik om hans prestation från läktarna. Reaktionen fortsätter när Matteo lämnar planen.</p><p><strong>Är detta kränkningar online? Nej.</strong></p><p>Kritiken kan vara aggressiv och skadlig, men detta händer fortfarande<strong>offline ¦. Reaktioner som börjar vid ett sportevenemang/på planen kan dock snabbt förflytta sig till digitala utrymmen, där de kan nå en mycket bredare publik.</strong></p>",
+            "note": "HTML allowed"
+          }
+        },
+        "c3": {
+          "title": {
+            "text": "3 - Det flyttar online"
+          },
+          "alt": {
+            "text": "Kritiken sprider sig till sociala medier",
+            "note": "Image alt text"
+          },
+          "html": {
+            "text": "<p>Efter matchen sprids kritiken online. En supporter publicerar en video på Matteos missade serve, taggar Matteos konto på sociala medier och lägger till förolämpande och förödmjukande kommentarer som är avsedda att förlöjliga honom.</p><p><strong>Situationen har utvecklats till online-kränkningar.</strong></p><p>Supporteren använder förolämpande och förödmjukande innehåll riktat mot Matteo via en digital plattform. Detta är<strong>kränkande tal.</strong></p>",
+            "note": "HTML allowed"
+          }
+        },
+        "c4": {
+          "title": {
+            "text": "4 - Situationen eskalerar"
+          },
+          "alt": {
+            "text": "Fientliga kommentarer sprids på nätet",
+            "note": "Image alt text"
+          },
+          "html": {
+            "text": "<p>Nästa dag hade många användare anslutit sig. Fientliga kommentarer dyker upp på Matteos sociala mediekonton, och videon på hans missade serve delas upprepade gånger tillsammans med förolämpande inlägg.</p><p><strong>Situationen har eskalerat till digital fientlighet.</strong></p><p>Det som började med en användare har utvecklats till ett<strong>upprepat och kollektivt mönster av fientliga onlineinteraktioner.</strong></p>",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "takeaways": {
+      "heading": {
+        "text": "Viktiga slutsatser"
+      },
+      "items": {
+        "i1": {
+          "text": "<strong>Onlineövergrepp tar sig olika uttryck.</strong>Kränkande språk, hatpropaganda och digital fientlighet hjälper oss att känna igen olika sätt som skadligt beteende kan uppstå och utvecklas online.",
+          "note": "HTML allowed"
+        },
+        "i2": {
+          "text": "<strong>Kontexten spelar roll.</strong>Tänk på språket som används, vem eller vad som riktas mot och interaktionsmönstret när du identifierar övergrepp online.",
+          "note": "HTML allowed"
+        },
+        "i3": {
+          "text": "<strong>Olika former av övergrepp kan överlappa varandra.</strong>En enda interaktion kan innefatta mer än ett beteende, och dess egenskaper kan förändras allt eftersom situationen utvecklas.",
+          "note": "HTML allowed"
+        },
+        "i4": {
+          "text": "<strong>Onlineövergrepp kan eskalera.</strong>Ett enda skadligt inlägg kan utvecklas till upprepad eller kollektiv fientlighet när andra kommenterar, delar, återpublicerar eller förstärker innehållet.",
+          "note": "HTML allowed"
+        },
+        "i5": {
+          "text": "<strong>Vissa människor löper oproportionerligt hög risk.</strong>Identitet, synlighet, roll och andra kontextuella faktorer kan påverka vem som är måltavla och arten eller intensiteten av de övergrepp de utsätts för.",
+          "note": "HTML allowed"
+        },
+        "i6": {
+          "text": "<strong>Erkännande är det första steget mot handling.</strong>Att förstå hur övergrepp online ser ut hjälper människor att identifiera skadliga situationer och reagera mer effektivt.",
+          "note": "HTML allowed"
+        }
+      }
+    },
+    "slide": {
+      "title": {
+        "text": "Modul 1: Att identifiera övergrepp online",
+        "note": "Module / summary slide title"
+      }
+    }
+  },
+  "m2": {
+    "check": {
+      "questions": {
+        "q1": {
+          "prompt": {
+            "text": "Vilka kan drabbas av nätövergrepp inom sport?",
+            "note": "MCQ stem"
+          },
+          "choices": {
+            "c0": {
+              "text": "Endast främst professionella idrottare och tävlingsfunktionärer."
+            },
+            "c1": {
+              "text": "Vem som helst med ett offentligt konto på sociala medier."
+            },
+            "c2": {
+              "text": "Idrottare, funktionärer, journalister, organisationer och deras representanter, familjer, fans och andra inom idrottsgemenskaper.",
+              "note": "Correct answer"
+            },
+            "c3": {
+              "text": "Främst personer vars arbete innebär att kommunicera direkt med fans."
+            }
+          },
+          "ok": {
+            "text": "<strong>Korrekt!</strong>Onlineövergrepp kan drabba människor i hela sportens ekosystem, inklusive de som är direkt utsatta och andra som bevittnar eller upplever dess bredare konsekvenser.",
+            "note": "HTML allowed"
+          }
+        },
+        "q2": {
+          "prompt": {
+            "text": "Vilket påstående beskriver bäst den potentiella effekten av online-övergrepp inom sport?"
+          },
+          "choices": {
+            "c0": {
+              "text": "Dess effekter är huvudsakligen begränsade till hur människor känner eller reagerar omedelbart efter att ha mottagit kränkande innehåll."
+            },
+            "c1": {
+              "text": "Det kan ha långsiktiga effekter på välbefinnande, professionell aktivitet, relationer, deltagande och det bredare idrottssamhället.",
+              "note": "Correct answer"
+            },
+            "c2": {
+              "text": "Det är något som bara berör elitidrottarna eftersom de har störst offentlig synlighet."
+            },
+            "c3": {
+              "text": "Dess inverkan beror främst på hur ofta någon använder sociala medier."
+            }
+          },
+          "ok": {
+            "text": "<strong>Korrekt!</strong>Onlineövergrepp kan påverka flera områden i en persons liv och arbete. Inom idrott kan det drabba idrottare mest, oavsett deras nivå, men konsekvenserna kan också drabba familjer, kollegor, lag, fans och idrottsgemenskaper.",
+            "note": "HTML allowed"
+          }
+        },
+        "q3": {
+          "prompt": {
+            "text": "En idrottare som har upplevt upprepade övergrepp online börjar sova dåligt, har svårt att koncentrera sig under träning och publicerar mer sällan online. Vad illustrerar detta exempel?"
+          },
+          "choices": {
+            "c0": {
+              "text": "Olika effekter av onlineövergrepp kan överlappa varandra och påverka flera områden i en persons liv.",
+              "note": "Correct answer"
+            },
+            "c1": {
+              "text": "Minskad aktivitet på sociala medier är oftast den primära effekten av övergrepp online."
+            },
+            "c2": {
+              "text": "Prestationseffekter uppstår efter att en coach rekommenderar att man använder mindre sociala medier."
+            },
+            "c3": {
+              "text": "Effekterna av online-övergrepp beror främst på hur ofta en person använder sociala medier."
+            }
+          },
+          "ok": {
+            "text": "<strong>Korrekt!</strong>Effekter kan vara sammankopplade. Känslomässig stress, sömn, självförtroende, trygghet, prestation och deltagande kan påverka varandra och kan utvecklas över tid.",
+            "note": "HTML allowed"
+          }
+        },
+        "q4": {
+          "prompt": {
+            "text": "Vad antyder bevisen som presenteras i den här modulen om hur människor reagerar på övergrepp online?"
+          },
+          "choices": {
+            "c0": {
+              "text": "Människor upplever generellt liknande effekter när de exponeras för liknande innehåll."
+            },
+            "c1": {
+              "text": "Stark motståndskraft förhindrar att nätövergrepp påverkar välbefinnandet."
+            },
+            "c2": {
+              "text": "Effekterna kan variera mellan människor, och personliga och kontextuella faktorer kan forma hur någon reagerar.",
+              "note": "Correct answer"
+            },
+            "c3": {
+              "text": "Människor som fortsätter att idrotta har sannolikt inte påverkats nämnvärt."
+            }
+          },
+          "ok": {
+            "text": "<strong>Korrekt!</strong>Effekten av onlineövergrepp varierar. Forskning som diskuteras i modulen visar att faktorer som motståndskraft och självkänsla kan kopplas till hur människor reagerar, men att fortsätta delta betyder inte att någon har varit opåverkad.",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "affected": {
+      "ui": {
+        "progress": {
+          "text": "{n} av {total} utforskade"
+        }
+      },
+      "cards": {
+        "c1": {
+          "name": {
+            "text": "Idrottare"
+          },
+          "body": {
+            "text": "Hög offentlig synlighet kan göra idrottare till frekventa måltavlor för online-övergrepp. Hatiska reaktioner kan uppstå på grund av sportresultat, allmänhetens uppfattningar eller tolkningar av en idrottares prestationer, handlingar eller personliga beslut. Dessa reaktioner kan eskalera snabbt, vilket gör att skadligt innehåll sprids över digitala plattformar."
+          }
+        },
+        "c2": {
+          "name": {
+            "text": "Matchfunktionärer"
+          },
+          "body": {
+            "text": "Domare kan utsättas för online-trakasserier efter beslut som fattats under tävlingar, vilket förvärrar de verbala och fysiska trakasserier de redan kan uppleva personligen. Upprepad kritik, hot och fientlighet kan bidra till stress och påverka deras självförtroende, upplevda auktoritet och välbefinnande."
+          }
+        },
+        "c3": {
+          "name": {
+            "text": "Journalister"
+          },
+          "body": {
+            "text": "Journalister spelar en viktig roll i att koppla samman idrottare, lag och idrottsorganisationer med en bredare publik. Journalister kan bli måltavlor för fientlighet online som svar på sin rapportering, kommentarer eller upplevda ståndpunkt i en fråga."
+          }
+        },
+        "c4": {
+          "name": {
+            "text": "Sponsorer och representanter"
+          },
+          "body": {
+            "text": "Idrottsorganisationer och de personer som finansierar, förvaltar och representerar dem kan också bli måltavlor för online-övergrepp. Fientlig innehåll kan riktas mot en organisation i sig, dess beslut, policyer eller handlingar, eller mot enskilda anställda och representanter. Detta kan påverka organisationens rykte, professionella verksamhet, beslutsfattande och de inblandades välbefinnande."
+          }
+        },
+        "c5": {
+          "name": {
+            "text": "Familjer"
+          },
+          "body": {
+            "text": "Effekterna av onlineövergrepp kan drabba familjer och nära och kära till de som utsätts för övergrepp. De kan bevittna övergreppen och dess konsekvenser, bli indirekta måltavlor genom sin kontakt med den person som upplever övergreppet, eller ta emot skadliga meddelanden riktade mot dem personligen. Dessa upplevelser kan också öka oron och rädslan för säkerheten och välbefinnandet hos någon som står dem nära."
+          }
+        },
+        "c6": {
+          "name": {
+            "text": "Fläktar"
+          },
+          "body": {
+            "text": "Fans är den största gruppen inom sport och förbises ofta. De kan påverkas av de övergrepp de möter inom idrottsgemenskaper, även när de inte är ett direkt mål. Identitetsbaserade övergrepp riktade mot en idrottare, funktionär eller annan offentlig person kan också påverka fans som delar den identiteten och bidra till en miljö där de kan känna sig oönskade eller otrygga."
+          }
+        }
+      }
+    },
+    "exploreImpacts": {
+      "ui": {
+        "eyebrow": {
+          "text": "Utforska"
+        },
+        "prompt": {
+          "text": "Efter att ha fått upprepade kränkande meddelanden online börjar en idrottare posta mer sällan på sociala medier. Deras tränare märker att de verkar distraherade under träningen, och de har nyligen nämnt att de sover dåligt och känner sig oroliga inför att delta i offentliga evenemang."
+        },
+        "hint": {
+          "text": "Välj minst fyra som passar och skicka sedan in."
+        },
+        "count": {
+          "text": "{n} vald"
+        },
+        "ok": {
+          "text": "<strong>Dessa effekter kan vara sammankopplade.</strong>Onlineövergrepp kan påverka flera områden i en persons liv samtidigt, och effekterna kan utvecklas eller intensifieras över tid. Att känna igen dessa tecken kan hjälpa människor inom idrott att reagera med större medvetenhet och stöd.",
+          "note": "HTML allowed"
+        },
+        "bad": {
+          "text": "<strong>Inte riktigt. Försök igen.</strong>",
+          "note": "HTML allowed — shown when first submit is missing some impacts"
+        }
+      },
+      "labels": {
+        "c0": {
+          "text": "Känslomässig nöd"
+        },
+        "c1": {
+          "text": "Sömnstörningar"
+        },
+        "c2": {
+          "text": "Minskat självförtroende"
+        },
+        "c3": {
+          "text": "Känsla av trygghet"
+        },
+        "c4": {
+          "text": "Fokus och prestation"
+        },
+        "c5": {
+          "text": "Att ta ett steg bort"
+        }
+      }
+    },
+    "impacts": {
+      "ui": {
+        "pathwayAria": {
+          "text": "Påverkansväg"
+        },
+        "navAria": {
+          "text": "Karusellnavigering"
+        },
+        "prevAria": {
+          "text": "Tidigare påverkan"
+        },
+        "nextAria": {
+          "text": "Nästa nedslag"
+        },
+        "researchHeading": {
+          "text": "Vad forskningen visar"
+        },
+        "done": {
+          "text": "Aktivitet klar — du har granskat alla sex effekter"
+        }
+      },
+      "cards": {
+        "c1": {
+          "title": {
+            "text": "Känslomässig nöd"
+          },
+          "short": {
+            "text": "Nöd",
+            "note": "Pathway short label"
+          },
+          "alt": {
+            "text": "Tillfällig illustration · känslomässig stress",
+            "note": "Image alt"
+          },
+          "body": {
+            "text": "<p>Att bli utsatt för övergrepp online kan utlösa känslor av rädsla, sorg, ilska och frustration. För idrottare kan dessa upplevelser också väcka oro kring deras rykte, karriärmöjligheter, relationer med familj och vänner och lagprestationer. När övergrepp sker offentligt kan dess synlighet och potentiella spridning ytterligare intensifiera den psykiska stressen.</p>",
+            "note": "HTML allowed"
+          },
+          "research": {
+            "text": "I en undersökning av 85 idrottare i NCAA Division I var större exponering för trakasserier online associerad med »högre nivåer av depressiva symtom«. Forskarna beskriver fientligt onlineinnehåll som en betydande källa till psykologisk stress för universitetsidrottare.<strong></strong>",
+            "note": "HTML allowed"
+          },
+          "source": {
+            "text": "Hughes, M. C., Demaray, M. K., Skiba, E. A., & Warriner, S. E. (2026). Trakasserier online och psykisk hälsa bland studentidrottare på universitetsnivå: Resultat från en undersökning vid NCAA Division I-konferensen. Journal of Issues in Intercollegiate Athletics.",
+            "note": "Citation; keep author names"
+          }
+        },
+        "c2": {
+          "title": {
+            "text": "Sova"
+          },
+          "short": {
+            "text": "Sova",
+            "note": "Pathway short label"
+          },
+          "alt": {
+            "text": "Tillfällig illustration · sömn",
+            "note": "Image alt"
+          },
+          "body": {
+            "text": "<p>Onlineövergrepp kan störa sömn och återhämtning. Skadliga onlineupplevelser kan fortsätta efter den första interaktionen och påverka en idrottares förmåga att vila och återhämta sig.</p>",
+            "note": "HTML allowed"
+          },
+          "research": {
+            "text": "I en studie av 912 unga idrottare i åldrarna 12–24 rapporterade 10,4 % att de upplevt online-övergrepp. Bland de drabbade rapporterade 44,3 % måttliga till svåra effekter på sin sömnkvalitet.",
+            "note": "HTML allowed"
+          },
+          "source": {
+            "text": "Tooth, C., Kaux, J.-F., Tscholl, P., Touré, A., Muller, F., & Seil, K. (2026). Sociala mediers inverkan på unga idrottares psykiska hälsa: En tvärsnittsstudie. Frontiers in Psychology.",
+            "note": "Citation; keep author names"
+          }
+        },
+        "c3": {
+          "title": {
+            "text": "Självförtroende och självkänsla"
+          },
+          "short": {
+            "text": "Förtroende",
+            "note": "Pathway short label"
+          },
+          "alt": {
+            "text": "Tillfällig illustration · självförtroende",
+            "note": "Image alt"
+          },
+          "body": {
+            "text": "<p>Onlineövergrepp riktar sig ofta mot en persons förmågor, kropp eller identitet. Upprepad kritik, inklusive kommentarer som delas offentligt för att förödmjuka eller såra någon, kan påverka den utsatta personens självförtroende och få dem att tvivla på sina färdigheter, beslut och plats inom idrotten.</p>",
+            "note": "HTML allowed"
+          },
+          "research": {
+            "text": "Forskning tyder på att interna faktorer kan forma hur människor reagerar på näthat. I en studie av<strong>60 offentliga personer, inklusive olympiska idrottare, och 1 128 internetanvändare</strong>var högre<strong>motståndskraft och självkänsla förknippade med lägre nivåer av oro över det näthat de fick ta emot ¦. Detta tyder på att människor kan uppleva samma typ av fientlighet på olika sätt, delvis beroende på deras psykologiska resurser.</strong>",
+            "note": "HTML allowed"
+          },
+          "source": {
+            "text": "Jędryczka, W., Sorokowski, P., & Dobrowolska, M. (2022). Offrets motståndskraft och självkänslas roll i upplevelsen av internethat. International Journal of Environmental Research and Public Health.",
+            "note": "Citation; keep author names"
+          }
+        },
+        "c4": {
+          "title": {
+            "text": "Känsla av trygghet"
+          },
+          "short": {
+            "text": "Säkerhet",
+            "note": "Pathway short label"
+          },
+          "alt": {
+            "text": "Tillfällig illustration · känsla av trygghet",
+            "note": "Image alt"
+          },
+          "body": {
+            "text": "<p>Hot och fientlighet online kan utvidga oron kring säkerhet<strong>bortom digitala utrymmen ¦. Personer som utsätts för hot kan oroa sig för sin egen säkerhet</strong>hemma, under tävlingar och i offentliga utrymmen.<strong>När hot även involverar deras nära och kära kan dessa farhågor utvidgas till</strong>familjemedlemmar och nära och kära.<strong></strong></p>",
+            "note": "HTML allowed"
+          },
+          "research": {
+            "text": "I UAOA-barometern 2025 rapporterade nästan tre av fyra tillfrågade idrottsförbund att hot om att skada idrottare eller deras anhöriga fortfarande är verklighet för dem som använder sociala medieplattformar. Resultatet rapporterades också i den föregående upplagan av barometern, vilket tyder på en fortsatt oro inom idrotten.<strong></strong>",
+            "note": "HTML allowed"
+          },
+          "source": {
+            "text": "Enade mot nätövergrepp. (2025). Barometer för nätövergrepp inom idrott 2025.",
+            "note": "Citation; keep author names"
+          }
+        },
+        "c5": {
+          "title": {
+            "text": "Fokus och prestation"
+          },
+          "short": {
+            "text": "Fokus",
+            "note": "Pathway short label"
+          },
+          "alt": {
+            "text": "Tillfällig illustration · fokus och prestanda",
+            "note": "Image alt"
+          },
+          "body": {
+            "text": "<p>De skadliga effekterna av psykisk stress på fokus och prestation är väl dokumenterade. Eftersom online-övergrepp kan orsaka psykisk stress kan det negativt påverka idrottares fokus och prestation, vilket gör det svårare att koncentrera sig, fatta beslut under press och prestera konsekvent.</p>",
+            "note": "HTML allowed"
+          },
+          "research": {
+            "text": "I en studie av<strong>274 kanadensiska basketdomare¦ var högre välbefinnande signifikant associerat med¦ bättre självskattade domarprestationer¦, även efter att erfarenhet tagits med i beräkningen. Tidigare forskning som författarna citerade fann också att¦ 90 % av fotbollsdomarna trodde att vanliga psykiska hälsosymptom kunde påverka deras domarprestationer negativt.</strong><strong></strong><strong></strong>",
+            "note": "HTML allowed"
+          },
+          "source": {
+            "text": "Taylor, N., Hancock, D., & Sullivan, P. (2026). Psykisk hälsa och domarprestationer. Frontiers in Psychology.",
+            "note": "Citation; keep author names"
+          }
+        },
+        "c6": {
+          "title": {
+            "text": "Att ta ett steg bort"
+          },
+          "short": {
+            "text": "Att ta ett steg bort",
+            "note": "Pathway short label"
+          },
+          "alt": {
+            "text": "Tillfällig illustration · att ta ett steg tillbaka",
+            "note": "Image alt"
+          },
+          "body": {
+            "text": "<p>Onlineövergrepp kan påverka huruvida människor<strong>fortsätter att delta, arbeta eller kommunicera öppet inom idrott.</strong>Vissa kan minska sin närvaro på sociala medier, ompröva sitt engagemang eller bli mer försiktiga med vad de delar offentligt.</p>",
+            "note": "HTML allowed"
+          },
+          "research": {
+            "text": "Forskning om övergrepp inom idrott fann att både<strong>fysisk och icke-fysisk övergrepp var förknippade med en större avsikt att sluta</strong>bland fotbollsdomare i England och Kanada. Övergrepp var också förknippade med minskat välbefinnande. I UAOA-barometern 2025 uttryckte<strong>90 % av de tillfrågade idrottsförbunden oro för att övergrepp online skulle kunna driva ut begåvade idrottare från idrott.</strong>",
+            "note": "HTML allowed"
+          },
+          "source": {
+            "text": "Downward, P., Webb, T., & Dawson, P. (2024). Domarmisshandel, avsikt att sluta och välbefinnande. Research Quarterly for Exercise and Sport. United Against Online Abuse. (2025). Online Abuse in Sport Barometer 2025.",
+            "note": "Citation; keep author names"
+          }
+        }
+      }
+    },
+    "takeaways": {
+      "heading": {
+        "text": "Viktiga slutsatser"
+      },
+      "items": {
+        "i1": {
+          "text": "<strong>Onlineövergrepp kan ha omfattande effekter.</strong>Dess inverkan kan sträcka sig över välbefinnande, självförtroende, trygghetskänsla, prestation, deltagande och andra områden i en persons liv.",
+          "note": "HTML allowed"
+        },
+        "i2": {
+          "text": "<strong>Effekterna kan vara sammankopplade.</strong>Känslomässig stress, störd sömn, minskat självförtroende, säkerhetsproblem och svårigheter att fokusera kan överlappa varandra och påverka varandra.",
+          "note": "HTML allowed"
+        },
+        "i3": {
+          "text": "<strong>Människor kan påverkas olika.</strong>Personliga och kontextuella faktorer kan forma hur någon upplever och reagerar på övergrepp online.",
+          "note": "HTML allowed"
+        },
+        "i4": {
+          "text": "<strong>Effekten sträcker sig bortom de som är direkt drabbade.</strong>Familjer, lagkamrater, kollegor, fans, organisationer och andra inom idrottsgemenskaper kan också uppleva dess konsekvenser.",
+          "note": "HTML allowed"
+        },
+        "i5": {
+          "text": "<strong>Onlineövergrepp kan påverka deltagande och idrottskultur.</strong>Ihållande fientlighet kan påverka vilka som känner sig trygga, välkomna och kan delta i idrott.",
+          "note": "HTML allowed"
+        },
+        "i6": {
+          "text": "<strong>Konsekvenserna kan sträcka sig bortom sporten.</strong>När diskriminerande och kränkande beteenden normaliseras kan de förstärka fördomar, utanförskap och fientlighet i samhället i stort.",
+          "note": "HTML allowed"
+        }
+      }
+    },
+    "slide": {
+      "title": {
+        "text": "Modul 2: Förstå effekten",
+        "note": "Module / summary slide title"
+      },
+      "section1": {
+        "text": "Varför den mänskliga påverkan är viktig",
+        "note": "Section heading"
+      },
+      "section2": {
+        "text": "Vilka drabbas av övergrepp online?",
+        "note": "Section heading"
+      },
+      "section3": {
+        "text": "Effekten av online-övergrepp på människor",
+        "note": "Section heading"
+      },
+      "section4": {
+        "text": "Utforska: Vilka potentiella effekter av onlineövergrepp kan du identifiera?",
+        "note": "Section heading"
+      },
+      "section5": {
+        "text": "Den bredare bilden",
+        "note": "Section heading"
+      }
+    }
+  },
+  "m3": {
+    "regionTabs": {
+      "ui": {
+        "eyebrow": {
+          "text": "Regionalt exempel"
+        },
+        "prompt": {
+          "text": "Välj en region"
+        },
+        "placeholder": {
+          "text": "Välj en region för att se ett exempel."
+        },
+        "regionsAria": {
+          "text": "Regioner"
+        },
+        "close": {
+          "text": "Nära"
+        },
+        "closeAria": {
+          "text": "Nära"
+        },
+        "subCountriesAria": {
+          "text": "Exempel på EU-medlemmar"
+        },
+        "overview": {
+          "text": "Översikt"
+        }
+      },
+      "tabs": {
+        "t1": {
+          "title": {
+            "text": "Europeiska unionen"
+          },
+          "html": {
+            "text": "<p><a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/\" target=\"_blank\" rel=\"noopener\"><strong>Europeiska unionens AI-lag</strong></a> använder ett riskbaserat ramverk för AI och inför transparenskrav för visst AI-genererat och manipulerat innehåll, inklusive vissa deepfakes.</p>",
+            "note": "HTML allowed — European Union AI Act links to EUR-Lex"
+          },
+          "subs": {
+            "slovenia": {
+              "title": {
+                "text": "Slovenien"
+              },
+              "html": {
+                "text": "<p>I Slovenien regleras AI av <a href=\"https://pisrs.si/pregledPredpisa?id=ZAKO9225#naslov-parent-393613415\" target=\"_blank\" rel=\"noopener\">nationell lagstiftning</a> och <a href=\"https://eur-lex.europa.eu/legal-content/SL/TXT/HTML/?uri=OJ:L_202401689\" target=\"_blank\" rel=\"noopener\">EU:s AI-lag</a>. <a href=\"https://www.gov.si/novice/2026-08-03-zacela-so-se-uporabljati-pravila-o-preglednosti-sistemov-umetne-intelligence/\" target=\"_blank\" rel=\"noopener\">Regeringens vägledning</a>, <a href=\"https://www.ip-rs.si/umetna-inteligenca/pogosta-vpra%C5%A1anja/\" target=\"_blank\" rel=\"noopener\">svar på vanliga frågor</a> och regulatorisk information från <a href=\"https://www.gov.si/en/state-authorities/ministries/ministry-of-the-off-ministry-and-ministry/ target=\"_blank\" rel=\"noopener\">ansvarigt ministerium</a> finns också tillgängliga.</p>",
+                "note": "HTML allowed — linked phrases open official sources"
+              }
+            },
+            "sweden": {
+              "title": {
+                "text": "Sverige"
+              },
+              "html": {
+                "text": "<p>I Sverige gäller EU:s AI-lag direkt och utgör den rättsliga ramen för reglering av artificiell intelligens, inklusive AI-genererat innehåll. Sverige har ingen separat nationell lagstiftning som specifikt behandlar AI-genererat innehåll.</p>",
+                "note": "HTML allowed"
+              }
+            },
+            "czechia": {
+              "title": {
+                "text": "Tjeckien"
+              },
+              "html": {
+                "text": "<p>I Tjeckien gäller EU:s AI-lag direkt och tillhandahåller den rättsliga ramen för att reglera artificiell intelligens, inklusive AI-genererat innehåll.</p>",
+                "note": "HTML allowed"
+              }
+            },
+            "spain": {
+              "title": {
+                "text": "Spanien"
+              },
+              "html": {
+                "text": "<p>I Spanien gäller EU:s AI-lag direkt och tillhandahåller den rättsliga ramen för reglering av artificiell intelligens, inklusive AI-genererat innehåll. Den spanska myndigheten för tillsyn av artificiell intelligens (AESIA) övervakar efterlevnaden av AI-förordningar och stöder deras genomförande på nationell nivå.</p>",
+                "note": "HTML allowed"
+              }
+            }
+          }
+        },
+        "t2": {
+          "title": {
+            "text": "Storbritannien"
+          },
+          "html": {
+            "text": "<p>Enligt <a href=\"https://www.legislation.gov.uk/ukpga/2023/50\" target=\"_blank\" rel=\"noopener\"><strong>Online Safety Act</strong></a> kan AI-genererat innehåll som delas av användare falla inom reglerade onlinetjänsters ansvarsområden, inklusive relevanta skyldigheter gällande olagligt innehåll och användarsäkerhet.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "t3": {
+          "title": {
+            "text": "Förenta staterna"
+          },
+          "html": {
+            "text": "<p><a href=\"https://www.congress.gov/bill/119th-congress/senate-bill/146\" target=\"_blank\" rel=\"noopener\">¦ TAKE IT DOWN Act¦ </a> behandlar delning av intima bilder utan samtycke, inklusive AI-genererade deepfakes. Den kräver att berörda onlineplattformar tillhandahåller ett sätt att begära borttagning av bilder och att kvalificerat innehåll tas bort inom 48 timmar efter en giltig begäran.<strong></strong></p>",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "checklist": {
+      "ui": {
+        "eyebrow": {
+          "text": "Checklista"
+        },
+        "title": {
+          "text": "Rapporteringssteg"
+        },
+        "progress": {
+          "text": "{n} av {total} recenserade"
+        },
+        "hint": {
+          "text": "Markera varje steg när du går igenom det. Inte betygsatt.",
+          "note": "Removed from widget UI; kept for translators / legacy"
+        },
+        "done": {
+          "text": "Alla steg granskade."
+        }
+      },
+      "items": {
+        "i1": {
+          "text": "1. Bedöm situationen och din säkerhet. Tänk på innehållets karaktär och om du eller någon annan kan vara i omedelbar risk."
+        },
+        "i2": {
+          "text": "2. Samla in bevis. Spara kränkande inlägg, meddelanden, profilinformation, webbadresser och skärmdumpar där det är lämpligt."
+        },
+        "i3": {
+          "text": "3. Registrera viktiga detaljer. Notera datum, tid, användarnamn eller konto och relevant information om vad som hände."
+        },
+        "i4": {
+          "text": "4. Använd plattformens säkerhetsverktyg. Begränsa, tysta eller blockera kontot där det är lämpligt för att begränsa ytterligare kontakt eller exponering."
+        },
+        "i5": {
+          "text": "5. Rapportera via plattformen. Granska plattformens relevanta policyer och flagga innehållet eller kontot med hjälp av dess inbyggda rapporteringsalternativ."
+        },
+        "i6": {
+          "text": "6. Sök ytterligare stöd eller eskalera vid behov. Kontakta din organisations välfärds- eller skyddsansvariga där det är relevant. Om du anser att det finns ett hot mot din säkerhet, kontakta lämpliga lokala myndigheter eller räddningstjänster."
+        }
+      }
+    },
+    "reportingSystems": {
+      "ui": {
+        "listAria": {
+          "text": "Rapporteringssystem per land",
+          "note": "aria-label on accordion list"
+        },
+        "placeholder": {
+          "text": "Välj ett land för att visa rapporteringssystem och supportresurser."
+        },
+        "closeAria": {
+          "text": "Nära"
+        }
+      },
+      "items": {
+        "uk": {
+          "title": {
+            "text": "Storbritannien"
+          },
+          "html": {
+            "text": "<p>I Storbritannien kan onlineövergrepp rapporteras till relevant plattform eller, när det kan utgöra ett brott, till polisen. Individer uppmuntras att bevara bevis, inklusive skärmdumpar, meddelanden och webbadresser. Specialistorganisationer erbjuder också konfidentiellt stöd och vägledning.</p><ul><li><strong>Polis</strong>— Rapportera hot, stalking, trakasserier och annat potentiellt kriminellt onlinebeteende. Ring 999 i en nödsituation eller 101 för icke-akut hjälp.</li><li><a href=\"https://reportharmfulcontent.com/\" target=\"_blank\" rel=\"noopener\"><strong>Rapportera skadligt innehåll</strong></a> — Vägledning och hjälp med att rapportera skadligt onlineinnehåll, inklusive trakasserier, hot och övergrepp.</li><li><a href=\"https://www.stophateuk.org/report-hate-crime/\" target=\"_blank\" rel=\"noopener\"><strong>Stop Hate UK</strong></a> — Oberoende, konfidentiellt stöd och allmänna rapporteringstjänster för hatbrott i deltagande områden.</li></ul>",
+            "note": "HTML allowed — linked resource names open official sources"
+          }
+        },
+        "us": {
+          "title": {
+            "text": "Förenta staterna"
+          },
+          "html": {
+            "text": "<p>I USA kan onlineövergrepp rapporteras till relevant plattform eller polis, beroende på händelsens art. Hot, stalking och annat potentiellt kriminellt beteende kan rapporteras till lokal polis, medan federala myndigheter tillhandahåller ytterligare rapporteringskanaler. Individer uppmuntras att bevara bevis, inklusive skärmdumpar, meddelanden och webbadresser.</p><ul><li><a href=\"https://www.usa.gov/report-crime\" target=\"_blank\" rel=\"noopener\"><strong>Lokal polis</strong></a> — Polisavdelningar kan ta emot rapporter om hot, stalking, trakasserier och annat potentiellt kriminellt onlinebeteende. Ring 911 i en nödsituation.</li><li><a href=\"https://www.stopbullying.gov/cyberbullying/how-to-report\" target=\"_blank\" rel=\"noopener\"><strong>StopBullying.gov: Rapportera nätmobbning</strong></a> — Myndighetens riktlinjer för att dokumentera nätmobbning, rapportera skadligt innehåll till plattformar och kontakta brottsbekämpande myndigheter när det är lämpligt.</li><li><a href=\"https://www.ic3.gov/\" target=\"_blank\" rel=\"noopener\"><strong>FBI: Internet Crime Complaint Center (IC3)</strong></a> — Rapporter om cyberbaserad brottslighet, inklusive utpressning, trakasserier och stalking online där kriminellt beteende misstänks.</li><li><a href=\"https://tips.fbi.gov/\" target=\"_blank\" rel=\"noopener\"><strong>FBI: Rapportera ett federalt brott</strong></a> — Rapporter om misstänkta federala brott, inklusive allvarliga hot och annan kriminell verksamhet som kan innebära onlineövergrepp.</li></ul>",
+            "note": "HTML allowed — linked resource names open official sources"
+          }
+        },
+        "si": {
+          "title": {
+            "text": "Slovenien"
+          },
+          "html": {
+            "text": "<p>I Slovenien kan idrottare och idrottsproffs söka oberoende stöd och vägledning om onlineövergrepp genom Ombudsmannen för idrottares rättigheter. Ytterligare resurser behandlar cybersäkerhetsincidenter, skydd av personuppgifter och missförhållanden inom idrotten, inklusive särskilda rapporteringskanaler.</p><ul><li><a href=\"https://www.gov.si/en/state-authorities/ministries/ministry-of-the-economy-labour-and-sport/about-the-ministry-of-economy-tourism-and-sport/sport-directorate/\" target=\"_blank\" rel=\"noopener\"><strong>Ombudsman för idrottares rättigheter</strong></a> — Oberoende stöd och kostnadsfri juridisk vägledning för idrottare och idrottsproffs.</li><li><a href=\"https://www.cert.si/en/about-si-cert/\" target=\"_blank\" rel=\"noopener\"><strong>SI.CERT</strong></a> — Sloveniens nationella centrum för cybersäkerhetsincidenter, som tillhandahåller hjälp med säkerhetsincidenter online.</li><li><a href=\"https://www.gov.si/drzavni-organi/vladne-sluzbe/urad-vlade-za-informacijsko-varnost/\" target=\"_blank\" rel=\"noopener\"><strong>Statens informationssäkerhetskontor</strong></a> — Myndighet med ansvar för nationell informationssäkerhet och cybersäkerhet.</li><li><a href=\"https://www.ip-rs.si/en/about/information-commissioner\" target=\"_blank\" rel=\"noopener\"><strong>Informationskommissionär</strong></a> — Oberoende myndighet som övervakar skyddet av personuppgifter och rättigheter till integritet.</li><li><a href=\"https://oks.zvizgavka.si/\" target=\"_blank\" rel=\"noopener\"><strong>Sloveniens olympiska kommitté: Visselblåsningskanal</strong></a> — Rapporteringskanal för att ta upp oro över tjänstefel inom idrotten.</li></ul>",
+            "note": "HTML allowed — linked resource names open official sources"
+          }
+        },
+        "se": {
+          "title": {
+            "text": "Sverige"
+          },
+          "html": {
+            "text": "<p>I Sverige kan potentiellt kriminella nätövergrepp, inklusive hot, trakasserier och förtal, anmälas till polisen. Idrottare och idrottsproffs kan också söka oberoende stöd eller anmäla missförhållanden inom idrotten genom Riksidrottsförbundets Idrottsombudsman.</p><ul><li><a href=\"https://polisen.se/utsatt-for-brott/polisanmalan/\" target=\"_blank\" rel=\"noopener\"><strong>Polisen</strong></a> — Officiell rapporteringskanal för potentiella brott, inklusive näthot, trakasserier och förtal. Anmälningar kan också göras genom att ringa 114 14.</li><li><a href=\"https://www.rf.se/rf-arbetar-med/idrottsombudsmannen/kontakta-idrottsombudsmannen\" target=\"_blank\" rel=\"noopener\"><strong>Riksidrottsförbundet (RF): Idrottsombudsman</strong></a> — Oberoende stöd- och visselblåsartjänst för rapportering av trakasserier, övergrepp och missförhållanden inom svensk idrott.</li></ul>",
+            "note": "HTML allowed — linked resource names open official sources"
+          }
+        },
+        "cz": {
+          "title": {
+            "text": "Tjeckien"
+          },
+          "html": {
+            "text": "<p>I Tjeckien kan onlineövergrepp rapporteras via flera kanaler, beroende på händelsens art. STOPonline tar emot rapporter om olagligt eller skadligt onlineinnehåll, inklusive cybermobbning, cybergrooming, icke-samtyckande delning av intima bilder och cyberhot. Rapporter granskas av specialister och kan hänvisas till den tjeckiska polisen eller internationella partners. Incidenter som involverar potentiella brott, såsom hot, stalking eller utpressning, bör rapporteras direkt till den tjeckiska polisen. Individer uppmuntras att bevara bevis, inklusive skärmdumpar, meddelanden och länkar, och kan också rapportera skadligt innehåll direkt till onlineplattformar.</p><ul><li><a href=\"https://www.stoponline.cz/en/\" target=\"_blank\" rel=\"noopener\"><strong>STOPonline.cz</strong></a> — Onlinerapporteringstjänst som drivs av CZ.NIC i samarbete med CSIRT.CZ. Tar emot rapporter om olagligt eller skadligt onlineinnehåll och hänvisar potentiellt olagliga fall till relevanta myndigheter. Tjänsten fokuserar på innehållsbedömning och rapportering, inte rådgivning.</li><li><a href=\"https://policie.gov.cz/hlaseni-kyberkriminality\" target=\"_blank\" rel=\"noopener\"><strong>Tjeckisk polis: Rapportering av cyberbrottslighet</strong></a> — Officiell information om rapportering av misstänkt cyberbrottslighet, inklusive onlinehot, stalking, utpressning och annan potentiellt kriminell verksamhet.</li><li><a href=\"https://policie.gov.cz/kyberkriminalita/co-delat-vpripade-ze-se-setkate-spodezrelou-aktivitou-vonline-prostoru\" target=\"_blank\" rel=\"noopener\"><strong>Tjeckisk polis: Vägledning om misstänkt onlineaktivitet</strong></a> — Praktisk vägledning om hur man agerar på misstänkt onlineaktivitet, bevarar bevis och söker polishjälp.</li></ul>",
+            "note": "HTML allowed — linked resource names open official sources"
+          }
+        },
+        "es": {
+          "title": {
+            "text": "Spanien"
+          },
+          "html": {
+            "text": "<p>I Spanien kan potentiellt kriminella onlineövergrepp, inklusive trakasserier, hot och hatrelaterade brott, rapporteras till den spanska nationella polisen eller civilgardet. Individer uppmuntras att bevara bevis, inklusive skärmdumpar, meddelanden och webbadresser. Ytterligare tjänster erbjuder konfidentiell vägledning och hjälp med att ta bort skadligt innehåll.</p><ul><li><a href=\"https://www.policia.es/\" target=\"_blank\" rel=\"noopener\"><strong>Spanska nationella polisen (Policía Nacional)</strong></a> och civilgardet (Guardia Civil) — Officiella myndigheter för rapportering av potentiellt kriminella onlineövergrepp.</li><li><a href=\"https://www.incibe.es/linea-de-ayuda-en-ciberseguridad\" target=\"_blank\" rel=\"noopener\"><strong>INCIBE: Cybersäkerhetshjälplinje (017)</strong></a> — Gratis, konfidentiell rådgivning om cybermobbning, onlinetrakasserier och digital integritet. Detta är en rådgivningstjänst, inte en formell kanal för brottsanmälan.</li><li><a href=\"https://www.aepd.es/canalprioritario\" target=\"_blank\" rel=\"noopener\"><strong>Spanska dataskyddsmyndigheten (AEPD): Prioriterad kanal</strong></a> — Tillåter individer att begära omedelbar borttagning av olagligt delat sexuellt eller våldsamt innehåll i särskilt allvarliga fall.</li></ul>",
+            "note": "HTML allowed — linked resource names open official sources"
+          }
+        }
+      }
+    },
+    "sorting": {
+      "ui": {
+        "eyebrow": {
+          "text": "Beställning",
+          "note": "Removed from widget UI; kept for translators / legacy"
+        },
+        "prompt": {
+          "text": "1. Ordna stegen nedan i rekommenderad ordning."
+        },
+        "hint": {
+          "text": "Dra objekt eller använd pilarna för att ändra ordning och skicka sedan."
+        },
+        "moveUp": {
+          "text": "Flytta upp"
+        },
+        "moveDown": {
+          "text": "Flytta nedåt"
+        },
+        "ok": {
+          "text": "<strong>Korrekt!</strong>Du har identifierat den rekommenderade sekvensen för att hantera kränkningar online på sociala medier. Att följa en tydlig process hjälper till att bevara viktig information, minska ytterligare exponering och säkerställa att situationen rapporteras eller eskaleras på lämpligt sätt.",
+          "note": "HTML allowed"
+        },
+        "bad": {
+          "text": "<strong>Inte riktigt. Granska alternativen och försök igen.</strong>",
+          "note": "HTML allowed"
+        }
+      },
+      "items": {
+        "i1": {
+          "text": "Bedöm situationen och din säkerhet"
+        },
+        "i2": {
+          "text": "Samla bevis"
+        },
+        "i3": {
+          "text": "Registrera viktiga detaljer"
+        },
+        "i4": {
+          "text": "Använd säkerhetsverktyg för plattformen"
+        },
+        "i5": {
+          "text": "Rapportera via plattformen"
+        },
+        "i6": {
+          "text": "Sök ytterligare stöd eller eskalera vid behov"
+        }
+      }
+    },
+    "trueFalse": {
+      "bad": {
+        "text": "<strong>Inte riktigt. Granska påståendet och försök igen.</strong>",
+        "note": "HTML allowed"
+      },
+      "questions": {
+        "q1": {
+          "prompt": {
+            "text": "Om en idrottare får ta emot kränkande innehåll bör de omedelbart radera det och svara direkt till den ansvariga personen."
+          },
+          "choices": {
+            "c0": {
+              "text": "SANN"
+            },
+            "c1": {
+              "text": "FALSK"
+            }
+          },
+          "ok": {
+            "text": "<strong>Korrekt!</strong>Det rekommenderas att samla in relevant bevis innan innehåll tas bort, och att undvika att interagera direkt med den person som är ansvarig för övergreppet.",
+            "note": "HTML allowed"
+          }
+        },
+        "q2": {
+          "prompt": {
+            "text": "Att offentligt dela kränkande innehåll kan bidra till att åtgärda situationen genom att dra mer uppmärksamhet till den."
+          },
+          "choices": {
+            "c0": {
+              "text": "SANN"
+            },
+            "c1": {
+              "text": "FALSK"
+            }
+          },
+          "ok": {
+            "text": "<strong>Korrekt!</strong>Att dela eller återpublicera kränkande innehåll kan öka dess räckvidd och exponera den utsatta personen, och andra, för det skadliga innehållet igen. Använd lämpliga rapporteringskanaler istället.",
+            "note": "HTML allowed"
+          }
+        },
+        "q3": {
+          "prompt": {
+            "text": "AI kan hjälpa till att identifiera potentiellt skadligt innehåll, men mänskligt omdöme är fortfarande viktigt när man tolkar sammanhang."
+          },
+          "choices": {
+            "c0": {
+              "text": "SANN"
+            },
+            "c1": {
+              "text": "FALSK"
+            }
+          },
+          "ok": {
+            "text": "<strong>Korrekt!</strong>AI kan stödja tidig upptäckt och flagga potentiellt skadligt innehåll för granskning, men sammanhang, språk och förändrade övergreppstaktik kan göra mänsklig bedömning viktig.",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "takeaways": {
+      "heading": {
+        "text": "Viktiga slutsatser"
+      },
+      "items": {
+        "i1": {
+          "text": "<strong>Plattformsdesign påverkar hur innehåll sprids.</strong>Olika digitala miljöer formar vem som möter innehåll, hur människor interagerar med det och hur länge det förblir synligt.",
+          "note": "HTML allowed"
+        },
+        "i2": {
+          "text": "<strong>Skada online kan förstärkas.</strong>Rekommendationssystem, delning, liveinteraktion och samhällsdynamik kan öka räckvidden och intensiteten av skadligt innehåll.",
+          "note": "HTML allowed"
+        },
+        "i3": {
+          "text": "<strong>Kränkande taktiker kan anpassas.</strong>Skadligt innehåll kan använda ändrat språk, visuella format, indirekt målgruppsinriktning eller olika digitala utrymmen för att göra upptäckt svårare.",
+          "note": "HTML allowed"
+        },
+        "i4": {
+          "text": "<strong>Människor kan vidta åtgärder för att minska exponeringen.</strong>Integritetskontroller, interaktionsinställningar, blockering, ljudavstängning och genomtänkta val om onlineutrymmen kan stödja digitalt välbefinnande.",
+          "note": "HTML allowed"
+        },
+        "i5": {
+          "text": "<strong>Effektiv rapportering följer en tydlig process.</strong>Bedöm situationen, dokumentera relevanta bevis, rapportera via en lämplig kanal och sök stöd eller eskalera när säkerheten är i fara.",
+          "note": "HTML allowed"
+        },
+        "i6": {
+          "text": "<strong>AI har en dubbel roll.</strong>Den kan öka omfattningen och sofistikeringen av skadligt innehåll, och den kan också stödja upptäckt, moderering och andra säkerhetsåtgärder online.",
+          "note": "HTML allowed"
+        },
+        "i7": {
+          "text": "<strong>Tekniken ensam kan inte hantera övergrepp online.</strong>Effektiva åtgärder kombinerar plattformsverktyg, ansvarsfullt användarbeteende, mänskligt omdöme, organisatoriskt stöd och lämplig reglering.",
+          "note": "HTML allowed"
+        }
+      }
+    },
+    "slide": {
+      "title": {
+        "text": "Modul 3: Hur skada online sprids",
+        "note": "Module / summary slide title"
+      }
+    }
+  },
+  "m4": {
+    "lawTabs": {
+      "ui": {
+        "prompt": {
+          "text": "Välj en väg"
+        },
+        "placeholder": {
+          "text": "Välj en väg"
+        },
+        "pathwaysAria": {
+          "text": "Rättsliga vägar"
+        },
+        "seeExample": {
+          "text": "Se ett exempel"
+        },
+        "backToPathway": {
+          "text": "Tillbaka till stigen"
+        },
+        "returnMain": {
+          "text": "Återgå till huvudsidan"
+        },
+        "closeAria": {
+          "text": "Nära"
+        }
+      },
+      "tabs": {
+        "t1": {
+          "title": {
+            "text": "Strafflag"
+          },
+          "image": {
+            "text": "https://preview.scormstack.io/medias/courses/428b8e0e-9238-4608-a1a3-962afd799ccf/UAOA_pathway_crimina_64f037dc-941a-4af3-90b3-ac5e5fb45a9f.jpg",
+            "note": "CDN URL for scenario illustration"
+          },
+          "imageAlt": {
+            "text": "Domare får upprepade varningsmeddelanden på en telefon"
+          },
+          "pathway": {
+            "text": "<p><strong>Vad det kan omfatta:</strong>Uppförande som utgör ett brott enligt tillämplig lag, vilket kan inkludera vissa hot, stalking, hatbrott eller icke-samtyckande delning av intima bilder.</p><p><strong>Vilka vidtar åtgärder:</strong>Polismyndigheten kan utreda, och den relevanta åklagarmyndigheten avgör om ett ärende går vidare.</p><p><strong>Möjliga resultat:</strong>Straffrättsliga påföljder kan inkludera böter eller fängelse, beroende på brottet och jurisdiktion.</p>",
+            "note": "HTML allowed"
+          },
+          "example": {
+            "text": "<p>Efter ett beslut under en match börjar en domare få upprepade meddelanden på sina sociala medier från samma konto. Meddelandena blir alltmer hotfulla och inkluderar hänvisningar till att allvarligt skada domaren och deras familjemedlemmar.</p><p>Beroende på tillämplig lag och omständigheter kan hot av detta slag leda till en anmälan till polisen och en brottsutredning.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "t2": {
+          "title": {
+            "text": "Civilrätt"
+          },
+          "image": {
+            "text": "https://preview.scormstack.io/medias/courses/428b8e0e-9238-4608-a1a3-962afd799ccf/UAOA_pathway_civil_e89ec7dc-a23c-4bea-af45-ba6d00b25544.jpg",
+            "note": "CDN URL for scenario illustration"
+          },
+          "imageAlt": {
+            "text": "Idrottare står inför cirkulerande onlineanklagelser och förlorat sponsorskap"
+          },
+          "pathway": {
+            "text": "<p><strong>Vad det kan omfatta:</strong>Tvister som rör juridiska rättigheter mellan individer eller organisationer, vilket kan innefatta förtal, trakasserier, missbruk av privat information eller andra integritetsrelaterade anspråk.</p><p><strong>Vem vidtar åtgärder:</strong>Den person eller organisation som väcker talan inleder den rättsliga processen.</p><p><strong>Möjliga resultat:</strong>Beroende på tillämplig lag kan gottgörelse innefatta ersättning eller domstolsbeslut som kräver att ett visst beteende upphör.</p>",
+            "note": "HTML allowed"
+          },
+          "example": {
+            "text": "<p>Falska anklagelser om en idrottare börjar cirkulera online och delas upprepade gånger. Påståendena skadar idrottarens professionella rykte, och en sponsor avslutar sin relation med dem efter att ha sett sådana anklagelser.</p><p>Beroende på tillämplig lag och omständigheter kan idrottaren ha möjlighet att väcka talan om gottgörelse för den skada som orsakats, inklusive beslut om borttagning av befintligt falskt innehåll, förbudsförelägganden för att förhindra ytterligare publicering, penningkrav mot förövaren om identifierbar etc.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "t3": {
+          "title": {
+            "text": "Förvaltningsrätt och förordningar"
+          },
+          "image": {
+            "text": "https://preview.scormstack.io/medias/courses/428b8e0e-9238-4608-a1a3-962afd799ccf/UAOA_pathway_admin_55f163bb-0d7b-4f46-9cb3-20fd51f67cd0.jpg",
+            "note": "CDN URL for scenario illustration"
+          },
+          "imageAlt": {
+            "text": "Idrottare oroad över personliga kontaktuppgifter som exponerats online"
+          },
+          "pathway": {
+            "text": "<p><strong>Vad det kan omfatta:</strong>Rättsliga skyldigheter som upprätthålls av tillsynsmyndigheter, inklusive regler som gäller för onlinetjänster eller hantering av personuppgifter.</p><p><strong>Vilka som vidtar åtgärder:</strong>Relevanta tillsynsmyndigheter övervakar och verkställer dessa krav. Individer och organisationer kan också ha möjlighet att lämna in klagomål.</p><p><strong>Möjliga resultat:</strong>Tillsynsmyndigheter kan utreda, kräva ändringar eller ålägga påföljder där tillämplig lag ger dem dessa befogenheter.</p>",
+            "note": "HTML allowed"
+          },
+          "example": {
+            "text": "<p>En idrottare upptäcker att deras personliga kontaktuppgifter har publicerats online utan deras tillstånd. Informationen fortsätter att cirkulera, vilket skapar oro kring deras integritet och säkerhet.</p><p>Beroende på gällande dataskyddsregler kan idrottaren eller deras organisation eventuellt ta upp ärendet med relevant tillsynsmyndighet.</p>",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "limits": {
+      "items": {
+        "i1": {
+          "title": {
+            "text": "Jurisdiktion"
+          },
+          "html": {
+            "text": "<p>Onlineövergrepp kan omedelbart överskrida nationsgränser. Den utsatta personen, den ansvarige och plattformen kan alla befinna sig i olika jurisdiktioner, med olika lagar och verkställighetsprocesser.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "i2": {
+          "title": {
+            "text": "Identifiera vem som är ansvarig"
+          },
+          "html": {
+            "text": "<p>Konton kan använda pseudonymer, falska identiteter eller begränsad identifierande information, vilket gör det svårt att avgöra vem som är ansvarig för ett visst beteende. Att identifiera en kontoinnehavare kan kräva information som innehas av plattformar och, i vissa fall, formella rättsliga processer.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "i3": {
+          "title": {
+            "text": "Tillämpning"
+          },
+          "html": {
+            "text": "<p>Volymen och hastigheten på onlineaktivitet kan försvåra utredning och verkställighet. Tillgängliga resurser, specialistkompetens, beviskrav och prioriteringar för verkställighet kan alla påverka vad som händer efter att en incident har rapporterats.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "i4": {
+          "title": {
+            "text": "Rättsliga tröskelvärden"
+          },
+          "html": {
+            "text": "<p>Varje skadligt eller kränkande beteende utgör inte automatiskt ett lagbrott eller ger upphov till ett rättsligt anspråk. Tillämplig rättslig definition, bevis, sammanhang och jurisdiktion spelar alla roll.</p><p>Detta innebär att rättsliga åtgärder är en del av svaret på onlineövergrepp. Onlineplattformarnas policyer och idrottsorganisationernas egna standarder och policyer kan också bidra till att hantera vissa beteenden som kanske inte har tillräckliga skäl för rättsliga åtgärder.</p>",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "regions": {
+      "ui": {
+        "prompt": {
+          "text": "Välj en region"
+        },
+        "placeholder": {
+          "text": "Välj en region för att se ett exempel på hur befintliga lagar kan tillämpas på beteende online."
+        },
+        "countriesAria": {
+          "text": "Regioner"
+        }
+      },
+      "items": {
+        "i1": {
+          "title": {
+            "text": "Storbritannien"
+          },
+          "html": {
+            "text": "<p>I Storbritannien finns flera lagar som behandlar skadligt beteende online.<strong>Online Safety Act 2023</strong>inför brott som rör hotfulla meddelanden, cyberflashing och delning eller hot om att dela intima bilder utan samtycke.<strong>Protection from Harassment Act 1997</strong>omfattar även trakasserier och stalking, inklusive beteende som involverar digital kommunikation. Online Safety Act ålägger dessutom reglerade plattformar skyldigheter att hantera olagligt innehåll och skydda barn från skadligt material. De tillämpliga skydden beror på beteendet och jurisdiktionen.</p><p><em>Källa: <a href=\"https://www.legislation.gov.uk/\" target=\"_blank\" rel=\"noopener\">Legislation.gov.uk</a></em></p>",
+            "note": "HTML allowed"
+          }
+        },
+        "i2": {
+          "title": {
+            "text": "Förenta staterna"
+          },
+          "html": {
+            "text": "<p>I USA hanteras övergrepp online genom en kombination av federala och statliga lagar. Federal lagstiftning, inklusive<strong>18 U.S.C. 2261A</strong>, behandlar vissa former av cyberstalking som involverar elektronisk kommunikation. Andra federala bestämmelser täcker hot och specifika former av trakasserier online, medan statliga lagar kan ge ytterligare skydd mot cybermobbning, trakasserier, stalking och icke-samtyckande delning av intima bilder. Juridiska definitioner, verkställighet och tillgängliga åtgärder varierar beroende på jurisdiktion och omständigheterna i varje enskilt fall.</p><p><em>Källa: <a href=\"https://uscode.house.gov/\" target=\"_blank\" rel=\"noopener\">U.S. Code</a></em></p>",
+            "note": "HTML allowed"
+          }
+        },
+        "i3": {
+          "title": {
+            "text": "Tjeckien"
+          },
+          "html": {
+            "text": "<p>Tjeckisk lag bygger inte på ett enda brott, \"onlineövergrepp\". Befintlig lagstiftning kan tillämpas på specifika skadliga beteenden som utförs online. Till exempel,<strong>Paragraf 354 i den tjeckiska strafflagen (lag nr 40/2009 Coll.)</strong>behandlar stalking, inklusive beteende som utförs via elektronisk kommunikation. <a href=\"https://policie.gov.cz/stalking---nebezpecne-pronasledovani--354-trestniho-zakoniku\" target=\"_blank\" rel=\"noopener\">Tjeckisk polis vägledning om stalking</a> förklarar denna bestämmelse och identifierar upprepade meddelanden på sociala medier, hot, missbruk av personuppgifter och anseendeskadande attacker bland beteenden som kan förekomma i stalkingfall.</p><p>Den<strong>tjeckiska civillagen (lag nr 89/2012 Coll.)</strong>skyddar också personlighetsrättigheter, inklusive en persons värdighet, heder och integritet. En person som drabbats av olaglig inblandning kan begära att inblandningen upphör och att dess konsekvenser åtgärdas.</p><p><em>Källa: <a href=\"https://e-sbirka.gov.cz\" target=\"_blank\" rel=\"noopener\">e-Sbírka</a></em></p>",
+            "note": "HTML allowed"
+          }
+        },
+        "i4": {
+          "title": {
+            "text": "Spanien"
+          },
+          "html": {
+            "text": "<p><a href=\"https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444\" target=\"_blank\" rel=\"noopener\"><strong>Spaniens strafflag (organisk lag 10/1995)</strong></a> behandlar flera former av onlineövergrepp.<strong>Artikel 172 ter</strong>täcker stalking, inklusive upprepad oönskad kontakt, missbruk av personuppgifter och skapandet av falska profiler på sociala medier med hjälp av någons bild utan samtycke när detta orsakar trakasserier eller förödmjukelse.</p><p><strong>Artikel 510</strong>behandlar hatpropaganda online, med ökade straff för vissa brott när digitala plattformar gör innehållet tillgängligt för en stor publik.</p><p>Offer kan anmäla misstänkta brott till <a href=\"https://www.policia.es/\" target=\"_blank\" rel=\"noopener\">den spanska nationella polisen</a> eller civilgardet (Guardia Civil). Ytterligare support finns tillgänglig via <a href=\"https://www.incibe.es/linea-de-ayuda-en-ciberseguridad\" target=\"_blank\" rel=\"noopener\">INCIBE:s kostnadsfria, konfidentiella 017-hjälplinje</a>, medan <a href=\"https://www.aepd.es/canalprioritario\" target=\"_blank\" rel=\"noopener\">Spanska dataskyddsmyndigheten (AEPD)</a> tillhandahåller en prioriterad kanal för att begära omedelbar borttagning av olagligt delat sexuellt eller våldsamt innehåll.</p><p><em>Källa: <a href=\"https://www.mpr.gob.es/Paginas/index.aspx\" target=\"_blank\" rel=\"noopener\">Gobierno de España</a></em></p>",
+            "note": "HTML allowed"
+          }
+        },
+        "i5": {
+          "title": {
+            "text": "Sverige"
+          },
+          "html": {
+            "text": "<p>I Sverige är hat eller övergrepp online inte en separat juridisk kategori. Polisen förklarar att samma strafflagar i allmänhet gäller för beteende online som offline, med relevanta brott som potentiellt inkluderar olaga hot, trakasserier, förtal, förolämpning, olaga intrång i privatlivet, sexuella trakasserier, olaga identitetsmissbruk (t.ex. falska profiler i någon annans namn) och hets mot en befolkningsgrupp. Om ett brott är motiverat av till exempel offrets etnicitet, religion eller sexuella läggning är detta en försvårande omständighet vid straffmätning.</p><p>Svensk lag erkänner även olaga förföljelse, som kan uppstå vid upprepade brottsliga handlingar mot samma person. Polisens vägledning råder specifikt personer som upplever stalking att bevara e-postmeddelanden, sms, samtalsregister och annan digital kommunikation som potentiella bevis.</p><p><em>Källor: <a href=\"https://polisen.se\" target=\"_blank\" rel=\"noopener\">polisen.se</a>; <a href=\"https://www.riksdagen.se/sv/dokument-och-lagar/\" target=\"_blank\" rel=\"noopener\">Sveriges riksdag</a></em></p>",
+            "note": "HTML allowed"
+          }
+        },
+        "i6": {
+          "title": {
+            "text": "Slovenien"
+          },
+          "html": {
+            "text": "<p>Slovensk lag behandlar online-övergrepp genom befintlig lagstiftning som täcker specifika skadliga beteenden. Ett särskilt relevant exempel är<strong>artikel 134a i den slovenska strafflagen (KZ-1)</strong>, som definierar stalking som att inkludera upprepade försök att upprätta oönskad kontakt genom elektronisk kommunikation, där beteendet orsakar rädsla eller en känsla av hot. Slovenska myndigheter har också erkänt onlinedimensionen av stalking i vägledning om tillämpningen av denna bestämmelse.</p><p>Slovensk polisvägledning erkänner online-våld som inkluderar beteenden som hot, trakasserier, spridning av falskt eller förolämpande innehåll, missbruk av fotografier, identitetsstöld och skapandet av skadliga falska profiler. Huruvida ett visst beteende utgör ett brott beror på omständigheterna i det enskilda fallet.</p><p><em>Källa: <a href=\"https://www.gov.si/\" target=\"_blank\" rel=\"noopener\">GOV.SI</a></em></p>",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "check": {
+      "questions": {
+        "q1": {
+          "prompt": {
+            "text": "En kränkande händelse online kan potentiellt innebära mer än en rättslig väg. Vilket påstående förklarar bäst varför?"
+          },
+          "choices": {
+            "c0": {
+              "text": "Den drabbade personen kan välja vilken lag de föredrar."
+            },
+            "c1": {
+              "text": "Samma incident kan ge upphov till olika rättsliga frågor beroende på beteende, omständigheter och tillämplig lag."
+            },
+            "c2": {
+              "text": "Onlineincidenter omfattar automatiskt straffrättsliga och civilrättsliga åtgärder."
+            },
+            "c3": {
+              "text": "Varje social medieplattform avgör vilken juridisk väg som gäller."
+            }
+          },
+          "ok": {
+            "text": "<strong>Rätta!</strong>",
+            "note": "HTML allowed"
+          }
+        },
+        "q2": {
+          "prompt": {
+            "text": "Någon upplever skadligt beteende online, men beteendet uppfyller inte den lagliga gränsen för ett brott eller en skadeståndsanspråk. Vad innebär detta?"
+          },
+          "choices": {
+            "c0": {
+              "text": "Beteendet kan inte betraktas som nätövergrepp eftersom orden som används i kommentarerna inte är identiska med vad lagen beskriver."
+            },
+            "c1": {
+              "text": "Plattformen är ensamt ansvarig för att agera och avgöra vad som är onlineövergrepp."
+            },
+            "c2": {
+              "text": "Andra svar kan fortfarande vara tillgängliga genom plattformsregler, organisationspolicyer, skyddsrutiner eller uppförandekoder."
+            },
+            "c3": {
+              "text": "Personen bör vänta och se om beteendet blir allvarligare."
+            }
+          },
+          "ok": {
+            "text": "<strong>Rätta!</strong>",
+            "note": "HTML allowed"
+          }
+        },
+        "q3": {
+          "prompt": {
+            "text": "Varför kan det vara svårt att hantera övergrepp online genom lagen?"
+          },
+          "choices": {
+            "c0": {
+              "text": "Onlinebeteende faller utanför nationella lagar."
+            },
+            "c1": {
+              "text": "Människor, plattformar och skadlig aktivitet kan korsa jurisdiktioner, och det kan vara svårt att identifiera de ansvariga eller samla in bevis."
+            },
+            "c2": {
+              "text": "Onlineövergrepp kan bara utredas när det ansvariga kontot använder ett riktigt namn."
+            },
+            "c3": {
+              "text": "Idrottsorganisationerna måste slutföra sin egen utredning innan myndigheterna kan ingripa."
+            }
+          },
+          "ok": {
+            "text": "<strong>Rätta!</strong>",
+            "note": "HTML allowed"
+          }
+        },
+        "q4": {
+          "prompt": {
+            "text": "Vilket påstående beskriver bäst hur rättsliga reaktioner på onlineövergrepp kan skilja sig åt mellan länder?"
+          },
+          "choices": {
+            "c0": {
+              "text": "Varje land har ett specifikt brott som kallas nätövergrepp."
+            },
+            "c1": {
+              "text": "Europeiska länder tillämpar samma nationella lagar eftersom de delar regionala bestämmelser."
+            },
+            "c2": {
+              "text": "Onlinebeteende styrs främst av det land där sociala medieföretaget är baserat."
+            },
+            "c3": {
+              "text": "Länder kan tillämpa olika befintliga lagar för beteende online, och viss lagstiftning tar uttryckligen upp specifika digitala beteenden."
+            }
+          },
+          "ok": {
+            "text": "<strong>Rätta!</strong>",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "takeaways": {
+      "heading": {
+        "text": "Viktiga slutsatser"
+      },
+      "items": {
+        "i1": {
+          "text": "<strong>Onlineövergrepp kan påverka olika rättsområden.</strong>Straffrättsliga, civilrättsliga och administrativa vägar involverar olika processer, aktörer och möjliga resultat.",
+          "note": "HTML allowed"
+        },
+        "i2": {
+          "text": "<strong>Mer än en väg kan vara tillämplig.</strong>Samma incident kan ge upphov till brottmål, civilrättsliga frågor eller regulatoriska frågor beroende på omständigheterna.",
+          "note": "HTML allowed"
+        },
+        "i3": {
+          "text": "<strong>Rättsliga svar beror på sammanhang och jurisdiktion.</strong>Tillämplig lag, tillgänglig bevis och var de inblandade personerna och tjänsterna befinner sig kan påverka vilka åtgärder som är möjliga.",
+          "note": "HTML allowed"
+        },
+        "i4": {
+          "text": "<strong>Lagliga vägar har praktiska begränsningar.</strong>Gränsöverskridande verksamhet, identifiering av ansvariga individer, verkställighetskapacitet och rättsliga trösklar kan försvåra åtgärder.",
+          "note": "HTML allowed"
+        },
+        "i5": {
+          "text": "<strong>Ansvaret sträcker sig bortom lagen.</strong>Idrottsorganisationer kan fastställa policyer, rapporteringsrutiner, skyddsstöd och konsekvenser för skadligt beteende.",
+          "note": "HTML allowed"
+        },
+        "i6": {
+          "text": "<strong>Sportsmannaanda sträcker sig till digitala utrymmen.</strong>Respekt, rent spel och ansvarsfullt uppförande är fortfarande relevant när människor deltar i sport online.",
+          "note": "HTML allowed"
+        }
+      }
+    },
+    "slide": {
+      "title": {
+        "text": "Modul 4: Att känna till dina rättigheter och skyldigheter",
+        "note": "Module / summary slide title"
+      }
+    }
+  },
+  "m5": {
+    "layers": {
+      "ui": {
+        "prompt": {
+          "text": "Utforska de tre handlingslagren."
+        },
+        "tracksAria": {
+          "text": "Åtgärdslager"
+        },
+        "backToLayers": {
+          "text": "Tillbaka till lager"
+        },
+        "done": {
+          "text": "Alla tre lager utforskade"
+        },
+        "openLayer": {
+          "text": "Öppna lager"
+        },
+        "overview": {
+          "text": "Översikt"
+        }
+      },
+      "tracks": {
+        "t1": {
+          "num": {
+            "text": "1"
+          },
+          "title": {
+            "text": "Enskild"
+          },
+          "eyebrow": {
+            "text": "Nivå 1 · Individer"
+          },
+          "labels": {
+            "l1": {
+              "text": "Skydda dig själv"
+            },
+            "l2": {
+              "text": "Stöd andra"
+            },
+            "l3": {
+              "text": "Agera säkert"
+            }
+          },
+          "intro": {
+            "text": "<p><strong>Handling börjar med människor.</strong></p><p>Alla inom idrott kan bidra, oavsett om de upplever övergrepp online, bevittnar dem eller stödjer någon som har blivit utsatt.</p><p>Utforska sätt på vilka du kan:</p><ul><li>Skydda dig själv</li><li>Stödja andra</li><li>Agera säkert</li></ul>",
+            "note": "HTML allowed"
+          }
+        },
+        "t2": {
+          "num": {
+            "text": "2"
+          },
+          "title": {
+            "text": "Organisationer"
+          },
+          "eyebrow": {
+            "text": "Nivå 2 · Organisationer"
+          },
+          "labels": {
+            "l1": {
+              "text": "Bygg ramverk"
+            },
+            "l2": {
+              "text": "Stärk skyddet"
+            },
+            "l3": {
+              "text": "Samordna åtgärder"
+            }
+          },
+          "intro": {
+            "text": "<p>Organisationer kan tillhandahålla det ramverk, de resurser och det samordnade stöd som behövs för att skydda människor och effektivt reagera på övergrepp online. Dessa inkluderar idrottsorganisationer och förbund, klubbar och föreningar, medieorganisationer, onlineplattformar, intresseorganisationer och andra institutioner inom idrottsgemenskapen.</p><p>Utforska hur organisationer kan förbereda sig för, förebygga och reagera på övergrepp online.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "t3": {
+          "num": {
+            "text": "3"
+          },
+          "title": {
+            "text": "Samhälle"
+          },
+          "eyebrow": {
+            "text": "Nivå 3 · Samhälle"
+          },
+          "labels": {
+            "l1": {
+              "text": "Avancerad utbildning"
+            },
+            "l2": {
+              "text": "Generera bevis"
+            },
+            "l3": {
+              "text": "Formnormer"
+            }
+          },
+          "intro": {
+            "text": "<p>Onlineövergrepp formas ofta av faktorer utanför individers och organisationers omedelbara kontroll. Människors personliga sammanhang, den teknik de använder, deras tillgång till utbildning och de allmänna kulturella normerna kring dem kan alla påverka huruvida skadligt beteende uppmuntras, normaliseras, utmanas eller förebyggs.</p><p>Lär dig hur bredare sociala sammanhang kan påverka onlineövergrepp och bidra till att skapa säkrare digitala utrymmen inom sport.</p>",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "flow1": {
+      "ui": {
+        "title": {
+          "text": "Vad var och en av oss kan göra"
+        }
+      },
+      "steps": {
+        "s1": {
+          "title": {
+            "text": "Skydda dig själv"
+          },
+          "body": {
+            "text": "<p>För idrottare och andra med offentliga roller:</p><ul><li><strong>Hantera din exponering.</strong>Granska sekretess- och säkerhetsinställningar och kontrollera vem som kan kontakta, nämna eller tagga dig.</li><li><strong>Använd säkerhetsverktyg.</strong>Stäng av, begränsa, blockera och rapportera skadligt konton eller innehåll.</li><li><strong>Bevara bevis.</strong>Spara relevant information när beteende kan behöva rapporteras eller eskaleras.</li><li><strong>Skydda ditt välbefinnande.</strong>Du kan välja att ta en paus från onlineinteraktioner och söka stöd från personer du litar på.</li></ul><details><summary><strong>Varför är detta viktigt?</strong></summary><p>Ditt välbefinnande är viktigt, och stöd är ett gemensamt ansvar. När människor använder säkerhets- och välbefinnandeverktyg är de bättre rustade att förhindra skada inom den bredare idrottsgemenskapen.</p></details>",
+            "note": "HTML allowed"
+          }
+        },
+        "s2": {
+          "title": {
+            "text": "Stöd andra"
+          },
+          "body": {
+            "text": "<p>Som lagkamrat, kollega, fan, vän eller åskådare:</p><ul><li><strong>Undvik förstärkning.</strong>Förhindra ytterligare spridning av kränkande innehåll.</li><li><strong>Hör av dig privat.</strong>Erbjud personligt stöd till den utsatta personen.</li><li><strong>Rapportera på lämpligt sätt.</strong>Agera via etablerade kanaler, vanligtvis utan offentlig konfrontation.</li><li><strong>Tala ut på ett säkert sätt.</strong>Uttryck oro över kränkande beteende eller sök hjälp från någon som kan ingripa, inklusive organisationsmyndigheter eller polis vid behov.</li></ul><details><summary><strong>Varför är detta viktigt?</strong></summary><p>Att stödja andra stärker idrottsgemenskapen. Små handlingar från lagkamrater, kollegor, vänner, fans och andra åskådare kan bidra till att skapa ett socialt stödsystem där människor känner sig hörda, skyddade och omhändertagna, och där skadligt beteende är mindre sannolikt att förbli obestridligt.</p></details>",
+            "note": "HTML allowed"
+          }
+        },
+        "s3": {
+          "title": {
+            "text": "Agera säkert"
+          },
+          "body": {
+            "text": "<p>När du hanterar onlineövergrepp, tänk på situationen, din personliga säkerhet och om ytterligare stöd behövs:</p><ul><li><strong>Bedöm situationen.</strong>Tänk på beteendets art, om det eskalerar och om någon kan vara i riskzonen.</li><li><strong>Undvik osäker interaktion.</strong>Konfrontera eller engagera dig inte direkt när det kan öka skadan eller utsätta någon för risk.</li><li><strong>Vet när du ska söka stöd.</strong>Involvera en betrodd person eller lämplig kontaktperson i organisationen när situationen kräver ytterligare hjälp.</li><li><strong>Eskalera säkerhetsproblem.</strong>Hot, upprepad oönskad kontakt, exponering av personlig information eller andra säkerhetsproblem kan kräva ytterligare stöd från organisationen eller externa myndigheter.</li></ul><details><summary><strong>Varför är detta viktigt?</strong></summary><p>Att agera säkert hjälper till att koppla samman individuella åtgärder med rätt nivå av stöd. Att inse när en situation kräver ytterligare hjälp gör att andra kan engagera sig och hjälper till att säkerställa att säkerheten förblir prioritet.</p></detaljer>",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "flow2": {
+      "ui": {
+        "title": {
+          "text": "Vad organisationer kan göra"
+        }
+      },
+      "steps": {
+        "s1": {
+          "title": {
+            "text": "Förbereda"
+          },
+          "body": {
+            "text": "<p>Utveckla policyer och uppförandekoder, tillhandahålla utbildning och fortbildning samt fastställa tydliga förväntningar på digitalt beteende.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "s2": {
+          "title": {
+            "text": "Skydda"
+          },
+          "body": {
+            "text": "<p>Tillhandahålla stöd för välfärd och skydd, säkerhetsverktyg för plattformen, moderering och lämpliga mekanismer för personer i riskzonen.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "s3": {
+          "title": {
+            "text": "Svara"
+          },
+          "body": {
+            "text": "<p>Skapa tillgängliga rapporteringsvägar, bevara lämpliga register, tillämpa organisatoriska rutiner och samordna eskalering vid behov.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "s4": {
+          "title": {
+            "text": "Ansluta"
+          },
+          "body": {
+            "text": "<p>Samarbeta med andra organisationer, plattformar, myndigheter, forskare, påverkansgrupper och specialisttjänster när en respons sträcker sig utöver organisationens egna kapacitet.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "s5": {
+          "title": {
+            "text": "Starkare tillsammans"
+          },
+          "body": {
+            "text": "<p>Organisationer är starkare när de arbetar tillsammans.</p><p>Klubbar kan ge stöd i frontlinjen, förbund sätter gemensamma standarder, plattformar möjliggör rapportering och moderering, medieorganisationer hanterar publicerat innehåll och påverkansgrupper kan bidra med specialiserat stöd och utbildning. Tillsammans kan de skapa ett samordnat nätverk för skydd och åtgärder mot onlineövergrepp.</p><p><strong>UAOA:s plattform för organisationsberedskap (ORP)</strong>stöder dessa insatser genom att hjälpa idrottsorganisationer att bedöma sin beredskap, identifiera förbättringsområden och stärka sina metoder för att förebygga och hantera onlineövergrepp.</p>",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "flow3": {
+      "ui": {
+        "title": {
+          "text": "Vad som formar säkrare digital sport"
+        }
+      },
+      "steps": {
+        "s1": {
+          "title": {
+            "text": "Utbildning"
+          },
+          "body": {
+            "text": "<p>Utbildning kan hjälpa människor att känna igen övergrepp online, förstå dess konsekvenser och veta hur man reagerar på ett säkert sätt. Digital och mediekunskap kan också stärka kritiskt tänkande kring vilka beteenden som är lämpliga i online-miljöer.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "s2": {
+          "title": {
+            "text": "Delade standarder"
+          },
+          "body": {
+            "text": "<p>Tydliga förväntningar hjälper till att fastställa vilka beteenden som anses acceptabla inom idrottsgemenskaper. Gemensamma standarder kring respekt, inkludering, rent spel och digitalt deltagande kan vägleda beteenden och ge individer och organisationer en starkare grund för att utmana övergrepp.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "s3": {
+          "title": {
+            "text": "Forskning och bevis"
+          },
+          "body": {
+            "text": "<p>Evidensbaserad och datadriven forskning hjälper till att kartlägga mönster där onlineövergrepp förekommer, hur skadligt beteende utvecklas över tid och vilka åtgärder som är mer effektiva. Starkare kunskap kan ligga till grund för förebyggande åtgärder, utbildning, organisatorisk praxis, teknik och policy.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "s4": {
+          "title": {
+            "text": "Politik och lag"
+          },
+          "body": {
+            "text": "<p>Policyer och lagar kan etablera gränser, ansvar, skydd och vägar till ansvarsskyldighet. De kan påverka beteenden genom att förtydliga konsekvenser och tillhandahålla mekanismer för rapportering, ingripande och gottgörelse.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "s5": {
+          "title": {
+            "text": "Teknik- och plattformsdesign"
+          },
+          "body": {
+            "text": "<p>Utformningen av digitala plattformar kan påverka hur lätt skadligt innehåll skapas, upptäcks, förstärks, rapporteras eller tas bort. Moderering, detektering, rapporteringsverktyg och andra säkerhetsfunktioner kan bidra till att minska risken för att missbruk sprids och består.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "s6": {
+          "title": {
+            "text": "Gemenskapsnormer"
+          },
+          "body": {
+            "text": "<p>Sociala normer påverkar vad människor uppfattar som normalt, acceptabelt eller värt att utmana. Idrottare, fans, media, organisationer och offentliga personer bidrar alla till kulturen kring sport. När samhällen konsekvent utmanar kränkande beteende och förstärker respekt kan de bidra till att förändra de normer som gör att kränkningar online kan fortsätta.</p>",
+            "note": "HTML allowed"
+          }
+        },
+        "s7": {
+          "title": {
+            "text": "Att arbeta tillsammans"
+          },
+          "body": {
+            "text": "<p><strong>Dessa faktorer samverkar inom sport och i vårt samhälle.</strong></p><p>Utbildning kan forma hur människor förstår beteenden online, medan gemensamma standarder och lagar kan förtydliga förväntningar, forskning kan identifiera nya risker och teknik kan påverka hur skadligt innehåll sprids.</p><p>Idrottsgemenskaper är bara en del av vårt samhälle: de påverkas av bredare kulturella normer, och idrottare, fans, media, organisationer och andra röster inom sport kan också bidra till att forma den värld vi lever i tillsammans.</p>",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "match": {
+      "ui": {
+        "eyebrow": {
+          "text": "Kontrollera din förståelse"
+        },
+        "prompt": {
+          "text": "Matcha varje scenario till en nivå"
+        },
+        "hint": {
+          "text": "Dra varje nivåkort till matchande scenario till höger. Placera alla tre innan du skickar in dem."
+        },
+        "choicesAria": {
+          "text": "Välj en handlingsnivå"
+        },
+        "trayAria": {
+          "text": "Nivåkort"
+        },
+        "dropHint": {
+          "text": "Sänk nivån här"
+        },
+        "submit": {
+          "text": "Överlämna"
+        },
+        "feedbackOk": {
+          "text": "<strong>Det stämmer!</strong>Du har matchat varje scenario med lämplig åtgärdsnivå.",
+          "note": "HTML allowed"
+        },
+        "feedbackBad": {
+          "text": "<strong>Inte riktigt.</strong>Granska dina val och försök igen.",
+          "note": "HTML allowed"
+        },
+        "done": {
+          "text": "<strong>Det stämmer!</strong>Du har matchat varje scenario med lämplig åtgärdsnivå.",
+          "note": "HTML allowed"
+        }
+      },
+      "labels": {
+        "l0": {
+          "text": "Enskild"
+        },
+        "l1": {
+          "text": "Organisation"
+        },
+        "l2": {
+          "text": "Samhälle"
+        }
+      },
+      "scenarios": {
+        "s1": {
+          "text": {
+            "text": "Efter att ha sett en idrottare bli måltavla online, checkar någon in privat och rapporterar det skadliga innehållet utan att dela det vidare."
+          },
+          "ok": {
+            "text": "<strong>Korrekt!</strong>Att checka in privat och rapportera utan att utöka det är individuella handlingar.",
+            "note": "HTML allowed"
+          },
+          "bad": {
+            "text": "<strong>Inte riktigt.</strong>Tänk på vem som vidtar denna åtgärd just nu.<strong>Försök igen.</strong>",
+            "note": "HTML allowed"
+          }
+        },
+        "s2": {
+          "text": {
+            "text": "Efter flera incidenter av övergrepp online inför ett idrottsförbund en rapporteringsväg, personalutbildning och skyddsrutiner."
+          },
+          "ok": {
+            "text": "<strong>Korrekt!</strong>Rapporteringsvägar, utbildning och skyddsrutiner är organisatoriska ramverk.",
+            "note": "HTML allowed"
+          },
+          "bad": {
+            "text": "<strong>Inte riktigt.</strong>Fundera över vilken nivå som sätter ramar och procedurer för en idrottsorganisation.<strong>Försök igen.</strong>",
+            "note": "HTML allowed"
+          }
+        },
+        "s3": {
+          "text": {
+            "text": "Forskning visar hur en ny form av onlineövergrepp sprids, vilket bidrar till att informera utbildning, teknik och framtida politiska åtgärder."
+          },
+          "ok": {
+            "text": "<strong>Korrekt!</strong>Forskning och evidens som ligger till grund för utbildning, teknik och policy verkar på samhällsnivå.",
+            "note": "HTML allowed"
+          },
+          "bad": {
+            "text": "<strong>Inte riktigt.</strong>Fundera över vilken nivå som formar bredare utbildning, teknologi och policy.<strong>Försök igen.</strong>",
+            "note": "HTML allowed"
+          }
+        }
+      }
+    },
+    "takeaways": {
+      "heading": {
+        "text": "Viktiga slutsatser"
+      },
+      "items": {
+        "i1": {
+          "text": "<strong>Att bekämpa övergrepp online är ett gemensamt ansvar.</strong>Individer, idrottsorganisationer, plattformar, media, påverkansgrupper, beslutsfattare och andra intressenter har alla en roll i förebyggande åtgärder och åtgärder.",
+          "note": "HTML allowed"
+        },
+        "i2": {
+          "text": "<strong>Individuella åtgärder kan minska skador.</strong>Att hantera exponering, använda säkerhetsverktyg, bevara bevis, stödja andra och veta när man ska söka ytterligare hjälp kan skydda säkerhet och välbefinnande.",
+          "note": "HTML allowed"
+        },
+        "i3": {
+          "text": "<strong>Organisationer tillhandahåller struktur och stöd.</strong>Tydliga ramverk, skydd, rapporteringsvägar och samordnade åtgärder hjälper organisationer att förbereda sig för och reagera på onlineövergrepp.",
+          "note": "HTML allowed"
+        },
+        "i4": {
+          "text": "<strong>Samarbete stärker insatsen.</strong>Klubbar, förbund, plattformar, medieorganisationer, intressegrupper och andra intressenter kan bidra med olika former av stöd, expertis och åtgärder.",
+          "note": "HTML allowed"
+        },
+        "i5": {
+          "text": "<strong>Sociala förhållanden påverkar beteendet online.</strong>Utbildning, standarder, forskning, policy, teknik och kulturella normer kan påverka hur övergrepp online förstås, möjliggörs, förebyggs och utmanas.",
+          "note": "HTML allowed"
+        },
+        "i6": {
+          "text": "<strong>Idrott är en del av ett bredare socialt sammanhang.</strong>Idrottsgemenskaper påverkas av bredare kulturella normer och kan också bidra till att forma förväntningar och beteenden i hela samhället.",
+          "note": "HTML allowed"
+        }
+      }
+    },
+    "slide": {
+      "title": {
+        "text": "Modul 5: Vidta åtgärder: Bygga säkrare digitala idrottsgemenskaper",
+        "note": "Module / summary slide title"
+      },
+      "continueLayer2": {
+        "text": "Fortsätt till lager 2",
+        "note": "Nav button label"
+      },
+      "continueLayer3": {
+        "text": "Fortsätt till lager 3",
+        "note": "Nav button label"
+      },
+      "goToFinalQuiz": {
+        "text": "Gå till slutprovet",
+        "note": "Nav button label"
+      }
+    }
+  },
+  "summary": {
+    "quiz": {
+      "questions": {
+        "q1": {
+          "prompt": {
+            "text": "Ungefär hur många idrottsförbund var oroliga för att online-övergrepp skulle kunna driva ut talangfulla idrottare från idrotten, enligt UAOA-barometern 2025?<strong></strong>",
+            "note": "HTML allowed — do not bold option list items"
+          },
+          "choices": {
+            "c0": {
+              "text": "Mindre än 50 %"
+            },
+            "c1": {
+              "text": "Cirka 72 %"
+            },
+            "c2": {
+              "text": "Cirka 90 %"
+            }
+          },
+          "reveal": {
+            "text": "<strong>Cirka 90 %</strong><br>UAOA-barometern visar att ungefär nio av tio tillfrågade idrottsförbund uttryckte oro för att online-övergrepp skulle kunna driva ut begåvade idrottare från sporten. Online-övergrepp kan i slutändan påverka huruvida människor fortsätter att delta i idrottsgemenskaper.",
+            "note": "HTML allowed"
+          },
+          "next": {
+            "text": "Det verkar mycket"
+          }
+        },
+        "q2": {
+          "prompt": {
+            "text": "Enligt forskning, vad har ökad exponering för trakasserier online bland idrottare förknippats med?"
+          },
+          "choices": {
+            "c0": {
+              "text": "Psykisk stress"
+            },
+            "c1": {
+              "text": "Färre vänner"
+            },
+            "c2": {
+              "text": "Fler träningstimmar"
+            }
+          },
+          "reveal": {
+            "text": "Större exponering för trakasserier online har förknippats med<strong>högre nivåer av psykisk stress ¦, vilket belyser hur fientligt onlineinnehåll kan påverka det psykiska välbefinnandet.</strong>",
+            "note": "HTML allowed"
+          },
+          "next": {
+            "text": "Det är oroande"
+          }
+        },
+        "q3": {
+          "prompt": {
+            "text": "När en skadlig kommentar om en idrottare dyker upp online, vilka egenskaper kan påverka hur långt den når?"
+          },
+          "choices": {
+            "c0": {
+              "text": "Plattformsdesign och rekommendationssystem"
+            },
+            "c1": {
+              "text": "Användarinteraktioner och rapporteringsmekanismer"
+            },
+            "c2": {
+              "text": "Både"
+            }
+          },
+          "reveal": {
+            "text": "<strong>Båda.</strong>Plattformsdesign, rekommendationssystem, användarinteraktioner och rapporteringsmekanismer kan påverka hur skadligt innehåll sprids och når nya målgrupper.",
+            "note": "HTML allowed"
+          },
+          "next": {
+            "text": "Det är vettigt"
+          }
+        },
+        "q4": {
+          "prompt": {
+            "text": "<span class=\"scenario\">Om en spelare får förödmjukande kommentarer efter en förlust. Liknande meddelanden översvämmar deras konto i dagar och attackerar även deras ras.</span>Vad händer?",
+            "note": "HTML allowed"
+          },
+          "choices": {
+            "c0": {
+              "text": "Endast kränkande tal"
+            },
+            "c1": {
+              "text": "Endast digital fientlighet och hatpropaganda"
+            },
+            "c2": {
+              "text": "Flera former av onlineövergrepp överlappar varandra"
+            }
+          },
+          "reveal": {
+            "text": "<strong>Flera former kan överlappa varandra.</strong><br>Det förödmjukande språket är kränkande tal, den upprepade offentliga aggressionen skapar digital fientlighet och rasistiska riktade insatser kan utgöra hatpropaganda.",
+            "note": "HTML allowed"
+          },
+          "next": {
+            "text": "Låt oss agera!"
+          }
+        },
+        "q5": {
+          "prompt": {
+            "text": "Vilket är det bästa rådet för att vara säker när någon utsätts för övergrepp online?"
+          },
+          "choices": {
+            "c0": {
+              "text": "Svara direkt för att stoppa beteendet"
+            },
+            "c1": {
+              "text": "Bedöm situationen, undvik osäkert engagemang och rapportera på lämpligt sätt"
+            },
+            "c2": {
+              "text": "Ta bort innehållet och lämna plattformen"
+            }
+          },
+          "reveal": {
+            "text": "<strong>Agera säkert och använd rätt rapporteringskanaler.</strong><br>Bedöm om beteendet eskalerar eller om någon kan vara i riskzonen, undvik osäker interaktion, bevara relevant bevis och rapportera via lämplig plattform eller organisatoriska kanaler. Sök ytterligare stöd vid behov.",
+            "note": "HTML allowed"
+          },
+          "next": {
+            "text": "Fortsätta"
+          }
+        },
+        "q6": {
+          "prompt": {
+            "text": "Kan befintliga lagar bidra till att skydda människor från onlineövergrepp, inklusive övergrepp som involverar AI-genererat innehåll?"
+          },
+          "choices": {
+            "c0": {
+              "text": "Ja, men skyddet varierar mellan länder."
+            },
+            "c1": {
+              "text": "Endast när misshandeln innefattar fysiska hot."
+            },
+            "c2": {
+              "text": "Endast när innehållet delas offentligt."
+            }
+          },
+          "reveal": {
+            "text": "<strong>Lagar kan bidra till att skydda människor från onlineövergrepp.</strong><br>Rättsligt skydd och ansvar varierar dock mellan länder. Vissa jurisdiktioner har infört specifika åtgärder mot AI-genererade intima bilder och andra former av digitala övergrepp.",
+            "note": "HTML allowed"
+          },
+          "next": {
+            "text": "Lagar är bara en del av svaret. Vad mer kan vi göra?"
+          }
+        },
+        "q7": {
+          "prompt": {
+            "text": "<span class=\"scenario\">En lagkamrat har fått kränkande meddelanden och verkar alltmer bekymrad.</span>Vad är den starkaste reaktionen från ett stödjande system?",
+            "note": "HTML allowed"
+          },
+          "choices": {
+            "c0": {
+              "text": "Dela meddelandena offentligt så att andra kan försvara dem"
+            },
+            "c1": {
+              "text": "Hör av dig privat och hjälp dem att få tillgång till lämpligt stöd"
+            },
+            "c2": {
+              "text": "Begränsa interaktionerna med lagkamraterna"
+            }
+          },
+          "reveal": {
+            "text": "<strong>Stöd börjar med dig!</strong><br>Hör av dig privat, undvik att förstärka kränkningarna, använd lämpliga rapporteringskanaler och säg ifrån när det är säkert att göra det.",
+            "note": "HTML allowed"
+          },
+          "next": {
+            "text": "Allas säkerhet är viktig!"
+          }
+        },
+        "q8": {
+          "prompt": {
+            "text": "Positiv handling börjar med var och en av oss. Vad kan vi göra?"
+          },
+          "choices": {
+            "c0": {
+              "text": "Skydda dig själv, stöd andra, agera säkert"
+            },
+            "c1": {
+              "text": "Övervaka innehåll, konfrontera förövaren, radera bevis"
+            },
+            "c2": {
+              "text": "Rapportera allt, svara offentligt, stanna online"
+            }
+          },
+          "reveal": {
+            "text": "<strong>Skydda dig själv. Stöd andra. Agera säkert.</strong><br>Vi kan hantera vår exponering på sociala medier, använda säkerhetsverktyg, bevara bevis, stödja andra som är måltavlor och känna igen när en situation kräver ytterligare hjälp.",
+            "note": "HTML allowed"
+          },
+          "next": {
+            "text": "Självklart kan vi det!"
+          }
+        },
+        "q9": {
+          "prompt": {
+            "text": "<strong>Organisationer har också en roll.</strong>Flera personer inom en idrottsorganisation har rapporterat övergrepp online.<br>Vad skulle skapa den starkaste organisatoriska responsen?",
+            "note": "HTML allowed"
+          },
+          "choices": {
+            "c0": {
+              "text": "Fokusera främst på att hantera enskilda incidenter"
+            },
+            "c1": {
+              "text": "Bygg ramverk, stärk skyddsåtgärder och samordna åtgärder"
+            },
+            "c2": {
+              "text": "Förvänta dig att plattformarna ska hantera problemet"
+            }
+          },
+          "reveal": {
+            "text": "Effektiva organisatoriska åtgärder kopplar samman förberedelse, skydd, respons och samarbete.",
+            "note": "HTML allowed"
+          },
+          "next": {
+            "text": "Berätta mer!"
+          }
+        },
+        "q10": {
+          "prompt": {
+            "text": "<span class=\"scenario\">Onlineövergrepp formas också av omständigheter som går utöver en enskild person eller organisation.</span>Vilka kan påverka om skadligt beteende normaliseras, utmanas eller förebyggs?",
+            "note": "HTML allowed"
+          },
+          "choices": {
+            "c0": {
+              "text": "Utbildning och samhällsnormer"
+            },
+            "c1": {
+              "text": "Forskning och policyer"
+            },
+            "c2": {
+              "text": "Teknik och AI-lösningar"
+            },
+            "c3": {
+              "text": "Alla dessa"
+            }
+          },
+          "reveal": {
+            "text": "<strong>Allt detta.</strong>Utbildning, gemensamma standarder, forskning och evidens, policy och lag, tekniska lösningar och plattformsdesign, samt samhällsnormer kan alla forma beteendet online.<br><br>Idrott påverkas av dessa bredare sociala förhållanden, och idrottsgemenskaper kan också bidra till att forma den värld vi lever i tillsammans.",
+            "note": "HTML allowed"
+          },
+          "next": {
+            "text": "Starkare tillsammans!"
+          }
+        },
+        "q11": {
+          "prompt": {
+            "text": "Vill du vidta ytterligare åtgärder med UAOA?"
+          },
+          "choices": {
+            "c0": {
+              "text": "Jag vill vidta åtgärder"
+            },
+            "c1": {
+              "text": "Jag vill fortsätta lära mig"
+            },
+            "c2": {
+              "text": "Jag vill stärka min organisation"
+            },
+            "c3": {
+              "text": "Inte just nu"
+            }
+          },
+          "reveal": {
+            "text": "<strong>Det finns olika sätt att agera.</strong>UAOA sammanför människor och organisationer inom idrott för att stärka hur de förbereder sig för, förebygger och reagerar på onlineövergrepp.",
+            "note": "HTML allowed — ungraded item"
+          },
+          "next": {
+            "text": "Se din beredskap!"
+          },
+          "links": {
+            "act": {
+              "text": "Utforska UAOA-initiativ och Stronger Together"
+            },
+            "learn": {
+              "text": "UAOA-forskning, evidens och utbildningsresurser"
+            },
+            "org": {
+              "text": "UAOA:s organisatoriska resurser"
+            }
+          }
+        }
+      },
+      "ui": {
+        "chooseOne": {
+          "text": "Välj ett svar",
+          "note": "Hint under the question on the open final-quiz layout"
+        },
+        "ok": {
+          "text": "OK",
+          "note": "Confirm selection before reveal"
+        },
+        "pressEnter": {
+          "text": "tryck Enter ↵",
+          "note": "Keyboard hint beside OK"
+        },
+        "questionOf": {
+          "text": "Fråga {n} av {totalt}",
+          "note": "Footer progress; {n} and {total} are replaced in JS"
+        },
+        "choicesAria": {
+          "text": "Svarsalternativ",
+          "note": "aria-label on options group"
+        },
+        "prevAria": {
+          "text": "Föregående fråga",
+          "note": "aria-label on prev chevron"
+        },
+        "nextAria": {
+          "text": "Nästa fråga",
+          "note": "aria-label on next chevron when advancing"
+        }
+      },
+      "score": {
+        "youScored": {
+          "text": "Du gjorde mål",
+          "note": "Flip-card modal front label above large %"
+        },
+        "clickToComplete": {
+          "text": "Klicka för att slutföra",
+          "note": "Flip-card modal front CTA"
+        },
+        "headline": {
+          "text": "Du fick {pct}%!",
+          "note": "Legacy / optional; modal uses youScored + large %"
+        },
+        "body": {
+          "text": "Du har lärt dig att känna igen övergrepp online, förstå dess inverkan och agera säkrare i individuella, organisatoriska och bredare idrottsliga sammanhang."
+        },
+        "note": {
+          "text": "Ditt resultat återspeglar din förståelse av de viktigaste begreppen som behandlas i den här kursen."
+        },
+        "finish": {
+          "text": "Nära",
+          "note": "Closes readiness flip modal on the back face"
+        }
+      }
+    },
+    "furtherAction": {
+      "questions": {
+        "q1": {
+          "prompt": {
+            "text": "Vill du vidta ytterligare åtgärder med UAOA?"
+          },
+          "choices": {
+            "c0": {
+              "text": "Jag vill vidta åtgärder"
+            },
+            "c1": {
+              "text": "Jag vill fortsätta lära mig"
+            },
+            "c2": {
+              "text": "Jag vill stärka min organisation"
+            },
+            "c3": {
+              "text": "Inte just nu"
+            }
+          },
+          "ok": {
+            "text": "<strong>Det finns olika sätt att agera.</strong>UAOA sammanför människor och organisationer inom idrott för att stärka hur de förbereder sig för, förebygger och reagerar på onlineövergrepp.",
+            "note": "HTML allowed — legacy further-action widget; Q11 lives in summary.quiz"
+          }
+        }
+      }
+    },
+    "slide": {
+      "title": {
+        "text": "Sammanfattning: Viktiga slutsatser",
+        "note": "Module / summary slide title"
+      },
+      "finishCourse": {
+        "text": "Avsluta kursen",
+        "note": "Nav button label"
+      },
+      "postSurvey": {
+        "text": "Gör enkäten efter kursen",
+        "note": "Nav button label"
+      },
+      "getCertificate": {
+        "text": "Få ditt certifikat",
+        "note": "Nav button label"
+      }
+    }
+  },
+  "embeds": {
+    "sensitiveNotice": {
+      "title": {
+        "text": "Meddelande om känsligt ämne"
+      },
+      "body": {
+        "text": "Den här kursen behandlar ämnen som vissa läsare kan tycka är svåra eller upprörande. Du uppmuntras att arbeta dig igenom materialet i en takt som känns lämplig och att söka stöd där det behövs. Kom ihåg att du kan avsluta kursen när som helst och återvända när du känner dig redo."
+      },
+      "viewSupport": {
+        "text": "Visa supportalternativ"
+      },
+      "supportTitle": {
+        "text": "Supportalternativ"
+      },
+      "supportIntro": {
+        "text": "Om något i den här kursen har påverkat dig kan du pausa och återkomma när du känner dig redo."
+      },
+      "someoneTrusted": {
+        "text": "Någon du litar på"
+      },
+      "someoneTrustedDetail": {
+        "text": "En vän, familjemedlem, lagkamrat eller tränare."
+      },
+      "orgLead": {
+        "text": "Din organisations ansvariga för välfärd eller skydd"
+      },
+      "closeAria": {
+        "text": "Nära"
+      }
+    },
+    "miniDictionary": {
+      "teaser": {
+        "text": "Vill du lära dig om andra former av nätövergrepp?"
+      },
+      "bodyBefore": {
+        "text": "Onlineövergrepp kan ta sig många former utöver de tre beteenden som presenteras här. Utforska"
+      },
+      "linkLabel": {
+        "text": "Miniordbok"
+      },
+      "bodyAfter": {
+        "text": "för en snabb referens till andra taktiker du kan stöta på online."
+      },
+      "discretionLabel": {
+        "text": "Läsarens bedömning:"
+      },
+      "discretion": {
+        "text": "Vissa inlägg beskriver skadliga eller kränkande beteenden som kan vara känsliga eller upprörande. Utforska denna resurs efter eget gottfinnande och återvänd till kursen när du är redo."
+      },
+      "cta": {
+        "text": "Utforska miniordboken"
+      },
+      "closeAria": {
+        "text": "Nära"
+      },
+      "title": {
+        "text": "Miniordbok: Andra möjliga former av onlinemissbruk",
+        "note": "Dictionary document title"
+      },
+      "fullText": {
+        "text": "Miniordbok: Andra möjliga former av onlinemissbruk\nGiftigt innehåll\n* Avsiktlig förlägenhet - Att avsiktligt orsaka någon skam eller förödmjukelse, ofta offentligt.\n* Cybermobbning - Upprepad användning av elektronisk kommunikation för att skrämma, skrämma eller skämma ut en person.\n* Trolling - Att publicera provocerande eller stötande meddelanden för att utlösa starka reaktioner eller störa diskussionen.\n* Svordomar eller stötande innehåll - Vulgärt eller respektlöst språk, bilder eller kommunikation.\n* Hot om våld - Meddelanden avsedda att skapa rädsla för fysisk skada.\n* Uppvigling - Att uppmana andra att agera våldsamt eller olagligt.\n* Sexuella trakasserier - Oönskade sexuella närmanden eller kommentarer.\n* Oönskat explicit innehåll - Att dela sexuellt explicita bilder eller meddelanden utan samtycke.\n\nInnehållsläckage\n* Sextortion - Utpressning som hotar att släppa privat material om inte krav uppfylls.\n* Doxxing - Att publicera privat eller identifierande information med illvillig avsikt.\n* Outing - Att avslöja någons sexualitet eller könsidentitet utan tillstånd.\n* Deadnaming - Att använda en transperson eller icke-binär persons tidigare namn utan samtycke.\n* Bildexponering utan samtycke - Dela privata eller intima bilder eller videor utan samtycke.\n* Läckta chattar eller profiler - Exponera privata konversationer eller konton utan tillstånd.\n\nÖverbelastning\n* System- eller kontoöversvämning - Överväldiga en person eller plattform med överdrivet innehåll eller förfrågningar om att störa tjänsten eller tysta tal.\n* Zoombombning - Oönskat intrång i ett videosamtal för att störa det.\n* Negativa betyg och recensioner - Samordnad orättvis eller partisk feedback avsedd att skada ett rykte.\n\nFalsk rapportering\n* Swatting - Ett falskt nödsamtal avsett att utlösa en beväpnad polisinsats på någons plats.\n* Förfalskad missbruksrapport - Medvetet lämna in en falsk rapport för att orsaka skada.\n* Förfalskad missbruksflagga - Felaktigt flagga legitimt innehåll som kränkande för att få det borttaget eller censurerat.\n\nImitation\n* Imiterade profiler - Falska konton skapade för att lura eller bedra.\n* Imiterade chattar eller bilder - Fabricerat eller förändrat innehåll som falskeligen tillskrivs någon.\n* Syntetisk pornografi - Deepfake-teknik som används för att skapa explicit innehåll utan samtycke.\n* Personifierade webbsidor - Förfalskade webbplatser byggda för att lura användare eller skada en konkurrents ställning.\n* Kapad kommunikation - Obehörigt övertagande av ett konto eller en kanal för att sprida falska meddelanden.\n\nÖvervakning\n* Stalking eller spårning - Upprepad, oönskad övervakning av en persons rörelser eller aktivitet.\n* Kontoövervakning - Obehörig åtkomst till och spårning av någons kontoaktivitet.\n* Enhetsövervakning - Obehörig spårning av aktivitet på en persons telefon, dator eller surfplatta.\n* IoT-övervakning - Passiv datainsamling från bärbara enheter eller smarta enheter utan samtycke.\n* Webbläsarövervakning - Spårning av någons webbhistorik eller aktivitet utan deras vetskap.\n\nUtlåsning och kontroll\n* Innehållsradering - Obehörig borttagning av filer, inlägg eller data för att undertrycka information eller orsaka skada.\n* Kapning av webbläsare eller enheter - Ta kontroll över någons webbläsare eller anslutna enheter utan samtycke.\n* Kontoutlåsningar - Avsiktligt blockera en person från att komma åt sina egna konton eller innehåll.",
+        "note": "Full mini-dictionary source; HTML/markdown structure — translate carefully"
+      }
+    },
+    "scroll": {
+      "continue": {
+        "text": "Fortsätta",
+        "note": "Scroll / fade continue control"
+      },
+      "continueAria": {
+        "text": "Fortsätt till mer innehåll"
+      },
+      "continueRevealAria": {
+        "text": "Fortsätt att avslöja mer innehåll"
+      },
+      "noBlock": {
+        "text": "Inget följande block hittades på den här bilden.",
+        "note": "Dev/fallback message"
+      }
+    }
+  },
+  "player": {
+    "systemLabels": {
+      "access": {
+        "choose_nickname": {
+          "text": "Välj ett smeknamn",
+          "note": "ScormStack player/system label `access.choose_nickname`"
+        },
+        "contact_provider": {
+          "text": "Kontakta kursleverantören om du behöver lösenordet.",
+          "note": "ScormStack player/system label `access.contact_provider`"
+        },
+        "continue": {
+          "text": "Fortsätta",
+          "note": "ScormStack player/system label `access.continue`"
+        },
+        "enter_email": {
+          "text": "Ange din e-postadress",
+          "note": "ScormStack player/system label `access.enter_email`"
+        },
+        "enter_email_description": {
+          "text": "Vi använder din e-postadress för att identifiera dig",
+          "note": "ScormStack player/system label `access.enter_email_description`"
+        },
+        "enter_email_placeholder": {
+          "text": "din@e-post.com",
+          "note": "ScormStack player/system label `access.enter_email_placeholder`"
+        },
+        "enter_name": {
+          "text": "Ange ditt namn",
+          "note": "ScormStack player/system label `access.enter_name`"
+        },
+        "enter_password": {
+          "text": "Ange lösenord",
+          "note": "ScormStack player/system label `access.enter_password`"
+        },
+        "failed_to_save": {
+          "text": "Misslyckades med att spara. Försök igen.",
+          "note": "ScormStack player/system label `access.failed_to_save`"
+        },
+        "field_required": {
+          "text": "Detta fält är obligatoriskt",
+          "note": "ScormStack player/system label `access.field_required`"
+        },
+        "incorrect_password": {
+          "text": "Felaktigt lösenord. Försök igen.",
+          "note": "ScormStack player/system label `access.incorrect_password`"
+        },
+        "invalid_email": {
+          "text": "Ange en giltig e-postadress",
+          "note": "ScormStack player/system label `access.invalid_email`"
+        },
+        "max_length": {
+          "text": "Måste vara högst 100 tecken långt",
+          "note": "ScormStack player/system label `access.max_length`"
+        },
+        "min_length": {
+          "text": "Måste vara minst 2 tecken",
+          "note": "ScormStack player/system label `access.min_length`"
+        },
+        "name_description": {
+          "text": "Ange ditt namn för att identifiera dig",
+          "note": "ScormStack player/system label `access.name_description`"
+        },
+        "name_placeholder": {
+          "text": "t.ex. John Doe",
+          "note": "ScormStack player/system label `access.name_placeholder`"
+        },
+        "nickname_description": {
+          "text": "Välj ett smeknamn för att identifiera dig själv",
+          "note": "ScormStack player/system label `access.nickname_description`"
+        },
+        "nickname_placeholder": {
+          "text": "t.ex. BluePhoenix42",
+          "note": "ScormStack player/system label `access.nickname_placeholder`"
+        },
+        "password_description": {
+          "text": "Denna kurs är lösenordsskyddad. Ange lösenordet för att komma åt innehållet.",
+          "note": "ScormStack player/system label `access.password_description`"
+        },
+        "password_not_configured": {
+          "text": "Lösenordsverifiering är inte korrekt konfigurerad.",
+          "note": "ScormStack player/system label `access.password_not_configured`"
+        },
+        "password_required": {
+          "text": "Lösenord krävs",
+          "note": "ScormStack player/system label `access.password_required`"
+        },
+        "progress_tracked": {
+          "text": "Dina framsteg kommer att följas",
+          "note": "ScormStack player/system label `access.progress_tracked`"
+        },
+        "saved": {
+          "text": "Sparad!",
+          "note": "ScormStack player/system label `access.saved`"
+        },
+        "saving": {
+          "text": "Sparande...",
+          "note": "ScormStack player/system label `access.saving`"
+        },
+        "unable_to_verify": {
+          "text": "Det gick inte att verifiera lösenordet. Försök igen.",
+          "note": "ScormStack player/system label `access.unable_to_verify`"
+        },
+        "verifying": {
+          "text": "Verifierar...",
+          "note": "ScormStack player/system label `access.verifying`"
+        }
+      },
+      "accordion": {
+        "collapse": {
+          "text": "Kollapsa",
+          "note": "ScormStack player/system label `accordion.collapse`"
+        },
+        "expand": {
+          "text": "Expandera",
+          "note": "ScormStack player/system label `accordion.expand`"
+        }
+      },
+      "assessment": {
+        "assessment_not_passed": {
+          "text": "Bedömning inte godkänd",
+          "note": "ScormStack player/system label `assessment.assessment_not_passed`"
+        },
+        "assessment_passed": {
+          "text": "Bedömning godkänd",
+          "note": "ScormStack player/system label `assessment.assessment_passed`"
+        },
+        "assessment_results": {
+          "text": "Bedömningsresultat",
+          "note": "ScormStack player/system label `assessment.assessment_results`"
+        },
+        "attempts": {
+          "text": "Försök",
+          "note": "ScormStack player/system label `assessment.attempts`"
+        },
+        "attempts_available": {
+          "text": "tillgängliga försök",
+          "note": "ScormStack player/system label `assessment.attempts_available`"
+        },
+        "attempts_per_question": {
+          "text": "Maximalt antal försök per fråga är",
+          "note": "ScormStack player/system label `assessment.attempts_per_question`"
+        },
+        "blanks": {
+          "text": "tomma rutor",
+          "note": "ScormStack player/system label `assessment.blanks`"
+        },
+        "case_insensitive": {
+          "text": "Skiftlägeskänslig",
+          "note": "ScormStack player/system label `assessment.case_insensitive`"
+        },
+        "case_sensitive": {
+          "text": "Skiftlägeskänsligt",
+          "note": "ScormStack player/system label `assessment.case_sensitive`"
+        },
+        "complete_assessment": {
+          "text": "Fullständig bedömning",
+          "note": "ScormStack player/system label `assessment.complete_assessment`"
+        },
+        "continue_assessment": {
+          "text": "Fortsätt bedömningen",
+          "note": "ScormStack player/system label `assessment.continue_assessment`"
+        },
+        "correct": {
+          "text": "Rätta",
+          "note": "ScormStack player/system label `assessment.correct`"
+        },
+        "correct_answer": {
+          "text": "Rätt svar",
+          "note": "ScormStack player/system label `assessment.correct_answer`"
+        },
+        "edit_response": {
+          "text": "Redigera svar",
+          "note": "ScormStack player/system label `assessment.edit_response`"
+        },
+        "empty_description": {
+          "text": "Lägg till frågor för att göra denna bedömning tillgänglig.",
+          "note": "ScormStack player/system label `assessment.empty_description`"
+        },
+        "enter_response": {
+          "text": "Skriv in ditt svar här...",
+          "note": "ScormStack player/system label `assessment.enter_response`"
+        },
+        "explanation": {
+          "text": "Förklaring",
+          "note": "ScormStack player/system label `assessment.explanation`"
+        },
+        "fill_in_blank": {
+          "choose": {
+            "text": "Välja...",
+            "note": "ScormStack player/system label `assessment.fill_in_blank.choose`"
+          },
+          "type_here": {
+            "text": "Skriv här...",
+            "note": "ScormStack player/system label `assessment.fill_in_blank.type_here`"
+          }
+        },
+        "incorrect": {
+          "text": "Felaktig",
+          "note": "ScormStack player/system label `assessment.incorrect`"
+        },
+        "next_question": {
+          "text": "Nästa fråga",
+          "note": "ScormStack player/system label `assessment.next_question`"
+        },
+        "numerical": {
+          "tolerance": {
+            "text": "Tolerans",
+            "note": "ScormStack player/system label `assessment.numerical.tolerance`"
+          },
+          "type_here": {
+            "text": "Skriv här...",
+            "note": "ScormStack player/system label `assessment.numerical.type_here`"
+          }
+        },
+        "of": {
+          "text": "av",
+          "note": "ScormStack player/system label `assessment.of`"
+        },
+        "overview": {
+          "text": "Översikt",
+          "note": "ScormStack player/system label `assessment.overview`"
+        },
+        "partially_correct": {
+          "text": "Delvis korrekt",
+          "note": "ScormStack player/system label `assessment.partially_correct`"
+        },
+        "points_possible": {
+          "text": "Möjliga poäng",
+          "note": "ScormStack player/system label `assessment.points_possible`"
+        },
+        "previous": {
+          "text": "Tidigare",
+          "note": "ScormStack player/system label `assessment.previous`"
+        },
+        "progress": {
+          "text": "Framsteg",
+          "note": "ScormStack player/system label `assessment.progress`"
+        },
+        "question": {
+          "text": "Fråga",
+          "note": "ScormStack player/system label `assessment.question`"
+        },
+        "questions": {
+          "text": "Frågor",
+          "note": "ScormStack player/system label `assessment.questions`"
+        },
+        "required": {
+          "text": "Nödvändig",
+          "note": "ScormStack player/system label `assessment.required`"
+        },
+        "response_saved": {
+          "text": "Svar sparat",
+          "note": "ScormStack player/system label `assessment.response_saved`"
+        },
+        "results": {
+          "text": "Resultat",
+          "note": "ScormStack player/system label `assessment.results`"
+        },
+        "review_questions": {
+          "text": "Granskningsfrågor",
+          "note": "ScormStack player/system label `assessment.review_questions`"
+        },
+        "score": {
+          "text": "Göra",
+          "note": "ScormStack player/system label `assessment.score`"
+        },
+        "start_assessment": {
+          "text": "Starta bedömning",
+          "note": "ScormStack player/system label `assessment.start_assessment`"
+        },
+        "string": {
+          "type_here": {
+            "text": "Skriv här...",
+            "note": "ScormStack player/system label `assessment.string.type_here`"
+          }
+        },
+        "submit": {
+          "text": "Överlämna",
+          "note": "ScormStack player/system label `assessment.submit`"
+        },
+        "submitted": {
+          "text": "Svar inskickat",
+          "note": "ScormStack player/system label `assessment.submitted`"
+        },
+        "success_meter": {
+          "checkpoint_reached": {
+            "text": "Kontrollpunkt nådd!",
+            "note": "ScormStack player/system label `assessment.success_meter.checkpoint_reached`"
+          },
+          "continue_with_extra_questions": {
+            "text": "Fortsätt med extra frågor",
+            "note": "ScormStack player/system label `assessment.success_meter.continue_with_extra_questions`"
+          },
+          "extra_question": {
+            "text": "Extra fråga",
+            "note": "ScormStack player/system label `assessment.success_meter.extra_question`"
+          },
+          "lets_try_a_few_more_questions_to_boost_your_score": {
+            "text": "Nu ska vi prova några fler frågor för att höja din poäng!",
+            "note": "ScormStack player/system label `assessment.success_meter.lets_try_a_few_more_questions_to_boost_your_score`"
+          },
+          "maximum_attempts_reached": {
+            "text": "Maximalt antal försök uppnådda",
+            "note": "ScormStack player/system label `assessment.success_meter.maximum_attempts_reached`"
+          },
+          "performance_level": {
+            "text": "Nivå",
+            "note": "ScormStack player/system label `assessment.success_meter.performance_level`"
+          },
+          "points": {
+            "text": "Poäng",
+            "note": "ScormStack player/system label `assessment.success_meter.points`"
+          },
+          "to_complete_the_assessment": {
+            "text": "för att slutföra bedömningen",
+            "note": "ScormStack player/system label `assessment.success_meter.to_complete_the_assessment`"
+          },
+          "you_need": {
+            "text": "Du behöver",
+            "note": "ScormStack player/system label `assessment.success_meter.you_need`"
+          }
+        },
+        "total_point_possible": {
+          "text": "Den totala möjliga poängen är",
+          "note": "ScormStack player/system label `assessment.total_point_possible`"
+        },
+        "total_points_possible": {
+          "text": "De totala möjliga poängen är",
+          "note": "ScormStack player/system label `assessment.total_points_possible`"
+        },
+        "try_again": {
+          "text": "Försök igen",
+          "note": "ScormStack player/system label `assessment.try_again`"
+        },
+        "ungraded_submitted": {
+          "text": "Svar inskickat",
+          "note": "ScormStack player/system label `assessment.ungraded_submitted`"
+        },
+        "unlimited_attempts": {
+          "text": "Du har obegränsat antal försök att svara på den här bedömningen",
+          "note": "ScormStack player/system label `assessment.unlimited_attempts`"
+        },
+        "view_results": {
+          "text": "Visa resultat",
+          "note": "ScormStack player/system label `assessment.view_results`"
+        }
+      },
+      "audio": {
+        "show_transcript": {
+          "text": "Visa transkription",
+          "note": "ScormStack player/system label `audio.show_transcript`"
+        }
+      },
+      "categorization": {
+        "drop_here": {
+          "text": "Släpp föremål här",
+          "note": "ScormStack player/system label `categorization.drop_here`"
+        },
+        "item": {
+          "text": "Punkt",
+          "note": "ScormStack player/system label `categorization.item`"
+        }
+      },
+      "click_on_image": {
+        "click_to_place_area": {
+          "text": "Klicka för att placera ett område",
+          "note": "ScormStack player/system label `click_on_image.click_to_place_area`"
+        },
+        "click_to_place_area_to_remove": {
+          "text": "Klicka på det placerade området för att ta bort det",
+          "note": "ScormStack player/system label `click_on_image.click_to_place_area_to_remove`"
+        },
+        "click_to_place_areas": {
+          "text": "Klicka för att placera områden",
+          "note": "ScormStack player/system label `click_on_image.click_to_place_areas`"
+        },
+        "click_to_place_areas_to_remove": {
+          "text": "Klicka på placerade områden för att ta bort dem",
+          "note": "ScormStack player/system label `click_on_image.click_to_place_areas_to_remove`"
+        },
+        "click_to_place_areas_up_to_end": {
+          "text": ").",
+          "note": "ScormStack player/system label `click_on_image.click_to_place_areas_up_to_end`"
+        },
+        "click_to_place_areas_up_to_start": {
+          "text": "(fram till",
+          "note": "ScormStack player/system label `click_on_image.click_to_place_areas_up_to_start`"
+        }
+      },
+      "completion": {
+        "completed_description": {
+          "text": "Du har avslutat den här kursen. Bra jobbat!",
+          "note": "ScormStack player/system label `completion.completed_description`"
+        },
+        "completed_title": {
+          "text": "Kursen är avslutad",
+          "note": "ScormStack player/system label `completion.completed_title`"
+        },
+        "continue_reviewing": {
+          "text": "Fortsätt granska",
+          "note": "ScormStack player/system label `completion.continue_reviewing`"
+        },
+        "debug_info": {
+          "text": "Felsökningsinformation",
+          "note": "ScormStack player/system label `completion.debug_info`"
+        },
+        "exit_course": {
+          "text": "Avsluta kursen",
+          "note": "ScormStack player/system label `completion.exit_course`"
+        },
+        "failed_description": {
+          "text": "Du har avslutat den här kursen. Du kanske vill repetera materialet och försöka igen för att uppnå ett godkänt resultat.",
+          "note": "ScormStack player/system label `completion.failed_description`"
+        },
+        "na": {
+          "text": "Ej tillämpligt",
+          "note": "ScormStack player/system label `completion.na`"
+        },
+        "passed_title": {
+          "text": "Grattis! Du klarade det!",
+          "note": "ScormStack player/system label `completion.passed_title`"
+        },
+        "passing": {
+          "text": "Godkänd",
+          "note": "ScormStack player/system label `completion.passing`"
+        },
+        "score": {
+          "text": "Göra",
+          "note": "ScormStack player/system label `completion.score`"
+        },
+        "scorm_version": {
+          "text": "SCORM-version",
+          "note": "ScormStack player/system label `completion.scorm_version`"
+        },
+        "status": {
+          "text": "Status",
+          "note": "ScormStack player/system label `completion.status`"
+        },
+        "your_score": {
+          "text": "Ditt resultat",
+          "note": "ScormStack player/system label `completion.your_score`"
+        }
+      },
+      "continue": {
+        "auto_progress": {
+          "text": "Automatisk framsteg efter fördröjning",
+          "note": "ScormStack player/system label `continue.auto_progress`"
+        },
+        "button_text": {
+          "text": "Knapptext",
+          "note": "ScormStack player/system label `continue.button_text`"
+        },
+        "continue": {
+          "text": "Fortsätta",
+          "note": "ScormStack player/system label `continue.continue`"
+        }
+      },
+      "flashcard": {
+        "card": {
+          "text": "Flashcard",
+          "note": "ScormStack player/system label `flashcard.card`"
+        },
+        "card_number": {
+          "text": "Kort",
+          "note": "ScormStack player/system label `flashcard.card_number`"
+        },
+        "click_to_flip": {
+          "text": "Klicka för att vända",
+          "note": "ScormStack player/system label `flashcard.click_to_flip`"
+        },
+        "click_to_flip_back": {
+          "text": "Klicka för att bläddra bakåt",
+          "note": "ScormStack player/system label `flashcard.click_to_flip_back`"
+        },
+        "no_flashcards": {
+          "text": "Inga flashcards tillgängliga",
+          "note": "ScormStack player/system label `flashcard.no_flashcards`"
+        },
+        "press_to_flip": {
+          "text": "Tryck Enter eller mellanslag för att bläddra",
+          "note": "ScormStack player/system label `flashcard.press_to_flip`"
+        },
+        "showing_back": {
+          "text": "Visar baksidan",
+          "note": "ScormStack player/system label `flashcard.showing_back`"
+        },
+        "showing_front": {
+          "text": "Visar framsidan",
+          "note": "ScormStack player/system label `flashcard.showing_front`"
+        }
+      },
+      "flow": {
+        "begin": {
+          "text": "Börja",
+          "note": "ScormStack player/system label `flow.begin`"
+        },
+        "of": {
+          "text": "av",
+          "note": "ScormStack player/system label `flow.of`"
+        },
+        "start_again": {
+          "text": "Börja om",
+          "note": "ScormStack player/system label `flow.start_again`"
+        },
+        "step": {
+          "text": "Steg",
+          "note": "ScormStack player/system label `flow.step`"
+        }
+      },
+      "general": {
+        "cancel": {
+          "text": "Avboka",
+          "note": "ScormStack player/system label `general.cancel`"
+        },
+        "close": {
+          "text": "Nära",
+          "note": "ScormStack player/system label `general.close`"
+        },
+        "download": {
+          "text": "Ladda ner",
+          "note": "ScormStack player/system label `general.download`"
+        },
+        "error": {
+          "text": "Fel",
+          "note": "ScormStack player/system label `general.error`"
+        },
+        "loading": {
+          "text": "Belastning...",
+          "note": "ScormStack player/system label `general.loading`"
+        },
+        "retry": {
+          "text": "Försöka igen",
+          "note": "ScormStack player/system label `general.retry`"
+        },
+        "save": {
+          "text": "Spara",
+          "note": "ScormStack player/system label `general.save`"
+        }
+      },
+      "homepage": {
+        "course_home": {
+          "text": "Hem",
+          "note": "ScormStack player/system label `homepage.course_home`"
+        },
+        "start_course": {
+          "text": "Starta kursen",
+          "note": "ScormStack player/system label `homepage.start_course`"
+        },
+        "table_of_contents": {
+          "text": "Innehållsförteckning",
+          "note": "ScormStack player/system label `homepage.table_of_contents`"
+        }
+      },
+      "interactive_image": {
+        "click_to_view": {
+          "text": "Klicka för att visa innehåll",
+          "note": "ScormStack player/system label `interactive_image.click_to_view`"
+        },
+        "close_modal": {
+          "text": "Stäng modal",
+          "note": "ScormStack player/system label `interactive_image.close_modal`"
+        },
+        "close_sidebar": {
+          "text": "Stäng sidofältet",
+          "note": "ScormStack player/system label `interactive_image.close_sidebar`"
+        },
+        "close_tooltip": {
+          "text": "Stäng verktygstips",
+          "note": "ScormStack player/system label `interactive_image.close_tooltip`"
+        },
+        "hotspot": {
+          "text": "Hotspot",
+          "note": "ScormStack player/system label `interactive_image.hotspot`"
+        },
+        "press_escape_close": {
+          "text": "Tryck på Escape för att stänga",
+          "note": "ScormStack player/system label `interactive_image.press_escape_close`"
+        },
+        "press_to_view": {
+          "text": "Tryck Enter eller mellanslag för att visa detaljer",
+          "note": "ScormStack player/system label `interactive_image.press_to_view`"
+        }
+      },
+      "matching": {
+        "pairedItems": {
+          "text": "Parade objekt",
+          "note": "ScormStack player/system label `matching.pairedItems`"
+        },
+        "pairedItemsAriaLabel": {
+          "text": "Parade objekt. Tryck på mellanslag eller Enter för att ta bort parkopplingen.",
+          "note": "ScormStack player/system label `matching.pairedItemsAriaLabel`"
+        }
+      },
+      "media": {
+        "alt_text": {
+          "text": "Bildbeskrivning",
+          "note": "ScormStack player/system label `media.alt_text`"
+        },
+        "caption": {
+          "text": "Rubrik",
+          "note": "ScormStack player/system label `media.caption`"
+        },
+        "error": {
+          "text": "Misslyckades med att ladda media",
+          "note": "ScormStack player/system label `media.error`"
+        },
+        "loading": {
+          "text": "Laddar media...",
+          "note": "ScormStack player/system label `media.loading`"
+        }
+      },
+      "navigation": {
+        "back": {
+          "text": "Tillbaka",
+          "note": "ScormStack player/system label `navigation.back`"
+        },
+        "completed": {
+          "text": "Avslutad",
+          "note": "ScormStack player/system label `navigation.completed`"
+        },
+        "continue": {
+          "text": "Fortsätta",
+          "note": "ScormStack player/system label `navigation.continue`"
+        },
+        "current_page": {
+          "text": "Nuvarande sida",
+          "note": "ScormStack player/system label `navigation.current_page`"
+        },
+        "finish": {
+          "text": "Avsluta",
+          "note": "ScormStack player/system label `navigation.finish`"
+        },
+        "go_to_card": {
+          "text": "Gå till kort {kort}",
+          "note": "ScormStack player/system label `navigation.go_to_card`"
+        },
+        "go_to_page": {
+          "text": "Gå till sidan {sida}",
+          "note": "ScormStack player/system label `navigation.go_to_page`"
+        },
+        "next": {
+          "text": "Nästa",
+          "note": "ScormStack player/system label `navigation.next`"
+        },
+        "of": {
+          "text": "av",
+          "note": "ScormStack player/system label `navigation.of`"
+        },
+        "previous": {
+          "text": "Tidigare",
+          "note": "ScormStack player/system label `navigation.previous`"
+        }
+      },
+      "reactions": {
+        "comment_help": {
+          "text": "Denna kommentar skickas med analyser men lagras inte i CV-data.",
+          "note": "ScormStack player/system label `reactions.comment_help`"
+        },
+        "comment_label": {
+          "text": "Lägg till en kort kommentar",
+          "note": "ScormStack player/system label `reactions.comment_label`"
+        },
+        "comment_placeholder": {
+          "text": "Dela en kort kommentar (max 150 tecken)",
+          "note": "ScormStack player/system label `reactions.comment_placeholder`"
+        },
+        "comment_sent": {
+          "text": "Kommentar skickad",
+          "note": "ScormStack player/system label `reactions.comment_sent`"
+        },
+        "complete_above": {
+          "text": "Slutför innehållet ovan för att reagera.",
+          "note": "ScormStack player/system label `reactions.complete_above`"
+        },
+        "learned_something": {
+          "text": "Jag lärde mig något",
+          "note": "ScormStack player/system label `reactions.learned_something`"
+        },
+        "like": {
+          "text": "Jag gillar",
+          "note": "ScormStack player/system label `reactions.like`"
+        },
+        "not_up_to_date": {
+          "text": "Detta är föråldrat",
+          "note": "ScormStack player/system label `reactions.not_up_to_date`"
+        },
+        "prompt": {
+          "text": "Vad tycker du om det här innehållet?",
+          "note": "ScormStack player/system label `reactions.prompt`"
+        },
+        "question": {
+          "text": "Jag har en fråga",
+          "note": "ScormStack player/system label `reactions.question`"
+        },
+        "rating_prompt": {
+          "text": "Hur skulle du betygsätta detta innehåll?",
+          "note": "ScormStack player/system label `reactions.rating_prompt`"
+        },
+        "selection_locked": {
+          "text": "Din reaktion är sparad och låst.",
+          "note": "ScormStack player/system label `reactions.selection_locked`"
+        },
+        "send_comment": {
+          "text": "Skicka kommentar",
+          "note": "ScormStack player/system label `reactions.send_comment`"
+        }
+      },
+      "resume": {
+        "last_on": {
+          "text": "Du var sist på",
+          "note": "ScormStack player/system label `resume.last_on`"
+        },
+        "loading_course": {
+          "text": "Laddar kurs...",
+          "note": "ScormStack player/system label `resume.loading_course`"
+        },
+        "of": {
+          "text": "av",
+          "note": "ScormStack player/system label `resume.of`"
+        },
+        "please_wait": {
+          "text": "Vänta medan vi förbereder din lärupplevelse.",
+          "note": "ScormStack player/system label `resume.please_wait`"
+        },
+        "progress_saved": {
+          "text": "Dina framsteg har sparats automatiskt",
+          "note": "ScormStack player/system label `resume.progress_saved`"
+        },
+        "resume_course": {
+          "text": "Återuppta kursen",
+          "note": "ScormStack player/system label `resume.resume_course`"
+        },
+        "slide": {
+          "text": "Glida",
+          "note": "ScormStack player/system label `resume.slide`"
+        },
+        "start_over": {
+          "text": "Börja om från början",
+          "note": "ScormStack player/system label `resume.start_over`"
+        },
+        "welcome_back": {
+          "text": "Välkommen tillbaka!",
+          "note": "ScormStack player/system label `resume.welcome_back`"
+        }
+      },
+      "separator": {
+        "section_break": {
+          "text": "Avsnittsbrytning",
+          "note": "ScormStack player/system label `separator.section_break`"
+        }
+      },
+      "slide_intro": {
+        "learning_objectives": {
+          "text": "Lärandemål",
+          "note": "ScormStack player/system label `slide_intro.learning_objectives`"
+        },
+        "lesson": {
+          "text": "Lektion",
+          "note": "ScormStack player/system label `slide_intro.lesson`"
+        },
+        "minute": {
+          "text": "minut",
+          "note": "ScormStack player/system label `slide_intro.minute`"
+        },
+        "minutes": {
+          "text": "minuter",
+          "note": "ScormStack player/system label `slide_intro.minutes`"
+        },
+        "of": {
+          "text": "av",
+          "note": "ScormStack player/system label `slide_intro.of`"
+        },
+        "table_of_contents": {
+          "text": "Innehållsförteckning",
+          "note": "ScormStack player/system label `slide_intro.table_of_contents`"
+        },
+        "untitled_lesson": {
+          "text": "Namnlös lektion",
+          "note": "ScormStack player/system label `slide_intro.untitled_lesson`"
+        }
+      },
+      "sorting": {
+        "correct_order": {
+          "text": "Rätt ordning",
+          "note": "ScormStack player/system label `sorting.correct_order`"
+        },
+        "correct_position": {
+          "text": "Korrekt position",
+          "note": "ScormStack player/system label `sorting.correct_position`"
+        },
+        "drag_item": {
+          "text": "Dra objektet",
+          "note": "ScormStack player/system label `sorting.drag_item`"
+        },
+        "item": {
+          "text": "Punkt",
+          "note": "ScormStack player/system label `sorting.item`"
+        },
+        "move_next": {
+          "text": "Flytta nästa",
+          "note": "ScormStack player/system label `sorting.move_next`"
+        },
+        "move_previous": {
+          "text": "Flytta föregående",
+          "note": "ScormStack player/system label `sorting.move_previous`"
+        },
+        "position_for": {
+          "text": "Position för",
+          "note": "ScormStack player/system label `sorting.position_for`"
+        }
+      },
+      "tabs": {
+        "more": {
+          "text": "mer",
+          "note": "ScormStack player/system label `tabs.more`"
+        }
+      },
+      "time_requirements": {
+        "completed": {
+          "text": "Tidskravet är slutfört",
+          "note": "ScormStack player/system label `time_requirements.completed`"
+        },
+        "done": {
+          "text": "Gjort",
+          "note": "ScormStack player/system label `time_requirements.done`"
+        },
+        "elapsed": {
+          "text": "Förflutet: {tid}",
+          "note": "ScormStack player/system label `time_requirements.elapsed`"
+        },
+        "minute": {
+          "text": "minut",
+          "note": "ScormStack player/system label `time_requirements.minute`"
+        },
+        "minutes": {
+          "text": "minuter",
+          "note": "ScormStack player/system label `time_requirements.minutes`"
+        },
+        "remaining": {
+          "text": "{tid} återstår",
+          "note": "ScormStack player/system label `time_requirements.remaining`"
+        },
+        "second": {
+          "text": "andra",
+          "note": "ScormStack player/system label `time_requirements.second`"
+        },
+        "seconds": {
+          "text": "sekunder",
+          "note": "ScormStack player/system label `time_requirements.seconds`"
+        },
+        "spend_at_least": {
+          "text": "Lägg minst {time} på det här avsnittet",
+          "note": "ScormStack player/system label `time_requirements.spend_at_least`"
+        }
+      },
+      "timeline": {
+        "no_events": {
+          "text": "Inga tidslinjehändelser att visa",
+          "note": "ScormStack player/system label `timeline.no_events`"
+        }
+      },
+      "video": {
+        "error": {
+          "text": "Fel vid laddning av video",
+          "note": "ScormStack player/system label `video.error`"
+        },
+        "loading": {
+          "text": "Laddar video...",
+          "note": "ScormStack player/system label `video.loading`"
+        },
+        "pause": {
+          "text": "Paus",
+          "note": "ScormStack player/system label `video.pause`"
+        },
+        "play": {
+          "text": "Spela",
+          "note": "ScormStack player/system label `video.play`"
+        }
+      },
+      "web_simulation": {
+        "area": {
+          "text": "område",
+          "note": "ScormStack player/system label `web_simulation.area`"
+        },
+        "click_on_image": {
+          "text": "Klicka på bilden",
+          "note": "ScormStack player/system label `web_simulation.click_on_image`"
+        },
+        "failed_to_load_image": {
+          "text": "Misslyckades med att ladda bilden",
+          "note": "ScormStack player/system label `web_simulation.failed_to_load_image`"
+        },
+        "loading": {
+          "text": "Laddar simulering...",
+          "note": "ScormStack player/system label `web_simulation.loading`"
+        },
+        "navigate_to": {
+          "text": "Navigera till",
+          "note": "ScormStack player/system label `web_simulation.navigate_to`"
+        },
+        "no_image_configured": {
+          "text": "Ingen bild konfigurerad för det här steget",
+          "note": "ScormStack player/system label `web_simulation.no_image_configured`"
+        },
+        "of": {
+          "text": "av",
+          "note": "ScormStack player/system label `web_simulation.of`"
+        },
+        "progress": {
+          "text": "Framsteg",
+          "note": "ScormStack player/system label `web_simulation.progress`"
+        },
+        "restart": {
+          "text": "Starta om",
+          "note": "ScormStack player/system label `web_simulation.restart`"
+        },
+        "start": {
+          "text": "Start",
+          "note": "ScormStack player/system label `web_simulation.start`"
+        },
+        "step": {
+          "text": "Steg",
+          "note": "ScormStack player/system label `web_simulation.step`"
+        }
+      }
+    }
+  }
+}
