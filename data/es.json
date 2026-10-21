@@ -6,7 +6,7 @@
   },
   "common": {
     "checkUnderstandingHeading": {
-      "text": "Comprueba tu comprensión.",
+      "text": "Comprueba tu comprensión",
       "note": "Learning-section pill before knowledge-check widgets (Off-black #0F1524 / Sky blue #21B7CB)"
     },
     "learningActivityHeading": {
