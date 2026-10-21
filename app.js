@@ -38,6 +38,7 @@
     localeSelect: document.getElementById('localeSelect'),
     reviewerPill: document.getElementById('reviewerPill'),
     lockPill: document.getElementById('lockPill'),
+    checkoutBtn: document.getElementById('checkoutBtn'),
     releaseBtn: document.getElementById('releaseBtn'),
     modList: document.getElementById('modList'),
     rows: document.getElementById('rows'),
@@ -218,37 +219,42 @@
   function updateChrome() {
     el.reviewerPill.textContent = state.name ? ('Reviewer: ' + state.name) : 'Reviewer…';
     var lock = state.lock;
-    if (!lock) {
+    var mine = !!(lock && lock.sessionId === state.sessionId);
+    var free = !lock;
+
+    if (free) {
       el.lockPill.textContent = 'Locale available';
       el.lockPill.className = 'pill ok';
-      el.releaseBtn.hidden = true;
-    } else if (lock.sessionId === state.sessionId) {
+    } else if (mine) {
       el.lockPill.textContent = 'Checked out by you';
       el.lockPill.className = 'pill ok';
-      el.releaseBtn.hidden = false;
     } else {
       el.lockPill.textContent = 'In use by ' + (lock.holder || 'someone');
       el.lockPill.className = 'pill busy';
-      el.releaseBtn.hidden = true;
     }
+
+    // Release only while you hold the lease; Check out when free and named.
+    el.releaseBtn.hidden = !(state.canEdit && mine);
+    el.checkoutBtn.hidden = !(free && state.name && !state.canEdit);
 
     if (!state.canEdit) {
       el.banner.hidden = false;
-      if (lock && lock.sessionId !== state.sessionId) {
-        el.banner.className = 'banner';
+      el.banner.className = 'banner';
+      if (lock && !mine) {
         el.banner.textContent = (lock.holder || 'Another reviewer') +
           ' has this locale checked out until ' +
           (lock.until ? new Date(lock.until).toLocaleString() : 'later') +
           '. You can browse in read-only mode.';
+      } else if (free) {
+        el.banner.textContent = 'View only — press Check out to claim this locale and approve or edit.';
       } else {
-        el.banner.className = 'banner';
         el.banner.textContent = 'Read-only — could not check out this locale. Try again or pick another language.';
       }
     } else {
       el.banner.hidden = false;
       el.banner.className = 'banner ok';
       el.banner.textContent = 'You have an exclusive checkout for ' + state.locale.toUpperCase() +
-        '. Approve locks a line; Edit lets you change the translation.';
+        '. Approve locks a line; Edit lets you change the translation. Release when you are done.';
     }
   }
 
@@ -589,9 +595,10 @@
     }).then(function () {
       state.lock = null;
       state.canEdit = false;
+      state.editingKey = null;
       updateChrome();
-      toast('Locale released');
-    }).catch(function (e) { toast(e.message || 'Release failed'); });
+      toast('Locale released — view only until you check out again.');
+    }).catch(function (e) { toast(e.message || 'Release failed', 'error'); });
   }
 
   function heartbeat() {
@@ -661,8 +668,23 @@
     });
 
     el.releaseBtn.addEventListener('click', function () {
-      releaseLocale().then(function () { return claimLocale(); }).then(function () {
+      // Release only — do not re-claim; stay view-only until Check out.
+      releaseLocale().then(function () {
         renderRows();
+      });
+    });
+
+    el.checkoutBtn.addEventListener('click', function () {
+      if (!state.name || !state.locale) return;
+      claimLocale().then(function (data) {
+        renderRows();
+        if (data && data.acquired) {
+          toast('Checked out — you can approve and edit', 'ok');
+        } else {
+          toast('Could not check out — locale may be in use', 'error');
+        }
+      }).catch(function (e) {
+        toast(e.message || 'Check out failed', 'error');
       });
     });
 

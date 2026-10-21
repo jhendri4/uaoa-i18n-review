@@ -7,7 +7,7 @@ Public review UI for approving / editing course translations.
 - Grouped by module → widget; filter box for search  
 - Locale dropdown or shareable `?locale=es`  
 - Name gate on load (no account)  
-- **Locale checkout lease** — one active editor per language (others read-only)
+- **Locale checkout lease** — one active editor per language (others read-only). **Start reviewing** / load a locale claims a lease; a heartbeat renews it while the tab is open; **Release** gives up edit rights (view-only until **Check out** again); stale leases expire after `leaseMinutes`.
 
 ## Live
 
@@ -33,7 +33,9 @@ Open that URL (not the raw `index.html` file). Filesystem mode writes under `dat
 Live service: **`uaoa-i18n-review-api`** → https://uaoa-i18n-review-api.onrender.com  
 Dashboard: https://dashboard.render.com/web/srv-dbcfoomktt5c73faov7g
 
-**Redeploy after API changes:** push to `main` (auto-deploy is on), or:
+Uses the **standalone** repo `jhendri4/uaoa-i18n-review` (not the elearning monorepo root).
+
+**Redeploy after API changes:** push to `main` on that repo (auto-deploy is on), or:
 
 ```bash
 brew install render   # once
@@ -42,7 +44,7 @@ render workspace set tea-dbcfnp3l550s73908nvg
 render deploys create srv-dbcfoomktt5c73faov7g --confirm
 ```
 
-**Rotate the GitHub token (recommended):** create a fine-grained PAT with **Contents: Read & write** on `jhendri4/uaoa-i18n-review` only, then in the Render dashboard set env **`GITHUB_TOKEN`**. Prefer a PAT over a short-lived `gh` OAuth token.
+**Rotate the GitHub token (recommended):** create a fine-grained PAT with **Contents: Read & write** on `jhendri4/uaoa-i18n-review` only, then in the Render dashboard set env **`GITHUB_TOKEN`** (keep `GITHUB_REPO` / `GITHUB_BRANCH` as in `render.yaml`). Prefer a PAT over a short-lived `gh` OAuth token.
 
 Health check: `GET /api/health` → `{"ok":true,"storage":"github",...}`.
 
@@ -50,7 +52,7 @@ Free-tier services sleep when idle; the first request after sleep can take ~30�
 
 ## Point Pages at the API
 
-`config.js` should be:
+In both this folder and the Pages repo, `config.js` should be:
 
 ```js
 window.UAOA_I18N_REVIEW = {
@@ -59,7 +61,7 @@ window.UAOA_I18N_REVIEW = {
 };
 ```
 
-Bump the `?v=` query on the script tags in `index.html` when changing `config.js` / `app.js`.
+Bump the `?v=` query on the script tags in `index.html` when changing `config.js` / `app.js` so browsers pick up the new API URL.
 
 ## Sync catalogs
 
