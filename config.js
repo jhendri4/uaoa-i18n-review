@@ -1,6 +1,6 @@
-// Live trial API via localhost.run. Hard-refresh (or config.js?v=) if Start reviewing fails.
+// Live trial API via localhost.run. Hard-refresh if Start reviewing fails.
 window.UAOA_I18N_REVIEW = Object.assign({
-  apiBase: 'https://4de514e37772e9.lhr.life',
+  apiBase: 'https://37ef475326d39a.lhr.life',
   locales: [
     { code: 'es', label: 'Spanish' },
     { code: 'cs', label: 'Czech' },
