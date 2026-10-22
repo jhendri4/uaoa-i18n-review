@@ -45,11 +45,21 @@
     stats: document.getElementById('stats'),
     search: document.getElementById('search'),
     banner: document.getElementById('statusBanner'),
+    wakeBanner: document.getElementById('wakeBanner'),
+    wakeTitle: document.getElementById('wakeBannerTitle'),
+    wakeBody: document.getElementById('wakeBannerBody'),
     nameModal: document.getElementById('nameModal'),
     nameInput: document.getElementById('nameInput'),
     nameStart: document.getElementById('nameStart'),
     toast: document.getElementById('toast'),
   };
+
+  // Render free-tier cold starts often take 30–60s.
+  var WAKE_SLOW_MS = 2500;
+  var WAKE_PING_TIMEOUT_MS = 55000;
+  var WAKE_MAX_ATTEMPTS = 6;
+  var WAKE_RETRY_GAP_MS = 2000;
+  var wakePromise = null;
 
   function uid() {
     return 's-' + Math.random().toString(36).slice(2) + Date.now().toString(36);
@@ -81,6 +91,91 @@
 
   function isLocalTunnel(base) {
     return /\.loca\.lt$/i.test(String(base || '').replace(/^https?:\/\//i, '').split('/')[0] || '');
+  }
+
+  function delay(ms) {
+    return new Promise(function (resolve) { setTimeout(resolve, ms); });
+  }
+
+  function showWakeBanner(opts) {
+    opts = opts || {};
+    if (!el.wakeBanner) return;
+    el.wakeBanner.hidden = false;
+    el.wakeBanner.classList.toggle('is-failed', !!opts.failed);
+    if (el.wakeTitle) {
+      el.wakeTitle.textContent = opts.title || 'Server is waking up';
+    }
+    if (el.wakeBody) {
+      el.wakeBody.textContent = opts.body ||
+        'Please wait up to 1 minute for the server to resume from hibernation.';
+    }
+  }
+
+  function hideWakeBanner() {
+    if (!el.wakeBanner) return;
+    el.wakeBanner.hidden = true;
+    el.wakeBanner.classList.remove('is-failed');
+  }
+
+  function showWakeFailed(detail) {
+    showWakeBanner({
+      failed: true,
+      title: 'API still unavailable',
+      body: detail ||
+        'The review server did not wake in time. Refresh this page to try again, or check that the Render API is up.',
+    });
+  }
+
+  /**
+   * Probe /api/health until the Render service responds (or attempts are exhausted).
+   * Shows a hibernation notice when the first ping is slow, times out, or fails.
+   * Dedupes concurrent callers onto one in-flight wake cycle.
+   */
+  function ensureApiAwake() {
+    if (wakePromise) return wakePromise;
+
+    var attempt = 0;
+    var slowTimer = setTimeout(function () {
+      showWakeBanner();
+    }, WAKE_SLOW_MS);
+
+    function clearSlowTimer() {
+      if (slowTimer) {
+        clearTimeout(slowTimer);
+        slowTimer = null;
+      }
+    }
+
+    function tryPing() {
+      attempt += 1;
+      var started = Date.now();
+      return api('/api/health', {
+        retries: 0,
+        timeoutMs: WAKE_PING_TIMEOUT_MS,
+      }).then(function (data) {
+        var elapsed = Date.now() - started;
+        clearSlowTimer();
+        // Cold start / retries: keep the notice until catalogs finish loading.
+        if (elapsed >= WAKE_SLOW_MS || attempt > 1) {
+          showWakeBanner();
+        }
+        return data;
+      }).catch(function (err) {
+        showWakeBanner();
+        if (attempt >= WAKE_MAX_ATTEMPTS) {
+          clearSlowTimer();
+          throw err;
+        }
+        return delay(WAKE_RETRY_GAP_MS).then(tryPing);
+      });
+    }
+
+    wakePromise = tryPing().catch(function (err) {
+      wakePromise = null;
+      throw err;
+    });
+
+    return wakePromise;
   }
 
   function api(path, opts) {
@@ -750,12 +845,14 @@
     setUrlLocale(code);
     el.localeSelect.value = code;
 
-    return Promise.all([
-      api('/api/catalog/en'),
-      api('/api/catalog/' + encodeURIComponent(code)),
-      api('/api/approvals/' + encodeURIComponent(code)),
-      api('/api/lock/' + encodeURIComponent(code)),
-    ]).then(function (parts) {
+    return ensureApiAwake().then(function () {
+      return Promise.all([
+        api('/api/catalog/en'),
+        api('/api/catalog/' + encodeURIComponent(code)),
+        api('/api/approvals/' + encodeURIComponent(code)),
+        api('/api/lock/' + encodeURIComponent(code)),
+      ]);
+    }).then(function (parts) {
       state.en = parts[0].catalog;
       state.tr = parts[1].catalog;
       state.approvals = parts[2].approvals || {};
@@ -768,6 +865,8 @@
       // Paint catalogs immediately. Checkout is best-effort — a claim/reconcile
       // failure must not leave the UI blank after sticky-approvals deploy.
       state.canEdit = !!(state.lock && state.lock.sessionId === state.sessionId);
+      hideWakeBanner();
+      if (el.banner) el.banner.hidden = true;
       updateChrome();
       renderModules(state.rowsCache);
       renderRows();
@@ -778,6 +877,24 @@
         updateChrome();
         renderRows();
       });
+    }).catch(function (e) {
+      // Likely still cold-starting or network failure — allow a fresh wake cycle.
+      wakePromise = null;
+      var msg = e.message || 'network';
+      var waking = e.name === 'AbortError' ||
+        /Failed to fetch|NetworkError|timeout|abort/i.test(String(msg));
+      if (waking) {
+        showWakeFailed(
+          'Please wait up to 1 minute for the server to resume from hibernation, then refresh. (' + msg + ')'
+        );
+      } else {
+        hideWakeBanner();
+        el.banner.hidden = false;
+        el.banner.className = 'banner';
+        el.banner.textContent = 'API unavailable (' + msg +
+          '). Run python3 api/server.py locally, or host the API (Render) and set config.js apiBase.';
+      }
+      throw e;
     });
   }
 
@@ -825,14 +942,8 @@
     });
 
     function startReview() {
-      api('/api/health').then(function () {
-        return loadLocale(localeFromUrl());
-      }).catch(function (e) {
-        el.banner.hidden = false;
-        el.banner.className = 'banner';
-        el.banner.textContent = 'API unavailable (' + (e.message || 'network') +
-          '). Run python3 api/server.py locally, or host the API (Render) and set config.js apiBase.';
-        toast('API unavailable');
+      loadLocale(localeFromUrl()).catch(function (e) {
+        toast(e.message || 'API unavailable', 'error');
       });
     }
 
@@ -869,6 +980,15 @@
     setInterval(heartbeat, 120000);
 
     el.localeSelect.value = localeFromUrl();
+
+    // Kick the Render cold-start early (while the name gate is open if needed).
+    ensureApiAwake().catch(function (e) {
+      showWakeFailed(
+        'Please wait up to 1 minute for the server to resume from hibernation, then refresh. (' +
+          (e.message || 'network') + ')'
+      );
+    });
+
     if (!state.name) {
       el.nameModal.hidden = false;
       el.nameInput.focus();

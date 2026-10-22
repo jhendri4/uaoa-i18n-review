@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>UAOA Translation Review</title>
-  <link rel="stylesheet" href="styles.css?v=25">
+  <link rel="stylesheet" href="styles.css?v=26">
 </head>
 <body>
   <header class="app-header">
@@ -38,6 +38,16 @@
     </div>
   </header>
 
+  <div id="wakeBanner" class="wake-banner" hidden role="status" aria-live="polite">
+    <div class="wake-banner-inner">
+      <span class="wake-spinner" aria-hidden="true"></span>
+      <div class="wake-banner-copy">
+        <strong id="wakeBannerTitle">Server is waking up</strong>
+        <p id="wakeBannerBody">Please wait up to 1 minute for the server to resume from hibernation.</p>
+      </div>
+    </div>
+  </div>
+
   <div class="layout">
     <aside class="sidebar">
       <h2>Modules</h2>
@@ -66,7 +76,7 @@
   </div>
 
   <div class="toast" id="toast" role="status"></div>
-  <script src="config.js?v=25"></script>
-  <script src="app.js?v=25"></script>
+  <script src="config.js?v=26"></script>
+  <script src="app.js?v=26"></script>
 </body>
 </html>

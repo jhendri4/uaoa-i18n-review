@@ -49,7 +49,7 @@ render deploys create srv-dbcfoomktt5c73faov7g --confirm
 
 Health check: `GET /api/health` → `{"ok":true,"storage":"github",...}`.
 
-Free-tier services sleep when idle; the first request after sleep can take ~30–60s.
+Free-tier services sleep when idle; the first request after sleep can take ~30–60s. The UI probes `/api/health` on load, shows a sticky hibernation banner while waiting (“Please wait up to 1 minute…”), retries for a few minutes, then clears the banner once catalogs load.
 
 ## Point Pages at the API
 
