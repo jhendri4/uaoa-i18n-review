@@ -110,6 +110,72 @@
       "note": "uaoa_common.WRONG — plain, no HTML"
     }
   },
+  "survey": {
+    "preCourse": {
+      "iframeTitle": {
+        "text": "Pre-course survey",
+        "note": "iframe title for Qualtrics embed between Welcome and Module 1"
+      },
+      "waitingStatus": {
+        "text": "Complete the survey below. Continue unlocks when you finish.",
+        "note": "Status while waiting for QualtricsEOS"
+      },
+      "completeStatus": {
+        "text": "Survey complete — you can continue.",
+        "note": "Status after QualtricsEOS / manual confirm"
+      },
+      "fallbackHint": {
+        "text": "If you finished the survey but Continue is still locked, confirm below.",
+        "note": "Shown after ~45s if EOS not detected"
+      },
+      "fallbackButton": {
+        "text": "I’ve finished the survey",
+        "note": "Manual unlock when QualtricsEOS is not received"
+      },
+      "slideTitle": {
+        "text": "Pre-course survey",
+        "note": "Slide / section title between Welcome and Module 1"
+      },
+      "intro": {
+        "text": "<p>Please complete this short survey before starting Module 1. Continue unlocks when you finish.</p>",
+        "note": "HTML intro above Qualtrics iframe"
+      },
+      "continue": {
+        "text": "Continue to Module 1",
+        "note": "Nav CTA after survey embed"
+      },
+      "welcomeContinue": {
+        "text": "Continue",
+        "note": "Welcome CTA now advances to pre-course survey (was Continue to Module 1)"
+      }
+    },
+    "postCourse": {
+      "iframeTitle": {
+        "text": "Post-course survey",
+        "note": "iframe title for Qualtrics embed after final quiz"
+      },
+      "waitingStatus": {
+        "text": "Complete the survey below. Continue unlocks when you finish.",
+        "note": "Status while waiting for QualtricsEOS"
+      },
+      "completeStatus": {
+        "text": "Survey complete — you can continue.",
+        "note": "Status after QualtricsEOS / manual confirm"
+      },
+      "fallbackHint": {
+        "text": "If you finished the survey but Continue is still locked, confirm below.",
+        "note": "Shown after ~45s if EOS not detected"
+      },
+      "fallbackButton": {
+        "text": "I’ve finished the survey",
+        "note": "Manual unlock when QualtricsEOS is not received"
+      },
+      "continue": {
+        "text": "Continue",
+        "note": "Nav CTA after post-course survey embed"
+      }
+    }
+  },
   "m1": {
     "apply": {
       "ui": {
@@ -1829,7 +1895,7 @@
           "text": "Next:"
         },
         "howItConnects": {
-          "text": "How it connects"
+          "text": "How it Connects"
         },
         "actionLevelOf": {
           "text": "Action level {n} of 3"
@@ -1882,10 +1948,10 @@
             "text": "Layer 2 · Organisations"
           },
           "headline": {
-            "text": "Organisations build the structure for protection."
+            "text": ""
           },
           "prompt": {
-            "text": "Explore how organisations can prepare for, prevent, and respond to online abuse:"
+            "text": "Explore how organisations can prepare for, prevent and respond to online abuse:"
           },
           "labels": {
             "l1": {
@@ -1899,8 +1965,44 @@
             }
           },
           "intro": {
-            "text": "<p>Organisations can provide the framework, resources, and coordinated support needed to protect people and respond effectively to online abuse. These include sporting organisations and federations, clubs and associations, media organisations, online platforms, advocacy groups, and other institutions across the sporting community.</p><p>Explore how organisations can prepare for, prevent and respond to online abuse.</p>",
+            "text": "<p>Organisations can provide the framework, resources, and coordinated support needed to protect people and respond effectively to online abuse. These include sporting organisations and federations, clubs and associations, media organisations, online platforms, advocacy groups, and other institutions across the sporting community.</p><p>Explore how organisations can prepare for, prevent and respond to online abuse:</p><ul><li>Build frameworks</li><li>Strengthen safeguarding</li><li>Coordinate action</li></ul>",
             "note": "HTML allowed"
+          },
+          "safeguardLead": {
+            "text": "Safeguarding means protecting people at risk and responding effectively when abuse happens."
+          },
+          "prepareItems": {
+            "i1": {
+              "text": "Policies and codes of conduct"
+            },
+            "i2": {
+              "text": "Education and training"
+            },
+            "i3": {
+              "text": "Clear expectations for digital behaviour"
+            }
+          },
+          "protectItems": {
+            "i1": {
+              "text": "Welfare and safeguarding support"
+            },
+            "i2": {
+              "text": "Platform safety tools and moderation"
+            },
+            "i3": {
+              "text": "Mechanisms for people at risk"
+            }
+          },
+          "respondItems": {
+            "i1": {
+              "text": "Accessible reporting pathways"
+            },
+            "i2": {
+              "text": "Appropriate record keeping"
+            },
+            "i3": {
+              "text": "Organisational procedures and escalation"
+            }
           },
           "whoLabel": {
             "text": "Who does what"
@@ -1911,7 +2013,7 @@
                 "text": "Clubs"
               },
               "body": {
-                "text": "Provide frontline support."
+                "text": "Provide frontline support to athletes."
               }
             },
             "federations": {
@@ -1919,12 +2021,12 @@
                 "text": "Federations"
               },
               "body": {
-                "text": "Set shared standards."
+                "text": "Coordinate shared standards."
               }
             },
             "platforms": {
               "title": {
-                "text": "Platforms"
+                "text": "Digital Platforms"
               },
               "body": {
                 "text": "Enable reporting and moderation."
@@ -1932,7 +2034,7 @@
             },
             "media": {
               "title": {
-                "text": "Media organisations"
+                "text": "Media organizations"
               },
               "body": {
                 "text": "Manage published content."
@@ -1943,15 +2045,16 @@
                 "text": "Advocacy groups"
               },
               "body": {
-                "text": "Contribute specialised support and education."
+                "text": "Contribute specialized support and education."
               }
             }
           },
           "orpTitle": {
-            "text": "Organisational Readiness Platform (ORP)"
+            "text": ""
           },
           "orpBody": {
-            "text": "UAOA’s ORP helps sporting organisations assess their preparedness, identify areas for improvement, and strengthen their approaches to preventing and responding to online abuse."
+            "text": "<strong>UAOA's Organisational Readiness Platform (ORP)</strong> supports these efforts by helping sporting organisations assess their preparedness, identify areas for improvement, and strengthen their approaches to preventing and responding to online abuse.",
+            "note": "HTML allowed"
           }
         },
         "t3": {
@@ -1965,7 +2068,7 @@
             "text": "Layer 3 · Society"
           },
           "headline": {
-            "text": "Culture shapes what happens online."
+            "text": ""
           },
           "prompt": {
             "text": "Learn how wider social contexts can influence online abuse and help create safer digital spaces in sport:"
@@ -1982,7 +2085,7 @@
             }
           },
           "intro": {
-            "text": "<p>Online abuse is often shaped by factors beyond the immediate control of individuals and organisations. The personal contexts of people, the technologies they use, their access to education, and the general cultural norms around them can all influence whether harmful behaviour is encouraged, normalised, challenged, or prevented.</p><p>Learn how wider social contexts can influence online abuse and help create safer digital spaces in sport.</p>",
+            "text": "<p>Online abuse is often shaped by factors beyond the immediate control of individuals and organisations. The personal contexts of people, the technologies they use, their access to education, and the general cultural norms around them can all influence whether harmful behaviour is encouraged, normalised, challenged, or prevented.</p><p>Learn how wider social contexts can influence online abuse and help create safer digital spaces in sport:</p><ul><li>Advance education</li><li>Generate evidence</li><li>Shape norms</li></ul>",
             "note": "HTML allowed"
           }
         }
@@ -2063,7 +2166,7 @@
             "text": "Connect"
           },
           "body": {
-            "text": "<p>Work with other organisations, platforms, authorities, researchers, advocacy groups, and specialist services when a response extends beyond the organisation’s own capabilities.</p>",
+            "text": "<p><strong>Connect.</strong> Work with other organisations, platforms, authorities, researchers, advocacy groups, and specialist services when a response extends beyond the organisation’s own capabilities.</p>",
             "note": "HTML allowed"
           }
         },
@@ -2072,7 +2175,7 @@
             "text": "Stronger together"
           },
           "body": {
-            "text": "<p>Organisations are stronger when they work together.</p><p>Clubs can provide frontline support, federations set shared standards, platforms enable reporting and moderation, media organisations manage published content, and advocacy groups may contribute with specialised support and education. Together, they can create a coordinated network of protection and response against online abuse.</p><p><strong>UAOA’s Organisational Readiness Platform (ORP)</strong> supports these efforts by helping sporting organisations assess their preparedness, identify areas for improvement, and strengthen their approaches to preventing and responding to online abuse.</p>",
+            "text": "<p>Organizations are stronger when they work together. Each one plays a different role, and together they can create a <strong>coordinated network of protection</strong> and response against online abuse.</p><p><strong>UAOA’s Organisational Readiness Platform (ORP)</strong> supports these efforts by helping sporting organisations assess their preparedness, identify areas for improvement, and strengthen their approaches to preventing and responding to online abuse.</p>",
             "note": "HTML allowed"
           }
         }
@@ -2583,13 +2686,37 @@
           },
           "links": {
             "act": {
-              "text": "Explore UAOA initiatives and Stronger Together"
+              "note": "Inline masked links for Q11 choice c0 — multiple items join with a plain “ / ” separator inside the answer pill",
+              "items": [
+                {
+                  "text": "UAOA resources",
+                  "url": {
+                    "text": "https://unitedagainstonlineabuse.com/resources/",
+                    "note": "External URL for Q11 choice c0 — opens in new tab"
+                  }
+                },
+                {
+                  "text": "#UAOAday",
+                  "url": {
+                    "text": "https://unitedagainstonlineabuse.com/uaoa-day/",
+                    "note": "External URL for Q11 choice c0 — opens in new tab"
+                  }
+                }
+              ]
             },
             "learn": {
-              "text": "UAOA research, evidence and educational resources"
+              "text": "UAOA webinar series",
+              "url": {
+                "text": "https://unitedagainstonlineabuse.com/webinar-series/",
+                "note": "External URL for Q11 choice c1 — opens in new tab"
+              }
             },
             "org": {
-              "text": "UAOA organisational resources"
+              "text": "UAOA – Organisational Readiness Platform",
+              "url": {
+                "text": "https://orp.unitedagainstonlineabuse.com/",
+                "note": "External URL for Q11 choice c2 — opens in new tab"
+              }
             }
           }
         }
@@ -2622,6 +2749,10 @@
         "nextAria": {
           "text": "Next question",
           "note": "aria-label on next chevron when advancing"
+        },
+        "openResource": {
+          "text": "Open resource",
+          "note": "Legacy; Q11 now shows masked link labels inline inside answer pills"
         }
       },
       "score": {
@@ -2631,7 +2762,11 @@
         },
         "clickToComplete": {
           "text": "Click to complete",
-          "note": "Flip-card modal front CTA"
+          "note": "Flip-card modal front CTA when passed or attempts exhausted"
+        },
+        "clickForDetails": {
+          "text": "Click for details",
+          "note": "Flip-card modal front CTA when below pass score with retries left"
         },
         "headline": {
           "text": "You scored {pct}%!",
@@ -2642,6 +2777,18 @@
         },
         "note": {
           "text": "Your score reflects your understanding of the key concepts covered in this course."
+        },
+        "didNotPass": {
+          "text": "A score of {pass}% or higher is required to pass. This was attempt {n} of {max}.",
+          "note": "Shown on score back when below pass threshold; {pass}, {n}, {max} replaced in JS"
+        },
+        "retryHint": {
+          "text": "Review the course material, then try the quiz again.",
+          "note": "Score back note when retries remain"
+        },
+        "attemptsExhausted": {
+          "text": "You’ve used all {max} attempts. You can close this quiz and continue.",
+          "note": "Score back note after final failed attempt; {max} replaced in JS"
         },
         "finish": {
           "text": "Close",
