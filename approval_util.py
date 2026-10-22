@@ -1,8 +1,9 @@
 """Sticky approvals keyed to English source fingerprints.
 
 An approval stays valid only while the English source string for that key
-matches the fingerprint stored at approve time. Locale catalog edits alone
-do not invalidate approvals.
+matches the fingerprint stored at approve time. Re-syncing catalogs does not
+clear approvals when EN text is unchanged. The review API clears a key's
+approval when a translator Saves a locale edit (re-approve required).
 """
 from __future__ import annotations
 

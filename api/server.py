@@ -486,7 +486,20 @@ class Handler(SimpleHTTPRequestHandler):
             catalog = load_catalog(locale)
             set_by_path(catalog, key, str(text))
             save_catalog(locale, catalog, f'i18n-review: {name} updated {locale} {key}')
-            send_json(self, 200, {'ok': True, 'catalog': catalog})
+            # Locale edits invalidate approval until the reviewer Approves again.
+            approvals = load_approvals(locale)
+            if key in approvals:
+                approvals.pop(key, None)
+                save_approvals(
+                    locale,
+                    approvals,
+                    f'i18n-review: clear approval after edit {locale} {key}',
+                )
+            send_json(self, 200, {
+                'ok': True,
+                'catalog': catalog,
+                'approvals': approvals,
+            })
             return
 
         send_json(self, 404, {'error': 'not found'})

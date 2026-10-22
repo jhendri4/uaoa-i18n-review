@@ -3,12 +3,12 @@
 Public review UI for approving / editing course translations.
 
 - English (read-only) left · translation right  
-- **Approve** locks a string · **Edit** opens a textarea · **Unlock** to revise  
+- **Approve** stamps a string (by + at) · **Edit** opens a textarea · **Unapprove** clears the stamp  
 - Grouped by module → widget; filter box for search  
 - Locale dropdown or shareable `?locale=es`  
 - Name gate on load (no account)  
 - **Locale checkout lease** — one active editor per language (others read-only). **Start reviewing** / load a locale claims a lease; a heartbeat renews it while the tab is open; **Release** gives up edit rights (view-only until **Check out** again); stale leases expire after `leaseMinutes`.
-- **Sticky approvals** — approvals fingerprint the English source string at approve time (`enFp`). Re-syncing catalogs does **not** clear approvals when EN text is unchanged. If EN is added/updated/removed, that key becomes unapproved (UI: “Stale — source updated”) or the approval is dropped. Locale-only edits do not invalidate EN-stable approvals.
+- **Sticky approvals** — approvals fingerprint the English source string at approve time (`enFp`). Re-syncing catalogs does **not** clear approvals when EN text is unchanged. If EN changes, the UI shows “Source updated — re-approve” (no stamp) until Approves again. **Saving a translation clears that key’s approval** until re-approved. Cancel edit (no save) restores the stamp if still approved. Sidebar progress counts only non-stale approvals.
 
 ## Live
 

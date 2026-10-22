@@ -203,6 +203,97 @@
     return !!(a && a.stale && !a.approved);
   }
 
+  function formatStampAt(iso) {
+    if (!iso) return '';
+    try {
+      return new Date(iso).toLocaleString(undefined, {
+        dateStyle: 'medium',
+        timeStyle: 'short',
+      });
+    } catch (e) {
+      return String(iso);
+    }
+  }
+
+  /** Approved stamp: by + at. Optional Unapprove when canEdit. */
+  function makeStamp(entry, opts) {
+    opts = opts || {};
+    var stamp = document.createElement('div');
+    stamp.className = 'approval-stamp';
+    stamp.setAttribute('role', 'status');
+
+    var mark = document.createElement('div');
+    mark.className = 'approval-stamp-mark';
+    mark.textContent = 'Approved';
+    stamp.appendChild(mark);
+
+    var meta = document.createElement('div');
+    meta.className = 'approval-stamp-meta';
+    var by = (entry && entry.by) || '—';
+    var at = formatStampAt(entry && entry.at);
+    meta.innerHTML =
+      '<span class="approval-stamp-by">by ' + escapeHtml(by) + '</span>' +
+      (at ? '<span class="approval-stamp-at">' + escapeHtml(at) + '</span>' : '');
+    stamp.appendChild(meta);
+
+    if (opts.canUnapprove && opts.onUnapprove) {
+      var un = document.createElement('button');
+      un.type = 'button';
+      un.className = 'btn-stamp-unapprove' + (opts.pending ? ' is-busy' : '');
+      un.innerHTML = btnLabel(opts.pending ? '…' : 'Unapprove', !!opts.pending);
+      un.disabled = !!opts.pending || !!opts.disabled;
+      un.setAttribute('aria-busy', opts.pending ? 'true' : 'false');
+      un.title = 'Clear approval for this string';
+      un.addEventListener('click', function () {
+        if (state.pendingKey) return;
+        opts.onUnapprove();
+      });
+      stamp.appendChild(un);
+    }
+    return stamp;
+  }
+
+  function escapeHtml(s) {
+    return String(s || '')
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  }
+
+  function makeEditButton(key, disabled) {
+    var edit = document.createElement('button');
+    edit.type = 'button';
+    edit.className = 'btn btn-edit';
+    edit.textContent = 'Edit';
+    edit.disabled = !!disabled;
+    edit.addEventListener('click', function () {
+      if (state.pendingKey) return;
+      state.editingKey = key;
+      renderRows();
+      var ta = document.getElementById('edit-' + key);
+      if (ta) ta.focus();
+    });
+    return edit;
+  }
+
+  function makeApproveButton(key, stale, pendingApprove) {
+    var approve = document.createElement('button');
+    approve.type = 'button';
+    approve.className = 'btn btn-approve' + (pendingApprove ? ' is-busy' : '');
+    approve.innerHTML = btnLabel(
+      pendingApprove ? 'Approving…' : (stale ? 'Re-approve' : 'Approve'),
+      pendingApprove
+    );
+    approve.disabled = pendingApprove;
+    approve.setAttribute('aria-busy', pendingApprove ? 'true' : 'false');
+    approve.addEventListener('click', function () {
+      if (state.pendingKey) return;
+      approveKey(key);
+    });
+    return approve;
+  }
+
   function ensureSession() {
     if (!state.sessionId) {
       state.sessionId = uid();
@@ -288,7 +379,7 @@
       el.banner.hidden = false;
       el.banner.className = 'banner ok';
       el.banner.textContent = 'You have an exclusive checkout for ' + state.locale.toUpperCase() +
-        '. Approve locks a line; Edit lets you change the translation. Release when you are done.';
+        '. Approve stamps a line; Edit to change the translation (Save clears approval). Release when done.';
     }
   }
 
@@ -424,22 +515,26 @@
 
     var actions = document.createElement('div');
     actions.className = 'actions';
+    var entry = approvalEntry(r.key);
 
     if (!state.canEdit) {
-      var ro = document.createElement('span');
+      // View-only: stamp if approved; never stamp when stale; else Read-only.
       if (approved) {
-        ro.className = 'pill ok';
-        ro.textContent = 'Approved';
+        actions.appendChild(makeStamp(entry, { canUnapprove: false }));
       } else if (stale) {
-        ro.className = 'pill busy';
-        ro.title = 'English source changed since this string was approved';
-        ro.textContent = 'Stale — source updated';
+        var staleRo = document.createElement('span');
+        staleRo.className = 'pill busy';
+        staleRo.title = 'English source changed since this string was approved';
+        staleRo.textContent = 'Source updated — re-approve';
+        actions.appendChild(staleRo);
       } else {
+        var ro = document.createElement('span');
         ro.className = 'pill ro';
         ro.textContent = 'Read-only';
+        actions.appendChild(ro);
       }
-      actions.appendChild(ro);
     } else if (editing) {
+      // Edit mode: hide stamp; Save / Cancel only. Cancel restores stamp if still approved.
       var save = document.createElement('button');
       save.type = 'button';
       save.className = 'btn btn-save' + (pendingSave ? ' is-busy' : '');
@@ -463,56 +558,25 @@
       actions.appendChild(save);
       actions.appendChild(cancel);
     } else if (approved) {
-      var locked = document.createElement('span');
-      locked.className = 'pill ok';
-      locked.textContent = 'Locked';
-      var unlock = document.createElement('button');
-      unlock.type = 'button';
-      unlock.className = 'btn btn-unlock' + (pendingUnlock ? ' is-busy' : '');
-      unlock.innerHTML = btnLabel(pendingUnlock ? 'Unlocking…' : 'Unlock', pendingUnlock);
-      unlock.disabled = pendingUnlock;
-      unlock.setAttribute('aria-busy', pendingUnlock ? 'true' : 'false');
-      unlock.addEventListener('click', function () {
-        if (state.pendingKey) return;
-        unapprove(r.key);
-      });
-      actions.appendChild(locked);
-      actions.appendChild(unlock);
+      // Stamp + Edit (+ Unapprove on stamp). Edit hides stamp until Cancel/Save.
+      actions.appendChild(makeStamp(entry, {
+        canUnapprove: true,
+        pending: pendingUnlock,
+        disabled: pendingUnlock,
+        onUnapprove: function () { unapprove(r.key); },
+      }));
+      actions.appendChild(makeEditButton(r.key, pendingUnlock));
     } else {
+      // Not approved: stale banner never uses a stamp; Approve (+ Edit).
       if (stale) {
         var stalePill = document.createElement('span');
         stalePill.className = 'pill busy';
         stalePill.title = 'English source changed since this string was approved — re-approve after review';
-        stalePill.textContent = 'Stale — source updated';
+        stalePill.textContent = 'Source updated — re-approve';
         actions.appendChild(stalePill);
       }
-      var approve = document.createElement('button');
-      approve.type = 'button';
-      approve.className = 'btn btn-approve' + (pendingApprove ? ' is-busy' : '');
-      approve.innerHTML = btnLabel(
-        pendingApprove ? 'Approving…' : (stale ? 'Re-approve' : 'Approve'),
-        pendingApprove
-      );
-      approve.disabled = pendingApprove;
-      approve.setAttribute('aria-busy', pendingApprove ? 'true' : 'false');
-      approve.addEventListener('click', function () {
-        if (state.pendingKey) return;
-        approveKey(r.key);
-      });
-      var edit = document.createElement('button');
-      edit.type = 'button';
-      edit.className = 'btn btn-edit';
-      edit.textContent = 'Edit';
-      edit.disabled = pendingApprove;
-      edit.addEventListener('click', function () {
-        if (state.pendingKey) return;
-        state.editingKey = r.key;
-        renderRows();
-        var ta = document.getElementById('edit-' + r.key);
-        if (ta) ta.focus();
-      });
-      actions.appendChild(approve);
-      actions.appendChild(edit);
+      actions.appendChild(makeApproveButton(r.key, stale, pendingApprove));
+      actions.appendChild(makeEditButton(r.key, pendingApprove));
     }
 
     row.appendChild(actions);
@@ -581,12 +645,12 @@
     }).then(function (data) {
       state.approvals = data.approvals || {};
       clearPending();
-      toast('Unlocked', 'ok');
+      toast('Unapproved', 'ok');
       renderModules(state.rowsCache);
       renderRows();
     }).catch(function (e) {
       clearPending();
-      toast(e.message || 'Unlock failed', 'error');
+      toast(e.message || 'Unapprove failed', 'error');
       renderRows();
     });
   }
@@ -609,9 +673,13 @@
     }).then(function (data) {
       if (data.catalog) state.tr = data.catalog;
       else setByPathLocal(state.tr, key, text);
+      // Save clears approval for this key until they Approve again.
+      if (data.approvals) state.approvals = data.approvals;
+      else if (state.approvals[key]) delete state.approvals[key];
       clearPending();
       state.editingKey = null;
-      toast('Saved', 'ok');
+      toast('Saved — re-approve when ready', 'ok');
+      renderModules(state.rowsCache);
       renderRows();
     }).catch(function (e) {
       clearPending();

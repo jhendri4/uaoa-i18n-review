@@ -5,7 +5,8 @@ Also reconciles sticky approvals against English source fingerprints so that:
   - unchanged EN keys keep their approvals (legacy entries get enFp backfilled)
   - EN text that changed is marked stale / unapproved
   - removed EN keys drop their approval entries
-Locale translation edits alone do not clear EN-stable approvals.
+EN-stable approvals survive catalog re-sync; the review API clears a key’s
+approval when a translator Saves a locale edit.
 """
 from __future__ import annotations
 
