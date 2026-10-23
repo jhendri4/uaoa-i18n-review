@@ -3168,6 +3168,10 @@
           "text": "Has anotado",
           "note": "Flip-card modal front label above large %"
         },
+        "yourScore": {
+          "text": "Tu puntuación",
+          "note": "Flip-card modal front label above large % on any failed attempt (unlimited retries until pass)"
+        },
         "clickToComplete": {
           "text": "Haz clic para completar",
           "note": "Flip-card modal front CTA when passed or attempts exhausted"
@@ -3193,6 +3197,14 @@
         "retryHint": {
           "text": "Repase el material del curso y vuelva a intentar el cuestionario.",
           "note": "Score back note when retries remain"
+        },
+        "exhaustedBody": {
+          "text": "Estás progresando en la comprensión del abuso en línea en el deporte. Se requiere una puntuación de {aprobado}% o superior para completar el curso y obtener el certificado.",
+          "note": "Score back body on EVERY failed attempt; {pass} = ScormStack grade_required / UAOA_QUIZ_CONFIG.passPct. Unlimited retries until pass."
+        },
+        "exhaustedNote": {
+          "text": "Repase los conceptos clave y el material de aprendizaje, y luego vuelva a intentar el cuestionario final cuando esté listo.",
+          "note": "Score back note on EVERY failed attempt; paired with Try again until they pass"
         },
         "attemptsExhausted": {
           "text": "Has agotado todos tus intentos ({max}). Puedes cerrar este cuestionario y continuar.",
@@ -3382,6 +3394,14 @@
       "closeAria": {
         "text": "Cerca"
       },
+      "backToCourse": {
+        "text": "De vuelta al curso",
+        "note": "Mini Dictionary dialog close button"
+      },
+      "termsCount": {
+        "text": "{n} términos",
+        "note": "Section badge in Mini Dictionary; {n} = entry count"
+      },
       "title": {
         "text": "Mini diccionario: Otras posibles formas de abuso en línea",
         "note": "Dictionary document title"
@@ -3405,6 +3425,16 @@
       "noBlock": {
         "text": "No se encontró ningún bloque siguiente en esta diapositiva.",
         "note": "Dev/fallback message"
+      }
+    },
+    "supportFloater": {
+      "breakPill": {
+        "text": "¿Necesitas tomarte un descanso?",
+        "note": "Bottom-left floater pill → support options dialog"
+      },
+      "regionAria": {
+        "text": "Apoyo al curso",
+        "note": "aria-label on floater stack"
       }
     }
   },

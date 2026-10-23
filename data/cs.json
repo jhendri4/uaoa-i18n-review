@@ -3168,6 +3168,10 @@
           "text": "Skóroval jsi",
           "note": "Flip-card modal front label above large %"
         },
+        "yourScore": {
+          "text": "Vaše skóre",
+          "note": "Flip-card modal front label above large % on any failed attempt (unlimited retries until pass)"
+        },
         "clickToComplete": {
           "text": "Kliknutím dokončíte",
           "note": "Flip-card modal front CTA when passed or attempts exhausted"
@@ -3193,6 +3197,14 @@
         "retryHint": {
           "text": "Projděte si studijní materiály a poté zkuste kvíz znovu.",
           "note": "Score back note when retries remain"
+        },
+        "exhaustedBody": {
+          "text": "Děláte pokroky v porozumění online zneužívání ve sportu. Pro dokončení kurzu a získání certifikátu je vyžadováno skóre {pass}% nebo vyšší.",
+          "note": "Score back body on EVERY failed attempt; {pass} = ScormStack grade_required / UAOA_QUIZ_CONFIG.passPct. Unlimited retries until pass."
+        },
+        "exhaustedNote": {
+          "text": "Projděte si klíčové pojmy a učební materiály a poté, až budete připraveni, zkuste závěrečný kvíz znovu.",
+          "note": "Score back note on EVERY failed attempt; paired with Try again until they pass"
         },
         "attemptsExhausted": {
           "text": "Využili jste všech {max} pokusů. Můžete tento kvíz zavřít a pokračovat.",
@@ -3382,6 +3394,14 @@
       "closeAria": {
         "text": "Blízko"
       },
+      "backToCourse": {
+        "text": "Zpět na kurz",
+        "note": "Mini Dictionary dialog close button"
+      },
+      "termsCount": {
+        "text": "{n} termínů",
+        "note": "Section badge in Mini Dictionary; {n} = entry count"
+      },
       "title": {
         "text": "Mini slovník: Další možné formy online zneužívání",
         "note": "Dictionary document title"
@@ -3405,6 +3425,16 @@
       "noBlock": {
         "text": "Na tomto snímku nebyl nalezen žádný následující blok.",
         "note": "Dev/fallback message"
+      }
+    },
+    "supportFloater": {
+      "breakPill": {
+        "text": "Potřebujete si dát pauzu?",
+        "note": "Bottom-left floater pill → support options dialog"
+      },
+      "regionAria": {
+        "text": "Podpora kurzu",
+        "note": "aria-label on floater stack"
       }
     }
   },

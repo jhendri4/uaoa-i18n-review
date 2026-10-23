@@ -3168,6 +3168,10 @@
           "text": "Du gjorde mål",
           "note": "Flip-card modal front label above large %"
         },
+        "yourScore": {
+          "text": "Din poäng",
+          "note": "Flip-card modal front label above large % on any failed attempt (unlimited retries until pass)"
+        },
         "clickToComplete": {
           "text": "Klicka för att slutföra",
           "note": "Flip-card modal front CTA when passed or attempts exhausted"
@@ -3193,6 +3197,14 @@
         "retryHint": {
           "text": "Gå igenom kursmaterialet och försök sedan göra testet igen.",
           "note": "Score back note when retries remain"
+        },
+        "exhaustedBody": {
+          "text": "Du gör framsteg i din förståelse av nätövergrepp inom sport. Ett resultat på {pass}% eller högre krävs för att slutföra kursen och få ditt certifikat.",
+          "note": "Score back body on EVERY failed attempt; {pass} = ScormStack grade_required / UAOA_QUIZ_CONFIG.passPct. Unlimited retries until pass."
+        },
+        "exhaustedNote": {
+          "text": "Gå igenom nyckelbegreppen och läromaterialet och försök sedan göra det sista testet igen när du är redo.",
+          "note": "Score back note on EVERY failed attempt; paired with Try again until they pass"
         },
         "attemptsExhausted": {
           "text": "Du har använt alla {max} försök. Du kan stänga det här testet och fortsätta.",
@@ -3382,6 +3394,14 @@
       "closeAria": {
         "text": "Nära"
       },
+      "backToCourse": {
+        "text": "Tillbaka till kursen",
+        "note": "Mini Dictionary dialog close button"
+      },
+      "termsCount": {
+        "text": "{n} termer",
+        "note": "Section badge in Mini Dictionary; {n} = entry count"
+      },
       "title": {
         "text": "Miniordbok: Andra möjliga former av onlinemissbruk",
         "note": "Dictionary document title"
@@ -3405,6 +3425,16 @@
       "noBlock": {
         "text": "Inget följande block hittades på den här bilden.",
         "note": "Dev/fallback message"
+      }
+    },
+    "supportFloater": {
+      "breakPill": {
+        "text": "Behöver du ta en paus?",
+        "note": "Bottom-left floater pill → support options dialog"
+      },
+      "regionAria": {
+        "text": "Kursstöd",
+        "note": "aria-label on floater stack"
       }
     }
   },

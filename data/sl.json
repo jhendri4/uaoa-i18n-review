@@ -3168,6 +3168,10 @@
           "text": "Dosegli ste",
           "note": "Flip-card modal front label above large %"
         },
+        "yourScore": {
+          "text": "Vaš rezultat",
+          "note": "Flip-card modal front label above large % on any failed attempt (unlimited retries until pass)"
+        },
         "clickToComplete": {
           "text": "Kliknite za dokončanje",
           "note": "Flip-card modal front CTA when passed or attempts exhausted"
@@ -3193,6 +3197,14 @@
         "retryHint": {
           "text": "Preglejte snov tečaja in nato poskusite znova rešiti kviz.",
           "note": "Score back note when retries remain"
+        },
+        "exhaustedBody": {
+          "text": "Napredujete v razumevanju spletne zlorabe v športu. Za dokončanje tečaja in pridobitev certifikata je potreben rezultat {pass}% ali več.",
+          "note": "Score back body on EVERY failed attempt; {pass} = ScormStack grade_required / UAOA_QUIZ_CONFIG.passPct. Unlimited retries until pass."
+        },
+        "exhaustedNote": {
+          "text": "Preglejte ključne koncepte in učno gradivo ter nato znova poskusite rešiti zadnji kviz, ko boste pripravljeni.",
+          "note": "Score back note on EVERY failed attempt; paired with Try again until they pass"
         },
         "attemptsExhausted": {
           "text": "Izkoristili ste vseh {max} poskusov. Kviz lahko zaprete in nadaljujete.",
@@ -3382,6 +3394,14 @@
       "closeAria": {
         "text": "Zapri"
       },
+      "backToCourse": {
+        "text": "Nazaj na tečaj",
+        "note": "Mini Dictionary dialog close button"
+      },
+      "termsCount": {
+        "text": "{n} izrazov",
+        "note": "Section badge in Mini Dictionary; {n} = entry count"
+      },
       "title": {
         "text": "Mini slovar: Druge možne oblike spletne zlorabe",
         "note": "Dictionary document title"
@@ -3405,6 +3425,16 @@
       "noBlock": {
         "text": "Na tem diapozitivu ni bilo mogoče najti naslednjega bloka.",
         "note": "Dev/fallback message"
+      }
+    },
+    "supportFloater": {
+      "breakPill": {
+        "text": "Potrebujete odmor?",
+        "note": "Bottom-left floater pill → support options dialog"
+      },
+      "regionAria": {
+        "text": "Podpora tečaju",
+        "note": "aria-label on floater stack"
       }
     }
   },
@@ -4280,7 +4310,7 @@
           "note": "ScormStack player/system label `video.loading`"
         },
         "pause": {
-          "text": "Premor",
+          "text": "Začasno ustavi",
           "note": "ScormStack player/system label `video.pause`"
         },
         "play": {

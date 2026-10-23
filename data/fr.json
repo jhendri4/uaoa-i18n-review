@@ -3168,6 +3168,10 @@
           "text": "Vous avez marqué",
           "note": "Flip-card modal front label above large %"
         },
+        "yourScore": {
+          "text": "Votre score",
+          "note": "Flip-card modal front label above large % on any failed attempt (unlimited retries until pass)"
+        },
         "clickToComplete": {
           "text": "Cliquez pour terminer",
           "note": "Flip-card modal front CTA when passed or attempts exhausted"
@@ -3193,6 +3197,14 @@
         "retryHint": {
           "text": "Relisez le contenu du cours, puis réessayez le quiz.",
           "note": "Score back note when retries remain"
+        },
+        "exhaustedBody": {
+          "text": "Vous progressez dans la compréhension des abus en ligne dans le sport. Une note de passage (ou supérieure à 10 %) est requise pour valider le cours et obtenir votre certificat.",
+          "note": "Score back body on EVERY failed attempt; {pass} = ScormStack grade_required / UAOA_QUIZ_CONFIG.passPct. Unlimited retries until pass."
+        },
+        "exhaustedNote": {
+          "text": "Passez en revue les concepts clés et le matériel pédagogique, puis réessayez le quiz final lorsque vous serez prêt.",
+          "note": "Score back note on EVERY failed attempt; paired with Try again until they pass"
         },
         "attemptsExhausted": {
           "text": "Vous avez utilisé toutes vos tentatives {max}. Vous pouvez fermer ce quiz et continuer.",
@@ -3382,6 +3394,14 @@
       "closeAria": {
         "text": "Fermer"
       },
+      "backToCourse": {
+        "text": "Retour au cours",
+        "note": "Mini Dictionary dialog close button"
+      },
+      "termsCount": {
+        "text": "{n} termes",
+        "note": "Section badge in Mini Dictionary; {n} = entry count"
+      },
       "title": {
         "text": "Mini-dictionnaire : Autres formes possibles de violence en ligne",
         "note": "Dictionary document title"
@@ -3405,6 +3425,16 @@
       "noBlock": {
         "text": "Aucun bloc suivant n'a été trouvé sur cette diapositive.",
         "note": "Dev/fallback message"
+      }
+    },
+    "supportFloater": {
+      "breakPill": {
+        "text": "Besoin de faire une pause ?",
+        "note": "Bottom-left floater pill → support options dialog"
+      },
+      "regionAria": {
+        "text": "Soutien aux cours",
+        "note": "aria-label on floater stack"
       }
     }
   },
