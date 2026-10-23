@@ -4,9 +4,10 @@
   var CFG = window.UAOA_I18N_REVIEW || {};
   var API = (CFG.apiBase || '').replace(/\/$/, '');
   var LOCALES = CFG.locales || [];
-  var MODULE_ORDER = ['common', 'welcome', 'survey', 'm1', 'm2', 'm3', 'm4', 'm5', 'summary', 'embeds', 'player'];
+  var MODULE_ORDER = ['common', 'course', 'welcome', 'survey', 'm1', 'm2', 'm3', 'm4', 'm5', 'summary', 'embeds', 'player'];
   var MODULE_LABELS = {
     common: 'Common UI',
+    course: 'Course outline (sidebar)',
     welcome: 'About Course & Introduction',
     survey: 'Survey',
     m1: 'Module 1',

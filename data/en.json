@@ -3504,7 +3504,8 @@
         "scripts/uaoa_common.py"
       ]
     },
-    "scormstack_system_labels": "216 player/system labels from course default_locale (en). Export keys: player.systemLabels.<group>.<name>. Omitted from widget embeds."
+    "scormstack_system_labels": "216 player/system labels from course default_locale (en). Export keys: player.systemLabels.<group>.<name>. Omitted from widget embeds.",
+    "scormstack_outline_titles": "9 section + 11 slide sidebar titles. Keys: course.outline.sections.* / course.outline.slides.*. Deploy: scripts/deploy_outline_titles.py"
   },
   "player": {
     "systemLabels": {
@@ -4548,6 +4549,94 @@
         "heading": {
           "text": "<span style=\"color: #21b7cb\">What you’ll explore</span>",
           "note": "Native heading on About This Course"
+        }
+      }
+    }
+  },
+  "course": {
+    "outline": {
+      "sections": {
+        "uaoaCourse": {
+          "text": "UAOA eLearning Course",
+          "note": "Sidebar section title (outline) — ScormStack section `71c3c17e-9739-4b2e-8e61-040352b392d8`"
+        },
+        "introduction": {
+          "text": "Introduction",
+          "note": "Sidebar section title (outline) — ScormStack section `b883660a-734f-415f-bb1b-6040ed02f678`"
+        },
+        "preCourseSurvey": {
+          "text": "Pre-course survey",
+          "note": "Sidebar section title (outline) — ScormStack section `0a7799a0-b6bf-43cc-a775-5bcb87c82c06`"
+        },
+        "module1": {
+          "text": "Module 1",
+          "note": "Sidebar section title (outline) — ScormStack section `794a5240-3c59-48d9-9826-a7186f534c7b`"
+        },
+        "module2": {
+          "text": "Module 2",
+          "note": "Sidebar section title (outline) — ScormStack section `1f70a65e-08ab-476d-a110-ada1d643bb20`"
+        },
+        "module3": {
+          "text": "Module 3",
+          "note": "Sidebar section title (outline) — ScormStack section `255cbf0a-45ee-4be0-98be-6691a6b8d043`"
+        },
+        "module4": {
+          "text": "Module 4",
+          "note": "Sidebar section title (outline) — ScormStack section `3ff043da-8292-422a-aef1-87c0c1090145`"
+        },
+        "module5": {
+          "text": "Module 5",
+          "note": "Sidebar section title (outline) — ScormStack section `0555be9c-0bc5-49a0-939f-7fd32d68b3c2`"
+        },
+        "summary": {
+          "text": "Summary",
+          "note": "Sidebar section title (outline) — ScormStack section `a7b832f5-47a0-4bfe-a9b7-3c8367b189c7`"
+        }
+      },
+      "slides": {
+        "aboutThisCourse": {
+          "text": "About This Course",
+          "note": "Sidebar slide title (outline) — ScormStack slide `ab3c7036-4eff-4989-97c6-13b819492121`"
+        },
+        "finalQuiz": {
+          "text": "Final Quiz",
+          "note": "Sidebar slide title (outline) — ScormStack slide `d4f62e1d-6153-42a0-893d-a2433efb98fe`"
+        },
+        "preCourseSurvey": {
+          "text": "Pre-course survey",
+          "note": "Sidebar slide title (outline) — ScormStack slide `f11326b4-0133-4106-b4f5-6ce8842de2bf`"
+        },
+        "postCourseSurvey": {
+          "text": "Post-course Survey",
+          "note": "Sidebar slide title (outline) — ScormStack slide `ff1b2975-4e6e-44d3-85d6-74c61a9cbb51`"
+        },
+        "welcome": {
+          "text": "Welcome",
+          "note": "Sidebar slide title (outline) — ScormStack slide `a366e60b-a619-46f0-b98a-cf6b88540ae5`"
+        },
+        "exitPage": {
+          "text": "Exit Page",
+          "note": "Sidebar slide title (outline) — ScormStack slide `bdeace05-2d09-4056-8283-face7b8365e0`"
+        },
+        "module1": {
+          "text": "Understanding Online Abuse",
+          "note": "Sidebar slide title (outline) — ScormStack slide `4c2d5f1a-37dd-4f89-9410-75ee3dface2a`"
+        },
+        "module2": {
+          "text": "Online Abuse in Sport: The Human Impact",
+          "note": "Sidebar slide title (outline) — ScormStack slide `b4fb888c-e41c-4b92-ba33-c3c6b9cfaeb4`"
+        },
+        "module3": {
+          "text": "How Online Harm Spreads",
+          "note": "Sidebar slide title (outline) — ScormStack slide `69085f32-b529-456b-bef0-6ceae5b34c1d`"
+        },
+        "module4": {
+          "text": "Knowing Your Rights and Responsibilities",
+          "note": "Sidebar slide title (outline) — ScormStack slide `63c299a3-9125-4dae-9126-8417d7c6dd50`"
+        },
+        "module5": {
+          "text": "Take Action: Building Safer Digital Sport Communities",
+          "note": "Sidebar slide title (outline) — ScormStack slide `e0eab6ca-b4df-4308-a725-19a2c232272b`"
         }
       }
     }
