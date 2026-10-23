@@ -4,9 +4,11 @@
   var CFG = window.UAOA_I18N_REVIEW || {};
   var API = (CFG.apiBase || '').replace(/\/$/, '');
   var LOCALES = CFG.locales || [];
-  var MODULE_ORDER = ['common', 'm1', 'm2', 'm3', 'm4', 'm5', 'summary', 'embeds', 'player'];
+  var MODULE_ORDER = ['common', 'welcome', 'survey', 'm1', 'm2', 'm3', 'm4', 'm5', 'summary', 'embeds', 'player'];
   var MODULE_LABELS = {
     common: 'Common UI',
+    welcome: 'About Course & Introduction',
+    survey: 'Survey',
     m1: 'Module 1',
     m2: 'Module 2',
     m3: 'Module 3',
@@ -240,13 +242,21 @@
     return '';
   }
 
+  function isLeafEntry(v) {
+    // Catalog leaf = { text: string, note?: string }. Nested groups that
+    // contain a `text` child (scenarios with ok/bad, etc.) must be walked.
+    if (!v || typeof v !== 'object' || Array.isArray(v)) return false;
+    if (typeof v.text !== 'string') return false;
+    return Object.keys(v).every(function (k) { return k === 'text' || k === 'note'; });
+  }
+
   function walk(obj, prefix, out) {
     if (!obj || typeof obj !== 'object') return;
     Object.keys(obj).forEach(function (k) {
       if (k.charAt(0) === '_') return;
       var path = prefix ? prefix + '.' + k : k;
       var v = obj[k];
-      if (v && typeof v === 'object' && !Array.isArray(v) && ('text' in v)) {
+      if (isLeafEntry(v)) {
         out.push({ key: path, text: leafText(v), note: leafNote(v) });
       } else if (v && typeof v === 'object' && !Array.isArray(v)) {
         walk(v, path, out);

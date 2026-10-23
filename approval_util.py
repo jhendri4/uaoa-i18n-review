@@ -31,6 +31,19 @@ def leaf_text(node: Any) -> str:
     return ''
 
 
+def is_leaf_entry(node: Any) -> bool:
+    """True for catalog leaves `{text, note?}` (text must be a string).
+
+    Objects that merely *contain* a nested `text` entry (e.g. scenario
+    groups with `text` + `ok` + `bad`) must be walked, not treated as leaves.
+    """
+    return (
+        isinstance(node, dict)
+        and isinstance(node.get('text'), str)
+        and set(node.keys()) <= {'text', 'note'}
+    )
+
+
 def flatten_catalog(obj: Any, prefix: str = '') -> dict[str, str]:
     """Return dotted-key → leaf text for a locale catalog (skips _meta keys)."""
     out: dict[str, str] = {}
@@ -40,7 +53,7 @@ def flatten_catalog(obj: Any, prefix: str = '') -> dict[str, str]:
         if str(k).startswith('_'):
             continue
         path = f'{prefix}.{k}' if prefix else str(k)
-        if isinstance(v, dict) and 'text' in v:
+        if is_leaf_entry(v):
             out[path] = leaf_text(v)
         elif isinstance(v, dict):
             out.update(flatten_catalog(v, path))
