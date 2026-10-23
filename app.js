@@ -15,7 +15,7 @@
     m3: 'Module 3',
     m4: 'Module 4',
     m5: 'Module 5',
-    summary: 'Summary',
+    summary: 'Summary & Exit',
     embeds: 'Chrome embeds',
     player: 'Player / system labels',
   };

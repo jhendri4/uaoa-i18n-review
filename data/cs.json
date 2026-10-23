@@ -3272,6 +3272,16 @@
             "text": "<p><span style=\"color: rgb(9, 19, 36)\"><br><br></span></p><p></p><p></p><p></p><p><span style=\"color: rgb(9, 19, 36)\">Nyní jste lépe připraveni zasáhnout proti online zneužívání. Děkujeme, že jste si udělali čas a učili se s námi. Znalosti a praktické znalosti, které jste získali, vám mohou pomoci rozpoznat škodlivé chování, reagovat sebevědoměji, podporovat ostatní a přispívat k bezpečnějším digitálním sportovním komunitám. Na každém informovaném kroku záleží. Společně můžeme pomoci zvýšit bezpečnost online sportu. Děkujeme, že jste absolvovali e-learningový kurz </span></p><p></p><p><span style=\"color: rgb(9, 19, 36)\"><strong>UAOA</strong></span></p>",
             "note": "Native text body on Exit Page"
           }
+        },
+        "yourReadiness": {
+          "body": {
+            "text": "<p><span style=\"color: #091324; font-size: 30px\"><strong>Vaše skóre připravenosti je {{score}} %! Naučili jste se, jak rozpoznat online zneužívání, pochopit jeho dopad a reagovat bezpečněji v individuálním, organizačním i širším sportovním kontextu. Vaše skóre odráží vaši aktuální připravenost rozpoznat online zneužívání a činit informovaná rozhodnutí, když k němu dojde.</strong></span></p><p></p><p></p><p></p><p></p>",
+            "note": "Native text body on Exit Page"
+          },
+          "heading": {
+            "text": "Vaše připravenost",
+            "note": "Native heading on Exit Page"
+          }
         }
       },
       "finalQuiz": {
@@ -3292,16 +3302,6 @@
           },
           "heading": {
             "text": "<span style=\"color: #21b7cb\">Jste připraveni zasáhnout proti online zneužívání</span>",
-            "note": "Native heading on Final Quiz"
-          }
-        },
-        "yourReadiness": {
-          "body": {
-            "text": "<p><span style=\"color: #091324; font-size: 30px\"><strong>Vaše skóre připravenosti je {{score}} %! Naučili jste se, jak rozpoznat online zneužívání, pochopit jeho dopad a reagovat bezpečněji v individuálním, organizačním i širším sportovním kontextu. Vaše skóre odráží vaši aktuální připravenost rozpoznat online zneužívání a činit informovaná rozhodnutí, když k němu dojde.</strong></span></p><p></p><p></p><p></p><p></p>",
-            "note": "Native text body on Final Quiz"
-          },
-          "heading": {
-            "text": "Vaše připravenost",
             "note": "Native heading on Final Quiz"
           }
         }

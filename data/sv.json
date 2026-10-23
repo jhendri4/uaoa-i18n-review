@@ -3272,6 +3272,16 @@
             "text": "<p><span style=\"color: rgb(9, 19, 36)\"><br><br></span></p><p></p><p></p><p></p><p><span style=\"color: rgb(9, 19, 36)\">Du är nu bättre förberedd att vidta åtgärder mot onlineövergrepp. Tack för att du tar dig tid att lära dig med oss. Den kunskap och praktiska förståelse du har utvecklat kan hjälpa dig att känna igen skadligt beteende, reagera mer självsäkert, stödja andra och bidra till säkrare digitala idrottsgemenskaper. Varje välgrundad handling spelar roll. Tillsammans kan vi bidra till att göra idrott säkrare online. Tack för att du har genomfört </span></p><p></p><p><span style=\"color: rgb(9, 19, 36)\"><strong>UAOA</strong></span></p>",
             "note": "Native text body on Exit Page"
           }
+        },
+        "yourReadiness": {
+          "body": {
+            "text": "<p><span style=\"color: #091324; font-size: 30px\"><strong>Din beredskapspoäng är {{score}}%! Du har lärt dig att känna igen onlineövergrepp, förstå dess inverkan och agera säkrare i individuella, organisatoriska och bredare idrottsliga sammanhang. Din poäng återspeglar din nuvarande beredskap att känna igen onlineövergrepp och fatta välgrundade beslut när de inträffar.</strong></span></p><p></p><p></p><p></p><p></p>",
+            "note": "Native text body on Exit Page"
+          },
+          "heading": {
+            "text": "Din beredskap",
+            "note": "Native heading on Exit Page"
+          }
         }
       },
       "finalQuiz": {
@@ -3292,16 +3302,6 @@
           },
           "heading": {
             "text": "<span style=\"color: #21b7cb\">Du är redo att agera mot nätövergrepp</span>",
-            "note": "Native heading on Final Quiz"
-          }
-        },
-        "yourReadiness": {
-          "body": {
-            "text": "<p><span style=\"color: #091324; font-size: 30px\"><strong>Din beredskapspoäng är {{score}}%! Du har lärt dig att känna igen onlineövergrepp, förstå dess inverkan och agera säkrare i individuella, organisatoriska och bredare idrottsliga sammanhang. Din poäng återspeglar din nuvarande beredskap att känna igen onlineövergrepp och fatta välgrundade beslut när de inträffar.</strong></span></p><p></p><p></p><p></p><p></p>",
-            "note": "Native text body on Final Quiz"
-          },
-          "heading": {
-            "text": "Din beredskap",
             "note": "Native heading on Final Quiz"
           }
         }

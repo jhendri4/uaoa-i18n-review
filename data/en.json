@@ -3268,6 +3268,16 @@
             "text": "<p><span style=\"color: rgb(9, 19, 36)\"><strong>You are now better prepared to take action against online abuse.</strong><br><br>Thank you for taking the time to learn with us. The knowledge and practical understanding you have developed can help you recognise harmful behaviour, respond more confidently, support others, and contribute to safer digital sporting communities.</span></p><p></p><p><span style=\"color: rgb(9, 19, 36)\">Every informed action matters. Together, we can help make sport safer online.</span></p><p></p><p><span style=\"color: rgb(9, 19, 36)\">Thank you for completing the UAOA eLearning course!</span></p><p></p><p><span style=\"color: rgb(9, 19, 36)\"><strong>UAOA</strong></span></p>",
             "note": "Native text body on Exit Page"
           }
+        },
+        "yourReadiness": {
+          "body": {
+            "text": "<p><span style=\"color: #091324; font-size: 30px\"><strong>Your Readiness Score is <span data-uaoa-readiness-score>{{score}}</span>%!</strong></span></p><p></p><p><span style=\"color: #091324\">You’ve learned how to recognise online abuse, understand its impact, and respond more safely across individual, organisational, and wider sporting contexts.</span></p><p></p><p><span style=\"color: #091324\">Your score reflects your current readiness to recognise online abuse and make informed decisions when it occurs.</span></p>",
+            "note": "Native text body on Exit Page; data-uaoa-readiness-score is updated on quiz retry via course custom JS"
+          },
+          "heading": {
+            "text": "Your readiness",
+            "note": "Native heading on Exit Page"
+          }
         }
       },
       "finalQuiz": {
@@ -3288,16 +3298,6 @@
           },
           "heading": {
             "text": "<span style=\"color: #21b7cb\">You are ready to act against online abuse</span>",
-            "note": "Native heading on Final Quiz"
-          }
-        },
-        "yourReadiness": {
-          "body": {
-            "text": "<p><span style=\"color: #091324; font-size: 30px\"><strong>Your Readiness Score is <span data-uaoa-readiness-score>{{score}}</span>%!</strong></span></p><p></p><p><span style=\"color: #091324\">You’ve learned how to recognise online abuse, understand its impact, and respond more safely across individual, organisational, and wider sporting contexts.</span></p><p></p><p><span style=\"color: #091324\">Your score reflects your current readiness to recognise online abuse and make informed decisions when it occurs.</span></p>",
-            "note": "Native text body on Final Quiz; data-uaoa-readiness-score is updated on quiz retry via course custom JS"
-          },
-          "heading": {
-            "text": "Your readiness",
             "note": "Native heading on Final Quiz"
           }
         }

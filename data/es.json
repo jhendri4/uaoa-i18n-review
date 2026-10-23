@@ -3272,6 +3272,16 @@
             "text": "<p><span style=\"color: rgb(9, 19, 36)\"><br><br></span></p><p></p><p></p><p></p><p><span style=\"color: rgb(9, 19, 36)\">Ahora estás mejor preparado para actuar contra el abuso en línea. Gracias por dedicar tiempo a aprender con nosotros. El conocimiento y la comprensión práctica que has desarrollado te ayudarán a reconocer comportamientos dañinos, responder con mayor confianza, apoyar a otros y contribuir a comunidades deportivas digitales más seguras. Cada acción informada cuenta. Juntos, podemos ayudar a que el deporte en línea sea más seguro. ¡Gracias por completar el curso de aprendizaje electrónico de la </span></p><p></p><p><span style=\"color: rgb(9, 19, 36)\"><strong>UAOA</strong></span></p>",
             "note": "Native text body on Exit Page"
           }
+        },
+        "yourReadiness": {
+          "body": {
+            "text": "<p><span style=\"color: #091324; font-size: 30px\"><strong>Tu puntuación de preparación es del {{score}}%. Has aprendido a reconocer el abuso en línea, comprender su impacto y responder de manera más segura en contextos individuales, organizacionales y deportivos más amplios. Tu puntuación refleja tu preparación actual para reconocer el abuso en línea y tomar decisiones informadas cuando ocurre.</strong></span></p><p></p><p></p><p></p><p></p>",
+            "note": "Native text body on Exit Page"
+          },
+          "heading": {
+            "text": "Tu disposición",
+            "note": "Native heading on Exit Page"
+          }
         }
       },
       "finalQuiz": {
@@ -3292,16 +3302,6 @@
           },
           "heading": {
             "text": "<span style=\"color: #21b7cb\">Estás listo para actuar contra el abuso en línea.</span>",
-            "note": "Native heading on Final Quiz"
-          }
-        },
-        "yourReadiness": {
-          "body": {
-            "text": "<p><span style=\"color: #091324; font-size: 30px\"><strong>Tu puntuación de preparación es del {{score}}%. Has aprendido a reconocer el abuso en línea, comprender su impacto y responder de manera más segura en contextos individuales, organizacionales y deportivos más amplios. Tu puntuación refleja tu preparación actual para reconocer el abuso en línea y tomar decisiones informadas cuando ocurre.</strong></span></p><p></p><p></p><p></p><p></p>",
-            "note": "Native text body on Final Quiz"
-          },
-          "heading": {
-            "text": "Tu disposición",
             "note": "Native heading on Final Quiz"
           }
         }

@@ -3272,6 +3272,16 @@
             "text": "<p><span style=\"color: rgb(9, 19, 36)\"><br><br></span></p><p></p><p></p><p></p><p><span style=\"color: rgb(9, 19, 36)\">Zdaj ste bolje pripravljeni ukrepati proti spletni zlorabi. Hvala, ker ste si vzeli čas za učenje z nami. Znanje in praktično razumevanje, ki ste si ga pridobili, vam lahko pomagata prepoznati škodljivo vedenje, se bolj samozavestno odzvati, podpreti druge in prispevati k varnejšim digitalnim športnim skupnostim. Vsako premišljeno dejanje je pomembno. Skupaj lahko pomagamo, da je spletni šport varnejši. Hvala, ker ste opravili tečaj e-učenja </span></p><p></p><p><span style=\"color: rgb(9, 19, 36)\"><strong>UAOA</strong></span></p>",
             "note": "Native text body on Exit Page"
           }
+        },
+        "yourReadiness": {
+          "body": {
+            "text": "<p><span style=\"color: #091324; font-size: 30px\"><strong>Vaša ocena pripravljenosti je {{score}} %! Naučili ste se prepoznati spletno zlorabo, razumeti njen vpliv in se varneje odzvati v individualnem, organizacijskem in širšem športnem kontekstu. Vaša ocena odraža vašo trenutno pripravljenost za prepoznavanje spletne zlorabe in sprejemanje premišljenih odločitev, ko do nje pride.</strong></span></p><p></p><p></p><p></p><p></p>",
+            "note": "Native text body on Exit Page"
+          },
+          "heading": {
+            "text": "Vaša pripravljenost",
+            "note": "Native heading on Exit Page"
+          }
         }
       },
       "finalQuiz": {
@@ -3292,16 +3302,6 @@
           },
           "heading": {
             "text": "<span style=\"color: #21b7cb\">Pripravljeni ste ukrepati proti spletni zlorabi</span>",
-            "note": "Native heading on Final Quiz"
-          }
-        },
-        "yourReadiness": {
-          "body": {
-            "text": "<p><span style=\"color: #091324; font-size: 30px\"><strong>Vaša ocena pripravljenosti je {{score}} %! Naučili ste se prepoznati spletno zlorabo, razumeti njen vpliv in se varneje odzvati v individualnem, organizacijskem in širšem športnem kontekstu. Vaša ocena odraža vašo trenutno pripravljenost za prepoznavanje spletne zlorabe in sprejemanje premišljenih odločitev, ko do nje pride.</strong></span></p><p></p><p></p><p></p><p></p>",
-            "note": "Native text body on Final Quiz"
-          },
-          "heading": {
-            "text": "Vaša pripravljenost",
             "note": "Native heading on Final Quiz"
           }
         }

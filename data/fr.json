@@ -3272,6 +3272,16 @@
             "text": "<p><span style=\"color: rgb(9, 19, 36)\"><br><br></span></p><p></p><p></p><p></p><p><span style=\"color: rgb(9, 19, 36)\">Vous êtes désormais mieux préparé(e) à lutter contre les abus en ligne. Merci d'avoir pris le temps de vous former avec nous. Les connaissances et la compréhension pratique que vous avez acquises vous aideront à reconnaître les comportements nuisibles, à réagir avec plus d'assurance, à soutenir les autres et à contribuer à des communautés sportives numériques plus sûres. Chaque action éclairée compte. Ensemble, nous pouvons contribuer à rendre le sport en ligne plus sûr. Merci d'avoir suivi la formation en ligne de l'</span></p><p></p><p><span style=\"color: rgb(9, 19, 36)\"><strong>UAOA</strong></span></p>",
             "note": "Native text body on Exit Page"
           }
+        },
+        "yourReadiness": {
+          "body": {
+            "text": "<p><span style=\"color: #091324; font-size: 30px\"><strong>Votre score de préparation est de {{score}}% ! Vous avez appris à reconnaître les abus en ligne, à comprendre leur impact et à réagir de manière plus sûre dans les contextes individuels, organisationnels et sportifs en général. Votre score reflète votre préparation actuelle à reconnaître les abus en ligne et à prendre des décisions éclairées lorsqu’ils surviennent.</strong></span></p><p></p><p></p><p></p><p></p>",
+            "note": "Native text body on Exit Page"
+          },
+          "heading": {
+            "text": "Votre préparation",
+            "note": "Native heading on Exit Page"
+          }
         }
       },
       "finalQuiz": {
@@ -3292,16 +3302,6 @@
           },
           "heading": {
             "text": "<span style=\"color: #21b7cb\">Vous êtes prêt à agir contre les abus en ligne</span>",
-            "note": "Native heading on Final Quiz"
-          }
-        },
-        "yourReadiness": {
-          "body": {
-            "text": "<p><span style=\"color: #091324; font-size: 30px\"><strong>Votre score de préparation est de {{score}}% ! Vous avez appris à reconnaître les abus en ligne, à comprendre leur impact et à réagir de manière plus sûre dans les contextes individuels, organisationnels et sportifs en général. Votre score reflète votre préparation actuelle à reconnaître les abus en ligne et à prendre des décisions éclairées lorsqu’ils surviennent.</strong></span></p><p></p><p></p><p></p><p></p>",
-            "note": "Native text body on Final Quiz"
-          },
-          "heading": {
-            "text": "Votre préparation",
             "note": "Native heading on Final Quiz"
           }
         }
