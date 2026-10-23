@@ -38,7 +38,7 @@
       "note": "aria-label on radiogroup / options"
     },
     "notQuiteReview": {
-      "text": "Ne čisto. Preglejte možnosti in poskusite znova.",
+      "text": "<strong>Ne čisto. Preglejte možnosti in poskusite znova.</strong>",
       "note": "Shared incorrect feedback; HTML allowed"
     },
     "previous": {
@@ -58,11 +58,11 @@
       "note": "End-of-activity or scroll continue"
     },
     "correct": {
-      "text": "Pravilno!",
+      "text": "<strong>Pravilno!</strong>",
       "note": "Short correct prefix; HTML allowed"
     },
     "notQuite": {
-      "text": "Ne čisto. Preglejte možnosti in poskusite znova.",
+      "text": "<strong>Ne čisto. Preglejte možnosti in poskusite znova.</strong>",
       "note": "Shared incorrect; HTML allowed"
     },
     "selectAllThatApply": {
@@ -137,7 +137,7 @@
         "note": "Slide / section title between Welcome and Module 1"
       },
       "intro": {
-        "text": "Preden začnete z modulom 1, izpolnite to kratko anketo. Nadaljujte, ko končate.",
+        "text": "<p>Preden začnete z modulom 1, izpolnite to kratko anketo. Nadaljujte, ko končate.</p>",
         "note": "Pre-course survey intro HTML"
       },
       "continue": {
@@ -205,11 +205,11 @@
             "note": "Scenario prompt; answer = digital hostility"
           },
           "ok": {
-            "text": "Pravilno! Ponavljajoč se in vztrajen vzorec sovražnih interakcij na digitalnih platformah je oblika digitalne sovražnosti.",
+            "text": "<strong>Pravilno! Ponavljajoč se in vztrajen vzorec sovražnih interakcij na digitalnih platformah je oblika digitalne sovražnosti.</strong>",
             "note": "HTML allowed"
           },
           "bad": {
-            "text": "Ne čisto. Poglejte vzorec interakcij in kako se razvijajo skozi čas. Poskusite znova.",
+            "text": "<strong>Ne čisto. Poglejte vzorec interakcij in kako se razvijajo skozi čas. Poskusite znova.</strong>",
             "note": "HTML allowed"
           }
         },
@@ -219,11 +219,11 @@
             "note": "Scenario prompt; answer = hate speech"
           },
           "ok": {
-            "text": "Pravilno! Komentar cilja na športnika na podlagi njegove vere, zaščitene lastnosti, zaradi česar je to primer sovražnega govora.",
+            "text": "<strong>Pravilno! Komentar cilja na športnika na podlagi njegove vere, zaščitene lastnosti, zaradi česar je to primer sovražnega govora.</strong>",
             "note": "HTML allowed"
           },
           "bad": {
-            "text": "Ne čisto. Poglejte vzorec interakcij in kako se razvijajo skozi čas. Poskusite znova.",
+            "text": "<strong>Ne čisto. Poglejte vzorec interakcij in kako se razvijajo skozi čas. Poskusite znova.</strong>",
             "note": "HTML allowed"
           }
         },
@@ -233,11 +233,11 @@
             "note": "Scenario prompt; answer = offensive speech"
           },
           "ok": {
-            "text": "Pravilno! Komentar uporablja žaljiv in ponižujoč jezik, usmerjen proti sodniku, zaradi česar je to primer žaljivega govora.",
+            "text": "<strong>Pravilno! Komentar uporablja žaljiv in ponižujoč jezik, usmerjen proti sodniku, zaradi česar je to primer žaljivega govora.</strong>",
             "note": "HTML allowed"
           },
           "bad": {
-            "text": "Ne čisto. Osredotočite se na uporabljeni jezik in kaj ga dela škodljivega. Poskusite znova.",
+            "text": "<strong>Ne čisto. Osredotočite se na uporabljeni jezik in kaj ga dela škodljivega. Poskusite znova.</strong>",
             "note": "HTML allowed"
           }
         },
@@ -247,11 +247,11 @@
             "note": "Scenario prompt; answer = offensive speech"
           },
           "ok": {
-            "text": "Pravilno! Komentarji uporabljajo žaljiv in ponižujoč jezik, osredotočen na športnikovo uspešnost, zaradi česar je to primer žaljivega govora. Ženske so lahko zaradi svojega spola bolj izpostavljene spletnim zlorabam, tudi če posamezna sporočila spola ne opredeljujejo kot zaščitene značilnosti.",
+            "text": "<strong>Pravilno! Komentarji uporabljajo žaljiv in ponižujoč jezik, osredotočen na športnikovo uspešnost, zaradi česar je to primer žaljivega govora. Ženske so lahko zaradi svojega spola bolj izpostavljene spletnim zlorabam, tudi če posamezna sporočila spola ne opredeljujejo kot zaščitene značilnosti.</strong>",
             "note": "HTML allowed"
           },
           "bad": {
-            "text": "Ne čisto. Razmislite, na kaj so komentarji usmerjeni. Poskusite znova.",
+            "text": "<strong>Ne čisto. Razmislite, na kaj so komentarji usmerjeni. Poskusite znova.</strong>",
             "note": "HTML allowed"
           }
         }
@@ -449,11 +449,11 @@
           "text": "Izbranih je {n} od {total}"
         },
         "ok": {
-          "text": "Pravilno! Funkcije platforme, sistemi priporočil in interakcije uporabnikov lahko vplivajo na to, kako se vsebina distribuira, širi in izpostavlja novemu občinstvu.",
+          "text": "<strong>Pravilno! Funkcije platforme, sistemi priporočil in interakcije uporabnikov lahko vplivajo na to, kako se vsebina distribuira, širi in izpostavlja novemu občinstvu.</strong>",
           "note": "HTML allowed"
         },
         "bad": {
-          "text": "Ne čisto. Preglejte možnosti in poskusite znova.",
+          "text": "<strong>Ne čisto. Preglejte možnosti in poskusite znova.</strong>",
           "note": "HTML allowed"
         }
       },
@@ -641,7 +641,7 @@
             "note": "Image alt text"
           },
           "html": {
-            "text": "Matteo je vrhunski univerzitetni odbojkarski športnik z ambicijami, da bi se pridružil državni reprezentanci. Med zahtevnim študijskim delom in intenzivnim treningom je bil pod precejšnjim pritiskom in se je težko osredotočil.",
+            "text": "<p><strong>Matteo je vrhunski univerzitetni odbojkarski športnik z ambicijami, da bi se pridružil državni reprezentanci. Med zahtevnim študijskim delom in intenzivnim treningom je bil pod precejšnjim pritiskom in se je težko osredotočil.</strong></p><p></p>",
             "note": "HTML allowed"
           }
         },
@@ -654,7 +654,7 @@
             "note": "Image alt text"
           },
           "html": {
-            "text": "Med pomembno tekmo Matteo servira v mrežo pri žogi za zmago, kar njegovo ekipo stane zmago. Občinstvo se burno odzove in nekateri gledalci začnejo s tribun vpiti ostre kritike njegove predstave. Reakcija se nadaljuje, ko Matteo zapušča igrišče. Ali gre za spletno zlorabo? Ne. Kritika je morda agresivna in škodljiva, vendar se to še vedno dogaja v živo. Vendar pa se lahko reakcije, ki se začnejo na športnem dogodku/na igrišču, hitro preselijo v digitalne prostore, kjer lahko dosežejo veliko širše občinstvo.",
+            "text": "<p></p><p><strong>Med pomembno tekmo Matteo servira v mrežo pri žogi za zmago, kar njegovo ekipo stane zmago. Občinstvo se burno odzove in nekateri gledalci začnejo s tribun vpiti ostre kritike njegove predstave. Reakcija se nadaljuje, ko Matteo zapušča igrišče. Ali gre za spletno zlorabo? Ne. Kritika je morda agresivna in škodljiva, vendar se to še vedno dogaja v živo. Vendar pa se lahko reakcije, ki se začnejo na športnem dogodku/na igrišču, hitro preselijo v digitalne prostore, kjer lahko dosežejo veliko širše občinstvo.</strong></p><p></p>",
             "note": "HTML allowed"
           }
         },
@@ -667,7 +667,7 @@
             "note": "Image alt text"
           },
           "html": {
-            "text": "Po tekmi se kritika preseli na splet. Navijač objavi videoposnetek Matteovega zgrešenega servisa, označi Matteov račun na družbenih omrežjih in doda žaljive in ponižujoče komentarje, s katerimi se ga želi posmehovati. Situacija je postala spletna zloraba. Navijač uporablja žaljive in ponižujoče vsebine, namenjene Matteu prek digitalne platforme. To je žaljiv govor.",
+            "text": "<p></p><p><strong>Po tekmi se kritika preseli na splet. Navijač objavi videoposnetek Matteovega zgrešenega servisa, označi Matteov račun na družbenih omrežjih in doda žaljive in ponižujoče komentarje, s katerimi se ga želi posmehovati. Situacija je postala spletna zloraba. Navijač uporablja žaljive in ponižujoče vsebine, namenjene Matteu prek digitalne platforme. To je žaljiv govor.</strong></p><p></p>",
             "note": "HTML allowed"
           }
         },
@@ -680,7 +680,7 @@
             "note": "Image alt text"
           },
           "html": {
-            "text": "Do naslednjega dne se je pridružilo veliko uporabnikov. Na Matteovih računih na družbenih omrežjih se pojavljajo sovražni komentarji, videoposnetek njegovega zgrešenega servisa pa se nenehno deli skupaj z žaljivimi objavami. Razmere so se stopnjevale v digitalno sovražnost. Kar se je začelo z enim uporabnikom, se je razvilo v ponavljajoč se in kolektiven vzorec sovražnih spletnih interakcij.",
+            "text": "<p></p><p><strong>Do naslednjega dne se je pridružilo veliko uporabnikov. Na Matteovih računih na družbenih omrežjih se pojavljajo sovražni komentarji, videoposnetek njegovega zgrešenega servisa pa se nenehno deli skupaj z žaljivimi objavami. Razmere so se stopnjevale v digitalno sovražnost. Kar se je začelo z enim uporabnikom, se je razvilo v ponavljajoč se in kolektiven vzorec sovražnih spletnih interakcij.</strong></p><p></p>",
             "note": "HTML allowed"
           }
         }
@@ -692,27 +692,27 @@
       },
       "items": {
         "i1": {
-          "text": "Spletna zloraba se pojavlja v različnih oblikah. Žaljiv govor, sovražni govor in digitalna sovražnost nam pomagajo prepoznati različne načine, kako se lahko škodljivo vedenje pojavi in ​​razvije na spletu.",
+          "text": "<strong>Spletna zloraba se pojavlja v različnih oblikah. Žaljiv govor, sovražni govor in digitalna sovražnost nam pomagajo prepoznati različne načine, kako se lahko škodljivo vedenje pojavi in ​​razvije na spletu.</strong>",
           "note": "HTML allowed"
         },
         "i2": {
-          "text": "Kontekst je pomemben. Pri prepoznavanju spletne zlorabe upoštevajte uporabljeni jezik, na koga ali kaj se nanaša, in vzorec interakcij.",
+          "text": "<strong>Kontekst je pomemben. Pri prepoznavanju spletne zlorabe upoštevajte uporabljeni jezik, na koga ali kaj se nanaša, in vzorec interakcij.</strong>",
           "note": "HTML allowed"
         },
         "i3": {
-          "text": "Različne oblike zlorabe se lahko prekrivajo. Posamezna interakcija lahko vključuje več kot eno vedenje, njene značilnosti pa se lahko spreminjajo glede na razvoj situacije.",
+          "text": "<strong>Različne oblike zlorabe se lahko prekrivajo. Posamezna interakcija lahko vključuje več kot eno vedenje, njene značilnosti pa se lahko spreminjajo glede na razvoj situacije.</strong>",
           "note": "HTML allowed"
         },
         "i4": {
-          "text": "Spletna zloraba se lahko stopnjuje. Posamezna škodljiva objava se lahko razvije v ponavljajočo se ali kolektivno sovražnost, saj drugi komentirajo, delijo, ponovno objavljajo ali širijo vsebino.",
+          "text": "<strong>Spletna zloraba se lahko stopnjuje. Posamezna škodljiva objava se lahko razvije v ponavljajočo se ali kolektivno sovražnost, saj drugi komentirajo, delijo, ponovno objavljajo ali širijo vsebino.</strong>",
           "note": "HTML allowed"
         },
         "i5": {
-          "text": "Nekateri ljudje se soočajo z nesorazmernim tveganjem. Identiteta, prepoznavnost, vloga in drugi kontekstualni dejavniki lahko vplivajo na to, kdo je tarča, in na naravo ali intenzivnost zlorabe, ki jo doživijo.",
+          "text": "<strong>Nekateri ljudje se soočajo z nesorazmernim tveganjem. Identiteta, prepoznavnost, vloga in drugi kontekstualni dejavniki lahko vplivajo na to, kdo je tarča, in na naravo ali intenzivnost zlorabe, ki jo doživijo.</strong>",
           "note": "HTML allowed"
         },
         "i6": {
-          "text": "Prepoznavanje je prvi korak k ukrepanju. Razumevanje, kako je videti spletna zloraba, ljudem pomaga prepoznati škodljive situacije in se učinkoviteje odzvati.",
+          "text": "<strong>Prepoznavanje je prvi korak k ukrepanju. Razumevanje, kako je videti spletna zloraba, ljudem pomaga prepoznati škodljive situacije in se učinkoviteje odzvati.</strong>",
           "note": "HTML allowed"
         }
       }
@@ -728,31 +728,31 @@
       },
       "applyWhatDoYouSee": {
         "body": {
-          "text": "Spletna zloraba se lahko kaže v različnih oblikah. Preberite vsak scenarij in izberite vedenje, ki najbolje opisuje, kaj se dogaja.",
+          "text": "<p><span style=\"color: #091324\"><strong>Spletna zloraba se lahko kaže v različnih oblikah. Preberite vsak scenarij in izberite vedenje, ki najbolje opisuje, kaj se dogaja.</strong></span></p>",
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "Uporabi: Kaj vidiš?",
+          "text": "<span style=\"color: #21b7cb\">Uporabi: Kaj vidiš?</span>",
           "note": "Native heading on Understanding Online Abuse"
         }
       },
       "contextMatters": {
         "body": {
-          "text": "Spletne zlorabe ni vedno mogoče uvrstiti v eno samo kategorijo. Da bi razumeli, kaj se dogaja, upoštevajte:",
+          "text": "<p><span style=\"color: #091324\">Spletne zlorabe ni vedno mogoče uvrstiti v eno samo kategorijo. Da bi razumeli, kaj se dogaja, upoštevajte:</span></p>",
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "Kontekst je pomemben",
+          "text": "<span style=\"color: #21b7cb\">Kontekst je pomemben</span>",
           "note": "Native heading on Understanding Online Abuse"
         }
       },
       "exploreHowCanOnlineAbuseEvolve": {
         "body": {
-          "text": "Spletna zloraba se lahko začne z osebnimi interakcijami in se razvija, ko se škodljiva vsebina širi in se vanjo vključujejo drugi. Sledite Matteovi izkušnji in si oglejte, kako se to lahko zgodi.",
+          "text": "<p><span style=\"color: #091324\"><strong>Spletna zloraba se lahko začne z osebnimi interakcijami in se razvija, ko se škodljiva vsebina širi in se vanjo vključujejo drugi. Sledite Matteovi izkušnji in si oglejte, kako se to lahko zgodi.</strong></span></p>",
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "Raziščite: Kako se lahko razvija spletna zloraba?",
+          "text": "<span style=\"color: #21b7cb\">Raziščite: Kako se lahko razvija spletna zloraba?</span>",
           "note": "Native heading on Understanding Online Abuse"
         }
       },
@@ -762,47 +762,47 @@
       },
       "languageWhatIsBeingSaidOr": {
         "body": {
-          "text": "Jezik: Kaj se govori ali deli? Cilj: Ali je napad osredotočen na delovanje, videz, identiteto ali zaščiteno lastnost? Vzorec: Ali gre za enkratno interakcijo ali del ponavljajoče se ali kolektivne sovražnosti?",
+          "text": "<ul style=\"margin:0; padding-left: 3.0em; list-style:disc; color: #091324; font-family:'Cerebri Sans Pro', system-ui, -apple-system, 'Segoe UI', sans-serif; font-size:16px; line-height:1.55;\"><li style=\"margin:0 0 8px;\"><p><strong>Jezik: Kaj se govori ali deli? Cilj: Ali je napad osredotočen na delovanje, videz, identiteto ali zaščiteno lastnost? Vzorec: Ali gre za enkratno interakcijo ali del ponavljajoče se ali kolektivne sovražnosti?</strong></p></li><li style=\"margin:0 0 8px;\"><p></p></li><li style=\"margin:0;\"><p></p></li></ul>",
           "note": "Native text body on Understanding Online Abuse"
         }
       },
       "onlineAbuseDoesNotAffectEveryone": {
         "body": {
-          "text": "Spletna zloraba ne prizadene vseh enako. Nekateri ljudje se soočajo s pogostejšo ali ciljno usmerjeno zlorabo, kadar se sovražnost osredotoča na osebne značilnosti, ki veljajo za zaščitene. Zaščitene značilnosti lahko vključujejo raso, etnično pripadnost, narodnost, vero, spol, spolno usmerjenost, invalidnost, starost, nosečnost in zakonski stan. Ta seznam ni izčrpen in priznane ali zaščitene značilnosti se lahko razlikujejo glede na pravne sisteme, jezike, kulture in države. Kadar sovražni ali zlonamerni jezik cilja na nekoga na podlagi teh ali drugih zaščitenih značilnosti, lahko to pomeni sovražni govor.",
+          "text": "<p style=\"text-align: left\"><span style=\"color: #091324\"><strong>Spletna zloraba ne prizadene vseh enako. Nekateri ljudje se soočajo s pogostejšo ali ciljno usmerjeno zlorabo, kadar se sovražnost osredotoča na osebne značilnosti, ki veljajo za zaščitene. Zaščitene značilnosti lahko vključujejo raso, etnično pripadnost, narodnost, vero, spol, spolno usmerjenost, invalidnost, starost, nosečnost in zakonski stan. Ta seznam ni izčrpen in priznane ali zaščitene značilnosti se lahko razlikujejo glede na pravne sisteme, jezike, kulture in države. Kadar sovražni ali zlonamerni jezik cilja na nekoga na podlagi teh ali drugih zaščitenih značilnosti, lahko to pomeni sovražni govor.</strong><br><br></span></p><p style=\"text-align: left\"></p><p style=\"text-align: left\"></p>",
           "note": "Native text body on Understanding Online Abuse"
         }
       },
       "onlineConversationsArePartOfSport": {
         "body": {
-          "text": "Spletni pogovori so del športa: praznovanje rezultata, razprava o odločitvi ali povezovanje z ekipo ali športnikom. Vendar pa lahko ti prostori postanejo tudi kraji, kjer so ljudje ponižani, tarča napadov ali preobremenjeni s kritiko in zlorabami.",
+          "text": "<p><span style=\"color: #091324; font-size: 18px\"><strong>Spletni pogovori so del športa</strong>praznovanje rezultata, razprava o odločitvi ali povezovanje z ekipo ali športnikom. Vendar pa lahko ti prostori postanejo tudi kraji, kjer so ljudje ponižani, tarča napadov ali preobremenjeni s kritiko in zlorabami.</span></p>",
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "Spletni pogovori so del športa: praznovanje rezultata, razprava o odločitvi ali povezovanje z ekipo ali športnikom. Vendar pa lahko ti prostori postanejo tudi kraji, kjer so ljudje ponižani, tarča napadov ali preobremenjeni s kritiko in zlorabami.",
+          "text": "<span style=\"color: #1c3564; font-size: 14px\">Spletni pogovori so del športa: praznovanje rezultata, razprava o odločitvi ali povezovanje z ekipo ali športnikom. Vendar pa lahko ti prostori postanejo tudi kraji, kjer so ljudje ponižani, tarča napadov ali preobremenjeni s kritiko in zlorabami.</span>",
           "note": "Native heading on Understanding Online Abuse"
         }
       },
       "whatDoWeUnderstandByOnline": {
         "body": {
-          "text": "Spletna zloraba je vsako škodljivo vedenje, usmerjeno proti osebi ali skupini prek digitalnih platform. Definicije se razlikujejo glede na državo in kontekst, zato se osredotočamo na tisto, kar je najpomembnejše: prepoznavanje škode in izgradnjo znanja za njeno preprečevanje v športu. Za prepoznavanje spletne zlorabe je koristno razumeti različne oblike, ki jih lahko ima. Predstavljajte si jo kot krovno skupino, ki zajema tri povezana vedenja:",
+          "text": "<p><span style=\"color: #091324\"><strong>Spletna zloraba je vsako škodljivo vedenje, usmerjeno proti osebi ali skupini prek digitalnih platform. Definicije se razlikujejo glede na državo in kontekst, zato se osredotočamo na tisto, kar je najpomembnejše: prepoznavanje škode in izgradnjo znanja za njeno preprečevanje v športu. Za prepoznavanje spletne zlorabe je koristno razumeti različne oblike, ki jih lahko ima. Predstavljajte si jo kot krovno skupino, ki zajema tri povezana vedenja:</strong><br><br></span></p><p></p><p></p>",
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "Kaj razumemo pod spletno zlorabo?",
+          "text": "<span style=\"color: #21b7cb\">Kaj razumemo pod spletno zlorabo?</span>",
           "note": "Native heading on Understanding Online Abuse"
         },
         "p4": {
-          "text": "Za prepoznavanje spletne zlorabe je koristno razumeti različne oblike, ki jih lahko ima. Predstavljajte si jo kot krovno skupino, ki zajema tri povezana vedenja. Izberite vsako kartico, da razkrijete definicijo.",
+          "text": "<p>Za prepoznavanje spletne zlorabe je koristno razumeti različne oblike, ki jih lahko ima. Predstavljajte si jo kot krovno skupino, ki zajema tri povezana vedenja. Izberite vsako kartico, da razkrijete definicijo.</p>",
           "note": "Native text body on Understanding Online Abuse"
         }
       },
       "whenTheBehavioursOverlap": {
         "body": {
-          "text": "Predstavljajte si, da igralec po porazu prejme ponižujoč komentar. Podobna sporočila nato več dni preplavljajo njegov račun. Nekatera napadajo tudi njegovo raso. Ponižujoč jezik je žaljiv govor. Ponavljajoča se javna agresija na eni ali več platformah družbenih medijev ustvarja digitalno sovražnost. Rasistično ciljanje se šteje za sovražni govor. Da bi prepoznali, kaj se dogaja, si oglejte jezik, na koga ali kaj cilja in vzorec interakcij. Prisotnih je lahko več kot eno vedenje.",
+          "text": "<p style=\"text-align: left\"><span style=\"color: #091324\"><br><br><strong>Predstavljajte si, da igralec po porazu prejme ponižujoč komentar. Podobna sporočila nato več dni preplavljajo njegov račun. Nekatera napadajo tudi njegovo raso. Ponižujoč jezik je žaljiv govor. Ponavljajoča se javna agresija na eni ali več platformah družbenih medijev ustvarja digitalno sovražnost. Rasistično ciljanje se šteje za sovražni govor. Da bi prepoznali, kaj se dogaja, si oglejte jezik, na koga ali kaj cilja in vzorec interakcij. Prisotnih je lahko več kot eno vedenje.</strong><br><br></span></p>",
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "Ko se vedenja prekrivajo:",
+          "text": "<span style=\"color: #21b7cb\">Ko se vedenja prekrivajo:</span>",
           "note": "Native heading on Understanding Online Abuse"
         }
       }
@@ -832,7 +832,7 @@
             }
           },
           "ok": {
-            "text": "Pravilno! Spletna zloraba lahko vpliva na ljudi v celotnem športnem ekosistemu, vključno s tistimi, ki so neposredno tarče, in drugimi, ki so priča njenim širšim posledicam ali jih doživljajo.",
+            "text": "<strong>Pravilno! Spletna zloraba lahko vpliva na ljudi v celotnem športnem ekosistemu, vključno s tistimi, ki so neposredno tarče, in drugimi, ki so priča njenim širšim posledicam ali jih doživljajo.</strong>",
             "note": "HTML allowed"
           }
         },
@@ -856,7 +856,7 @@
             }
           },
           "ok": {
-            "text": "Pravilno! Spletna zloraba lahko vpliva na več področij človekovega življenja in dela. V športu lahko najbolj prizadene športnike, ne glede na njihovo raven, vendar se lahko posledice razširijo tudi na družine, sodelavce, ekipe, navijače in športne skupnosti.",
+            "text": "<strong>Pravilno! Spletna zloraba lahko vpliva na več področij človekovega življenja in dela. V športu lahko najbolj prizadene športnike, ne glede na njihovo raven, vendar se lahko posledice razširijo tudi na družine, sodelavce, ekipe, navijače in športne skupnosti.</strong>",
             "note": "HTML allowed"
           }
         },
@@ -880,7 +880,7 @@
             }
           },
           "ok": {
-            "text": "Pravilno! Učinki so lahko medsebojno povezani. Čustvena stiska, spanec, samozavest, varnost, uspešnost in sodelovanje lahko vplivajo drug na drugega in se lahko sčasoma razvijejo.",
+            "text": "<strong>Pravilno! Učinki so lahko medsebojno povezani. Čustvena stiska, spanec, samozavest, varnost, uspešnost in sodelovanje lahko vplivajo drug na drugega in se lahko sčasoma razvijejo.</strong>",
             "note": "HTML allowed"
           }
         },
@@ -904,7 +904,7 @@
             }
           },
           "ok": {
-            "text": "Pravilno! Vpliv spletne zlorabe se razlikuje. Raziskave, o katerih smo razpravljali v modulu, kažejo, da so dejavniki, kot sta odpornost in samozavest, lahko povezani z odzivom ljudi, vendar nadaljnje sodelovanje ne pomeni, da nekdo ni bil prizadet.",
+            "text": "<strong>Pravilno! Vpliv spletne zlorabe se razlikuje. Raziskave, o katerih smo razpravljali v modulu, kažejo, da so dejavniki, kot sta odpornost in samozavest, lahko povezani z odzivom ljudi, vendar nadaljnje sodelovanje ne pomeni, da nekdo ni bil prizadet.</strong>",
             "note": "HTML allowed"
           }
         }
@@ -982,11 +982,11 @@
           "text": "{n} izbranih"
         },
         "ok": {
-          "text": "Ti vplivi so lahko medsebojno povezani. Spletna zloraba lahko hkrati vpliva na več področij človekovega življenja, učinki pa se lahko sčasoma razvijejo ali okrepijo. Prepoznavanje teh znakov lahko ljudem v športu pomaga, da se odzovejo z večjo ozaveščenostjo in podporo.",
+          "text": "<strong>Ti vplivi so lahko medsebojno povezani. Spletna zloraba lahko hkrati vpliva na več področij človekovega življenja, učinki pa se lahko sčasoma razvijejo ali okrepijo. Prepoznavanje teh znakov lahko ljudem v športu pomaga, da se odzovejo z večjo ozaveščenostjo in podporo.</strong>",
           "note": "HTML allowed"
         },
         "bad": {
-          "text": "Ne čisto. Poskusi znova.",
+          "text": "<strong>Ne čisto. Poskusi znova.</strong>",
           "note": "HTML allowed — shown when submit has fewer than 4 impacts selected"
         }
       },
@@ -1046,11 +1046,11 @@
             "note": "Image alt"
           },
           "body": {
-            "text": "Spletna zloraba lahko sproži občutke strahu, žalosti, jeze in frustracije. Pri športnikih lahko te izkušnje vzbudijo tudi zaskrbljenost glede njihovega ugleda, kariernih možnosti, odnosov z družino in prijatelji ter uspešnosti ekipe. Ko se zloraba zgodi javno, lahko njena vidnost in morebitno širjenje še okrepita psihično stisko.",
+            "text": "<p>Spletna zloraba lahko sproži občutke strahu, žalosti, jeze in frustracije. Pri športnikih lahko te izkušnje vzbudijo tudi zaskrbljenost glede njihovega ugleda, kariernih možnosti, odnosov z družino in prijatelji ter uspešnosti ekipe. Ko se zloraba zgodi javno, lahko njena vidnost in morebitno širjenje še okrepita psihično stisko.</p>",
             "note": "HTML allowed"
           },
           "research": {
-            "text": "V anketi med 85 športniki NCAA Division I je bila večja izpostavljenost spletnemu nadlegovanju povezana z višjo stopnjo depresivnih simptomov. Raziskovalci opisujejo sovražne spletne vsebine kot pomemben vir psihološkega stresa za univerzitetne športnike.",
+            "text": "<strong>V anketi med 85 športniki NCAA Division I je bila večja izpostavljenost spletnemu nadlegovanju povezana z višjo stopnjo depresivnih simptomov. Raziskovalci opisujejo sovražne spletne vsebine kot pomemben vir psihološkega stresa za univerzitetne športnike.</strong>",
             "note": "HTML allowed"
           },
           "source": {
@@ -1071,7 +1071,7 @@
             "note": "Image alt"
           },
           "body": {
-            "text": "Spletna zloraba lahko moti spanec in okrevanje. Škodljive spletne izkušnje se lahko nadaljujejo tudi po začetni interakciji in vplivajo na športnikovo sposobnost počitka in okrevanja.",
+            "text": "<p>Spletna zloraba lahko moti spanec in okrevanje. Škodljive spletne izkušnje se lahko nadaljujejo tudi po začetni interakciji in vplivajo na športnikovo sposobnost počitka in okrevanja.</p>",
             "note": "HTML allowed"
           },
           "research": {
@@ -1096,11 +1096,11 @@
             "note": "Image alt"
           },
           "body": {
-            "text": "Spletna zloraba pogosto cilja na posameznikove sposobnosti, telo ali identiteto. Ponavljajoča se kritika, vključno s komentarji, ki so javno objavljeni z namenom ponižanja ali žaljenja nekoga, lahko vpliva na samozavest žrtve in jo spodbudi k dvomu o njenih spretnostih, odločitvah in mestu v športu.",
+            "text": "<p>Spletna zloraba pogosto cilja na posameznikove sposobnosti, telo ali identiteto. Ponavljajoča se kritika, vključno s komentarji, ki so javno objavljeni z namenom ponižanja ali žaljenja nekoga, lahko vpliva na samozavest žrtve in jo spodbudi k dvomu o njenih spretnostih, odločitvah in mestu v športu.</p>",
             "note": "HTML allowed"
           },
           "research": {
-            "text": "Raziskave kažejo, da lahko notranji dejavniki oblikujejo način, kako se ljudje odzivajo na spletno sovraštvo. V študiji s 60 javnimi osebnostmi, vključno z olimpijskimi športniki, in 1128 uporabniki interneta sta bili večja odpornost in samozavest povezani z nižjo stopnjo zaskrbljenosti zaradi spletnega sovraštva, ki so ga bili deležni. To kaže, da lahko ljudje isto vrsto sovražnosti doživljajo različno, deloma odvisno od svojih psiholoških virov.",
+            "text": "<strong>Raziskave kažejo, da lahko notranji dejavniki oblikujejo način, kako se ljudje odzivajo na spletno sovraštvo. V študiji s 60 javnimi osebnostmi, vključno z olimpijskimi športniki, in 1128 uporabniki interneta sta bili večja odpornost in samozavest povezani z nižjo stopnjo zaskrbljenosti zaradi spletnega sovraštva, ki so ga bili deležni. To kaže, da lahko ljudje isto vrsto sovražnosti doživljajo različno, deloma odvisno od svojih psiholoških virov.</strong>",
             "note": "HTML allowed"
           },
           "source": {
@@ -1121,11 +1121,11 @@
             "note": "Image alt"
           },
           "body": {
-            "text": "Grožnje in sovražnost na spletu lahko razširijo skrbi glede varnosti tudi izven digitalnih prostorov. Ljudje, ki so žrtve, lahko skrbijo za lastno varnost doma, med tekmovanjem in v javnih prostorih. Kadar grožnje vključujejo tudi tiste, ki so jim blizu, se te skrbi lahko razširijo na družinske člane in ljubljene osebe.",
+            "text": "<p><strong>Grožnje in sovražnost na spletu lahko razširijo skrbi glede varnosti tudi izven digitalnih prostorov. Ljudje, ki so žrtve, lahko skrbijo za lastno varnost doma, med tekmovanjem in v javnih prostorih. Kadar grožnje vključujejo tudi tiste, ki so jim blizu, se te skrbi lahko razširijo na družinske člane in ljubljene osebe.</strong></p>",
             "note": "HTML allowed"
           },
           "research": {
-            "text": "V raziskavi UAOA Barometer za leto 2025 so skoraj tri od štirih anketiranih športnih zvez poročale, da so grožnje s škodo športnikom ali njihovim vzdrževanim osebam še vedno realnost za tiste, ki uporabljajo platforme družbenih medijev. O tej ugotovitvi so poročali tudi v prejšnji izdaji Barometra, kar kaže na stalno zaskrbljenost v celotnem športu.",
+            "text": "<strong>V raziskavi UAOA Barometer za leto 2025 so skoraj tri od štirih anketiranih športnih zvez poročale, da so grožnje s škodo športnikom ali njihovim vzdrževanim osebam še vedno realnost za tiste, ki uporabljajo platforme družbenih medijev. O tej ugotovitvi so poročali tudi v prejšnji izdaji Barometra, kar kaže na stalno zaskrbljenost v celotnem športu.</strong>",
             "note": "HTML allowed"
           },
           "source": {
@@ -1146,11 +1146,11 @@
             "note": "Image alt"
           },
           "body": {
-            "text": "Škodljivi učinki psihološkega stresa na osredotočenost in uspešnost so dobro dokumentirani. Ker lahko spletna zloraba povzroči duševno stisko, lahko negativno vpliva na osredotočenost in uspešnost športnikov, zaradi česar se težje koncentrirajo, sprejemajo odločitve pod pritiskom in dosledno delujejo.",
+            "text": "<p>Škodljivi učinki psihološkega stresa na osredotočenost in uspešnost so dobro dokumentirani. Ker lahko spletna zloraba povzroči duševno stisko, lahko negativno vpliva na osredotočenost in uspešnost športnikov, zaradi česar se težje koncentrirajo, sprejemajo odločitve pod pritiskom in dosledno delujejo.</p>",
             "note": "HTML allowed"
           },
           "research": {
-            "text": "V študiji 274 kanadskih košarkarskih sodnikov je bilo boljše počutje pomembno povezano z boljšo samooceno sodniške uspešnosti, tudi po upoštevanju izkušenj. Prejšnje raziskave, ki jih navajajo avtorji, so prav tako pokazale, da je 90 % nogometnih sodnikov menilo, da lahko pogosti simptomi duševnega zdravja negativno vplivajo na njihovo sodniško uspešnost.",
+            "text": "<strong>V študiji 274 kanadskih košarkarskih sodnikov je bilo boljše počutje pomembno povezano z boljšo samooceno sodniške uspešnosti, tudi po upoštevanju izkušenj. Prejšnje raziskave, ki jih navajajo avtorji, so prav tako pokazale, da je 90 % nogometnih sodnikov menilo, da lahko pogosti simptomi duševnega zdravja negativno vplivajo na njihovo sodniško uspešnost.</strong>",
             "note": "HTML allowed"
           },
           "source": {
@@ -1171,11 +1171,11 @@
             "note": "Image alt"
           },
           "body": {
-            "text": "Spletna zloraba lahko vpliva na to, ali ljudje še naprej sodelujejo, delajo ali odkrito komunicirajo v športu. Nekateri lahko zmanjšajo svojo prisotnost na družbenih omrežjih, ponovno premislijo o svoji udeležbi ali postanejo bolj previdni glede tega, kaj javno delijo.",
+            "text": "<p><strong>Spletna zloraba lahko vpliva na to, ali ljudje še naprej sodelujejo, delajo ali odkrito komunicirajo v športu. Nekateri lahko zmanjšajo svojo prisotnost na družbenih omrežjih, ponovno premislijo o svoji udeležbi ali postanejo bolj previdni glede tega, kaj javno delijo.</strong></p>",
             "note": "HTML allowed"
           },
           "research": {
-            "text": "Raziskava o zlorabi v športu je pokazala, da sta tako fizična kot nefizična zloraba med nogometnimi sodniki v Angliji in Kanadi povezani z večjo namero po prenehanju športne kariere. Zloraba je bila povezana tudi z zmanjšanim počutjem. V raziskavi UAOA Barometer iz leta 2025 je 90 % anketiranih športnih zvez izrazilo zaskrbljenost, da bi spletna zloraba lahko nadarjene športnike odgnala iz športa.",
+            "text": "<strong>Raziskava o zlorabi v športu je pokazala, da sta tako fizična kot nefizična zloraba med nogometnimi sodniki v Angliji in Kanadi povezani z večjo namero po prenehanju športne kariere. Zloraba je bila povezana tudi z zmanjšanim počutjem. V raziskavi UAOA Barometer iz leta 2025 je 90 % anketiranih športnih zvez izrazilo zaskrbljenost, da bi spletna zloraba lahko nadarjene športnike odgnala iz športa.</strong>",
             "note": "HTML allowed"
           },
           "source": {
@@ -1191,27 +1191,27 @@
       },
       "items": {
         "i1": {
-          "text": "Spletna zloraba ima lahko širok spekter posledic. Njen vpliv se lahko razširi na dobro počutje, samozavest, občutek varnosti, uspešnost, sodelovanje in druga področja človekovega življenja.",
+          "text": "<strong>Spletna zloraba ima lahko širok spekter posledic. Njen vpliv se lahko razširi na dobro počutje, samozavest, občutek varnosti, uspešnost, sodelovanje in druga področja človekovega življenja.</strong>",
           "note": "HTML allowed"
         },
         "i2": {
-          "text": "Učinki so lahko medsebojno povezani. Čustvena stiska, motnje spanja, zmanjšana samozavest, varnostni pomisleki in težave s koncentracijo se lahko prekrivajo in vplivajo drug na drugega.",
+          "text": "<strong>Učinki so lahko medsebojno povezani. Čustvena stiska, motnje spanja, zmanjšana samozavest, varnostni pomisleki in težave s koncentracijo se lahko prekrivajo in vplivajo drug na drugega.</strong>",
           "note": "HTML allowed"
         },
         "i3": {
-          "text": "Ljudje so lahko različno prizadeti. Osebni in kontekstualni dejavniki lahko oblikujejo, kako nekdo doživlja in se odziva na spletno zlorabo.",
+          "text": "<strong>Ljudje so lahko različno prizadeti. Osebni in kontekstualni dejavniki lahko oblikujejo, kako nekdo doživlja in se odziva na spletno zlorabo.</strong>",
           "note": "HTML allowed"
         },
         "i4": {
-          "text": "Vpliv sega dlje od tistih, ki so neposredno prizadeti. Njegove posledice lahko občutijo tudi družine, soigralci, kolegi, navijači, organizacije in drugi v športnih skupnostih.",
+          "text": "<strong>Vpliv sega dlje od tistih, ki so neposredno prizadeti. Njegove posledice lahko občutijo tudi družine, soigralci, kolegi, navijači, organizacije in drugi v športnih skupnostih.</strong>",
           "note": "HTML allowed"
         },
         "i5": {
-          "text": "Spletna zloraba lahko vpliva na udeležbo in športno kulturo. Vztrajna sovražnost lahko vpliva na to, kdo se počuti varnega, dobrodošlenega in sposobnega sodelovati v športu.",
+          "text": "<strong>Spletna zloraba lahko vpliva na udeležbo in športno kulturo. Vztrajna sovražnost lahko vpliva na to, kdo se počuti varnega, dobrodošlenega in sposobnega sodelovati v športu.</strong>",
           "note": "HTML allowed"
         },
         "i6": {
-          "text": "Posledice lahko segajo tudi preko meja športa. Ko diskriminatorno in zlorabno vedenje postane normalizirano, lahko okrepi predsodke, izključenost in sovražnost v širši družbi.",
+          "text": "<strong>Posledice lahko segajo tudi preko meja športa. Ko diskriminatorno in zlorabno vedenje postane normalizirano, lahko okrepi predsodke, izključenost in sovražnost v širši družbi.</strong>",
           "note": "HTML allowed"
         }
       }
@@ -1242,7 +1242,7 @@
         "note": "Section heading on Online Abuse in Sport: The Human Impact"
       },
       "barometerCallout": {
-        "text": "Če želite izvedeti več o vplivu in škodi spletne zlorabe, vas vabimo, da si ogledate ugotovitve prelomne študije UAOA, zbrane v UAOA Barometer 2025 – ki meri spletno zlorabo v športu, v kateri sodelujejo vodilne nevladne organizacije in mednarodne zveze.",
+        "text": "<p>Če želite izvedeti več o vplivu in škodi spletne zlorabe, vas vabimo, da si ogledate ugotovitve prelomne študije UAOA, zbrane v <a href=\"https://unitedagainstonlineabuse.com/uaoa-barometer-2025/\" target=\"_blank\" rel=\"noopener\">UAOA Barometer 2025</a> – ki meri spletno zlorabo v športu, v kateri sodelujejo vodilne nevladne organizacije in mednarodne zveze.</p>",
         "note": "Module 2 Barometer image_with_text"
       },
       "continueToModule3": {
@@ -1251,7 +1251,7 @@
       },
       "checkYourUnderstandingOfTheKey": {
         "body": {
-          "text": "Preverite svoje razumevanje ključnih idej iz tega modula.",
+          "text": "<p><span style=\"color: #091324\">Preverite svoje razumevanje ključnih idej iz tega modula.</span></p>",
           "note": "Native text body on Online Abuse in Sport: The Human Impact"
         }
       },
@@ -1260,27 +1260,27 @@
         "note": "slide_intro subtitle (estimated time)"
       },
       "section1Body": {
-        "text": "Razumevanje, kako spletna zloraba vpliva na ljudi, nam pomaga razviti empatijo do tistih, ki so tarča, in se nanjo odzvati s skrbnostjo in spoštovanjem. Posledice spletne zlorabe na ljudi so lahko resne in daljnosežne: ena sama objava lahko pri nekom vzbudi tesnobo, negotovost ali dvom vase še dolgo po prvi interakciji. Ko se zloraba nadaljuje ali širi po digitalnih platformah, se njen vpliv lahko okrepi. Spletna zloraba lahko vpliva na duševno zdravje in dobro počutje, pa tudi na to, kako športniki nastopajo, kako sodniki pristopajo k odločitvam ter kako novinarji in drugi strokovnjaki opravljajo svoje delo. Takšni učinki se lahko razširijo tudi preko osebe, ki je tarča. Družine, soigralci, kolegi in navijači so lahko priča posledicam zlorabe ali jih sami izkusijo. Na širši ravni lahko vztrajna spletna sovražnost oblikuje športno kulturo, vpliva na udeležbo in vpliva na to, kdo se v športu počuti varnega in dobrodošlega.",
+        "text": "<p><span style=\"color: #091324\"><strong>Razumevanje, kako spletna zloraba vpliva na ljudi, nam pomaga razviti empatijo do tistih, ki so tarča, in se nanjo odzvati s skrbnostjo in spoštovanjem. Posledice spletne zlorabe na ljudi so lahko resne in daljnosežne: ena sama objava lahko pri nekom vzbudi tesnobo, negotovost ali dvom vase še dolgo po prvi interakciji. Ko se zloraba nadaljuje ali širi po digitalnih platformah, se njen vpliv lahko okrepi. Spletna zloraba lahko vpliva na duševno zdravje in dobro počutje, pa tudi na to, kako športniki nastopajo, kako sodniki pristopajo k odločitvam ter kako novinarji in drugi strokovnjaki opravljajo svoje delo. Takšni učinki se lahko razširijo tudi preko osebe, ki je tarča. Družine, soigralci, kolegi in navijači so lahko priča posledicam zlorabe ali jih sami izkusijo. Na širši ravni lahko vztrajna spletna sovražnost oblikuje športno kulturo, vpliva na udeležbo in vpliva na to, kdo se v športu počuti varnega in dobrodošlega.</strong></span></p><p></p><p></p><p></p><p></p>",
         "note": "Section body on Online Abuse in Sport: The Human Impact"
       },
       "section2Body": {
-        "text": "Znani športniki se pogosto soočajo z veliko spletnimi zlorabami. Vendar pa športniki niso edine tarče.",
+        "text": "<p><span style=\"color: #091324\"><strong>Znani športniki se pogosto soočajo z veliko spletnimi zlorabami. Vendar pa športniki niso edine tarče.</strong></span></p>",
         "note": "Section body on Online Abuse in Sport: The Human Impact"
       },
       "section3Body": {
-        "text": "Spletna zloraba lahko prizadene vse, ki se ukvarjajo s športom. Njene posledice se razlikujejo glede na posameznika in njegove okoliščine, pri čemer so nekateri vplivi še posebej pomembni za športnike. Ti učinki se lahko tudi medsebojno krepijo: tesnoba lahko moti spanec, slab spanec lahko vpliva na koncentracijo in samozavest, ti kombinirani učinki pa lahko vplivajo na vsakodnevne aktivnosti, športno uspešnost in splošno dobro počutje.",
+        "text": "<p><span style=\"color: #091324\">Spletna zloraba lahko prizadene vse, ki se ukvarjajo s športom. Njene posledice se razlikujejo glede na posameznika in njegove okoliščine, pri čemer so nekateri vplivi še posebej pomembni za športnike. Ti učinki se lahko tudi medsebojno krepijo: tesnoba lahko moti spanec, slab spanec lahko vpliva na koncentracijo in samozavest, ti kombinirani učinki pa lahko vplivajo na vsakodnevne aktivnosti, športno uspešnost in splošno dobro počutje.</span></p>",
         "note": "Section body on Online Abuse in Sport: The Human Impact"
       },
       "section4Body": {
-        "text": "Potem ko je na spletu prejel večkratna žaljiva sporočila, je športnik začel manj pogosto objavljati na družbenih omrežjih. Njegov trener je opazil, da se med treningom zdi raztresen, pred kratkim pa je omenil, da slabo spi in da je tesnoben zaradi udeležbe na javnih dogodkih.",
+        "text": "<p><span style=\"color: #091324\">Potem ko je na spletu prejel večkratna žaljiva sporočila, je športnik začel manj pogosto objavljati na družbenih omrežjih. Njegov trener je opazil, da se med treningom zdi raztresen, pred kratkim pa je omenil, da slabo spi in da je tesnoben zaradi udeležbe na javnih dogodkih.</span></p>",
         "note": "Section body on Online Abuse in Sport: The Human Impact"
       },
       "section5Body": {
-        "text": "Posledice spletne zlorabe lahko segajo dlje od posameznikov in oblikujejo športno kulturo in skupnosti okoli nje. Široko razširjena sovražnost lahko vpliva na to, kdo se počuti dobrodošlo, varno in sposobno sodelovati, kar ima posledice za vključenost in trajnost športnih skupnosti. Šport ima tudi širši družbeni vpliv. Vedenja in stališča, izražena v športnih prostorih, lahko prispevajo k širšim družbenim normam. Ko diskriminatorno ali zlorabno vedenje postane normalizirano, lahko okrepi predsodke, izključenost in sovražnost zunaj športa.",
+        "text": "<p><span style=\"color: #091324\"><strong>Posledice spletne zlorabe lahko segajo dlje od posameznikov in oblikujejo športno kulturo in skupnosti okoli nje. Široko razširjena sovražnost lahko vpliva na to, kdo se počuti dobrodošlo, varno in sposobno sodelovati, kar ima posledice za vključenost in trajnost športnih skupnosti. Šport ima tudi širši družbeni vpliv. Vedenja in stališča, izražena v športnih prostorih, lahko prispevajo k širšim družbenim normam. Ko diskriminatorno ali zlorabno vedenje postane normalizirano, lahko okrepi predsodke, izključenost in sovražnost zunaj športa.</strong><br><br></span></p><p></p><p></p>",
         "note": "Section body on Online Abuse in Sport: The Human Impact"
       },
       "section5Body3": {
-        "text": "Če želite izvedeti več, preberite UAOA Barometer 2025.",
+        "text": "<p>Če želite izvedeti več, preberite <a href=\"https://unitedagainstonlineabuse.com/uaoa-barometer-2025/\" target=\"_blank\" rel=\"noopener\">UAOA Barometer 2025</a>.</p>",
         "note": "Section body on Online Abuse in Sport: The Human Impact"
       }
     }
@@ -1319,7 +1319,7 @@
             "text": "Evropska unija"
           },
           "html": {
-            "text": "Zakon Evropske unije o umetni inteligenci uporablja okvir za umetno inteligenco, ki temelji na tveganju, in uvaja zahteve glede preglednosti za nekatere vsebine, ki jih ustvari in manipulira umetna inteligenca, vključno z nekaterimi ponareditvami.",
+            "text": "<p><a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/\" target=\"_blank\" rel=\"noopener\"><strong>Zakon Evropske unije o umetni inteligenci uporablja okvir za umetno inteligenco, ki temelji na tveganju, in uvaja zahteve glede preglednosti za nekatere vsebine, ki jih ustvari in manipulira umetna inteligenca, vključno z nekaterimi ponareditvami.</strong></a></p>",
             "note": "HTML allowed — European Union AI Act links to EUR-Lex"
           },
           "subs": {
@@ -1328,7 +1328,7 @@
                 "text": "Slovenija"
               },
               "html": {
-                "text": "V Sloveniji umetno inteligenco ureja nacionalna zakonodaja in zakon EU o umetni inteligenci. Na voljo so tudi vladne smernice, odgovori na pogosta vprašanja in regulativne informacije pristojnega ministrstva.",
+                "text": "<p>V Sloveniji umetno inteligenco ureja nacionalna zakonodaja in zakon EU o umetni inteligenci. Na voljo so tudi vladne smernice, odgovori na pogosta vprašanja in regulativne informacije pristojnega ministrstva.<a href=\"https://pisrs.si/pregledPredpisa?id=ZAKO9225#naslov-parent-393613415\" target=\"_blank\" rel=\"noopener\"></a><a href=\"https://eur-lex.europa.eu/legal-content/SL/TXT/HTML/?uri=OJ:L_202401689\" target=\"_blank\" rel=\"noopener\"></a><a href=\"https://www.gov.si/novice/2026-08-03-zacela-so-se-uporabljati-pravila-o-preglednosti-sistemov-umetne-inteligence/\" target=\"_blank\" rel=\"noopener\"></a><a href=\"https://www.ip-rs.si/umetna-inteligenca/pogosta-vpra%C5%A1anja/\" target=\"_blank\" rel=\"noopener\"></a><a href=\"https://www.gov.si/en/state-authorities/ministries/ministry-of-the-interior-and-public-administration/about-the-ministry/\" target=\"_blank\" rel=\"noopener\"></a></p>",
                 "note": "HTML allowed — linked phrases open official sources"
               }
             },
@@ -1337,7 +1337,7 @@
                 "text": "Švedska"
               },
               "html": {
-                "text": "Na Švedskem se neposredno uporablja zakon EU o umetni inteligenci, ki zagotavlja pravni okvir za urejanje umetne inteligence, vključno z vsebinami, ki jih ustvari umetna inteligenca. Švedska nima ločene nacionalne zakonodaje, ki bi posebej obravnavala vsebine, ki jih ustvari umetna inteligenca.",
+                "text": "<p>Na Švedskem se neposredno uporablja zakon EU o umetni inteligenci, ki zagotavlja pravni okvir za urejanje umetne inteligence, vključno z vsebinami, ki jih ustvari umetna inteligenca. Švedska nima ločene nacionalne zakonodaje, ki bi posebej obravnavala vsebine, ki jih ustvari umetna inteligenca.</p>",
                 "note": "HTML allowed"
               }
             },
@@ -1346,7 +1346,7 @@
                 "text": "Češka"
               },
               "html": {
-                "text": "Na Češkem se neposredno uporablja zakon EU o umetni inteligenci, ki zagotavlja pravni okvir za urejanje umetne inteligence, vključno z vsebinami, ki jih ustvari umetna inteligenca.",
+                "text": "<p>Na Češkem se neposredno uporablja zakon EU o umetni inteligenci, ki zagotavlja pravni okvir za urejanje umetne inteligence, vključno z vsebinami, ki jih ustvari umetna inteligenca.</p>",
                 "note": "HTML allowed"
               }
             },
@@ -1355,7 +1355,7 @@
                 "text": "Španija"
               },
               "html": {
-                "text": "V Španiji se Zakon EU o umetni inteligenci uporablja neposredno in zagotavlja pravni okvir za urejanje umetne inteligence, vključno z vsebinami, ki jih ustvari umetna inteligenca. Španska agencija za nadzor umetne inteligence (AESIA) nadzira skladnost s predpisi o umetni inteligenci in podpira njihovo izvajanje na nacionalni ravni.",
+                "text": "<p>V Španiji se Zakon EU o umetni inteligenci uporablja neposredno in zagotavlja pravni okvir za urejanje umetne inteligence, vključno z vsebinami, ki jih ustvari umetna inteligenca. Španska agencija za nadzor umetne inteligence (AESIA) nadzira skladnost s predpisi o umetni inteligenci in podpira njihovo izvajanje na nacionalni ravni.</p>",
                 "note": "HTML allowed"
               }
             }
@@ -1366,7 +1366,7 @@
             "text": "Združeno kraljestvo"
           },
           "html": {
-            "text": "V skladu z Zakonom o spletni varnosti lahko vsebine, ki jih ustvari umetna inteligenca in jih delijo uporabniki, spadajo v pristojnosti reguliranih spletnih storitev, vključno z ustreznimi dolžnostmi glede nezakonitih vsebin in varnosti uporabnikov.",
+            "text": "<p><a href=\"https://www.legislation.gov.uk/ukpga/2023/50\" target=\"_blank\" rel=\"noopener\"><strong>V skladu z Zakonom o spletni varnosti lahko vsebine, ki jih ustvari umetna inteligenca in jih delijo uporabniki, spadajo v pristojnosti reguliranih spletnih storitev, vključno z ustreznimi dolžnostmi glede nezakonitih vsebin in varnosti uporabnikov.</strong></a></p>",
             "note": "HTML allowed"
           }
         },
@@ -1375,7 +1375,7 @@
             "text": "Združene države Amerike"
           },
           "html": {
-            "text": "Zakon TAKE IT DOWN Act obravnava deljenje intimnih slik brez privolitve, vključno z deepfake-i, ki jih ustvari umetna inteligenca. Od spletnih platform, ki jih zajema zakon, zahteva, da zagotovijo način za zahtevo za njihovo odstranitev in da odstranijo ustrezno vsebino v 48 urah po veljavni zahtevi.",
+            "text": "<p>Zakon <a href=\"https://www.congress.gov/bill/119th-congress/senate-bill/146\" target=\"_blank\" rel=\"noopener\"><strong>TAKE IT DOWN Act</strong></a> obravnava deljenje intimnih slik brez privolitve, vključno z deepfake-i, ki jih ustvari umetna inteligenca. Od spletnih platform, ki jih zajema zakon, zahteva, da zagotovijo način za zahtevo za njihovo odstranitev in da odstranijo ustrezno vsebino v 48 urah po veljavni zahtevi.</p>",
             "note": "HTML allowed"
           }
         }
@@ -1440,7 +1440,7 @@
             "text": "Združeno kraljestvo"
           },
           "html": {
-            "text": "V Združenem kraljestvu je mogoče spletno zlorabo prijaviti ustrezni platformi ali, kadar lahko pomeni kaznivo dejanje, policiji. Posameznike spodbujamo k ohranjanju dokazov, vključno s posnetki zaslona, ​​sporočili in URL-ji. Specializirane organizacije nudijo tudi zaupno podporo in smernice. Policija – Prijavite grožnje, zalezovanje, nadlegovanje in drugo potencialno kriminalno spletno vedenje. V nujnih primerih pokličite 999 ali 101 za pomoč, ki ni nujna. Prijavite škodljivo vsebino – Navodila in pomoč pri prijavi škodljive spletne vsebine, vključno z nadlegovanjem, grožnjami in zlorabo. Stop Hate UK – Neodvisne, zaupne storitve podpore in splošnega poročanja o kaznivih dejanjih iz sovraštva na sodelujočih območjih.",
+            "text": "<p></p><ul><li><strong>V Združenem kraljestvu je mogoče spletno zlorabo prijaviti ustrezni platformi ali, kadar lahko pomeni kaznivo dejanje, policiji. Posameznike spodbujamo k ohranjanju dokazov, vključno s posnetki zaslona, ​​sporočili in URL-ji. Specializirane organizacije nudijo tudi zaupno podporo in smernice. Policija – Prijavite grožnje, zalezovanje, nadlegovanje in drugo potencialno kriminalno spletno vedenje. V nujnih primerih pokličite 999 ali 101 za pomoč, ki ni nujna. Prijavite škodljivo vsebino – Navodila in pomoč pri prijavi škodljive spletne vsebine, vključno z nadlegovanjem, grožnjami in zlorabo. Stop Hate UK – Neodvisne, zaupne storitve podpore in splošnega poročanja o kaznivih dejanjih iz sovraštva na sodelujočih območjih.</strong></li><li><a href=\"https://reportharmfulcontent.com/\" target=\"_blank\" rel=\"noopener\"></a></li><li><a href=\"https://www.stophateuk.org/report-hate-crime/\" target=\"_blank\" rel=\"noopener\"></a></li></ul>",
             "note": "HTML allowed — linked resource names open official sources"
           }
         },
@@ -1449,7 +1449,7 @@
             "text": "Združene države Amerike"
           },
           "html": {
-            "text": "V Združenih državah Amerike je mogoče spletno zlorabo prijaviti ustrezni platformi ali organom pregona, odvisno od narave incidenta. Grožnje, zalezovanje in drugo potencialno kriminalno vedenje je mogoče prijaviti lokalni policiji, medtem ko zvezne agencije zagotavljajo dodatne kanale za prijavo. Posameznike spodbujamo, da hranijo dokaze, vključno s posnetki zaslona, ​​sporočili in URL-ji.Lokalni organi pregona – Policijski oddelki lahko prejemajo prijave groženj, zalezovanja, nadlegovanja in drugega potencialno kriminalnega spletnega vedenja. V nujnih primerih pokličite 911.StopBullying.gov: Prijavi kibernetsko ustrahovanje – Vladne smernice o dokumentiranju kibernetskega ustrahovanja, prijavljanju škodljive vsebine platformam in stiku z organi pregona, kadar je to primerno.FBI: Center za pritožbe glede internetnega kriminala (IC3) – Poročila o kibernetsko omogočenem kriminalu, vključno s spletnim izsiljevanjem, nadlegovanjem in zalezovanjem, kadar obstaja sum kaznivega dejanja.FBI: Prijavi zvezni zločin – Poročila o domnevnih zveznih kaznivih dejanjih, vključno z resnimi grožnjami in drugimi kriminalnimi dejavnostmi, ki lahko vključujejo spletno zlorabo.",
+            "text": "<p></p><ul><li><a href=\"https://www.usa.gov/report-crime\" target=\"_blank\" rel=\"noopener\"><strong>V Združenih državah Amerike je mogoče spletno zlorabo prijaviti ustrezni platformi ali organom pregona, odvisno od narave incidenta. Grožnje, zalezovanje in drugo potencialno kriminalno vedenje je mogoče prijaviti lokalni policiji, medtem ko zvezne agencije zagotavljajo dodatne kanale za prijavo. Posameznike spodbujamo, da hranijo dokaze, vključno s posnetki zaslona, ​​sporočili in URL-ji.Lokalni organi pregona – Policijski oddelki lahko prejemajo prijave groženj, zalezovanja, nadlegovanja in drugega potencialno kriminalnega spletnega vedenja. V nujnih primerih pokličite 911.StopBullying.gov: Prijavi kibernetsko ustrahovanje – Vladne smernice o dokumentiranju kibernetskega ustrahovanja, prijavljanju škodljive vsebine platformam in stiku z organi pregona, kadar je to primerno.FBI: Center za pritožbe glede internetnega kriminala (IC3) – Poročila o kibernetsko omogočenem kriminalu, vključno s spletnim izsiljevanjem, nadlegovanjem in zalezovanjem, kadar obstaja sum kaznivega dejanja.FBI: Prijavi zvezni zločin – Poročila o domnevnih zveznih kaznivih dejanjih, vključno z resnimi grožnjami in drugimi kriminalnimi dejavnostmi, ki lahko vključujejo spletno zlorabo.</strong></a></li><li><a href=\"https://www.stopbullying.gov/cyberbullying/how-to-report\" target=\"_blank\" rel=\"noopener\"></a></li><li><a href=\"https://www.ic3.gov/\" target=\"_blank\" rel=\"noopener\"></a></li><li><a href=\"https://tips.fbi.gov/\" target=\"_blank\" rel=\"noopener\"></a></li></ul>",
             "note": "HTML allowed — linked resource names open official sources"
           }
         },
@@ -1458,7 +1458,7 @@
             "text": "Slovenija"
           },
           "html": {
-            "text": "V Sloveniji lahko športniki in športni strokovnjaki poiščejo neodvisno podporo in smernice glede spletnih zlorab prek Varuha pravic športnikov. Dodatni viri obravnavajo incidente kibernetske varnosti, varstvo osebnih podatkov in neprimerno ravnanje v športu, vključno z namenskimi kanali za prijavo. Varuh pravic športnikov – Neodvisna podpora in brezplačno pravno svetovanje za športnike in športne strokovnjake. SI.CERT – Slovenski nacionalni center za odzivanje na incidente kibernetske varnosti, ki zagotavlja pomoč pri incidentih spletne varnosti. Urad vlade za informacijsko varnost – Vladni organ, pristojen za nacionalno informacijsko varnost in kibernetsko varnost. Informacijski pooblaščenec – Neodvisen organ, ki nadzoruje varstvo osebnih podatkov in pravice do zasebnosti. Olimpijski komite Slovenije: Kanal za prijavo nepravilnosti – Kanal za prijavo pomislekov glede neprimernega ravnanja v športu.",
+            "text": "<p></p><ul><li><a href=\"https://www.gov.si/en/state-authorities/ministries/ministry-of-the-economy-labour-and-sport/about-the-ministry-of-economy-tourism-and-sport/sport-directorate/\" target=\"_blank\" rel=\"noopener\"><strong>V Sloveniji lahko športniki in športni strokovnjaki poiščejo neodvisno podporo in smernice glede spletnih zlorab prek Varuha pravic športnikov. Dodatni viri obravnavajo incidente kibernetske varnosti, varstvo osebnih podatkov in neprimerno ravnanje v športu, vključno z namenskimi kanali za prijavo. Varuh pravic športnikov – Neodvisna podpora in brezplačno pravno svetovanje za športnike in športne strokovnjake. SI.CERT – Slovenski nacionalni center za odzivanje na incidente kibernetske varnosti, ki zagotavlja pomoč pri incidentih spletne varnosti. Urad vlade za informacijsko varnost – Vladni organ, pristojen za nacionalno informacijsko varnost in kibernetsko varnost. Informacijski pooblaščenec – Neodvisen organ, ki nadzoruje varstvo osebnih podatkov in pravice do zasebnosti. Olimpijski komite Slovenije: Kanal za prijavo nepravilnosti – Kanal za prijavo pomislekov glede neprimernega ravnanja v športu.</strong></a></li><li><a href=\"https://www.cert.si/en/about-si-cert/\" target=\"_blank\" rel=\"noopener\"></a></li><li><a href=\"https://www.gov.si/drzavni-organi/vladne-sluzbe/urad-vlade-za-informacijsko-varnost/\" target=\"_blank\" rel=\"noopener\"></a></li><li><a href=\"https://www.ip-rs.si/en/about/information-commissioner\" target=\"_blank\" rel=\"noopener\"></a></li><li><a href=\"https://oks.zvizgavka.si/\" target=\"_blank\" rel=\"noopener\"></a></li></ul>",
             "note": "HTML allowed — linked resource names open official sources"
           }
         },
@@ -1467,7 +1467,7 @@
             "text": "Švedska"
           },
           "html": {
-            "text": "Na Švedskem je mogoče potencialno kriminalno spletno zlorabo, vključno z grožnjami, nadlegovanjem in obrekovanjem, prijaviti policiji. Športniki in športni strokovnjaki lahko poiščejo tudi neodvisno podporo ali prijavijo neprimerno ravnanje v športu prek športnega varuha človekovih pravic Švedske športne konfederacije. Švedska policija – uradni kanal za prijavo morebitnih kaznivih dejanj, vključno s spletnimi grožnjami, nadlegovanjem in obrekovanjem. Prijave je mogoče oddati tudi na telefonski številki 114 14. Švedska športna konfederacija (RF): Športni varuh človekovih pravic – neodvisna služba za podporo in prijavo nepravilnosti za prijavo nadlegovanja, zlorab in neprimernega ravnanja v švedskem športu.",
+            "text": "<p></p><ul><li><a href=\"https://polisen.se/utsatt-for-brott/polisanmalan/\" target=\"_blank\" rel=\"noopener\"><strong>Na Švedskem je mogoče potencialno kriminalno spletno zlorabo, vključno z grožnjami, nadlegovanjem in obrekovanjem, prijaviti policiji. Športniki in športni strokovnjaki lahko poiščejo tudi neodvisno podporo ali prijavijo neprimerno ravnanje v športu prek športnega varuha človekovih pravic Švedske športne konfederacije. Švedska policija – uradni kanal za prijavo morebitnih kaznivih dejanj, vključno s spletnimi grožnjami, nadlegovanjem in obrekovanjem. Prijave je mogoče oddati tudi na telefonski številki 114 14. Švedska športna konfederacija (RF): Športni varuh človekovih pravic – neodvisna služba za podporo in prijavo nepravilnosti za prijavo nadlegovanja, zlorab in neprimernega ravnanja v švedskem športu.</strong></a></li><li><a href=\"https://www.rf.se/rf-arbetar-med/idrottsombudsmannen/kontakta-idrottsombudsmannen\" target=\"_blank\" rel=\"noopener\"></a></li></ul>",
             "note": "HTML allowed — linked resource names open official sources"
           }
         },
@@ -1476,7 +1476,7 @@
             "text": "Češka"
           },
           "html": {
-            "text": "Na Češkem je mogoče spletno zlorabo prijaviti prek več kanalov, odvisno od narave incidenta. STOPonline sprejema prijave nezakonitih ali škodljivih spletnih vsebin, vključno s spletnim ustrahovanjem, spletnim navezovanjem stikov, deljenjem intimnih slik brez soglasja in kibernetskimi grožnjami. Prijave pregledajo strokovnjaki in jih je mogoče posredovati češki policiji ali mednarodnim partnerjem. Incidente, ki vključujejo morebitna kazniva dejanja, kot so grožnje, zalezovanje ali izsiljevanje, je treba prijaviti neposredno češki policiji. Posameznike spodbujamo k ohranjanju dokazov, vključno s posnetki zaslona, ​​sporočili in povezavami, škodljive vsebine pa lahko prijavijo tudi neposredno na spletnih platformah. STOPonline.cz – Spletna storitev poročanja, ki jo upravlja CZ.NIC v sodelovanju s CSIRT.CZ. Sprejema prijave nezakonitih ali škodljivih spletnih vsebin in morebitne nezakonite primere posreduje pristojnim organom. Storitev se osredotoča na oceno in poročanje o vsebinah, ne na svetovanje. Češka policija: Poročanje o kibernetski kriminaliteti – Uradne informacije o poročanju o sumljivi kibernetski kriminaliteti, vključno s spletnimi grožnjami, zalezovanjem, izsiljevanjem in drugimi morebitnimi kriminalnimi dejavnostmi. Češka policija: Smernice o sumljivih spletnih dejavnostih – Praktična navodila za odzivanje na sumljive spletne dejavnosti, ohranjanje dokazov in iskanje policijske pomoči.",
+            "text": "<p></p><ul><li><a href=\"https://www.stoponline.cz/en/\" target=\"_blank\" rel=\"noopener\"><strong>Na Češkem je mogoče spletno zlorabo prijaviti prek več kanalov, odvisno od narave incidenta. STOPonline sprejema prijave nezakonitih ali škodljivih spletnih vsebin, vključno s spletnim ustrahovanjem, spletnim navezovanjem stikov, deljenjem intimnih slik brez soglasja in kibernetskimi grožnjami. Prijave pregledajo strokovnjaki in jih je mogoče posredovati češki policiji ali mednarodnim partnerjem. Incidente, ki vključujejo morebitna kazniva dejanja, kot so grožnje, zalezovanje ali izsiljevanje, je treba prijaviti neposredno češki policiji. Posameznike spodbujamo k ohranjanju dokazov, vključno s posnetki zaslona, ​​sporočili in povezavami, škodljive vsebine pa lahko prijavijo tudi neposredno na spletnih platformah. STOPonline.cz – Spletna storitev poročanja, ki jo upravlja CZ.NIC v sodelovanju s CSIRT.CZ. Sprejema prijave nezakonitih ali škodljivih spletnih vsebin in morebitne nezakonite primere posreduje pristojnim organom. Storitev se osredotoča na oceno in poročanje o vsebinah, ne na svetovanje. Češka policija: Poročanje o kibernetski kriminaliteti – Uradne informacije o poročanju o sumljivi kibernetski kriminaliteti, vključno s spletnimi grožnjami, zalezovanjem, izsiljevanjem in drugimi morebitnimi kriminalnimi dejavnostmi. Češka policija: Smernice o sumljivih spletnih dejavnostih – Praktična navodila za odzivanje na sumljive spletne dejavnosti, ohranjanje dokazov in iskanje policijske pomoči.</strong></a></li><li><a href=\"https://policie.gov.cz/hlaseni-kyberkriminality\" target=\"_blank\" rel=\"noopener\"></a></li><li><a href=\"https://policie.gov.cz/kyberkriminalita/co-delat-vpripade-ze-se-setkate-spodezrelou-aktivitou-vonline-prostoru\" target=\"_blank\" rel=\"noopener\"></a></li></ul>",
             "note": "HTML allowed — linked resource names open official sources"
           }
         },
@@ -1485,7 +1485,7 @@
             "text": "Španija"
           },
           "html": {
-            "text": "V Španiji je mogoče potencialno kriminalno spletno zlorabo, vključno z nadlegovanjem, grožnjami in kaznivimi dejanji iz sovraštva, prijaviti španski nacionalni policiji ali civilni gardi. Posameznike spodbujamo, da hranijo dokaze, vključno s posnetki zaslona, ​​sporočili in URL-ji. Dodatne storitve zagotavljajo zaupno svetovanje in pomoč pri odstranjevanju škodljivih vsebin. Španska nacionalna policija (Policía Nacional) in civilna garda (Guardia Civil) – uradna organa za prijavo potencialno kriminalne spletne zlorabe. INCIBE: Telefonska linija za pomoč pri kibernetski varnosti (017) – brezplačno in zaupno svetovanje o kibernetskem ustrahovanju, spletnem nadlegovanju in digitalni zasebnosti. To je svetovalna storitev, ne pa formalni kanal za prijavo kaznivih dejanj. Španska agencija za varstvo podatkov (AEPD): Prednostni kanal – posameznikom omogoča, da v posebej resnih primerih zahtevajo nujno odstranitev nezakonito deljene spolne ali nasilne vsebine.",
+            "text": "<p></p><ul><li><a href=\"https://www.policia.es/\" target=\"_blank\" rel=\"noopener\"><strong>V Španiji je mogoče potencialno kriminalno spletno zlorabo, vključno z nadlegovanjem, grožnjami in kaznivimi dejanji iz sovraštva, prijaviti španski nacionalni policiji ali civilni gardi. Posameznike spodbujamo, da hranijo dokaze, vključno s posnetki zaslona, ​​sporočili in URL-ji. Dodatne storitve zagotavljajo zaupno svetovanje in pomoč pri odstranjevanju škodljivih vsebin. Španska nacionalna policija (Policía Nacional) in civilna garda (Guardia Civil) – uradna organa za prijavo potencialno kriminalne spletne zlorabe. INCIBE: Telefonska linija za pomoč pri kibernetski varnosti (017) – brezplačno in zaupno svetovanje o kibernetskem ustrahovanju, spletnem nadlegovanju in digitalni zasebnosti. To je svetovalna storitev, ne pa formalni kanal za prijavo kaznivih dejanj. Španska agencija za varstvo podatkov (AEPD): Prednostni kanal – posameznikom omogoča, da v posebej resnih primerih zahtevajo nujno odstranitev nezakonito deljene spolne ali nasilne vsebine.</strong></a></li><li><a href=\"https://www.incibe.es/linea-de-ayuda-en-ciberseguridad\" target=\"_blank\" rel=\"noopener\"></a></li><li><a href=\"https://www.aepd.es/canalprioritario\" target=\"_blank\" rel=\"noopener\"></a></li></ul>",
             "note": "HTML allowed — linked resource names open official sources"
           }
         }
@@ -1510,11 +1510,11 @@
           "text": "Premakni navzdol"
         },
         "ok": {
-          "text": "Pravilno! Določili ste priporočeno zaporedje za odzivanje na spletno zlorabo na družbenih omrežjih. Sledenje jasnemu postopku pomaga ohraniti pomembne informacije, zmanjšati nadaljnjo izpostavljenost in zagotoviti, da se situacija ustrezno prijavi ali eskalira.",
+          "text": "<strong>Pravilno! Določili ste priporočeno zaporedje za odzivanje na spletno zlorabo na družbenih omrežjih. Sledenje jasnemu postopku pomaga ohraniti pomembne informacije, zmanjšati nadaljnjo izpostavljenost in zagotoviti, da se situacija ustrezno prijavi ali eskalira.</strong>",
           "note": "HTML allowed"
         },
         "bad": {
-          "text": "Ne čisto. Preglejte možnosti in poskusite znova.",
+          "text": "<strong>Ne čisto. Preglejte možnosti in poskusite znova.</strong>",
           "note": "HTML allowed"
         }
       },
@@ -1541,7 +1541,7 @@
     },
     "trueFalse": {
       "bad": {
-        "text": "Ne čisto. Preglejte izjavo in poskusite znova.",
+        "text": "<strong>Ne čisto. Preglejte izjavo in poskusite znova.</strong>",
         "note": "HTML allowed"
       },
       "questions": {
@@ -1558,7 +1558,7 @@
             }
           },
           "ok": {
-            "text": "Pravilno! Priporočljivo je, da pred brisanjem vsebine zberete ustrezne dokaze in se izogibate neposrednemu stiku z osebo, odgovorno za zlorabo.",
+            "text": "<strong>Pravilno! Priporočljivo je, da pred brisanjem vsebine zberete ustrezne dokaze in se izogibate neposrednemu stiku z osebo, odgovorno za zlorabo.</strong>",
             "note": "HTML allowed"
           }
         },
@@ -1575,7 +1575,7 @@
             }
           },
           "ok": {
-            "text": "Pravilno! Deljenje ali ponovno objavljanje žaljive vsebine lahko poveča njen doseg in osebo, na katero se nanaša, ter druge ponovno izpostavi škodljivi vsebini. Namesto tega uporabite ustrezne kanale za prijavo.",
+            "text": "<strong>Pravilno! Deljenje ali ponovno objavljanje žaljive vsebine lahko poveča njen doseg in osebo, na katero se nanaša, ter druge ponovno izpostavi škodljivi vsebini. Namesto tega uporabite ustrezne kanale za prijavo.</strong>",
             "note": "HTML allowed"
           }
         },
@@ -1592,7 +1592,7 @@
             }
           },
           "ok": {
-            "text": "Pravilno! Umetna inteligenca lahko podpira zgodnje odkrivanje in označi potencialno škodljivo vsebino za pregled, vendar lahko kontekst, jezik in spreminjajoče se taktike zlorabe naredijo človeško presojo pomembno.",
+            "text": "<strong>Pravilno! Umetna inteligenca lahko podpira zgodnje odkrivanje in označi potencialno škodljivo vsebino za pregled, vendar lahko kontekst, jezik in spreminjajoče se taktike zlorabe naredijo človeško presojo pomembno.</strong>",
             "note": "HTML allowed"
           }
         }
@@ -1604,31 +1604,31 @@
       },
       "items": {
         "i1": {
-          "text": "Zasnova platforme vpliva na širjenje vsebine. Različna digitalna okolja oblikujejo, kdo se sreča z vsebino, kako ljudje z njo komunicirajo in kako dolgo ostane vidna.",
+          "text": "<strong>Zasnova platforme vpliva na širjenje vsebine. Različna digitalna okolja oblikujejo, kdo se sreča z vsebino, kako ljudje z njo komunicirajo in kako dolgo ostane vidna.</strong>",
           "note": "HTML allowed"
         },
         "i2": {
-          "text": "Spletna škoda se lahko poveča. Sistemi priporočil, deljenje, interakcija v živo in dinamika skupnosti lahko povečajo doseg in intenzivnost škodljivih vsebin.",
+          "text": "<strong>Spletna škoda se lahko poveča. Sistemi priporočil, deljenje, interakcija v živo in dinamika skupnosti lahko povečajo doseg in intenzivnost škodljivih vsebin.</strong>",
           "note": "HTML allowed"
         },
         "i3": {
-          "text": "Zlorabne taktike se lahko prilagodijo. Škodljive vsebine lahko uporabljajo spremenjen jezik, vizualne formate, posredno ciljanje ali različne digitalne prostore, zaradi česar je odkrivanje težje.",
+          "text": "<strong>Zlorabne taktike se lahko prilagodijo. Škodljive vsebine lahko uporabljajo spremenjen jezik, vizualne formate, posredno ciljanje ali različne digitalne prostore, zaradi česar je odkrivanje težje.</strong>",
           "note": "HTML allowed"
         },
         "i4": {
-          "text": "Ljudje lahko sprejmejo ukrepe za zmanjšanje izpostavljenosti. Nadzor zasebnosti, nastavitve interakcije, blokiranje, utišanje in premišljene odločitve o spletnih prostorih lahko podpirajo digitalno dobro počutje.",
+          "text": "<strong>Ljudje lahko sprejmejo ukrepe za zmanjšanje izpostavljenosti. Nadzor zasebnosti, nastavitve interakcije, blokiranje, utišanje in premišljene odločitve o spletnih prostorih lahko podpirajo digitalno dobro počutje.</strong>",
           "note": "HTML allowed"
         },
         "i5": {
-          "text": "Učinkovito poročanje sledi jasnemu postopku. Ocenite situacijo, dokumentirajte ustrezne dokaze, prijavite prek ustreznega kanala in poiščite podporo ali stopnjujte zadevo, ko je ogrožena varnost.",
+          "text": "<strong>Učinkovito poročanje sledi jasnemu postopku. Ocenite situacijo, dokumentirajte ustrezne dokaze, prijavite prek ustreznega kanala in poiščite podporo ali stopnjujte zadevo, ko je ogrožena varnost.</strong>",
           "note": "HTML allowed"
         },
         "i6": {
-          "text": "Umetna inteligenca ima dvojno vlogo. Poveča lahko obseg in prefinjenost škodljive vsebine ter podpira odkrivanje, moderiranje in druge ukrepe za spletno varnost.",
+          "text": "<strong>Umetna inteligenca ima dvojno vlogo. Poveča lahko obseg in prefinjenost škodljive vsebine ter podpira odkrivanje, moderiranje in druge ukrepe za spletno varnost.</strong>",
           "note": "HTML allowed"
         },
         "i7": {
-          "text": "Tehnologija sama po sebi ne more obravnavati spletnih zlorab. Učinkoviti odzivi združujejo orodja platforme, odgovorno vedenje uporabnikov, človeško presojo, organizacijsko podporo in ustrezno regulacijo.",
+          "text": "<strong>Tehnologija sama po sebi ne more obravnavati spletnih zlorab. Učinkoviti odzivi združujejo orodja platforme, odgovorno vedenje uporabnikov, človeško presojo, organizacijsko podporo in ustrezno regulacijo.</strong>",
           "note": "HTML allowed"
         }
       }
@@ -1644,63 +1644,63 @@
       },
       "aiAndOnlineHarm": {
         "body": {
-          "text": "Umetna inteligenca spreminja način ustvarjanja in deljenja spletne škode. Vendar pa je lahko tudi močno orodje za preprečevanje širjenja neželenih vsebin na spletu.",
+          "text": "<p><span style=\"color: #091324\">Umetna inteligenca spreminja način ustvarjanja in deljenja spletne škode. Vendar pa je lahko tudi močno orodje za preprečevanje širjenja neželenih vsebin na spletu.</span></p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "Umetna inteligenca in spletna škoda",
+          "text": "<span style=\"color: #21b7cb\">Umetna inteligenca in spletna škoda</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
       "exploreReportingSystemsInYourCountry": {
         "body": {
-          "text": "Naučite se, kje prijaviti spletno zlorabo, poiskati podporo in dostopati do virov za pomoč pri obravnavanju škodljivih vsebin in vedenja.",
+          "text": "<p><span style=\"color: #091324\">Naučite se, kje prijaviti spletno zlorabo, poiskati podporo in dostopati do virov za pomoč pri obravnavanju škodljivih vsebin in vedenja.</span></p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "Raziščite sisteme poročanja v svoji državi:",
+          "text": "<span style=\"color: #21b7cb\">Raziščite sisteme poročanja v svoji državi:</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
       "exploreWhichFactorsCanInfluenceHow": {
         "body": {
-          "text": "Izberite tri dejavnike, ki lahko neposredno vplivajo na to, kako se škodljiva vsebina širi in dosega novo občinstvo na spletu.",
+          "text": "<p><span style=\"color: #091324\">Izberite tri dejavnike, ki lahko neposredno vplivajo na to, kako se škodljiva vsebina širi in dosega novo občinstvo na spletu.</span></p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "Raziščite: Kateri dejavniki lahko vplivajo na to, kako se škodljiva vsebina širi po spletu?",
+          "text": "<span style=\"color: #21b7cb\">Raziščite: Kateri dejavniki lahko vplivajo na to, kako se škodljiva vsebina širi po spletu?</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
       "howPlatformsHelpReduceOnlineAbuse": {
         "body": {
-          "text": "Platforme delujejo kot posredniki med ljudmi, vsebinami in skupnostmi. Njihova zasnova lahko vpliva na doseg škodljivih vsebin, njihova vgrajena orodja pa lahko pomagajo tudi pri odkrivanju, omejevanju, poročanju in odzivanju na zlorabe. Ti ukrepi lahko vključujejo moderiranje vsebin, zmanjšano distribucijo škodljivih vsebin, pozive pred objavo, nastavitve varnosti uporabnikov, mehanizme poročanja in standarde skupnosti. Regulacija vse bolj oblikuje tudi odgovornosti platform. V večini držav sveta imajo te platforme fiduciarno dolžnost (v Združenem kraljestvu na primer Zakon o spletni varnosti in v Evropi Zakon o digitalnih storitvah) za ocenjevanje tveganj, zaščito uporabnikov pred nezakonitimi vsebinami, zagotavljanje mehanizmov poročanja in izvajanje sorazmernih varnostnih ukrepov.",
+          "text": "<p><span style=\"color: #091324\"><strong>Platforme delujejo kot posredniki med ljudmi, vsebinami in skupnostmi. Njihova zasnova lahko vpliva na doseg škodljivih vsebin, njihova vgrajena orodja pa lahko pomagajo tudi pri odkrivanju, omejevanju, poročanju in odzivanju na zlorabe. Ti ukrepi lahko vključujejo moderiranje vsebin, zmanjšano distribucijo škodljivih vsebin, pozive pred objavo, nastavitve varnosti uporabnikov, mehanizme poročanja in standarde skupnosti. Regulacija vse bolj oblikuje tudi odgovornosti platform. V večini držav sveta imajo te platforme fiduciarno dolžnost (v Združenem kraljestvu na primer Zakon o spletni varnosti in v Evropi Zakon o digitalnih storitvah) za ocenjevanje tveganj, zaščito uporabnikov pred nezakonitimi vsebinami, zagotavljanje mehanizmov poročanja in izvajanje sorazmernih varnostnih ukrepov.</strong></span></p><p></p><p></p><p></p><p><span style=\"color: #091324\"><a href=\"https://www.gov.uk/government/publications/online-safety-act-explainer/online-safety-act-explainer\" target=\"_blank\" rel=\"noopener\"></a><a href=\"https://digital-strategy.ec.europa.eu/en/policies/digital-services-act\" target=\"_blank\" rel=\"noopener\"></a></span></p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "Kako platforme pomagajo zmanjšati spletno zlorabo",
+          "text": "<span style=\"color: #21b7cb\">Kako platforme pomagajo zmanjšati spletno zlorabo</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
       "howPlatformsShapeTheSpreadOf": {
         "body": {
-          "text": "Vsaka platforma deluje drugače. Oblikovalske značilnosti vplivajo na to, kako se vsebina širi, kdo jo sreča in kako ljudje z njo komunicirajo. Za več informacij izberite posamezno kartico.",
+          "text": "<p><span style=\"color: #091324\"><strong>Vsaka platforma deluje drugače. Oblikovalske značilnosti vplivajo na to, kako se vsebina širi, kdo jo sreča in kako ljudje z njo komunicirajo. Za več informacij izberite posamezno kartico.</strong></span></p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "Kako platforme oblikujejo širjenje spletnih zlorab",
+          "text": "<span style=\"color: #21b7cb\">Kako platforme oblikujejo širjenje spletnih zlorab</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
       "humanJudgementRemainsEssentialLanguageContext": {
         "body": {
-          "text": "Človeška presoja ostaja bistvena. Jezik, kontekst, kulturne razlike in razvijajoče se taktike zlorabe lahko otežijo natančno razlago škodljivih vsebin. Z vse širšo uporabo umetne inteligence se razvijajo tudi predpisi, ki obravnavajo ta tveganja in vzpostavljajo zaščitne ukrepe za njeno uporabo v različnih jurisdikcijah.",
+          "text": "<p><span style=\"color: #091324\"><strong>Človeška presoja ostaja bistvena. Jezik, kontekst, kulturne razlike in razvijajoče se taktike zlorabe lahko otežijo natančno razlago škodljivih vsebin. Z vse širšo uporabo umetne inteligence se razvijajo tudi predpisi, ki obravnavajo ta tveganja in vzpostavljajo zaščitne ukrepe za njeno uporabo v različnih jurisdikcijah.</strong></span></p>",
           "note": "Native text body on How Online Harm Spreads"
         }
       },
       "image": {
         "useThisImageToIllustrateYour": {
-          "text": "S to sliko ponazorite svojo temo. Dodajte opis, ki povezuje vizualni element z glavnimi idejami vaše lekcije.",
+          "text": "<p>S to sliko ponazorite svojo temo. Dodajte opis, ki povezuje vizualni element z glavnimi idejami vaše lekcije.</p>",
           "note": "Image body text on How Online Harm Spreads"
         }
       },
@@ -1710,37 +1710,37 @@
       },
       "lookingAhead": {
         "body": {
-          "text": "Ker vsebine, ki jih ustvarja umetna inteligenca, postajajo vse pogostejše, postaja preglednost pomemben del spletne varnosti. Med novimi pristopi so identifikacija ali označevanje vsebin, ki jih ustvarja in manipulira umetna inteligenca, ter zagotavljanje informacij o njihovem izvoru. Regulacija se bo še naprej razvijala skupaj s tehnologijo.",
+          "text": "<p><span style=\"color: #091324\"><strong>Ker vsebine, ki jih ustvarja umetna inteligenca, postajajo vse pogostejše, postaja preglednost pomemben del spletne varnosti. Med novimi pristopi so identifikacija ali označevanje vsebin, ki jih ustvarja in manipulira umetna inteligenca, ter zagotavljanje informacij o njihovem izvoru. Regulacija se bo še naprej razvijala skupaj s tehnologijo.</strong></span></p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "Pogled v prihodnost",
+          "text": "<span style=\"color: #21b7cb\">Pogled v prihodnost</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
       "onlineAbuseCanSpreadQuicklyAnd": {
         "body": {
-          "text": "Spletna zloraba se lahko hitro širi in doseže občinstvo, ki daleč presega ljudi, vključene v prvotno interakcijo. Digitalne platforme, vedenje uporabnikov in algoritmični sistemi vplivajo na to, katere vsebine ljudje vidijo in kako široko se širijo. Razumevanje teh mehanizmov nam pomaga prepoznati, kako se lahko škodljive vsebine okrepijo, kako lahko spletna okolja okrepijo sovražnost in kje obstajajo priložnosti za prekinitev njihovega širjenja. Iste platforme in tehnologije, ki lahko okrepijo škodljive vsebine, lahko podpirajo tudi njihovo odkrivanje, moderiranje in preprečevanje.",
+          "text": "<p><span style=\"color: #091324\"><strong>Spletna zloraba se lahko hitro širi in doseže občinstvo, ki daleč presega ljudi, vključene v prvotno interakcijo. Digitalne platforme, vedenje uporabnikov in algoritmični sistemi vplivajo na to, katere vsebine ljudje vidijo in kako široko se širijo. Razumevanje teh mehanizmov nam pomaga prepoznati, kako se lahko škodljive vsebine okrepijo, kako lahko spletna okolja okrepijo sovražnost in kje obstajajo priložnosti za prekinitev njihovega širjenja. Iste platforme in tehnologije, ki lahko okrepijo škodljive vsebine, lahko podpirajo tudi njihovo odkrivanje, moderiranje in preprečevanje.</strong></span></p><p></p><p></p>",
           "note": "Native text body on How Online Harm Spreads"
         }
       },
       "reportingOnlineAbuseOnSocialMedia": {
         "body": {
-          "text": "Poročanje lahko pomaga platformam in organizacijam pri odzivanju na škodljive vsebine in lahko podpre nadaljnje ukrepe, ko situacija postane resnejša. Preberite te korake in vsakega od njih označite, ko se učite.",
+          "text": "<p><strong>Poročanje lahko pomaga platformam in organizacijam pri odzivanju na škodljive vsebine in lahko podpre nadaljnje ukrepe, ko situacija postane resnejša. Preberite te korake in vsakega od njih označite, ko se učite.</strong></p><p></p><p></p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "Prijava spletne zlorabe na družbenih omrežjih",
+          "text": "<span style=\"color: #21b7cb\">Prijava spletne zlorabe na družbenih omrežjih</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
       "selectARegionToLearnMore": {
         "body": {
-          "text": "Ti regionalni primeri so neobvezna dodatna vsebina in ne vplivajo na vaš napredek pri predmetu.",
+          "text": "<p><span style=\"color: #091324\">Ti regionalni primeri so neobvezna dodatna vsebina in ne vplivajo na vaš napredek pri predmetu.</span></p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "Izberite regijo, če želite izvedeti več o spletni zlorabi.",
+          "text": "<span style=\"color: #21b7cb\">Izberite regijo, če želite izvedeti več o spletni zlorabi.</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       }
@@ -1756,21 +1756,21 @@
       },
       "risks": {
         "r1": {
-          "text": "Ustvarjanje in povečevanje škode: Generativna umetna inteligenca lahko hitro in v velikem obsegu ustvarja ali manipulira z besedilom, slikami, zvokom in videoposnetki.",
+          "text": "<strong>Ustvarjanje in povečevanje škode</strong>Generativna umetna inteligenca lahko hitro in v velikem obsegu ustvarja ali manipulira z besedilom, slikami, zvokom in videoposnetki.",
           "note": "HTML allowed"
         }
       },
       "benefits": {
         "b1": {
-          "text": "Odkrivanje škodljive vsebine: Umetna inteligenca lahko pomaga prepoznati potencialno škodljivo vsebino in vzorce v velikih količinah spletnih dejavnosti.",
+          "text": "<strong>Odkrivanje škodljive vsebine</strong>Umetna inteligenca lahko pomaga prepoznati potencialno škodljivo vsebino in vzorce v velikih količinah spletnih dejavnosti.",
           "note": "HTML allowed"
         },
         "b2": {
-          "text": "Podpora moderiranju: Avtomatizirani sistemi lahko označijo vsebino za pregled in pomagajo moderatorjem pri določanju prioritet morebitnih tveganj.",
+          "text": "<strong>Podpora moderiranju</strong>Avtomatizirani sistemi lahko označijo vsebino za pregled in pomagajo moderatorjem pri določanju prioritet morebitnih tveganj.",
           "note": "HTML allowed"
         },
         "b3": {
-          "text": "Podpora uporabnikom: Orodja, ki jih podpira umetna inteligenca, lahko pomagajo filtrirati neželeno vsebino in povezati ljudi s funkcijami poročanja in varnosti.",
+          "text": "<strong>Podpora uporabnikom</strong>Orodja, ki jih podpira umetna inteligenca, lahko pomagajo filtrirati neželeno vsebino in povezati ljudi s funkcijami poročanja in varnosti.",
           "note": "HTML allowed"
         }
       }
@@ -1814,11 +1814,11 @@
             "text": "Sodnik prejema ponavljajoča se opozorila po telefonu"
           },
           "pathway": {
-            "text": "Kaj lahko zajema: Ravnanje, ki pomeni kaznivo dejanje po veljavni zakonodaji, kar lahko vključuje nekatere grožnje, zalezovanje, kazniva dejanja iz sovraštva ali deljenje intimnih slik brez privolitve. Kdo ukrepa: Organi pregona lahko preiščejo primer, pristojni organ pregona pa odloči, ali se zadeva nadaljuje. Možni izidi: Kazenske sankcije lahko vključujejo denarne kazni ali zaporno kazen, odvisno od kaznivega dejanja in pristojnosti.",
+            "text": "<p><strong>Kaj lahko zajema: Ravnanje, ki pomeni kaznivo dejanje po veljavni zakonodaji, kar lahko vključuje nekatere grožnje, zalezovanje, kazniva dejanja iz sovraštva ali deljenje intimnih slik brez privolitve. Kdo ukrepa: Organi pregona lahko preiščejo primer, pristojni organ pregona pa odloči, ali se zadeva nadaljuje. Možni izidi: Kazenske sankcije lahko vključujejo denarne kazni ali zaporno kazen, odvisno od kaznivega dejanja in pristojnosti.</strong></p><p></p><p></p>",
             "note": "HTML allowed"
           },
           "example": {
-            "text": "Po odločitvi med tekmo začne sodnik na svojih družbenih omrežjih prejemati ponavljajoča se sporočila z istega računa. Sporočila postajajo vse bolj grozilna in vključujejo omembe resne škode sodniku in članom njegove družine. Glede na veljavno zakonodajo in okoliščine lahko takšne grožnje privedejo do prijave organom pregona in kazenske preiskave.",
+            "text": "<p>Po odločitvi med tekmo začne sodnik na svojih družbenih omrežjih prejemati ponavljajoča se sporočila z istega računa. Sporočila postajajo vse bolj grozilna in vključujejo omembe resne škode sodniku in članom njegove družine. Glede na veljavno zakonodajo in okoliščine lahko takšne grožnje privedejo do prijave organom pregona in kazenske preiskave.</p><p></p>",
             "note": "HTML allowed"
           }
         },
@@ -1834,11 +1834,11 @@
             "text": "Športnik se sooča s širjenjem spletnih obtožb in izgubo sponzorstva"
           },
           "pathway": {
-            "text": "Kaj lahko krije: Spori v zvezi z zakonskimi pravicami med posamezniki ali organizacijami, ki lahko vključujejo obrekovanje, nadlegovanje, zlorabo zasebnih podatkov ali druge zahtevke v zvezi z zasebnostjo. Kdo ukrepa: Oseba ali organizacija, ki vloži zahtevek, sproži pravni postopek. Možni izidi: Glede na veljavno zakonodajo lahko pravna sredstva vključujejo odškodnino ali sodne odredbe, ki zahtevajo prenehanje določenega ravnanja.",
+            "text": "<p><strong>Kaj lahko krije: Spori v zvezi z zakonskimi pravicami med posamezniki ali organizacijami, ki lahko vključujejo obrekovanje, nadlegovanje, zlorabo zasebnih podatkov ali druge zahtevke v zvezi z zasebnostjo. Kdo ukrepa: Oseba ali organizacija, ki vloži zahtevek, sproži pravni postopek. Možni izidi: Glede na veljavno zakonodajo lahko pravna sredstva vključujejo odškodnino ali sodne odredbe, ki zahtevajo prenehanje določenega ravnanja.</strong></p><p></p><p></p>",
             "note": "HTML allowed"
           },
           "example": {
-            "text": "Na spletu začnejo krožiti lažne obtožbe o športniku, ki se nenehno širijo. Trditve škodujejo športnikovemu profesionalnemu ugledu in sponzor po preučitvi takšnih obtožb z njimi prekine sodelovanje. Glede na veljavno zakonodajo in okoliščine lahko športnik vloži civilno tožbo za odškodnino za povzročeno škodo, vključno z odredbami o odstranitvi obstoječe lažne vsebine, prepovedjo nadaljnje objave, denarnimi zahtevki proti storilcu, če je ta določljiv, itd.",
+            "text": "<p>Na spletu začnejo krožiti lažne obtožbe o športniku, ki se nenehno širijo. Trditve škodujejo športnikovemu profesionalnemu ugledu in sponzor po preučitvi takšnih obtožb z njimi prekine sodelovanje. Glede na veljavno zakonodajo in okoliščine lahko športnik vloži civilno tožbo za odškodnino za povzročeno škodo, vključno z odredbami o odstranitvi obstoječe lažne vsebine, prepovedjo nadaljnje objave, denarnimi zahtevki proti storilcu, če je ta določljiv, itd.</p><p></p>",
             "note": "HTML allowed"
           }
         },
@@ -1854,11 +1854,11 @@
             "text": "Športnik zaskrbljen zaradi osebnih kontaktnih podatkov, razkritih na spletu"
           },
           "pathway": {
-            "text": "Kaj lahko zajema: Pravne obveznosti, ki jih izvajajo regulatorji, vključno s pravili, ki veljajo za spletne storitve ali ravnanje z osebnimi podatki. Kdo ukrepa: Ustrezni regulatorni organi nadzorujejo in izvršujejo te zahteve. Posamezniki in organizacije lahko prav tako vložijo pritožbe. Možni izidi: Regulatorji lahko preiskujejo, zahtevajo spremembe ali naložijo kazni, kadar jim veljavna zakonodaja daje ta pooblastila.",
+            "text": "<p><strong>Kaj lahko zajema: Pravne obveznosti, ki jih izvajajo regulatorji, vključno s pravili, ki veljajo za spletne storitve ali ravnanje z osebnimi podatki. Kdo ukrepa: Ustrezni regulatorni organi nadzorujejo in izvršujejo te zahteve. Posamezniki in organizacije lahko prav tako vložijo pritožbe. Možni izidi: Regulatorji lahko preiskujejo, zahtevajo spremembe ali naložijo kazni, kadar jim veljavna zakonodaja daje ta pooblastila.</strong></p><p></p><p></p>",
             "note": "HTML allowed"
           },
           "example": {
-            "text": "Športnik odkrije, da so bili njegovi osebni kontaktni podatki objavljeni na spletu brez njegovega dovoljenja. Informacije še naprej krožijo, kar povzroča pomisleke glede njegove zasebnosti in varnosti. Glede na veljavna pravila o varstvu podatkov lahko športnik ali njegova organizacija zadevo predloži pristojnemu regulativnemu organu.",
+            "text": "<p>Športnik odkrije, da so bili njegovi osebni kontaktni podatki objavljeni na spletu brez njegovega dovoljenja. Informacije še naprej krožijo, kar povzroča pomisleke glede njegove zasebnosti in varnosti. Glede na veljavna pravila o varstvu podatkov lahko športnik ali njegova organizacija zadevo predloži pristojnemu regulativnemu organu.</p><p></p>",
             "note": "HTML allowed"
           }
         }
@@ -1871,7 +1871,7 @@
             "text": "Pristojnost"
           },
           "html": {
-            "text": "Spletna zloraba lahko takoj prestopi državne meje. Žrtva, odgovorna oseba in platforma se lahko nahajajo v različnih jurisdikcijah z različnimi zakoni in postopki izvrševanja.",
+            "text": "<p>Spletna zloraba lahko takoj prestopi državne meje. Žrtva, odgovorna oseba in platforma se lahko nahajajo v različnih jurisdikcijah z različnimi zakoni in postopki izvrševanja.</p>",
             "note": "HTML allowed"
           }
         },
@@ -1880,7 +1880,7 @@
             "text": "Ugotavljanje, kdo je odgovoren"
           },
           "html": {
-            "text": "Računi lahko uporabljajo psevdonime, lažne identitete ali omejene identifikacijske podatke, zaradi česar je težko ugotoviti, kdo je odgovoren za določeno vedenje. Za identifikacijo imetnika računa so lahko potrebne informacije, ki jih hranijo platforme, in v nekaterih primerih formalni pravni postopki.",
+            "text": "<p>Računi lahko uporabljajo psevdonime, lažne identitete ali omejene identifikacijske podatke, zaradi česar je težko ugotoviti, kdo je odgovoren za določeno vedenje. Za identifikacijo imetnika računa so lahko potrebne informacije, ki jih hranijo platforme, in v nekaterih primerih formalni pravni postopki.</p>",
             "note": "HTML allowed"
           }
         },
@@ -1889,7 +1889,7 @@
             "text": "Izvrševanje"
           },
           "html": {
-            "text": "Obseg in hitrost spletnih dejavnosti lahko oteži preiskavo in izvrševanje. Razpoložljivi viri, strokovno znanje, dokazne zahteve in prednostne naloge izvrševanja lahko vplivajo na to, kaj se zgodi po prijavi incidenta.",
+            "text": "<p>Obseg in hitrost spletnih dejavnosti lahko oteži preiskavo in izvrševanje. Razpoložljivi viri, strokovno znanje, dokazne zahteve in prednostne naloge izvrševanja lahko vplivajo na to, kaj se zgodi po prijavi incidenta.</p>",
             "note": "HTML allowed"
           }
         },
@@ -1898,7 +1898,7 @@
             "text": "Zakonski pragovi"
           },
           "html": {
-            "text": "Vsako škodljivo ali zlorabno vedenje ne pomeni samodejno prekrška ali podlage za pravni zahtevek. Pomembni so veljavna pravna opredelitev, dokazi, kontekst in pristojnost. To pomeni, da je pravni postopek del odziva na spletno zlorabo. Politike spletnih platform in lastni standardi in politike športnih organizacij lahko pomagajo tudi pri obravnavanju določenih vedenj, ki morda nimajo zadostne podlage za pravni postopek.",
+            "text": "<p>Vsako škodljivo ali zlorabno vedenje ne pomeni samodejno prekrška ali podlage za pravni zahtevek. Pomembni so veljavna pravna opredelitev, dokazi, kontekst in pristojnost. To pomeni, da je pravni postopek del odziva na spletno zlorabo. Politike spletnih platform in lastni standardi in politike športnih organizacij lahko pomagajo tudi pri obravnavanju določenih vedenj, ki morda nimajo zadostne podlage za pravni postopek.</p><p></p>",
             "note": "HTML allowed"
           }
         }
@@ -1922,7 +1922,7 @@
             "text": "Združeno kraljestvo"
           },
           "html": {
-            "text": "V Združenem kraljestvu več zakonov obravnava škodljivo spletno ravnanje. Zakon o spletni varnosti iz leta 2023 uvaja kazniva dejanja, povezana z grozilnimi komunikacijami, spletnim razširjanjem vsebin in deljenjem ali grožnjami z deljenjem intimnih slik brez privolitve. Zakon o zaščiti pred nadlegovanjem iz leta 1997 zajema tudi nadlegovanje in zalezovanje, vključno z ravnanjem, ki vključuje digitalne komunikacije. Zakon o spletni varnosti reguliranim platformam poleg tega nalaga dolžnosti za obravnavanje nezakonitih vsebin in zaščito otrok pred škodljivim gradivom. Veljavne zaščite so odvisne od ravnanja in jurisdikcije. Vir: Legislation.gov.uk",
+            "text": "<p><strong>V Združenem kraljestvu več zakonov obravnava škodljivo spletno ravnanje. Zakon o spletni varnosti iz leta 2023 uvaja kazniva dejanja, povezana z grozilnimi komunikacijami, spletnim razširjanjem vsebin in deljenjem ali grožnjami z deljenjem intimnih slik brez privolitve. Zakon o zaščiti pred nadlegovanjem iz leta 1997 zajema tudi nadlegovanje in zalezovanje, vključno z ravnanjem, ki vključuje digitalne komunikacije. Zakon o spletni varnosti reguliranim platformam poleg tega nalaga dolžnosti za obravnavanje nezakonitih vsebin in zaščito otrok pred škodljivim gradivom. Veljavne zaščite so odvisne od ravnanja in jurisdikcije. Vir: Legislation.gov.uk</strong></p><p><em><a href=\"https://www.legislation.gov.uk/\" target=\"_blank\" rel=\"noopener\"></a></em></p>",
             "note": "HTML allowed"
           }
         },
@@ -1931,7 +1931,7 @@
             "text": "Združene države Amerike"
           },
           "html": {
-            "text": "V Združenih državah Amerike se spletno zlorabo obravnava s kombinacijo zveznih in državnih zakonov. Zvezna zakonodaja, vključno z 18 U.S.C. 2261A, obravnava nekatere oblike spletnega zalezovanja, ki vključujejo elektronske komunikacije. Druge zvezne določbe zajemajo grožnje in posebne oblike spletnega nadlegovanja, medtem ko lahko državni zakoni zagotavljajo dodatno zaščito pred spletnim ustrahovanjem, nadlegovanjem, zalezovanjem in deljenjem intimnih slik brez privolitve. Pravne opredelitve, izvrševanje in razpoložljiva pravna sredstva se razlikujejo glede na jurisdikcijo in okoliščine posameznega primera. Vir: Zakonik ZDA",
+            "text": "<p>V Združenih državah Amerike se spletno zlorabo obravnava s kombinacijo zveznih in državnih zakonov. Zvezna zakonodaja, vključno z <strong>18 U.S.C. 2261A</strong>, obravnava nekatere oblike spletnega zalezovanja, ki vključujejo elektronske komunikacije. Druge zvezne določbe zajemajo grožnje in posebne oblike spletnega nadlegovanja, medtem ko lahko državni zakoni zagotavljajo dodatno zaščito pred spletnim ustrahovanjem, nadlegovanjem, zalezovanjem in deljenjem intimnih slik brez privolitve. Pravne opredelitve, izvrševanje in razpoložljiva pravna sredstva se razlikujejo glede na jurisdikcijo in okoliščine posameznega primera. Vir: Zakonik ZDA</p><p><em><a href=\"https://uscode.house.gov/\" target=\"_blank\" rel=\"noopener\"></a></em></p>",
             "note": "HTML allowed"
           }
         },
@@ -1940,7 +1940,7 @@
             "text": "Češka"
           },
           "html": {
-            "text": "Češka zakonodaja ne določa enega samega kaznivega dejanja »spletne zlorabe«. Obstoječa zakonodaja se lahko uporablja za specifična škodljiva vedenja, ki se izvajajo na spletu. Na primer, člen 354 češkega kazenskega zakonika (zakon št. 40/2009 Zb.) obravnava zalezovanje, vključno z ravnanjem, ki se izvaja prek elektronskih komunikacij. Smernice češke policije o zalezovanju pojasnjujejo to določbo in med vedenji, ki se lahko pojavijo v primerih zalezovanja, opredeljujejo ponavljajoča se sporočila na družbenih omrežjih, grožnje, zlorabo osebnih podatkov in napade na ugled. Češki civilni zakonik (zakon št. 89/2012 Zb.) varuje tudi osebnostne pravice, vključno z dostojanstvom, častjo in zasebnostjo osebe. Oseba, ki jo je prizadel nezakonit poseg, lahko zahteva, da se poseg ustavi in ​​​​odpravijo njegove posledice. Vir: e-Sbírka",
+            "text": "<p><strong>Češka zakonodaja ne določa enega samega kaznivega dejanja »spletne zlorabe«. Obstoječa zakonodaja se lahko uporablja za specifična škodljiva vedenja, ki se izvajajo na spletu. Na primer, člen 354 češkega kazenskega zakonika (zakon št. 40/2009 Zb.) obravnava zalezovanje, vključno z ravnanjem, ki se izvaja prek elektronskih komunikacij. Smernice češke policije o zalezovanju pojasnjujejo to določbo in med vedenji, ki se lahko pojavijo v primerih zalezovanja, opredeljujejo ponavljajoča se sporočila na družbenih omrežjih, grožnje, zlorabo osebnih podatkov in napade na ugled. Češki civilni zakonik (zakon št. 89/2012 Zb.) varuje tudi osebnostne pravice, vključno z dostojanstvom, častjo in zasebnostjo osebe. Oseba, ki jo je prizadel nezakonit poseg, lahko zahteva, da se poseg ustavi in ​​​​odpravijo njegove posledice. Vir: e-Sbírka</strong><a href=\"https://policie.gov.cz/stalking---nebezpecne-pronasledovani--354-trestniho-zakoniku\" target=\"_blank\" rel=\"noopener\"></a></p><p></p><p><em><a href=\"https://e-sbirka.gov.cz\" target=\"_blank\" rel=\"noopener\"></a></em></p>",
             "note": "HTML allowed"
           }
         },
@@ -1949,7 +1949,7 @@
             "text": "Španija"
           },
           "html": {
-            "text": "Španski kazenski zakonik (Organski zakon 10/1995) obravnava več oblik spletne zlorabe. Člen 172b zajema zalezovanje, vključno s ponavljajočimi se neželenimi stiki, zlorabo osebnih podatkov in ustvarjanjem lažnih profilov na družbenih omrežjih z uporabo slike nekoga brez njegove privolitve, kadar to povzroča nadlegovanje ali poniževanje. Člen 510 obravnava spletni sovražni govor, s povečanimi kaznimi za določena kazniva dejanja, kadar digitalne platforme omogočijo dostop do vsebine širokemu občinstvu. Žrtve lahko domnevna kazniva dejanja prijavijo španski nacionalni policiji ali civilni gardi (Guardia Civil). Dodatna podpora je na voljo prek brezplačne in zaupne telefonske linije za pomoč INCIBE 017, španska agencija za varstvo podatkov (AEPD) pa zagotavlja prednostni kanal za zahtevo po nujni odstranitvi nezakonito deljene spolne ali nasilne vsebine. Vir: Gobierno de España",
+            "text": "<p><a href=\"https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444\" target=\"_blank\" rel=\"noopener\"><strong>Španski kazenski zakonik (Organski zakon 10/1995) obravnava več oblik spletne zlorabe. Člen 172b zajema zalezovanje, vključno s ponavljajočimi se neželenimi stiki, zlorabo osebnih podatkov in ustvarjanjem lažnih profilov na družbenih omrežjih z uporabo slike nekoga brez njegove privolitve, kadar to povzroča nadlegovanje ali poniževanje. Člen 510 obravnava spletni sovražni govor, s povečanimi kaznimi za določena kazniva dejanja, kadar digitalne platforme omogočijo dostop do vsebine širokemu občinstvu. Žrtve lahko domnevna kazniva dejanja prijavijo španski nacionalni policiji ali civilni gardi (Guardia Civil). Dodatna podpora je na voljo prek brezplačne in zaupne telefonske linije za pomoč INCIBE 017, španska agencija za varstvo podatkov (AEPD) pa zagotavlja prednostni kanal za zahtevo po nujni odstranitvi nezakonito deljene spolne ali nasilne vsebine. Vir: Gobierno de España</strong></a></p><p></p><p><a href=\"https://www.policia.es/\" target=\"_blank\" rel=\"noopener\"></a><a href=\"https://www.incibe.es/linea-de-ayuda-en-ciberseguridad\" target=\"_blank\" rel=\"noopener\"></a><a href=\"https://www.aepd.es/canalprioritario\" target=\"_blank\" rel=\"noopener\"></a></p><p><em><a href=\"https://www.mpr.gob.es/Paginas/index.aspx\" target=\"_blank\" rel=\"noopener\"></a></em></p>",
             "note": "HTML allowed"
           }
         },
@@ -1958,7 +1958,7 @@
             "text": "Švedska"
           },
           "html": {
-            "text": "Na Švedskem spletno sovraštvo ali zloraba nista ločeni pravni kategoriji. Švedska policija pojasnjuje, da se za ravnanje na spletu na splošno uporabljajo isti kazenski zakoni kot za ravnanje v resnici, pri čemer lahko med ustrezna kazniva dejanja spadajo nezakonite grožnje, nadlegovanje, obrekovanje, žalitev, nezakonit vdor v zasebnost, spolno nadlegovanje, nezakonita zloraba identitete (npr. lažni profili v imenu nekoga drugega) in vznemirjanje proti skupini prebivalstva. Če je kaznivo dejanje motivirano na primer z etnično pripadnostjo, vero ali spolno usmerjenostjo žrtve, je to oteževalna okoliščina pri izreku kazni. Švedska zakonodaja priznava tudi nezakonito preganjanje, ki lahko izhaja iz ponavljajočih se kaznivih dejanj zoper isto osebo. Policijske smernice ljudem, ki so žrtve zalezovanja, posebej svetujejo, naj hranijo e-pošto, besedilna sporočila, evidence klicev in drugo digitalno komunikacijo kot morebitne dokaze. Viri: polisen.se; Švedski parlament",
+            "text": "<p>Na Švedskem spletno sovraštvo ali zloraba nista ločeni pravni kategoriji. Švedska policija pojasnjuje, da se za ravnanje na spletu na splošno uporabljajo isti kazenski zakoni kot za ravnanje v resnici, pri čemer lahko med ustrezna kazniva dejanja spadajo nezakonite grožnje, nadlegovanje, obrekovanje, žalitev, nezakonit vdor v zasebnost, spolno nadlegovanje, nezakonita zloraba identitete (npr. lažni profili v imenu nekoga drugega) in vznemirjanje proti skupini prebivalstva. Če je kaznivo dejanje motivirano na primer z etnično pripadnostjo, vero ali spolno usmerjenostjo žrtve, je to oteževalna okoliščina pri izreku kazni. Švedska zakonodaja priznava tudi nezakonito preganjanje, ki lahko izhaja iz ponavljajočih se kaznivih dejanj zoper isto osebo. Policijske smernice ljudem, ki so žrtve zalezovanja, posebej svetujejo, naj hranijo e-pošto, besedilna sporočila, evidence klicev in drugo digitalno komunikacijo kot morebitne dokaze. Viri: polisen.se; Švedski parlament</p><p></p><p><em><a href=\"https://polisen.se\" target=\"_blank\" rel=\"noopener\"></a><a href=\"https://www.riksdagen.se/sv/dokument-och-lagar/\" target=\"_blank\" rel=\"noopener\"></a></em></p>",
             "note": "HTML allowed"
           }
         },
@@ -1967,7 +1967,7 @@
             "text": "Slovenija"
           },
           "html": {
-            "text": "Slovenska zakonodaja obravnava spletno zlorabo z obstoječo zakonodajo, ki zajema specifična škodljiva vedenja. Posebej pomemben primer je 134.a člen kazenskega zakonika (KZ-1), ki zalezovanje opredeljuje kot ponavljajoče se poskuse vzpostavitve neželenega stika prek elektronskih komunikacij, pri čemer ravnanje povzroča strah ali občutek ogroženosti. Tudi slovenski organi so v smernicah glede uporabe te določbe prepoznali spletno razsežnost zalezovanja. Smernice slovenske policije spletno nasilje prepoznavajo kot vedenje, kot so grožnje, nadlegovanje, širjenje lažnih ali žaljivih vsebin, zloraba fotografij, lažno predstavljanje in ustvarjanje škodljivih lažnih profilov. Ali določeno ravnanje predstavlja kaznivo dejanje, je odvisno od okoliščin posameznega primera. Vir: GOV.SI",
+            "text": "<p><strong>Slovenska zakonodaja obravnava spletno zlorabo z obstoječo zakonodajo, ki zajema specifična škodljiva vedenja. Posebej pomemben primer je 134.a člen kazenskega zakonika (KZ-1), ki zalezovanje opredeljuje kot ponavljajoče se poskuse vzpostavitve neželenega stika prek elektronskih komunikacij, pri čemer ravnanje povzroča strah ali občutek ogroženosti. Tudi slovenski organi so v smernicah glede uporabe te določbe prepoznali spletno razsežnost zalezovanja. Smernice slovenske policije spletno nasilje prepoznavajo kot vedenje, kot so grožnje, nadlegovanje, širjenje lažnih ali žaljivih vsebin, zloraba fotografij, lažno predstavljanje in ustvarjanje škodljivih lažnih profilov. Ali določeno ravnanje predstavlja kaznivo dejanje, je odvisno od okoliščin posameznega primera. Vir: GOV.SI</strong></p><p></p><p><em><a href=\"https://www.gov.si/\" target=\"_blank\" rel=\"noopener\"></a></em></p>",
             "note": "HTML allowed"
           }
         }
@@ -1994,7 +1994,7 @@
             }
           },
           "ok": {
-            "text": "Pravilno!",
+            "text": "<strong>Pravilno!</strong>",
             "note": "HTML allowed"
           }
         },
@@ -2017,7 +2017,7 @@
             }
           },
           "ok": {
-            "text": "Pravilno!",
+            "text": "<strong>Pravilno!</strong>",
             "note": "HTML allowed"
           }
         },
@@ -2040,7 +2040,7 @@
             }
           },
           "ok": {
-            "text": "Pravilno!",
+            "text": "<strong>Pravilno!</strong>",
             "note": "HTML allowed"
           }
         },
@@ -2063,7 +2063,7 @@
             }
           },
           "ok": {
-            "text": "Pravilno!",
+            "text": "<strong>Pravilno!</strong>",
             "note": "HTML allowed"
           }
         }
@@ -2075,27 +2075,27 @@
       },
       "items": {
         "i1": {
-          "text": "Spletna zloraba lahko vključuje različna področja prava. Kazenske, civilne in upravne poti vključujejo različne postopke, akterje in možne izide.",
+          "text": "<strong>Spletna zloraba lahko vključuje različna področja prava. Kazenske, civilne in upravne poti vključujejo različne postopke, akterje in možne izide.</strong>",
           "note": "HTML allowed"
         },
         "i2": {
-          "text": "Uporabiti je mogoče več poti. Isti incident lahko glede na okoliščine sproži kazenske, civilne ali regulativne postopke.",
+          "text": "<strong>Uporabiti je mogoče več poti. Isti incident lahko glede na okoliščine sproži kazenske, civilne ali regulativne postopke.</strong>",
           "note": "HTML allowed"
         },
         "i3": {
-          "text": "Pravni odzivi so odvisni od konteksta in jurisdikcije. Veljavna zakonodaja, razpoložljivi dokazi ter lokacija vpletenih oseb in storitev lahko vplivajo na to, kateri ukrepi so možni.",
+          "text": "<strong>Pravni odzivi so odvisni od konteksta in jurisdikcije. Veljavna zakonodaja, razpoložljivi dokazi ter lokacija vpletenih oseb in storitev lahko vplivajo na to, kateri ukrepi so možni.</strong>",
           "note": "HTML allowed"
         },
         "i4": {
-          "text": "Pravne poti imajo praktične omejitve. Čezmejna dejavnost, identifikacija odgovornih posameznikov, zmogljivosti izvrševanja in zakonski pragovi lahko otežijo ukrepanje.",
+          "text": "<strong>Pravne poti imajo praktične omejitve. Čezmejna dejavnost, identifikacija odgovornih posameznikov, zmogljivosti izvrševanja in zakonski pragovi lahko otežijo ukrepanje.</strong>",
           "note": "HTML allowed"
         },
         "i5": {
-          "text": "Odgovornost sega preko meja zakona. Športne organizacije lahko določijo politike, postopke poročanja, zaščito, podporo in posledice za škodljivo vedenje.",
+          "text": "<strong>Odgovornost sega preko meja zakona. Športne organizacije lahko določijo politike, postopke poročanja, zaščito, podporo in posledice za škodljivo vedenje.</strong>",
           "note": "HTML allowed"
         },
         "i6": {
-          "text": "Športno vedenje sega tudi v digitalne prostore. Spoštovanje, poštena igra in odgovorno ravnanje ostajajo pomembni, ko ljudje sodelujejo v športu na spletu.",
+          "text": "<strong>Športno vedenje sega tudi v digitalne prostore. Spoštovanje, poštena igra in odgovorno ravnanje ostajajo pomembni, ko ljudje sodelujejo v športu na spletu.</strong>",
           "note": "HTML allowed"
         }
       }
@@ -2112,28 +2112,28 @@
       "callout": {
         "pleaseNote": {
           "body": {
-            "text": "Ta modul ponuja splošen pregled pravnih odzivov na spletne zlorabe in ne predstavlja pravnega nasveta. Zakoni se med jurisdikcijami razlikujejo in se lahko sčasoma spreminjajo. Za nasvet o določeni situaciji se posvetujte z ustrezno usposobljenim strokovnjakom.",
+            "text": "<p><span style=\"color: #091324\">Ta modul ponuja splošen pregled pravnih odzivov na spletne zlorabe in ne predstavlja pravnega nasveta. Zakoni se med jurisdikcijami razlikujejo in se lahko sčasoma spreminjajo. Za nasvet o določeni situaciji se posvetujte z ustrezno usposobljenim strokovnjakom.</span></p>",
             "note": "Callout body on Knowing Your Rights and Responsibilities"
           },
           "title": {
-            "text": "Prosimo, upoštevajte",
+            "text": "<span style=\"color: #1c3564\">Prosimo, upoštevajte</span>",
             "note": "Callout title on Knowing Your Rights and Responsibilities"
           }
         }
       },
       "howCanLegalResponsesDifferBy": {
         "body": {
-          "text": "Pravni odziv na spletno zlorabo je odvisen od tega, kje se incident zgodi in kateri zakoni veljajo. Izberite regijo, da si ogledate primer, kako se lahko obstoječi zakoni uporabljajo za spletno vedenje.",
+          "text": "<p><span style=\"color: #091324\">Pravni odziv na spletno zlorabo je odvisen od tega, kje se incident zgodi in kateri zakoni veljajo. Izberite regijo, da si ogledate primer, kako se lahko obstoječi zakoni uporabljajo za spletno vedenje.</span></p>",
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "heading": {
-          "text": "Kako se lahko pravni odzivi razlikujejo glede na državo?",
+          "text": "<span style=\"color: #21b7cb\">Kako se lahko pravni odzivi razlikujejo glede na državo?</span>",
           "note": "Native heading on Knowing Your Rights and Responsibilities"
         }
       },
       "internationalFederationsNationalGoverningBodiesClubs": {
         "body": {
-          "text": "Mednarodne zveze, nacionalni upravni organi, klubi, lige in druge športne organizacije imajo lahko različne odgovornosti in vire. Jasne politike in dosledni procesi pomagajo prenesti skupne standarde v dejanja na različnih ravneh športa.",
+          "text": "<p><span style=\"color: #091324\"><strong>Mednarodne zveze, nacionalni upravni organi, klubi, lige in druge športne organizacije imajo lahko različne odgovornosti in vire. Jasne politike in dosledni procesi pomagajo prenesti skupne standarde v dejanja na različnih ravneh športa.</strong></span></p>",
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         }
       },
@@ -2143,57 +2143,57 @@
       },
       "responsibilitiesBeyondTheLaw": {
         "body": {
-          "text": "Zakon določa pravne obveznosti. Šport določa tudi standarde za sodelovanje in ravnanje. Kodeksi ravnanja, zaščitni postopki, varnostne politike, disciplinski postopki in standardi skupnosti lahko pomagajo športnim organizacijam pri odzivanju na škodljivo vedenje, tudi če pravna pot ni na voljo ali je neprimerna.",
+          "text": "<p><span style=\"color: #091324\"><strong>Zakon določa pravne obveznosti. Šport določa tudi standarde za sodelovanje in ravnanje. Kodeksi ravnanja, zaščitni postopki, varnostne politike, disciplinski postopki in standardi skupnosti lahko pomagajo športnim organizacijam pri odzivanju na škodljivo vedenje, tudi če pravna pot ni na voljo ali je neprimerna.</strong></span></p><p></p><p></p>",
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "heading": {
-          "text": "Odgovornosti, ki presegajo zakon",
+          "text": "<span style=\"color: #21b7cb\">Odgovornosti, ki presegajo zakon</span>",
           "note": "Native heading on Knowing Your Rights and Responsibilities"
         }
       },
       "selectTheBestOptionForEach": {
         "body": {
-          "text": "Za vsako vprašanje izberite najboljšo možnost. Preden nadaljujete, morate pravilno odgovoriti na vsako vprašanje. Poskusite lahko tolikokrat, kot želite.",
+          "text": "<p><span style=\"color: #091324\">Za vsako vprašanje izberite najboljšo možnost. Preden nadaljujete, morate pravilno odgovoriti na vsako vprašanje. Poskusite lahko tolikokrat, kot želite.</span></p>",
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         }
       },
       "threeLegalPathways": {
         "body": {
-          "text": "Spletna zloraba lahko vključuje kazensko, civilno ali upravno pravo in predpise. Vsaka pot vključuje različne akterje, procese in možne izide, isti incident pa lahko vključuje več kot enega. Te poti se medsebojno ne izključujejo. Isti incident lahko sproži različna pravna vprašanja, odvisno od tega, kaj se je zgodilo in kateri zakoni se uporabljajo.",
+          "text": "<p><strong>Spletna zloraba lahko vključuje kazensko, civilno ali upravno pravo in predpise. Vsaka pot vključuje različne akterje, procese in možne izide, isti incident pa lahko vključuje več kot enega. Te poti se medsebojno ne izključujejo. Isti incident lahko sproži različna pravna vprašanja, odvisno od tega, kaj se je zgodilo in kateri zakoni se uporabljajo.</strong></p><p></p><p></p><p></p>",
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "heading": {
-          "text": "Tri pravne poti",
+          "text": "<span style=\"color: #21b7cb\">Tri pravne poti</span>",
           "note": "Native heading on Knowing Your Rights and Responsibilities"
         }
       },
       "whenOnlineAbuseOccursImportantQuestions": {
         "body": {
-          "text": "Ko pride do spletne zlorabe, se lahko pojavijo pomembna vprašanja: Ali obstaja zakon, ki lahko pomaga? Kdo lahko ukrepa? Katere druge zaščite so na voljo? Odgovori so odvisni od vedenja, kraja, kjer se pojavi, in zakonov, ki lahko pomagajo. Razumevanje glavnih pravnih poti vam lahko pomaga prepoznati, kje je možna pravna odgovornost in kdaj so pomembne druge oblike ukrepanja. V športu pravna zaščita deluje vzporedno z organizacijskimi politikami, kodeksi ravnanja, zaščitnimi postopki in standardi športnega vedenja. Ti mehanizmi skupaj pomagajo vzpostaviti pričakovanja za varnejšo spletno udeležbo.",
+          "text": "<p><span style=\"color: #091324\"><strong>Ko pride do spletne zlorabe, se lahko pojavijo pomembna vprašanja: Ali obstaja zakon, ki lahko pomaga? Kdo lahko ukrepa? Katere druge zaščite so na voljo? Odgovori so odvisni od vedenja, kraja, kjer se pojavi, in zakonov, ki lahko pomagajo. Razumevanje glavnih pravnih poti vam lahko pomaga prepoznati, kje je možna pravna odgovornost in kdaj so pomembne druge oblike ukrepanja. V športu pravna zaščita deluje vzporedno z organizacijskimi politikami, kodeksi ravnanja, zaščitnimi postopki in standardi športnega vedenja. Ti mehanizmi skupaj pomagajo vzpostaviti pričakovanja za varnejšo spletno udeležbo.</strong></span></p><p></p><p></p><p></p><p></p>",
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "heading": {
-          "text": "Ko pride do spletne zlorabe, se lahko pojavijo pomembna vprašanja: Ali obstaja zakon, ki lahko pomaga? Kdo lahko ukrepa? Katere druge zaščite so na voljo? Odgovori so odvisni od vedenja, kraja, kjer se pojavi, in zakonov, ki lahko pomagajo. Razumevanje glavnih pravnih poti vam lahko pomaga prepoznati, kje je možna pravna odgovornost in kdaj so pomembne druge oblike ukrepanja. V športu pravna zaščita deluje vzporedno z organizacijskimi politikami, kodeksi ravnanja, zaščitnimi postopki in standardi športnega vedenja. Ti mehanizmi skupaj pomagajo vzpostaviti pričakovanja za varnejšo spletno udeležbo.",
+          "text": "<span style=\"color: #1c3564; font-size: 14px\"><strong>Ko pride do spletne zlorabe, se lahko pojavijo pomembna vprašanja: Ali obstaja zakon, ki lahko pomaga? Kdo lahko ukrepa? Katere druge zaščite so na voljo? Odgovori so odvisni od vedenja, kraja, kjer se pojavi, in zakonov, ki lahko pomagajo. Razumevanje glavnih pravnih poti vam lahko pomaga prepoznati, kje je možna pravna odgovornost in kdaj so pomembne druge oblike ukrepanja. V športu pravna zaščita deluje vzporedno z organizacijskimi politikami, kodeksi ravnanja, zaščitnimi postopki in standardi športnega vedenja. Ti mehanizmi skupaj pomagajo vzpostaviti pričakovanja za varnejšo spletno udeležbo.</strong></span>",
           "note": "Native heading on Knowing Your Rights and Responsibilities"
         }
       },
       "whereLegalResponsesHaveLimits": {
         "body": {
-          "text": "Pravne poti lahko zagotovijo pomembne oblike odgovornosti, vendar spletna okolja ustvarjajo praktične izzive za preiskave in izvrševanje.",
+          "text": "<p><span style=\"color: #091324\">Pravne poti lahko zagotovijo pomembne oblike odgovornosti, vendar spletna okolja ustvarjajo praktične izzive za preiskave in izvrševanje.</span></p>",
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "heading": {
-          "text": "Kjer imajo pravni odzivi omejitve",
+          "text": "<span style=\"color: #21b7cb\">Kjer imajo pravni odzivi omejitve</span>",
           "note": "Native heading on Knowing Your Rights and Responsibilities"
         }
       },
       "whoCanDoWhat": {
         "col1": {
-          "text": "Športne organizacije bi morale: V organizacijskih politikah opredeliti spletne zlorabe in pričakovana pravila spletnega ravnanja; vzpostaviti jasne in dostopne postopke poročanja; uporabljati organizacijske posledice v primeru kršitev pravil ravnanja; zagotavljati izobraževanje o prepoznavanju, preprečevanju in odzivanju na spletne zlorabe; zagotavljati dostop do socialne pomoči in podpore za zaščito; po potrebi sodelovati s platformami, regulatorji ali ustreznimi organi.",
+          "text": "<h4 class=\"course-block-heading\"><span style=\"color: #091324\">Športne organizacije bi morale: V organizacijskih politikah opredeliti spletne zlorabe in pričakovana pravila spletnega ravnanja; vzpostaviti jasne in dostopne postopke poročanja; uporabljati organizacijske posledice v primeru kršitev pravil ravnanja; zagotavljati izobraževanje o prepoznavanju, preprečevanju in odzivanju na spletne zlorabe; zagotavljati dostop do socialne pomoči in podpore za zaščito; po potrebi sodelovati s platformami, regulatorji ali ustreznimi organi.</span></h4><ul style=\"margin-left: 10px; padding-left: 1.25em;\"><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li></ul>",
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "col2": {
-          "text": "Vsakdo v športu bi moral:Upoštevati kodekse ravnanja in politike, povezane z njegovo vlogoUporabljati ustrezne kanale za prijavo škodljivega vedenjaIzogibati se deljenju ali širjenju zlorabne vsebinePodpirati ljudi, ki so tarčeZavedati se, da standardi spoštovanja, poštene igre in športnega vedenja veljajo tudi v digitalnih prostorih",
+          "text": "<h4 class=\"course-block-heading\"><span style=\"color: #091324\">Vsakdo v športu bi moral:Upoštevati kodekse ravnanja in politike, povezane z njegovo vlogoUporabljati ustrezne kanale za prijavo škodljivega vedenjaIzogibati se deljenju ali širjenju zlorabne vsebinePodpirati ljudi, ki so tarčeZavedati se, da standardi spoštovanja, poštene igre in športnega vedenja veljajo tudi v digitalnih prostorih</span></h4><ul style=\"margin-left: 10px; padding-left: 1.25em;\"><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li></ul>",
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "heading": {
@@ -2287,7 +2287,7 @@
             }
           },
           "intro": {
-            "text": "Ukrepanje se začne z ljudmi. V športu lahko prispeva vsak, ne glede na to, ali je žrtev spletne zlorabe, je njen priča ali podpira nekoga, ki je bil žrtev. Raziščite načine, kako lahko: Zaščitite sebe Podprite druge Delujte varno",
+            "text": "<p><strong>Ukrepanje se začne z ljudmi. V športu lahko prispeva vsak, ne glede na to, ali je žrtev spletne zlorabe, je njen priča ali podpira nekoga, ki je bil žrtev. Raziščite načine, kako lahko: Zaščitite sebe Podprite druge Delujte varno</strong></p><p></p><p></p><ul><li></li><li></li><li></li></ul>",
             "note": "HTML allowed"
           }
         },
@@ -2319,7 +2319,7 @@
             }
           },
           "intro": {
-            "text": "Organizacije lahko zagotovijo okvir, vire in usklajeno podporo, potrebno za zaščito ljudi in učinkovito odzivanje na spletne zlorabe. Sem spadajo športne organizacije in zveze, klubi in združenja, medijske organizacije, spletne platforme, zagovorniške skupine in druge institucije v športni skupnosti. Raziščite, kako se lahko organizacije pripravijo na spletne zlorabe, jih preprečijo in se odzovejo nanje: Vzpostavite okvire\nOkrepite zaščito\nUskladite ukrepe",
+            "text": "<p>Organizacije lahko zagotovijo okvir, vire in usklajeno podporo, potrebno za zaščito ljudi in učinkovito odzivanje na spletne zlorabe. Sem spadajo športne organizacije in zveze, klubi in združenja, medijske organizacije, spletne platforme, zagovorniške skupine in druge institucije v športni skupnosti. Raziščite, kako se lahko organizacije pripravijo na spletne zlorabe, jih preprečijo in se odzovejo nanje: Vzpostavite okvire\nOkrepite zaščito\nUskladite ukrepe</p><p></p><ul><li></li><li></li><li></li></ul>",
             "note": "HTML allowed"
           },
           "safeguardLead": {
@@ -2407,7 +2407,7 @@
             "text": ""
           },
           "orpBody": {
-            "text": "Platforma za organizacijsko pripravljenost (ORP) združenja UAOA podpira ta prizadevanja tako, da športnim organizacijam pomaga oceniti njihovo pripravljenost, prepoznati področja za izboljšave in okrepiti njihove pristope k preprečevanju in odzivanju na spletne zlorabe.",
+            "text": "<strong>Platforma za organizacijsko pripravljenost (ORP) združenja UAOA podpira ta prizadevanja tako, da športnim organizacijam pomaga oceniti njihovo pripravljenost, prepoznati področja za izboljšave in okrepiti njihove pristope k preprečevanju in odzivanju na spletne zlorabe.</strong>",
             "note": "HTML allowed"
           }
         },
@@ -2439,7 +2439,7 @@
             }
           },
           "intro": {
-            "text": "Spletno zlorabo pogosto oblikujejo dejavniki, ki so zunaj neposrednega nadzora posameznikov in organizacij. Osebni konteksti ljudi, tehnologije, ki jih uporabljajo, njihov dostop do izobraževanja in splošne kulturne norme okoli njih lahko vplivajo na to, ali se škodljivo vedenje spodbuja, normalizira, izpodbija ali preprečuje. Spoznajte, kako lahko širši družbeni konteksti vplivajo na spletno zlorabo in pomagajo ustvariti varnejše digitalne prostore v športu: Napredujte izobraževanje, ustvarjajte dokaze, oblikujte norme.",
+            "text": "<p>Spletno zlorabo pogosto oblikujejo dejavniki, ki so zunaj neposrednega nadzora posameznikov in organizacij. Osebni konteksti ljudi, tehnologije, ki jih uporabljajo, njihov dostop do izobraževanja in splošne kulturne norme okoli njih lahko vplivajo na to, ali se škodljivo vedenje spodbuja, normalizira, izpodbija ali preprečuje. Spoznajte, kako lahko širši družbeni konteksti vplivajo na spletno zlorabo in pomagajo ustvariti varnejše digitalne prostore v športu: Napredujte izobraževanje, ustvarjajte dokaze, oblikujte norme.</p><p></p><ul><li></li><li></li><li></li></ul>",
             "note": "HTML allowed"
           }
         }
@@ -2457,7 +2457,7 @@
             "text": "Zaščitite se"
           },
           "body": {
-            "text": "Za športnike in druge, ki imajo javno vlogo: Upravljajte svojo izpostavljenost. Preglejte nastavitve zasebnosti in varnosti ter nadzorujte, kdo vas lahko kontaktira, omeni ali označi. Uporabljajte varnostna orodja. Izklopite zvok, omejite, blokirajte in prijavite škodljive račune ali vsebino. Ohranite dokaze. Shranite ustrezne informacije, ko je treba vedenje prijaviti ali eskalirati. Zaščitite svoje dobro počutje. Lahko se odločite, da si vzamete odmor od spletnih interakcij in poiščete podporo pri ljudeh, ki jim zaupate. Zakaj je to pomembno? Vaše dobro počutje je pomembno in podpora je skupna odgovornost. Ko ljudje uporabljajo orodja za varnost in dobro počutje, so bolje opremljeni za preprečevanje škode znotraj širše športne skupnosti.",
+            "text": "<p></p><ul><li><strong>Za športnike in druge, ki imajo javno vlogo: Upravljajte svojo izpostavljenost. Preglejte nastavitve zasebnosti in varnosti ter nadzorujte, kdo vas lahko kontaktira, omeni ali označi. Uporabljajte varnostna orodja. Izklopite zvok, omejite, blokirajte in prijavite škodljive račune ali vsebino. Ohranite dokaze. Shranite ustrezne informacije, ko je treba vedenje prijaviti ali eskalirati. Zaščitite svoje dobro počutje. Lahko se odločite, da si vzamete odmor od spletnih interakcij in poiščete podporo pri ljudeh, ki jim zaupate. Zakaj je to pomembno? Vaše dobro počutje je pomembno in podpora je skupna odgovornost. Ko ljudje uporabljajo orodja za varnost in dobro počutje, so bolje opremljeni za preprečevanje škode znotraj širše športne skupnosti.</strong></li><li></li><li></li><li></li></ul><details><summary></summary><p></p></details>",
             "note": "HTML allowed"
           }
         },
@@ -2466,7 +2466,7 @@
             "text": "Podprite druge"
           },
           "body": {
-            "text": "Kot soigralec, kolega, navijač, prijatelj ali mimoidoči: Izogibajte se širjenju vsebine. Preprečite nadaljnje širjenje žaljivih vsebin. Prijavite se zasebno. Ponudite osebno podporo ciljni osebi. Ustrezno prijavite. Ukrepajte prek ustaljenih kanalov, običajno brez javnega soočenja. Spregovorite varno. Izrazite zaskrbljenost zaradi žaljivega vedenja ali poiščite pomoč pri nekom, ki lahko posreduje, vključno z organizacijskimi organi ali policijo, kadar je to potrebno. Zakaj je to pomembno? Podpora drugim krepi športno skupnost. Majhna dejanja soigralcev, kolegov, prijateljev, navijačev in drugih mimoidočih lahko pomagajo ustvariti sistem socialne podpore, kjer se ljudje počutijo slišane, zaščitene in oskrbljene, škodljivo vedenje pa je manj verjetno, da bo ostalo neoporečno.",
+            "text": "<p></p><ul><li><strong>Kot soigralec, kolega, navijač, prijatelj ali mimoidoči: Izogibajte se širjenju vsebine. Preprečite nadaljnje širjenje žaljivih vsebin. Prijavite se zasebno. Ponudite osebno podporo ciljni osebi. Ustrezno prijavite. Ukrepajte prek ustaljenih kanalov, običajno brez javnega soočenja. Spregovorite varno. Izrazite zaskrbljenost zaradi žaljivega vedenja ali poiščite pomoč pri nekom, ki lahko posreduje, vključno z organizacijskimi organi ali policijo, kadar je to potrebno. Zakaj je to pomembno? Podpora drugim krepi športno skupnost. Majhna dejanja soigralcev, kolegov, prijateljev, navijačev in drugih mimoidočih lahko pomagajo ustvariti sistem socialne podpore, kjer se ljudje počutijo slišane, zaščitene in oskrbljene, škodljivo vedenje pa je manj verjetno, da bo ostalo neoporečno.</strong></li><li></li><li></li><li></li></ul><details><summary></summary><p></p></details>",
             "note": "HTML allowed"
           }
         },
@@ -2475,7 +2475,7 @@
             "text": "Delujte varno"
           },
           "body": {
-            "text": "Pri odzivanju na spletno zlorabo upoštevajte situacijo, osebno varnost in ali je potrebna dodatna podpora: Ocenite situacijo. Upoštevajte naravo vedenja, ali se stopnjuje in ali je kdo lahko ogrožen. Izogibajte se nevarnemu sodelovanju. Ne soočajte se z zlorabo ali jo neposredno izpostavljajte tveganju, če bi to lahko povečalo škodo ali nekoga ogrozilo. Vedite, kdaj poiskati podporo. Ko situacija zahteva dodatno pomoč, vključite zaupanja vredno osebo ali ustrezno kontaktno osebo v organizaciji. Stopnjujte varnostne pomisleke. Grožnje, ponavljajoči se neželeni stiki, razkritje osebnih podatkov ali drugi varnostni pomisleki lahko zahtevajo nadaljnjo organizacijsko ali zunanjo podporo. Zakaj je to pomembno? Varno ravnanje pomaga povezati posamezne ukrepe s pravo stopnjo podpore. Prepoznavanje, kdaj situacija zahteva dodatno pomoč, omogoča drugim, da se vključijo, in pomaga zagotoviti, da varnost ostane prednostna naloga.",
+            "text": "<p></p><ul><li><strong>Pri odzivanju na spletno zlorabo upoštevajte situacijo, osebno varnost in ali je potrebna dodatna podpora: Ocenite situacijo. Upoštevajte naravo vedenja, ali se stopnjuje in ali je kdo lahko ogrožen. Izogibajte se nevarnemu sodelovanju. Ne soočajte se z zlorabo ali jo neposredno izpostavljajte tveganju, če bi to lahko povečalo škodo ali nekoga ogrozilo. Vedite, kdaj poiskati podporo. Ko situacija zahteva dodatno pomoč, vključite zaupanja vredno osebo ali ustrezno kontaktno osebo v organizaciji. Stopnjujte varnostne pomisleke. Grožnje, ponavljajoči se neželeni stiki, razkritje osebnih podatkov ali drugi varnostni pomisleki lahko zahtevajo nadaljnjo organizacijsko ali zunanjo podporo. Zakaj je to pomembno? Varno ravnanje pomaga povezati posamezne ukrepe s pravo stopnjo podpore. Prepoznavanje, kdaj situacija zahteva dodatno pomoč, omogoča drugim, da se vključijo, in pomaga zagotoviti, da varnost ostane prednostna naloga.</strong></li><li></li><li></li><li></li></ul><details><summary></summary><p></p></details>",
             "note": "HTML allowed"
           }
         }
@@ -2493,7 +2493,7 @@
             "text": "Pripravite se"
           },
           "body": {
-            "text": "Razviti politike in kodekse ravnanja, zagotoviti izobraževanje in usposabljanje ter določiti jasna pričakovanja glede digitalnega vedenja.",
+            "text": "<p>Razviti politike in kodekse ravnanja, zagotoviti izobraževanje in usposabljanje ter določiti jasna pričakovanja glede digitalnega vedenja.</p>",
             "note": "HTML allowed"
           }
         },
@@ -2502,7 +2502,7 @@
             "text": "Zaščiti"
           },
           "body": {
-            "text": "Zagotovite podporo za dobro počutje in zaščito, orodja za varnost platforme, moderiranje in ustrezne mehanizme za ogrožene ljudi.",
+            "text": "<p>Zagotovite podporo za dobro počutje in zaščito, orodja za varnost platforme, moderiranje in ustrezne mehanizme za ogrožene ljudi.</p>",
             "note": "HTML allowed"
           }
         },
@@ -2511,7 +2511,7 @@
             "text": "Odgovori"
           },
           "body": {
-            "text": "Ustvarite dostopne poti poročanja, hranite ustrezne evidence, uporabljajte organizacijske postopke in po potrebi usklajujte eskalacijo.",
+            "text": "<p>Ustvarite dostopne poti poročanja, hranite ustrezne evidence, uporabljajte organizacijske postopke in po potrebi usklajujte eskalacijo.</p>",
             "note": "HTML allowed"
           }
         },
@@ -2520,7 +2520,7 @@
             "text": "Poveži se"
           },
           "body": {
-            "text": "Povežite se. Sodelujte z drugimi organizacijami, platformami, organi, raziskovalci, zagovorniškimi skupinami in specializiranimi službami, kadar odziv presega lastne zmogljivosti organizacije.",
+            "text": "<p><strong>Povežite se. Sodelujte z drugimi organizacijami, platformami, organi, raziskovalci, zagovorniškimi skupinami in specializiranimi službami, kadar odziv presega lastne zmogljivosti organizacije.</strong></p>",
             "note": "HTML allowed"
           }
         },
@@ -2529,7 +2529,7 @@
             "text": "Močnejši skupaj"
           },
           "body": {
-            "text": "Organizacije so močnejše, ko sodelujejo. Vsaka ima drugačno vlogo in skupaj lahko ustvarijo usklajeno mrežo zaščite in odzivanja na spletne zlorabe. Platforma za organizacijsko pripravljenost (ORP) UAOA podpira ta prizadevanja tako, da športnim organizacijam pomaga oceniti njihovo pripravljenost, prepoznati področja za izboljšave in okrepiti njihove pristope k preprečevanju spletnih zlorab in odzivanju nanje.",
+            "text": "<p><strong>Organizacije so močnejše, ko sodelujejo. Vsaka ima drugačno vlogo in skupaj lahko ustvarijo usklajeno mrežo zaščite in odzivanja na spletne zlorabe. Platforma za organizacijsko pripravljenost (ORP) UAOA podpira ta prizadevanja tako, da športnim organizacijam pomaga oceniti njihovo pripravljenost, prepoznati področja za izboljšave in okrepiti njihove pristope k preprečevanju spletnih zlorab in odzivanju nanje.</strong></p><p></p>",
             "note": "HTML allowed"
           }
         }
@@ -2547,7 +2547,7 @@
             "text": "Izobraževanje"
           },
           "body": {
-            "text": "Izobraževanje lahko ljudem pomaga prepoznati spletno zlorabo, razumeti njene posledice in vedeti, kako se varno odzvati. Digitalna in medijska pismenost lahko okrepita tudi kritično razmišljanje o tem, kakšno vedenje je primerno v spletnem okolju.",
+            "text": "<p>Izobraževanje lahko ljudem pomaga prepoznati spletno zlorabo, razumeti njene posledice in vedeti, kako se varno odzvati. Digitalna in medijska pismenost lahko okrepita tudi kritično razmišljanje o tem, kakšno vedenje je primerno v spletnem okolju.</p>",
             "note": "HTML allowed"
           }
         },
@@ -2556,7 +2556,7 @@
             "text": "Skupni standardi"
           },
           "body": {
-            "text": "Jasna pričakovanja pomagajo določiti, katera vedenja se v športnih skupnostih štejejo za sprejemljiva. Skupni standardi glede spoštovanja, vključenosti, poštene igre in digitalne udeležbe lahko usmerjajo vedenje in posameznikom ter organizacijam dajejo močnejšo podlago za boj proti zlorabam.",
+            "text": "<p>Jasna pričakovanja pomagajo določiti, katera vedenja se v športnih skupnostih štejejo za sprejemljiva. Skupni standardi glede spoštovanja, vključenosti, poštene igre in digitalne udeležbe lahko usmerjajo vedenje in posameznikom ter organizacijam dajejo močnejšo podlago za boj proti zlorabam.</p>",
             "note": "HTML allowed"
           }
         },
@@ -2565,7 +2565,7 @@
             "text": "Raziskave in dokazi"
           },
           "body": {
-            "text": "Raziskave, ki temeljijo na dokazih in podatkih, pomagajo opredeliti vzorce spletnih zlorab, kako se škodljivo vedenje sčasoma razvija in kateri odzivi so učinkovitejši. Boljše znanje lahko prispeva k preprečevanju, izobraževanju, organizacijski praksi, tehnologiji in politiki.",
+            "text": "<p>Raziskave, ki temeljijo na dokazih in podatkih, pomagajo opredeliti vzorce spletnih zlorab, kako se škodljivo vedenje sčasoma razvija in kateri odzivi so učinkovitejši. Boljše znanje lahko prispeva k preprečevanju, izobraževanju, organizacijski praksi, tehnologiji in politiki.</p>",
             "note": "HTML allowed"
           }
         },
@@ -2574,7 +2574,7 @@
             "text": "Politika in pravo"
           },
           "body": {
-            "text": "Politike in zakoni lahko določijo meje, odgovornosti, zaščito in poti do odgovornosti. Vplivajo lahko na vedenje s pojasnitvijo posledic in zagotavljanjem mehanizmov za poročanje, posredovanje in odškodnino.",
+            "text": "<p>Politike in zakoni lahko določijo meje, odgovornosti, zaščito in poti do odgovornosti. Vplivajo lahko na vedenje s pojasnitvijo posledic in zagotavljanjem mehanizmov za poročanje, posredovanje in odškodnino.</p>",
             "note": "HTML allowed"
           }
         },
@@ -2583,7 +2583,7 @@
             "text": "Tehnologija in zasnova platforme"
           },
           "body": {
-            "text": "Zasnova digitalnih platform lahko vpliva na to, kako enostavno je škodljiva vsebina ustvarjena, odkrita, razširjena, prijavljena ali odstranjena. Moderiranje, odkrivanje, orodja za prijavo in druge varnostne funkcije lahko pomagajo zmanjšati možnosti za širjenje in vztrajanje zlorabe.",
+            "text": "<p>Zasnova digitalnih platform lahko vpliva na to, kako enostavno je škodljiva vsebina ustvarjena, odkrita, razširjena, prijavljena ali odstranjena. Moderiranje, odkrivanje, orodja za prijavo in druge varnostne funkcije lahko pomagajo zmanjšati možnosti za širjenje in vztrajanje zlorabe.</p>",
             "note": "HTML allowed"
           }
         },
@@ -2592,7 +2592,7 @@
             "text": "Norme skupnosti"
           },
           "body": {
-            "text": "Družbene norme vplivajo na to, kaj ljudje dojemajo kot normalno, sprejemljivo ali vredno izziva. Športniki, navijači, mediji, organizacije in javne osebnosti prispevajo h kulturi, ki obdaja šport. Ko skupnosti dosledno izpodbijajo zlorabe in krepijo spoštovanje, lahko pomagajo spremeniti norme, ki omogočajo, da spletne zlorabe vztrajajo.",
+            "text": "<p>Družbene norme vplivajo na to, kaj ljudje dojemajo kot normalno, sprejemljivo ali vredno izziva. Športniki, navijači, mediji, organizacije in javne osebnosti prispevajo h kulturi, ki obdaja šport. Ko skupnosti dosledno izpodbijajo zlorabe in krepijo spoštovanje, lahko pomagajo spremeniti norme, ki omogočajo, da spletne zlorabe vztrajajo.</p>",
             "note": "HTML allowed"
           }
         },
@@ -2601,7 +2601,7 @@
             "text": "Sodelovanje"
           },
           "body": {
-            "text": "Ti dejavniki delujejo skupaj v športu in naši družbi. Izobraževanje lahko oblikuje, kako ljudje razumejo spletno vedenje, medtem ko lahko skupni standardi in zakoni pojasnijo pričakovanja, raziskave lahko prepoznajo nastajajoča tveganja, tehnologija pa lahko vpliva na širjenje škodljivih vsebin. Športne skupnosti so le del naše družbe: nanje vplivajo širše kulturne norme, športniki, navijači, mediji, organizacije in drugi glasovi v športu pa lahko prav tako pomagajo oblikovati svet, v katerem skupaj živimo.",
+            "text": "<p><strong>Ti dejavniki delujejo skupaj v športu in naši družbi. Izobraževanje lahko oblikuje, kako ljudje razumejo spletno vedenje, medtem ko lahko skupni standardi in zakoni pojasnijo pričakovanja, raziskave lahko prepoznajo nastajajoča tveganja, tehnologija pa lahko vpliva na širjenje škodljivih vsebin. Športne skupnosti so le del naše družbe: nanje vplivajo širše kulturne norme, športniki, navijači, mediji, organizacije in drugi glasovi v športu pa lahko prav tako pomagajo oblikovati svet, v katerem skupaj živimo.</strong></p><p></p><p></p>",
             "note": "HTML allowed"
           }
         }
@@ -2631,15 +2631,15 @@
           "text": "Pošlji"
         },
         "feedbackOk": {
-          "text": "Tako je! Vsak scenarij ste povezali z ustrezno stopnjo ukrepanja.",
+          "text": "<strong>Tako je! Vsak scenarij ste povezali z ustrezno stopnjo ukrepanja.</strong>",
           "note": "HTML allowed"
         },
         "feedbackBad": {
-          "text": "Ne čisto. Preglejte svoje izbire in poskusite znova.",
+          "text": "<strong>Ne čisto. Preglejte svoje izbire in poskusite znova.</strong>",
           "note": "HTML allowed"
         },
         "done": {
-          "text": "Tako je! Vsak scenarij ste povezali z ustrezno stopnjo ukrepanja.",
+          "text": "<strong>Tako je! Vsak scenarij ste povezali z ustrezno stopnjo ukrepanja.</strong>",
           "note": "HTML allowed"
         }
       },
@@ -2660,11 +2660,11 @@
             "text": "Ko nekdo na spletu opazi, da je športnik tarča napadov, se zasebno prijavi in ​​prijavi škodljivo vsebino, ne da bi jo delil naprej."
           },
           "ok": {
-            "text": "Pravilno! Zasebno prijavljanje in poročanje brez širjenja informacij sta individualni dejanji.",
+            "text": "<strong>Pravilno! Zasebno prijavljanje in poročanje brez širjenja informacij sta individualni dejanji.</strong>",
             "note": "HTML allowed"
           },
           "bad": {
-            "text": "Ne čisto. Pomisli, kdo trenutno izvaja to dejanje. Poskusi znova.",
+            "text": "<strong>Ne čisto. Pomisli, kdo trenutno izvaja to dejanje. Poskusi znova.</strong>",
             "note": "HTML allowed"
           }
         },
@@ -2673,11 +2673,11 @@
             "text": "Po več primerih spletne zlorabe športna zveza uvede postopek poročanja, usposabljanje osebja in zaščitne postopke."
           },
           "ok": {
-            "text": "Pravilno! Postopki poročanja, usposabljanje in zaščitni postopki so organizacijski okviri.",
+            "text": "<strong>Pravilno! Postopki poročanja, usposabljanje in zaščitni postopki so organizacijski okviri.</strong>",
             "note": "HTML allowed"
           },
           "bad": {
-            "text": "Ne čisto. Razmislite, katera raven določa okvire in postopke za športno telo. Poskusite znova.",
+            "text": "<strong>Ne čisto. Razmislite, katera raven določa okvire in postopke za športno telo. Poskusite znova.</strong>",
             "note": "HTML allowed"
           }
         },
@@ -2686,11 +2686,11 @@
             "text": "Raziskave kažejo, kako se širi nova oblika spletne zlorabe, kar pomaga pri oblikovanju izobraževanja, tehnologije in prihodnjih odzivov javne politike."
           },
           "ok": {
-            "text": "Pravilno! Raziskave in dokazi, ki vplivajo na izobraževanje, tehnologijo in politiko, delujejo na ravni družbe.",
+            "text": "<strong>Pravilno! Raziskave in dokazi, ki vplivajo na izobraževanje, tehnologijo in politiko, delujejo na ravni družbe.</strong>",
             "note": "HTML allowed"
           },
           "bad": {
-            "text": "Ne čisto. Razmislite, katera raven oblikuje širše izobraževanje, tehnologijo in politiko. Poskusite znova.",
+            "text": "<strong>Ne čisto. Razmislite, katera raven oblikuje širše izobraževanje, tehnologijo in politiko. Poskusite znova.</strong>",
             "note": "HTML allowed"
           }
         }
@@ -2702,15 +2702,15 @@
       },
       "rows": {
         "individual": {
-          "text": "Posamezna dejanja lahko zmanjšajo škodo in podpirajo druge.",
+          "text": "<strong>Posamezna dejanja lahko zmanjšajo škodo in podpirajo druge.</strong>",
           "note": "HTML allowed"
         },
         "organisations": {
-          "text": "Organizacije zagotavljajo strukture, ki ta dejanja spremenijo v kolektivne odzive.",
+          "text": "<strong>Organizacije zagotavljajo strukture, ki ta dejanja spremenijo v kolektivne odzive.</strong>",
           "note": "HTML allowed"
         },
         "society": {
-          "text": "Povezana prizadevanja na področju izobraževanja, politike, tehnologije, raziskav in skupnostnih standardov lahko v celotni družbi pomagajo ustvariti varnejše digitalne prostore v športu.",
+          "text": "<strong>Povezana prizadevanja na področju izobraževanja, politike, tehnologije, raziskav in skupnostnih standardov lahko v celotni družbi pomagajo ustvariti varnejše digitalne prostore v športu.</strong>",
           "note": "HTML allowed"
         }
       },
@@ -2718,7 +2718,7 @@
         "text": "UAOA pomaga povezati te ravni delovanja."
       },
       "connectBody": {
-        "text": "Z organizacijo Stronger Together (Skupaj močnejši) UAOA združuje ljudi in organizacije iz različnih športov, da bi okrepili svoje priprave na spletne zlorabe, njihovo preprečevanje in odzivanje nanje, s čimer skupno znanje in usklajene ukrepe spreminjajo v praktično podporo športni skupnosti.",
+        "text": "Z organizacijo Stronger Together (Skupaj močnejši) UAOA združuje ljudi in organizacije iz različnih športov, da bi okrepili svoje priprave na spletne zlorabe, njihovo preprečevanje in odzivanje nanje, s čimer skupno znanje in usklajene ukrepe spreminjajo v praktično podporo športni skupnosti.<a href=\"https://unitedagainstonlineabuse.com/about-us/\" target=\"_blank\" rel=\"noopener\"></a>",
         "note": "HTML allowed"
       }
     },
@@ -2728,27 +2728,27 @@
       },
       "items": {
         "i1": {
-          "text": "Boj proti spletni zlorabi je skupna odgovornost. Posamezniki, športne organizacije, platforme, mediji, zagovorniške skupine, oblikovalci politik in drugi deležniki imajo svojo vlogo pri preprečevanju in odzivanju.",
+          "text": "<strong>Boj proti spletni zlorabi je skupna odgovornost. Posamezniki, športne organizacije, platforme, mediji, zagovorniške skupine, oblikovalci politik in drugi deležniki imajo svojo vlogo pri preprečevanju in odzivanju.</strong>",
           "note": "HTML allowed"
         },
         "i2": {
-          "text": "Posamezni ukrepi lahko zmanjšajo škodo. Obvladovanje izpostavljenosti, uporaba varnostnih orodij, ohranjanje dokazov, podpora drugim in poznavanje časa iskanja dodatne pomoči lahko zaščitijo varnost in dobro počutje.",
+          "text": "<strong>Posamezni ukrepi lahko zmanjšajo škodo. Obvladovanje izpostavljenosti, uporaba varnostnih orodij, ohranjanje dokazov, podpora drugim in poznavanje časa iskanja dodatne pomoči lahko zaščitijo varnost in dobro počutje.</strong>",
           "note": "HTML allowed"
         },
         "i3": {
-          "text": "Organizacije zagotavljajo strukturo in podporo. Jasni okviri, zaščitni ukrepi, poti poročanja in usklajeno ukrepanje pomagajo organizacijam pri pripravi in ​​odzivanju na spletne zlorabe.",
+          "text": "<strong>Organizacije zagotavljajo strukturo in podporo. Jasni okviri, zaščitni ukrepi, poti poročanja in usklajeno ukrepanje pomagajo organizacijam pri pripravi in ​​odzivanju na spletne zlorabe.</strong>",
           "note": "HTML allowed"
         },
         "i4": {
-          "text": "Sodelovanje krepi odziv. Klubi, zveze, platforme, medijske organizacije, zagovorniške skupine in drugi deležniki lahko prispevajo različne oblike podpore, strokovnega znanja in ukrepov.",
+          "text": "<strong>Sodelovanje krepi odziv. Klubi, zveze, platforme, medijske organizacije, zagovorniške skupine in drugi deležniki lahko prispevajo različne oblike podpore, strokovnega znanja in ukrepov.</strong>",
           "note": "HTML allowed"
         },
         "i5": {
-          "text": "Družbeni pogoji vplivajo na spletno vedenje. Izobraževanje, standardi, raziskave, politika, tehnologija in kulturne norme lahko vplivajo na to, kako se spletna zloraba razume, omogoča, preprečuje in izziva.",
+          "text": "<strong>Družbeni pogoji vplivajo na spletno vedenje. Izobraževanje, standardi, raziskave, politika, tehnologija in kulturne norme lahko vplivajo na to, kako se spletna zloraba razume, omogoča, preprečuje in izziva.</strong>",
           "note": "HTML allowed"
         },
         "i6": {
-          "text": "Šport je del širšega družbenega konteksta. Na športne skupnosti vplivajo širše kulturne norme in lahko prispevajo tudi k oblikovanju pričakovanj in vedenja v družbi.",
+          "text": "<strong>Šport je del širšega družbenega konteksta. Na športne skupnosti vplivajo širše kulturne norme in lahko prispevajo tudi k oblikovanju pričakovanj in vedenja v družbi.</strong>",
           "note": "HTML allowed"
         }
       }
@@ -2772,17 +2772,17 @@
       },
       "exploreTheThreeLayersOfAction": {
         "body": {
-          "text": "Dejanje se dogaja na treh povezanih ravneh. Plasti so medsebojno povezane in se dopolnjujejo: posamezna dejanja so povezana z organizacijsko podporo in širšim kolektivnim delovanjem.",
+          "text": "<p>Dejanje se dogaja na treh povezanih ravneh. Plasti so medsebojno povezane in se dopolnjujejo: posamezna dejanja so povezana z organizacijsko podporo in širšim kolektivnim delovanjem.</p>",
           "note": "Native text body on Take Action: Building Safer Digital Sport Communities"
         },
         "heading": {
-          "text": "Raziščite tri plasti delovanja",
+          "text": "<span style=\"color: #21b7cb\">Raziščite tri plasti delovanja</span>",
           "note": "Native heading on Take Action: Building Safer Digital Sport Communities"
         }
       },
       "image": {
         "throughStrongerTogetherUaoaBringsPeople": {
-          "text": "Z organizacijo Stronger Together (Skupaj močnejši) UAOA združuje ljudi in organizacije iz različnih športov, da bi okrepili svoje priprave na spletne zlorabe, njihovo preprečevanje in odzivanje nanje, s čimer skupno znanje in usklajene ukrepe spreminjajo v praktično podporo športni skupnosti.",
+          "text": "<p>Z organizacijo Stronger Together (Skupaj močnejši) UAOA združuje ljudi in organizacije iz različnih športov, da bi okrepili svoje priprave na spletne zlorabe, njihovo preprečevanje in odzivanje nanje, s čimer skupno znanje in usklajene ukrepe spreminjajo v praktično podporo športni skupnosti.</p>",
           "note": "Image body text on Take Action: Building Safer Digital Sport Communities"
         }
       },
@@ -2792,29 +2792,29 @@
       },
       "onlineAbuseCanBeAddressedAt": {
         "body": {
-          "text": "Spletno zlorabo je mogoče obravnavati na različnih ravneh. Vsak scenarij povlecite na raven, ki je najbolj primerna za ukrepanje.",
+          "text": "<p><span style=\"color: #091324\">Spletno zlorabo je mogoče obravnavati na različnih ravneh. Vsak scenarij povlecite na raven, ki je najbolj primerna za ukrepanje.</span><br></p>",
           "note": "Native text body on Take Action: Building Safer Digital Sport Communities"
         }
       },
       "onlineAbuseInSportCanAffect": {
         "body": {
-          "text": "Spletna zloraba v športu lahko neposredno prizadene eno osebo, vendar se nihče ne mora nanjo odzvati sam. Vsak od nas lahko prispeva k ustvarjanju varnejših digitalnih prostorov, ne glede na to, ali varujemo lastno dobro počutje, podpiramo nekoga, ki je žrtev, smo priča škodljivemu vedenju ali pomagamo drugim s svojim delom v športu. Ukrepi, ki jih lahko sprejmemo, so odvisni od naše vloge in okoliščin. Posamezniki se lahko zaščitijo in podpirajo druge. Organizacije lahko zagotovijo jasne poti za prijavo, podporo in usklajeno ukrepanje. V športnih skupnostih lahko izobraževanje, raziskave, politika in skupni standardi pomagajo preprečiti škodo in okrepiti način našega odzivanja. V tem zadnjem modulu boste raziskali, kako se te različne ravni delovanja povezujejo, kje lahko prispevate in kako lahko sodelovanje pomaga graditi varnejše digitalne športne skupnosti.",
+          "text": "<p></p><p></p><p><span style=\"color: #091324\">Spletna zloraba v športu lahko neposredno prizadene eno osebo, vendar se nihče ne mora nanjo odzvati sam. Vsak od nas lahko prispeva k ustvarjanju varnejših digitalnih prostorov, ne glede na to, ali varujemo lastno dobro počutje, podpiramo nekoga, ki je žrtev, smo priča škodljivemu vedenju ali pomagamo drugim s svojim delom v športu. Ukrepi, ki jih lahko sprejmemo, so odvisni od naše vloge in okoliščin. Posamezniki se lahko zaščitijo in podpirajo druge. Organizacije lahko zagotovijo jasne poti za prijavo, podporo in usklajeno ukrepanje. V športnih skupnostih lahko izobraževanje, raziskave, politika in skupni standardi pomagajo preprečiti škodo in okrepiti način našega odzivanja. V tem zadnjem modulu boste raziskali, kako se te različne ravni delovanja povezujejo, kje lahko prispevate in kako lahko sodelovanje pomaga graditi varnejše digitalne športne skupnosti.</span></p><p></p><p></p>",
           "note": "Native text body on Take Action: Building Safer Digital Sport Communities"
         },
         "heading": {
-          "text": "Spletna zloraba v športu lahko neposredno prizadene eno osebo, vendar se nihče ne mora nanjo odzvati sam. Vsak od nas lahko prispeva k ustvarjanju varnejših digitalnih prostorov, ne glede na to, ali varujemo lastno dobro počutje, podpiramo nekoga, ki je žrtev, smo priča škodljivemu vedenju ali pomagamo drugim s svojim delom v športu. Ukrepi, ki jih lahko sprejmemo, so odvisni od naše vloge in okoliščin. Posamezniki se lahko zaščitijo in podpirajo druge. Organizacije lahko zagotovijo jasne poti za prijavo, podporo in usklajeno ukrepanje. V športnih skupnostih lahko izobraževanje, raziskave, politika in skupni standardi pomagajo preprečiti škodo in okrepiti način našega odzivanja. V tem zadnjem modulu boste raziskali, kako se te različne ravni delovanja povezujejo, kje lahko prispevate in kako lahko sodelovanje pomaga graditi varnejše digitalne športne skupnosti.",
+          "text": "<br><br><span style=\"color: #1c3564; font-size: 14px\">Spletna zloraba v športu lahko neposredno prizadene eno osebo, vendar se nihče ne mora nanjo odzvati sam. Vsak od nas lahko prispeva k ustvarjanju varnejših digitalnih prostorov, ne glede na to, ali varujemo lastno dobro počutje, podpiramo nekoga, ki je žrtev, smo priča škodljivemu vedenju ali pomagamo drugim s svojim delom v športu. Ukrepi, ki jih lahko sprejmemo, so odvisni od naše vloge in okoliščin. Posamezniki se lahko zaščitijo in podpirajo druge. Organizacije lahko zagotovijo jasne poti za prijavo, podporo in usklajeno ukrepanje. V športnih skupnostih lahko izobraževanje, raziskave, politika in skupni standardi pomagajo preprečiti škodo in okrepiti način našega odzivanja. V tem zadnjem modulu boste raziskali, kako se te različne ravni delovanja povezujejo, kje lahko prispevate in kako lahko sodelovanje pomaga graditi varnejše digitalne športne skupnosti.</span>",
           "note": "Native heading on Take Action: Building Safer Digital Sport Communities"
         }
       },
       "uaoaHelpsConnectTheseLevelsOf": {
         "heading": {
-          "text": "UAOA pomaga povezati te ravni delovanja.",
+          "text": "<span style=\"color: #21b7cb\">UAOA pomaga povezati te ravni delovanja.</span>",
           "note": "Native heading on Take Action: Building Safer Digital Sport Communities"
         }
       },
       "youArePartOfAWider": {
         "heading": {
-          "text": "Ste del širšega sistema",
+          "text": "<span style=\"color: #21b7cb\">Ste del širšega sistema</span>",
           "note": "Native heading on Take Action: Building Safer Digital Sport Communities"
         }
       }
@@ -2825,7 +2825,7 @@
       "questions": {
         "q1": {
           "prompt": {
-            "text": "Koliko športnih zvez je bilo v raziskavi UAOA Barometer iz leta 2025 zaskrbljenih, da bi lahko spletna zloraba nadarjene športnike odgnala iz športa?",
+            "text": "<strong>Koliko športnih zvez je bilo v raziskavi UAOA Barometer iz leta 2025 zaskrbljenih, da bi lahko spletna zloraba nadarjene športnike odgnala iz športa?</strong>",
             "note": "HTML allowed — do not bold option list items"
           },
           "choices": {
@@ -2840,7 +2840,7 @@
             }
           },
           "reveal": {
-            "text": "Približno 90 % anketiranih športnih zvez je izrazilo zaskrbljenost, da bi lahko spletna zloraba nadarjene športnike odvrnila od športa. Spletna zloraba lahko na koncu vpliva na to, ali bodo ljudje še naprej sodelovali v športnih skupnostih.",
+            "text": "<strong>Približno 90 % anketiranih športnih zvez je izrazilo zaskrbljenost, da bi lahko spletna zloraba nadarjene športnike odvrnila od športa. Spletna zloraba lahko na koncu vpliva na to, ali bodo ljudje še naprej sodelovali v športnih skupnostih.</strong>",
             "note": "HTML allowed"
           },
           "next": {
@@ -2863,7 +2863,7 @@
             }
           },
           "reveal": {
-            "text": "Večja izpostavljenost spletnemu nadlegovanju je bila povezana z višjo stopnjo psihološke stiske, kar poudarja, kako lahko sovražne spletne vsebine vplivajo na psihično dobro počutje.",
+            "text": "<strong>Večja izpostavljenost spletnemu nadlegovanju je bila povezana z višjo stopnjo psihološke stiske, kar poudarja, kako lahko sovražne spletne vsebine vplivajo na psihično dobro počutje.</strong>",
             "note": "HTML allowed"
           },
           "next": {
@@ -2886,7 +2886,7 @@
             }
           },
           "reveal": {
-            "text": "Oboje. Zasnova platforme, sistemi priporočil, interakcije uporabnikov in mehanizmi poročanja lahko vplivajo na to, kako škodljiva vsebina potuje in doseže novo občinstvo.",
+            "text": "<strong>Oboje. Zasnova platforme, sistemi priporočil, interakcije uporabnikov in mehanizmi poročanja lahko vplivajo na to, kako škodljiva vsebina potuje in doseže novo občinstvo.</strong>",
             "note": "HTML allowed"
           },
           "next": {
@@ -2895,7 +2895,7 @@
         },
         "q4": {
           "prompt": {
-            "text": "Če igralec po porazu prejme ponižujoče komentarje. Podobna sporočila več dni preplavljajo njegov račun in napadajo tudi njegovo raso. Kaj se dogaja?",
+            "text": "<span class=\"scenario\">Če igralec po porazu prejme ponižujoče komentarje. Podobna sporočila več dni preplavljajo njegov račun in napadajo tudi njegovo raso. Kaj se dogaja?</span>",
             "note": "HTML allowed"
           },
           "choices": {
@@ -2910,7 +2910,7 @@
             }
           },
           "reveal": {
-            "text": "Več oblik se lahko prekriva. Ponižujoč jezik je žaljiv govor, ponavljajoča se javna agresija ustvarja digitalno sovražnost, rasistično ciljanje pa lahko pomeni sovražni govor.",
+            "text": "<strong>Več oblik se lahko prekriva. Ponižujoč jezik je žaljiv govor, ponavljajoča se javna agresija ustvarja digitalno sovražnost, rasistično ciljanje pa lahko pomeni sovražni govor.</strong>",
             "note": "HTML allowed"
           },
           "next": {
@@ -2933,7 +2933,7 @@
             }
           },
           "reveal": {
-            "text": "Ravnajte varno in uporabljajte ustrezne kanale za prijavo. Ocenite, ali se vedenje stopnjuje ali je kdo ogrožen, izogibajte se nevarnim stikom, ohranite ustrezne dokaze in prijavite prek ustrezne platforme ali organizacijskih kanalov. Po potrebi poiščite dodatno podporo.",
+            "text": "<strong>Ravnajte varno in uporabljajte ustrezne kanale za prijavo. Ocenite, ali se vedenje stopnjuje ali je kdo ogrožen, izogibajte se nevarnim stikom, ohranite ustrezne dokaze in prijavite prek ustrezne platforme ali organizacijskih kanalov. Po potrebi poiščite dodatno podporo.</strong>",
             "note": "HTML allowed"
           },
           "next": {
@@ -2956,7 +2956,7 @@
             }
           },
           "reveal": {
-            "text": "Zakoni lahko pomagajo zaščititi ljudi pred spletno zlorabo. Vendar se pravna zaščita in odgovornosti med državami razlikujejo. Nekatere jurisdikcije so uvedle posebne ukrepe za obravnavanje intimnih slik, ki jih ustvari umetna inteligenca, in drugih oblik digitalne zlorabe.",
+            "text": "<strong>Zakoni lahko pomagajo zaščititi ljudi pred spletno zlorabo. Vendar se pravna zaščita in odgovornosti med državami razlikujejo. Nekatere jurisdikcije so uvedle posebne ukrepe za obravnavanje intimnih slik, ki jih ustvari umetna inteligenca, in drugih oblik digitalne zlorabe.</strong>",
             "note": "HTML allowed"
           },
           "next": {
@@ -2965,7 +2965,7 @@
         },
         "q7": {
           "prompt": {
-            "text": "Soigralec prejema žaljiva sporočila in se zdi vse bolj zaskrbljen. Kakšen je najmočnejši odziv podpornega sistema?",
+            "text": "<span class=\"scenario\">Soigralec prejema žaljiva sporočila in se zdi vse bolj zaskrbljen. Kakšen je najmočnejši odziv podpornega sistema?</span>",
             "note": "HTML allowed"
           },
           "choices": {
@@ -2980,7 +2980,7 @@
             }
           },
           "reveal": {
-            "text": "Podpora se začne pri vas! Prijavite se zasebno, izogibajte se širjenju zlorabe, uporabite ustrezne kanale za prijavo in spregovorite, ko je to varno.",
+            "text": "<strong>Podpora se začne pri vas! Prijavite se zasebno, izogibajte se širjenju zlorabe, uporabite ustrezne kanale za prijavo in spregovorite, ko je to varno.</strong>",
             "note": "HTML allowed"
           },
           "next": {
@@ -3003,7 +3003,7 @@
             }
           },
           "reveal": {
-            "text": "Zaščitite sebe. Podprite druge. Delujte varno. Lahko upravljamo svojo izpostavljenost na družbenih omrežjih, uporabljamo varnostna orodja, ohranjamo dokaze, podpiramo druge, ki so tarče, in prepoznamo, kdaj situacija zahteva dodatno pomoč.",
+            "text": "<strong>Zaščitite sebe. Podprite druge. Delujte varno. Lahko upravljamo svojo izpostavljenost na družbenih omrežjih, uporabljamo varnostna orodja, ohranjamo dokaze, podpiramo druge, ki so tarče, in prepoznamo, kdaj situacija zahteva dodatno pomoč.</strong>",
             "note": "HTML allowed"
           },
           "next": {
@@ -3012,7 +3012,7 @@
         },
         "q9": {
           "prompt": {
-            "text": "Tudi organizacije imajo svojo vlogo. Več ljudi v športni organizaciji je prijavilo spletno zlorabo. Kaj bi sprožilo najmočnejši organizacijski odziv?",
+            "text": "<strong>Tudi organizacije imajo svojo vlogo. Več ljudi v športni organizaciji je prijavilo spletno zlorabo. Kaj bi sprožilo najmočnejši organizacijski odziv?</strong>",
             "note": "HTML allowed"
           },
           "choices": {
@@ -3036,7 +3036,7 @@
         },
         "q10": {
           "prompt": {
-            "text": "Spletno zlorabo oblikujejo tudi okoliščine, ki presegajo katero koli osebo ali organizacijo. Katere lahko vplivajo na to, ali se škodljivo vedenje normalizira, izpodbija ali preprečuje?",
+            "text": "<span class=\"scenario\">Spletno zlorabo oblikujejo tudi okoliščine, ki presegajo katero koli osebo ali organizacijo. Katere lahko vplivajo na to, ali se škodljivo vedenje normalizira, izpodbija ali preprečuje?</span>",
             "note": "HTML allowed"
           },
           "choices": {
@@ -3054,7 +3054,7 @@
             }
           },
           "reveal": {
-            "text": "Vse to. Izobraževanje, skupni standardi, raziskave in dokazi, politika in zakonodaja, tehnološke rešitve in zasnova platform ter norme skupnosti lahko oblikujejo spletno vedenje. Na šport vplivajo ti širši družbeni pogoji, športne skupnosti pa lahko prav tako pomagajo oblikovati svet, v katerem živimo skupaj.",
+            "text": "<strong>Vse to. Izobraževanje, skupni standardi, raziskave in dokazi, politika in zakonodaja, tehnološke rešitve in zasnova platform ter norme skupnosti lahko oblikujejo spletno vedenje. Na šport vplivajo ti širši družbeni pogoji, športne skupnosti pa lahko prav tako pomagajo oblikovati svet, v katerem živimo skupaj.</strong>",
             "note": "HTML allowed"
           },
           "next": {
@@ -3080,7 +3080,7 @@
             }
           },
           "reveal": {
-            "text": "Obstajajo različni načini ukrepanja. UAOA združuje ljudi in organizacije iz različnih športov, da bi okrepili način priprave na spletne zlorabe, njihovega preprečevanja in odzivanja nanje.",
+            "text": "<strong>Obstajajo različni načini ukrepanja. UAOA združuje ljudi in organizacije iz različnih športov, da bi okrepili način priprave na spletne zlorabe, njihovega preprečevanja in odzivanja nanje.</strong>",
             "note": "HTML allowed — ungraded item"
           },
           "next": {
@@ -3225,7 +3225,7 @@
             }
           },
           "ok": {
-            "text": "Obstajajo različni načini ukrepanja. UAOA združuje ljudi in organizacije iz različnih športov, da bi okrepili način priprave na spletne zlorabe, njihovega preprečevanja in odzivanja nanje.",
+            "text": "<strong>Obstajajo različni načini ukrepanja. UAOA združuje ljudi in organizacije iz različnih športov, da bi okrepili način priprave na spletne zlorabe, njihovega preprečevanja in odzivanja nanje.</strong>",
             "note": "HTML allowed — legacy further-action widget; Q11 lives in summary.quiz"
           }
         }
@@ -3251,13 +3251,13 @@
       "exit": {
         "congratulations": {
           "heading": {
-            "text": "Čestitke!",
+            "text": "<span style=\"color: #21B7CB\">Čestitke!</span>",
             "note": "Native heading on Exit Page"
           }
         },
         "youAreNowBetterPreparedTo": {
           "body": {
-            "text": "Zdaj ste bolje pripravljeni ukrepati proti spletni zlorabi. Hvala, ker ste si vzeli čas za učenje z nami. Znanje in praktično razumevanje, ki ste si ga pridobili, vam lahko pomagata prepoznati škodljivo vedenje, se bolj samozavestno odzvati, podpreti druge in prispevati k varnejšim digitalnim športnim skupnostim. Vsako premišljeno dejanje je pomembno. Skupaj lahko pomagamo, da je spletni šport varnejši. Hvala, ker ste opravili tečaj e-učenja UAOA!UAOA",
+            "text": "<p><span style=\"color: rgb(9, 19, 36)\"><br><br></span></p><p></p><p></p><p></p><p><span style=\"color: rgb(9, 19, 36)\">Zdaj ste bolje pripravljeni ukrepati proti spletni zlorabi. Hvala, ker ste si vzeli čas za učenje z nami. Znanje in praktično razumevanje, ki ste si ga pridobili, vam lahko pomagata prepoznati škodljivo vedenje, se bolj samozavestno odzvati, podpreti druge in prispevati k varnejšim digitalnim športnim skupnostim. Vsako premišljeno dejanje je pomembno. Skupaj lahko pomagamo, da je spletni šport varnejši. Hvala, ker ste opravili tečaj e-učenja </span></p><p></p><p><span style=\"color: rgb(9, 19, 36)\"><strong>UAOA</strong></span></p>",
             "note": "Native text body on Exit Page"
           }
         }
@@ -3265,27 +3265,27 @@
       "finalQuiz": {
         "summaryScoredQuiz": {
           "body": {
-            "text": "Preverite, kaj ste se naučili v tečaju. Odgovorite na vsako vprašanje in nato preglejte svoje rezultate.",
+            "text": "<p><span style=\"color: #091324\">Preverite, kaj ste se naučili v tečaju. Odgovorite na vsako vprašanje in nato preglejte svoje rezultate.</span></p>",
             "note": "Native text body on Final Quiz"
           },
           "heading": {
-            "text": "Povzetek (kviz z rezultati)",
+            "text": "<span style=\"color: var(--background)\"><strong>Povzetek (kviz z rezultati)</strong></span>",
             "note": "Native heading on Final Quiz"
           }
         },
         "youAreReadyToActAgainst": {
           "body": {
-            "text": "Ta tečaj ste začeli s ciljem: preiti od ozaveščenosti k pripravljenosti. Zdaj imate znanje in praktična orodja za prepoznavanje spletne zlorabe, razumevanje, kako in zakaj do nje prihaja, odzivanje z večjo samozavestjo in podporo drugim v vaši športni skupnosti. Še zadnji korak: združite naučeno v zadnjem kvizu.",
+            "text": "<p><span style=\"color: #091324\"><strong>Ta tečaj ste začeli s ciljem: preiti od ozaveščenosti k pripravljenosti. Zdaj imate znanje in praktična orodja za prepoznavanje spletne zlorabe, razumevanje, kako in zakaj do nje prihaja, odzivanje z večjo samozavestjo in podporo drugim v vaši športni skupnosti. Še zadnji korak: združite naučeno v zadnjem kvizu.</strong></span></p><p></p><p></p>",
             "note": "Native text body on Final Quiz"
           },
           "heading": {
-            "text": "Pripravljeni ste ukrepati proti spletni zlorabi",
+            "text": "<span style=\"color: #21b7cb\">Pripravljeni ste ukrepati proti spletni zlorabi</span>",
             "note": "Native heading on Final Quiz"
           }
         },
         "yourReadiness": {
           "body": {
-            "text": "Vaša ocena pripravljenosti je {{score}} %! Naučili ste se prepoznati spletno zlorabo, razumeti njen vpliv in se varneje odzvati v individualnem, organizacijskem in širšem športnem kontekstu. Vaša ocena odraža vašo trenutno pripravljenost za prepoznavanje spletne zlorabe in sprejemanje premišljenih odločitev, ko do nje pride.",
+            "text": "<p><span style=\"color: #091324; font-size: 30px\"><strong>Vaša ocena pripravljenosti je {{score}} %! Naučili ste se prepoznati spletno zlorabo, razumeti njen vpliv in se varneje odzvati v individualnem, organizacijskem in širšem športnem kontekstu. Vaša ocena odraža vašo trenutno pripravljenost za prepoznavanje spletne zlorabe in sprejemanje premišljenih odločitev, ko do nje pride.</strong></span></p><p></p><p></p><p></p><p></p>",
             "note": "Native text body on Final Quiz"
           },
           "heading": {
@@ -4350,23 +4350,23 @@
       },
       "items": {
         "i1": {
-          "text": "Prepoznajte spletno zlorabo in njene različne oblike, vključno s tem, kdo se lahko sooči z nesorazmernim tveganjem.",
+          "text": "<strong>Prepoznajte spletno zlorabo in njene različne oblike, vključno s tem, kdo se lahko sooči z nesorazmernim tveganjem.</strong>",
           "note": "HTML allowed — bold lead verb"
         },
         "i2": {
-          "text": "Razumeti vpliv spletne zlorabe v vaši športni skupnosti in z uporabo dokazov iz resničnega sveta prepoznati njene posledice za duševno zdravje in športno uspešnost.",
+          "text": "<strong>Razumeti vpliv spletne zlorabe v vaši športni skupnosti in z uporabo dokazov iz resničnega sveta prepoznati njene posledice za duševno zdravje in športno uspešnost.</strong>",
           "note": "HTML allowed — bold lead verb"
         },
         "i3": {
-          "text": "Raziščite, kako lahko digitalne platforme, algoritmi družbenih medijev in umetna inteligenca povečajo spletno zlorabo in kako lahko učinkovito upravljanje pomaga zmanjšati njeno število.",
+          "text": "<strong>Raziščite, kako lahko digitalne platforme, algoritmi družbenih medijev in umetna inteligenca povečajo spletno zlorabo in kako lahko učinkovito upravljanje pomaga zmanjšati njeno število.</strong>",
           "note": "HTML allowed — bold lead verb"
         },
         "i4": {
-          "text": "Z zaupanjem uporabljajte postopke poročanja ter varno in učinkovito prijavljajte zlorabne vsebine na glavnih družbenih omrežjih in igralnih platformah.",
+          "text": "<strong>Z zaupanjem uporabljajte postopke poročanja ter varno in učinkovito prijavljajte zlorabne vsebine na glavnih družbenih omrežjih in igralnih platformah.</strong>",
           "note": "HTML allowed — bold lead verb"
         },
         "i5": {
-          "text": "V svojem športnem okolju ukrepajte premišljeno, posamično in skupaj z drugimi, da bi pomagali ustvariti varnejše prostore v športu.",
+          "text": "<strong>V svojem športnem okolju ukrepajte premišljeno, posamično in skupaj z drugimi, da bi pomagali ustvariti varnejše prostore v športu.</strong>",
           "note": "HTML allowed — bold lead verb"
         }
       }
@@ -4382,49 +4382,49 @@
       },
       "euDisclaimer": {
         "body": {
-          "text": "Financira Evropska unija. Izražena stališča in mnenja pa so zgolj stališča avtorja(-jev) in ne odražajo nujno stališč Evropske unije ali Izvajalske agencije za izobraževanje in kulturo (EACEA). Niti Evropska unija niti EACEA ne moreta biti odgovorni zanje.",
+          "text": "<p style=\"text-align: left\"><span style=\"font-size: 11px\"><em>Financira Evropska unija. Izražena stališča in mnenja pa so zgolj stališča avtorja(-jev) in ne odražajo nujno stališč Evropske unije ali Izvajalske agencije za izobraževanje in kulturo (EACEA). Niti Evropska unija niti EACEA ne moreta biti odgovorni zanje.</em></span></p>",
           "note": "Native text body on Welcome"
         }
       },
       "sportConnectsMillionsOfPeopleAcross": {
         "body": {
-          "text": "Šport povezuje milijone ljudi iz različnih držav, kultur in generacij s strastjo, ponosom in vznemirjenjem tekmovanja. Spletna zloraba to povezavo ogroža. Ko so športniki, funkcionarji, prostovoljci in navijači napadeni na spletu zaradi tega, kar so ali kako se odrežejo, lahko posledice segajo daleč preko zaslona – ljudje so prizadeti, kariere iztirjene, zlorabno vedenje pa postane normalizacija. Organizacija United Against Online Abuse (UAOA) združuje več kot 75 vlad, športnih organizacij, akademikov in tehnoloških platform okoli skupnega cilja: narediti šport varnejši pred spletno zlorabo. Trajne spremembe zahtevajo ukrepanje v institucijah, skupnostih in posameznikih, vključno z vami. Glavni cilj pobude UAOA, ki je bila razvita v sodelovanju z Univerzo Notre Dame, je s tem e-tečajem pomagati vam prepoznati različne oblike spletne zlorabe, razumeti njihov vpliv na vašo športno skupnost in samozavestno uporabljati postopke poročanja. Ko bo ta tečaj zaključen, vas bo pripravil na informirano ukrepanje in prispevanje k varnejšemu športnemu okolju. Hvala, ker ste se pridružili prizadevanjem.",
+          "text": "<p><span style=\"color: #091324\"><strong>Šport povezuje milijone ljudi iz različnih držav, kultur in generacij s strastjo, ponosom in vznemirjenjem tekmovanja. Spletna zloraba to povezavo ogroža. Ko so športniki, funkcionarji, prostovoljci in navijači napadeni na spletu zaradi tega, kar so ali kako se odrežejo, lahko posledice segajo daleč preko zaslona – ljudje so prizadeti, kariere iztirjene, zlorabno vedenje pa postane normalizacija. Organizacija United Against Online Abuse (UAOA) združuje več kot 75 vlad, športnih organizacij, akademikov in tehnoloških platform okoli skupnega cilja: narediti šport varnejši pred spletno zlorabo. Trajne spremembe zahtevajo ukrepanje v institucijah, skupnostih in posameznikih, vključno z vami. Glavni cilj pobude UAOA, ki je bila razvita v sodelovanju z Univerzo Notre Dame, je s tem e-tečajem pomagati vam prepoznati različne oblike spletne zlorabe, razumeti njihov vpliv na vašo športno skupnost in samozavestno uporabljati postopke poročanja. Ko bo ta tečaj zaključen, vas bo pripravil na informirano ukrepanje in prispevanje k varnejšemu športnemu okolju. Hvala, ker ste se pridružili prizadevanjem.</strong><br><br><br><br></span></p><p></p><p></p><p></p><p></p>",
           "note": "Native text body on Welcome"
         },
         "p3": {
-          "text": "Združeni proti spletni zlorabi (UAOA) združuje več kot 75 vlad, športnih organizacij, akademikov in tehnoloških platform okoli skupnega cilja: narediti šport varnejši pred spletno zlorabo. Trajne spremembe zahtevajo ukrepe v vseh institucijah, skupnostih in posameznikih, vključno z vami.",
+          "text": "<p>Združeni proti spletni zlorabi (UAOA) združuje več kot 75 vlad, športnih organizacij, akademikov in tehnoloških platform okoli skupnega cilja: narediti šport varnejši pred spletno zlorabo. Trajne spremembe zahtevajo ukrepe v vseh institucijah, skupnostih in posameznikih, vključno z vami.</p>",
           "note": "Native text body on Welcome"
         }
       },
       "welcomeTitle": {
         "heading": {
-          "text": "Dobrodošli: Hvala, ker ste se pridružili misiji UAOA!",
+          "text": "<span style=\"color: #1c3564\">Dobrodošli: Hvala, ker ste se pridružili misiji UAOA!</span>",
           "note": "Native heading on Welcome"
         }
       },
       "buildReadinessBody": {
-        "text": "Ozaveščenost je šele začetek. Ta tečaj gradi praktično znanje in veščine, potrebne za razumevanje spletnih zlorab in sprejemanje premišljenih ukrepov zase in za svojo športno skupnost. Tečaj je zasnovan tako, da vam bo ustrezal ne glede na to, kje ste pri razumevanju teme: Če ste že seznanjeni s spletnimi zlorabami, poglobite svoje razumevanje sistemov poročanja, digitalnih platform, umetne inteligence in novih pristopov k preprečevanju in odzivanju. Če vam je tema nova, zgradite trdne temelje in opredelite praktične načine za prispevanje k varnejšim spletnim praksam in digitalnim prostorom v športu. Do konca tečaja boste bolje opremljeni za prepoznavanje spletnih zlorab, samozavestno odzivanje in aktivno vlogo pri ustvarjanju varnejšega športa.",
+        "text": "<p><span style=\"color: #091324\">Ozaveščenost je šele začetek. Ta tečaj gradi praktično znanje in veščine, potrebne za razumevanje spletnih zlorab in sprejemanje premišljenih ukrepov zase in za svojo športno skupnost. Tečaj je zasnovan tako, da vam bo ustrezal ne glede na to, kje ste pri razumevanju teme: Če ste že seznanjeni s spletnimi zlorabami, poglobite svoje razumevanje sistemov poročanja, digitalnih platform, umetne inteligence in novih pristopov k preprečevanju in odzivanju. Če vam je tema nova, zgradite trdne temelje in opredelite praktične načine za prispevanje k varnejšim spletnim praksam in digitalnim prostorom v športu. Do konca tečaja boste bolje opremljeni za prepoznavanje spletnih zlorab, samozavestno odzivanje in aktivno vlogo pri ustvarjanju varnejšega športa.</span></p><p></p><p></p><ul style=\"margin: 0.5em 0 0.75em; padding-left: calc(1.35em + 10pt);\"><li style=\"margin: 0 0 10pt; color: #091324;\"><p style=\"margin: 0;\"></p></li><li style=\"margin: 0; color: #091324;\"><p style=\"margin: 0;\"></p></li></ul><p></p>",
         "note": "Native text body on Welcome"
       }
     },
     "about": {
       "aboutTheCourse": {
         "body": {
-          "text": "Trajanje tečajaPribližno 90 minut, tečaj poteka v lastnem tempu.Za koga je namenjen?Vsem, ki sodelujejo v športu, delajo v njem ali se z njim ukvarjajo in želijo bolje razumeti in se odzvati na spletno zlorabo, vključno s športniki, trenerji, funkcionarji, osebjem, prostovoljci, administratorji, medijskimi strokovnjaki, navijači in drugimi v športni skupnosti.Kaj lahko pričakujete?Pet kratkih modulov združuje praktične smernice, scenarije in priložnosti za uporabo naučenega. Predhodno znanje o spletni zlorabi ni potrebno.",
+          "text": "<p><span style=\"color: #091324\"><strong>Trajanje tečajaPribližno 90 minut, tečaj poteka v lastnem tempu.Za koga je namenjen?Vsem, ki sodelujejo v športu, delajo v njem ali se z njim ukvarjajo in želijo bolje razumeti in se odzvati na spletno zlorabo, vključno s športniki, trenerji, funkcionarji, osebjem, prostovoljci, administratorji, medijskimi strokovnjaki, navijači in drugimi v športni skupnosti.Kaj lahko pričakujete?Pet kratkih modulov združuje praktične smernice, scenarije in priložnosti za uporabo naučenega. Predhodno znanje o spletni zlorabi ni potrebno.</strong></span></p><p></p><p><br></p><p></p><p></p><p><br></p><p></p><p></p>",
           "note": "Native text body on About This Course"
         },
         "heading": {
-          "text": "O tečaju",
+          "text": "<span style=\"color: #21b7cb\">O tečaju</span>",
           "note": "Native heading on About This Course"
         }
       },
       "courseTitle": {
-        "text": "Tečaj e-učenja UAOA: Razumevanje in odzivanje na spletno zlorabo v športu",
+        "text": "<span style=\"color: var(--background); font-size: 22pt\">Tečaj e-učenja UAOA</span><br><span style=\"color: var(--background); font-size: 20px\"><em>Razumevanje in odzivanje na spletno zlorabo v športu</em></span>",
         "note": "About course hero title (HTML)"
       },
       "readyToBegin": {
         "heading": {
-          "text": "Ste pripravljeni začeti?",
+          "text": "<span style=\"color: #21b7cb\">Ste pripravljeni začeti?</span>",
           "note": "Native heading on About This Course"
         }
       },
@@ -4434,21 +4434,21 @@
       },
       "tagline": {
         "body": {
-          "text": "Ta tečaj organizacije United Against Online Abuse (UAOA) ponuja praktično znanje in orodja, ki vam bodo pomagala prepoznati spletno zlorabo, razumeti njen vpliv, se znajti v postopkih prijave in ukrepati v svoji športni skupnosti.",
+          "text": "<p><span style=\"color: #091324; font-size: 18px\">Ta tečaj organizacije <strong>United Against Online Abuse (UAOA)</strong> ponuja praktično znanje in orodja, ki vam bodo pomagala prepoznati spletno zlorabo, razumeti njen vpliv, se znajti v postopkih prijave in ukrepati v svoji športni skupnosti.</span></p>",
           "note": "Native text body on About This Course"
         },
         "heading": {
-          "text": "Gradnja varnejših digitalnih prostorov v športu",
+          "text": "<span style=\"color: #1c3564\">Gradnja varnejših digitalnih prostorov v športu</span>",
           "note": "Native heading on About This Course"
         }
       },
       "whatYoullExplore": {
         "body": {
-          "text": "Modul 1 · Razumevanje spletne zlorabeNaučite se prepoznati različne oblike spletne zlorabe, kako se lahko prekrivajo in stopnjujejo ter katere skupine ljudi se soočajo z nesorazmernim tveganjem.Modul 2 · Spletna zloraba v športu: vpliv na človekaRaziščite, kako lahko spletna zloraba vpliva na športnike s posledicami za dobro počutje, uspešnost, sodelovanje in športne skupnosti.Modul 3 · Kako se širi spletna škodaRazumite, kako lahko digitalne platforme, spletno vedenje in nove tehnologije okrepijo škodljive vsebine in vplivajo na razvoj in širjenje zlorabe.Modul 4 · Poznavanje svojih pravic in odgovornostiOzaveščajte se o svojih pravicah, odgovornostih in razpoložljivih poteh poročanja, vključno z vlogami platform, športnih organizacij in drugih ustreznih organov.Modul 5 · Ukrepajte: Gradnja varnejših digitalnih športnih skupnostiSpremenite znanje v dejanja z raziskovanjem praktičnih načinov za preprečevanje, odzivanje in izzivanje spletne zlorabe v vaši športni skupnosti.",
+          "text": "<div style=\"margin:0;border:0;border-left:none;background:transparent;\"><p style=\"margin:0 0 0.35em;\"><span style=\"color: #091324\"><strong>Modul 1 · Razumevanje spletne zlorabe</strong></span></p><p style=\"margin:0 0 1.35em; padding-left: 5em;\"><span style=\"color: #091324\">Naučite se prepoznati različne oblike spletne zlorabe, kako se lahko prekrivajo in stopnjujejo ter katere skupine ljudi se soočajo z nesorazmernim tveganjem.</span></p><p style=\"margin:0 0 0.35em;\"><span style=\"color: #091324\"><strong>Modul 2 · Spletna zloraba v športu: vpliv na človeka</strong></span></p><p style=\"margin:0 0 1.35em; padding-left: 5em;\"><span style=\"color: #091324\">Raziščite, kako lahko spletna zloraba vpliva na športnike s posledicami za dobro počutje, uspešnost, sodelovanje in športne skupnosti.</span></p><p style=\"margin:0 0 0.35em;\"><span style=\"color: #091324\"><strong>Modul 3 · Kako se širi spletna škoda</strong></span></p><p style=\"margin:0 0 1.35em; padding-left: 5em;\"><span style=\"color: #091324\">Razumite, kako lahko digitalne platforme, spletno vedenje in nove tehnologije okrepijo škodljive vsebine in vplivajo na razvoj in širjenje zlorabe.</span></p><p style=\"margin:0 0 0.35em;\"><span style=\"color: #091324\"><strong>Modul 4 · Poznavanje svojih pravic in odgovornosti</strong></span></p><p style=\"margin:0 0 1.35em; padding-left: 5em;\"><span style=\"color: #091324\">Ozaveščajte se o svojih pravicah, odgovornostih in razpoložljivih poteh poročanja, vključno z vlogami platform, športnih organizacij in drugih ustreznih organov.</span></p><p style=\"margin:0 0 0.35em;\"><span style=\"color: #091324\"><strong>Modul 5 · Ukrepajte: Gradnja varnejših digitalnih športnih skupnosti</strong></span></p><p style=\"margin:0 0 0; padding-left: 5em;\"><span style=\"color: #091324\">Spremenite znanje v dejanja z raziskovanjem praktičnih načinov za preprečevanje, odzivanje in izzivanje spletne zlorabe v vaši športni skupnosti.</span></p></div>",
           "note": "Native text body on About This Course"
         },
         "heading": {
-          "text": "Kaj boste raziskovali",
+          "text": "<span style=\"color: #21b7cb\">Kaj boste raziskovali</span>",
           "note": "Native heading on About This Course"
         }
       }

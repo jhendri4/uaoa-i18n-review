@@ -38,7 +38,7 @@
       "note": "aria-label on radiogroup / options"
     },
     "notQuiteReview": {
-      "text": "Inte riktigt. Granska alternativen och försök igen.",
+      "text": "<strong>Inte riktigt. Granska alternativen och försök igen.</strong>",
       "note": "Shared incorrect feedback; HTML allowed"
     },
     "previous": {
@@ -58,11 +58,11 @@
       "note": "End-of-activity or scroll continue"
     },
     "correct": {
-      "text": "Rätta!",
+      "text": "<strong>Rätta!</strong>",
       "note": "Short correct prefix; HTML allowed"
     },
     "notQuite": {
-      "text": "Inte riktigt. Granska alternativen och försök igen.",
+      "text": "<strong>Inte riktigt. Granska alternativen och försök igen.</strong>",
       "note": "Shared incorrect; HTML allowed"
     },
     "selectAllThatApply": {
@@ -137,7 +137,7 @@
         "note": "Slide / section title between Welcome and Module 1"
       },
       "intro": {
-        "text": "Vänligen slutför denna korta undersökning innan du börjar Modul 1. Fortsätt upplåsningarna när du är klar.",
+        "text": "<p>Vänligen slutför denna korta undersökning innan du börjar Modul 1. Fortsätt upplåsningarna när du är klar.</p>",
         "note": "Pre-course survey intro HTML"
       },
       "continue": {
@@ -205,11 +205,11 @@
             "note": "Scenario prompt; answer = digital hostility"
           },
           "ok": {
-            "text": "Korrekt! Det upprepade och ihållande mönstret av fientliga interaktioner över digitala plattformar är en form av digital fientlighet.",
+            "text": "<strong>Korrekt! Det upprepade och ihållande mönstret av fientliga interaktioner över digitala plattformar är en form av digital fientlighet.</strong>",
             "note": "HTML allowed"
           },
           "bad": {
-            "text": "Inte riktigt. Titta på interaktionsmönstret och hur det utvecklas över tid. Försök igen.",
+            "text": "<strong>Inte riktigt. Titta på interaktionsmönstret och hur det utvecklas över tid. Försök igen.</strong>",
             "note": "HTML allowed"
           }
         },
@@ -219,11 +219,11 @@
             "note": "Scenario prompt; answer = hate speech"
           },
           "ok": {
-            "text": "Korrekt! Kommentaren riktar sig mot idrottaren baserat på deras religion, en skyddad egenskap, vilket gör detta till ett exempel på hatpropaganda.",
+            "text": "<strong>Korrekt! Kommentaren riktar sig mot idrottaren baserat på deras religion, en skyddad egenskap, vilket gör detta till ett exempel på hatpropaganda.</strong>",
             "note": "HTML allowed"
           },
           "bad": {
-            "text": "Inte riktigt. Titta på interaktionsmönstret och hur det utvecklas över tid. Försök igen.",
+            "text": "<strong>Inte riktigt. Titta på interaktionsmönstret och hur det utvecklas över tid. Försök igen.</strong>",
             "note": "HTML allowed"
           }
         },
@@ -233,11 +233,11 @@
             "note": "Scenario prompt; answer = offensive speech"
           },
           "ok": {
-            "text": "Korrekt! Kommentaren använder förolämpande och nedvärderande språk riktat mot domaren, vilket gör detta till ett exempel på stötande tal.",
+            "text": "<strong>Korrekt! Kommentaren använder förolämpande och nedvärderande språk riktat mot domaren, vilket gör detta till ett exempel på stötande tal.</strong>",
             "note": "HTML allowed"
           },
           "bad": {
-            "text": "Inte riktigt. Fokusera på språket som används och vad som gör det skadligt. Försök igen.",
+            "text": "<strong>Inte riktigt. Fokusera på språket som används och vad som gör det skadligt. Försök igen.</strong>",
             "note": "HTML allowed"
           }
         },
@@ -247,11 +247,11 @@
             "note": "Scenario prompt; answer = offensive speech"
           },
           "ok": {
-            "text": "Korrekt! Kommentarerna använder förolämpande och förnedrande språk med fokus på idrottarens prestation, vilket gör detta till ett exempel på kränkande tal. Kvinnor kan uppleva en större mängd online-övergrepp på grund av sitt kön, även när enskilda meddelanden inte uttryckligen riktar sig mot kön som en skyddad egenskap.",
+            "text": "<strong>Korrekt! Kommentarerna använder förolämpande och förnedrande språk med fokus på idrottarens prestation, vilket gör detta till ett exempel på kränkande tal. Kvinnor kan uppleva en större mängd online-övergrepp på grund av sitt kön, även när enskilda meddelanden inte uttryckligen riktar sig mot kön som en skyddad egenskap.</strong>",
             "note": "HTML allowed"
           },
           "bad": {
-            "text": "Inte riktigt. Tänk på vad kommentarerna riktar sig till. Försök igen.",
+            "text": "<strong>Inte riktigt. Tänk på vad kommentarerna riktar sig till. Försök igen.</strong>",
             "note": "HTML allowed"
           }
         }
@@ -449,11 +449,11 @@
           "text": "{n} av {total} valda"
         },
         "ok": {
-          "text": "Korrekt! Plattformfunktioner, rekommendationssystem och användarinteraktioner kan alla påverka hur innehåll distribueras, förstärks och exponeras för nya målgrupper.",
+          "text": "<strong>Korrekt! Plattformfunktioner, rekommendationssystem och användarinteraktioner kan alla påverka hur innehåll distribueras, förstärks och exponeras för nya målgrupper.</strong>",
           "note": "HTML allowed"
         },
         "bad": {
-          "text": "Inte riktigt. Granska alternativen och försök igen.",
+          "text": "<strong>Inte riktigt. Granska alternativen och försök igen.</strong>",
           "note": "HTML allowed"
         }
       },
@@ -641,7 +641,7 @@
             "note": "Image alt text"
           },
           "html": {
-            "text": "Matteo är en högpresterande volleybollspelare på college med ambitioner att komma med i landslaget. Mellan krävande kursarbete och intensiv träning har han varit under avsevärd press och kämpat för att hålla fokus.",
+            "text": "<p><strong>Matteo är en högpresterande volleybollspelare på college med ambitioner att komma med i landslaget. Mellan krävande kursarbete och intensiv träning har han varit under avsevärd press och kämpat för att hålla fokus.</strong></p><p></p>",
             "note": "HTML allowed"
           }
         },
@@ -654,7 +654,7 @@
             "note": "Image alt text"
           },
           "html": {
-            "text": "Under en viktig match servar Matteo i nätet på matchboll, vilket kostar hans lag matchen. Publiken reagerar starkt, och några åskådare börjar skrika hård kritik om hans prestation från läktarna. Reaktionen fortsätter när Matteo lämnar planen. Är detta kränkningar online? Nej. Kritiken kan vara aggressiv och skadlig, men detta händer fortfarande offline. Reaktioner som börjar vid ett sportevenemang/på planen kan dock snabbt förflytta sig till digitala utrymmen, där de kan nå en mycket bredare publik.",
+            "text": "<p></p><p></p><p>Under en viktig match servar Matteo i nätet på matchboll, vilket kostar hans lag matchen. Publiken reagerar starkt, och några åskådare börjar skrika hård kritik om hans prestation från läktarna. Reaktionen fortsätter när Matteo lämnar planen. Är detta kränkningar online? Nej. Kritiken kan vara aggressiv och skadlig, men detta händer fortfarande <strong>offline</strong>. Reaktioner som börjar vid ett sportevenemang/på planen kan dock snabbt förflytta sig till digitala utrymmen, där de kan nå en mycket bredare publik.</p>",
             "note": "HTML allowed"
           }
         },
@@ -667,7 +667,7 @@
             "note": "Image alt text"
           },
           "html": {
-            "text": "Efter matchen sprider sig kritiken online. En supporter publicerar en video på Matteos missade serve, taggar Matteos konto på sociala medier och lägger till förolämpande och förödmjukande kommentarer som syftar till att förlöjliga honom. Situationen har utvecklats till online-kränkningar. Supportern använder förolämpande och förödmjukande innehåll riktat mot Matteo via en digital plattform. Detta är kränkande språk.",
+            "text": "<p></p><p><strong>Efter matchen sprider sig kritiken online. En supporter publicerar en video på Matteos missade serve, taggar Matteos konto på sociala medier och lägger till förolämpande och förödmjukande kommentarer som syftar till att förlöjliga honom. Situationen har utvecklats till online-kränkningar. Supportern använder förolämpande och förödmjukande innehåll riktat mot Matteo via en digital plattform. Detta är kränkande språk.</strong></p><p></p>",
             "note": "HTML allowed"
           }
         },
@@ -680,7 +680,7 @@
             "note": "Image alt text"
           },
           "html": {
-            "text": "Nästa dag hade många användare anslutit sig. Fientliga kommentarer dyker upp på Matteos sociala mediekonton, och videon på hans missade serve delas upprepade gånger tillsammans med förolämpande inlägg. Situationen har eskalerat till digital fientlighet. Det som började med en användare har utvecklats till ett upprepat och kollektivt mönster av fientliga interaktioner online.",
+            "text": "<p></p><p><strong>Nästa dag hade många användare anslutit sig. Fientliga kommentarer dyker upp på Matteos sociala mediekonton, och videon på hans missade serve delas upprepade gånger tillsammans med förolämpande inlägg. Situationen har eskalerat till digital fientlighet. Det som började med en användare har utvecklats till ett upprepat och kollektivt mönster av fientliga interaktioner online.</strong></p><p></p>",
             "note": "HTML allowed"
           }
         }
@@ -692,27 +692,27 @@
       },
       "items": {
         "i1": {
-          "text": "Onlineövergrepp tar sig olika uttryck. Kränkande språk, hatpropaganda och digital fientlighet hjälper oss att känna igen olika sätt som skadligt beteende kan uppstå och utvecklas online.",
+          "text": "<strong>Onlineövergrepp tar sig olika uttryck. Kränkande språk, hatpropaganda och digital fientlighet hjälper oss att känna igen olika sätt som skadligt beteende kan uppstå och utvecklas online.</strong>",
           "note": "HTML allowed"
         },
         "i2": {
-          "text": "Kontext spelar roll. Tänk på språket som används, vem eller vad som riktas mot och interaktionsmönstret när du identifierar övergrepp online.",
+          "text": "<strong>Kontext spelar roll. Tänk på språket som används, vem eller vad som riktas mot och interaktionsmönstret när du identifierar övergrepp online.</strong>",
           "note": "HTML allowed"
         },
         "i3": {
-          "text": "Olika former av övergrepp kan överlappa varandra. En enda interaktion kan innefatta mer än ett beteende, och dess egenskaper kan förändras allt eftersom situationen utvecklas.",
+          "text": "<strong>Olika former av övergrepp kan överlappa varandra. En enda interaktion kan innefatta mer än ett beteende, och dess egenskaper kan förändras allt eftersom situationen utvecklas.</strong>",
           "note": "HTML allowed"
         },
         "i4": {
-          "text": "Onlineövergrepp kan eskalera. Ett enda skadligt inlägg kan utvecklas till upprepad eller kollektiv fientlighet när andra kommenterar, delar, återpublicerar eller förstärker innehållet.",
+          "text": "<strong>Onlineövergrepp kan eskalera. Ett enda skadligt inlägg kan utvecklas till upprepad eller kollektiv fientlighet när andra kommenterar, delar, återpublicerar eller förstärker innehållet.</strong>",
           "note": "HTML allowed"
         },
         "i5": {
-          "text": "Vissa människor löper oproportionerligt hög risk. Identitet, synlighet, roll och andra kontextuella faktorer kan påverka vem som utsätts för övergrepp och arten eller intensiteten av de övergrepp de utsätts för.",
+          "text": "<strong>Vissa människor löper oproportionerligt hög risk. Identitet, synlighet, roll och andra kontextuella faktorer kan påverka vem som utsätts för övergrepp och arten eller intensiteten av de övergrepp de utsätts för.</strong>",
           "note": "HTML allowed"
         },
         "i6": {
-          "text": "Erkännande är det första steget mot handling. Att förstå hur övergrepp online ser ut hjälper människor att identifiera skadliga situationer och reagera mer effektivt.",
+          "text": "<strong>Erkännande är det första steget mot handling. Att förstå hur övergrepp online ser ut hjälper människor att identifiera skadliga situationer och reagera mer effektivt.</strong>",
           "note": "HTML allowed"
         }
       }
@@ -728,31 +728,31 @@
       },
       "applyWhatDoYouSee": {
         "body": {
-          "text": "Övergrepp online kan ta sig olika uttryck. Läs varje scenario och välj det beteende som bäst beskriver vad som händer.",
+          "text": "<p><span style=\"color: #091324\"><strong>Övergrepp online kan ta sig olika uttryck. Läs varje scenario och välj det beteende som bäst beskriver vad som händer.</strong></span></p>",
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "Tillämpa: Vad ser du?",
+          "text": "<span style=\"color: #21b7cb\">Tillämpa: Vad ser du?</span>",
           "note": "Native heading on Understanding Online Abuse"
         }
       },
       "contextMatters": {
         "body": {
-          "text": "Onlineövergrepp passar inte alltid perfekt in i en kategori. För att förstå vad som händer, tänk på:",
+          "text": "<p><span style=\"color: #091324\">Onlineövergrepp passar inte alltid perfekt in i en kategori. För att förstå vad som händer, tänk på:</span></p>",
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "Kontext spelar roll",
+          "text": "<span style=\"color: #21b7cb\">Kontext spelar roll</span>",
           "note": "Native heading on Understanding Online Abuse"
         }
       },
       "exploreHowCanOnlineAbuseEvolve": {
         "body": {
-          "text": "Onlineövergrepp kan börja med personliga interaktioner och utvecklas i takt med att skadligt innehåll sprids och andra blir inblandade. Följ Matteos erfarenhet för att se hur detta kan hända.",
+          "text": "<p><span style=\"color: #091324\"><strong>Onlineövergrepp kan börja med personliga interaktioner och utvecklas i takt med att skadligt innehåll sprids och andra blir inblandade. Följ Matteos erfarenhet för att se hur detta kan hända.</strong></span></p>",
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "Utforska: Hur kan övergrepp online utvecklas?",
+          "text": "<span style=\"color: #21b7cb\">Utforska: Hur kan övergrepp online utvecklas?</span>",
           "note": "Native heading on Understanding Online Abuse"
         }
       },
@@ -762,47 +762,47 @@
       },
       "languageWhatIsBeingSaidOr": {
         "body": {
-          "text": "Språk: Vad sägs eller delas? Mål: Är attacken inriktad på prestation, utseende, identitet eller en skyddad egenskap? Mönster: Är det en enskild interaktion eller en del av upprepad eller kollektiv fientlighet?",
+          "text": "<ul style=\"margin:0; padding-left: 3.0em; list-style:disc; color: #091324; font-family:'Cerebri Sans Pro', system-ui, -apple-system, 'Segoe UI', sans-serif; font-size:16px; line-height:1.55;\"><li style=\"margin:0 0 8px;\"><p><strong>Språk: Vad sägs eller delas? Mål: Är attacken inriktad på prestation, utseende, identitet eller en skyddad egenskap? Mönster: Är det en enskild interaktion eller en del av upprepad eller kollektiv fientlighet?</strong></p></li><li style=\"margin:0 0 8px;\"><p></p></li><li style=\"margin:0;\"><p></p></li></ul>",
           "note": "Native text body on Understanding Online Abuse"
         }
       },
       "onlineAbuseDoesNotAffectEveryone": {
         "body": {
-          "text": "Onlineövergrepp drabbar inte alla lika. Vissa människor utsätts för mer frekventa eller riktade övergrepp när fientlighet fokuserar på personliga egenskaper som anses vara skyddade. Skyddade egenskaper kan inkludera ras, etnicitet, nationalitet, religion, kön, sexuell läggning, funktionsnedsättning, ålder, graviditetsstatus och civilstånd. Denna lista är inte uttömmande, och erkända eller skyddade egenskaper kan variera mellan rättssystem, språk, kulturer och länder. När fientligt eller illvilligt språk riktar sig mot någon baserat på dessa eller andra skyddade egenskaper kan det utgöra hatpropaganda.",
+          "text": "<p style=\"text-align: left\"><span style=\"color: #091324\"><strong>Onlineövergrepp drabbar inte alla lika. Vissa människor utsätts för mer frekventa eller riktade övergrepp när fientlighet fokuserar på personliga egenskaper som anses vara skyddade. Skyddade egenskaper kan inkludera ras, etnicitet, nationalitet, religion, kön, sexuell läggning, funktionsnedsättning, ålder, graviditetsstatus och civilstånd. Denna lista är inte uttömmande, och erkända eller skyddade egenskaper kan variera mellan rättssystem, språk, kulturer och länder. När fientligt eller illvilligt språk riktar sig mot någon baserat på dessa eller andra skyddade egenskaper kan det utgöra hatpropaganda.</strong><br><br></span></p><p style=\"text-align: left\"></p><p style=\"text-align: left\"></p>",
           "note": "Native text body on Understanding Online Abuse"
         }
       },
       "onlineConversationsArePartOfSport": {
         "body": {
-          "text": "Nätkonversationer är en del av sporten: att fira ett resultat, diskutera ett beslut eller få kontakt med ett lag eller en idrottare. Men dessa utrymmen kan också bli platser där människor blir förödmjukade, utsatta för övergrepp eller överväldigade av kritik och kränkningar.",
+          "text": "<p><span style=\"color: #091324; font-size: 18px\"><strong>Nätkonversationer är en del av sporten</strong>att fira ett resultat, diskutera ett beslut eller få kontakt med ett lag eller en idrottare. Men dessa utrymmen kan också bli platser där människor blir förödmjukade, utsatta för övergrepp eller överväldigade av kritik och kränkningar.</span></p>",
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "Nätkonversationer är en del av sporten: att fira ett resultat, diskutera ett beslut eller få kontakt med ett lag eller en idrottare. Men dessa utrymmen kan också bli platser där människor blir förödmjukade, utsatta för övergrepp eller överväldigade av kritik och kränkningar.",
+          "text": "<span style=\"color: #1c3564; font-size: 14px\">Nätkonversationer är en del av sporten: att fira ett resultat, diskutera ett beslut eller få kontakt med ett lag eller en idrottare. Men dessa utrymmen kan också bli platser där människor blir förödmjukade, utsatta för övergrepp eller överväldigade av kritik och kränkningar.</span>",
           "note": "Native heading on Understanding Online Abuse"
         }
       },
       "whatDoWeUnderstandByOnline": {
         "body": {
-          "text": "Onlineövergrepp är allt skadligt beteende riktat mot en person eller grupp via digitala plattformar. Definitioner varierar mellan länder och sammanhang, så vi fokuserar på det som är viktigast: att identifiera skadan och bygga upp kunskapen för att förebygga den inom idrotten. För att identifiera onlineövergrepp hjälper det att förstå de olika former det kan ta sig. Tänk på det som ett paraply som täcker tre sammanhängande beteenden:",
+          "text": "<p><span style=\"color: #091324\"><strong>Onlineövergrepp är allt skadligt beteende riktat mot en person eller grupp via digitala plattformar. Definitioner varierar mellan länder och sammanhang, så vi fokuserar på det som är viktigast: att identifiera skadan och bygga upp kunskapen för att förebygga den inom idrotten. För att identifiera onlineövergrepp hjälper det att förstå de olika former det kan ta sig. Tänk på det som ett paraply som täcker tre sammanhängande beteenden:</strong><br><br></span></p><p></p><p></p>",
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "Vad menar vi med nätmisshandel?",
+          "text": "<span style=\"color: #21b7cb\">Vad menar vi med nätmisshandel?</span>",
           "note": "Native heading on Understanding Online Abuse"
         },
         "p4": {
-          "text": "För att känna igen övergrepp online är det bra att förstå de olika former det kan ta sig. Tänk på det som ett paraply som täcker tre sammankopplade beteenden. Markera varje kort för att visa definitionen.",
+          "text": "<p>För att känna igen övergrepp online är det bra att förstå de olika former det kan ta sig. Tänk på det som ett paraply som täcker tre sammankopplade beteenden. Markera varje kort för att visa definitionen.</p>",
           "note": "Native text body on Understanding Online Abuse"
         }
       },
       "whenTheBehavioursOverlap": {
         "body": {
-          "text": "Tänk dig att en spelare får en förödmjukande kommentar efter en förlust. Liknande meddelanden översvämmar sedan deras konto i flera dagar. Vissa attackerar också deras etnicitet. Det förödmjukande språket är kränkande tal. Den upprepade offentliga aggressionen på en eller flera sociala medieplattformar skapar digital fientlighet. Den rasistiska inriktningen betraktas som hatpropaganda. För att identifiera vad som händer, titta på språket, vem eller vad det riktar sig mot och interaktionsmönstret. Mer än ett beteende kan förekomma.",
+          "text": "<p style=\"text-align: left\"><span style=\"color: #091324\"><br><br><strong>Tänk dig att en spelare får en förödmjukande kommentar efter en förlust. Liknande meddelanden översvämmar sedan deras konto i flera dagar. Vissa attackerar också deras etnicitet. Det förödmjukande språket är kränkande tal. Den upprepade offentliga aggressionen på en eller flera sociala medieplattformar skapar digital fientlighet. Den rasistiska inriktningen betraktas som hatpropaganda. För att identifiera vad som händer, titta på språket, vem eller vad det riktar sig mot och interaktionsmönstret. Mer än ett beteende kan förekomma.</strong><br><br></span></p>",
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "När beteendena överlappar varandra:",
+          "text": "<span style=\"color: #21b7cb\">När beteendena överlappar varandra:</span>",
           "note": "Native heading on Understanding Online Abuse"
         }
       }
@@ -832,7 +832,7 @@
             }
           },
           "ok": {
-            "text": "Korrekt! Onlineövergrepp kan drabba människor i hela sportens ekosystem, inklusive de som är direkt utsatta och andra som bevittnar eller upplever dess bredare konsekvenser.",
+            "text": "<strong>Korrekt! Onlineövergrepp kan drabba människor i hela sportens ekosystem, inklusive de som är direkt utsatta och andra som bevittnar eller upplever dess bredare konsekvenser.</strong>",
             "note": "HTML allowed"
           }
         },
@@ -856,7 +856,7 @@
             }
           },
           "ok": {
-            "text": "Korrekt! Onlineövergrepp kan påverka flera områden i en persons liv och arbete. Inom idrott kan det drabba idrottare mest, oavsett deras nivå, men konsekvenserna kan också drabba familjer, kollegor, lag, fans och idrottsgemenskaper.",
+            "text": "<strong>Korrekt! Onlineövergrepp kan påverka flera områden i en persons liv och arbete. Inom idrott kan det drabba idrottare mest, oavsett deras nivå, men konsekvenserna kan också drabba familjer, kollegor, lag, fans och idrottsgemenskaper.</strong>",
             "note": "HTML allowed"
           }
         },
@@ -880,7 +880,7 @@
             }
           },
           "ok": {
-            "text": "Korrekt! Effekter kan vara sammankopplade. Känslomässig stress, sömn, självförtroende, trygghet, prestation och deltagande kan påverka varandra och kan utvecklas över tid.",
+            "text": "<strong>Korrekt! Effekter kan vara sammankopplade. Känslomässig stress, sömn, självförtroende, trygghet, prestation och deltagande kan påverka varandra och kan utvecklas över tid.</strong>",
             "note": "HTML allowed"
           }
         },
@@ -904,7 +904,7 @@
             }
           },
           "ok": {
-            "text": "Korrekt! Effekten av onlineövergrepp varierar. Forskning som diskuteras i modulen visar att faktorer som motståndskraft och självkänsla kan kopplas till hur människor reagerar, men att fortsätta delta betyder inte att någon inte har påverkats.",
+            "text": "<strong>Korrekt! Effekten av onlineövergrepp varierar. Forskning som diskuteras i modulen visar att faktorer som motståndskraft och självkänsla kan kopplas till hur människor reagerar, men att fortsätta delta betyder inte att någon inte har påverkats.</strong>",
             "note": "HTML allowed"
           }
         }
@@ -982,11 +982,11 @@
           "text": "{n} vald"
         },
         "ok": {
-          "text": "Dessa effekter kan vara sammankopplade. Onlineövergrepp kan påverka flera områden i en persons liv samtidigt, och effekterna kan utvecklas eller intensifieras över tid. Att känna igen dessa tecken kan hjälpa människor inom idrott att reagera med större medvetenhet och stöd.",
+          "text": "<strong>Dessa effekter kan vara sammankopplade. Onlineövergrepp kan påverka flera områden i en persons liv samtidigt, och effekterna kan utvecklas eller intensifieras över tid. Att känna igen dessa tecken kan hjälpa människor inom idrott att reagera med större medvetenhet och stöd.</strong>",
           "note": "HTML allowed"
         },
         "bad": {
-          "text": "Inte riktigt. Försök igen.",
+          "text": "<strong>Inte riktigt. Försök igen.</strong>",
           "note": "HTML allowed — shown when submit has fewer than 4 impacts selected"
         }
       },
@@ -1046,11 +1046,11 @@
             "note": "Image alt"
           },
           "body": {
-            "text": "Att bli utsatt för övergrepp online kan utlösa känslor av rädsla, sorg, ilska och frustration. För idrottare kan dessa upplevelser också väcka oro kring deras rykte, karriärmöjligheter, relationer med familj och vänner och lagprestationer. När övergrepp sker offentligt kan dess synlighet och potentiella spridning ytterligare intensifiera den psykiska stressen.",
+            "text": "<p>Att bli utsatt för övergrepp online kan utlösa känslor av rädsla, sorg, ilska och frustration. För idrottare kan dessa upplevelser också väcka oro kring deras rykte, karriärmöjligheter, relationer med familj och vänner och lagprestationer. När övergrepp sker offentligt kan dess synlighet och potentiella spridning ytterligare intensifiera den psykiska stressen.</p>",
             "note": "HTML allowed"
           },
           "research": {
-            "text": "I en undersökning av 85 idrottare i NCAA Division I var större exponering för trakasserier online associerad med högre nivåer av depressiva symtom. Forskarna beskriver fientligt onlineinnehåll som en betydande källa till psykologisk stress för universitetsidrottare.",
+            "text": "<strong>I en undersökning av 85 idrottare i NCAA Division I var större exponering för trakasserier online associerad med högre nivåer av depressiva symtom. Forskarna beskriver fientligt onlineinnehåll som en betydande källa till psykologisk stress för universitetsidrottare.</strong>",
             "note": "HTML allowed"
           },
           "source": {
@@ -1071,7 +1071,7 @@
             "note": "Image alt"
           },
           "body": {
-            "text": "Onlineövergrepp kan störa sömn och återhämtning. Skadliga onlineupplevelser kan fortsätta efter den första interaktionen och påverka en idrottares förmåga att vila och återhämta sig.",
+            "text": "<p>Onlineövergrepp kan störa sömn och återhämtning. Skadliga onlineupplevelser kan fortsätta efter den första interaktionen och påverka en idrottares förmåga att vila och återhämta sig.</p>",
             "note": "HTML allowed"
           },
           "research": {
@@ -1096,11 +1096,11 @@
             "note": "Image alt"
           },
           "body": {
-            "text": "Onlineövergrepp riktar sig ofta mot en persons förmågor, kropp eller identitet. Upprepad kritik, inklusive kommentarer som delas offentligt för att förödmjuka eller såra någon, kan påverka den utsatta personens självförtroende och få dem att tvivla på sina färdigheter, beslut och plats inom idrotten.",
+            "text": "<p>Onlineövergrepp riktar sig ofta mot en persons förmågor, kropp eller identitet. Upprepad kritik, inklusive kommentarer som delas offentligt för att förödmjuka eller såra någon, kan påverka den utsatta personens självförtroende och få dem att tvivla på sina färdigheter, beslut och plats inom idrotten.</p>",
             "note": "HTML allowed"
           },
           "research": {
-            "text": "Forskning tyder på att interna faktorer kan forma hur människor reagerar på hat online. I en studie av 60 offentliga personer, inklusive olympiska idrottare, och 1 128 internetanvändare, var högre motståndskraft och självkänsla förknippade med lägre nivåer av oro över det hat online de utsattes för. Detta tyder på att människor kan uppleva samma typ av fientlighet på olika sätt, delvis beroende på deras psykologiska resurser.",
+            "text": "<strong>Forskning tyder på att interna faktorer kan forma hur människor reagerar på hat online. I en studie av 60 offentliga personer, inklusive olympiska idrottare, och 1 128 internetanvändare, var högre motståndskraft och självkänsla förknippade med lägre nivåer av oro över det hat online de utsattes för. Detta tyder på att människor kan uppleva samma typ av fientlighet på olika sätt, delvis beroende på deras psykologiska resurser.</strong>",
             "note": "HTML allowed"
           },
           "source": {
@@ -1121,11 +1121,11 @@
             "note": "Image alt"
           },
           "body": {
-            "text": "Hot och fientlighet online kan utvidga oron kring säkerhet bortom digitala utrymmen. Personer som utsätts för hot kan oroa sig för sin egen säkerhet hemma, under tävlingar och i offentliga utrymmen. När hoten även involverar deras nära och kära kan dessa farhågor även omfatta familjemedlemmar och nära och kära.",
+            "text": "<p><strong>Hot och fientlighet online kan utvidga oron kring säkerhet bortom digitala utrymmen. Personer som utsätts för hot kan oroa sig för sin egen säkerhet hemma, under tävlingar och i offentliga utrymmen. När hoten även involverar deras nära och kära kan dessa farhågor även omfatta familjemedlemmar och nära och kära.</strong></p>",
             "note": "HTML allowed"
           },
           "research": {
-            "text": "I UAOA-barometern 2025 rapporterade nästan tre av fyra tillfrågade idrottsförbund att hot om att skada idrottare eller deras anhöriga fortfarande är verklighet för dem som använder sociala medieplattformar. Resultatet rapporterades också i den föregående upplagan av barometern, vilket tyder på en fortsatt oro inom idrotten.",
+            "text": "<strong>I UAOA-barometern 2025 rapporterade nästan tre av fyra tillfrågade idrottsförbund att hot om att skada idrottare eller deras anhöriga fortfarande är verklighet för dem som använder sociala medieplattformar. Resultatet rapporterades också i den föregående upplagan av barometern, vilket tyder på en fortsatt oro inom idrotten.</strong>",
             "note": "HTML allowed"
           },
           "source": {
@@ -1146,11 +1146,11 @@
             "note": "Image alt"
           },
           "body": {
-            "text": "De skadliga effekterna av psykisk stress på fokus och prestation är väl dokumenterade. Eftersom online-övergrepp kan orsaka psykisk stress kan det negativt påverka idrottares fokus och prestation, vilket gör det svårare att koncentrera sig, fatta beslut under press och prestera konsekvent.",
+            "text": "<p>De skadliga effekterna av psykisk stress på fokus och prestation är väl dokumenterade. Eftersom online-övergrepp kan orsaka psykisk stress kan det negativt påverka idrottares fokus och prestation, vilket gör det svårare att koncentrera sig, fatta beslut under press och prestera konsekvent.</p>",
             "note": "HTML allowed"
           },
           "research": {
-            "text": "I en studie av 274 kanadensiska basketdomare var högre välbefinnande signifikant associerat med bättre självskattade domarprestationer, även efter att erfarenhet beaktats. Tidigare forskning som författarna citerade fann också att 90 % av fotbollsdomarna trodde att vanliga psykiska hälsosymptom kunde påverka deras domarprestationer negativt.",
+            "text": "<strong>I en studie av 274 kanadensiska basketdomare var högre välbefinnande signifikant associerat med bättre självskattade domarprestationer, även efter att erfarenhet beaktats. Tidigare forskning som författarna citerade fann också att 90 % av fotbollsdomarna trodde att vanliga psykiska hälsosymptom kunde påverka deras domarprestationer negativt.</strong>",
             "note": "HTML allowed"
           },
           "source": {
@@ -1171,11 +1171,11 @@
             "note": "Image alt"
           },
           "body": {
-            "text": "Onlineövergrepp kan påverka huruvida människor fortsätter att delta, arbeta eller kommunicera öppet inom idrott. Vissa kan minska sin närvaro på sociala medier, ompröva sitt engagemang eller bli mer försiktiga med vad de delar offentligt.",
+            "text": "<p><strong>Onlineövergrepp kan påverka huruvida människor fortsätter att delta, arbeta eller kommunicera öppet inom idrott. Vissa kan minska sin närvaro på sociala medier, ompröva sitt engagemang eller bli mer försiktiga med vad de delar offentligt.</strong></p>",
             "note": "HTML allowed"
           },
           "research": {
-            "text": "Forskning om övergrepp inom idrott fann att både fysisk och icke-fysisk misshandel var förknippad med en större avsikt att sluta bland fotbollsdomare i England och Kanada. Övergrepp var också förknippade med minskat välbefinnande. I UAOA-barometern 2025 uttryckte 90 % av de tillfrågade idrottsförbunden oro för att onlineövergrepp skulle kunna driva ut begåvade idrottare från idrott.",
+            "text": "<strong>Forskning om övergrepp inom idrott fann att både fysisk och icke-fysisk misshandel var förknippad med en större avsikt att sluta bland fotbollsdomare i England och Kanada. Övergrepp var också förknippade med minskat välbefinnande. I UAOA-barometern 2025 uttryckte 90 % av de tillfrågade idrottsförbunden oro för att onlineövergrepp skulle kunna driva ut begåvade idrottare från idrott.</strong>",
             "note": "HTML allowed"
           },
           "source": {
@@ -1191,27 +1191,27 @@
       },
       "items": {
         "i1": {
-          "text": "Onlineövergrepp kan ha omfattande effekter. Dess inverkan kan sträcka sig över välbefinnande, självförtroende, trygghetskänsla, prestation, deltagande och andra områden i en persons liv.",
+          "text": "<strong>Onlineövergrepp kan ha omfattande effekter. Dess inverkan kan sträcka sig över välbefinnande, självförtroende, trygghetskänsla, prestation, deltagande och andra områden i en persons liv.</strong>",
           "note": "HTML allowed"
         },
         "i2": {
-          "text": "Effekterna kan vara sammankopplade. Känslomässig stress, störd sömn, minskat självförtroende, säkerhetsproblem och svårigheter att fokusera kan överlappa varandra och påverka varandra.",
+          "text": "<strong>Effekterna kan vara sammankopplade. Känslomässig stress, störd sömn, minskat självförtroende, säkerhetsproblem och svårigheter att fokusera kan överlappa varandra och påverka varandra.</strong>",
           "note": "HTML allowed"
         },
         "i3": {
-          "text": "Människor kan påverkas olika. Personliga och kontextuella faktorer kan forma hur någon upplever och reagerar på onlineövergrepp.",
+          "text": "<strong>Människor kan påverkas olika. Personliga och kontextuella faktorer kan forma hur någon upplever och reagerar på onlineövergrepp.</strong>",
           "note": "HTML allowed"
         },
         "i4": {
-          "text": "Effekten sträcker sig bortom de som är direkt drabbade. Familjer, lagkamrater, kollegor, fans, organisationer och andra inom idrottsgemenskaper kan också uppleva dess konsekvenser.",
+          "text": "<strong>Effekten sträcker sig bortom de som är direkt drabbade. Familjer, lagkamrater, kollegor, fans, organisationer och andra inom idrottsgemenskaper kan också uppleva dess konsekvenser.</strong>",
           "note": "HTML allowed"
         },
         "i5": {
-          "text": "Onlineövergrepp kan påverka deltagande och idrottskultur. Ihållande fientlighet kan påverka vilka som känner sig trygga, välkomna och kan delta i idrott.",
+          "text": "<strong>Onlineövergrepp kan påverka deltagande och idrottskultur. Ihållande fientlighet kan påverka vilka som känner sig trygga, välkomna och kan delta i idrott.</strong>",
           "note": "HTML allowed"
         },
         "i6": {
-          "text": "Konsekvenserna kan sträcka sig bortom sporten. När diskriminerande och kränkande beteenden normaliseras kan de förstärka fördomar, utanförskap och fientlighet i samhället i stort.",
+          "text": "<strong>Konsekvenserna kan sträcka sig bortom sporten. När diskriminerande och kränkande beteenden normaliseras kan de förstärka fördomar, utanförskap och fientlighet i samhället i stort.</strong>",
           "note": "HTML allowed"
         }
       }
@@ -1242,7 +1242,7 @@
         "note": "Section heading on Online Abuse in Sport: The Human Impact"
       },
       "barometerCallout": {
-        "text": "För att lära dig mer om effekterna och skadorna av online-övergrepp, inbjuder vi dig att utforska resultaten från UAOA:s banbrytande studie som samlats in i UAOA Barometer 2025 - som mäter online-övergrepp inom idrott, med deltagande från ledande icke-statliga organisationer och internationella förbund.",
+        "text": "<p>För att lära dig mer om effekterna och skadorna av online-övergrepp, inbjuder vi dig att utforska resultaten från UAOA:s banbrytande studie som samlats in i <a href=\"https://unitedagainstonlineabuse.com/uaoa-barometer-2025/\" target=\"_blank\" rel=\"noopener\">UAOA Barometer 2025</a> - som mäter online-övergrepp inom idrott, med deltagande från ledande icke-statliga organisationer och internationella förbund.</p>",
         "note": "Module 2 Barometer image_with_text"
       },
       "continueToModule3": {
@@ -1251,7 +1251,7 @@
       },
       "checkYourUnderstandingOfTheKey": {
         "body": {
-          "text": "Kontrollera din förståelse av huvudidéerna från den här modulen.",
+          "text": "<p><span style=\"color: #091324\">Kontrollera din förståelse av huvudidéerna från den här modulen.</span></p>",
           "note": "Native text body on Online Abuse in Sport: The Human Impact"
         }
       },
@@ -1260,27 +1260,27 @@
         "note": "slide_intro subtitle (estimated time)"
       },
       "section1Body": {
-        "text": "Att förstå hur onlineövergrepp påverkar människor hjälper oss att bygga empati för de som utsätts för övergrepp och reagera med omsorg och respekt. Effekterna av onlineövergrepp på människor kan vara allvarliga och långtgående: ett enda inlägg kan få någon att känna sig orolig, otrygg eller tvivla på sig själv även långt efter den första interaktionen. Allt eftersom övergrepp fortsätter eller sprider sig över digitala plattformar kan dess inverkan intensifieras. Onlineövergrepp kan påverka mental hälsa och välbefinnande, såväl som hur idrottare presterar, hur domare tar beslut och hur journalister och andra yrkesverksamma engagerar sig i sitt arbete. Sådana effekter kan också sträcka sig bortom den person som utsätts för övergrepp. Familjer, lagkamrater, kollegor och fans kan bevittna eller uppleva konsekvenserna av övergrepp. På en bredare nivå kan ihållande fientlighet online forma idrottskulturen, påverka deltagandet och påverka vem som känner sig trygg och välkommen inom idrotten.",
+        "text": "<p><span style=\"color: #091324\"><strong>Att förstå hur onlineövergrepp påverkar människor hjälper oss att bygga empati för de som utsätts för övergrepp och reagera med omsorg och respekt. Effekterna av onlineövergrepp på människor kan vara allvarliga och långtgående: ett enda inlägg kan få någon att känna sig orolig, otrygg eller tvivla på sig själv även långt efter den första interaktionen. Allt eftersom övergrepp fortsätter eller sprider sig över digitala plattformar kan dess inverkan intensifieras. Onlineövergrepp kan påverka mental hälsa och välbefinnande, såväl som hur idrottare presterar, hur domare tar beslut och hur journalister och andra yrkesverksamma engagerar sig i sitt arbete. Sådana effekter kan också sträcka sig bortom den person som utsätts för övergrepp. Familjer, lagkamrater, kollegor och fans kan bevittna eller uppleva konsekvenserna av övergrepp. På en bredare nivå kan ihållande fientlighet online forma idrottskulturen, påverka deltagandet och påverka vem som känner sig trygg och välkommen inom idrotten.</strong></span></p><p></p><p></p><p></p><p></p>",
         "note": "Section body on Online Abuse in Sport: The Human Impact"
       },
       "section2Body": {
-        "text": "Idrottare med hög profil tenderar att utsättas för en stor mängd online-övergrepp. Idrottare är dock inte de enda som är måltavlor.",
+        "text": "<p><span style=\"color: #091324\"><strong>Idrottare med hög profil tenderar att utsättas för en stor mängd online-övergrepp. Idrottare är dock inte de enda som är måltavlor.</strong></span></p>",
         "note": "Section body on Online Abuse in Sport: The Human Impact"
       },
       "section3Body": {
-        "text": "Nätrelaterade övergrepp kan drabba alla som är involverade i idrott. Konsekvenserna varierar beroende på individen och deras omständigheter, och vissa effekter är särskilt relevanta för idrottare. Dessa effekter kan också förstärka varandra: ångest kan störa sömnen, dålig sömn kan påverka koncentration och självförtroende, och dessa kombinerade effekter kan påverka dagliga aktiviteter, idrottsprestationer och det allmänna välbefinnandet.",
+        "text": "<p><span style=\"color: #091324\">Nätrelaterade övergrepp kan drabba alla som är involverade i idrott. Konsekvenserna varierar beroende på individen och deras omständigheter, och vissa effekter är särskilt relevanta för idrottare. Dessa effekter kan också förstärka varandra: ångest kan störa sömnen, dålig sömn kan påverka koncentration och självförtroende, och dessa kombinerade effekter kan påverka dagliga aktiviteter, idrottsprestationer och det allmänna välbefinnandet.</span></p>",
         "note": "Section body on Online Abuse in Sport: The Human Impact"
       },
       "section4Body": {
-        "text": "Efter att ha fått upprepade kränkande meddelanden online börjar en idrottare posta mer sällan på sociala medier. Deras tränare märker att de verkar distraherade under träningen, och de har nyligen nämnt att de sover dåligt och känner sig oroliga inför att delta i offentliga evenemang.",
+        "text": "<p><span style=\"color: #091324\">Efter att ha fått upprepade kränkande meddelanden online börjar en idrottare posta mer sällan på sociala medier. Deras tränare märker att de verkar distraherade under träningen, och de har nyligen nämnt att de sover dåligt och känner sig oroliga inför att delta i offentliga evenemang.</span></p>",
         "note": "Section body on Online Abuse in Sport: The Human Impact"
       },
       "section5Body": {
-        "text": "Effekterna av online-övergrepp kan sträcka sig bortom individer och forma idrottskulturen och de samhällen som omger den. Utbredd fientlighet kan påverka vilka som känner sig välkomna, trygga och kan delta, med konsekvenser för inkludering och hållbarhet i idrottsgemenskaper. Idrott har också ett bredare socialt inflytande. De beteenden och attityder som uttrycks i idrottsmiljöer kan bidra till bredare sociala normer. När diskriminerande eller kränkande beteende normaliseras kan det förstärka fördomar, utanförskap och fientlighet bortom idrott.",
+        "text": "<p><span style=\"color: #091324\"><strong>Effekterna av online-övergrepp kan sträcka sig bortom individer och forma idrottskulturen och de samhällen som omger den. Utbredd fientlighet kan påverka vilka som känner sig välkomna, trygga och kan delta, med konsekvenser för inkludering och hållbarhet i idrottsgemenskaper. Idrott har också ett bredare socialt inflytande. De beteenden och attityder som uttrycks i idrottsmiljöer kan bidra till bredare sociala normer. När diskriminerande eller kränkande beteende normaliseras kan det förstärka fördomar, utanförskap och fientlighet bortom idrott.</strong><br><br></span></p><p></p><p></p>",
         "note": "Section body on Online Abuse in Sport: The Human Impact"
       },
       "section5Body3": {
-        "text": "För att lära dig mer, läs UAOA-barometern 2025.",
+        "text": "<p>För att lära dig mer, läs UAOA-barometern 2025.<a href=\"https://unitedagainstonlineabuse.com/uaoa-barometer-2025/\" target=\"_blank\" rel=\"noopener\"></a></p>",
         "note": "Section body on Online Abuse in Sport: The Human Impact"
       }
     }
@@ -1319,7 +1319,7 @@
             "text": "Europeiska unionen"
           },
           "html": {
-            "text": "Europeiska unionens AI-lag använder ett riskbaserat ramverk för AI och inför transparenskrav för visst AI-genererat och manipulerat innehåll, inklusive vissa djupförfalskningar.",
+            "text": "<p><a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/\" target=\"_blank\" rel=\"noopener\"><strong>Europeiska unionens AI-lag använder ett riskbaserat ramverk för AI och inför transparenskrav för visst AI-genererat och manipulerat innehåll, inklusive vissa djupförfalskningar.</strong></a></p>",
             "note": "HTML allowed — European Union AI Act links to EUR-Lex"
           },
           "subs": {
@@ -1328,7 +1328,7 @@
                 "text": "Slovenien"
               },
               "html": {
-                "text": "I Slovenien regleras AI av nationell lagstiftning och EU:s AI-lag. Statlig vägledning, svar på vanliga frågor och information om reglering från ansvarigt ministerium finns också tillgänglig.",
+                "text": "<p>I Slovenien regleras AI av nationell lagstiftning och EU:s AI-lag. Statlig vägledning, svar på vanliga frågor och information om reglering från ansvarigt ministerium finns också tillgänglig.<a href=\"https://pisrs.si/pregledPredpisa?id=ZAKO9225#naslov-parent-393613415\" target=\"_blank\" rel=\"noopener\"></a><a href=\"https://eur-lex.europa.eu/legal-content/SL/TXT/HTML/?uri=OJ:L_202401689\" target=\"_blank\" rel=\"noopener\"></a><a href=\"https://www.gov.si/novice/2026-08-03-zacela-so-se-uporabljati-pravila-o-preglednosti-sistemov-umetne-inteligence/\" target=\"_blank\" rel=\"noopener\"></a><a href=\"https://www.ip-rs.si/umetna-inteligenca/pogosta-vpra%C5%A1anja/\" target=\"_blank\" rel=\"noopener\"></a><a href=\"https://www.gov.si/en/state-authorities/ministries/ministry-of-the-interior-and-public-administration/about-the-ministry/\" target=\"_blank\" rel=\"noopener\"></a></p>",
                 "note": "HTML allowed — linked phrases open official sources"
               }
             },
@@ -1337,7 +1337,7 @@
                 "text": "Sverige"
               },
               "html": {
-                "text": "I Sverige gäller EU:s AI-lag direkt och utgör den rättsliga ramen för reglering av artificiell intelligens, inklusive AI-genererat innehåll. Sverige har ingen separat nationell lagstiftning som specifikt behandlar AI-genererat innehåll.",
+                "text": "<p>I Sverige gäller EU:s AI-lag direkt och utgör den rättsliga ramen för reglering av artificiell intelligens, inklusive AI-genererat innehåll. Sverige har ingen separat nationell lagstiftning som specifikt behandlar AI-genererat innehåll.</p>",
                 "note": "HTML allowed"
               }
             },
@@ -1346,7 +1346,7 @@
                 "text": "Tjeckien"
               },
               "html": {
-                "text": "I Tjeckien gäller EU:s AI-lag direkt och tillhandahåller den rättsliga ramen för att reglera artificiell intelligens, inklusive AI-genererat innehåll.",
+                "text": "<p>I Tjeckien gäller EU:s AI-lag direkt och tillhandahåller den rättsliga ramen för att reglera artificiell intelligens, inklusive AI-genererat innehåll.</p>",
                 "note": "HTML allowed"
               }
             },
@@ -1355,7 +1355,7 @@
                 "text": "Spanien"
               },
               "html": {
-                "text": "I Spanien gäller EU:s AI-lag direkt och tillhandahåller den rättsliga ramen för reglering av artificiell intelligens, inklusive AI-genererat innehåll. Den spanska myndigheten för tillsyn av artificiell intelligens (AESIA) övervakar efterlevnaden av AI-förordningar och stöder deras genomförande på nationell nivå.",
+                "text": "<p>I Spanien gäller EU:s AI-lag direkt och tillhandahåller den rättsliga ramen för reglering av artificiell intelligens, inklusive AI-genererat innehåll. Den spanska myndigheten för tillsyn av artificiell intelligens (AESIA) övervakar efterlevnaden av AI-förordningar och stöder deras genomförande på nationell nivå.</p>",
                 "note": "HTML allowed"
               }
             }
@@ -1366,7 +1366,7 @@
             "text": "Storbritannien"
           },
           "html": {
-            "text": "Enligt lagen om nätsäkerhet kan AI-genererat innehåll som delas av användare falla inom reglerade onlinetjänsters ansvarsområden, inklusive relevanta skyldigheter gällande olagligt innehåll och användarsäkerhet.",
+            "text": "<p><a href=\"https://www.legislation.gov.uk/ukpga/2023/50\" target=\"_blank\" rel=\"noopener\"><strong>Enligt lagen om nätsäkerhet kan AI-genererat innehåll som delas av användare falla inom reglerade onlinetjänsters ansvarsområden, inklusive relevanta skyldigheter gällande olagligt innehåll och användarsäkerhet.</strong></a></p>",
             "note": "HTML allowed"
           }
         },
@@ -1375,7 +1375,7 @@
             "text": "Förenta staterna"
           },
           "html": {
-            "text": "TAKE IT DOWN Act behandlar delning av intima bilder utan samtycke, inklusive AI-genererade deepfakes. Den kräver att berörda onlineplattformar tillhandahåller ett sätt att begära borttagning av bilder och att kvalificerat innehåll tas bort inom 48 timmar efter en giltig begäran.",
+            "text": "<p><a href=\"https://www.congress.gov/bill/119th-congress/senate-bill/146\" target=\"_blank\" rel=\"noopener\"><strong>TAKE IT DOWN Act</strong></a> behandlar delning av intima bilder utan samtycke, inklusive AI-genererade deepfakes. Den kräver att berörda onlineplattformar tillhandahåller ett sätt att begära borttagning av bilder och att kvalificerat innehåll tas bort inom 48 timmar efter en giltig begäran.</p>",
             "note": "HTML allowed"
           }
         }
@@ -1440,7 +1440,7 @@
             "text": "Storbritannien"
           },
           "html": {
-            "text": "I Storbritannien kan onlineövergrepp rapporteras till relevant plattform eller, när det kan utgöra ett brott, till polisen. Individer uppmuntras att bevara bevis, inklusive skärmdumpar, meddelanden och webbadresser. Specialistorganisationer tillhandahåller också konfidentiellt stöd och vägledning. Polis — Rapportera hot, stalkning, trakasserier och annat potentiellt kriminellt onlinebeteende. Ring 999 i en nödsituation eller 101 för icke-akut hjälp. Rapportera skadligt innehåll — Vägledning och hjälp med att rapportera skadligt onlineinnehåll, inklusive trakasserier, hot och övergrepp. Stop Hate UK — Oberoende, konfidentiellt stöd och allmänna rapporteringstjänster för hatbrott i deltagande områden.",
+            "text": "<p></p><ul><li><strong>I Storbritannien kan onlineövergrepp rapporteras till relevant plattform eller, när det kan utgöra ett brott, till polisen. Individer uppmuntras att bevara bevis, inklusive skärmdumpar, meddelanden och webbadresser. Specialistorganisationer tillhandahåller också konfidentiellt stöd och vägledning. Polis — Rapportera hot, stalkning, trakasserier och annat potentiellt kriminellt onlinebeteende. Ring 999 i en nödsituation eller 101 för icke-akut hjälp. Rapportera skadligt innehåll — Vägledning och hjälp med att rapportera skadligt onlineinnehåll, inklusive trakasserier, hot och övergrepp. Stop Hate UK — Oberoende, konfidentiellt stöd och allmänna rapporteringstjänster för hatbrott i deltagande områden.</strong></li><li><a href=\"https://reportharmfulcontent.com/\" target=\"_blank\" rel=\"noopener\"></a></li><li><a href=\"https://www.stophateuk.org/report-hate-crime/\" target=\"_blank\" rel=\"noopener\"></a></li></ul>",
             "note": "HTML allowed — linked resource names open official sources"
           }
         },
@@ -1449,7 +1449,7 @@
             "text": "Förenta staterna"
           },
           "html": {
-            "text": "I USA kan onlineövergrepp rapporteras till relevant plattform eller brottsbekämpande myndigheter, beroende på händelsens art. Hot, stalking och annat potentiellt kriminellt beteende kan rapporteras till lokal polis, medan federala myndigheter tillhandahåller ytterligare rapporteringskanaler. Individer uppmuntras att bevara bevis, inklusive skärmdumpar, meddelanden och webbadresser. Lokal brottsbekämpning — Polisavdelningar kan ta emot rapporter om hot, stalking, trakasserier och annat potentiellt kriminellt onlinebeteende. Ring 911 i en nödsituation. StopBullying.gov: Rapportera cybermobbning — Myndighetens riktlinjer för att dokumentera cybermobbning, rapportera skadligt innehåll till plattformar och kontakta brottsbekämpande myndigheter när det är lämpligt. FBI: Internet Crime Complaint Center (IC3) — Rapporter om cyberaktiverad brottslighet, inklusive onlineutpressning, trakasserier och stalking där kriminellt beteende misstänks. FBI: Rapportera ett federalt brott — Rapporter om misstänkta federala brott, inklusive allvarliga hot och annan kriminell verksamhet som kan innebära onlineövergrepp.",
+            "text": "<p></p><ul><li><a href=\"https://www.usa.gov/report-crime\" target=\"_blank\" rel=\"noopener\"><strong>I USA kan onlineövergrepp rapporteras till relevant plattform eller brottsbekämpande myndigheter, beroende på händelsens art. Hot, stalking och annat potentiellt kriminellt beteende kan rapporteras till lokal polis, medan federala myndigheter tillhandahåller ytterligare rapporteringskanaler. Individer uppmuntras att bevara bevis, inklusive skärmdumpar, meddelanden och webbadresser. Lokal brottsbekämpning — Polisavdelningar kan ta emot rapporter om hot, stalking, trakasserier och annat potentiellt kriminellt onlinebeteende. Ring 911 i en nödsituation. StopBullying.gov: Rapportera cybermobbning — Myndighetens riktlinjer för att dokumentera cybermobbning, rapportera skadligt innehåll till plattformar och kontakta brottsbekämpande myndigheter när det är lämpligt. FBI: Internet Crime Complaint Center (IC3) — Rapporter om cyberaktiverad brottslighet, inklusive onlineutpressning, trakasserier och stalking där kriminellt beteende misstänks. FBI: Rapportera ett federalt brott — Rapporter om misstänkta federala brott, inklusive allvarliga hot och annan kriminell verksamhet som kan innebära onlineövergrepp.</strong></a></li><li><a href=\"https://www.stopbullying.gov/cyberbullying/how-to-report\" target=\"_blank\" rel=\"noopener\"></a></li><li><a href=\"https://www.ic3.gov/\" target=\"_blank\" rel=\"noopener\"></a></li><li><a href=\"https://tips.fbi.gov/\" target=\"_blank\" rel=\"noopener\"></a></li></ul>",
             "note": "HTML allowed — linked resource names open official sources"
           }
         },
@@ -1458,7 +1458,7 @@
             "text": "Slovenien"
           },
           "html": {
-            "text": "I Slovenien kan idrottare och idrottsproffs söka oberoende stöd och vägledning om onlineövergrepp genom ombudsmannen för idrottares rättigheter. Ytterligare resurser behandlar cybersäkerhetsincidenter, skydd av personuppgifter och misskötsel inom idrotten, inklusive särskilda rapporteringskanaler. Ombudsmannen för idrottares rättigheter — Oberoende stöd och kostnadsfri juridisk vägledning för idrottare och idrottsproffs. SI.CERT — Sloveniens nationella centrum för cybersäkerhetsincidenter, som tillhandahåller hjälp med onlinesäkerhetsincidenter. Statens kontor för informationssäkerhet — Myndighet som ansvarar för nationell informationssäkerhet och cybersäkerhet. Informationskommissionär — Oberoende myndighet som övervakar skydd av personuppgifter och integritetsrättigheter. Sloveniens olympiska kommitté: Visselblåsningskanal — Rapporteringskanal för att ta upp farhågor om misskötsel inom idrotten.",
+            "text": "<p></p><ul><li><a href=\"https://www.gov.si/en/state-authorities/ministries/ministry-of-the-economy-labour-and-sport/about-the-ministry-of-economy-tourism-and-sport/sport-directorate/\" target=\"_blank\" rel=\"noopener\"><strong>I Slovenien kan idrottare och idrottsproffs söka oberoende stöd och vägledning om onlineövergrepp genom ombudsmannen för idrottares rättigheter. Ytterligare resurser behandlar cybersäkerhetsincidenter, skydd av personuppgifter och misskötsel inom idrotten, inklusive särskilda rapporteringskanaler. Ombudsmannen för idrottares rättigheter — Oberoende stöd och kostnadsfri juridisk vägledning för idrottare och idrottsproffs. SI.CERT — Sloveniens nationella centrum för cybersäkerhetsincidenter, som tillhandahåller hjälp med onlinesäkerhetsincidenter. Statens kontor för informationssäkerhet — Myndighet som ansvarar för nationell informationssäkerhet och cybersäkerhet. Informationskommissionär — Oberoende myndighet som övervakar skydd av personuppgifter och integritetsrättigheter. Sloveniens olympiska kommitté: Visselblåsningskanal — Rapporteringskanal för att ta upp farhågor om misskötsel inom idrotten.</strong></a></li><li><a href=\"https://www.cert.si/en/about-si-cert/\" target=\"_blank\" rel=\"noopener\"></a></li><li><a href=\"https://www.gov.si/drzavni-organi/vladne-sluzbe/urad-vlade-za-informacijsko-varnost/\" target=\"_blank\" rel=\"noopener\"></a></li><li><a href=\"https://www.ip-rs.si/en/about/information-commissioner\" target=\"_blank\" rel=\"noopener\"></a></li><li><a href=\"https://oks.zvizgavka.si/\" target=\"_blank\" rel=\"noopener\"></a></li></ul>",
             "note": "HTML allowed — linked resource names open official sources"
           }
         },
@@ -1467,7 +1467,7 @@
             "text": "Sverige"
           },
           "html": {
-            "text": "I Sverige kan potentiellt kriminella övergrepp online, inklusive hot, trakasserier och förtal, anmälas till polisen. Idrottare och idrottsproffs kan också söka oberoende stöd eller anmäla misskötsel inom idrotten via Riksidrottsförbundets idrottsombudsman. Svensk polis — Officiell anmälningskanal för potentiella brott, inklusive hot online, trakasserier och förtal. Anmälningar kan också göras genom att ringa 114 14. Riksidrottsförbundet (RF): Idrottsombudsman — Oberoende stöd- och visselblåsartjänst för anmälan av trakasserier, övergrepp och misskötsel inom svensk idrott.",
+            "text": "<p></p><ul><li><a href=\"https://polisen.se/utsatt-for-brott/polisanmalan/\" target=\"_blank\" rel=\"noopener\"><strong>I Sverige kan potentiellt kriminella övergrepp online, inklusive hot, trakasserier och förtal, anmälas till polisen. Idrottare och idrottsproffs kan också söka oberoende stöd eller anmäla misskötsel inom idrotten via Riksidrottsförbundets idrottsombudsman. Svensk polis — Officiell anmälningskanal för potentiella brott, inklusive hot online, trakasserier och förtal. Anmälningar kan också göras genom att ringa 114 14. Riksidrottsförbundet (RF): Idrottsombudsman — Oberoende stöd- och visselblåsartjänst för anmälan av trakasserier, övergrepp och misskötsel inom svensk idrott.</strong></a></li><li><a href=\"https://www.rf.se/rf-arbetar-med/idrottsombudsmannen/kontakta-idrottsombudsmannen\" target=\"_blank\" rel=\"noopener\"></a></li></ul>",
             "note": "HTML allowed — linked resource names open official sources"
           }
         },
@@ -1476,7 +1476,7 @@
             "text": "Tjeckien"
           },
           "html": {
-            "text": "I Tjeckien kan onlineövergrepp rapporteras via flera kanaler, beroende på händelsens art. STOPonline tar emot rapporter om olagligt eller skadligt onlineinnehåll, inklusive cybermobbning, cybergrooming, icke-samtyckande delning av intima bilder och cyberhot. Rapporter granskas av specialister och kan hänvisas till den tjeckiska polisen eller internationella partners. Incidenter som involverar potentiella brott, såsom hot, stalking eller utpressning, bör rapporteras direkt till den tjeckiska polisen. Individer uppmuntras att bevara bevis, inklusive skärmdumpar, meddelanden och länkar, och kan också rapportera skadligt innehåll direkt till onlineplattformar. STOPonline.cz — Onlinerapporteringstjänst som drivs av CZ.NIC i samarbete med CSIRT.CZ. Tar emot rapporter om olagligt eller skadligt onlineinnehåll och hänvisar potentiellt olagliga fall till relevanta myndigheter. Tjänsten fokuserar på innehållsbedömning och rapportering, inte rådgivning. Tjeckisk polis: Rapportering av cyberbrottslighet — Officiell information om rapportering av misstänkt cyberbrottslighet, inklusive onlinehot, stalking, utpressning och annan potentiellt kriminell verksamhet. Tjeckisk polis: Vägledning om misstänkt onlineaktivitet — Praktisk vägledning om hur man reagerar på misstänkt onlineaktivitet, bevarar bevis och söker polishjälp.",
+            "text": "<p></p><ul><li><a href=\"https://www.stoponline.cz/en/\" target=\"_blank\" rel=\"noopener\"><strong>I Tjeckien kan onlineövergrepp rapporteras via flera kanaler, beroende på händelsens art. STOPonline tar emot rapporter om olagligt eller skadligt onlineinnehåll, inklusive cybermobbning, cybergrooming, icke-samtyckande delning av intima bilder och cyberhot. Rapporter granskas av specialister och kan hänvisas till den tjeckiska polisen eller internationella partners. Incidenter som involverar potentiella brott, såsom hot, stalking eller utpressning, bör rapporteras direkt till den tjeckiska polisen. Individer uppmuntras att bevara bevis, inklusive skärmdumpar, meddelanden och länkar, och kan också rapportera skadligt innehåll direkt till onlineplattformar. STOPonline.cz — Onlinerapporteringstjänst som drivs av CZ.NIC i samarbete med CSIRT.CZ. Tar emot rapporter om olagligt eller skadligt onlineinnehåll och hänvisar potentiellt olagliga fall till relevanta myndigheter. Tjänsten fokuserar på innehållsbedömning och rapportering, inte rådgivning. Tjeckisk polis: Rapportering av cyberbrottslighet — Officiell information om rapportering av misstänkt cyberbrottslighet, inklusive onlinehot, stalking, utpressning och annan potentiellt kriminell verksamhet. Tjeckisk polis: Vägledning om misstänkt onlineaktivitet — Praktisk vägledning om hur man reagerar på misstänkt onlineaktivitet, bevarar bevis och söker polishjälp.</strong></a></li><li><a href=\"https://policie.gov.cz/hlaseni-kyberkriminality\" target=\"_blank\" rel=\"noopener\"></a></li><li><a href=\"https://policie.gov.cz/kyberkriminalita/co-delat-vpripade-ze-se-setkate-spodezrelou-aktivitou-vonline-prostoru\" target=\"_blank\" rel=\"noopener\"></a></li></ul>",
             "note": "HTML allowed — linked resource names open official sources"
           }
         },
@@ -1485,7 +1485,7 @@
             "text": "Spanien"
           },
           "html": {
-            "text": "I Spanien kan potentiellt kriminella onlineövergrepp, inklusive trakasserier, hot och hatrelaterade brott, rapporteras till den spanska nationella polisen eller civilgardet. Individer uppmuntras att bevara bevis, inklusive skärmdumpar, meddelanden och webbadresser. Ytterligare tjänster erbjuder konfidentiell vägledning och hjälp med att ta bort skadligt innehåll. Spansk nationella polis (Policía Nacional) och civilgardet (Guardia Civil) — Officiella myndigheter för rapportering av potentiellt kriminella onlineövergrepp. INCIBE: Cybersecurity Helpline (017) — Gratis, konfidentiell rådgivning om cybermobbning, onlinetrakasserier och digital integritet. Detta är en rådgivningstjänst, inte en formell kanal för brottsanmälan. Spanska dataskyddsmyndigheten (AEPD): Prioriterad kanal — Tillåter individer att begära omedelbar borttagning av olagligt delat sexuellt eller våldsamt innehåll i särskilt allvarliga fall.",
+            "text": "<p></p><ul><li><a href=\"https://www.policia.es/\" target=\"_blank\" rel=\"noopener\"><strong>I Spanien kan potentiellt kriminella onlineövergrepp, inklusive trakasserier, hot och hatrelaterade brott, rapporteras till den spanska nationella polisen eller civilgardet. Individer uppmuntras att bevara bevis, inklusive skärmdumpar, meddelanden och webbadresser. Ytterligare tjänster erbjuder konfidentiell vägledning och hjälp med att ta bort skadligt innehåll. Spansk nationella polis (Policía Nacional) och civilgardet (Guardia Civil) — Officiella myndigheter för rapportering av potentiellt kriminella onlineövergrepp. INCIBE: Cybersecurity Helpline (017) — Gratis, konfidentiell rådgivning om cybermobbning, onlinetrakasserier och digital integritet. Detta är en rådgivningstjänst, inte en formell kanal för brottsanmälan. Spanska dataskyddsmyndigheten (AEPD): Prioriterad kanal — Tillåter individer att begära omedelbar borttagning av olagligt delat sexuellt eller våldsamt innehåll i särskilt allvarliga fall.</strong></a></li><li><a href=\"https://www.incibe.es/linea-de-ayuda-en-ciberseguridad\" target=\"_blank\" rel=\"noopener\"></a></li><li><a href=\"https://www.aepd.es/canalprioritario\" target=\"_blank\" rel=\"noopener\"></a></li></ul>",
             "note": "HTML allowed — linked resource names open official sources"
           }
         }
@@ -1510,11 +1510,11 @@
           "text": "Flytta nedåt"
         },
         "ok": {
-          "text": "Korrekt! Du har identifierat den rekommenderade sekvensen för att hantera kränkningar online på sociala medier. Att följa en tydlig process hjälper till att bevara viktig information, minska ytterligare exponering och säkerställa att situationen rapporteras eller eskaleras på lämpligt sätt.",
+          "text": "<strong>Korrekt! Du har identifierat den rekommenderade sekvensen för att hantera kränkningar online på sociala medier. Att följa en tydlig process hjälper till att bevara viktig information, minska ytterligare exponering och säkerställa att situationen rapporteras eller eskaleras på lämpligt sätt.</strong>",
           "note": "HTML allowed"
         },
         "bad": {
-          "text": "Inte riktigt. Granska alternativen och försök igen.",
+          "text": "<strong>Inte riktigt. Granska alternativen och försök igen.</strong>",
           "note": "HTML allowed"
         }
       },
@@ -1541,7 +1541,7 @@
     },
     "trueFalse": {
       "bad": {
-        "text": "Inte riktigt. Granska påståendet och försök igen.",
+        "text": "<strong>Inte riktigt. Granska påståendet och försök igen.</strong>",
         "note": "HTML allowed"
       },
       "questions": {
@@ -1558,7 +1558,7 @@
             }
           },
           "ok": {
-            "text": "Korrekt! Det rekommenderas att samla in relevant bevis innan innehåll tas bort, och att undvika att kontakta den person som är ansvarig för övergreppet direkt.",
+            "text": "<strong>Korrekt! Det rekommenderas att samla in relevant bevis innan innehåll tas bort, och att undvika att kontakta den person som är ansvarig för övergreppet direkt.</strong>",
             "note": "HTML allowed"
           }
         },
@@ -1575,7 +1575,7 @@
             }
           },
           "ok": {
-            "text": "Korrekt! Att dela eller återpublicera kränkande innehåll kan öka dess räckvidd och exponera den utsatta personen, och andra, för det skadliga innehållet igen. Använd lämpliga rapporteringskanaler istället.",
+            "text": "<strong>Korrekt! Att dela eller återpublicera kränkande innehåll kan öka dess räckvidd och exponera den utsatta personen, och andra, för det skadliga innehållet igen. Använd lämpliga rapporteringskanaler istället.</strong>",
             "note": "HTML allowed"
           }
         },
@@ -1592,7 +1592,7 @@
             }
           },
           "ok": {
-            "text": "Korrekt! AI kan stödja tidig upptäckt och flagga potentiellt skadligt innehåll för granskning, men sammanhang, språk och förändrade övergreppstaktik kan göra mänsklig bedömning viktig.",
+            "text": "<strong>Korrekt! AI kan stödja tidig upptäckt och flagga potentiellt skadligt innehåll för granskning, men sammanhang, språk och förändrade övergreppstaktik kan göra mänsklig bedömning viktig.</strong>",
             "note": "HTML allowed"
           }
         }
@@ -1604,31 +1604,31 @@
       },
       "items": {
         "i1": {
-          "text": "Plattformsdesign påverkar hur innehåll sprids. Olika digitala miljöer formar vem som möter innehåll, hur människor interagerar med det och hur länge det förblir synligt.",
+          "text": "<strong>Plattformsdesign påverkar hur innehåll sprids. Olika digitala miljöer formar vem som möter innehåll, hur människor interagerar med det och hur länge det förblir synligt.</strong>",
           "note": "HTML allowed"
         },
         "i2": {
-          "text": "Skada online kan förstärkas. Rekommendationssystem, delning, liveinteraktion och samhällsdynamik kan öka räckvidden och intensiteten av skadligt innehåll.",
+          "text": "<strong>Skada online kan förstärkas. Rekommendationssystem, delning, liveinteraktion och samhällsdynamik kan öka räckvidden och intensiteten av skadligt innehåll.</strong>",
           "note": "HTML allowed"
         },
         "i3": {
-          "text": "Kränkande taktiker kan anpassas. Skadligt innehåll kan använda ändrat språk, visuella format, indirekt målgruppsinriktning eller olika digitala utrymmen för att göra upptäckt svårare.",
+          "text": "<strong>Kränkande taktiker kan anpassas. Skadligt innehåll kan använda ändrat språk, visuella format, indirekt målgruppsinriktning eller olika digitala utrymmen för att göra upptäckt svårare.</strong>",
           "note": "HTML allowed"
         },
         "i4": {
-          "text": "Människor kan vidta åtgärder för att minska exponeringen. Integritetskontroller, interaktionsinställningar, blockering, ljudavstängning och genomtänkta val kring onlineutrymmen kan stödja digitalt välbefinnande.",
+          "text": "<strong>Människor kan vidta åtgärder för att minska exponeringen. Integritetskontroller, interaktionsinställningar, blockering, ljudavstängning och genomtänkta val kring onlineutrymmen kan stödja digitalt välbefinnande.</strong>",
           "note": "HTML allowed"
         },
         "i5": {
-          "text": "Effektiv rapportering följer en tydlig process. Bedöm situationen, dokumentera relevanta bevis, rapportera via en lämplig kanal och sök stöd eller eskalera när säkerheten är i fara.",
+          "text": "<strong>Effektiv rapportering följer en tydlig process. Bedöm situationen, dokumentera relevanta bevis, rapportera via en lämplig kanal och sök stöd eller eskalera när säkerheten är i fara.</strong>",
           "note": "HTML allowed"
         },
         "i6": {
-          "text": "AI har en dubbel roll. Den kan öka omfattningen och sofistikeringen av skadligt innehåll, och den kan också stödja upptäckt, moderering och andra säkerhetsåtgärder online.",
+          "text": "<strong>AI har en dubbel roll. Den kan öka omfattningen och sofistikeringen av skadligt innehåll, och den kan också stödja upptäckt, moderering och andra säkerhetsåtgärder online.</strong>",
           "note": "HTML allowed"
         },
         "i7": {
-          "text": "Teknologi ensam kan inte hantera onlinemissbruk. Effektiva åtgärder kombinerar plattformsverktyg, ansvarsfullt användarbeteende, mänskligt omdöme, organisatoriskt stöd och lämplig reglering.",
+          "text": "<strong>Teknologi ensam kan inte hantera onlinemissbruk. Effektiva åtgärder kombinerar plattformsverktyg, ansvarsfullt användarbeteende, mänskligt omdöme, organisatoriskt stöd och lämplig reglering.</strong>",
           "note": "HTML allowed"
         }
       }
@@ -1644,63 +1644,63 @@
       },
       "aiAndOnlineHarm": {
         "body": {
-          "text": "AI förändrar hur skada online kan skapas och hur den delas. Men AI kan också vara ett kraftfullt verktyg för att förhindra att oönskat innehåll sprids online.",
+          "text": "<p><span style=\"color: #091324\">AI förändrar hur skada online kan skapas och hur den delas. Men AI kan också vara ett kraftfullt verktyg för att förhindra att oönskat innehåll sprids online.</span></p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "AI och onlineskada",
+          "text": "<span style=\"color: #21b7cb\">AI och onlineskada</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
       "exploreReportingSystemsInYourCountry": {
         "body": {
-          "text": "Lär dig var du kan rapportera övergrepp online, söka stöd och få tillgång till resurser för att ta itu med skadligt innehåll och beteende.",
+          "text": "<p><span style=\"color: #091324\">Lär dig var du kan rapportera övergrepp online, söka stöd och få tillgång till resurser för att ta itu med skadligt innehåll och beteende.</span></p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "Utforska rapporteringssystem i ditt land:",
+          "text": "<span style=\"color: #21b7cb\">Utforska rapporteringssystem i ditt land:</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
       "exploreWhichFactorsCanInfluenceHow": {
         "body": {
-          "text": "Välj de tre faktorer som direkt kan påverka hur skadligt innehåll sprids och når nya målgrupper online.",
+          "text": "<p><span style=\"color: #091324\">Välj de tre faktorer som direkt kan påverka hur skadligt innehåll sprids och når nya målgrupper online.</span></p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "Utforska: Vilka faktorer kan påverka hur skadligt innehåll sprids online?",
+          "text": "<span style=\"color: #21b7cb\">Utforska: Vilka faktorer kan påverka hur skadligt innehåll sprids online?</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
       "howPlatformsHelpReduceOnlineAbuse": {
         "body": {
-          "text": "Plattformar fungerar som mellanhänder mellan människor, innehåll och samhällen. Deras design kan påverka räckvidden för skadligt innehåll, och deras inbyggda verktyg kan också hjälpa till att upptäcka, begränsa, rapportera och reagera på missbruk. Dessa åtgärder kan inkludera innehållsmoderering, minskad distribution av skadligt innehåll, uppmaningar före publicering, användarsäkerhetsinställningar, rapporteringsmekanismer och communitystandarder. Reglering formar också i allt högre grad plattformarnas ansvar. I de flesta länder i världen har dessa plattformar en förvaltarplikt (i Storbritannien, till exempel Online Safety Act och i Europa Digital Services Act) att bedöma risker, skydda användare från olagligt innehåll, tillhandahålla rapporteringsmekanismer och implementera proportionella säkerhetsåtgärder.",
+          "text": "<p></p><p></p><p></p><p></p><p><span style=\"color: #091324\">Plattformar fungerar som mellanhänder mellan människor, innehåll och samhällen. Deras design kan påverka räckvidden för skadligt innehåll, och deras inbyggda verktyg kan också hjälpa till att upptäcka, begränsa, rapportera och reagera på missbruk. Dessa åtgärder kan inkludera innehållsmoderering, minskad distribution av skadligt innehåll, uppmaningar före publicering, användarsäkerhetsinställningar, rapporteringsmekanismer och communitystandarder. Reglering formar också i allt högre grad plattformarnas ansvar. I de flesta länder i världen har dessa plattformar en förvaltarplikt (i Storbritannien, till exempel <a href=\"https://www.gov.uk/government/publications/online-safety-act-explainer/online-safety-act-explainer\" target=\"_blank\" rel=\"noopener\">Online Safety Act</a> och i Europa <a href=\"https://digital-strategy.ec.europa.eu/en/policies/digital-services-act\" target=\"_blank\" rel=\"noopener\">Digital Services Act</a>) att bedöma risker, skydda användare från olagligt innehåll, tillhandahålla rapporteringsmekanismer och implementera proportionella säkerhetsåtgärder.</span></p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "Hur plattformar bidrar till att minska online-övergrepp",
+          "text": "<span style=\"color: #21b7cb\">Hur plattformar bidrar till att minska online-övergrepp</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
       "howPlatformsShapeTheSpreadOf": {
         "body": {
-          "text": "Varje plattform fungerar olika. Designfunktioner påverkar hur innehåll sprids, vem som möter det och hur människor interagerar med det. Välj varje kort för att läsa mer.",
+          "text": "<p><span style=\"color: #091324\"><strong>Varje plattform fungerar olika. Designfunktioner påverkar hur innehåll sprids, vem som möter det och hur människor interagerar med det. Välj varje kort för att läsa mer.</strong></span></p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "Hur plattformar formar spridningen av online-övergrepp",
+          "text": "<span style=\"color: #21b7cb\">Hur plattformar formar spridningen av online-övergrepp</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
       "humanJudgementRemainsEssentialLanguageContext": {
         "body": {
-          "text": "Mänskligt omdöme är fortfarande avgörande. Språk, sammanhang, kulturella skillnader och föränderliga övergreppstaktiker kan göra det svårt att tolka skadligt innehåll korrekt. I takt med att AI används i allt större utsträckning utvecklas även regleringar för att hantera dessa risker och etablera skyddsåtgärder för dess användning i olika jurisdiktioner.",
+          "text": "<p><span style=\"color: #091324\"><strong>Mänskligt omdöme är fortfarande avgörande. Språk, sammanhang, kulturella skillnader och föränderliga övergreppstaktiker kan göra det svårt att tolka skadligt innehåll korrekt. I takt med att AI används i allt större utsträckning utvecklas även regleringar för att hantera dessa risker och etablera skyddsåtgärder för dess användning i olika jurisdiktioner.</strong></span></p>",
           "note": "Native text body on How Online Harm Spreads"
         }
       },
       "image": {
         "useThisImageToIllustrateYour": {
-          "text": "Använd den här bilden för att illustrera ditt ämne. Lägg till en beskrivning som kopplar det visuella till huvudidéerna i din lektion.",
+          "text": "<p>Använd den här bilden för att illustrera ditt ämne. Lägg till en beskrivning som kopplar det visuella till huvudidéerna i din lektion.</p>",
           "note": "Image body text on How Online Harm Spreads"
         }
       },
@@ -1710,37 +1710,37 @@
       },
       "lookingAhead": {
         "body": {
-          "text": "I takt med att AI-genererat innehåll blir allt vanligare blir transparens en viktig del av onlinesäkerheten. Nya metoder inkluderar att identifiera eller märka AI-genererat och manipulerat innehåll och att tillhandahålla information om dess ursprung. Reglering kommer att fortsätta att utvecklas i takt med tekniken.",
+          "text": "<p><span style=\"color: #091324\"><strong>I takt med att AI-genererat innehåll blir allt vanligare blir transparens en viktig del av onlinesäkerheten. Nya metoder inkluderar att identifiera eller märka AI-genererat och manipulerat innehåll och att tillhandahålla information om dess ursprung. Reglering kommer att fortsätta att utvecklas i takt med tekniken.</strong></span></p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "Framåtblickande",
+          "text": "<span style=\"color: #21b7cb\">Framåtblickande</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
       "onlineAbuseCanSpreadQuicklyAnd": {
         "body": {
-          "text": "Onlineövergrepp kan spridas snabbt och nå målgrupper långt bortom de personer som var inblandade i den ursprungliga interaktionen. Digitala plattformar, användarbeteende och algoritmiska system påverkar alla vilket innehåll människor ser och hur brett det sprids. Att förstå dessa mekanismer hjälper oss att inse hur skadligt innehåll kan förstärkas, hur onlinemiljöer kan förstärka fientlighet och var det finns möjligheter att avbryta dess spridning. Samma plattformar och tekniker som kan förstärka skadligt innehåll kan också stödja dess upptäckt, moderering och förebyggande.",
+          "text": "<p><span style=\"color: #091324\"><strong>Onlineövergrepp kan spridas snabbt och nå målgrupper långt bortom de personer som var inblandade i den ursprungliga interaktionen. Digitala plattformar, användarbeteende och algoritmiska system påverkar alla vilket innehåll människor ser och hur brett det sprids. Att förstå dessa mekanismer hjälper oss att inse hur skadligt innehåll kan förstärkas, hur onlinemiljöer kan förstärka fientlighet och var det finns möjligheter att avbryta dess spridning. Samma plattformar och tekniker som kan förstärka skadligt innehåll kan också stödja dess upptäckt, moderering och förebyggande.</strong></span></p><p></p><p></p>",
           "note": "Native text body on How Online Harm Spreads"
         }
       },
       "reportingOnlineAbuseOnSocialMedia": {
         "body": {
-          "text": "Rapportering kan hjälpa plattformar och organisationer att reagera på skadligt innehåll och kan stödja ytterligare åtgärder när en situation blir allvarligare. Läs igenom dessa steg och markera varje steg allt eftersom du lär dig.",
+          "text": "<p><strong>Rapportering kan hjälpa plattformar och organisationer att reagera på skadligt innehåll och kan stödja ytterligare åtgärder när en situation blir allvarligare. Läs igenom dessa steg och markera varje steg allt eftersom du lär dig.</strong></p><p></p><p></p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "Anmäla övergrepp online på sociala medier",
+          "text": "<span style=\"color: #21b7cb\">Anmäla övergrepp online på sociala medier</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
       "selectARegionToLearnMore": {
         "body": {
-          "text": "Dessa regionala exempel är valfritt kompletterande innehåll och påverkar inte dina kursframsteg.",
+          "text": "<p><span style=\"color: #091324\">Dessa regionala exempel är valfritt kompletterande innehåll och påverkar inte dina kursframsteg.</span></p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "Välj en region för att lära dig mer om onlineövergrepp.",
+          "text": "<span style=\"color: #21b7cb\">Välj en region för att lära dig mer om onlineövergrepp.</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       }
@@ -1756,21 +1756,21 @@
       },
       "risks": {
         "r1": {
-          "text": "Skapa och förstärka skada: Generativ AI kan producera eller manipulera text, bilder, ljud och video snabbt och i stor skala.",
+          "text": "<strong>Skapa och förstärka skada</strong>Generativ AI kan producera eller manipulera text, bilder, ljud och video snabbt och i stor skala.",
           "note": "HTML allowed"
         }
       },
       "benefits": {
         "b1": {
-          "text": "Upptäcka skadligt innehåll: AI kan hjälpa till att identifiera potentiellt skadligt innehåll och mönster i stora volymer onlineaktivitet.",
+          "text": "<strong>Upptäcka skadligt innehåll</strong>AI kan hjälpa till att identifiera potentiellt skadligt innehåll och mönster i stora volymer onlineaktivitet.",
           "note": "HTML allowed"
         },
         "b2": {
-          "text": "Stödjer moderering: Automatiserade system kan flagga innehåll för granskning och hjälpa moderatorer att prioritera potentiella risker.",
+          "text": "<strong>Stödjer moderering</strong>Automatiserade system kan flagga innehåll för granskning och hjälpa moderatorer att prioritera potentiella risker.",
           "note": "HTML allowed"
         },
         "b3": {
-          "text": "Stödja användare: AI-aktiverade verktyg kan hjälpa till att filtrera oönskat innehåll och koppla samman människor med rapporterings- och säkerhetsfunktioner.",
+          "text": "<strong>Stödja användare</strong>AI-aktiverade verktyg kan hjälpa till att filtrera oönskat innehåll och koppla samman människor med rapporterings- och säkerhetsfunktioner.",
           "note": "HTML allowed"
         }
       }
@@ -1814,11 +1814,11 @@
             "text": "Domare får upprepade varningsmeddelanden på en telefon"
           },
           "pathway": {
-            "text": "Vad det kan omfatta: Uppförande som utgör ett brott enligt tillämplig lag, vilket kan inkludera vissa hot, stalking, hatbrott eller icke-samtyckande delning av intima bilder. Vem vidtar åtgärder: Polismyndigheten kan utreda, och den relevanta åklagarmyndigheten avgör om ett ärende går vidare. Möjliga resultat: Straffrättsliga påföljder kan inkludera böter eller fängelse, beroende på brottet och jurisdiktion.",
+            "text": "<p><strong>Vad det kan omfatta: Uppförande som utgör ett brott enligt tillämplig lag, vilket kan inkludera vissa hot, stalking, hatbrott eller icke-samtyckande delning av intima bilder. Vem vidtar åtgärder: Polismyndigheten kan utreda, och den relevanta åklagarmyndigheten avgör om ett ärende går vidare. Möjliga resultat: Straffrättsliga påföljder kan inkludera böter eller fängelse, beroende på brottet och jurisdiktion.</strong></p><p></p><p></p>",
             "note": "HTML allowed"
           },
           "example": {
-            "text": "Efter ett beslut under en match börjar en domare få upprepade meddelanden på sina sociala medier från samma konto. Meddelandena blir alltmer hotfulla och inkluderar hänvisningar till att allvarligt skada domaren och deras familjemedlemmar. Beroende på tillämplig lag och omständigheter kan hot av detta slag leda till en anmälan till polisen och en brottsutredning.",
+            "text": "<p>Efter ett beslut under en match börjar en domare få upprepade meddelanden på sina sociala medier från samma konto. Meddelandena blir alltmer hotfulla och inkluderar hänvisningar till att allvarligt skada domaren och deras familjemedlemmar. Beroende på tillämplig lag och omständigheter kan hot av detta slag leda till en anmälan till polisen och en brottsutredning.</p><p></p>",
             "note": "HTML allowed"
           }
         },
@@ -1834,11 +1834,11 @@
             "text": "Idrottare står inför cirkulerande onlineanklagelser och förlorat sponsorskap"
           },
           "pathway": {
-            "text": "Vad det kan omfatta: Tvister som rör juridiska rättigheter mellan individer eller organisationer, vilket kan innefatta förtal, trakasserier, missbruk av privat information eller andra integritetsrelaterade anspråk. Vem vidtar åtgärder: Den person eller organisation som väcker anspråket inleder den rättsliga processen. Möjliga resultat: Beroende på tillämplig lag kan gottgörelser inkludera ersättning eller domstolsbeslut som kräver att ett visst beteende upphör.",
+            "text": "<p><strong>Vad det kan omfatta: Tvister som rör juridiska rättigheter mellan individer eller organisationer, vilket kan innefatta förtal, trakasserier, missbruk av privat information eller andra integritetsrelaterade anspråk. Vem vidtar åtgärder: Den person eller organisation som väcker anspråket inleder den rättsliga processen. Möjliga resultat: Beroende på tillämplig lag kan gottgörelser inkludera ersättning eller domstolsbeslut som kräver att ett visst beteende upphör.</strong></p><p></p><p></p>",
             "note": "HTML allowed"
           },
           "example": {
-            "text": "Falska anklagelser om en idrottare börjar cirkulera online och delas upprepade gånger. Påståendena skadar idrottarens professionella rykte, och en sponsor avslutar sin relation med dem efter att ha sett sådana anklagelser. Beroende på tillämplig lag och omständigheter kan idrottaren ha möjlighet att väcka civilrättsligt talan för att söka gottgörelse för den skada som orsakats, inklusive beslut om borttagning av befintligt falskt innehåll, förbudsförelägganden för att förhindra ytterligare publicering, monetära krav mot förövaren om identifierbar etc.",
+            "text": "<p>Falska anklagelser om en idrottare börjar cirkulera online och delas upprepade gånger. Påståendena skadar idrottarens professionella rykte, och en sponsor avslutar sin relation med dem efter att ha sett sådana anklagelser. Beroende på tillämplig lag och omständigheter kan idrottaren ha möjlighet att väcka civilrättsligt talan för att söka gottgörelse för den skada som orsakats, inklusive beslut om borttagning av befintligt falskt innehåll, förbudsförelägganden för att förhindra ytterligare publicering, monetära krav mot förövaren om identifierbar etc.</p><p></p>",
             "note": "HTML allowed"
           }
         },
@@ -1854,11 +1854,11 @@
             "text": "Idrottare oroad över personliga kontaktuppgifter som exponerats online"
           },
           "pathway": {
-            "text": "Vad det kan omfatta: Rättsliga skyldigheter som upprätthålls av tillsynsmyndigheter, inklusive regler som gäller för onlinetjänster eller hantering av personuppgifter. Vem vidtar åtgärder: Relevanta tillsynsmyndigheter övervakar och upprätthåller dessa krav. Individer och organisationer kan också ha möjlighet att lämna in klagomål. Möjliga resultat: Tillsynsmyndigheter kan utreda, kräva ändringar eller ålägga påföljder där tillämplig lag ger dem dessa befogenheter.",
+            "text": "<p><strong>Vad det kan omfatta: Rättsliga skyldigheter som upprätthålls av tillsynsmyndigheter, inklusive regler som gäller för onlinetjänster eller hantering av personuppgifter. Vem vidtar åtgärder: Relevanta tillsynsmyndigheter övervakar och upprätthåller dessa krav. Individer och organisationer kan också ha möjlighet att lämna in klagomål. Möjliga resultat: Tillsynsmyndigheter kan utreda, kräva ändringar eller ålägga påföljder där tillämplig lag ger dem dessa befogenheter.</strong></p><p></p><p></p>",
             "note": "HTML allowed"
           },
           "example": {
-            "text": "En idrottare upptäcker att deras personliga kontaktuppgifter har publicerats online utan deras tillstånd. Informationen fortsätter att cirkulera, vilket skapar oro kring deras integritet och säkerhet. Beroende på gällande dataskyddsregler kan idrottaren eller deras organisation eventuellt ta upp ärendet med relevant tillsynsmyndighet.",
+            "text": "<p>En idrottare upptäcker att deras personliga kontaktuppgifter har publicerats online utan deras tillstånd. Informationen fortsätter att cirkulera, vilket skapar oro kring deras integritet och säkerhet. Beroende på gällande dataskyddsregler kan idrottaren eller deras organisation eventuellt ta upp ärendet med relevant tillsynsmyndighet.</p><p></p>",
             "note": "HTML allowed"
           }
         }
@@ -1871,7 +1871,7 @@
             "text": "Jurisdiktion"
           },
           "html": {
-            "text": "Onlineövergrepp kan omedelbart överskrida nationsgränser. Den utsatta personen, den ansvarige och plattformen kan alla befinna sig i olika jurisdiktioner, med olika lagar och verkställighetsprocesser.",
+            "text": "<p>Onlineövergrepp kan omedelbart överskrida nationsgränser. Den utsatta personen, den ansvarige och plattformen kan alla befinna sig i olika jurisdiktioner, med olika lagar och verkställighetsprocesser.</p>",
             "note": "HTML allowed"
           }
         },
@@ -1880,7 +1880,7 @@
             "text": "Identifiera vem som är ansvarig"
           },
           "html": {
-            "text": "Konton kan använda pseudonymer, falska identiteter eller begränsad identifierande information, vilket gör det svårt att avgöra vem som är ansvarig för ett visst beteende. Att identifiera en kontoinnehavare kan kräva information som innehas av plattformar och, i vissa fall, formella rättsliga processer.",
+            "text": "<p>Konton kan använda pseudonymer, falska identiteter eller begränsad identifierande information, vilket gör det svårt att avgöra vem som är ansvarig för ett visst beteende. Att identifiera en kontoinnehavare kan kräva information som innehas av plattformar och, i vissa fall, formella rättsliga processer.</p>",
             "note": "HTML allowed"
           }
         },
@@ -1889,7 +1889,7 @@
             "text": "Tillämpning"
           },
           "html": {
-            "text": "Volymen och hastigheten på onlineaktivitet kan försvåra utredning och verkställighet. Tillgängliga resurser, specialistkompetens, beviskrav och prioriteringar för verkställighet kan alla påverka vad som händer efter att en incident har rapporterats.",
+            "text": "<p>Volymen och hastigheten på onlineaktivitet kan försvåra utredning och verkställighet. Tillgängliga resurser, specialistkompetens, beviskrav och prioriteringar för verkställighet kan alla påverka vad som händer efter att en incident har rapporterats.</p>",
             "note": "HTML allowed"
           }
         },
@@ -1898,7 +1898,7 @@
             "text": "Rättsliga tröskelvärden"
           },
           "html": {
-            "text": "Varje skadligt eller kränkande beteende utgör inte automatiskt ett lagbrott eller ger upphov till ett rättsligt anspråk. Tillämplig rättslig definition, bevis, sammanhang och jurisdiktion spelar alla roll. Detta innebär att rättsliga åtgärder är en del av svaret på onlineövergrepp. Onlineplattformarnas policyer och idrottsorganisationernas egna standarder och policyer kan också bidra till att hantera vissa beteenden som kanske inte har tillräckliga skäl för rättsliga åtgärder.",
+            "text": "<p>Varje skadligt eller kränkande beteende utgör inte automatiskt ett lagbrott eller ger upphov till ett rättsligt anspråk. Tillämplig rättslig definition, bevis, sammanhang och jurisdiktion spelar alla roll. Detta innebär att rättsliga åtgärder är en del av svaret på onlineövergrepp. Onlineplattformarnas policyer och idrottsorganisationernas egna standarder och policyer kan också bidra till att hantera vissa beteenden som kanske inte har tillräckliga skäl för rättsliga åtgärder.</p><p></p>",
             "note": "HTML allowed"
           }
         }
@@ -1922,7 +1922,7 @@
             "text": "Storbritannien"
           },
           "html": {
-            "text": "I Storbritannien finns flera lagar som behandlar skadligt beteende online. Online Safety Act 2023 inför brott som rör hotfulla kommunikationer, cyberflashing och delning eller hot om att dela intima bilder utan samtycke. Protection from Harassment Act 1997 omfattar även trakasserier och stalking, inklusive beteende som involverar digital kommunikation. Online Safety Act ålägger dessutom reglerade plattformar skyldigheter att hantera olagligt innehåll och skydda barn från skadligt material. De tillämpliga skydden beror på beteendet och jurisdiktionen. Källa: Legislation.gov.uk",
+            "text": "<p>I Storbritannien finns flera lagar som behandlar skadligt beteende online. <strong>Online Safety Act 2023</strong> inför brott som rör hotfulla kommunikationer, cyberflashing och delning eller hot om att dela intima bilder utan samtycke. <strong>Protection from Harassment Act 1997</strong></p><p><em> omfattar även trakasserier och stalking, inklusive beteende som involverar digital kommunikation. Online Safety Act ålägger dessutom reglerade plattformar skyldigheter att hantera olagligt innehåll och skydda barn från skadligt material. De tillämpliga skydden beror på beteendet och jurisdiktionen. Källa: <a href=\"https://www.legislation.gov.uk/\" target=\"_blank\" rel=\"noopener\">Legislation.gov.uk</a></em></p>",
             "note": "HTML allowed"
           }
         },
@@ -1931,7 +1931,7 @@
             "text": "Förenta staterna"
           },
           "html": {
-            "text": "I USA hanteras online-övergrepp genom en kombination av federala och statliga lagar. Federal lagstiftning, inklusive 18 U.S.C. 2261A, behandlar vissa former av cyberstalking som involverar elektronisk kommunikation. Andra federala bestämmelser täcker hot och specifika former av online-trakasserier, medan statliga lagar kan ge ytterligare skydd mot cybermobbning, trakasserier, stalking och icke-samtyckande delning av intima bilder. Juridiska definitioner, verkställighet och tillgängliga åtgärder varierar beroende på jurisdiktion och omständigheterna i varje enskilt fall. Källa: U.S. Code",
+            "text": "<p>I USA hanteras online-övergrepp genom en kombination av federala och statliga lagar. Federal lagstiftning, inklusive <strong>18 U.S.C. 2261A</strong></p><p><em>, behandlar vissa former av cyberstalking som involverar elektronisk kommunikation. Andra federala bestämmelser täcker hot och specifika former av online-trakasserier, medan statliga lagar kan ge ytterligare skydd mot cybermobbning, trakasserier, stalking och icke-samtyckande delning av intima bilder. Juridiska definitioner, verkställighet och tillgängliga åtgärder varierar beroende på jurisdiktion och omständigheterna i varje enskilt fall. Källa: <a href=\"https://uscode.house.gov/\" target=\"_blank\" rel=\"noopener\">U.S. Code</a></em></p>",
             "note": "HTML allowed"
           }
         },
@@ -1940,7 +1940,7 @@
             "text": "Tjeckien"
           },
           "html": {
-            "text": "Tjeckisk lag bygger inte på ett enda brott, \"onlinemissbruk\". Befintlig lagstiftning kan tillämpas på specifika skadliga beteenden som utförs online. Till exempel behandlar paragraf 354 i den tjeckiska strafflagen (lag nr 40/2009 Coll.) stalking, inklusive beteenden som utförs via elektronisk kommunikation. Tjeckisk polis vägledning om stalking förklarar denna bestämmelse och identifierar upprepade meddelanden på sociala medier, hot, missbruk av personuppgifter och anseendeskadande attacker bland beteenden som kan förekomma i stalkingfall. Den tjeckiska civillagen (lag nr 89/2012 Coll.) skyddar också personlighetsrättigheter, inklusive en persons värdighet, heder och integritet. En person som drabbats av olaglig inblandning kan begära att inblandningen upphör och att dess konsekvenser åtgärdas. Källa: e-Sbírka",
+            "text": "<p><strong>Tjeckisk lag bygger inte på ett enda brott, \"onlinemissbruk\". Befintlig lagstiftning kan tillämpas på specifika skadliga beteenden som utförs online. Till exempel behandlar paragraf 354 i den tjeckiska strafflagen (lag nr 40/2009 Coll.) stalking, inklusive beteenden som utförs via elektronisk kommunikation. Tjeckisk polis vägledning om stalking förklarar denna bestämmelse och identifierar upprepade meddelanden på sociala medier, hot, missbruk av personuppgifter och anseendeskadande attacker bland beteenden som kan förekomma i stalkingfall. Den tjeckiska civillagen (lag nr 89/2012 Coll.) skyddar också personlighetsrättigheter, inklusive en persons värdighet, heder och integritet. En person som drabbats av olaglig inblandning kan begära att inblandningen upphör och att dess konsekvenser åtgärdas. Källa: e-Sbírka</strong><a href=\"https://policie.gov.cz/stalking---nebezpecne-pronasledovani--354-trestniho-zakoniku\" target=\"_blank\" rel=\"noopener\"></a></p><p></p><p><em><a href=\"https://e-sbirka.gov.cz\" target=\"_blank\" rel=\"noopener\"></a></em></p>",
             "note": "HTML allowed"
           }
         },
@@ -1949,7 +1949,7 @@
             "text": "Spanien"
           },
           "html": {
-            "text": "Spaniens strafflag (organisk lag 10/1995) behandlar flera former av online-övergrepp. Artikel 172 ter omfattar stalking, inklusive upprepad oönskad kontakt, missbruk av personuppgifter och skapandet av falska profiler på sociala medier med hjälp av någons bild utan samtycke när detta orsakar trakasserier eller förödmjukelse. Artikel 510 behandlar hatpropaganda online, med ökade straff för vissa brott när digitala plattformar gör innehållet tillgängligt för en stor publik. Offer kan anmäla misstänkta brott till den spanska nationella polisen eller civilgardet (Guardia Civil). Ytterligare stöd finns tillgängligt via INCIBE:s kostnadsfria, konfidentiella hjälplinje 017, medan den spanska dataskyddsmyndigheten (AEPD) tillhandahåller en prioriterad kanal för att begära omedelbar borttagning av olagligt delat sexuellt eller våldsamt innehåll. Källa: Gobierno de España",
+            "text": "<p><a href=\"https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444\" target=\"_blank\" rel=\"noopener\"><strong>Spaniens strafflag (organisk lag 10/1995) behandlar flera former av online-övergrepp. Artikel 172 ter omfattar stalking, inklusive upprepad oönskad kontakt, missbruk av personuppgifter och skapandet av falska profiler på sociala medier med hjälp av någons bild utan samtycke när detta orsakar trakasserier eller förödmjukelse. Artikel 510 behandlar hatpropaganda online, med ökade straff för vissa brott när digitala plattformar gör innehållet tillgängligt för en stor publik. Offer kan anmäla misstänkta brott till den spanska nationella polisen eller civilgardet (Guardia Civil). Ytterligare stöd finns tillgängligt via INCIBE:s kostnadsfria, konfidentiella hjälplinje 017, medan den spanska dataskyddsmyndigheten (AEPD) tillhandahåller en prioriterad kanal för att begära omedelbar borttagning av olagligt delat sexuellt eller våldsamt innehåll. Källa: Gobierno de España</strong></a></p><p></p><p><a href=\"https://www.policia.es/\" target=\"_blank\" rel=\"noopener\"></a><a href=\"https://www.incibe.es/linea-de-ayuda-en-ciberseguridad\" target=\"_blank\" rel=\"noopener\"></a><a href=\"https://www.aepd.es/canalprioritario\" target=\"_blank\" rel=\"noopener\"></a></p><p><em><a href=\"https://www.mpr.gob.es/Paginas/index.aspx\" target=\"_blank\" rel=\"noopener\"></a></em></p>",
             "note": "HTML allowed"
           }
         },
@@ -1958,7 +1958,7 @@
             "text": "Sverige"
           },
           "html": {
-            "text": "I Sverige är hat eller övergrepp på nätet inte en separat juridisk kategori. Polisen förklarar att samma strafflagar i allmänhet gäller för beteende online som offline, med relevanta brott som potentiellt inkluderar olaga hot, trakasserier, förtal, förolämpning, olaga intrång i privatlivet, sexuella trakasserier, olaga identitetsmissbruk (t.ex. falska profiler i någon annans namn) och hets mot en befolkningsgrupp. Om ett brott är motiverat av till exempel offrets etnicitet, religion eller sexuella läggning är detta en försvårande omständighet vid straffmätning. Svensk lag erkänner också olaga förföljelse, som kan uppstå vid upprepade brott mot samma person. Polisens vägledning råder specifikt personer som upplever stalking att bevara e-postmeddelanden, sms, samtalsregister och annan digital kommunikation som potentiella bevis. Källor: polisen.se; Riksdagen",
+            "text": "<p>I Sverige är hat eller övergrepp på nätet inte en separat juridisk kategori. Polisen förklarar att samma strafflagar i allmänhet gäller för beteende online som offline, med relevanta brott som potentiellt inkluderar olaga hot, trakasserier, förtal, förolämpning, olaga intrång i privatlivet, sexuella trakasserier, olaga identitetsmissbruk (t.ex. falska profiler i någon annans namn) och hets mot en befolkningsgrupp. Om ett brott är motiverat av till exempel offrets etnicitet, religion eller sexuella läggning är detta en försvårande omständighet vid straffmätning. Svensk lag erkänner också olaga förföljelse, som kan uppstå vid upprepade brott mot samma person. Polisens vägledning råder specifikt personer som upplever stalking att bevara e-postmeddelanden, sms, samtalsregister och annan digital kommunikation som potentiella bevis. Källor: polisen.se; Riksdagen</p><p></p><p><em><a href=\"https://polisen.se\" target=\"_blank\" rel=\"noopener\"></a><a href=\"https://www.riksdagen.se/sv/dokument-och-lagar/\" target=\"_blank\" rel=\"noopener\"></a></em></p>",
             "note": "HTML allowed"
           }
         },
@@ -1967,7 +1967,7 @@
             "text": "Slovenien"
           },
           "html": {
-            "text": "Slovensk lag behandlar online-övergrepp genom befintlig lagstiftning som täcker specifika skadliga beteenden. Ett särskilt relevant exempel är artikel 134a i den slovenska strafflagen (KZ-1), som definierar stalking som att inkludera upprepade försök att upprätta oönskad kontakt genom elektronisk kommunikation, där beteendet orsakar rädsla eller en känsla av hot. Slovenska myndigheter har också erkänt onlinedimensionen av stalking i vägledning om tillämpningen av denna bestämmelse. Slovensk polisvägledning erkänner onlinevåld som inkluderar beteenden som hot, trakasserier, spridning av falskt eller förolämpande innehåll, missbruk av fotografier, identitetsstöld och skapande av skadliga falska profiler. Huruvida ett visst beteende utgör ett brott beror på omständigheterna i det enskilda fallet. Källa: GOV.SI",
+            "text": "<p><strong>Slovensk lag behandlar online-övergrepp genom befintlig lagstiftning som täcker specifika skadliga beteenden. Ett särskilt relevant exempel är artikel 134a i den slovenska strafflagen (KZ-1), som definierar stalking som att inkludera upprepade försök att upprätta oönskad kontakt genom elektronisk kommunikation, där beteendet orsakar rädsla eller en känsla av hot. Slovenska myndigheter har också erkänt onlinedimensionen av stalking i vägledning om tillämpningen av denna bestämmelse. Slovensk polisvägledning erkänner onlinevåld som inkluderar beteenden som hot, trakasserier, spridning av falskt eller förolämpande innehåll, missbruk av fotografier, identitetsstöld och skapande av skadliga falska profiler. Huruvida ett visst beteende utgör ett brott beror på omständigheterna i det enskilda fallet. Källa: GOV.SI</strong></p><p></p><p><em><a href=\"https://www.gov.si/\" target=\"_blank\" rel=\"noopener\"></a></em></p>",
             "note": "HTML allowed"
           }
         }
@@ -1994,7 +1994,7 @@
             }
           },
           "ok": {
-            "text": "Rätta!",
+            "text": "<strong>Rätta!</strong>",
             "note": "HTML allowed"
           }
         },
@@ -2017,7 +2017,7 @@
             }
           },
           "ok": {
-            "text": "Rätta!",
+            "text": "<strong>Rätta!</strong>",
             "note": "HTML allowed"
           }
         },
@@ -2040,7 +2040,7 @@
             }
           },
           "ok": {
-            "text": "Rätta!",
+            "text": "<strong>Rätta!</strong>",
             "note": "HTML allowed"
           }
         },
@@ -2063,7 +2063,7 @@
             }
           },
           "ok": {
-            "text": "Rätta!",
+            "text": "<strong>Rätta!</strong>",
             "note": "HTML allowed"
           }
         }
@@ -2075,27 +2075,27 @@
       },
       "items": {
         "i1": {
-          "text": "Onlineövergrepp kan påverka olika rättsområden. Straffrättsliga, civilrättsliga och administrativa vägar involverar olika processer, aktörer och möjliga utfall.",
+          "text": "<strong>Onlineövergrepp kan påverka olika rättsområden. Straffrättsliga, civilrättsliga och administrativa vägar involverar olika processer, aktörer och möjliga utfall.</strong>",
           "note": "HTML allowed"
         },
         "i2": {
-          "text": "Mer än en väg kan vara tillämplig. Samma incident kan ge upphov till brottmåls-, civilrättsliga eller regulatoriska frågor beroende på omständigheterna.",
+          "text": "<strong>Mer än en väg kan vara tillämplig. Samma incident kan ge upphov till brottmåls-, civilrättsliga eller regulatoriska frågor beroende på omständigheterna.</strong>",
           "note": "HTML allowed"
         },
         "i3": {
-          "text": "Rättsliga svar beror på sammanhang och jurisdiktion. Tillämplig lag, tillgänglig bevis och var de inblandade personerna och tjänsterna befinner sig kan påverka vilka åtgärder som är möjliga.",
+          "text": "<strong>Rättsliga svar beror på sammanhang och jurisdiktion. Tillämplig lag, tillgänglig bevis och var de inblandade personerna och tjänsterna befinner sig kan påverka vilka åtgärder som är möjliga.</strong>",
           "note": "HTML allowed"
         },
         "i4": {
-          "text": "Lagliga vägar har praktiska begränsningar. Gränsöverskridande verksamhet, identifiering av ansvariga individer, verkställighetskapacitet och rättsliga trösklar kan försvåra åtgärder.",
+          "text": "<strong>Lagliga vägar har praktiska begränsningar. Gränsöverskridande verksamhet, identifiering av ansvariga individer, verkställighetskapacitet och rättsliga trösklar kan försvåra åtgärder.</strong>",
           "note": "HTML allowed"
         },
         "i5": {
-          "text": "Ansvaret sträcker sig bortom lagen. Idrottsorganisationer kan fastställa policyer, rapporteringsrutiner, skyddsstöd och konsekvenser för skadligt beteende.",
+          "text": "<strong>Ansvaret sträcker sig bortom lagen. Idrottsorganisationer kan fastställa policyer, rapporteringsrutiner, skyddsstöd och konsekvenser för skadligt beteende.</strong>",
           "note": "HTML allowed"
         },
         "i6": {
-          "text": "Sportsmannaanda sträcker sig även till digitala utrymmen. Respekt, rent spel och ansvarsfullt uppförande är fortfarande relevant när människor deltar i sport online.",
+          "text": "<strong>Sportsmannaanda sträcker sig även till digitala utrymmen. Respekt, rent spel och ansvarsfullt uppförande är fortfarande relevant när människor deltar i sport online.</strong>",
           "note": "HTML allowed"
         }
       }
@@ -2112,28 +2112,28 @@
       "callout": {
         "pleaseNote": {
           "body": {
-            "text": "Denna modul ger en allmän översikt över juridiska åtgärder vid onlineövergrepp och utgör inte juridisk rådgivning. Lagar skiljer sig åt mellan olika jurisdiktioner och kan ändras över tid. För råd om en specifik situation, kontakta en lämpligt kvalificerad yrkesperson.",
+            "text": "<p><span style=\"color: #091324\">Denna modul ger en allmän översikt över juridiska åtgärder vid onlineövergrepp och utgör inte juridisk rådgivning. Lagar skiljer sig åt mellan olika jurisdiktioner och kan ändras över tid. För råd om en specifik situation, kontakta en lämpligt kvalificerad yrkesperson.</span></p>",
             "note": "Callout body on Knowing Your Rights and Responsibilities"
           },
           "title": {
-            "text": "Observera",
+            "text": "<span style=\"color: #1c3564\">Observera</span>",
             "note": "Callout title on Knowing Your Rights and Responsibilities"
           }
         }
       },
       "howCanLegalResponsesDifferBy": {
         "body": {
-          "text": "Det rättsliga svaret på onlineövergrepp beror på var en incident inträffar och vilka lagar som gäller. Välj en region för att se ett exempel på hur befintliga lagar kan tillämpas på onlinebeteende.",
+          "text": "<p><span style=\"color: #091324\">Det rättsliga svaret på onlineövergrepp beror på var en incident inträffar och vilka lagar som gäller. Välj en region för att se ett exempel på hur befintliga lagar kan tillämpas på onlinebeteende.</span></p>",
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "heading": {
-          "text": "Hur kan rättsliga svar skilja sig åt mellan länder?",
+          "text": "<span style=\"color: #21b7cb\">Hur kan rättsliga svar skilja sig åt mellan länder?</span>",
           "note": "Native heading on Knowing Your Rights and Responsibilities"
         }
       },
       "internationalFederationsNationalGoverningBodiesClubs": {
         "body": {
-          "text": "Internationella förbund, nationella styrande organ, klubbar, ligor och andra idrottsorganisationer kan ha olika ansvarsområden och resurser. Tydliga policyer och konsekventa processer hjälper till att omsätta gemensamma standarder i handling på olika nivåer inom idrott.",
+          "text": "<p><span style=\"color: #091324\"><strong>Internationella förbund, nationella styrande organ, klubbar, ligor och andra idrottsorganisationer kan ha olika ansvarsområden och resurser. Tydliga policyer och konsekventa processer hjälper till att omsätta gemensamma standarder i handling på olika nivåer inom idrott.</strong></span></p>",
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         }
       },
@@ -2143,57 +2143,57 @@
       },
       "responsibilitiesBeyondTheLaw": {
         "body": {
-          "text": "Lagen fastställer rättsliga skyldigheter. Idrotten fastställer också standarder för deltagande och uppförande. Uppförandekoder, skyddsrutiner, säkerhetspolicyer, disciplinära processer och samhällsnormer kan hjälpa idrottsorganisationer att reagera på skadligt beteende även när en laglig väg inte är tillgänglig eller olämplig.",
+          "text": "<p><span style=\"color: #091324\"><strong>Lagen fastställer rättsliga skyldigheter. Idrotten fastställer också standarder för deltagande och uppförande. Uppförandekoder, skyddsrutiner, säkerhetspolicyer, disciplinära processer och samhällsnormer kan hjälpa idrottsorganisationer att reagera på skadligt beteende även när en laglig väg inte är tillgänglig eller olämplig.</strong></span></p><p></p><p></p>",
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "heading": {
-          "text": "Ansvar utöver lagen",
+          "text": "<span style=\"color: #21b7cb\">Ansvar utöver lagen</span>",
           "note": "Native heading on Knowing Your Rights and Responsibilities"
         }
       },
       "selectTheBestOptionForEach": {
         "body": {
-          "text": "Välj det bästa alternativet för varje fråga. Du måste svara korrekt på varje fråga innan du fortsätter. Du kan försöka igen så många gånger du vill.",
+          "text": "<p><span style=\"color: #091324\">Välj det bästa alternativet för varje fråga. Du måste svara korrekt på varje fråga innan du fortsätter. Du kan försöka igen så många gånger du vill.</span></p>",
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         }
       },
       "threeLegalPathways": {
         "body": {
-          "text": "Onlineövergrepp kan omfattas av straffrättsliga, civilrättsliga eller administrativa lagar och förordningar. Varje väg involverar olika aktörer, processer och potentiella utfall, och samma incident kan involvera mer än en. Dessa vägar utesluter inte varandra. Samma incident kan ge upphov till olika rättsliga frågor beroende på vad som inträffade och vilka lagar som gäller.",
+          "text": "<p><strong>Onlineövergrepp kan omfattas av straffrättsliga, civilrättsliga eller administrativa lagar och förordningar. Varje väg involverar olika aktörer, processer och potentiella utfall, och samma incident kan involvera mer än en. Dessa vägar utesluter inte varandra. Samma incident kan ge upphov till olika rättsliga frågor beroende på vad som inträffade och vilka lagar som gäller.</strong></p><p></p><p></p><p></p>",
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "heading": {
-          "text": "Tre juridiska vägar",
+          "text": "<span style=\"color: #21b7cb\">Tre juridiska vägar</span>",
           "note": "Native heading on Knowing Your Rights and Responsibilities"
         }
       },
       "whenOnlineAbuseOccursImportantQuestions": {
         "body": {
-          "text": "När övergrepp online inträffar kan viktiga frågor uppstå: Finns det en lag som kan hjälpa? Vem kan vidta åtgärder? Vilka andra skyddsåtgärder finns tillgängliga? Svaren beror på beteendet, var det inträffar och vilka lagar som kan hjälpa. Att förstå de viktigaste rättsliga vägarna kan hjälpa dig att identifiera var rättsligt ansvarsskyldighet kan vara möjlig och när andra former av åtgärder är viktiga. Inom idrott fungerar rättsligt skydd tillsammans med organisationspolicyer, uppförandekoder, skyddsrutiner och standarder för sportsmannaanda. Tillsammans bidrar dessa mekanismer till att skapa förväntningar på säkrare deltagande online.",
+          "text": "<p><span style=\"color: #091324\"><strong>När övergrepp online inträffar kan viktiga frågor uppstå: Finns det en lag som kan hjälpa? Vem kan vidta åtgärder? Vilka andra skyddsåtgärder finns tillgängliga? Svaren beror på beteendet, var det inträffar och vilka lagar som kan hjälpa. Att förstå de viktigaste rättsliga vägarna kan hjälpa dig att identifiera var rättsligt ansvarsskyldighet kan vara möjlig och när andra former av åtgärder är viktiga. Inom idrott fungerar rättsligt skydd tillsammans med organisationspolicyer, uppförandekoder, skyddsrutiner och standarder för sportsmannaanda. Tillsammans bidrar dessa mekanismer till att skapa förväntningar på säkrare deltagande online.</strong></span></p><p></p><p></p><p></p><p></p>",
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "heading": {
-          "text": "När övergrepp online inträffar kan viktiga frågor uppstå: Finns det en lag som kan hjälpa? Vem kan vidta åtgärder? Vilka andra skyddsåtgärder finns tillgängliga? Svaren beror på beteendet, var det inträffar och vilka lagar som kan hjälpa. Att förstå de viktigaste rättsliga vägarna kan hjälpa dig att identifiera var rättsligt ansvarsskyldighet kan vara möjlig och när andra former av åtgärder är viktiga. Inom idrott fungerar rättsligt skydd tillsammans med organisationspolicyer, uppförandekoder, skyddsrutiner och standarder för sportsmannaanda. Tillsammans bidrar dessa mekanismer till att skapa förväntningar på säkrare deltagande online.",
+          "text": "<span style=\"color: #1c3564; font-size: 14px\"><strong>När övergrepp online inträffar kan viktiga frågor uppstå: Finns det en lag som kan hjälpa? Vem kan vidta åtgärder? Vilka andra skyddsåtgärder finns tillgängliga? Svaren beror på beteendet, var det inträffar och vilka lagar som kan hjälpa. Att förstå de viktigaste rättsliga vägarna kan hjälpa dig att identifiera var rättsligt ansvarsskyldighet kan vara möjlig och när andra former av åtgärder är viktiga. Inom idrott fungerar rättsligt skydd tillsammans med organisationspolicyer, uppförandekoder, skyddsrutiner och standarder för sportsmannaanda. Tillsammans bidrar dessa mekanismer till att skapa förväntningar på säkrare deltagande online.</strong></span>",
           "note": "Native heading on Knowing Your Rights and Responsibilities"
         }
       },
       "whereLegalResponsesHaveLimits": {
         "body": {
-          "text": "Rättsliga vägar kan ge viktiga former av ansvarsskyldighet, men onlinemiljöer skapar praktiska utmaningar för utredning och verkställighet.",
+          "text": "<p><span style=\"color: #091324\">Rättsliga vägar kan ge viktiga former av ansvarsskyldighet, men onlinemiljöer skapar praktiska utmaningar för utredning och verkställighet.</span></p>",
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "heading": {
-          "text": "Där juridiska svar har begränsningar",
+          "text": "<span style=\"color: #21b7cb\">Där juridiska svar har begränsningar</span>",
           "note": "Native heading on Knowing Your Rights and Responsibilities"
         }
       },
       "whoCanDoWhat": {
         "col1": {
-          "text": "Idrottsorganisationer bör: Definiera onlineövergrepp och förväntade uppförandekoder online i organisationens policyer. Upprätta tydliga och tillgängliga rapporteringsrutiner. Tillämpa organisatoriska konsekvenser när uppförandekoder bryts. Tillhandahålla utbildning i hur man känner igen, förebygger och reagerar på onlineövergrepp. Ge tillgång till välfärds- och skyddsstöd. Samarbeta med plattformar, tillsynsmyndigheter eller relevanta myndigheter där så är lämpligt.",
+          "text": "<h4 class=\"course-block-heading\"><span style=\"color: #091324\">Idrottsorganisationer bör: Definiera onlineövergrepp och förväntade uppförandekoder online i organisationens policyer. Upprätta tydliga och tillgängliga rapporteringsrutiner. Tillämpa organisatoriska konsekvenser när uppförandekoder bryts. Tillhandahålla utbildning i hur man känner igen, förebygger och reagerar på onlineövergrepp. Ge tillgång till välfärds- och skyddsstöd. Samarbeta med plattformar, tillsynsmyndigheter eller relevanta myndigheter där så är lämpligt.</span></h4><ul style=\"margin-left: 10px; padding-left: 1.25em;\"><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li></ul>",
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "col2": {
-          "text": "Alla inom idrott bör: Följa de uppförandekoder och policyer som är kopplade till deras roll Använda lämpliga kanaler för att rapportera skadligt beteende Undvika att dela eller förstärka kränkande innehåll Stödja personer som är måltavlor Inse att standarder för respekt, fair play och sportsmannaanda även gäller i digitala utrymmen",
+          "text": "<h4 class=\"course-block-heading\"><span style=\"color: #091324\">Alla inom idrott bör: Följa de uppförandekoder och policyer som är kopplade till deras roll Använda lämpliga kanaler för att rapportera skadligt beteende Undvika att dela eller förstärka kränkande innehåll Stödja personer som är måltavlor Inse att standarder för respekt, fair play och sportsmannaanda även gäller i digitala utrymmen</span></h4><ul style=\"margin-left: 10px; padding-left: 1.25em;\"><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li></ul>",
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "heading": {
@@ -2287,7 +2287,7 @@
             }
           },
           "intro": {
-            "text": "Handling börjar med människor. Alla inom idrott kan bidra, oavsett om de upplever övergrepp online, bevittnar dem eller stödjer någon som har blivit utsatt. Utforska sätt på vilka du kan: Skydda dig själv Stödja andra Agera säkert",
+            "text": "<p><strong>Handling börjar med människor. Alla inom idrott kan bidra, oavsett om de upplever övergrepp online, bevittnar dem eller stödjer någon som har blivit utsatt. Utforska sätt på vilka du kan: Skydda dig själv Stödja andra Agera säkert</strong></p><p></p><p></p><ul><li></li><li></li><li></li></ul>",
             "note": "HTML allowed"
           }
         },
@@ -2319,7 +2319,7 @@
             }
           },
           "intro": {
-            "text": "Organisationer kan tillhandahålla det ramverk, de resurser och det samordnade stöd som behövs för att skydda människor och effektivt reagera på onlineövergrepp. Dessa inkluderar idrottsorganisationer och förbund, klubbar och föreningar, medieorganisationer, onlineplattformar, intresseorganisationer och andra institutioner inom idrottsgemenskapen. Utforska hur organisationer kan förbereda sig för, förebygga och reagera på onlineövergrepp: Bygga ramverk Stärka skyddet Samordna åtgärder",
+            "text": "<p>Organisationer kan tillhandahålla det ramverk, de resurser och det samordnade stöd som behövs för att skydda människor och effektivt reagera på onlineövergrepp. Dessa inkluderar idrottsorganisationer och förbund, klubbar och föreningar, medieorganisationer, onlineplattformar, intresseorganisationer och andra institutioner inom idrottsgemenskapen. Utforska hur organisationer kan förbereda sig för, förebygga och reagera på onlineövergrepp: Bygga ramverk Stärka skyddet Samordna åtgärder</p><p></p><ul><li></li><li></li><li></li></ul>",
             "note": "HTML allowed"
           },
           "safeguardLead": {
@@ -2407,7 +2407,7 @@
             "text": ""
           },
           "orpBody": {
-            "text": "UAOA:s plattform för organisationsberedskap (ORP) stöder dessa insatser genom att hjälpa idrottsorganisationer att bedöma sin beredskap, identifiera förbättringsområden och stärka sina metoder för att förebygga och hantera onlineövergrepp.",
+            "text": "<strong>UAOA:s plattform för organisationsberedskap (ORP) stöder dessa insatser genom att hjälpa idrottsorganisationer att bedöma sin beredskap, identifiera förbättringsområden och stärka sina metoder för att förebygga och hantera onlineövergrepp.</strong>",
             "note": "HTML allowed"
           }
         },
@@ -2439,7 +2439,7 @@
             }
           },
           "intro": {
-            "text": "Onlineövergrepp formas ofta av faktorer utanför individers och organisationers omedelbara kontroll. Människors personliga sammanhang, den teknik de använder, deras tillgång till utbildning och de allmänna kulturella normerna kring dem kan alla påverka huruvida skadligt beteende uppmuntras, normaliseras, utmanas eller förebyggs. Lär dig hur bredare sociala sammanhang kan påverka onlineövergrepp och bidra till att skapa säkrare digitala utrymmen inom idrotten: Främja utbildningGenerera bevisForma normer",
+            "text": "<p>Onlineövergrepp formas ofta av faktorer utanför individers och organisationers omedelbara kontroll. Människors personliga sammanhang, den teknik de använder, deras tillgång till utbildning och de allmänna kulturella normerna kring dem kan alla påverka huruvida skadligt beteende uppmuntras, normaliseras, utmanas eller förebyggs. Lär dig hur bredare sociala sammanhang kan påverka onlineövergrepp och bidra till att skapa säkrare digitala utrymmen inom idrotten: Främja utbildningGenerera bevisForma normer</p><p></p><ul><li></li><li></li><li></li></ul>",
             "note": "HTML allowed"
           }
         }
@@ -2457,7 +2457,7 @@
             "text": "Skydda dig själv"
           },
           "body": {
-            "text": "För idrottare och andra med offentliga roller: Hantera din exponering. Granska sekretess- och säkerhetsinställningar och kontrollera vem som kan kontakta, nämna eller tagga dig. Använd säkerhetsverktyg. Stäng av, begränsa, blockera och rapportera skadligt konton eller innehåll. Bevara bevis. Spara relevant information när beteende kan behöva rapporteras eller eskaleras. Skydda ditt välbefinnande. Du kan välja att ta en paus från onlineinteraktioner och söka stöd från personer du litar på. Varför är detta viktigt? Ditt välbefinnande är viktigt, och stöd är ett gemensamt ansvar. När människor använder säkerhets- och välbefinnandeverktyg är de bättre rustade att förhindra skada inom den bredare idrottsgemenskapen.",
+            "text": "<p></p><ul><li><strong>För idrottare och andra med offentliga roller: Hantera din exponering. Granska sekretess- och säkerhetsinställningar och kontrollera vem som kan kontakta, nämna eller tagga dig. Använd säkerhetsverktyg. Stäng av, begränsa, blockera och rapportera skadligt konton eller innehåll. Bevara bevis. Spara relevant information när beteende kan behöva rapporteras eller eskaleras. Skydda ditt välbefinnande. Du kan välja att ta en paus från onlineinteraktioner och söka stöd från personer du litar på. Varför är detta viktigt? Ditt välbefinnande är viktigt, och stöd är ett gemensamt ansvar. När människor använder säkerhets- och välbefinnandeverktyg är de bättre rustade att förhindra skada inom den bredare idrottsgemenskapen.</strong></li><li></li><li></li><li></li></ul><details><summary></summary><p></p></details>",
             "note": "HTML allowed"
           }
         },
@@ -2466,7 +2466,7 @@
             "text": "Stöd andra"
           },
           "body": {
-            "text": "Som lagkamrat, kollega, fan, vän eller åskådare: Undvik förstärkning. Förhindra ytterligare spridning av kränkande innehåll. Hör av dig privat. Erbjud personligt stöd till personen som är utsatt för kränkande beteende. Rapportera på lämpligt sätt. Agera via etablerade kanaler, vanligtvis utan offentlig konfrontation. Tala ut på ett säkert sätt. Uttryck oro över kränkande beteende eller sök hjälp från någon som kan ingripa, inklusive organisatoriska myndigheter eller polisen vid behov. Varför är detta viktigt? Att stödja andra stärker idrottsgemenskapen. Små handlingar från lagkamrater, kollegor, vänner, fans och andra åskådare kan bidra till att skapa ett socialt stödsystem där människor känner sig hörda, skyddade och omhändertagna, och där skadligt beteende är mindre sannolikt att förbli obestridligt.",
+            "text": "<p></p><ul><li><strong>Som lagkamrat, kollega, fan, vän eller åskådare: Undvik förstärkning. Förhindra ytterligare spridning av kränkande innehåll. Hör av dig privat. Erbjud personligt stöd till personen som är utsatt för kränkande beteende. Rapportera på lämpligt sätt. Agera via etablerade kanaler, vanligtvis utan offentlig konfrontation. Tala ut på ett säkert sätt. Uttryck oro över kränkande beteende eller sök hjälp från någon som kan ingripa, inklusive organisatoriska myndigheter eller polisen vid behov. Varför är detta viktigt? Att stödja andra stärker idrottsgemenskapen. Små handlingar från lagkamrater, kollegor, vänner, fans och andra åskådare kan bidra till att skapa ett socialt stödsystem där människor känner sig hörda, skyddade och omhändertagna, och där skadligt beteende är mindre sannolikt att förbli obestridligt.</strong></li><li></li><li></li><li></li></ul><details><summary></summary><p></p></details>",
             "note": "HTML allowed"
           }
         },
@@ -2475,7 +2475,7 @@
             "text": "Agera säkert"
           },
           "body": {
-            "text": "När du hanterar övergrepp online, beakta situationen, din personliga säkerhet och om ytterligare stöd behövs: Bedöm situationen. Överväg beteendets art, om det eskalerar och om någon kan vara i riskzonen. Undvik osäker interaktion. Konfrontera eller engagera dig inte direkt när det kan öka skadan eller utsätta någon för risk. Vet när du ska söka stöd. Involvera en betrodd person eller lämplig organisatorisk kontaktperson när situationen kräver ytterligare hjälp. Eskalera säkerhetsproblem. Hot, upprepad oönskad kontakt, exponering av personlig information eller andra säkerhetsproblem kan kräva ytterligare organisatoriskt eller externt stöd. Varför är detta viktigt? Att agera säkert hjälper till att koppla samman individuella åtgärder med rätt nivå av stöd. Att inse när en situation kräver ytterligare hjälp gör att andra kan engagera sig och hjälper till att säkerställa att säkerhet förblir prioritet.",
+            "text": "<p></p><ul><li><strong>När du hanterar övergrepp online, beakta situationen, din personliga säkerhet och om ytterligare stöd behövs: Bedöm situationen. Överväg beteendets art, om det eskalerar och om någon kan vara i riskzonen. Undvik osäker interaktion. Konfrontera eller engagera dig inte direkt när det kan öka skadan eller utsätta någon för risk. Vet när du ska söka stöd. Involvera en betrodd person eller lämplig organisatorisk kontaktperson när situationen kräver ytterligare hjälp. Eskalera säkerhetsproblem. Hot, upprepad oönskad kontakt, exponering av personlig information eller andra säkerhetsproblem kan kräva ytterligare organisatoriskt eller externt stöd. Varför är detta viktigt? Att agera säkert hjälper till att koppla samman individuella åtgärder med rätt nivå av stöd. Att inse när en situation kräver ytterligare hjälp gör att andra kan engagera sig och hjälper till att säkerställa att säkerhet förblir prioritet.</strong></li><li></li><li></li><li></li></ul><details><summary></summary><p></p></details>",
             "note": "HTML allowed"
           }
         }
@@ -2493,7 +2493,7 @@
             "text": "Förbereda"
           },
           "body": {
-            "text": "Utveckla policyer och uppförandekoder, tillhandahålla utbildning och fortbildning samt fastställa tydliga förväntningar på digitalt beteende.",
+            "text": "<p>Utveckla policyer och uppförandekoder, tillhandahålla utbildning och fortbildning samt fastställa tydliga förväntningar på digitalt beteende.</p>",
             "note": "HTML allowed"
           }
         },
@@ -2502,7 +2502,7 @@
             "text": "Skydda"
           },
           "body": {
-            "text": "Tillhandahålla stöd för välfärd och skydd, säkerhetsverktyg för plattformen, moderering och lämpliga mekanismer för personer i riskzonen.",
+            "text": "<p>Tillhandahålla stöd för välfärd och skydd, säkerhetsverktyg för plattformen, moderering och lämpliga mekanismer för personer i riskzonen.</p>",
             "note": "HTML allowed"
           }
         },
@@ -2511,7 +2511,7 @@
             "text": "Svara"
           },
           "body": {
-            "text": "Skapa tillgängliga rapporteringsvägar, bevara lämpliga register, tillämpa organisatoriska rutiner och samordna eskalering vid behov.",
+            "text": "<p>Skapa tillgängliga rapporteringsvägar, bevara lämpliga register, tillämpa organisatoriska rutiner och samordna eskalering vid behov.</p>",
             "note": "HTML allowed"
           }
         },
@@ -2520,7 +2520,7 @@
             "text": "Ansluta"
           },
           "body": {
-            "text": "Koppla samman. Samarbeta med andra organisationer, plattformar, myndigheter, forskare, påverkansgrupper och specialisttjänster när en respons sträcker sig bortom organisationens egna kapacitet.",
+            "text": "<p><strong>Koppla samman. Samarbeta med andra organisationer, plattformar, myndigheter, forskare, påverkansgrupper och specialisttjänster när en respons sträcker sig bortom organisationens egna kapacitet.</strong></p>",
             "note": "HTML allowed"
           }
         },
@@ -2529,7 +2529,7 @@
             "text": "Starkare tillsammans"
           },
           "body": {
-            "text": "Organisationer är starkare när de arbetar tillsammans. Var och en spelar en annan roll, och tillsammans kan de skapa ett samordnat nätverk för skydd och insatser mot onlineövergrepp. UAOA:s plattform för organisationsberedskap (ORP) stöder dessa insatser genom att hjälpa idrottsorganisationer att bedöma sin beredskap, identifiera förbättringsområden och stärka sina metoder för att förebygga och hantera onlineövergrepp.",
+            "text": "<p><strong>Organisationer är starkare när de arbetar tillsammans. Var och en spelar en annan roll, och tillsammans kan de skapa ett samordnat nätverk för skydd och insatser mot onlineövergrepp. UAOA:s plattform för organisationsberedskap (ORP) stöder dessa insatser genom att hjälpa idrottsorganisationer att bedöma sin beredskap, identifiera förbättringsområden och stärka sina metoder för att förebygga och hantera onlineövergrepp.</strong></p><p></p>",
             "note": "HTML allowed"
           }
         }
@@ -2547,7 +2547,7 @@
             "text": "Utbildning"
           },
           "body": {
-            "text": "Utbildning kan hjälpa människor att känna igen övergrepp online, förstå dess konsekvenser och veta hur man reagerar på ett säkert sätt. Digital och mediekunskap kan också stärka kritiskt tänkande kring vilka beteenden som är lämpliga i online-miljöer.",
+            "text": "<p>Utbildning kan hjälpa människor att känna igen övergrepp online, förstå dess konsekvenser och veta hur man reagerar på ett säkert sätt. Digital och mediekunskap kan också stärka kritiskt tänkande kring vilka beteenden som är lämpliga i online-miljöer.</p>",
             "note": "HTML allowed"
           }
         },
@@ -2556,7 +2556,7 @@
             "text": "Delade standarder"
           },
           "body": {
-            "text": "Tydliga förväntningar hjälper till att fastställa vilka beteenden som anses acceptabla inom idrottsgemenskaper. Gemensamma standarder kring respekt, inkludering, rent spel och digitalt deltagande kan vägleda beteenden och ge individer och organisationer en starkare grund för att utmana övergrepp.",
+            "text": "<p>Tydliga förväntningar hjälper till att fastställa vilka beteenden som anses acceptabla inom idrottsgemenskaper. Gemensamma standarder kring respekt, inkludering, rent spel och digitalt deltagande kan vägleda beteenden och ge individer och organisationer en starkare grund för att utmana övergrepp.</p>",
             "note": "HTML allowed"
           }
         },
@@ -2565,7 +2565,7 @@
             "text": "Forskning och bevis"
           },
           "body": {
-            "text": "Evidensbaserad och datadriven forskning hjälper till att kartlägga mönster där onlineövergrepp förekommer, hur skadligt beteende utvecklas över tid och vilka åtgärder som är mer effektiva. Starkare kunskap kan ligga till grund för förebyggande åtgärder, utbildning, organisatorisk praxis, teknik och policy.",
+            "text": "<p>Evidensbaserad och datadriven forskning hjälper till att kartlägga mönster där onlineövergrepp förekommer, hur skadligt beteende utvecklas över tid och vilka åtgärder som är mer effektiva. Starkare kunskap kan ligga till grund för förebyggande åtgärder, utbildning, organisatorisk praxis, teknik och policy.</p>",
             "note": "HTML allowed"
           }
         },
@@ -2574,7 +2574,7 @@
             "text": "Politik och lag"
           },
           "body": {
-            "text": "Policyer och lagar kan etablera gränser, ansvar, skydd och vägar till ansvarsskyldighet. De kan påverka beteenden genom att förtydliga konsekvenser och tillhandahålla mekanismer för rapportering, ingripande och gottgörelse.",
+            "text": "<p>Policyer och lagar kan etablera gränser, ansvar, skydd och vägar till ansvarsskyldighet. De kan påverka beteenden genom att förtydliga konsekvenser och tillhandahålla mekanismer för rapportering, ingripande och gottgörelse.</p>",
             "note": "HTML allowed"
           }
         },
@@ -2583,7 +2583,7 @@
             "text": "Teknik- och plattformsdesign"
           },
           "body": {
-            "text": "Utformningen av digitala plattformar kan påverka hur lätt skadligt innehåll skapas, upptäcks, förstärks, rapporteras eller tas bort. Moderering, detektering, rapporteringsverktyg och andra säkerhetsfunktioner kan bidra till att minska risken för att missbruk sprids och består.",
+            "text": "<p>Utformningen av digitala plattformar kan påverka hur lätt skadligt innehåll skapas, upptäcks, förstärks, rapporteras eller tas bort. Moderering, detektering, rapporteringsverktyg och andra säkerhetsfunktioner kan bidra till att minska risken för att missbruk sprids och består.</p>",
             "note": "HTML allowed"
           }
         },
@@ -2592,7 +2592,7 @@
             "text": "Gemenskapsnormer"
           },
           "body": {
-            "text": "Sociala normer påverkar vad människor uppfattar som normalt, acceptabelt eller värt att utmana. Idrottare, fans, media, organisationer och offentliga personer bidrar alla till kulturen kring sport. När samhällen konsekvent utmanar kränkande beteende och förstärker respekt kan de bidra till att förändra de normer som gör att kränkningar online kan fortsätta.",
+            "text": "<p>Sociala normer påverkar vad människor uppfattar som normalt, acceptabelt eller värt att utmana. Idrottare, fans, media, organisationer och offentliga personer bidrar alla till kulturen kring sport. När samhällen konsekvent utmanar kränkande beteende och förstärker respekt kan de bidra till att förändra de normer som gör att kränkningar online kan fortsätta.</p>",
             "note": "HTML allowed"
           }
         },
@@ -2601,7 +2601,7 @@
             "text": "Att arbeta tillsammans"
           },
           "body": {
-            "text": "Dessa faktorer samverkar inom sport och i vårt samhälle. Utbildning kan forma hur människor förstår beteenden online, medan gemensamma standarder och lagar kan förtydliga förväntningar, forskning kan identifiera nya risker och teknik kan påverka hur skadligt innehåll sprids. Idrottsgemenskaper är bara en del av vårt samhälle: de påverkas av bredare kulturella normer, och idrottare, fans, media, organisationer och andra röster inom sport kan också bidra till att forma den värld vi lever i tillsammans.",
+            "text": "<p><strong>Dessa faktorer samverkar inom sport och i vårt samhälle. Utbildning kan forma hur människor förstår beteenden online, medan gemensamma standarder och lagar kan förtydliga förväntningar, forskning kan identifiera nya risker och teknik kan påverka hur skadligt innehåll sprids. Idrottsgemenskaper är bara en del av vårt samhälle: de påverkas av bredare kulturella normer, och idrottare, fans, media, organisationer och andra röster inom sport kan också bidra till att forma den värld vi lever i tillsammans.</strong></p><p></p><p></p>",
             "note": "HTML allowed"
           }
         }
@@ -2631,15 +2631,15 @@
           "text": "Överlämna"
         },
         "feedbackOk": {
-          "text": "Det stämmer! Du har matchat varje scenario med lämplig åtgärdsnivå.",
+          "text": "<strong>Det stämmer! Du har matchat varje scenario med lämplig åtgärdsnivå.</strong>",
           "note": "HTML allowed"
         },
         "feedbackBad": {
-          "text": "Inte riktigt. Granska dina val och försök igen.",
+          "text": "<strong>Inte riktigt. Granska dina val och försök igen.</strong>",
           "note": "HTML allowed"
         },
         "done": {
-          "text": "Det stämmer! Du har matchat varje scenario med lämplig åtgärdsnivå.",
+          "text": "<strong>Det stämmer! Du har matchat varje scenario med lämplig åtgärdsnivå.</strong>",
           "note": "HTML allowed"
         }
       },
@@ -2660,11 +2660,11 @@
             "text": "Efter att ha sett en idrottare bli måltavla online, checkar någon in privat och rapporterar det skadliga innehållet utan att dela det vidare."
           },
           "ok": {
-            "text": "Korrekt! Att checka in privat och rapportera utan att utöka det är individuella handlingar.",
+            "text": "<strong>Korrekt! Att checka in privat och rapportera utan att utöka det är individuella handlingar.</strong>",
             "note": "HTML allowed"
           },
           "bad": {
-            "text": "Inte riktigt. Tänk på vem som vidtar den här åtgärden just nu. Försök igen.",
+            "text": "<strong>Inte riktigt. Tänk på vem som vidtar den här åtgärden just nu. Försök igen.</strong>",
             "note": "HTML allowed"
           }
         },
@@ -2673,11 +2673,11 @@
             "text": "Efter flera incidenter av övergrepp online inför ett idrottsförbund en rapporteringsväg, personalutbildning och skyddsrutiner."
           },
           "ok": {
-            "text": "Korrekt! Rapporteringsvägar, utbildning och skyddsrutiner är organisatoriska ramverk.",
+            "text": "<strong>Korrekt! Rapporteringsvägar, utbildning och skyddsrutiner är organisatoriska ramverk.</strong>",
             "note": "HTML allowed"
           },
           "bad": {
-            "text": "Inte riktigt. Fundera över vilken nivå som sätter ramar och procedurer för en idrottsorganisation. Försök igen.",
+            "text": "<strong>Inte riktigt. Fundera över vilken nivå som sätter ramar och procedurer för en idrottsorganisation. Försök igen.</strong>",
             "note": "HTML allowed"
           }
         },
@@ -2686,11 +2686,11 @@
             "text": "Forskning visar hur en ny form av onlineövergrepp sprids, vilket bidrar till att informera utbildning, teknik och framtida politiska åtgärder."
           },
           "ok": {
-            "text": "Korrekt! Forskning och evidens som ligger till grund för utbildning, teknik och policy verkar på samhällsnivå.",
+            "text": "<strong>Korrekt! Forskning och evidens som ligger till grund för utbildning, teknik och policy verkar på samhällsnivå.</strong>",
             "note": "HTML allowed"
           },
           "bad": {
-            "text": "Inte riktigt. Fundera över vilken nivå som formar utbildning, teknologi och policy i bredare perspektiv. Försök igen.",
+            "text": "<strong>Inte riktigt. Fundera över vilken nivå som formar utbildning, teknologi och policy i bredare perspektiv. Försök igen.</strong>",
             "note": "HTML allowed"
           }
         }
@@ -2702,15 +2702,15 @@
       },
       "rows": {
         "individual": {
-          "text": "Individuella handlingar kan minska skador och stödja andra.",
+          "text": "<strong>Individuella handlingar kan minska skador och stödja andra.</strong>",
           "note": "HTML allowed"
         },
         "organisations": {
-          "text": "Organisationer tillhandahåller de strukturer som omvandlar dessa handlingar till kollektiva svar.",
+          "text": "<strong>Organisationer tillhandahåller de strukturer som omvandlar dessa handlingar till kollektiva svar.</strong>",
           "note": "HTML allowed"
         },
         "society": {
-          "text": "Över hela samhället kan sammankopplade insatser inom utbildning, politik, teknik, forskning och samhällsstandarder bidra till att skapa säkrare digitala utrymmen inom idrotten.",
+          "text": "<strong>Över hela samhället kan sammankopplade insatser inom utbildning, politik, teknik, forskning och samhällsstandarder bidra till att skapa säkrare digitala utrymmen inom idrotten.</strong>",
           "note": "HTML allowed"
         }
       },
@@ -2718,7 +2718,7 @@
         "text": "UAOA hjälper till att koppla samman dessa handlingsnivåer."
       },
       "connectBody": {
-        "text": "Genom Stronger Together sammanför UAOA människor och organisationer inom idrott för att stärka hur de förbereder sig för, förebygger och reagerar på onlineövergrepp, och omvandlar delad kunskap och samordnade åtgärder till praktiskt stöd för idrottsgemenskapen.",
+        "text": "Genom Stronger Together sammanför UAOA människor och organisationer inom idrott för att stärka hur de förbereder sig för, förebygger och reagerar på onlineövergrepp, och omvandlar delad kunskap och samordnade åtgärder till praktiskt stöd för idrottsgemenskapen.<a href=\"https://unitedagainstonlineabuse.com/about-us/\" target=\"_blank\" rel=\"noopener\"></a>",
         "note": "HTML allowed"
       }
     },
@@ -2728,27 +2728,27 @@
       },
       "items": {
         "i1": {
-          "text": "Att bekämpa övergrepp online är ett gemensamt ansvar. Individer, idrottsorganisationer, plattformar, media, intressegrupper, beslutsfattare och andra intressenter har alla en roll i förebyggande åtgärder och åtgärder.",
+          "text": "<strong>Att bekämpa övergrepp online är ett gemensamt ansvar. Individer, idrottsorganisationer, plattformar, media, intressegrupper, beslutsfattare och andra intressenter har alla en roll i förebyggande åtgärder och åtgärder.</strong>",
           "note": "HTML allowed"
         },
         "i2": {
-          "text": "Individuella åtgärder kan minska skador. Att hantera exponering, använda säkerhetsverktyg, bevara bevis, stödja andra och veta när man ska söka ytterligare hjälp kan skydda säkerhet och välbefinnande.",
+          "text": "<strong>Individuella åtgärder kan minska skador. Att hantera exponering, använda säkerhetsverktyg, bevara bevis, stödja andra och veta när man ska söka ytterligare hjälp kan skydda säkerhet och välbefinnande.</strong>",
           "note": "HTML allowed"
         },
         "i3": {
-          "text": "Organisationer tillhandahåller struktur och stöd. Tydliga ramverk, skydd, rapporteringsvägar och samordnade åtgärder hjälper organisationer att förbereda sig för och reagera på onlineövergrepp.",
+          "text": "<strong>Organisationer tillhandahåller struktur och stöd. Tydliga ramverk, skydd, rapporteringsvägar och samordnade åtgärder hjälper organisationer att förbereda sig för och reagera på onlineövergrepp.</strong>",
           "note": "HTML allowed"
         },
         "i4": {
-          "text": "Samarbete stärker insatsen. Klubbar, förbund, plattformar, medieorganisationer, intressegrupper och andra intressenter kan bidra med olika former av stöd, expertis och åtgärder.",
+          "text": "<strong>Samarbete stärker insatsen. Klubbar, förbund, plattformar, medieorganisationer, intressegrupper och andra intressenter kan bidra med olika former av stöd, expertis och åtgärder.</strong>",
           "note": "HTML allowed"
         },
         "i5": {
-          "text": "Sociala förhållanden påverkar beteendet online. Utbildning, standarder, forskning, policy, teknologi och kulturella normer kan påverka hur övergrepp online förstås, möjliggörs, förebyggs och utmanas.",
+          "text": "<strong>Sociala förhållanden påverkar beteendet online. Utbildning, standarder, forskning, policy, teknologi och kulturella normer kan påverka hur övergrepp online förstås, möjliggörs, förebyggs och utmanas.</strong>",
           "note": "HTML allowed"
         },
         "i6": {
-          "text": "Idrott är en del av ett bredare socialt sammanhang. Idrottsgemenskaper påverkas av bredare kulturella normer och kan också bidra till att forma förväntningar och beteenden i hela samhället.",
+          "text": "<strong>Idrott är en del av ett bredare socialt sammanhang. Idrottsgemenskaper påverkas av bredare kulturella normer och kan också bidra till att forma förväntningar och beteenden i hela samhället.</strong>",
           "note": "HTML allowed"
         }
       }
@@ -2772,17 +2772,17 @@
       },
       "exploreTheThreeLayersOfAction": {
         "body": {
-          "text": "Handling sker på tre sammankopplade nivåer. Skikten är sammankopplade och kompletterar varandra: individuella handlingar kopplas till organisatoriskt stöd och till bredare kollektiva handlingar.",
+          "text": "<p>Handling sker på tre sammankopplade nivåer. Skikten är sammankopplade och kompletterar varandra: individuella handlingar kopplas till organisatoriskt stöd och till bredare kollektiva handlingar.</p>",
           "note": "Native text body on Take Action: Building Safer Digital Sport Communities"
         },
         "heading": {
-          "text": "Utforska de tre handlingslagren",
+          "text": "<span style=\"color: #21b7cb\">Utforska de tre handlingslagren</span>",
           "note": "Native heading on Take Action: Building Safer Digital Sport Communities"
         }
       },
       "image": {
         "throughStrongerTogetherUaoaBringsPeople": {
-          "text": "Genom Stronger Together sammanför UAOA människor och organisationer inom idrott för att stärka hur de förbereder sig för, förebygger och reagerar på onlineövergrepp, och omvandlar delad kunskap och samordnade åtgärder till praktiskt stöd för idrottsgemenskapen.",
+          "text": "<p>Genom Stronger Together sammanför UAOA människor och organisationer inom idrott för att stärka hur de förbereder sig för, förebygger och reagerar på onlineövergrepp, och omvandlar delad kunskap och samordnade åtgärder till praktiskt stöd för idrottsgemenskapen.</p>",
           "note": "Image body text on Take Action: Building Safer Digital Sport Communities"
         }
       },
@@ -2792,29 +2792,29 @@
       },
       "onlineAbuseCanBeAddressedAt": {
         "body": {
-          "text": "Onlineövergrepp kan hanteras på olika nivåer. Dra varje scenario till den nivå som är bäst lämpad att vidta åtgärder.",
+          "text": "<p><span style=\"color: #091324\">Onlineövergrepp kan hanteras på olika nivåer. Dra varje scenario till den nivå som är bäst lämpad att vidta åtgärder.</span><br></p>",
           "note": "Native text body on Take Action: Building Safer Digital Sport Communities"
         }
       },
       "onlineAbuseInSportCanAffect": {
         "body": {
-          "text": "Onlineövergrepp inom idrott kan drabba en person direkt, men ingen behöver reagera ensam på det. Vi kan alla bidra till att skapa säkrare digitala utrymmen, oavsett om vi skyddar vårt eget välbefinnande, stödjer någon som blir utsatt för övergrepp, bevittnar skadligt beteende eller hjälper andra genom vårt arbete inom idrott. De åtgärder vi kan vidta beror på vår roll och våra omständigheter. Individer kan skydda sig själva och stödja andra. Organisationer kan tillhandahålla tydliga vägar för rapportering, stöd och samordnade åtgärder. Inom idrottsgemenskaper kan utbildning, forskning, policy och gemensamma standarder bidra till att förebygga skada och stärka hur vi reagerar. I den här sista modulen kommer du att utforska hur dessa olika nivåer av handling kopplas samman, var du kan bidra och hur samarbete kan bidra till att bygga säkrare digitala idrottsgemenskaper.",
+          "text": "<p></p><p></p><p><span style=\"color: #091324\">Onlineövergrepp inom idrott kan drabba en person direkt, men ingen behöver reagera ensam på det. Vi kan alla bidra till att skapa säkrare digitala utrymmen, oavsett om vi skyddar vårt eget välbefinnande, stödjer någon som blir utsatt för övergrepp, bevittnar skadligt beteende eller hjälper andra genom vårt arbete inom idrott. De åtgärder vi kan vidta beror på vår roll och våra omständigheter. Individer kan skydda sig själva och stödja andra. Organisationer kan tillhandahålla tydliga vägar för rapportering, stöd och samordnade åtgärder. Inom idrottsgemenskaper kan utbildning, forskning, policy och gemensamma standarder bidra till att förebygga skada och stärka hur vi reagerar. I den här sista modulen kommer du att utforska hur dessa olika nivåer av handling kopplas samman, var du kan bidra och hur samarbete kan bidra till att bygga säkrare digitala idrottsgemenskaper.</span></p><p></p><p></p>",
           "note": "Native text body on Take Action: Building Safer Digital Sport Communities"
         },
         "heading": {
-          "text": "Onlineövergrepp inom idrott kan drabba en person direkt, men ingen behöver reagera ensam på det. Vi kan alla bidra till att skapa säkrare digitala utrymmen, oavsett om vi skyddar vårt eget välbefinnande, stödjer någon som blir utsatt för övergrepp, bevittnar skadligt beteende eller hjälper andra genom vårt arbete inom idrott. De åtgärder vi kan vidta beror på vår roll och våra omständigheter. Individer kan skydda sig själva och stödja andra. Organisationer kan tillhandahålla tydliga vägar för rapportering, stöd och samordnade åtgärder. Inom idrottsgemenskaper kan utbildning, forskning, policy och gemensamma standarder bidra till att förebygga skada och stärka hur vi reagerar. I den här sista modulen kommer du att utforska hur dessa olika nivåer av handling kopplas samman, var du kan bidra och hur samarbete kan bidra till att bygga säkrare digitala idrottsgemenskaper.",
+          "text": "<br><br><span style=\"color: #1c3564; font-size: 14px\">Onlineövergrepp inom idrott kan drabba en person direkt, men ingen behöver reagera ensam på det. Vi kan alla bidra till att skapa säkrare digitala utrymmen, oavsett om vi skyddar vårt eget välbefinnande, stödjer någon som blir utsatt för övergrepp, bevittnar skadligt beteende eller hjälper andra genom vårt arbete inom idrott. De åtgärder vi kan vidta beror på vår roll och våra omständigheter. Individer kan skydda sig själva och stödja andra. Organisationer kan tillhandahålla tydliga vägar för rapportering, stöd och samordnade åtgärder. Inom idrottsgemenskaper kan utbildning, forskning, policy och gemensamma standarder bidra till att förebygga skada och stärka hur vi reagerar. I den här sista modulen kommer du att utforska hur dessa olika nivåer av handling kopplas samman, var du kan bidra och hur samarbete kan bidra till att bygga säkrare digitala idrottsgemenskaper.</span>",
           "note": "Native heading on Take Action: Building Safer Digital Sport Communities"
         }
       },
       "uaoaHelpsConnectTheseLevelsOf": {
         "heading": {
-          "text": "UAOA hjälper till att koppla samman dessa handlingsnivåer.",
+          "text": "<span style=\"color: #21b7cb\">UAOA hjälper till att koppla samman dessa handlingsnivåer.</span>",
           "note": "Native heading on Take Action: Building Safer Digital Sport Communities"
         }
       },
       "youArePartOfAWider": {
         "heading": {
-          "text": "Du är en del av ett större system",
+          "text": "<span style=\"color: #21b7cb\">Du är en del av ett större system</span>",
           "note": "Native heading on Take Action: Building Safer Digital Sport Communities"
         }
       }
@@ -2825,7 +2825,7 @@
       "questions": {
         "q1": {
           "prompt": {
-            "text": "Ungefär hur många idrottsförbund var i 2025 års UAOA-barometer oroliga för att online-trakasserier skulle kunna driva ut talangfulla idrottare från sporten?",
+            "text": "<strong>Ungefär hur många idrottsförbund var i 2025 års UAOA-barometer oroliga för att online-trakasserier skulle kunna driva ut talangfulla idrottare från sporten?</strong>",
             "note": "HTML allowed — do not bold option list items"
           },
           "choices": {
@@ -2840,7 +2840,7 @@
             }
           },
           "reveal": {
-            "text": "Cirka 90 % UAOA-barometern visar att ungefär nio av tio idrottsförbund i undersökningen uttryckte oro för att online-övergrepp skulle kunna driva ut begåvade idrottare från sporten. Online-övergrepp kan i slutändan påverka huruvida människor fortsätter att delta i idrottsgemenskaper.",
+            "text": "<strong>Cirka 90 % UAOA-barometern visar att ungefär nio av tio idrottsförbund i undersökningen uttryckte oro för att online-övergrepp skulle kunna driva ut begåvade idrottare från sporten. Online-övergrepp kan i slutändan påverka huruvida människor fortsätter att delta i idrottsgemenskaper.</strong>",
             "note": "HTML allowed"
           },
           "next": {
@@ -2863,7 +2863,7 @@
             }
           },
           "reveal": {
-            "text": "Ökad exponering för trakasserier online har förknippats med högre nivåer av psykisk stress, vilket belyser hur fientligt onlineinnehåll kan påverka det psykiska välbefinnandet.",
+            "text": "<strong>Ökad exponering för trakasserier online har förknippats med högre nivåer av psykisk stress, vilket belyser hur fientligt onlineinnehåll kan påverka det psykiska välbefinnandet.</strong>",
             "note": "HTML allowed"
           },
           "next": {
@@ -2886,7 +2886,7 @@
             }
           },
           "reveal": {
-            "text": "Både. Plattformsdesign, rekommendationssystem, användarinteraktioner och rapporteringsmekanismer kan påverka hur skadligt innehåll sprids och når nya målgrupper.",
+            "text": "<strong>Både. Plattformsdesign, rekommendationssystem, användarinteraktioner och rapporteringsmekanismer kan påverka hur skadligt innehåll sprids och når nya målgrupper.</strong>",
             "note": "HTML allowed"
           },
           "next": {
@@ -2895,7 +2895,7 @@
         },
         "q4": {
           "prompt": {
-            "text": "Om en spelare får förödmjukande kommentarer efter en förlust. Liknande meddelanden översvämmar deras konto i dagar och attackerar även deras ras. Vad händer?",
+            "text": "<span class=\"scenario\">Om en spelare får förödmjukande kommentarer efter en förlust. Liknande meddelanden översvämmar deras konto i dagar och attackerar även deras ras. Vad händer?</span>",
             "note": "HTML allowed"
           },
           "choices": {
@@ -2910,7 +2910,7 @@
             }
           },
           "reveal": {
-            "text": "Flera former kan överlappa varandra. Det förödmjukande språket är kränkande tal, den upprepade offentliga aggressionen skapar digital fientlighet och rasistiska riktade insatser kan utgöra hatpropaganda.",
+            "text": "<strong>Flera former kan överlappa varandra. Det förödmjukande språket är kränkande tal, den upprepade offentliga aggressionen skapar digital fientlighet och rasistiska riktade insatser kan utgöra hatpropaganda.</strong>",
             "note": "HTML allowed"
           },
           "next": {
@@ -2933,7 +2933,7 @@
             }
           },
           "reveal": {
-            "text": "Agera säkert och använd rätt rapporteringskanaler. Bedöm om beteendet eskalerar eller om någon kan vara i riskzonen, undvik osäker interaktion, bevara relevant bevis och rapportera via lämplig plattform eller organisatoriska kanaler. Sök ytterligare stöd vid behov.",
+            "text": "<strong>Agera säkert och använd rätt rapporteringskanaler. Bedöm om beteendet eskalerar eller om någon kan vara i riskzonen, undvik osäker interaktion, bevara relevant bevis och rapportera via lämplig plattform eller organisatoriska kanaler. Sök ytterligare stöd vid behov.</strong>",
             "note": "HTML allowed"
           },
           "next": {
@@ -2956,7 +2956,7 @@
             }
           },
           "reveal": {
-            "text": "Lagar kan bidra till att skydda människor från onlineövergrepp. Rättsligt skydd och ansvar varierar dock mellan länder. Vissa jurisdiktioner har infört specifika åtgärder mot AI-genererade intima bilder och andra former av digitala övergrepp.",
+            "text": "<strong>Lagar kan bidra till att skydda människor från onlineövergrepp. Rättsligt skydd och ansvar varierar dock mellan länder. Vissa jurisdiktioner har infört specifika åtgärder mot AI-genererade intima bilder och andra former av digitala övergrepp.</strong>",
             "note": "HTML allowed"
           },
           "next": {
@@ -2965,7 +2965,7 @@
         },
         "q7": {
           "prompt": {
-            "text": "En lagkamrat har fått kränkande meddelanden och verkar alltmer bekymrad. Vilken är den starkaste reaktionen från ett stödjande system?",
+            "text": "<span class=\"scenario\">En lagkamrat har fått kränkande meddelanden och verkar alltmer bekymrad. Vilken är den starkaste reaktionen från ett stödjande system?</span>",
             "note": "HTML allowed"
           },
           "choices": {
@@ -2980,7 +2980,7 @@
             }
           },
           "reveal": {
-            "text": "Stöd börjar med dig! Hör av dig privat, undvik att förstärka övergreppen, använd lämpliga rapporteringskanaler och säg ifrån när det är säkert att göra det.",
+            "text": "<strong>Stöd börjar med dig! Hör av dig privat, undvik att förstärka övergreppen, använd lämpliga rapporteringskanaler och säg ifrån när det är säkert att göra det.</strong>",
             "note": "HTML allowed"
           },
           "next": {
@@ -3003,7 +3003,7 @@
             }
           },
           "reveal": {
-            "text": "Skydda dig själv. Stöd andra. Agera säkert. Vi kan hantera vår exponering på sociala medier, använda säkerhetsverktyg, bevara bevis, stödja andra som är måltavlor och känna igen när en situation kräver ytterligare hjälp.",
+            "text": "<strong>Skydda dig själv. Stöd andra. Agera säkert. Vi kan hantera vår exponering på sociala medier, använda säkerhetsverktyg, bevara bevis, stödja andra som är måltavlor och känna igen när en situation kräver ytterligare hjälp.</strong>",
             "note": "HTML allowed"
           },
           "next": {
@@ -3012,7 +3012,7 @@
         },
         "q9": {
           "prompt": {
-            "text": "Organisationer har också en roll. Flera personer inom en idrottsorganisation har rapporterat övergrepp online. Vad skulle skapa den starkaste organisationsresponsen?",
+            "text": "<strong>Organisationer har också en roll. Flera personer inom en idrottsorganisation har rapporterat övergrepp online. Vad skulle skapa den starkaste organisationsresponsen?</strong>",
             "note": "HTML allowed"
           },
           "choices": {
@@ -3036,7 +3036,7 @@
         },
         "q10": {
           "prompt": {
-            "text": "Onlineövergrepp formas också av omständigheter som går utöver en enskild person eller organisation. Vilka kan påverka om skadligt beteende normaliseras, utmanas eller förebyggs?",
+            "text": "<span class=\"scenario\">Onlineövergrepp formas också av omständigheter som går utöver en enskild person eller organisation. Vilka kan påverka om skadligt beteende normaliseras, utmanas eller förebyggs?</span>",
             "note": "HTML allowed"
           },
           "choices": {
@@ -3054,7 +3054,7 @@
             }
           },
           "reveal": {
-            "text": "Allt detta. Utbildning, gemensamma standarder, forskning och evidens, policy och lagar, tekniska lösningar och plattformsdesign, samt samhällsnormer kan alla forma beteenden online. Sport påverkas av dessa bredare sociala förhållanden, och idrottsgemenskaper kan också bidra till att forma den värld vi lever i tillsammans.",
+            "text": "<strong>Allt detta. Utbildning, gemensamma standarder, forskning och evidens, policy och lagar, tekniska lösningar och plattformsdesign, samt samhällsnormer kan alla forma beteenden online. Sport påverkas av dessa bredare sociala förhållanden, och idrottsgemenskaper kan också bidra till att forma den värld vi lever i tillsammans.</strong>",
             "note": "HTML allowed"
           },
           "next": {
@@ -3080,7 +3080,7 @@
             }
           },
           "reveal": {
-            "text": "Det finns olika sätt att agera. UAOA sammanför människor och organisationer inom idrotten för att stärka hur de förbereder sig för, förebygger och reagerar på nätövergrepp.",
+            "text": "<strong>Det finns olika sätt att agera. UAOA sammanför människor och organisationer inom idrotten för att stärka hur de förbereder sig för, förebygger och reagerar på nätövergrepp.</strong>",
             "note": "HTML allowed — ungraded item"
           },
           "next": {
@@ -3225,7 +3225,7 @@
             }
           },
           "ok": {
-            "text": "Det finns olika sätt att agera. UAOA sammanför människor och organisationer inom idrotten för att stärka hur de förbereder sig för, förebygger och reagerar på nätövergrepp.",
+            "text": "<strong>Det finns olika sätt att agera. UAOA sammanför människor och organisationer inom idrotten för att stärka hur de förbereder sig för, förebygger och reagerar på nätövergrepp.</strong>",
             "note": "HTML allowed — legacy further-action widget; Q11 lives in summary.quiz"
           }
         }
@@ -3251,13 +3251,13 @@
       "exit": {
         "congratulations": {
           "heading": {
-            "text": "Grattis!",
+            "text": "<span style=\"color: #21B7CB\">Grattis!</span>",
             "note": "Native heading on Exit Page"
           }
         },
         "youAreNowBetterPreparedTo": {
           "body": {
-            "text": "Du är nu bättre förberedd att vidta åtgärder mot onlineövergrepp. Tack för att du tar dig tid att lära dig med oss. Den kunskap och praktiska förståelse du har utvecklat kan hjälpa dig att känna igen skadligt beteende, reagera mer självsäkert, stödja andra och bidra till säkrare digitala idrottsgemenskaper. Varje välgrundad handling spelar roll. Tillsammans kan vi bidra till att göra idrott säkrare online. Tack för att du har genomfört UAOA:s e-learningkurs! UAOA",
+            "text": "<p><span style=\"color: rgb(9, 19, 36)\"><br><br></span></p><p></p><p></p><p></p><p><span style=\"color: rgb(9, 19, 36)\">Du är nu bättre förberedd att vidta åtgärder mot onlineövergrepp. Tack för att du tar dig tid att lära dig med oss. Den kunskap och praktiska förståelse du har utvecklat kan hjälpa dig att känna igen skadligt beteende, reagera mer självsäkert, stödja andra och bidra till säkrare digitala idrottsgemenskaper. Varje välgrundad handling spelar roll. Tillsammans kan vi bidra till att göra idrott säkrare online. Tack för att du har genomfört </span></p><p></p><p><span style=\"color: rgb(9, 19, 36)\"><strong>UAOA</strong></span></p>",
             "note": "Native text body on Exit Page"
           }
         }
@@ -3265,27 +3265,27 @@
       "finalQuiz": {
         "summaryScoredQuiz": {
           "body": {
-            "text": "Kontrollera vad du har lärt dig under kursens gång. Besvara varje fråga och granska sedan dina resultat.",
+            "text": "<p><span style=\"color: #091324\">Kontrollera vad du har lärt dig under kursens gång. Besvara varje fråga och granska sedan dina resultat.</span></p>",
             "note": "Native text body on Final Quiz"
           },
           "heading": {
-            "text": "Sammanfattning (poängsatt quiz)",
+            "text": "<span style=\"color: var(--background)\"><strong>Sammanfattning (poängsatt quiz)</strong></span>",
             "note": "Native heading on Final Quiz"
           }
         },
         "youAreReadyToActAgainst": {
           "body": {
-            "text": "Du började den här kursen med ett mål: att gå från medvetenhet till beredskap. Du har nu kunskapen och de praktiska verktygen för att känna igen övergrepp online, förstå hur och varför det händer, reagera med större självförtroende och stödja andra i din idrottsgemenskap. Ett sista steg: sammanför det du har lärt dig i det avslutande testet.",
+            "text": "<p><span style=\"color: #091324\"><strong>Du började den här kursen med ett mål: att gå från medvetenhet till beredskap. Du har nu kunskapen och de praktiska verktygen för att känna igen övergrepp online, förstå hur och varför det händer, reagera med större självförtroende och stödja andra i din idrottsgemenskap. Ett sista steg: sammanför det du har lärt dig i det avslutande testet.</strong></span></p><p></p><p></p>",
             "note": "Native text body on Final Quiz"
           },
           "heading": {
-            "text": "Du är redo att agera mot nätövergrepp",
+            "text": "<span style=\"color: #21b7cb\">Du är redo att agera mot nätövergrepp</span>",
             "note": "Native heading on Final Quiz"
           }
         },
         "yourReadiness": {
           "body": {
-            "text": "Din beredskapspoäng är {{score}}%! Du har lärt dig att känna igen onlineövergrepp, förstå dess inverkan och agera säkrare i individuella, organisatoriska och bredare idrottsliga sammanhang. Din poäng återspeglar din nuvarande beredskap att känna igen onlineövergrepp och fatta välgrundade beslut när de inträffar.",
+            "text": "<p><span style=\"color: #091324; font-size: 30px\"><strong>Din beredskapspoäng är {{score}}%! Du har lärt dig att känna igen onlineövergrepp, förstå dess inverkan och agera säkrare i individuella, organisatoriska och bredare idrottsliga sammanhang. Din poäng återspeglar din nuvarande beredskap att känna igen onlineövergrepp och fatta välgrundade beslut när de inträffar.</strong></span></p><p></p><p></p><p></p><p></p>",
             "note": "Native text body on Final Quiz"
           },
           "heading": {
@@ -4350,23 +4350,23 @@
       },
       "items": {
         "i1": {
-          "text": "Identifiera övergrepp online och dess olika former, inklusive vem som kan utsättas för oproportionerlig risk.",
+          "text": "<strong>Identifiera övergrepp online och dess olika former, inklusive vem som kan utsättas för oproportionerlig risk.</strong>",
           "note": "HTML allowed — bold lead verb"
         },
         "i2": {
-          "text": "Förstå effekterna av online-övergrepp i din idrottsgemenskap, med hjälp av verkliga bevis för att identifiera dess konsekvenser för psykisk hälsa och idrottsprestationer.",
+          "text": "<strong>Förstå effekterna av online-övergrepp i din idrottsgemenskap, med hjälp av verkliga bevis för att identifiera dess konsekvenser för psykisk hälsa och idrottsprestationer.</strong>",
           "note": "HTML allowed — bold lead verb"
         },
         "i3": {
-          "text": "Utforska hur digitala plattformar, algoritmer för sociala medier och AI kan förstärka övergrepp online, och hur effektiv styrning kan bidra till att minska dem.",
+          "text": "<strong>Utforska hur digitala plattformar, algoritmer för sociala medier och AI kan förstärka övergrepp online, och hur effektiv styrning kan bidra till att minska dem.</strong>",
           "note": "HTML allowed — bold lead verb"
         },
         "i4": {
-          "text": "Tillämpa rapporteringsrutiner med tillförsikt och flagga kränkande innehåll på ett säkert och effektivt sätt på större sociala medier och spelplattformar.",
+          "text": "<strong>Tillämpa rapporteringsrutiner med tillförsikt och flagga kränkande innehåll på ett säkert och effektivt sätt på större sociala medier och spelplattformar.</strong>",
           "note": "HTML allowed — bold lead verb"
         },
         "i5": {
-          "text": "Vidta välgrundade åtgärder i din idrottsmiljö, individuellt och tillsammans med andra, för att bidra till att skapa säkrare miljöer inom idrotten.",
+          "text": "<strong>Vidta välgrundade åtgärder i din idrottsmiljö, individuellt och tillsammans med andra, för att bidra till att skapa säkrare miljöer inom idrotten.</strong>",
           "note": "HTML allowed — bold lead verb"
         }
       }
@@ -4382,49 +4382,49 @@
       },
       "euDisclaimer": {
         "body": {
-          "text": "Finansiering sker av Europeiska unionen. De åsikter och uppfattningar som uttrycks är dock endast författarnas/författarnas egna och återspeglar inte nödvändigtvis Europeiska unionens eller Europeiska genomförandeorganet för utbildning och kultur (EACEA). Varken Europeiska unionen eller EACEA kan hållas ansvariga för dem.",
+          "text": "<p style=\"text-align: left\"><span style=\"font-size: 11px\"><em>Finansiering sker av Europeiska unionen. De åsikter och uppfattningar som uttrycks är dock endast författarnas/författarnas egna och återspeglar inte nödvändigtvis Europeiska unionens eller Europeiska genomförandeorganet för utbildning och kultur (EACEA). Varken Europeiska unionen eller EACEA kan hållas ansvariga för dem.</em></span></p>",
           "note": "Native text body on Welcome"
         }
       },
       "sportConnectsMillionsOfPeopleAcross": {
         "body": {
-          "text": "Sport förenar miljontals människor över länder, kulturer och generationer genom passion, stolthet och spänningen i tävling. Onlineövergrepp sätter den kopplingen i fara. När idrottare, funktionärer, volontärer och fans attackeras online för vilka de är eller hur de presterar, kan konsekvenserna sträcka sig långt bortom skärmen - skada människor, spåra ur karriärer och normalisera kränkande beteende. United Against Online Abuse (UAOA) sammanför mer än 75 regeringar, sporter, akademiker och teknikplattformar kring ett gemensamt mål: att göra sporten säkrare från onlineövergrepp. Varaktig förändring kräver åtgärder från institutioner, samhällen och individer, och det inkluderar dig. Utvecklad i samarbete med University of Notre Dame, med denna e-lärandekurs, är huvudmålet med UAOA-initiativet att hjälpa dig att känna igen olika former av onlineövergrepp, förstå deras inverkan på din idrottsgemenskap och använda rapporteringsrutiner med självförtroende. När den är avslutad kommer kursen att förbereda dig för att vidta välgrundade åtgärder och bidra till en säkrare idrottsmiljö. Tack för att du deltar i arbetet.",
+          "text": "<p><span style=\"color: #091324\"><strong>Sport förenar miljontals människor över länder, kulturer och generationer genom passion, stolthet och spänningen i tävling. Onlineövergrepp sätter den kopplingen i fara. När idrottare, funktionärer, volontärer och fans attackeras online för vilka de är eller hur de presterar, kan konsekvenserna sträcka sig långt bortom skärmen - skada människor, spåra ur karriärer och normalisera kränkande beteende. United Against Online Abuse (UAOA) sammanför mer än 75 regeringar, sporter, akademiker och teknikplattformar kring ett gemensamt mål: att göra sporten säkrare från onlineövergrepp. Varaktig förändring kräver åtgärder från institutioner, samhällen och individer, och det inkluderar dig. Utvecklad i samarbete med University of Notre Dame, med denna e-lärandekurs, är huvudmålet med UAOA-initiativet att hjälpa dig att känna igen olika former av onlineövergrepp, förstå deras inverkan på din idrottsgemenskap och använda rapporteringsrutiner med självförtroende. När den är avslutad kommer kursen att förbereda dig för att vidta välgrundade åtgärder och bidra till en säkrare idrottsmiljö. Tack för att du deltar i arbetet.</strong><br><br><br><br></span></p><p></p><p></p><p></p><p></p>",
           "note": "Native text body on Welcome"
         },
         "p3": {
-          "text": "United Against Online Abuse (UAOA) sammanför fler än 75 regeringar, sporter, akademiker och teknikplattformar kring ett gemensamt mål: att göra sporten säkrare från onlineövergrepp. Varaktig förändring kräver handling från institutioner, samhällen och individer, och det inkluderar dig.",
+          "text": "<p>United Against Online Abuse (UAOA) sammanför fler än 75 regeringar, sporter, akademiker och teknikplattformar kring ett gemensamt mål: att göra sporten säkrare från onlineövergrepp. Varaktig förändring kräver handling från institutioner, samhällen och individer, och det inkluderar dig.</p>",
           "note": "Native text body on Welcome"
         }
       },
       "welcomeTitle": {
         "heading": {
-          "text": "Välkommen: Tack för att du deltar i UAOA-uppdraget!",
+          "text": "<span style=\"color: #1c3564\">Välkommen: Tack för att du deltar i UAOA-uppdraget!</span>",
           "note": "Native heading on Welcome"
         }
       },
       "buildReadinessBody": {
-        "text": "Medvetenhet är bara början. Den här kursen bygger upp de praktiska kunskaper och färdigheter som behövs för att förstå övergrepp online och vidta välgrundade åtgärder för dig själv och för din idrottsgemenskap. Kursen är utformad för att möta dig var du än befinner dig i din förståelse av ämnet: Om du redan är bekant med övergrepp online, fördjupa din förståelse för rapporteringssystem, digitala plattformar, AI och nya metoder för förebyggande och respons. Om ämnet är nytt för dig, bygg en stark grund och identifiera praktiska sätt att bidra till säkrare onlinepraxis och digitala utrymmen inom idrotten. Vid slutet av kursen kommer du att vara bättre rustad att känna igen övergrepp online, reagera med självförtroende och spela en aktiv roll i att skapa säkrare idrott.",
+        "text": "<p><span style=\"color: #091324\">Medvetenhet är bara början. Den här kursen bygger upp de praktiska kunskaper och färdigheter som behövs för att förstå övergrepp online och vidta välgrundade åtgärder för dig själv och för din idrottsgemenskap. Kursen är utformad för att möta dig var du än befinner dig i din förståelse av ämnet: Om du redan är bekant med övergrepp online, fördjupa din förståelse för rapporteringssystem, digitala plattformar, AI och nya metoder för förebyggande och respons. Om ämnet är nytt för dig, bygg en stark grund och identifiera praktiska sätt att bidra till säkrare onlinepraxis och digitala utrymmen inom idrotten. Vid slutet av kursen kommer du att vara bättre rustad att känna igen övergrepp online, reagera med självförtroende och spela en aktiv roll i att skapa säkrare idrott.</span></p><p></p><p></p><ul style=\"margin: 0.5em 0 0.75em; padding-left: calc(1.35em + 10pt);\"><li style=\"margin: 0 0 10pt; color: #091324;\"><p style=\"margin: 0;\"></p></li><li style=\"margin: 0; color: #091324;\"><p style=\"margin: 0;\"></p></li></ul><p></p>",
         "note": "Native text body on Welcome"
       }
     },
     "about": {
       "aboutTheCourse": {
         "body": {
-          "text": "Kursens längdCirka 90 minuter, genomförs i din egen takt.Vem riktar sig kursen till?Alla som deltar i, arbetar med eller engagerar sig i idrott och vill bättre förstå och hantera online-övergrepp, inklusive idrottare, tränare, funktionärer, personal, volontärer, administratörer, medieproffs, fans och andra inom idrottsvärlden.Vad kan du förvänta dig?Fem korta moduler kombinerar praktisk vägledning, scenarier och möjligheter att tillämpa det du lär dig. Inga förkunskaper om online-övergrepp krävs.",
+          "text": "<p><span style=\"color: #091324\"><strong>Kursens längdCirka 90 minuter, genomförs i din egen takt.Vem riktar sig kursen till?Alla som deltar i, arbetar med eller engagerar sig i idrott och vill bättre förstå och hantera online-övergrepp, inklusive idrottare, tränare, funktionärer, personal, volontärer, administratörer, medieproffs, fans och andra inom idrottsvärlden.Vad kan du förvänta dig?Fem korta moduler kombinerar praktisk vägledning, scenarier och möjligheter att tillämpa det du lär dig. Inga förkunskaper om online-övergrepp krävs.</strong></span></p><p></p><p><br></p><p></p><p></p><p><br></p><p></p><p></p>",
           "note": "Native text body on About This Course"
         },
         "heading": {
-          "text": "Om kursen",
+          "text": "<span style=\"color: #21b7cb\">Om kursen</span>",
           "note": "Native heading on About This Course"
         }
       },
       "courseTitle": {
-        "text": "UAOA e-lärandekursFörstå och hantera onlineövergrepp inom idrotten",
+        "text": "<span style=\"color: var(--background); font-size: 22pt\">UAOA e-lärandekursFörstå och hantera onlineövergrepp inom idrotten</span>",
         "note": "About course hero title (HTML)"
       },
       "readyToBegin": {
         "heading": {
-          "text": "Redo att börja?",
+          "text": "<span style=\"color: #21b7cb\">Redo att börja?</span>",
           "note": "Native heading on About This Course"
         }
       },
@@ -4434,21 +4434,21 @@
       },
       "tagline": {
         "body": {
-          "text": "Den här kursen från United Against Online Abuse (UAOA) ger praktisk kunskap och verktyg som hjälper dig att känna igen övergrepp online, förstå dess effekter, navigera i rapporteringsförfaranden och vidta välgrundade åtgärder inom din idrottsgemenskap.",
+          "text": "<p><span style=\"color: #091324; font-size: 18px\">Den här kursen från <strong>United Against Online Abuse (UAOA)</strong> ger praktisk kunskap och verktyg som hjälper dig att känna igen övergrepp online, förstå dess effekter, navigera i rapporteringsförfaranden och vidta välgrundade åtgärder inom din idrottsgemenskap.</span></p>",
           "note": "Native text body on About This Course"
         },
         "heading": {
-          "text": "Bygga säkrare digitala utrymmen inom sport",
+          "text": "<span style=\"color: #1c3564\">Bygga säkrare digitala utrymmen inom sport</span>",
           "note": "Native heading on About This Course"
         }
       },
       "whatYoullExplore": {
         "body": {
-          "text": "Modul 1 · Förstå onlineövergreppLär dig känna igen olika former av onlineövergrepp, hur de kan överlappa varandra och eskalera, och vilka grupper av människor som utsätts för oproportionerliga risker.Modul 2 · Onlineövergrepp inom idrotten: Den mänskliga påverkanUtforska hur onlineövergrepp kan påverka idrottare med konsekvenser för välbefinnande, prestation, deltagande och idrottsgemenskaper.Modul 3 · Hur onlineskada spridsFörstå hur digitala plattformar, onlinebeteenden och framväxande tekniker kan förstärka skadligt innehåll och påverka hur övergrepp utvecklas och sprids.Modul 4 · Känna till dina rättigheter och skyldigheterBygg medvetenhet om dina rättigheter, skyldigheter och tillgängliga rapporteringsvägar, inklusive plattformarnas, idrottsorganisationernas och andra relevanta organens roller.Modul 5 · Agera: Bygg säkrare digitala idrottsgemenskaperOmsätt kunskap till handling genom att utforska praktiska sätt att förebygga, reagera på och utmana onlineövergrepp inom din idrottsgemenskap.",
+          "text": "<div style=\"margin:0;border:0;border-left:none;background:transparent;\"><p style=\"margin:0 0 0.35em;\"><span style=\"color: #091324\"><strong>Modul 1 · Förstå onlineövergrepp</strong></span></p><p style=\"margin:0 0 1.35em; padding-left: 5em;\"><span style=\"color: #091324\">Lär dig känna igen olika former av onlineövergrepp, hur de kan överlappa varandra och eskalera, och vilka grupper av människor som utsätts för oproportionerliga risker.</span></p><p style=\"margin:0 0 0.35em;\"><span style=\"color: #091324\"><strong>Modul 2 · Onlineövergrepp inom idrotten: Den mänskliga påverkan</strong></span></p><p style=\"margin:0 0 1.35em; padding-left: 5em;\"><span style=\"color: #091324\">Utforska hur onlineövergrepp kan påverka idrottare med konsekvenser för välbefinnande, prestation, deltagande och idrottsgemenskaper.</span></p><p style=\"margin:0 0 0.35em;\"><span style=\"color: #091324\"><strong>Modul 3 · Hur onlineskada sprids</strong></span></p><p style=\"margin:0 0 1.35em; padding-left: 5em;\"><span style=\"color: #091324\">Förstå hur digitala plattformar, onlinebeteenden och framväxande tekniker kan förstärka skadligt innehåll och påverka hur övergrepp utvecklas och sprids.</span></p><p style=\"margin:0 0 0.35em;\"><span style=\"color: #091324\"><strong>Modul 4 · Känna till dina rättigheter och skyldigheter</strong></span></p><p style=\"margin:0 0 1.35em; padding-left: 5em;\"><span style=\"color: #091324\">Bygg medvetenhet om dina rättigheter, skyldigheter och tillgängliga rapporteringsvägar, inklusive plattformarnas, idrottsorganisationernas och andra relevanta organens roller.</span></p><p style=\"margin:0 0 0.35em;\"><span style=\"color: #091324\"><strong>Modul 5 · Agera: Bygg säkrare digitala idrottsgemenskaper</strong></span></p><p style=\"margin:0 0 0; padding-left: 5em;\"><span style=\"color: #091324\">Omsätt kunskap till handling genom att utforska praktiska sätt att förebygga, reagera på och utmana onlineövergrepp inom din idrottsgemenskap.</span></p></div>",
           "note": "Native text body on About This Course"
         },
         "heading": {
-          "text": "Vad du kommer att utforska",
+          "text": "<span style=\"color: #21b7cb\">Vad du kommer att utforska</span>",
           "note": "Native heading on About This Course"
         }
       }

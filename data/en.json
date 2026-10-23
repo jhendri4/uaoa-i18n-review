@@ -3160,41 +3160,55 @@
       "score": {
         "youScored": {
           "text": "You scored",
-          "note": "Flip-card modal front label above large %"
+          "note": "Flip-card modal front label above large % when passed"
+        },
+        "yourScore": {
+          "text": "Your score",
+          "note": "Flip-card modal front label above large % on any failed attempt (unlimited retries until pass)"
         },
         "clickToComplete": {
           "text": "Click to complete",
-          "note": "Flip-card modal front CTA when passed or attempts exhausted"
+          "note": "Flip-card modal front CTA when passed (block completes only on pass)"
         },
         "clickForDetails": {
           "text": "Click for details",
-          "note": "Flip-card modal front CTA when below pass score with retries left"
+          "note": "Flip-card modal front CTA on any fail; Try again stays available until pass"
         },
         "headline": {
           "text": "You scored {pct}%!",
           "note": "Legacy / optional; modal uses youScored + large %"
         },
         "body": {
-          "text": "You’ve learned how to recognise online abuse, understand its impact, and respond more safely across individual, organisational, and wider sporting contexts."
+          "text": "You’ve learned how to recognise online abuse, understand its impact, and respond more safely across individual, organisational, and wider sporting contexts.",
+          "note": "Score back body when passed"
         },
         "note": {
-          "text": "Your score reflects your understanding of the key concepts covered in this course."
+          "text": "Your score reflects your understanding of the key concepts covered in this course.",
+          "note": "Score back note when passed"
         },
         "didNotPass": {
           "text": "A score of {pass}% or higher is required to pass. This was attempt {n} of {max}.",
-          "note": "Shown on score back when below pass threshold; {pass}, {n}, {max} replaced in JS"
+          "note": "Legacy (capped retries); live fail UI uses exhaustedBody. Keep {pass}/{n}/{max} if re-used"
         },
         "retryHint": {
           "text": "Review the course material, then try the quiz again.",
-          "note": "Score back note when retries remain"
+          "note": "Legacy; live fail UI uses exhaustedNote"
+        },
+        "exhaustedBody": {
+          "text": "You’re making progress in understanding online abuse in sport. A score of {pass}% or higher is required to complete the course and earn your certificate.",
+          "note": "Score back body on EVERY failed attempt; {pass} = ScormStack grade_required / UAOA_QUIZ_CONFIG.passPct. Unlimited retries until pass."
+        },
+        "exhaustedNote": {
+          "text": "Review the key concepts and learning materials, then try the final quiz again when you’re ready.",
+          "note": "Score back note on EVERY failed attempt; paired with Try again until they pass"
         },
         "attemptsExhausted": {
           "text": "You’ve used all {max} attempts. You can close this quiz and continue.",
-          "note": "Score back note after final failed attempt; {max} replaced in JS"
+          "note": "Legacy (capped retries removed); live fail UI uses exhaustedBody / exhaustedNote + Try again"
         },
         "finish": {
           "text": "Close",
-          "note": "Closes readiness flip modal on the back face"
+          "note": "Closes readiness flip modal on the back face after a pass"
         }
       }
     },
@@ -3279,8 +3293,8 @@
         },
         "yourReadiness": {
           "body": {
-            "text": "<p><span style=\"color: #091324; font-size: 30px\"><strong>Your Readiness Score is {{score}}%!</strong></span></p><p></p><p><span style=\"color: #091324\">You’ve learned how to recognise online abuse, understand its impact, and respond more safely across individual, organisational, and wider sporting contexts.</span></p><p></p><p><span style=\"color: #091324\">Your score reflects your current readiness to recognise online abuse and make informed decisions when it occurs.</span></p>",
-            "note": "Native text body on Final Quiz"
+            "text": "<p><span style=\"color: #091324; font-size: 30px\"><strong>Your Readiness Score is <span data-uaoa-readiness-score>{{score}}</span>%!</strong></span></p><p></p><p><span style=\"color: #091324\">You’ve learned how to recognise online abuse, understand its impact, and respond more safely across individual, organisational, and wider sporting contexts.</span></p><p></p><p><span style=\"color: #091324\">Your score reflects your current readiness to recognise online abuse and make informed decisions when it occurs.</span></p>",
+            "note": "Native text body on Final Quiz; data-uaoa-readiness-score is updated on quiz retry via course custom JS"
           },
           "heading": {
             "text": "Your readiness",
@@ -3376,6 +3390,14 @@
       "closeAria": {
         "text": "Close"
       },
+      "backToCourse": {
+        "text": "Back to course",
+        "note": "Mini Dictionary dialog close button"
+      },
+      "termsCount": {
+        "text": "{n} terms",
+        "note": "Section badge in Mini Dictionary; {n} = entry count"
+      },
       "title": {
         "text": "Mini Dictionary: Other Possible Forms of Online Abuse",
         "note": "Dictionary document title"
@@ -3399,6 +3421,16 @@
       "noBlock": {
         "text": "No following block found on this slide.",
         "note": "Dev/fallback message"
+      }
+    },
+    "supportFloater": {
+      "breakPill": {
+        "text": "Need to take a break?",
+        "note": "Bottom-left floater pill → support options dialog"
+      },
+      "regionAria": {
+        "text": "Course support",
+        "note": "aria-label on floater stack"
       }
     }
   },
@@ -3480,9 +3512,10 @@
       "m5.match → widget-m5-match.html",
       "summary.quiz → widget-summary-final-quiz.html",
       "summary.furtherAction → widget-summary-further-action.html",
-      "embeds.sensitiveNotice → sensitive-notice-embed.html",
-      "embeds.miniDictionary → mini-dictionary-embed.html",
+      "embeds.sensitiveNotice → sensitive-notice-embed.html (+ floater support dialog)",
+      "embeds.miniDictionary → mini-dictionary-embed.html (+ floater dict pill label)",
       "embeds.scroll → more-scroll-embed.html / scroll-fade-embed.html",
+      "embeds.supportFloater → docs/course-support-floater.js (baked via deploy_custom_js.py --locale)",
       "welcome.outcomes → widget-welcome-outcomes.html",
       "welcome.partners → partner-acknowledgements-embed.html",
       "m1.slide.continueToModule2 / m2…m4 continueToModule* → native navigation_button",
