@@ -721,6 +721,10 @@
       "title": {
         "text": "Module 1: Recognising Online Abuse",
         "note": "Module / summary slide title"
+      },
+      "continueToModule2": {
+        "text": "Continue to Module 2",
+        "note": "End-of-module navigation_button label"
       }
     }
   },
@@ -1160,6 +1164,10 @@
       "barometerCallout": {
         "text": "<p>To learn more about the impact and harms of online abuse, we invite you to explore the findings of UAOA’s landmark study captured in the <a href=\"https://unitedagainstonlineabuse.com/uaoa-barometer-2025/\" target=\"_blank\" rel=\"noopener\">UAOA Barometer 2025</a> - which measures online abuse in sport, with participation from leading NGOs and International Federations.</p>",
         "note": "Module 2 image_with_text callout (Barometer brochure); link title only"
+      },
+      "continueToModule3": {
+        "text": "Continue to Module 3",
+        "note": "End-of-module navigation_button label"
       }
     }
   },
@@ -1515,6 +1523,10 @@
       "title": {
         "text": "Module 3: How Online Harm Spreads",
         "note": "Module / summary slide title"
+      },
+      "continueToModule4": {
+        "text": "Continue to Module 4",
+        "note": "End-of-module navigation_button label"
       }
     }
   },
@@ -1846,6 +1858,10 @@
       "title": {
         "text": "Module 4: Knowing Your Rights and Responsibilities",
         "note": "Module / summary slide title"
+      },
+      "continueToModule5": {
+        "text": "Continue to Module 5",
+        "note": "End-of-module navigation_button label"
       }
     }
   },
@@ -2752,7 +2768,7 @@
         },
         "openResource": {
           "text": "Open resource",
-          "note": "Legacy; Q11 now shows masked link labels inline inside answer pills"
+          "note": "Legacy; Q11 links are inline in answer pills only — feedback popup shows readiness CTA with no resource link"
         }
       },
       "score": {
@@ -2870,6 +2886,37 @@
       },
       "closeAria": {
         "text": "Close"
+      },
+      "close": {
+        "text": "Close",
+        "note": "Support dialog primary close button"
+      },
+      "orgLeadDetail": {
+        "text": "Clubs and federations can offer support and act on abuse."
+      },
+      "platformReporting": {
+        "text": "Platform reporting tools"
+      },
+      "platformReportingDetail": {
+        "text": "Every major platform lets you report posts and accounts."
+      },
+      "emergencyServices": {
+        "text": "Emergency services"
+      },
+      "emergencyServicesDetail": {
+        "text": "If you or someone else is in immediate danger, contact your local emergency number."
+      },
+      "bodyM2": {
+        "text": "This module discusses the emotional and psychological effects of online abuse. You are encouraged to work through the material at a pace that feels appropriate and to access support where needed. You can return to the course whenever you are ready.",
+        "note": "Module 2 sensitive-notice body"
+      },
+      "bodyM3": {
+        "text": "This module refers to forms of online abuse. No abusive content is shown. Take breaks when you need them, and remember that support is available. You can return to the course whenever you are ready.",
+        "note": "Module 4 sensitive-notice body (forms-of-abuse wording)"
+      },
+      "bodyM4": {
+        "text": "This module discusses online abuse and responses to it. No abusive content is shown. Take breaks when you need them, and remember that support is available. You can return to the course whenever you are ready.",
+        "note": "Module 5 sensitive-notice body"
       }
     },
     "miniDictionary": {
@@ -2927,11 +2974,12 @@
     "summary": {
       "learner_facing_keys": 469,
       "widgets_and_embeds_wired": 30,
-      "native_slide_keys": "m1.slide / m2.slide / m3.slide / m4.slide / m5.slide / summary.slide + common.keyTakeaways + common.wrongPlain (cataloged; builders mostly still hardcode except uaoa_common.WRONG)"
+      "native_slide_keys": "welcome.slide / m1.slide / m2.slide / m3.slide / m4.slide / m5.slide / summary.slide + common.keyTakeaways + common.wrongPlain (cataloged; builders mostly still hardcode except uaoa_common.WRONG)"
     },
     "wired_widgets": [
       "mini-dictionary-embed.html",
       "more-scroll-embed.html",
+      "partner-acknowledgements-embed.html",
       "scroll-fade-embed.html",
       "sensitive-notice-embed.html",
       "widget-affected-flips.html",
@@ -2964,7 +3012,8 @@
       "widget-matteo-cards.html",
       "widget-platform-flips.html",
       "widget-summary-final-quiz.html",
-      "widget-summary-further-action.html"
+      "widget-summary-further-action.html",
+      "widget-welcome-outcomes.html"
     ],
     "cataloged_widgets": [
       "m1.apply → widget-apply-scenarios.html",
@@ -3000,7 +3049,10 @@
       "summary.furtherAction → widget-summary-further-action.html",
       "embeds.sensitiveNotice → sensitive-notice-embed.html",
       "embeds.miniDictionary → mini-dictionary-embed.html",
-      "embeds.scroll → more-scroll-embed.html / scroll-fade-embed.html"
+      "embeds.scroll → more-scroll-embed.html / scroll-fade-embed.html",
+      "welcome.outcomes → widget-welcome-outcomes.html",
+      "welcome.partners → partner-acknowledgements-embed.html",
+      "m1.slide.continueToModule2 / m2…m4 continueToModule* → native navigation_button"
     ],
     "widgets_pending_wire": [],
     "native_slide_text": {
@@ -3945,6 +3997,52 @@
           "text": "Step",
           "note": "ScormStack player/system label `web_simulation.step`"
         }
+      }
+    }
+  },
+  "welcome": {
+    "partners": {
+      "caption": {
+        "text": "UAOA thanks the Erasmus+ partner FIA member clubs Autoklub Ceske republiky (Czech Republic), Zveza za avto sport Slovenije - AS (Slovenia), Real Federación Española De Automovilismo (Spain) and Svenska Bilsportförbundet (Sweden) along with the respective Academic partners Charles University, Prague, Prof. Matej Tusak (Slovenia), ESBS (European Sport Business School (ESBS Spain) and Asst. Prof. Lisa Kaati (Stockholm University) for contributing to the development of this eLearning Course.",
+        "note": "Welcome partner-acknowledgements caption embed (teal italic box under video)"
+      }
+    },
+    "outcomes": {
+      "listAria": {
+        "text": "What you will gain from this course",
+        "note": "aria-label on Welcome learning-objectives timeline list"
+      },
+      "items": {
+        "i1": {
+          "text": "<strong>Recognise</strong> online abuse and its different forms, including who may face disproportionate risk.",
+          "note": "HTML allowed — bold lead verb"
+        },
+        "i2": {
+          "text": "<strong>Understand</strong> the impact of online abuse in your sporting community, using real-world evidence to identify its consequences for mental health and athletic performance.",
+          "note": "HTML allowed — bold lead verb"
+        },
+        "i3": {
+          "text": "<strong>Explore</strong> how digital platforms, social media algorithms, and AI can amplify online abuse, and how effective governance can help reduce it.",
+          "note": "HTML allowed — bold lead verb"
+        },
+        "i4": {
+          "text": "<strong>Apply</strong> reporting procedures with confidence, safely and effectively flagging abusive content across major social media and gaming platforms.",
+          "note": "HTML allowed — bold lead verb"
+        },
+        "i5": {
+          "text": "<strong>Take</strong> informed action in your sporting environment, individually and alongside others, to help create safer spaces in sport.",
+          "note": "HTML allowed — bold lead verb"
+        }
+      }
+    },
+    "slide": {
+      "whatYouWillGain": {
+        "text": "What you will gain from this course:",
+        "note": "Welcome native subheading above learning-objectives timeline"
+      },
+      "buildReadiness": {
+        "text": "Build your readiness to act",
+        "note": "Welcome native subheading above Continue CTA"
       }
     }
   }
