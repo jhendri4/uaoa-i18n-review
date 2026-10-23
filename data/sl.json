@@ -113,65 +113,65 @@
   "survey": {
     "preCourse": {
       "iframeTitle": {
-        "text": "Pre-course survey",
+        "text": "Anketa pred tečajem",
         "note": "iframe title for Qualtrics embed between Welcome and Module 1"
       },
       "waitingStatus": {
-        "text": "Complete the survey below. Continue unlocks when you finish.",
+        "text": "Izpolnite spodnjo anketo. Nadaljujte, ko končate.",
         "note": "Status while waiting for QualtricsEOS"
       },
       "completeStatus": {
-        "text": "Survey complete — you can continue.",
+        "text": "Anketa je končana – lahko nadaljujete.",
         "note": "Status after QualtricsEOS / manual confirm"
       },
       "fallbackHint": {
-        "text": "If you finished the survey but Continue is still locked, confirm below.",
+        "text": "Če ste anketo izpolnili, vendar je možnost »Nadaljuj« še vedno zaklenjena, potrdite spodaj.",
         "note": "Shown after ~45s if EOS not detected"
       },
       "fallbackButton": {
-        "text": "I’ve finished the survey",
+        "text": "Anketo sem končal/a",
         "note": "Manual unlock when QualtricsEOS is not received"
       },
       "slideTitle": {
-        "text": "Pre-course survey",
+        "text": "Anketa pred tečajem",
         "note": "Slide / section title between Welcome and Module 1"
       },
       "intro": {
-        "text": "<p>Please complete this short survey before starting Module 1. Continue unlocks when you finish.</p>",
+        "text": "Preden začnete z modulom 1, izpolnite to kratko anketo. Nadaljujte, ko končate.",
         "note": "Pre-course survey intro HTML"
       },
       "continue": {
-        "text": "Continue to Module 1",
+        "text": "Nadaljujte z modulom 1",
         "note": "Nav CTA after survey embed"
       },
       "welcomeContinue": {
-        "text": "Continue",
+        "text": "Nadaljuj",
         "note": "Welcome CTA now advances to pre-course survey (was Continue to Module 1)"
       }
     },
     "postCourse": {
       "iframeTitle": {
-        "text": "Post-course survey",
+        "text": "Anketa po tečaju",
         "note": "iframe title for Qualtrics embed after final quiz"
       },
       "waitingStatus": {
-        "text": "Complete the survey below. Continue unlocks when you finish.",
+        "text": "Izpolnite spodnjo anketo. Nadaljujte, ko končate.",
         "note": "Status while waiting for QualtricsEOS"
       },
       "completeStatus": {
-        "text": "Survey complete — you can continue.",
+        "text": "Anketa je končana – lahko nadaljujete.",
         "note": "Status after QualtricsEOS / manual confirm"
       },
       "fallbackHint": {
-        "text": "If you finished the survey but Continue is still locked, confirm below.",
+        "text": "Če ste anketo izpolnili, vendar je možnost »Nadaljuj« še vedno zaklenjena, potrdite spodaj.",
         "note": "Shown after ~45s if EOS not detected"
       },
       "fallbackButton": {
-        "text": "I’ve finished the survey",
+        "text": "Anketo sem končal/a",
         "note": "Manual unlock when QualtricsEOS is not received"
       },
       "continue": {
-        "text": "Continue",
+        "text": "Nadaljuj",
         "note": "Nav CTA after post-course survey embed"
       }
     }
@@ -723,86 +723,86 @@
         "note": "slide_intro title"
       },
       "continueToModule2": {
-        "text": "Continue to Module 2",
+        "text": "Nadaljujte z modulom 2",
         "note": "End-of-module navigation_button label"
       },
       "applyWhatDoYouSee": {
         "body": {
-          "text": "<p><span style=\"color: #091324\"><strong>Online abuse can take different forms.</strong> Read each scenario and choose the behaviour that best describes what is happening.</span></p>",
+          "text": "Spletna zloraba se lahko kaže v različnih oblikah. Preberite vsak scenarij in izberite vedenje, ki najbolje opisuje, kaj se dogaja.",
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Apply: What do you see?</span>",
+          "text": "Uporabi: Kaj vidiš?",
           "note": "Native heading on Understanding Online Abuse"
         }
       },
       "contextMatters": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Online abuse does not always fit neatly into one category. To understand what is happening, consider:</span></p>",
+          "text": "Spletne zlorabe ni vedno mogoče uvrstiti v eno samo kategorijo. Da bi razumeli, kaj se dogaja, upoštevajte:",
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Context matters</span>",
+          "text": "Kontekst je pomemben",
           "note": "Native heading on Understanding Online Abuse"
         }
       },
       "exploreHowCanOnlineAbuseEvolve": {
         "body": {
-          "text": "<p><span style=\"color: #091324\"><strong>Online abuse can begin with in-person interactions and evolve</strong> as harmful content spreads and others become involved. Follow Matteo’s experience to see how this can happen.</span></p>",
+          "text": "Spletna zloraba se lahko začne z osebnimi interakcijami in se razvija, ko se škodljiva vsebina širi in se vanjo vključujejo drugi. Sledite Matteovi izkušnji in si oglejte, kako se to lahko zgodi.",
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Explore: How can online abuse evolve?</span>",
+          "text": "Raziščite: Kako se lahko razvija spletna zloraba?",
           "note": "Native heading on Understanding Online Abuse"
         }
       },
       "introSubtitle": {
-        "text": "Estimated time: 15 minutes",
+        "text": "Predvideni čas: 15 minut",
         "note": "slide_intro subtitle (estimated time)"
       },
       "languageWhatIsBeingSaidOr": {
         "body": {
-          "text": "<ul style=\"margin:0; padding-left: 3.0em; list-style:disc; color: #091324; font-family:'Cerebri Sans Pro', system-ui, -apple-system, 'Segoe UI', sans-serif; font-size:16px; line-height:1.55;\"><li style=\"margin:0 0 8px;\"><p><strong>Language:</strong> What is being said or shared?</p></li><li style=\"margin:0 0 8px;\"><p><strong>Target:</strong> Is the attack focused on performance, appearance, identity, or a protected characteristic?</p></li><li style=\"margin:0;\"><p><strong>Pattern:</strong> Is it a single interaction or part of repeated or collective hostility?</p></li></ul>",
+          "text": "Jezik: Kaj se govori ali deli? Cilj: Ali je napad osredotočen na delovanje, videz, identiteto ali zaščiteno lastnost? Vzorec: Ali gre za enkratno interakcijo ali del ponavljajoče se ali kolektivne sovražnosti?",
           "note": "Native text body on Understanding Online Abuse"
         }
       },
       "onlineAbuseDoesNotAffectEveryone": {
         "body": {
-          "text": "<p style=\"text-align: left\"><span style=\"color: #091324\"><strong>Online abuse does not affect everyone equally.</strong> Some people face more frequent or targeted abuse when hostility focuses on personal characteristics that are considered protected.&nbsp;<br><br><strong>Protected characteristics</strong> can include <strong>race, ethnicity, nationality, religion, gender, sexual orientation, disability, age, pregnancy status, and marital status</strong>.</span></p><p style=\"text-align: left\"></p><p style=\"text-align: left\"><span style=\"color: #091324\">This list is not exhaustive, and recognised or protected characteristics may vary across legal systems, languages, cultures, and countries. When hostile or malicious language targets someone based on these or other protected characteristics, it may constitute </span><span style=\"color: #091324\"><strong>hate speech</strong>.</span></p>",
+          "text": "Spletna zloraba ne prizadene vseh enako. Nekateri ljudje se soočajo s pogostejšo ali ciljno usmerjeno zlorabo, kadar se sovražnost osredotoča na osebne značilnosti, ki veljajo za zaščitene. Zaščitene značilnosti lahko vključujejo raso, etnično pripadnost, narodnost, vero, spol, spolno usmerjenost, invalidnost, starost, nosečnost in zakonski stan. Ta seznam ni izčrpen in priznane ali zaščitene značilnosti se lahko razlikujejo glede na pravne sisteme, jezike, kulture in države. Kadar sovražni ali zlonamerni jezik cilja na nekoga na podlagi teh ali drugih zaščitenih značilnosti, lahko to pomeni sovražni govor.",
           "note": "Native text body on Understanding Online Abuse"
         }
       },
       "onlineConversationsArePartOfSport": {
         "body": {
-          "text": "<p><span style=\"color: #091324; font-size: 18px\"><strong>Online conversations are part of sport: </strong>celebrating a result, discussing a decision, or connecting with a team or athlete. But these spaces can also become places where people are humiliated, targeted, or overwhelmed with criticism and abuse.</span></p>",
+          "text": "Spletni pogovori so del športa: praznovanje rezultata, razprava o odločitvi ali povezovanje z ekipo ali športnikom. Vendar pa lahko ti prostori postanejo tudi kraji, kjer so ljudje ponižani, tarča napadov ali preobremenjeni s kritiko in zlorabami.",
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "<span style=\"color: #1c3564; font-size: 14px\">Online conversations are part of sport: celebrating a result, discussing a decision, or connecting with a team or athlete. But these spaces can also become places where people are humiliated, targeted, or overwhelmed with criticism and abuse.</span>",
+          "text": "Spletni pogovori so del športa: praznovanje rezultata, razprava o odločitvi ali povezovanje z ekipo ali športnikom. Vendar pa lahko ti prostori postanejo tudi kraji, kjer so ljudje ponižani, tarča napadov ali preobremenjeni s kritiko in zlorabami.",
           "note": "Native heading on Understanding Online Abuse"
         }
       },
       "whatDoWeUnderstandByOnline": {
         "body": {
-          "text": "<p><span style=\"color: #091324\"><strong>Online abuse is any harmful behaviour directed at a person or group through digital platforms.</strong><br><br>Definitions vary across countries and contexts, so we focus on <em><u>what matters most:</u></em> recognising the harm and building the knowledge to prevent it in sport.</span></p><p></p><p><span style=\"color: #091324\">To recognise online abuse, it helps to understand the different forms it can take. Think of it as <strong>an umbrella covering three connected behaviours:</strong></span></p>",
+          "text": "Spletna zloraba je vsako škodljivo vedenje, usmerjeno proti osebi ali skupini prek digitalnih platform. Definicije se razlikujejo glede na državo in kontekst, zato se osredotočamo na tisto, kar je najpomembnejše: prepoznavanje škode in izgradnjo znanja za njeno preprečevanje v športu. Za prepoznavanje spletne zlorabe je koristno razumeti različne oblike, ki jih lahko ima. Predstavljajte si jo kot krovno skupino, ki zajema tri povezana vedenja:",
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">What do we understand by online abuse?</span>",
+          "text": "Kaj razumemo pod spletno zlorabo?",
           "note": "Native heading on Understanding Online Abuse"
         },
         "p4": {
-          "text": "<p>To recognise online abuse, it helps to understand the different forms it can take. Think of it as an umbrella covering three connected behaviours. Select each card to reveal the definition.</p>",
+          "text": "Za prepoznavanje spletne zlorabe je koristno razumeti različne oblike, ki jih lahko ima. Predstavljajte si jo kot krovno skupino, ki zajema tri povezana vedenja. Izberite vsako kartico, da razkrijete definicijo.",
           "note": "Native text body on Understanding Online Abuse"
         }
       },
       "whenTheBehavioursOverlap": {
         "body": {
-          "text": "<p style=\"text-align: left\"><span style=\"color: #091324\">Imagine a player receives a humiliating comment after a loss. Similar messages then flood their account for days. Some also attack their race.<br><br>The humiliating language is <strong>offensive speech</strong>. The repeated public aggression in one or across social media platforms creates <strong>digital hostility</strong>. The racist targeting is considered <strong>hate speech</strong>. <br><br>To recognise what is happening, look at the language, who or what it targets, and the pattern of interactions. More than one behaviour may be present.</span></p>",
+          "text": "Predstavljajte si, da igralec po porazu prejme ponižujoč komentar. Podobna sporočila nato več dni preplavljajo njegov račun. Nekatera napadajo tudi njegovo raso. Ponižujoč jezik je žaljiv govor. Ponavljajoča se javna agresija na eni ali več platformah družbenih medijev ustvarja digitalno sovražnost. Rasistično ciljanje se šteje za sovražni govor. Da bi prepoznali, kaj se dogaja, si oglejte jezik, na koga ali kaj cilja in vzorec interakcij. Prisotnih je lahko več kot eno vedenje.",
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">When the behaviours overlap:</span>",
+          "text": "Ko se vedenja prekrivajo:",
           "note": "Native heading on Understanding Online Abuse"
         }
       }
@@ -1246,41 +1246,41 @@
         "note": "Module 2 Barometer image_with_text"
       },
       "continueToModule3": {
-        "text": "Continue to Module 3",
+        "text": "Nadaljujte z modulom 3",
         "note": "End-of-module navigation_button label"
       },
       "checkYourUnderstandingOfTheKey": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Check your understanding of the key ideas from this module.</span></p>",
+          "text": "Preverite svoje razumevanje ključnih idej iz tega modula.",
           "note": "Native text body on Online Abuse in Sport: The Human Impact"
         }
       },
       "introSubtitle": {
-        "text": "Estimated time: 15 minutes",
+        "text": "Predvideni čas: 15 minut",
         "note": "slide_intro subtitle (estimated time)"
       },
       "section1Body": {
-        "text": "<p><span style=\"color: #091324\"><strong>Understanding how online abuse affects people</strong> helps us build empathy for those targeted and respond with care and respect. The effects of online abuse on people can be serious and far-reaching: a single post can leave someone feeling anxious, unsafe, or doubting themselves even long after the initial interaction.</span></p><p></p><p><span style=\"color: #091324\">As abuse continues or spreads across digital platforms, its <strong>impact can intensify</strong>. Online abuse can affect <strong>mental health and wellbeing</strong>, as well as how athletes perform, how officials approach decisions, and how journalists and other professionals engage with their work.</span></p><p></p><p><span style=\"color: #091324\">Such effects can also <strong>extend beyond the person being targeted.</strong> Families, teammates, colleagues, and fans may witness or experience the consequences of abuse. At a wider level, persistent online hostility can shape sporting culture, affect participation, and influence <strong>who feels safe and welcome in sport.</strong></span></p>",
+        "text": "Razumevanje, kako spletna zloraba vpliva na ljudi, nam pomaga razviti empatijo do tistih, ki so tarča, in se nanjo odzvati s skrbnostjo in spoštovanjem. Posledice spletne zlorabe na ljudi so lahko resne in daljnosežne: ena sama objava lahko pri nekom vzbudi tesnobo, negotovost ali dvom vase še dolgo po prvi interakciji. Ko se zloraba nadaljuje ali širi po digitalnih platformah, se njen vpliv lahko okrepi. Spletna zloraba lahko vpliva na duševno zdravje in dobro počutje, pa tudi na to, kako športniki nastopajo, kako sodniki pristopajo k odločitvam ter kako novinarji in drugi strokovnjaki opravljajo svoje delo. Takšni učinki se lahko razširijo tudi preko osebe, ki je tarča. Družine, soigralci, kolegi in navijači so lahko priča posledicam zlorabe ali jih sami izkusijo. Na širši ravni lahko vztrajna spletna sovražnost oblikuje športno kulturo, vpliva na udeležbo in vpliva na to, kdo se v športu počuti varnega in dobrodošlega.",
         "note": "Section body on Online Abuse in Sport: The Human Impact"
       },
       "section2Body": {
-        "text": "<p><span style=\"color: #091324\">High-profile athletes tend to face a large volume of online abuse. However, <strong>athletes are not the only people targeted.</strong></span></p>",
+        "text": "Znani športniki se pogosto soočajo z veliko spletnimi zlorabami. Vendar pa športniki niso edine tarče.",
         "note": "Section body on Online Abuse in Sport: The Human Impact"
       },
       "section3Body": {
-        "text": "<p><span style=\"color: #091324\">Online abuse can affect everyone involved in sport. Its consequences vary depending on the individual and their circumstances, with some impacts being particularly relevant to athletes. These effects can also reinforce one another: anxiety may disrupt sleep, poor sleep may affect concentration and confidence, and these combined effects can influence daily activities, sporting performance, and overall wellbeing.</span></p>",
+        "text": "Spletna zloraba lahko prizadene vse, ki se ukvarjajo s športom. Njene posledice se razlikujejo glede na posameznika in njegove okoliščine, pri čemer so nekateri vplivi še posebej pomembni za športnike. Ti učinki se lahko tudi medsebojno krepijo: tesnoba lahko moti spanec, slab spanec lahko vpliva na koncentracijo in samozavest, ti kombinirani učinki pa lahko vplivajo na vsakodnevne aktivnosti, športno uspešnost in splošno dobro počutje.",
         "note": "Section body on Online Abuse in Sport: The Human Impact"
       },
       "section4Body": {
-        "text": "<p><span style=\"color: #091324\">After receiving repeated abusive messages online, an athlete begins posting on social media less frequently. Their coach notices they seem distracted during training, and they have recently mentioned sleeping poorly and feeling anxious about attending public events.</span></p>",
+        "text": "Potem ko je na spletu prejel večkratna žaljiva sporočila, je športnik začel manj pogosto objavljati na družbenih omrežjih. Njegov trener je opazil, da se med treningom zdi raztresen, pred kratkim pa je omenil, da slabo spi in da je tesnoben zaradi udeležbe na javnih dogodkih.",
         "note": "Section body on Online Abuse in Sport: The Human Impact"
       },
       "section5Body": {
-        "text": "<p><span style=\"color: #091324\">The effects of online abuse can <strong>extend beyond individuals</strong>, shaping the culture of sport and the communities around it. Widespread hostility can affect <strong>who feels welcome, safe, and able to participate</strong>, with implications for inclusion and the sustainability of sporting communities.<br><br></span></p><p><span style=\"color: #091324\">Sport also has a <strong>wider social influence</strong>. The behaviours and attitudes expressed in sporting spaces can contribute to broader social norms. When discriminatory or abusive behaviour becomes normalised, it can reinforce <strong>prejudice, exclusion, and hostility beyond sport.</strong></span></p><p></p>",
+        "text": "Posledice spletne zlorabe lahko segajo dlje od posameznikov in oblikujejo športno kulturo in skupnosti okoli nje. Široko razširjena sovražnost lahko vpliva na to, kdo se počuti dobrodošlo, varno in sposobno sodelovati, kar ima posledice za vključenost in trajnost športnih skupnosti. Šport ima tudi širši družbeni vpliv. Vedenja in stališča, izražena v športnih prostorih, lahko prispevajo k širšim družbenim normam. Ko diskriminatorno ali zlorabno vedenje postane normalizirano, lahko okrepi predsodke, izključenost in sovražnost zunaj športa.",
         "note": "Section body on Online Abuse in Sport: The Human Impact"
       },
       "section5Body3": {
-        "text": "<p>To learn more, please read the <a href=\"https://unitedagainstonlineabuse.com/uaoa-barometer-2025/\" target=\"_blank\" rel=\"noopener\">UAOA Barometer 2025</a>.</p>",
+        "text": "Če želite izvedeti več, preberite UAOA Barometer 2025.",
         "note": "Section body on Online Abuse in Sport: The Human Impact"
       }
     }
@@ -1639,138 +1639,138 @@
         "note": "slide_intro title"
       },
       "continueToModule4": {
-        "text": "Continue to Module 4",
+        "text": "Nadaljujte z modulom 4",
         "note": "End-of-module navigation_button label"
       },
       "aiAndOnlineHarm": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">AI is changing how online harm can be created and how it is shared. But AI can also be a powerful tool to avoid unwanted content spreading online.</span></p>",
+          "text": "Umetna inteligenca spreminja način ustvarjanja in deljenja spletne škode. Vendar pa je lahko tudi močno orodje za preprečevanje širjenja neželenih vsebin na spletu.",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">AI and Online Harm</span>",
+          "text": "Umetna inteligenca in spletna škoda",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
       "exploreReportingSystemsInYourCountry": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Learn where to report online abuse, seek support and access resources to help address harmful content and behaviour.</span></p>",
+          "text": "Naučite se, kje prijaviti spletno zlorabo, poiskati podporo in dostopati do virov za pomoč pri obravnavanju škodljivih vsebin in vedenja.",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Explore reporting systems in your country:&nbsp;</span>",
+          "text": "Raziščite sisteme poročanja v svoji državi:",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
       "exploreWhichFactorsCanInfluenceHow": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Select the three factors that can directly influence how harmful content travels and reaches new audiences online.</span></p>",
+          "text": "Izberite tri dejavnike, ki lahko neposredno vplivajo na to, kako se škodljiva vsebina širi in dosega novo občinstvo na spletu.",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Explore: Which factors can influence how harmful content travels online?</span>",
+          "text": "Raziščite: Kateri dejavniki lahko vplivajo na to, kako se škodljiva vsebina širi po spletu?",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
       "howPlatformsHelpReduceOnlineAbuse": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Platforms act as intermediaries between <strong>people, content, and communities</strong>. Their design can influence the reach of harmful content, and their built-in tools can also help <strong>detect, limit, report, and respond to abuse</strong>.</span></p><p></p><p><span style=\"color: #091324\">These measures can include <strong>content moderation, reduced distribution of harmful content, prompts before posting, user safety settings, reporting mechanisms, and community standards.</strong> Regulation is also increasingly shaping platform responsibilities.&nbsp;</span></p><p></p><p><span style=\"color: #091324\">In most countries of the world, these platforms have a fiduciary duty (in the UK, for example, the <a href=\"https://www.gov.uk/government/publications/online-safety-act-explainer/online-safety-act-explainer\" target=\"_blank\" rel=\"noopener\">Online Safety Act</a> and in Europe, the <a href=\"https://digital-strategy.ec.europa.eu/en/policies/digital-services-act\" target=\"_blank\" rel=\"noopener\">Digital Services Act</a>) to assess risks, protect users from illegal content, provide reporting mechanisms, and implement proportionate safety measures.</span></p>",
+          "text": "Platforme delujejo kot posredniki med ljudmi, vsebinami in skupnostmi. Njihova zasnova lahko vpliva na doseg škodljivih vsebin, njihova vgrajena orodja pa lahko pomagajo tudi pri odkrivanju, omejevanju, poročanju in odzivanju na zlorabe. Ti ukrepi lahko vključujejo moderiranje vsebin, zmanjšano distribucijo škodljivih vsebin, pozive pred objavo, nastavitve varnosti uporabnikov, mehanizme poročanja in standarde skupnosti. Regulacija vse bolj oblikuje tudi odgovornosti platform. V večini držav sveta imajo te platforme fiduciarno dolžnost (v Združenem kraljestvu na primer Zakon o spletni varnosti in v Evropi Zakon o digitalnih storitvah) za ocenjevanje tveganj, zaščito uporabnikov pred nezakonitimi vsebinami, zagotavljanje mehanizmov poročanja in izvajanje sorazmernih varnostnih ukrepov.",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">How platforms help reduce online abuse</span>",
+          "text": "Kako platforme pomagajo zmanjšati spletno zlorabo",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
       "howPlatformsShapeTheSpreadOf": {
         "body": {
-          "text": "<p><span style=\"color: #091324\"><strong>Every platform works differently.</strong> Design features influence how content travels, who encounters it, and how people interact with it. Select each card to learn more.</span></p>",
+          "text": "Vsaka platforma deluje drugače. Oblikovalske značilnosti vplivajo na to, kako se vsebina širi, kdo jo sreča in kako ljudje z njo komunicirajo. Za več informacij izberite posamezno kartico.",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">How platforms shape the spread of online abuse</span>",
+          "text": "Kako platforme oblikujejo širjenje spletnih zlorab",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
       "humanJudgementRemainsEssentialLanguageContext": {
         "body": {
-          "text": "<p><span style=\"color: #091324\"><strong>Human judgement remains essential</strong>.  Language, context, cultural differences, and evolving abuse tactics can make harmful content difficult to interpret accurately. As AI becomes more widely used, regulation is also evolving to address these risks and establish safeguards for its use across different jurisdictions.</span></p>",
+          "text": "Človeška presoja ostaja bistvena. Jezik, kontekst, kulturne razlike in razvijajoče se taktike zlorabe lahko otežijo natančno razlago škodljivih vsebin. Z vse širšo uporabo umetne inteligence se razvijajo tudi predpisi, ki obravnavajo ta tveganja in vzpostavljajo zaščitne ukrepe za njeno uporabo v različnih jurisdikcijah.",
           "note": "Native text body on How Online Harm Spreads"
         }
       },
       "image": {
         "useThisImageToIllustrateYour": {
-          "text": "<p>Use this image to illustrate your topic. Add a description that connects the visual to the main ideas of your lesson.</p>",
+          "text": "S to sliko ponazorite svojo temo. Dodajte opis, ki povezuje vizualni element z glavnimi idejami vaše lekcije.",
           "note": "Image body text on How Online Harm Spreads"
         }
       },
       "introSubtitle": {
-        "text": "Estimated time: 15 minutes",
+        "text": "Predvideni čas: 15 minut",
         "note": "slide_intro subtitle (estimated time)"
       },
       "lookingAhead": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">As AI-generated content becomes more common, <strong>transparency is becoming an important part of online safety</strong>. Emerging approaches include identifying or labelling AI-generated and manipulated content and providing information about its origin. Regulation will continue to evolve alongside technology.</span></p>",
+          "text": "Ker vsebine, ki jih ustvarja umetna inteligenca, postajajo vse pogostejše, postaja preglednost pomemben del spletne varnosti. Med novimi pristopi so identifikacija ali označevanje vsebin, ki jih ustvarja in manipulira umetna inteligenca, ter zagotavljanje informacij o njihovem izvoru. Regulacija se bo še naprej razvijala skupaj s tehnologijo.",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Looking ahead</span>",
+          "text": "Pogled v prihodnost",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
       "onlineAbuseCanSpreadQuicklyAnd": {
         "body": {
-          "text": "<p><span style=\"color: #091324\"><strong>Online abuse can spread quickly and reach audiences far beyond the people involved</strong> in the original interaction. Digital platforms, user behaviour, and algorithmic systems all influence what content people see and how widely it travels.</span></p><p></p><p><span style=\"color: #091324\">Understanding these mechanisms helps us recognise <strong>how harmful content can be amplified</strong>, how online environments can reinforce hostility, and where opportunities exist to interrupt its spread. The same platforms and technologies that can amplify harmful content can also <strong>support its detection, moderation, and prevention.</strong></span></p>",
+          "text": "Spletna zloraba se lahko hitro širi in doseže občinstvo, ki daleč presega ljudi, vključene v prvotno interakcijo. Digitalne platforme, vedenje uporabnikov in algoritmični sistemi vplivajo na to, katere vsebine ljudje vidijo in kako široko se širijo. Razumevanje teh mehanizmov nam pomaga prepoznati, kako se lahko škodljive vsebine okrepijo, kako lahko spletna okolja okrepijo sovražnost in kje obstajajo priložnosti za prekinitev njihovega širjenja. Iste platforme in tehnologije, ki lahko okrepijo škodljive vsebine, lahko podpirajo tudi njihovo odkrivanje, moderiranje in preprečevanje.",
           "note": "Native text body on How Online Harm Spreads"
         }
       },
       "reportingOnlineAbuseOnSocialMedia": {
         "body": {
-          "text": "<p>Reporting can help <strong>platforms and organisations respond to harmful content</strong> and can<strong> support further action</strong> when a situation becomes more serious.</p><p></p><p><strong>Read through these steps and tick each one as you learn.</strong></p>",
+          "text": "Poročanje lahko pomaga platformam in organizacijam pri odzivanju na škodljive vsebine in lahko podpre nadaljnje ukrepe, ko situacija postane resnejša. Preberite te korake in vsakega od njih označite, ko se učite.",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Reporting online abuse on social media</span>",
+          "text": "Prijava spletne zlorabe na družbenih omrežjih",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
       "selectARegionToLearnMore": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">These regional examples are optional supplementary content and do not affect your course progress.</span></p>",
+          "text": "Ti regionalni primeri so neobvezna dodatna vsebina in ne vplivajo na vaš napredek pri predmetu.",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Select a region to learn more about online abuse. </span>",
+          "text": "Izberite regijo, če želite izvedeti več o spletni zlorabi.",
           "note": "Native heading on How Online Harm Spreads"
         }
       }
     },
     "risksBenefits": {
       "risksHeading": {
-        "text": "Potential risks",
+        "text": "Potencialna tveganja",
         "note": "M3 AI risks/benefits widget"
       },
       "benefitsHeading": {
-        "text": "Potential benefits",
+        "text": "Potencialne koristi",
         "note": "M3 AI risks/benefits widget"
       },
       "risks": {
         "r1": {
-          "text": "<strong>Creating and amplifying harm:</strong> Generative AI can produce or manipulate text, images, audio, and video quickly and at scale.",
+          "text": "Ustvarjanje in povečevanje škode: Generativna umetna inteligenca lahko hitro in v velikem obsegu ustvarja ali manipulira z besedilom, slikami, zvokom in videoposnetki.",
           "note": "HTML allowed"
         }
       },
       "benefits": {
         "b1": {
-          "text": "<strong>Detecting harmful content:</strong> AI can help identify potentially harmful content and patterns across large volumes of online activity.",
+          "text": "Odkrivanje škodljive vsebine: Umetna inteligenca lahko pomaga prepoznati potencialno škodljivo vsebino in vzorce v velikih količinah spletnih dejavnosti.",
           "note": "HTML allowed"
         },
         "b2": {
-          "text": "<strong>Supporting moderation:</strong> Automated systems can flag content for review and help moderators prioritise potential risks.",
+          "text": "Podpora moderiranju: Avtomatizirani sistemi lahko označijo vsebino za pregled in pomagajo moderatorjem pri določanju prioritet morebitnih tveganj.",
           "note": "HTML allowed"
         },
         "b3": {
-          "text": "<strong>Supporting users:</strong> AI-enabled tools can help filter unwanted content and connect people with reporting and safety features.",
+          "text": "Podpora uporabnikom: Orodja, ki jih podpira umetna inteligenca, lahko pomagajo filtrirati neželeno vsebino in povezati ljudi s funkcijami poročanja in varnosti.",
           "note": "HTML allowed"
         }
       }
@@ -2106,98 +2106,98 @@
         "note": "slide_intro title"
       },
       "continueToModule5": {
-        "text": "Continue to Module 5",
+        "text": "Nadaljujte z modulom 5",
         "note": "End-of-module navigation_button label"
       },
       "callout": {
         "pleaseNote": {
           "body": {
-            "text": "<p><span style=\"color: #091324\">This module provides a general overview of legal responses to online abuse and does not constitute legal advice. Laws differ between jurisdictions and can change over time. For advice about a specific situation, consult an appropriately qualified professional.</span></p>",
+            "text": "Ta modul ponuja splošen pregled pravnih odzivov na spletne zlorabe in ne predstavlja pravnega nasveta. Zakoni se med jurisdikcijami razlikujejo in se lahko sčasoma spreminjajo. Za nasvet o določeni situaciji se posvetujte z ustrezno usposobljenim strokovnjakom.",
             "note": "Callout body on Knowing Your Rights and Responsibilities"
           },
           "title": {
-            "text": "<span style=\"color: #1c3564\">Please note</span>",
+            "text": "Prosimo, upoštevajte",
             "note": "Callout title on Knowing Your Rights and Responsibilities"
           }
         }
       },
       "howCanLegalResponsesDifferBy": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">The legal response to online abuse depends on where an incident occurs and which laws apply. Select a region to see an example of how existing laws can apply to online behaviour.</span></p>",
+          "text": "Pravni odziv na spletno zlorabo je odvisen od tega, kje se incident zgodi in kateri zakoni veljajo. Izberite regijo, da si ogledate primer, kako se lahko obstoječi zakoni uporabljajo za spletno vedenje.",
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">How can legal responses differ by country?</span>",
+          "text": "Kako se lahko pravni odzivi razlikujejo glede na državo?",
           "note": "Native heading on Knowing Your Rights and Responsibilities"
         }
       },
       "internationalFederationsNationalGoverningBodiesClubs": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">International federations, national governing bodies, clubs, leagues, and other sporting organisations may have different responsibilities and resources. <strong>Clear policies and consistent processes help translate shared standards into action across different levels of sport</strong>.</span></p>",
+          "text": "Mednarodne zveze, nacionalni upravni organi, klubi, lige in druge športne organizacije imajo lahko različne odgovornosti in vire. Jasne politike in dosledni procesi pomagajo prenesti skupne standarde v dejanja na različnih ravneh športa.",
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         }
       },
       "introSubtitle": {
-        "text": "Estimated time: 15 minutes",
+        "text": "Predvideni čas: 15 minut",
         "note": "slide_intro subtitle (estimated time)"
       },
       "responsibilitiesBeyondTheLaw": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">The law establishes legal obligations. <strong>Sport also establishes standards for participation and conduct</strong>.</span></p><p></p><p><span style=\"color: #091324\">Codes of conduct, safeguarding procedures, safety policies, disciplinary processes, and community standards can help sporting organisations <strong>respond to harmful behaviour even when a legal pathway is unavailable or inappropriate.</strong></span></p>",
+          "text": "Zakon določa pravne obveznosti. Šport določa tudi standarde za sodelovanje in ravnanje. Kodeksi ravnanja, zaščitni postopki, varnostne politike, disciplinski postopki in standardi skupnosti lahko pomagajo športnim organizacijam pri odzivanju na škodljivo vedenje, tudi če pravna pot ni na voljo ali je neprimerna.",
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Responsibilities beyond the law</span>",
+          "text": "Odgovornosti, ki presegajo zakon",
           "note": "Native heading on Knowing Your Rights and Responsibilities"
         }
       },
       "selectTheBestOptionForEach": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Select the best option for each question. You must answer each question correctly before continuing. You can retry as many times as you like.</span></p>",
+          "text": "Za vsako vprašanje izberite najboljšo možnost. Preden nadaljujete, morate pravilno odgovoriti na vsako vprašanje. Poskusite lahko tolikokrat, kot želite.",
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         }
       },
       "threeLegalPathways": {
         "body": {
-          "text": "<p>Online abuse may engage <strong>criminal, civil, or administrative law and regulations</strong>. Each pathway involves different actors, processes, and potential outcomes, and the same incident may involve more than one.</p><p></p><p>These pathways are not mutually exclusive. The same incident may raise different legal issues depending on what occurred and which laws apply.</p><p></p>",
+          "text": "Spletna zloraba lahko vključuje kazensko, civilno ali upravno pravo in predpise. Vsaka pot vključuje različne akterje, procese in možne izide, isti incident pa lahko vključuje več kot enega. Te poti se medsebojno ne izključujejo. Isti incident lahko sproži različna pravna vprašanja, odvisno od tega, kaj se je zgodilo in kateri zakoni se uporabljajo.",
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Three legal pathways</span>",
+          "text": "Tri pravne poti",
           "note": "Native heading on Knowing Your Rights and Responsibilities"
         }
       },
       "whenOnlineAbuseOccursImportantQuestions": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">When online abuse occurs, important questions can arise: <strong>Is there a law which can help? Who can take action? What other protections are available?</strong></span></p><p></p><p><span style=\"color: #091324\">The answers depend on the behaviour, where it occurs, and the laws that can help. Understanding the main legal pathways can help you recognise <strong>where legal accountability may be possible and when other forms of action are important</strong>.</span></p><p></p><p><span style=\"color: #091324\">In sport, legal protections work alongside<strong> organisational policies, codes of conduct, safeguarding procedures, and standards of sportsmanship</strong>. Together, these mechanisms help establish expectations for safer participation online.</span></p>",
+          "text": "Ko pride do spletne zlorabe, se lahko pojavijo pomembna vprašanja: Ali obstaja zakon, ki lahko pomaga? Kdo lahko ukrepa? Katere druge zaščite so na voljo? Odgovori so odvisni od vedenja, kraja, kjer se pojavi, in zakonov, ki lahko pomagajo. Razumevanje glavnih pravnih poti vam lahko pomaga prepoznati, kje je možna pravna odgovornost in kdaj so pomembne druge oblike ukrepanja. V športu pravna zaščita deluje vzporedno z organizacijskimi politikami, kodeksi ravnanja, zaščitnimi postopki in standardi športnega vedenja. Ti mehanizmi skupaj pomagajo vzpostaviti pričakovanja za varnejšo spletno udeležbo.",
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "heading": {
-          "text": "<span style=\"color: #1c3564; font-size: 14px\">When online abuse occurs, important questions can arise: <strong>Is there a law which can help?  Who can take action?  What other protections are available?</strong></span><br><span style=\"color: #1c3564; font-size: 14px\">The answers depend on the behaviour, where it occurs, and the laws that can help. Understanding the main legal pathways can help you recognise <strong>where legal accountability may be possible and when other forms of action are important</strong>.</span><br><span style=\"color: #1c3564; font-size: 14px\">In sport, legal protections work alongside <strong>organisational policies, codes of conduct, safeguarding procedures, and standards of sportsmanship</strong>. Together, these mechanisms help establish expectations for safer participation online.</span>",
+          "text": "Ko pride do spletne zlorabe, se lahko pojavijo pomembna vprašanja: Ali obstaja zakon, ki lahko pomaga? Kdo lahko ukrepa? Katere druge zaščite so na voljo? Odgovori so odvisni od vedenja, kraja, kjer se pojavi, in zakonov, ki lahko pomagajo. Razumevanje glavnih pravnih poti vam lahko pomaga prepoznati, kje je možna pravna odgovornost in kdaj so pomembne druge oblike ukrepanja. V športu pravna zaščita deluje vzporedno z organizacijskimi politikami, kodeksi ravnanja, zaščitnimi postopki in standardi športnega vedenja. Ti mehanizmi skupaj pomagajo vzpostaviti pričakovanja za varnejšo spletno udeležbo.",
           "note": "Native heading on Knowing Your Rights and Responsibilities"
         }
       },
       "whereLegalResponsesHaveLimits": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Legal pathways can provide important forms of accountability, but online environments create practical challenges for investigation and enforcement.</span></p>",
+          "text": "Pravne poti lahko zagotovijo pomembne oblike odgovornosti, vendar spletna okolja ustvarjajo praktične izzive za preiskave in izvrševanje.",
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Where legal responses have limits</span>",
+          "text": "Kjer imajo pravni odzivi omejitve",
           "note": "Native heading on Knowing Your Rights and Responsibilities"
         }
       },
       "whoCanDoWhat": {
         "col1": {
-          "text": "<h4 class=\"course-block-heading\"><span style=\"color: #091324\">Sporting organisations should:</span></h4><ul style=\"margin-left: 10px; padding-left: 1.25em;\"><li><p><span style=\"color: #091324\">Define online abuse and expected online conduct codes in organisational policies</span></p></li><li><p><span style=\"color: #091324\">Establish clear and accessible reporting procedures</span></p></li><li><p><span style=\"color: #091324\">Apply organisational consequences when codes of conduct are breached</span></p></li><li><p><span style=\"color: #091324\">Provide education on recognising, preventing, and responding to online abuse</span></p></li><li><p><span style=\"color: #091324\">Provide access to welfare and safeguarding support</span></p></li><li><p><span style=\"color: #091324\">Cooperate with platforms, regulators, or relevant authorities where appropriate</span></p></li></ul>",
+          "text": "Športne organizacije bi morale: V organizacijskih politikah opredeliti spletne zlorabe in pričakovana pravila spletnega ravnanja; vzpostaviti jasne in dostopne postopke poročanja; uporabljati organizacijske posledice v primeru kršitev pravil ravnanja; zagotavljati izobraževanje o prepoznavanju, preprečevanju in odzivanju na spletne zlorabe; zagotavljati dostop do socialne pomoči in podpore za zaščito; po potrebi sodelovati s platformami, regulatorji ali ustreznimi organi.",
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "col2": {
-          "text": "<h4 class=\"course-block-heading\"><span style=\"color: #091324\">Everyone in sport should:</span></h4><ul style=\"margin-left: 10px; padding-left: 1.25em;\"><li><p><span style=\"color: #091324\">Follow the codes of conduct and policies associated with their role</span></p></li><li><p><span style=\"color: #091324\">Use appropriate channels to report harmful behaviour</span></p></li><li><p><span style=\"color: #091324\">Avoid sharing or amplifying abusive content</span></p></li><li><p><span style=\"color: #091324\">Support people who are targeted</span></p></li><li><p><span style=\"color: #091324\">Recognise that standards of respect, fair play, and sportsmanship also apply in digital spaces</span></p></li></ul>",
+          "text": "Vsakdo v športu bi moral:Upoštevati kodekse ravnanja in politike, povezane z njegovo vlogoUporabljati ustrezne kanale za prijavo škodljivega vedenjaIzogibati se deljenju ali širjenju zlorabne vsebinePodpirati ljudi, ki so tarčeZavedati se, da standardi spoštovanja, poštene igre in športnega vedenja veljajo tudi v digitalnih prostorih",
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "heading": {
-          "text": "Who can do what",
+          "text": "Kdo lahko kaj naredi",
           "note": "Native heading on Knowing Your Rights and Responsibilities"
         }
       }
@@ -2323,39 +2323,39 @@
             "note": "HTML allowed"
           },
           "safeguardLead": {
-            "text": "Safeguarding means protecting people at risk and responding effectively when abuse happens."
+            "text": "Zaščita pomeni zaščito ogroženih ljudi in učinkovito ukrepanje, ko pride do zlorabe."
           },
           "prepareItems": {
             "i1": {
-              "text": "Policies and codes of conduct"
+              "text": "Politike in kodeksi ravnanja"
             },
             "i2": {
-              "text": "Education and training"
+              "text": "Izobraževanje in usposabljanje"
             },
             "i3": {
-              "text": "Clear expectations for digital behaviour"
+              "text": "Jasna pričakovanja glede digitalnega vedenja"
             }
           },
           "protectItems": {
             "i1": {
-              "text": "Welfare and safeguarding support"
+              "text": "Podpora za socialno varnost in zaščito"
             },
             "i2": {
-              "text": "Platform safety tools and moderation"
+              "text": "Orodja za varnost platforme in moderiranje"
             },
             "i3": {
-              "text": "Mechanisms for people at risk"
+              "text": "Mehanizmi za ogrožene ljudi"
             }
           },
           "respondItems": {
             "i1": {
-              "text": "Accessible reporting pathways"
+              "text": "Dostopne poti poročanja"
             },
             "i2": {
-              "text": "Appropriate record keeping"
+              "text": "Ustrezno vodenje evidenc"
             },
             "i3": {
-              "text": "Organisational procedures and escalation"
+              "text": "Organizacijski postopki in eskalacija"
             }
           },
           "whoLabel": {
@@ -2772,49 +2772,49 @@
       },
       "exploreTheThreeLayersOfAction": {
         "body": {
-          "text": "<p>Action happens at three connected levels. The layers are interconnected and complementary: individual actions connect with organisational support and with wider collective action.</p>",
+          "text": "Dejanje se dogaja na treh povezanih ravneh. Plasti so medsebojno povezane in se dopolnjujejo: posamezna dejanja so povezana z organizacijsko podporo in širšim kolektivnim delovanjem.",
           "note": "Native text body on Take Action: Building Safer Digital Sport Communities"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Explore the three layers of action</span>",
+          "text": "Raziščite tri plasti delovanja",
           "note": "Native heading on Take Action: Building Safer Digital Sport Communities"
         }
       },
       "image": {
         "throughStrongerTogetherUaoaBringsPeople": {
-          "text": "<p>Through Stronger Together, UAOA brings people and organisations across sport together to strengthen how they prepare for, prevent, and respond to online abuse, turning shared knowledge and coordinated action into practical support for the sporting community.</p>",
+          "text": "Z organizacijo Stronger Together (Skupaj močnejši) UAOA združuje ljudi in organizacije iz različnih športov, da bi okrepili svoje priprave na spletne zlorabe, njihovo preprečevanje in odzivanje nanje, s čimer skupno znanje in usklajene ukrepe spreminjajo v praktično podporo športni skupnosti.",
           "note": "Image body text on Take Action: Building Safer Digital Sport Communities"
         }
       },
       "introSubtitle": {
-        "text": "Estimated time: 15 minutes",
+        "text": "Predvideni čas: 15 minut",
         "note": "slide_intro subtitle (estimated time)"
       },
       "onlineAbuseCanBeAddressedAt": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Online abuse can be addressed at different levels. </span><br><span style=\"color: #091324\"><strong>Drag each scenario to the level best placed to take action.</strong></span></p>",
+          "text": "Spletno zlorabo je mogoče obravnavati na različnih ravneh. Vsak scenarij povlecite na raven, ki je najbolj primerna za ukrepanje.",
           "note": "Native text body on Take Action: Building Safer Digital Sport Communities"
         }
       },
       "onlineAbuseInSportCanAffect": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Online abuse in sport can affect one person directly, but <strong>no one has to respond to it alone</strong>. We can each play a part in creating safer digital spaces, whether we are protecting our own wellbeing, supporting someone who is being targeted, witnessing harmful behaviour, or helping others through our work in sport.</span></p><p></p><p><span style=\"color: #091324\">The actions we can take depend on our role and circumstances. Individuals can protect themselves and support others. Organisations can provide clear pathways for reporting, support, and coordinated action. Across sporting communities, education, research, policy, and shared standards can help prevent harm and strengthen how we respond.</span></p><p></p><p><span style=\"color: #091324\">In this final module, you will explore how these different levels of action connect, where you can contribute, and how working together can help build safer digital sporting communities.</span></p>",
+          "text": "Spletna zloraba v športu lahko neposredno prizadene eno osebo, vendar se nihče ne mora nanjo odzvati sam. Vsak od nas lahko prispeva k ustvarjanju varnejših digitalnih prostorov, ne glede na to, ali varujemo lastno dobro počutje, podpiramo nekoga, ki je žrtev, smo priča škodljivemu vedenju ali pomagamo drugim s svojim delom v športu. Ukrepi, ki jih lahko sprejmemo, so odvisni od naše vloge in okoliščin. Posamezniki se lahko zaščitijo in podpirajo druge. Organizacije lahko zagotovijo jasne poti za prijavo, podporo in usklajeno ukrepanje. V športnih skupnostih lahko izobraževanje, raziskave, politika in skupni standardi pomagajo preprečiti škodo in okrepiti način našega odzivanja. V tem zadnjem modulu boste raziskali, kako se te različne ravni delovanja povezujejo, kje lahko prispevate in kako lahko sodelovanje pomaga graditi varnejše digitalne športne skupnosti.",
           "note": "Native text body on Take Action: Building Safer Digital Sport Communities"
         },
         "heading": {
-          "text": "<span style=\"color: #1c3564; font-size: 14px\">Online abuse in sport can affect one person directly, but <strong>no one has to respond to it alone</strong>. We can each play a part in creating safer digital spaces, whether we are protecting our own wellbeing, supporting someone who is being targeted, witnessing harmful behaviour, or helping others through our work in sport.</span><br><br><span style=\"color: #1c3564; font-size: 14px\">The actions we can take depend on our role and circumstances. Individuals can protect themselves and support others. Organisations can provide clear pathways for reporting, support, and coordinated action. Across sporting communities, education, research, policy, and shared standards can help prevent harm and strengthen how we respond.</span><br><br><span style=\"color: #1c3564; font-size: 14px\">In this final module, you will explore how these different levels of action connect, where you can contribute, and how working together can help build safer digital sporting communities.</span>",
+          "text": "Spletna zloraba v športu lahko neposredno prizadene eno osebo, vendar se nihče ne mora nanjo odzvati sam. Vsak od nas lahko prispeva k ustvarjanju varnejših digitalnih prostorov, ne glede na to, ali varujemo lastno dobro počutje, podpiramo nekoga, ki je žrtev, smo priča škodljivemu vedenju ali pomagamo drugim s svojim delom v športu. Ukrepi, ki jih lahko sprejmemo, so odvisni od naše vloge in okoliščin. Posamezniki se lahko zaščitijo in podpirajo druge. Organizacije lahko zagotovijo jasne poti za prijavo, podporo in usklajeno ukrepanje. V športnih skupnostih lahko izobraževanje, raziskave, politika in skupni standardi pomagajo preprečiti škodo in okrepiti način našega odzivanja. V tem zadnjem modulu boste raziskali, kako se te različne ravni delovanja povezujejo, kje lahko prispevate in kako lahko sodelovanje pomaga graditi varnejše digitalne športne skupnosti.",
           "note": "Native heading on Take Action: Building Safer Digital Sport Communities"
         }
       },
       "uaoaHelpsConnectTheseLevelsOf": {
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">UAOA helps connect these levels of action.&nbsp;</span>",
+          "text": "UAOA pomaga povezati te ravni delovanja.",
           "note": "Native heading on Take Action: Building Safer Digital Sport Communities"
         }
       },
       "youArePartOfAWider": {
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">You are part of a wider system</span>",
+          "text": "Ste del širšega sistema",
           "note": "Native heading on Take Action: Building Safer Digital Sport Communities"
         }
       }
@@ -3088,7 +3088,9 @@
           },
           "links": {
             "act": {
-              "note": "Inline masked links for Q11 choice c0 — multiple items join with a plain “ / ” separator inside the answer pill",
+              "note": {
+                "text": "V vrstici maskirane povezave za izbiro c0 v vprašanju 11 – več elementov se združi z navadnim ločilom »/« znotraj odgovorne tablice"
+              },
               "items": [
                 {
                   "text": "UAOA resources",
@@ -3107,14 +3109,18 @@
               ]
             },
             "learn": {
-              "text": "UAOA webinar series",
+              "text": {
+                "text": "Serija spletnih seminarjev UAOA"
+              },
               "url": {
                 "text": "https://unitedagainstonlineabuse.com/webinar-series/",
                 "note": "External URL for Q11 choice c1 — opens in new tab"
               }
             },
             "org": {
-              "text": "UAOA – Organisational Readiness Platform",
+              "text": {
+                "text": "UAOA – Platforma za organizacijsko pripravljenost"
+              },
               "url": {
                 "text": "https://orp.unitedagainstonlineabuse.com/",
                 "note": "External URL for Q11 choice c2 — opens in new tab"
@@ -3153,7 +3159,7 @@
           "note": "aria-label on next chevron when advancing"
         },
         "openResource": {
-          "text": "Open resource",
+          "text": "Odprti vir",
           "note": "Legacy; Q11 now shows masked link labels inline inside answer pills"
         }
       },
@@ -3167,7 +3173,7 @@
           "note": "Flip-card modal front CTA when passed or attempts exhausted"
         },
         "clickForDetails": {
-          "text": "Click for details",
+          "text": "Kliknite za podrobnosti",
           "note": "Flip-card modal front CTA when below pass score with retries left"
         },
         "headline": {
@@ -3181,15 +3187,15 @@
           "text": "Vaš rezultat odraža vaše razumevanje ključnih konceptov, obravnavanih v tem tečaju."
         },
         "didNotPass": {
-          "text": "A score of {pass}% or higher is required to pass. This was attempt {n} of {max}.",
+          "text": "Za uspeh je potreben rezultat {pass} % ali več. To je bil poskus {n} od {max}.",
           "note": "Shown on score back when below pass threshold; {pass}, {n}, {max} replaced in JS"
         },
         "retryHint": {
-          "text": "Review the course material, then try the quiz again.",
+          "text": "Preglejte snov tečaja in nato poskusite znova rešiti kviz.",
           "note": "Score back note when retries remain"
         },
         "attemptsExhausted": {
-          "text": "You’ve used all {max} attempts. You can close this quiz and continue.",
+          "text": "Izkoristili ste vseh {max} poskusov. Kviz lahko zaprete in nadaljujete.",
           "note": "Score back note after final failed attempt; {max} replaced in JS"
         },
         "finish": {
@@ -3245,13 +3251,13 @@
       "exit": {
         "congratulations": {
           "heading": {
-            "text": "<span style=\"color: #21B7CB\">Congratulations!</span>",
+            "text": "Čestitke!",
             "note": "Native heading on Exit Page"
           }
         },
         "youAreNowBetterPreparedTo": {
           "body": {
-            "text": "<p><span style=\"color: rgb(9, 19, 36)\"><strong>You are now better prepared to take action against online abuse.</strong><br><br>Thank you for taking the time to learn with us. The knowledge and practical understanding you have developed can help you recognise harmful behaviour, respond more confidently, support others, and contribute to safer digital sporting communities.</span></p><p></p><p><span style=\"color: rgb(9, 19, 36)\">Every informed action matters. Together, we can help make sport safer online.</span></p><p></p><p><span style=\"color: rgb(9, 19, 36)\">Thank you for completing the UAOA eLearning course!</span></p><p></p><p><span style=\"color: rgb(9, 19, 36)\"><strong>UAOA</strong></span></p>",
+            "text": "Zdaj ste bolje pripravljeni ukrepati proti spletni zlorabi. Hvala, ker ste si vzeli čas za učenje z nami. Znanje in praktično razumevanje, ki ste si ga pridobili, vam lahko pomagata prepoznati škodljivo vedenje, se bolj samozavestno odzvati, podpreti druge in prispevati k varnejšim digitalnim športnim skupnostim. Vsako premišljeno dejanje je pomembno. Skupaj lahko pomagamo, da je spletni šport varnejši. Hvala, ker ste opravili tečaj e-učenja UAOA!UAOA",
             "note": "Native text body on Exit Page"
           }
         }
@@ -3259,31 +3265,31 @@
       "finalQuiz": {
         "summaryScoredQuiz": {
           "body": {
-            "text": "<p><span style=\"color: #091324\">Check what you have learned across the course. Answer each question, then review your results.</span></p>",
+            "text": "Preverite, kaj ste se naučili v tečaju. Odgovorite na vsako vprašanje in nato preglejte svoje rezultate.",
             "note": "Native text body on Final Quiz"
           },
           "heading": {
-            "text": "<span style=\"color: var(--background)\"><strong>Summary (scored quiz)</strong></span>",
+            "text": "Povzetek (kviz z rezultati)",
             "note": "Native heading on Final Quiz"
           }
         },
         "youAreReadyToActAgainst": {
           "body": {
-            "text": "<p><span style=\"color: #091324\">You started this course with a goal: to move from <strong>awareness to readiness</strong>. You now have the knowledge and practical tools to recognise online abuse, understand how and why it happens, respond with greater confidence, and support others in your sporting community.</span></p><p></p><p><span style=\"color: #091324\"><strong>One final step</strong>: bring what you have learned together in the final quiz.</span></p>",
+            "text": "Ta tečaj ste začeli s ciljem: preiti od ozaveščenosti k pripravljenosti. Zdaj imate znanje in praktična orodja za prepoznavanje spletne zlorabe, razumevanje, kako in zakaj do nje prihaja, odzivanje z večjo samozavestjo in podporo drugim v vaši športni skupnosti. Še zadnji korak: združite naučeno v zadnjem kvizu.",
             "note": "Native text body on Final Quiz"
           },
           "heading": {
-            "text": "<span style=\"color: #21b7cb\">You are ready to act against online abuse</span>",
+            "text": "Pripravljeni ste ukrepati proti spletni zlorabi",
             "note": "Native heading on Final Quiz"
           }
         },
         "yourReadiness": {
           "body": {
-            "text": "<p><span style=\"color: #091324; font-size: 30px\"><strong>Your Readiness Score is {{score}}%!</strong></span></p><p></p><p><span style=\"color: #091324\">You’ve learned how to recognise online abuse, understand its impact, and respond more safely across individual, organisational, and wider sporting contexts.</span></p><p></p><p><span style=\"color: #091324\">Your score reflects your current readiness to recognise online abuse and make informed decisions when it occurs.</span></p>",
+            "text": "Vaša ocena pripravljenosti je {{score}} %! Naučili ste se prepoznati spletno zlorabo, razumeti njen vpliv in se varneje odzvati v individualnem, organizacijskem in širšem športnem kontekstu. Vaša ocena odraža vašo trenutno pripravljenost za prepoznavanje spletne zlorabe in sprejemanje premišljenih odločitev, ko do nje pride.",
             "note": "Native text body on Final Quiz"
           },
           "heading": {
-            "text": "Your readiness",
+            "text": "Vaša pripravljenost",
             "note": "Native heading on Final Quiz"
           }
         }
@@ -3320,34 +3326,34 @@
         "text": "Zapri"
       },
       "close": {
-        "text": "Close",
+        "text": "Zapri",
         "note": "Support dialog primary close button"
       },
       "orgLeadDetail": {
-        "text": "Clubs and federations can offer support and act on abuse."
+        "text": "Klubi in zveze lahko ponudijo podporo in ukrepajo proti zlorabam."
       },
       "platformReporting": {
-        "text": "Platform reporting tools"
+        "text": "Orodja za poročanje o platformi"
       },
       "platformReportingDetail": {
-        "text": "Every major platform lets you report posts and accounts."
+        "text": "Vsaka večja platforma vam omogoča prijavljanje objav in računov."
       },
       "emergencyServices": {
-        "text": "Emergency services"
+        "text": "Nujne službe"
       },
       "emergencyServicesDetail": {
-        "text": "If you or someone else is in immediate danger, contact your local emergency number."
+        "text": "Če ste vi ali kdo drug v neposredni nevarnosti, pokličite lokalno številko za klic v sili."
       },
       "bodyM2": {
-        "text": "This module discusses the emotional and psychological effects of online abuse. You are encouraged to work through the material at a pace that feels appropriate and to access support where needed. You can return to the course whenever you are ready.",
+        "text": "Ta modul obravnava čustvene in psihološke učinke spletne zlorabe. Spodbujamo vas, da gradivo predelujete v tempu, ki se vam zdi primeren, in da po potrebi poiščete podporo. K tečaju se lahko vrnete, kadar koli boste pripravljeni.",
         "note": "Module 2 sensitive-notice body"
       },
       "bodyM3": {
-        "text": "This module refers to forms of online abuse. No abusive content is shown. Take breaks when you need them, and remember that support is available. You can return to the course whenever you are ready.",
+        "text": "Ta modul se nanaša na oblike spletne zlorabe. Žaljive vsebine niso prikazane. Vzemite si odmore, ko jih potrebujete, in ne pozabite, da je na voljo podpora. K tečaju se lahko vrnete, kadar koli boste pripravljeni.",
         "note": "Module 4 sensitive-notice body (forms-of-abuse wording)"
       },
       "bodyM4": {
-        "text": "This module discusses online abuse and responses to it. No abusive content is shown. Take breaks when you need them, and remember that support is available. You can return to the course whenever you are ready.",
+        "text": "Ta modul obravnava spletno zlorabo in odzive nanjo. Žaljive vsebine niso prikazane. Vzemite si odmore, ko jih potrebujete, in ne pozabite, da je na voljo podpora. K tečaju se lahko vrnete, kadar koli boste pripravljeni.",
         "note": "Module 5 sensitive-notice body"
       }
     },
@@ -4333,116 +4339,116 @@
   "welcome": {
     "partners": {
       "caption": {
-        "text": "UAOA thanks the Erasmus+ partner FIA member clubs Autoklub Ceske republiky (Czech Republic), Zveza za avto sport Slovenije - AS (Slovenia), Real Federación Española De Automovilismo (Spain) and Svenska Bilsportförbundet (Sweden) along with the respective Academic partners Charles University, Prague, Prof. Matej Tusak (Slovenia), ESBS (European Sport Business School (ESBS Spain) and Asst. Prof. Lisa Kaati (Stockholm University) for contributing to the development of this eLearning Course.",
+        "text": "UAOA se zahvaljuje partnerskim klubom FIA, klubom Autoklub Ceske republiky (Češka), Zvezi za avto šport Slovenije - AS (Slovenija), Real Federación Española De Automovilismo (Španija) in Svenska Bilsportförbundet (Švedska), skupaj z akademskimi partnerji Karlovo univerzo v Pragi, prof. Matejem Tusakom (Slovenija), ESBS (Evropska športna poslovna šola (ESBS Španija)) in asist. Lisi Kaati (Univerza v Stockholmu) za prispevek k razvoju tega e-učnega tečaja.",
         "note": "Welcome partner-acknowledgements caption embed (teal italic box under video)"
       }
     },
     "outcomes": {
       "listAria": {
-        "text": "What you will gain from this course",
+        "text": "Kaj boste pridobili s tem tečajem",
         "note": "aria-label on Welcome learning-objectives timeline list"
       },
       "items": {
         "i1": {
-          "text": "<strong>Recognise</strong> online abuse and its different forms, including who may face disproportionate risk.",
+          "text": "Prepoznajte spletno zlorabo in njene različne oblike, vključno s tem, kdo se lahko sooči z nesorazmernim tveganjem.",
           "note": "HTML allowed — bold lead verb"
         },
         "i2": {
-          "text": "<strong>Understand</strong> the impact of online abuse in your sporting community, using real-world evidence to identify its consequences for mental health and athletic performance.",
+          "text": "Razumeti vpliv spletne zlorabe v vaši športni skupnosti in z uporabo dokazov iz resničnega sveta prepoznati njene posledice za duševno zdravje in športno uspešnost.",
           "note": "HTML allowed — bold lead verb"
         },
         "i3": {
-          "text": "<strong>Explore</strong> how digital platforms, social media algorithms, and AI can amplify online abuse, and how effective governance can help reduce it.",
+          "text": "Raziščite, kako lahko digitalne platforme, algoritmi družbenih medijev in umetna inteligenca povečajo spletno zlorabo in kako lahko učinkovito upravljanje pomaga zmanjšati njeno število.",
           "note": "HTML allowed — bold lead verb"
         },
         "i4": {
-          "text": "<strong>Apply</strong> reporting procedures with confidence, safely and effectively flagging abusive content across major social media and gaming platforms.",
+          "text": "Z zaupanjem uporabljajte postopke poročanja ter varno in učinkovito prijavljajte zlorabne vsebine na glavnih družbenih omrežjih in igralnih platformah.",
           "note": "HTML allowed — bold lead verb"
         },
         "i5": {
-          "text": "<strong>Take</strong> informed action in your sporting environment, individually and alongside others, to help create safer spaces in sport.",
+          "text": "V svojem športnem okolju ukrepajte premišljeno, posamično in skupaj z drugimi, da bi pomagali ustvariti varnejše prostore v športu.",
           "note": "HTML allowed — bold lead verb"
         }
       }
     },
     "slide": {
       "whatYouWillGain": {
-        "text": "What you will gain from this course:",
+        "text": "Kaj boste pridobili s tem tečajem:",
         "note": "Welcome native subheading above learning-objectives timeline"
       },
       "buildReadiness": {
-        "text": "Build your readiness to act",
+        "text": "Razvijte svojo pripravljenost za ukrepanje",
         "note": "Welcome native subheading above Continue CTA"
       },
       "euDisclaimer": {
         "body": {
-          "text": "<p style=\"text-align: left\"><span style=\"font-size: 11px\"><em>Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Education and Culture Executive Agency (EACEA). Neither the European Union nor EACEA can be held responsible for them.</em></span></p>",
+          "text": "Financira Evropska unija. Izražena stališča in mnenja pa so zgolj stališča avtorja(-jev) in ne odražajo nujno stališč Evropske unije ali Izvajalske agencije za izobraževanje in kulturo (EACEA). Niti Evropska unija niti EACEA ne moreta biti odgovorni zanje.",
           "note": "Native text body on Welcome"
         }
       },
       "sportConnectsMillionsOfPeopleAcross": {
         "body": {
-          "text": "<p><span style=\"color: #091324\"><strong>Sport connects millions of people</strong> across countries, cultures, and generations through passion, pride, and the thrill of competition.<br><br><strong>Online abuse puts that connection at risk.</strong> When athletes, officials, volunteers, and fans are attacked online for who they are or how they perform, the consequences can extend far beyond the screen - hurting people, derailing careers, and normalizing abusive behaviour.<br><br><strong>United Against Online Abuse (UAOA)</strong> brings together more than 75 governments, sports, academics and and technology platforms around a shared goal: <strong>making sport safer from online abuse.</strong> Lasting change requires action across institutions, communities, <strong>and individuals, and that includes you.</strong></span></p><p></p><p><span style=\"color: #091324\">Developed in collaboration with the University of Notre Dame, with this <strong>eLearning Course</strong>, the main goal of the UAOA initiative is to help you to recognise different forms of online abuse, understand their impact on your sporting community, and use reporting procedures with confidence. Once completed, <strong>this Course will prepare you</strong> to take informed action and contribute to a safer sporting environment.</span></p><p></p><p><span style=\"color: #091324\"><strong>Thank you for joining the effort.</strong></span></p>",
+          "text": "Šport povezuje milijone ljudi iz različnih držav, kultur in generacij s strastjo, ponosom in vznemirjenjem tekmovanja. Spletna zloraba to povezavo ogroža. Ko so športniki, funkcionarji, prostovoljci in navijači napadeni na spletu zaradi tega, kar so ali kako se odrežejo, lahko posledice segajo daleč preko zaslona – ljudje so prizadeti, kariere iztirjene, zlorabno vedenje pa postane normalizacija. Organizacija United Against Online Abuse (UAOA) združuje več kot 75 vlad, športnih organizacij, akademikov in tehnoloških platform okoli skupnega cilja: narediti šport varnejši pred spletno zlorabo. Trajne spremembe zahtevajo ukrepanje v institucijah, skupnostih in posameznikih, vključno z vami. Glavni cilj pobude UAOA, ki je bila razvita v sodelovanju z Univerzo Notre Dame, je s tem e-tečajem pomagati vam prepoznati različne oblike spletne zlorabe, razumeti njihov vpliv na vašo športno skupnost in samozavestno uporabljati postopke poročanja. Ko bo ta tečaj zaključen, vas bo pripravil na informirano ukrepanje in prispevanje k varnejšemu športnemu okolju. Hvala, ker ste se pridružili prizadevanjem.",
           "note": "Native text body on Welcome"
         },
         "p3": {
-          "text": "<p>United Against Online Abuse (UAOA) brings together more than 75 governments, sports, academics and technology platforms around a shared goal: making sport safer from online abuse. Lasting change requires action across institutions, communities, and individuals, and that includes you.</p>",
+          "text": "Združeni proti spletni zlorabi (UAOA) združuje več kot 75 vlad, športnih organizacij, akademikov in tehnoloških platform okoli skupnega cilja: narediti šport varnejši pred spletno zlorabo. Trajne spremembe zahtevajo ukrepe v vseh institucijah, skupnostih in posameznikih, vključno z vami.",
           "note": "Native text body on Welcome"
         }
       },
       "welcomeTitle": {
         "heading": {
-          "text": "<span style=\"color: #1c3564\">Welcome: Thanks for joining the UAOA mission!</span>",
+          "text": "Dobrodošli: Hvala, ker ste se pridružili misiji UAOA!",
           "note": "Native heading on Welcome"
         }
       },
       "buildReadinessBody": {
-        "text": "<p><span style=\"color: #091324\">Awareness is only the beginning. This course builds the practical knowledge and skills needed to understand online abuse and take informed action for yourself and for your sporting community.</span></p><p></p><p><span style=\"color: #091324\">The course is designed to meet you wherever you are in your understanding of the topic:</span></p><ul style=\"margin: 0.5em 0 0.75em; padding-left: calc(1.35em + 10pt);\"><li style=\"margin: 0 0 10pt; color: #091324;\"><p style=\"margin: 0;\"><span style=\"color: #091324\"><strong>If you are already familiar with online abuse</strong>, deepen your understanding of reporting systems, digital platforms, AI, and emerging approaches to prevention and response.</span></p></li><li style=\"margin: 0; color: #091324;\"><p style=\"margin: 0;\"><span style=\"color: #091324\"><strong>If the topic is new to you</strong>, build a strong foundation and identify practical ways to contribute to safer online practices and digital spaces in sport.</span></p></li></ul><p><span style=\"color: #091324\">By the end of the course, you will be better equipped to <strong>recognise online abuse, respond with confidence, and play an active role in creating safer sport.</strong></span></p>",
+        "text": "Ozaveščenost je šele začetek. Ta tečaj gradi praktično znanje in veščine, potrebne za razumevanje spletnih zlorab in sprejemanje premišljenih ukrepov zase in za svojo športno skupnost. Tečaj je zasnovan tako, da vam bo ustrezal ne glede na to, kje ste pri razumevanju teme: Če ste že seznanjeni s spletnimi zlorabami, poglobite svoje razumevanje sistemov poročanja, digitalnih platform, umetne inteligence in novih pristopov k preprečevanju in odzivanju. Če vam je tema nova, zgradite trdne temelje in opredelite praktične načine za prispevanje k varnejšim spletnim praksam in digitalnim prostorom v športu. Do konca tečaja boste bolje opremljeni za prepoznavanje spletnih zlorab, samozavestno odzivanje in aktivno vlogo pri ustvarjanju varnejšega športa.",
         "note": "Native text body on Welcome"
       }
     },
     "about": {
       "aboutTheCourse": {
         "body": {
-          "text": "<p><span style=\"color: #091324\"><strong>Course duration</strong></span></p><p><span style=\"color: #091324\">Approximately <strong>90 minutes</strong>, completed at your own pace.</span></p><p><span style=\"color: #091324\"><br></span></p><p><span style=\"color: #091324\"><strong>Who is it for?</strong></span></p><p><span style=\"color: #091324\">Anyone who participates in, works in, or engages with sport and wants to better understand and respond to online abuse, including <strong>athletes, coaches, officials, staff, volunteers, administrators, media professionals, fans, and others across the sporting community</strong>.</span></p><p><span style=\"color: #091324\"><br><strong>What can you expect?</strong></span></p><p><span style=\"color: #091324\">Five short modules combine practical guidance, scenarios, and opportunities to apply what you learn. No prior knowledge of online abuse is required.</span></p><p></p>",
+          "text": "Trajanje tečajaPribližno 90 minut, tečaj poteka v lastnem tempu.Za koga je namenjen?Vsem, ki sodelujejo v športu, delajo v njem ali se z njim ukvarjajo in želijo bolje razumeti in se odzvati na spletno zlorabo, vključno s športniki, trenerji, funkcionarji, osebjem, prostovoljci, administratorji, medijskimi strokovnjaki, navijači in drugimi v športni skupnosti.Kaj lahko pričakujete?Pet kratkih modulov združuje praktične smernice, scenarije in priložnosti za uporabo naučenega. Predhodno znanje o spletni zlorabi ni potrebno.",
           "note": "Native text body on About This Course"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">About the course</span>",
+          "text": "O tečaju",
           "note": "Native heading on About This Course"
         }
       },
       "courseTitle": {
-        "text": "<span style=\"color: var(--background); font-size: 22pt\">UAOA eLearning Course</span><span style=\"color: var(--background)\"><br></span><span style=\"color: var(--background); font-size: 20px\"><em>Understanding and Responding to Online Abuse in Sport</em></span>",
+        "text": "Tečaj e-učenja UAOA: Razumevanje in odzivanje na spletno zlorabo v športu",
         "note": "About course hero title (HTML)"
       },
       "readyToBegin": {
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Ready to Begin?</span>",
+          "text": "Ste pripravljeni začeti?",
           "note": "Native heading on About This Course"
         }
       },
       "startCourse": {
-        "text": "Start Course",
+        "text": "Začni tečaj",
         "note": "Native navigation_button on About This Course"
       },
       "tagline": {
         "body": {
-          "text": "<p><span style=\"color: #091324; font-size: 18px\">This course from <strong>United Against Online Abuse (UAOA)</strong> provides practical knowledge and tools to help you <strong>recognise online abuse, understand its impact, navigate reporting procedures, and take informed action within your sporting community</strong>.</span></p>",
+          "text": "Ta tečaj organizacije United Against Online Abuse (UAOA) ponuja praktično znanje in orodja, ki vam bodo pomagala prepoznati spletno zlorabo, razumeti njen vpliv, se znajti v postopkih prijave in ukrepati v svoji športni skupnosti.",
           "note": "Native text body on About This Course"
         },
         "heading": {
-          "text": "<span style=\"color: #1c3564\">Building Safer Digital Spaces in Sport</span>",
+          "text": "Gradnja varnejših digitalnih prostorov v športu",
           "note": "Native heading on About This Course"
         }
       },
       "whatYoullExplore": {
         "body": {
-          "text": "<div style=\"margin:0;border:0;border-left:none;background:transparent;\"><p style=\"margin:0 0 0.35em;\"><span style=\"color: #091324\"><strong>Module 1 · Understanding Online Abuse</strong></span></p><p style=\"margin:0 0 1.35em; padding-left: 5em;\"><span style=\"color: #091324\">Learn to recognise different forms of online abuse, how they can overlap and escalate, and what groups of people face disproportionate risk.</span></p><p style=\"margin:0 0 0.35em;\"><span style=\"color: #091324\"><strong>Module 2 · Online Abuse in Sport: The Human Impact</strong></span></p><p style=\"margin:0 0 1.35em; padding-left: 5em;\"><span style=\"color: #091324\">Explore how online abuse can affect athletes with consequences for wellbeing, performance, participation, and sporting communities.</span></p><p style=\"margin:0 0 0.35em;\"><span style=\"color: #091324\"><strong>Module 3 · How Online Harm Spreads</strong></span></p><p style=\"margin:0 0 1.35em; padding-left: 5em;\"><span style=\"color: #091324\">Understand how digital platforms, online behaviours, and emerging technologies can amplify harmful content and influence how abuse develops and spreads.</span></p><p style=\"margin:0 0 0.35em;\"><span style=\"color: #091324\"><strong>Module 4 · Knowing Your Rights and Responsibilities</strong></span></p><p style=\"margin:0 0 1.35em; padding-left: 5em;\"><span style=\"color: #091324\">Build awareness of your rights, responsibilities, and available reporting pathways, including the roles of platforms, sporting organisations, and other relevant bodies.</span></p><p style=\"margin:0 0 0.35em;\"><span style=\"color: #091324\"><strong>Module 5 · Take Action: Building Safer Digital Sport Communities</strong></span></p><p style=\"margin:0 0 0; padding-left: 5em;\"><span style=\"color: #091324\">Turn knowledge into action by exploring practical ways to prevent, respond to, and challenge online abuse within your sporting community.</span></p></div>",
+          "text": "Modul 1 · Razumevanje spletne zlorabeNaučite se prepoznati različne oblike spletne zlorabe, kako se lahko prekrivajo in stopnjujejo ter katere skupine ljudi se soočajo z nesorazmernim tveganjem.Modul 2 · Spletna zloraba v športu: vpliv na človekaRaziščite, kako lahko spletna zloraba vpliva na športnike s posledicami za dobro počutje, uspešnost, sodelovanje in športne skupnosti.Modul 3 · Kako se širi spletna škodaRazumite, kako lahko digitalne platforme, spletno vedenje in nove tehnologije okrepijo škodljive vsebine in vplivajo na razvoj in širjenje zlorabe.Modul 4 · Poznavanje svojih pravic in odgovornostiOzaveščajte se o svojih pravicah, odgovornostih in razpoložljivih poteh poročanja, vključno z vlogami platform, športnih organizacij in drugih ustreznih organov.Modul 5 · Ukrepajte: Gradnja varnejših digitalnih športnih skupnostiSpremenite znanje v dejanja z raziskovanjem praktičnih načinov za preprečevanje, odzivanje in izzivanje spletne zlorabe v vaši športni skupnosti.",
           "note": "Native text body on About This Course"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">What you’ll explore</span>",
+          "text": "Kaj boste raziskovali",
           "note": "Native heading on About This Course"
         }
       }
@@ -4452,7 +4458,7 @@
     "outline": {
       "sections": {
         "uaoaCourse": {
-          "text": "UAOA eLearning Course",
+          "text": "Tečaj e-učenja UAOA",
           "note": "Sidebar section title (outline) — ScormStack section `71c3c17e-9739-4b2e-8e61-040352b392d8`"
         },
         "introduction": {
@@ -4460,7 +4466,7 @@
           "note": "Sidebar section title (outline) — ScormStack section `b883660a-734f-415f-bb1b-6040ed02f678`"
         },
         "preCourseSurvey": {
-          "text": "Pre-course survey",
+          "text": "Anketa pred tečajem",
           "note": "Sidebar section title (outline) — ScormStack section `0a7799a0-b6bf-43cc-a775-5bcb87c82c06`"
         },
         "module1": {
@@ -4484,53 +4490,53 @@
           "note": "Sidebar section title (outline) — ScormStack section `0555be9c-0bc5-49a0-939f-7fd32d68b3c2`"
         },
         "summary": {
-          "text": "Summary",
+          "text": "Povzetek",
           "note": "Sidebar section title (outline) — ScormStack section `a7b832f5-47a0-4bfe-a9b7-3c8367b189c7`"
         }
       },
       "slides": {
         "aboutThisCourse": {
-          "text": "About This Course",
+          "text": "O tem tečaju",
           "note": "Sidebar slide title (outline) — ScormStack slide `ab3c7036-4eff-4989-97c6-13b819492121`"
         },
         "finalQuiz": {
-          "text": "Final Quiz",
+          "text": "Končni kviz",
           "note": "Sidebar slide title (outline) — ScormStack slide `d4f62e1d-6153-42a0-893d-a2433efb98fe`"
         },
         "preCourseSurvey": {
-          "text": "Pre-course survey",
+          "text": "Anketa pred tečajem",
           "note": "Sidebar slide title (outline) — ScormStack slide `f11326b4-0133-4106-b4f5-6ce8842de2bf`"
         },
         "postCourseSurvey": {
-          "text": "Post-course Survey",
+          "text": "Anketa po tečaju",
           "note": "Sidebar slide title (outline) — ScormStack slide `ff1b2975-4e6e-44d3-85d6-74c61a9cbb51`"
         },
         "welcome": {
-          "text": "Welcome",
+          "text": "Dobrodošli",
           "note": "Sidebar slide title (outline) — ScormStack slide `a366e60b-a619-46f0-b98a-cf6b88540ae5`"
         },
         "exitPage": {
-          "text": "Exit Page",
+          "text": "Izhodna stran",
           "note": "Sidebar slide title (outline) — ScormStack slide `bdeace05-2d09-4056-8283-face7b8365e0`"
         },
         "module1": {
-          "text": "Understanding Online Abuse",
+          "text": "Razumevanje spletne zlorabe",
           "note": "Sidebar slide title (outline) — ScormStack slide `4c2d5f1a-37dd-4f89-9410-75ee3dface2a`"
         },
         "module2": {
-          "text": "Online Abuse in Sport: The Human Impact",
+          "text": "Spletna zloraba v športu: človeški vpliv",
           "note": "Sidebar slide title (outline) — ScormStack slide `b4fb888c-e41c-4b92-ba33-c3c6b9cfaeb4`"
         },
         "module3": {
-          "text": "How Online Harm Spreads",
+          "text": "Kako se širi spletna škoda",
           "note": "Sidebar slide title (outline) — ScormStack slide `69085f32-b529-456b-bef0-6ceae5b34c1d`"
         },
         "module4": {
-          "text": "Knowing Your Rights and Responsibilities",
+          "text": "Poznavanje svojih pravic in odgovornosti",
           "note": "Sidebar slide title (outline) — ScormStack slide `63c299a3-9125-4dae-9126-8417d7c6dd50`"
         },
         "module5": {
-          "text": "Take Action: Building Safer Digital Sport Communities",
+          "text": "Ukrepajte: Gradimo varnejše digitalne športne skupnosti",
           "note": "Sidebar slide title (outline) — ScormStack slide `e0eab6ca-b4df-4308-a725-19a2c232272b`"
         }
       }

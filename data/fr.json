@@ -113,65 +113,65 @@
   "survey": {
     "preCourse": {
       "iframeTitle": {
-        "text": "Pre-course survey",
+        "text": "Enquête préalable au cours",
         "note": "iframe title for Qualtrics embed between Welcome and Module 1"
       },
       "waitingStatus": {
-        "text": "Complete the survey below. Continue unlocks when you finish.",
+        "text": "Répondez au sondage ci-dessous. La suite se débloquera une fois le sondage terminé.",
         "note": "Status while waiting for QualtricsEOS"
       },
       "completeStatus": {
-        "text": "Survey complete — you can continue.",
+        "text": "Sondage terminé – vous pouvez continuer.",
         "note": "Status after QualtricsEOS / manual confirm"
       },
       "fallbackHint": {
-        "text": "If you finished the survey but Continue is still locked, confirm below.",
+        "text": "Si vous avez terminé le sondage mais que le bouton « Continuer » est toujours verrouillé, veuillez confirmer ci-dessous.",
         "note": "Shown after ~45s if EOS not detected"
       },
       "fallbackButton": {
-        "text": "I’ve finished the survey",
+        "text": "J'ai terminé le sondage",
         "note": "Manual unlock when QualtricsEOS is not received"
       },
       "slideTitle": {
-        "text": "Pre-course survey",
+        "text": "Enquête préalable au cours",
         "note": "Slide / section title between Welcome and Module 1"
       },
       "intro": {
-        "text": "<p>Please complete this short survey before starting Module 1. Continue unlocks when you finish.</p>",
+        "text": "Veuillez remplir ce court sondage avant de commencer le module 1. La suite se débloquera une fois le sondage terminé.",
         "note": "Pre-course survey intro HTML"
       },
       "continue": {
-        "text": "Continue to Module 1",
+        "text": "Passez au module 1",
         "note": "Nav CTA after survey embed"
       },
       "welcomeContinue": {
-        "text": "Continue",
+        "text": "Continuer",
         "note": "Welcome CTA now advances to pre-course survey (was Continue to Module 1)"
       }
     },
     "postCourse": {
       "iframeTitle": {
-        "text": "Post-course survey",
+        "text": "Enquête post-formation",
         "note": "iframe title for Qualtrics embed after final quiz"
       },
       "waitingStatus": {
-        "text": "Complete the survey below. Continue unlocks when you finish.",
+        "text": "Répondez au sondage ci-dessous. La suite se débloquera une fois le sondage terminé.",
         "note": "Status while waiting for QualtricsEOS"
       },
       "completeStatus": {
-        "text": "Survey complete — you can continue.",
+        "text": "Sondage terminé – vous pouvez continuer.",
         "note": "Status after QualtricsEOS / manual confirm"
       },
       "fallbackHint": {
-        "text": "If you finished the survey but Continue is still locked, confirm below.",
+        "text": "Si vous avez terminé le sondage mais que le bouton « Continuer » est toujours verrouillé, veuillez confirmer ci-dessous.",
         "note": "Shown after ~45s if EOS not detected"
       },
       "fallbackButton": {
-        "text": "I’ve finished the survey",
+        "text": "J'ai terminé le sondage",
         "note": "Manual unlock when QualtricsEOS is not received"
       },
       "continue": {
-        "text": "Continue",
+        "text": "Continuer",
         "note": "Nav CTA after post-course survey embed"
       }
     }
@@ -723,86 +723,86 @@
         "note": "slide_intro title"
       },
       "continueToModule2": {
-        "text": "Continue to Module 2",
+        "text": "Passez au module 2",
         "note": "End-of-module navigation_button label"
       },
       "applyWhatDoYouSee": {
         "body": {
-          "text": "<p><span style=\"color: #091324\"><strong>Online abuse can take different forms.</strong> Read each scenario and choose the behaviour that best describes what is happening.</span></p>",
+          "text": "Les abus en ligne peuvent prendre différentes formes. Lisez chaque scénario et choisissez le comportement qui décrit le mieux la situation.",
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Apply: What do you see?</span>",
+          "text": "Application : Que voyez-vous ?",
           "note": "Native heading on Understanding Online Abuse"
         }
       },
       "contextMatters": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Online abuse does not always fit neatly into one category. To understand what is happening, consider:</span></p>",
+          "text": "Les abus en ligne ne se laissent pas toujours facilement catégoriser. Pour comprendre ce qui se passe, il faut prendre en compte :",
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Context matters</span>",
+          "text": "Le contexte est important.",
           "note": "Native heading on Understanding Online Abuse"
         }
       },
       "exploreHowCanOnlineAbuseEvolve": {
         "body": {
-          "text": "<p><span style=\"color: #091324\"><strong>Online abuse can begin with in-person interactions and evolve</strong> as harmful content spreads and others become involved. Follow Matteo’s experience to see how this can happen.</span></p>",
+          "text": "Les abus en ligne peuvent débuter par des interactions en face à face et évoluer à mesure que des contenus nuisibles se propagent et que d'autres personnes s'y impliquent. L'histoire de Matteo illustre ce phénomène.",
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Explore: How can online abuse evolve?</span>",
+          "text": "Explorez : Comment les abus en ligne peuvent-ils évoluer ?",
           "note": "Native heading on Understanding Online Abuse"
         }
       },
       "introSubtitle": {
-        "text": "Estimated time: 15 minutes",
+        "text": "Durée estimée : 15 minutes",
         "note": "slide_intro subtitle (estimated time)"
       },
       "languageWhatIsBeingSaidOr": {
         "body": {
-          "text": "<ul style=\"margin:0; padding-left: 3.0em; list-style:disc; color: #091324; font-family:'Cerebri Sans Pro', system-ui, -apple-system, 'Segoe UI', sans-serif; font-size:16px; line-height:1.55;\"><li style=\"margin:0 0 8px;\"><p><strong>Language:</strong> What is being said or shared?</p></li><li style=\"margin:0 0 8px;\"><p><strong>Target:</strong> Is the attack focused on performance, appearance, identity, or a protected characteristic?</p></li><li style=\"margin:0;\"><p><strong>Pattern:</strong> Is it a single interaction or part of repeated or collective hostility?</p></li></ul>",
+          "text": "Langage : Que dit-on ou partage-t-on ? Cible : L’attaque vise-t-elle la performance, l’apparence, l’identité ou une caractéristique protégée ? Schéma : S’agit-il d’une interaction isolée ou d’une manifestation d’hostilité répétée ou collective ?",
           "note": "Native text body on Understanding Online Abuse"
         }
       },
       "onlineAbuseDoesNotAffectEveryone": {
         "body": {
-          "text": "<p style=\"text-align: left\"><span style=\"color: #091324\"><strong>Online abuse does not affect everyone equally.</strong> Some people face more frequent or targeted abuse when hostility focuses on personal characteristics that are considered protected.&nbsp;<br><br><strong>Protected characteristics</strong> can include <strong>race, ethnicity, nationality, religion, gender, sexual orientation, disability, age, pregnancy status, and marital status</strong>.</span></p><p style=\"text-align: left\"></p><p style=\"text-align: left\"><span style=\"color: #091324\">This list is not exhaustive, and recognised or protected characteristics may vary across legal systems, languages, cultures, and countries. When hostile or malicious language targets someone based on these or other protected characteristics, it may constitute </span><span style=\"color: #091324\"><strong>hate speech</strong>.</span></p>",
+          "text": "Les injures en ligne n'affectent pas tout le monde de la même manière. Certaines personnes sont victimes d'injures plus fréquentes ou ciblées lorsque l'hostilité se concentre sur des caractéristiques personnelles considérées comme protégées. Ces caractéristiques peuvent inclure la race, l'origine ethnique, la nationalité, la religion, le sexe, l'orientation sexuelle, le handicap, l'âge, la grossesse et l'état civil. Cette liste n'est pas exhaustive et les caractéristiques reconnues ou protégées peuvent varier selon les systèmes juridiques, les langues, les cultures et les pays. Lorsqu'un langage hostile ou malveillant cible une personne en raison de ces caractéristiques ou d'autres caractéristiques protégées, il peut constituer un discours de haine.",
           "note": "Native text body on Understanding Online Abuse"
         }
       },
       "onlineConversationsArePartOfSport": {
         "body": {
-          "text": "<p><span style=\"color: #091324; font-size: 18px\"><strong>Online conversations are part of sport: </strong>celebrating a result, discussing a decision, or connecting with a team or athlete. But these spaces can also become places where people are humiliated, targeted, or overwhelmed with criticism and abuse.</span></p>",
+          "text": "Les conversations en ligne font partie intégrante du sport : célébrer un résultat, discuter d’une décision ou échanger avec une équipe ou un athlète. Mais ces espaces peuvent aussi devenir des lieux d’humiliation, de harcèlement ou de harcèlement.",
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "<span style=\"color: #1c3564; font-size: 14px\">Online conversations are part of sport: celebrating a result, discussing a decision, or connecting with a team or athlete. But these spaces can also become places where people are humiliated, targeted, or overwhelmed with criticism and abuse.</span>",
+          "text": "Les conversations en ligne font partie intégrante du sport : célébrer un résultat, discuter d’une décision ou échanger avec une équipe ou un athlète. Mais ces espaces peuvent aussi devenir des lieux d’humiliation, de harcèlement ou de harcèlement.",
           "note": "Native heading on Understanding Online Abuse"
         }
       },
       "whatDoWeUnderstandByOnline": {
         "body": {
-          "text": "<p><span style=\"color: #091324\"><strong>Online abuse is any harmful behaviour directed at a person or group through digital platforms.</strong><br><br>Definitions vary across countries and contexts, so we focus on <em><u>what matters most:</u></em> recognising the harm and building the knowledge to prevent it in sport.</span></p><p></p><p><span style=\"color: #091324\">To recognise online abuse, it helps to understand the different forms it can take. Think of it as <strong>an umbrella covering three connected behaviours:</strong></span></p>",
+          "text": "Les abus en ligne désignent tout comportement nuisible dirigé contre une personne ou un groupe via les plateformes numériques. Les définitions varient selon les pays et les contextes ; nous nous concentrons donc sur l’essentiel : identifier les préjudices et développer les connaissances nécessaires pour les prévenir dans le sport. Pour reconnaître les abus en ligne, il est utile de comprendre les différentes formes qu’ils peuvent prendre. On peut les considérer comme un concept générique englobant trois comportements liés :",
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">What do we understand by online abuse?</span>",
+          "text": "Que signifie pour nous le terme « abus en ligne » ?",
           "note": "Native heading on Understanding Online Abuse"
         },
         "p4": {
-          "text": "<p>To recognise online abuse, it helps to understand the different forms it can take. Think of it as an umbrella covering three connected behaviours. Select each card to reveal the definition.</p>",
+          "text": "Pour reconnaître les abus en ligne, il est utile de comprendre les différentes formes qu'ils peuvent prendre. Imaginez un parapluie qui englobe trois comportements liés. Sélectionnez chaque carte pour en découvrir la définition.",
           "note": "Native text body on Understanding Online Abuse"
         }
       },
       "whenTheBehavioursOverlap": {
         "body": {
-          "text": "<p style=\"text-align: left\"><span style=\"color: #091324\">Imagine a player receives a humiliating comment after a loss. Similar messages then flood their account for days. Some also attack their race.<br><br>The humiliating language is <strong>offensive speech</strong>. The repeated public aggression in one or across social media platforms creates <strong>digital hostility</strong>. The racist targeting is considered <strong>hate speech</strong>. <br><br>To recognise what is happening, look at the language, who or what it targets, and the pattern of interactions. More than one behaviour may be present.</span></p>",
+          "text": "Imaginez qu'un joueur reçoive un commentaire humiliant après une défaite. Des messages similaires inondent ensuite son compte pendant des jours. Certains s'en prennent même à son origine ethnique. Le langage humiliant constitue un discours offensant. Cette agression publique répétée, sur une ou plusieurs plateformes de médias sociaux, crée une hostilité numérique. Le ciblage raciste est considéré comme un discours de haine. Pour comprendre ce qui se passe, il faut analyser le langage utilisé, la personne ou la chose visée, et le schéma des interactions. Plusieurs comportements peuvent être présents simultanément.",
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">When the behaviours overlap:</span>",
+          "text": "Lorsque les comportements se chevauchent :",
           "note": "Native heading on Understanding Online Abuse"
         }
       }
@@ -1246,41 +1246,41 @@
         "note": "Module 2 Barometer image_with_text"
       },
       "continueToModule3": {
-        "text": "Continue to Module 3",
+        "text": "Passez au module 3",
         "note": "End-of-module navigation_button label"
       },
       "checkYourUnderstandingOfTheKey": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Check your understanding of the key ideas from this module.</span></p>",
+          "text": "Vérifiez votre compréhension des idées clés de ce module.",
           "note": "Native text body on Online Abuse in Sport: The Human Impact"
         }
       },
       "introSubtitle": {
-        "text": "Estimated time: 15 minutes",
+        "text": "Durée estimée : 15 minutes",
         "note": "slide_intro subtitle (estimated time)"
       },
       "section1Body": {
-        "text": "<p><span style=\"color: #091324\"><strong>Understanding how online abuse affects people</strong> helps us build empathy for those targeted and respond with care and respect. The effects of online abuse on people can be serious and far-reaching: a single post can leave someone feeling anxious, unsafe, or doubting themselves even long after the initial interaction.</span></p><p></p><p><span style=\"color: #091324\">As abuse continues or spreads across digital platforms, its <strong>impact can intensify</strong>. Online abuse can affect <strong>mental health and wellbeing</strong>, as well as how athletes perform, how officials approach decisions, and how journalists and other professionals engage with their work.</span></p><p></p><p><span style=\"color: #091324\">Such effects can also <strong>extend beyond the person being targeted.</strong> Families, teammates, colleagues, and fans may witness or experience the consequences of abuse. At a wider level, persistent online hostility can shape sporting culture, affect participation, and influence <strong>who feels safe and welcome in sport.</strong></span></p>",
+        "text": "Comprendre l'impact des abus en ligne nous permet de développer de l'empathie envers les personnes ciblées et d'y répondre avec bienveillance et respect. Les conséquences des abus en ligne peuvent être graves et profondes : un simple message peut engendrer chez une personne un sentiment d'anxiété, d'insécurité ou de doute, même longtemps après l'interaction initiale. À mesure que les abus persistent ou se propagent sur les plateformes numériques, leur impact s'intensifie. Les abus en ligne peuvent affecter la santé mentale et le bien-être, ainsi que les performances des athlètes, la prise de décision des officiels et la manière dont les journalistes et autres professionnels exercent leur métier. Ces effets peuvent également toucher d'autres personnes que la victime. Famille, coéquipiers, collègues et supporters peuvent être témoins ou victimes des conséquences de ces abus. Plus largement, l'hostilité persistante en ligne peut façonner la culture sportive, affecter la participation et influencer le sentiment de sécurité et d'appartenance au monde du sport.",
         "note": "Section body on Online Abuse in Sport: The Human Impact"
       },
       "section2Body": {
-        "text": "<p><span style=\"color: #091324\">High-profile athletes tend to face a large volume of online abuse. However, <strong>athletes are not the only people targeted.</strong></span></p>",
+        "text": "Les athlètes de haut niveau sont souvent victimes de cyberharcèlement. Cependant, ils ne sont pas les seuls visés.",
         "note": "Section body on Online Abuse in Sport: The Human Impact"
       },
       "section3Body": {
-        "text": "<p><span style=\"color: #091324\">Online abuse can affect everyone involved in sport. Its consequences vary depending on the individual and their circumstances, with some impacts being particularly relevant to athletes. These effects can also reinforce one another: anxiety may disrupt sleep, poor sleep may affect concentration and confidence, and these combined effects can influence daily activities, sporting performance, and overall wellbeing.</span></p>",
+        "text": "Les abus en ligne peuvent toucher tous les acteurs du monde sportif. Leurs conséquences varient selon les individus et leur situation, certains impacts étant particulièrement importants pour les athlètes. Ces effets peuvent également s'amplifier mutuellement : l'anxiété peut perturber le sommeil, un mauvais sommeil peut affecter la concentration et la confiance en soi, et ces effets combinés peuvent influencer les activités quotidiennes, les performances sportives et le bien-être général.",
         "note": "Section body on Online Abuse in Sport: The Human Impact"
       },
       "section4Body": {
-        "text": "<p><span style=\"color: #091324\">After receiving repeated abusive messages online, an athlete begins posting on social media less frequently. Their coach notices they seem distracted during training, and they have recently mentioned sleeping poorly and feeling anxious about attending public events.</span></p>",
+        "text": "Après avoir reçu à plusieurs reprises des messages injurieux en ligne, un athlète commence à publier moins fréquemment sur les réseaux sociaux. Son entraîneur remarque qu'il semble distrait pendant les entraînements, et il a récemment mentionné des troubles du sommeil et une anxiété liée à la participation à des événements publics.",
         "note": "Section body on Online Abuse in Sport: The Human Impact"
       },
       "section5Body": {
-        "text": "<p><span style=\"color: #091324\">The effects of online abuse can <strong>extend beyond individuals</strong>, shaping the culture of sport and the communities around it. Widespread hostility can affect <strong>who feels welcome, safe, and able to participate</strong>, with implications for inclusion and the sustainability of sporting communities.<br><br></span></p><p><span style=\"color: #091324\">Sport also has a <strong>wider social influence</strong>. The behaviours and attitudes expressed in sporting spaces can contribute to broader social norms. When discriminatory or abusive behaviour becomes normalised, it can reinforce <strong>prejudice, exclusion, and hostility beyond sport.</strong></span></p><p></p>",
+        "text": "Les effets du harcèlement en ligne peuvent dépasser le cadre individuel et façonner la culture sportive et les communautés qui l'entourent. Une hostilité généralisée peut influencer le sentiment d'appartenance, de sécurité et de participation, avec des conséquences sur l'inclusion et la pérennité des communautés sportives. Le sport exerce également une influence sociale plus large. Les comportements et les attitudes exprimés dans les espaces sportifs peuvent contribuer à l'émergence de normes sociales plus générales. Lorsque des comportements discriminatoires ou abusifs se normalisent, ils peuvent renforcer les préjugés, l'exclusion et l'hostilité, bien au-delà du sport.",
         "note": "Section body on Online Abuse in Sport: The Human Impact"
       },
       "section5Body3": {
-        "text": "<p>To learn more, please read the <a href=\"https://unitedagainstonlineabuse.com/uaoa-barometer-2025/\" target=\"_blank\" rel=\"noopener\">UAOA Barometer 2025</a>.</p>",
+        "text": "Pour en savoir plus, veuillez consulter le Baromètre UAOA 2025.",
         "note": "Section body on Online Abuse in Sport: The Human Impact"
       }
     }
@@ -1639,138 +1639,138 @@
         "note": "slide_intro title"
       },
       "continueToModule4": {
-        "text": "Continue to Module 4",
+        "text": "Passez au module 4",
         "note": "End-of-module navigation_button label"
       },
       "aiAndOnlineHarm": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">AI is changing how online harm can be created and how it is shared. But AI can also be a powerful tool to avoid unwanted content spreading online.</span></p>",
+          "text": "L'IA transforme la manière dont les contenus nuisibles en ligne sont créés et partagés. Mais elle peut aussi constituer un outil puissant pour empêcher la diffusion de contenus indésirables sur Internet.",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">AI and Online Harm</span>",
+          "text": "IA et préjudices en ligne",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
       "exploreReportingSystemsInYourCountry": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Learn where to report online abuse, seek support and access resources to help address harmful content and behaviour.</span></p>",
+          "text": "Découvrez où signaler les abus en ligne, obtenir de l'aide et accéder aux ressources pour lutter contre les contenus et les comportements nuisibles.",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Explore reporting systems in your country:&nbsp;</span>",
+          "text": "Explorez les systèmes de signalement en vigueur dans votre pays :",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
       "exploreWhichFactorsCanInfluenceHow": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Select the three factors that can directly influence how harmful content travels and reaches new audiences online.</span></p>",
+          "text": "Sélectionnez les trois facteurs qui peuvent influencer directement la manière dont un contenu préjudiciable se propage et atteint de nouveaux publics en ligne.",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Explore: Which factors can influence how harmful content travels online?</span>",
+          "text": "Analyse : Quels facteurs peuvent influencer la diffusion en ligne des contenus nuisibles ?",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
       "howPlatformsHelpReduceOnlineAbuse": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Platforms act as intermediaries between <strong>people, content, and communities</strong>. Their design can influence the reach of harmful content, and their built-in tools can also help <strong>detect, limit, report, and respond to abuse</strong>.</span></p><p></p><p><span style=\"color: #091324\">These measures can include <strong>content moderation, reduced distribution of harmful content, prompts before posting, user safety settings, reporting mechanisms, and community standards.</strong> Regulation is also increasingly shaping platform responsibilities.&nbsp;</span></p><p></p><p><span style=\"color: #091324\">In most countries of the world, these platforms have a fiduciary duty (in the UK, for example, the <a href=\"https://www.gov.uk/government/publications/online-safety-act-explainer/online-safety-act-explainer\" target=\"_blank\" rel=\"noopener\">Online Safety Act</a> and in Europe, the <a href=\"https://digital-strategy.ec.europa.eu/en/policies/digital-services-act\" target=\"_blank\" rel=\"noopener\">Digital Services Act</a>) to assess risks, protect users from illegal content, provide reporting mechanisms, and implement proportionate safety measures.</span></p>",
+          "text": "Les plateformes servent d'intermédiaires entre les personnes, les contenus et les communautés. Leur conception peut influencer la diffusion des contenus préjudiciables, et leurs outils intégrés peuvent contribuer à détecter, limiter, signaler et gérer les abus. Ces mesures peuvent inclure la modération des contenus, la réduction de la diffusion des contenus préjudiciables, des avertissements avant publication, des paramètres de sécurité pour les utilisateurs, des mécanismes de signalement et des normes communautaires. La réglementation encadre de plus en plus les responsabilités des plateformes. Dans la plupart des pays du monde, ces plateformes ont une obligation fiduciaire (au Royaume-Uni, par exemple, la loi sur la sécurité en ligne et en Europe, la loi sur les services numériques) d'évaluer les risques, de protéger les utilisateurs contre les contenus illégaux, de fournir des mécanismes de signalement et de mettre en œuvre des mesures de sécurité proportionnées.",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">How platforms help reduce online abuse</span>",
+          "text": "Comment les plateformes contribuent à réduire les abus en ligne",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
       "howPlatformsShapeTheSpreadOf": {
         "body": {
-          "text": "<p><span style=\"color: #091324\"><strong>Every platform works differently.</strong> Design features influence how content travels, who encounters it, and how people interact with it. Select each card to learn more.</span></p>",
+          "text": "Chaque plateforme fonctionne différemment. Les caractéristiques de conception influencent la diffusion du contenu, les personnes qui y accèdent et la manière dont elles interagissent avec lui. Sélectionnez chaque carte pour en savoir plus.",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">How platforms shape the spread of online abuse</span>",
+          "text": "Comment les plateformes façonnent la propagation des abus en ligne",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
       "humanJudgementRemainsEssentialLanguageContext": {
         "body": {
-          "text": "<p><span style=\"color: #091324\"><strong>Human judgement remains essential</strong>.  Language, context, cultural differences, and evolving abuse tactics can make harmful content difficult to interpret accurately. As AI becomes more widely used, regulation is also evolving to address these risks and establish safeguards for its use across different jurisdictions.</span></p>",
+          "text": "Le jugement humain demeure essentiel. La langue, le contexte, les différences culturelles et l'évolution des tactiques d'abus peuvent rendre difficile l'interprétation précise des contenus préjudiciables. À mesure que l'IA se généralise, la réglementation évolue également afin de gérer ces risques et d'établir des garanties pour son utilisation dans différentes juridictions.",
           "note": "Native text body on How Online Harm Spreads"
         }
       },
       "image": {
         "useThisImageToIllustrateYour": {
-          "text": "<p>Use this image to illustrate your topic. Add a description that connects the visual to the main ideas of your lesson.</p>",
+          "text": "Utilisez cette image pour illustrer votre sujet. Ajoutez une description qui relie l'image aux idées principales de votre leçon.",
           "note": "Image body text on How Online Harm Spreads"
         }
       },
       "introSubtitle": {
-        "text": "Estimated time: 15 minutes",
+        "text": "Durée estimée : 15 minutes",
         "note": "slide_intro subtitle (estimated time)"
       },
       "lookingAhead": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">As AI-generated content becomes more common, <strong>transparency is becoming an important part of online safety</strong>. Emerging approaches include identifying or labelling AI-generated and manipulated content and providing information about its origin. Regulation will continue to evolve alongside technology.</span></p>",
+          "text": "Avec la multiplication des contenus générés par l'IA, la transparence devient un élément essentiel de la sécurité en ligne. Parmi les nouvelles approches figurent l'identification et l'étiquetage des contenus générés et manipulés par l'IA, ainsi que la fourniture d'informations sur leur origine. La réglementation continuera d'évoluer au même rythme que la technologie.",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Looking ahead</span>",
+          "text": "Perspectives d'avenir",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
       "onlineAbuseCanSpreadQuicklyAnd": {
         "body": {
-          "text": "<p><span style=\"color: #091324\"><strong>Online abuse can spread quickly and reach audiences far beyond the people involved</strong> in the original interaction. Digital platforms, user behaviour, and algorithmic systems all influence what content people see and how widely it travels.</span></p><p></p><p><span style=\"color: #091324\">Understanding these mechanisms helps us recognise <strong>how harmful content can be amplified</strong>, how online environments can reinforce hostility, and where opportunities exist to interrupt its spread. The same platforms and technologies that can amplify harmful content can also <strong>support its detection, moderation, and prevention.</strong></span></p>",
+          "text": "Les abus en ligne peuvent se propager rapidement et toucher un public bien plus large que les personnes initialement impliquées. Les plateformes numériques, les comportements des utilisateurs et les systèmes algorithmiques influencent tous le contenu consulté et sa diffusion. Comprendre ces mécanismes nous aide à identifier comment les contenus nuisibles peuvent être amplifiés, comment les environnements en ligne peuvent renforcer l'hostilité et où il est possible d'enrayer leur propagation. Les mêmes plateformes et technologies qui peuvent amplifier les contenus nuisibles peuvent également contribuer à leur détection, leur modération et leur prévention.",
           "note": "Native text body on How Online Harm Spreads"
         }
       },
       "reportingOnlineAbuseOnSocialMedia": {
         "body": {
-          "text": "<p>Reporting can help <strong>platforms and organisations respond to harmful content</strong> and can<strong> support further action</strong> when a situation becomes more serious.</p><p></p><p><strong>Read through these steps and tick each one as you learn.</strong></p>",
+          "text": "Le signalement permet aux plateformes et aux organisations de réagir aux contenus préjudiciables et de prendre des mesures supplémentaires lorsque la situation s'aggrave. Lisez attentivement ces étapes et cochez-les au fur et à mesure.",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Reporting online abuse on social media</span>",
+          "text": "Signaler les abus en ligne sur les réseaux sociaux",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
       "selectARegionToLearnMore": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">These regional examples are optional supplementary content and do not affect your course progress.</span></p>",
+          "text": "Ces exemples régionaux constituent un contenu supplémentaire facultatif et n'ont aucune incidence sur votre progression dans le cours.",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Select a region to learn more about online abuse. </span>",
+          "text": "Sélectionnez une région pour en savoir plus sur les abus en ligne.",
           "note": "Native heading on How Online Harm Spreads"
         }
       }
     },
     "risksBenefits": {
       "risksHeading": {
-        "text": "Potential risks",
+        "text": "Risques potentiels",
         "note": "M3 AI risks/benefits widget"
       },
       "benefitsHeading": {
-        "text": "Potential benefits",
+        "text": "Avantages potentiels",
         "note": "M3 AI risks/benefits widget"
       },
       "risks": {
         "r1": {
-          "text": "<strong>Creating and amplifying harm:</strong> Generative AI can produce or manipulate text, images, audio, and video quickly and at scale.",
+          "text": "Création et amplification des préjudices : l’IA générative peut produire ou manipuler rapidement et à grande échelle des textes, des images, des fichiers audio et vidéo.",
           "note": "HTML allowed"
         }
       },
       "benefits": {
         "b1": {
-          "text": "<strong>Detecting harmful content:</strong> AI can help identify potentially harmful content and patterns across large volumes of online activity.",
+          "text": "Détection des contenus nuisibles : l’IA peut aider à identifier les contenus et les schémas potentiellement nuisibles au sein de vastes volumes d’activité en ligne.",
           "note": "HTML allowed"
         },
         "b2": {
-          "text": "<strong>Supporting moderation:</strong> Automated systems can flag content for review and help moderators prioritise potential risks.",
+          "text": "Aide à la modération : les systèmes automatisés peuvent signaler les contenus à examiner et aider les modérateurs à prioriser les risques potentiels.",
           "note": "HTML allowed"
         },
         "b3": {
-          "text": "<strong>Supporting users:</strong> AI-enabled tools can help filter unwanted content and connect people with reporting and safety features.",
+          "text": "Assistance aux utilisateurs : les outils basés sur l’IA peuvent aider à filtrer les contenus indésirables et à mettre les utilisateurs en relation avec des fonctionnalités de signalement et de sécurité.",
           "note": "HTML allowed"
         }
       }
@@ -2106,98 +2106,98 @@
         "note": "slide_intro title"
       },
       "continueToModule5": {
-        "text": "Continue to Module 5",
+        "text": "Passez au module 5.",
         "note": "End-of-module navigation_button label"
       },
       "callout": {
         "pleaseNote": {
           "body": {
-            "text": "<p><span style=\"color: #091324\">This module provides a general overview of legal responses to online abuse and does not constitute legal advice. Laws differ between jurisdictions and can change over time. For advice about a specific situation, consult an appropriately qualified professional.</span></p>",
+            "text": "Ce module offre un aperçu général des réponses juridiques aux abus en ligne et ne constitue pas un avis juridique. La législation varie selon les juridictions et peut évoluer. Pour obtenir des conseils adaptés à votre situation, veuillez consulter un professionnel qualifié.",
             "note": "Callout body on Knowing Your Rights and Responsibilities"
           },
           "title": {
-            "text": "<span style=\"color: #1c3564\">Please note</span>",
+            "text": "Veuillez noter",
             "note": "Callout title on Knowing Your Rights and Responsibilities"
           }
         }
       },
       "howCanLegalResponsesDifferBy": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">The legal response to online abuse depends on where an incident occurs and which laws apply. Select a region to see an example of how existing laws can apply to online behaviour.</span></p>",
+          "text": "La réponse juridique aux abus en ligne dépend du lieu où l'incident se produit et des lois applicables. Sélectionnez une région pour voir un exemple d'application des lois existantes aux comportements en ligne.",
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">How can legal responses differ by country?</span>",
+          "text": "Comment les réponses juridiques peuvent-elles différer selon les pays ?",
           "note": "Native heading on Knowing Your Rights and Responsibilities"
         }
       },
       "internationalFederationsNationalGoverningBodiesClubs": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">International federations, national governing bodies, clubs, leagues, and other sporting organisations may have different responsibilities and resources. <strong>Clear policies and consistent processes help translate shared standards into action across different levels of sport</strong>.</span></p>",
+          "text": "Les fédérations internationales, les instances dirigeantes nationales, les clubs, les ligues et autres organisations sportives peuvent avoir des responsabilités et des ressources différentes. Des politiques claires et des processus cohérents permettent de traduire les normes communes en actions concrètes à tous les niveaux du sport.",
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         }
       },
       "introSubtitle": {
-        "text": "Estimated time: 15 minutes",
+        "text": "Durée estimée : 15 minutes",
         "note": "slide_intro subtitle (estimated time)"
       },
       "responsibilitiesBeyondTheLaw": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">The law establishes legal obligations. <strong>Sport also establishes standards for participation and conduct</strong>.</span></p><p></p><p><span style=\"color: #091324\">Codes of conduct, safeguarding procedures, safety policies, disciplinary processes, and community standards can help sporting organisations <strong>respond to harmful behaviour even when a legal pathway is unavailable or inappropriate.</strong></span></p>",
+          "text": "La loi établit des obligations légales. Le sport, quant à lui, définit des normes de participation et de conduite. Les codes de conduite, les procédures de protection, les politiques de sécurité, les procédures disciplinaires et les normes communautaires peuvent aider les organisations sportives à réagir aux comportements préjudiciables, même en l'absence de recours légal ou lorsque celui-ci est inapproprié.",
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Responsibilities beyond the law</span>",
+          "text": "Responsabilités au-delà de la loi",
           "note": "Native heading on Knowing Your Rights and Responsibilities"
         }
       },
       "selectTheBestOptionForEach": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Select the best option for each question. You must answer each question correctly before continuing. You can retry as many times as you like.</span></p>",
+          "text": "Choisissez la meilleure option pour chaque question. Vous devez répondre correctement à chaque question avant de continuer. Vous pouvez réessayer autant de fois que vous le souhaitez.",
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         }
       },
       "threeLegalPathways": {
         "body": {
-          "text": "<p>Online abuse may engage <strong>criminal, civil, or administrative law and regulations</strong>. Each pathway involves different actors, processes, and potential outcomes, and the same incident may involve more than one.</p><p></p><p>These pathways are not mutually exclusive. The same incident may raise different legal issues depending on what occurred and which laws apply.</p><p></p>",
+          "text": "Les abus en ligne peuvent relever du droit pénal, civil ou administratif. Chaque voie implique des acteurs, des processus et des conséquences potentielles différents, et un même incident peut en relever plusieurs. Ces voies ne sont pas exclusives. Un même incident peut soulever différentes questions juridiques selon les circonstances et les lois applicables.",
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Three legal pathways</span>",
+          "text": "Trois voies légales",
           "note": "Native heading on Knowing Your Rights and Responsibilities"
         }
       },
       "whenOnlineAbuseOccursImportantQuestions": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">When online abuse occurs, important questions can arise: <strong>Is there a law which can help? Who can take action? What other protections are available?</strong></span></p><p></p><p><span style=\"color: #091324\">The answers depend on the behaviour, where it occurs, and the laws that can help. Understanding the main legal pathways can help you recognise <strong>where legal accountability may be possible and when other forms of action are important</strong>.</span></p><p></p><p><span style=\"color: #091324\">In sport, legal protections work alongside<strong> organisational policies, codes of conduct, safeguarding procedures, and standards of sportsmanship</strong>. Together, these mechanisms help establish expectations for safer participation online.</span></p>",
+          "text": "Lorsqu'un abus en ligne se produit, des questions importantes se posent : existe-t-il une loi pour intervenir ? Qui peut agir ? Quelles autres protections sont disponibles ? Les réponses dépendent du comportement, du lieu où il se produit et des lois applicables. Comprendre les principaux recours juridiques permet de déterminer où une responsabilité légale est possible et quand d'autres formes d'action sont nécessaires. Dans le sport, les protections juridiques s'appuient sur les politiques organisationnelles, les codes de conduite, les procédures de protection et les normes de fair-play. Ensemble, ces mécanismes contribuent à instaurer des normes pour une participation en ligne plus sûre.",
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "heading": {
-          "text": "<span style=\"color: #1c3564; font-size: 14px\">When online abuse occurs, important questions can arise: <strong>Is there a law which can help?  Who can take action?  What other protections are available?</strong></span><br><span style=\"color: #1c3564; font-size: 14px\">The answers depend on the behaviour, where it occurs, and the laws that can help. Understanding the main legal pathways can help you recognise <strong>where legal accountability may be possible and when other forms of action are important</strong>.</span><br><span style=\"color: #1c3564; font-size: 14px\">In sport, legal protections work alongside <strong>organisational policies, codes of conduct, safeguarding procedures, and standards of sportsmanship</strong>. Together, these mechanisms help establish expectations for safer participation online.</span>",
+          "text": "Lorsqu'un abus en ligne se produit, des questions importantes se posent : existe-t-il une loi pour intervenir ? Qui peut agir ? Quelles autres protections sont disponibles ? Les réponses dépendent du comportement, du lieu où il se produit et des lois applicables. Comprendre les principaux recours juridiques permet de déterminer où une responsabilité légale est possible et quand d'autres formes d'action sont nécessaires. Dans le sport, les protections juridiques s'appuient sur les politiques organisationnelles, les codes de conduite, les procédures de protection et les normes de fair-play. Ensemble, ces mécanismes contribuent à instaurer des normes pour une participation en ligne plus sûre.",
           "note": "Native heading on Knowing Your Rights and Responsibilities"
         }
       },
       "whereLegalResponsesHaveLimits": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Legal pathways can provide important forms of accountability, but online environments create practical challenges for investigation and enforcement.</span></p>",
+          "text": "Les voies légales peuvent constituer d'importantes formes de responsabilisation, mais les environnements en ligne créent des défis pratiques en matière d'enquête et d'application de la loi.",
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Where legal responses have limits</span>",
+          "text": "Là où les réponses légales ont des limites",
           "note": "Native heading on Knowing Your Rights and Responsibilities"
         }
       },
       "whoCanDoWhat": {
         "col1": {
-          "text": "<h4 class=\"course-block-heading\"><span style=\"color: #091324\">Sporting organisations should:</span></h4><ul style=\"margin-left: 10px; padding-left: 1.25em;\"><li><p><span style=\"color: #091324\">Define online abuse and expected online conduct codes in organisational policies</span></p></li><li><p><span style=\"color: #091324\">Establish clear and accessible reporting procedures</span></p></li><li><p><span style=\"color: #091324\">Apply organisational consequences when codes of conduct are breached</span></p></li><li><p><span style=\"color: #091324\">Provide education on recognising, preventing, and responding to online abuse</span></p></li><li><p><span style=\"color: #091324\">Provide access to welfare and safeguarding support</span></p></li><li><p><span style=\"color: #091324\">Cooperate with platforms, regulators, or relevant authorities where appropriate</span></p></li></ul>",
+          "text": "Les organisations sportives devraient : définir les abus en ligne et les codes de conduite attendus en ligne dans leurs politiques internes ; établir des procédures de signalement claires et accessibles ; appliquer des sanctions internes en cas de violation des codes de conduite ; sensibiliser à la reconnaissance, à la prévention et à la gestion des abus en ligne ; donner accès à un soutien en matière de bien-être et de protection ; coopérer avec les plateformes, les organismes de réglementation ou les autorités compétentes, le cas échéant.",
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "col2": {
-          "text": "<h4 class=\"course-block-heading\"><span style=\"color: #091324\">Everyone in sport should:</span></h4><ul style=\"margin-left: 10px; padding-left: 1.25em;\"><li><p><span style=\"color: #091324\">Follow the codes of conduct and policies associated with their role</span></p></li><li><p><span style=\"color: #091324\">Use appropriate channels to report harmful behaviour</span></p></li><li><p><span style=\"color: #091324\">Avoid sharing or amplifying abusive content</span></p></li><li><p><span style=\"color: #091324\">Support people who are targeted</span></p></li><li><p><span style=\"color: #091324\">Recognise that standards of respect, fair play, and sportsmanship also apply in digital spaces</span></p></li></ul>",
+          "text": "Toute personne évoluant dans le monde du sport doit : respecter les codes de conduite et les politiques liés à son rôle ; utiliser les canaux appropriés pour signaler les comportements préjudiciables ; éviter de partager ou de relayer des contenus abusifs ; soutenir les personnes ciblées ; reconnaître que les normes de respect, de fair-play et d’esprit sportif s’appliquent également dans l’espace numérique.",
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "heading": {
-          "text": "Who can do what",
+          "text": "Qui peut faire quoi",
           "note": "Native heading on Knowing Your Rights and Responsibilities"
         }
       }
@@ -2323,39 +2323,39 @@
             "note": "HTML allowed"
           },
           "safeguardLead": {
-            "text": "Safeguarding means protecting people at risk and responding effectively when abuse happens."
+            "text": "La protection des personnes consiste à protéger les personnes à risque et à réagir efficacement en cas d'abus."
           },
           "prepareItems": {
             "i1": {
-              "text": "Policies and codes of conduct"
+              "text": "Politiques et codes de conduite"
             },
             "i2": {
-              "text": "Education and training"
+              "text": "Éducation et formation"
             },
             "i3": {
-              "text": "Clear expectations for digital behaviour"
+              "text": "Des attentes claires concernant le comportement numérique"
             }
           },
           "protectItems": {
             "i1": {
-              "text": "Welfare and safeguarding support"
+              "text": "Soutien au bien-être et à la protection"
             },
             "i2": {
-              "text": "Platform safety tools and moderation"
+              "text": "Outils de sécurité et de modération de la plateforme"
             },
             "i3": {
-              "text": "Mechanisms for people at risk"
+              "text": "Mécanismes pour les personnes à risque"
             }
           },
           "respondItems": {
             "i1": {
-              "text": "Accessible reporting pathways"
+              "text": "Voies de signalement accessibles"
             },
             "i2": {
-              "text": "Appropriate record keeping"
+              "text": "Tenue de registres appropriée"
             },
             "i3": {
-              "text": "Organisational procedures and escalation"
+              "text": "Procédures organisationnelles et escalade"
             }
           },
           "whoLabel": {
@@ -2772,49 +2772,49 @@
       },
       "exploreTheThreeLayersOfAction": {
         "body": {
-          "text": "<p>Action happens at three connected levels. The layers are interconnected and complementary: individual actions connect with organisational support and with wider collective action.</p>",
+          "text": "L'action se déroule à trois niveaux interconnectés. Ces niveaux sont interdépendants et complémentaires : les actions individuelles s'articulent avec le soutien organisationnel et avec une action collective plus large.",
           "note": "Native text body on Take Action: Building Safer Digital Sport Communities"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Explore the three layers of action</span>",
+          "text": "Explorez les trois niveaux d'action",
           "note": "Native heading on Take Action: Building Safer Digital Sport Communities"
         }
       },
       "image": {
         "throughStrongerTogetherUaoaBringsPeople": {
-          "text": "<p>Through Stronger Together, UAOA brings people and organisations across sport together to strengthen how they prepare for, prevent, and respond to online abuse, turning shared knowledge and coordinated action into practical support for the sporting community.</p>",
+          "text": "Grâce à son programme « Stronger Together », l’UAOA rassemble des personnes et des organisations du monde sportif afin de renforcer leurs méthodes de préparation, de prévention et de réponse aux abus en ligne, transformant ainsi les connaissances partagées et l’action coordonnée en un soutien concret pour la communauté sportive.",
           "note": "Image body text on Take Action: Building Safer Digital Sport Communities"
         }
       },
       "introSubtitle": {
-        "text": "Estimated time: 15 minutes",
+        "text": "Durée estimée : 15 minutes",
         "note": "slide_intro subtitle (estimated time)"
       },
       "onlineAbuseCanBeAddressedAt": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Online abuse can be addressed at different levels. </span><br><span style=\"color: #091324\"><strong>Drag each scenario to the level best placed to take action.</strong></span></p>",
+          "text": "Les abus en ligne peuvent être traités à différents niveaux. Faites glisser chaque scénario vers le niveau le plus approprié pour intervenir.",
           "note": "Native text body on Take Action: Building Safer Digital Sport Communities"
         }
       },
       "onlineAbuseInSportCanAffect": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Online abuse in sport can affect one person directly, but <strong>no one has to respond to it alone</strong>. We can each play a part in creating safer digital spaces, whether we are protecting our own wellbeing, supporting someone who is being targeted, witnessing harmful behaviour, or helping others through our work in sport.</span></p><p></p><p><span style=\"color: #091324\">The actions we can take depend on our role and circumstances. Individuals can protect themselves and support others. Organisations can provide clear pathways for reporting, support, and coordinated action. Across sporting communities, education, research, policy, and shared standards can help prevent harm and strengthen how we respond.</span></p><p></p><p><span style=\"color: #091324\">In this final module, you will explore how these different levels of action connect, where you can contribute, and how working together can help build safer digital sporting communities.</span></p>",
+          "text": "Les abus en ligne dans le sport peuvent affecter directement une personne, mais personne n'est obligé d'y faire face seul. Nous pouvons tous contribuer à créer des espaces numériques plus sûrs, que ce soit en protégeant notre propre bien-être, en soutenant une personne ciblée, en étant témoins de comportements nuisibles ou en aidant les autres dans le cadre de notre travail dans le sport. Les actions que nous pouvons entreprendre dépendent de notre rôle et de notre situation. Les individus peuvent se protéger et soutenir les autres. Les organisations peuvent mettre en place des procédures claires pour signaler les abus, obtenir du soutien et coordonner les actions. Au sein des communautés sportives, l'éducation, la recherche, les politiques et les normes partagées peuvent contribuer à prévenir les préjudices et à renforcer nos réponses. Dans ce dernier module, vous explorerez les liens entre ces différents niveaux d'action, votre rôle et comment la collaboration peut contribuer à bâtir des communautés sportives numériques plus sûres.",
           "note": "Native text body on Take Action: Building Safer Digital Sport Communities"
         },
         "heading": {
-          "text": "<span style=\"color: #1c3564; font-size: 14px\">Online abuse in sport can affect one person directly, but <strong>no one has to respond to it alone</strong>. We can each play a part in creating safer digital spaces, whether we are protecting our own wellbeing, supporting someone who is being targeted, witnessing harmful behaviour, or helping others through our work in sport.</span><br><br><span style=\"color: #1c3564; font-size: 14px\">The actions we can take depend on our role and circumstances. Individuals can protect themselves and support others. Organisations can provide clear pathways for reporting, support, and coordinated action. Across sporting communities, education, research, policy, and shared standards can help prevent harm and strengthen how we respond.</span><br><br><span style=\"color: #1c3564; font-size: 14px\">In this final module, you will explore how these different levels of action connect, where you can contribute, and how working together can help build safer digital sporting communities.</span>",
+          "text": "Les abus en ligne dans le sport peuvent affecter directement une personne, mais personne n'est obligé d'y faire face seul. Nous pouvons tous contribuer à créer des espaces numériques plus sûrs, que ce soit en protégeant notre propre bien-être, en soutenant une personne ciblée, en étant témoins de comportements nuisibles ou en aidant les autres dans le cadre de notre travail dans le sport. Les actions que nous pouvons entreprendre dépendent de notre rôle et de notre situation. Les individus peuvent se protéger et soutenir les autres. Les organisations peuvent mettre en place des procédures claires pour signaler les abus, obtenir du soutien et coordonner les actions. Au sein des communautés sportives, l'éducation, la recherche, les politiques et les normes partagées peuvent contribuer à prévenir les préjudices et à renforcer nos réponses. Dans ce dernier module, vous explorerez les liens entre ces différents niveaux d'action, votre rôle et comment la collaboration peut contribuer à bâtir des communautés sportives numériques plus sûres.",
           "note": "Native heading on Take Action: Building Safer Digital Sport Communities"
         }
       },
       "uaoaHelpsConnectTheseLevelsOf": {
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">UAOA helps connect these levels of action.&nbsp;</span>",
+          "text": "L'UAOA contribue à relier ces différents niveaux d'action.",
           "note": "Native heading on Take Action: Building Safer Digital Sport Communities"
         }
       },
       "youArePartOfAWider": {
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">You are part of a wider system</span>",
+          "text": "Vous faites partie d'un système plus vaste",
           "note": "Native heading on Take Action: Building Safer Digital Sport Communities"
         }
       }
@@ -3088,7 +3088,9 @@
           },
           "links": {
             "act": {
-              "note": "Inline masked links for Q11 choice c0 — multiple items join with a plain “ / ” separator inside the answer pill",
+              "note": {
+                "text": "Liens masqués intégrés pour le choix c0 de la question 11 : plusieurs éléments sont reliés par un simple séparateur « / » à l’intérieur de la réponse."
+              },
               "items": [
                 {
                   "text": "UAOA resources",
@@ -3107,14 +3109,18 @@
               ]
             },
             "learn": {
-              "text": "UAOA webinar series",
+              "text": {
+                "text": "Série de webinaires de l'UAOA"
+              },
               "url": {
                 "text": "https://unitedagainstonlineabuse.com/webinar-series/",
                 "note": "External URL for Q11 choice c1 — opens in new tab"
               }
             },
             "org": {
-              "text": "UAOA – Organisational Readiness Platform",
+              "text": {
+                "text": "Plateforme de préparation organisationnelle de l'UAOA"
+              },
               "url": {
                 "text": "https://orp.unitedagainstonlineabuse.com/",
                 "note": "External URL for Q11 choice c2 — opens in new tab"
@@ -3153,7 +3159,7 @@
           "note": "aria-label on next chevron when advancing"
         },
         "openResource": {
-          "text": "Open resource",
+          "text": "Ressource ouverte",
           "note": "Legacy; Q11 now shows masked link labels inline inside answer pills"
         }
       },
@@ -3167,7 +3173,7 @@
           "note": "Flip-card modal front CTA when passed or attempts exhausted"
         },
         "clickForDetails": {
-          "text": "Click for details",
+          "text": "Cliquez pour plus de détails",
           "note": "Flip-card modal front CTA when below pass score with retries left"
         },
         "headline": {
@@ -3181,15 +3187,15 @@
           "text": "Votre score reflète votre compréhension des concepts clés abordés dans ce cours."
         },
         "didNotPass": {
-          "text": "A score of {pass}% or higher is required to pass. This was attempt {n} of {max}.",
+          "text": "Un score de {pass}% ou plus est requis pour réussir. Il s'agissait de la tentative {n} sur {max}.",
           "note": "Shown on score back when below pass threshold; {pass}, {n}, {max} replaced in JS"
         },
         "retryHint": {
-          "text": "Review the course material, then try the quiz again.",
+          "text": "Relisez le contenu du cours, puis réessayez le quiz.",
           "note": "Score back note when retries remain"
         },
         "attemptsExhausted": {
-          "text": "You’ve used all {max} attempts. You can close this quiz and continue.",
+          "text": "Vous avez utilisé toutes vos tentatives {max}. Vous pouvez fermer ce quiz et continuer.",
           "note": "Score back note after final failed attempt; {max} replaced in JS"
         },
         "finish": {
@@ -3245,13 +3251,13 @@
       "exit": {
         "congratulations": {
           "heading": {
-            "text": "<span style=\"color: #21B7CB\">Congratulations!</span>",
+            "text": "Félicitations!",
             "note": "Native heading on Exit Page"
           }
         },
         "youAreNowBetterPreparedTo": {
           "body": {
-            "text": "<p><span style=\"color: rgb(9, 19, 36)\"><strong>You are now better prepared to take action against online abuse.</strong><br><br>Thank you for taking the time to learn with us. The knowledge and practical understanding you have developed can help you recognise harmful behaviour, respond more confidently, support others, and contribute to safer digital sporting communities.</span></p><p></p><p><span style=\"color: rgb(9, 19, 36)\">Every informed action matters. Together, we can help make sport safer online.</span></p><p></p><p><span style=\"color: rgb(9, 19, 36)\">Thank you for completing the UAOA eLearning course!</span></p><p></p><p><span style=\"color: rgb(9, 19, 36)\"><strong>UAOA</strong></span></p>",
+            "text": "Vous êtes désormais mieux préparé(e) à lutter contre les abus en ligne. Merci d'avoir pris le temps de vous former avec nous. Les connaissances et la compréhension pratique que vous avez acquises vous aideront à reconnaître les comportements nuisibles, à réagir avec plus d'assurance, à soutenir les autres et à contribuer à des communautés sportives numériques plus sûres. Chaque action éclairée compte. Ensemble, nous pouvons contribuer à rendre le sport en ligne plus sûr. Merci d'avoir suivi la formation en ligne de l'UAOA !",
             "note": "Native text body on Exit Page"
           }
         }
@@ -3259,31 +3265,31 @@
       "finalQuiz": {
         "summaryScoredQuiz": {
           "body": {
-            "text": "<p><span style=\"color: #091324\">Check what you have learned across the course. Answer each question, then review your results.</span></p>",
+            "text": "Vérifiez vos acquis tout au long du cours. Répondez à chaque question, puis consultez vos résultats.",
             "note": "Native text body on Final Quiz"
           },
           "heading": {
-            "text": "<span style=\"color: var(--background)\"><strong>Summary (scored quiz)</strong></span>",
+            "text": "Résumé (quiz noté)",
             "note": "Native heading on Final Quiz"
           }
         },
         "youAreReadyToActAgainst": {
           "body": {
-            "text": "<p><span style=\"color: #091324\">You started this course with a goal: to move from <strong>awareness to readiness</strong>. You now have the knowledge and practical tools to recognise online abuse, understand how and why it happens, respond with greater confidence, and support others in your sporting community.</span></p><p></p><p><span style=\"color: #091324\"><strong>One final step</strong>: bring what you have learned together in the final quiz.</span></p>",
+            "text": "Vous avez commencé ce cours avec un objectif précis : passer de la sensibilisation à la préparation. Vous possédez désormais les connaissances et les outils pratiques nécessaires pour reconnaître les abus en ligne, comprendre comment et pourquoi ils se produisent, réagir avec plus d’assurance et soutenir les autres membres de votre communauté sportive. Dernière étape : mettez en pratique vos acquis lors du quiz final.",
             "note": "Native text body on Final Quiz"
           },
           "heading": {
-            "text": "<span style=\"color: #21b7cb\">You are ready to act against online abuse</span>",
+            "text": "Vous êtes prêt à agir contre les abus en ligne",
             "note": "Native heading on Final Quiz"
           }
         },
         "yourReadiness": {
           "body": {
-            "text": "<p><span style=\"color: #091324; font-size: 30px\"><strong>Your Readiness Score is {{score}}%!</strong></span></p><p></p><p><span style=\"color: #091324\">You’ve learned how to recognise online abuse, understand its impact, and respond more safely across individual, organisational, and wider sporting contexts.</span></p><p></p><p><span style=\"color: #091324\">Your score reflects your current readiness to recognise online abuse and make informed decisions when it occurs.</span></p>",
+            "text": "Votre score de préparation est de {{score}}% ! Vous avez appris à reconnaître les abus en ligne, à comprendre leur impact et à réagir de manière plus sûre dans les contextes individuels, organisationnels et sportifs en général. Votre score reflète votre préparation actuelle à reconnaître les abus en ligne et à prendre des décisions éclairées lorsqu’ils surviennent.",
             "note": "Native text body on Final Quiz"
           },
           "heading": {
-            "text": "Your readiness",
+            "text": "Votre préparation",
             "note": "Native heading on Final Quiz"
           }
         }
@@ -3320,34 +3326,34 @@
         "text": "Fermer"
       },
       "close": {
-        "text": "Close",
+        "text": "Fermer",
         "note": "Support dialog primary close button"
       },
       "orgLeadDetail": {
-        "text": "Clubs and federations can offer support and act on abuse."
+        "text": "Les clubs et les fédérations peuvent offrir leur soutien et intervenir en cas d'abus."
       },
       "platformReporting": {
-        "text": "Platform reporting tools"
+        "text": "Outils de reporting de la plateforme"
       },
       "platformReportingDetail": {
-        "text": "Every major platform lets you report posts and accounts."
+        "text": "Toutes les principales plateformes permettent de signaler les publications et les comptes."
       },
       "emergencyServices": {
-        "text": "Emergency services"
+        "text": "Services d'urgence"
       },
       "emergencyServicesDetail": {
-        "text": "If you or someone else is in immediate danger, contact your local emergency number."
+        "text": "Si vous ou quelqu'un d'autre êtes en danger immédiat, contactez votre numéro d'urgence local."
       },
       "bodyM2": {
-        "text": "This module discusses the emotional and psychological effects of online abuse. You are encouraged to work through the material at a pace that feels appropriate and to access support where needed. You can return to the course whenever you are ready.",
+        "text": "Ce module aborde les conséquences émotionnelles et psychologiques des violences en ligne. Nous vous encourageons à progresser à votre rythme et à solliciter de l'aide si nécessaire. Vous pouvez reprendre le cours quand vous le souhaitez.",
         "note": "Module 2 sensitive-notice body"
       },
       "bodyM3": {
-        "text": "This module refers to forms of online abuse. No abusive content is shown. Take breaks when you need them, and remember that support is available. You can return to the course whenever you are ready.",
+        "text": "Ce module aborde les différentes formes de violence en ligne. Aucun contenu abusif n'est présenté. N'hésitez pas à faire des pauses lorsque vous en ressentez le besoin et sachez que de l'aide est disponible. Vous pouvez reprendre le cours dès que vous vous sentirez prêt(e).",
         "note": "Module 4 sensitive-notice body (forms-of-abuse wording)"
       },
       "bodyM4": {
-        "text": "This module discusses online abuse and responses to it. No abusive content is shown. Take breaks when you need them, and remember that support is available. You can return to the course whenever you are ready.",
+        "text": "Ce module aborde le harcèlement en ligne et les réponses à y apporter. Aucun contenu abusif n'est présenté. N'hésitez pas à faire des pauses lorsque vous en ressentez le besoin et sachez que de l'aide est disponible. Vous pouvez reprendre le cours quand vous le souhaitez.",
         "note": "Module 5 sensitive-notice body"
       }
     },
@@ -4333,116 +4339,116 @@
   "welcome": {
     "partners": {
       "caption": {
-        "text": "UAOA thanks the Erasmus+ partner FIA member clubs Autoklub Ceske republiky (Czech Republic), Zveza za avto sport Slovenije - AS (Slovenia), Real Federación Española De Automovilismo (Spain) and Svenska Bilsportförbundet (Sweden) along with the respective Academic partners Charles University, Prague, Prof. Matej Tusak (Slovenia), ESBS (European Sport Business School (ESBS Spain) and Asst. Prof. Lisa Kaati (Stockholm University) for contributing to the development of this eLearning Course.",
+        "text": "L'UAOA remercie les clubs membres de la FIA partenaires Erasmus+, Autoklub Ceske republiky (République tchèque), Zveza za avto sport Slovenije - AS (Slovénie), Real Federación Española De Automovilismo (Espagne) et Svenska Bilsportförbundet (Suède), ainsi que les partenaires académiques respectifs, l'Université Charles de Prague, le professeur Matej Tusak (Slovénie), l'ESBS (European Sport Business School (ESBS Espagne)) et la professeure adjointe Lisa Kaati (Université de Stockholm), pour leur contribution au développement de ce cours d'apprentissage en ligne.",
         "note": "Welcome partner-acknowledgements caption embed (teal italic box under video)"
       }
     },
     "outcomes": {
       "listAria": {
-        "text": "What you will gain from this course",
+        "text": "Ce que vous retirerez de ce cours",
         "note": "aria-label on Welcome learning-objectives timeline list"
       },
       "items": {
         "i1": {
-          "text": "<strong>Recognise</strong> online abuse and its different forms, including who may face disproportionate risk.",
+          "text": "Reconnaître les abus en ligne et leurs différentes formes, et identifier les personnes susceptibles d'être exposées à un risque disproportionné.",
           "note": "HTML allowed — bold lead verb"
         },
         "i2": {
-          "text": "<strong>Understand</strong> the impact of online abuse in your sporting community, using real-world evidence to identify its consequences for mental health and athletic performance.",
+          "text": "Comprenez l’impact des abus en ligne dans votre communauté sportive, en utilisant des données concrètes pour identifier ses conséquences sur la santé mentale et les performances sportives.",
           "note": "HTML allowed — bold lead verb"
         },
         "i3": {
-          "text": "<strong>Explore</strong> how digital platforms, social media algorithms, and AI can amplify online abuse, and how effective governance can help reduce it.",
+          "text": "Découvrez comment les plateformes numériques, les algorithmes des médias sociaux et l'IA peuvent amplifier les abus en ligne, et comment une gouvernance efficace peut contribuer à les réduire.",
           "note": "HTML allowed — bold lead verb"
         },
         "i4": {
-          "text": "<strong>Apply</strong> reporting procedures with confidence, safely and effectively flagging abusive content across major social media and gaming platforms.",
+          "text": "Appliquez les procédures de signalement avec confiance, en signalant de manière sûre et efficace les contenus abusifs sur les principales plateformes de médias sociaux et de jeux.",
           "note": "HTML allowed — bold lead verb"
         },
         "i5": {
-          "text": "<strong>Take</strong> informed action in your sporting environment, individually and alongside others, to help create safer spaces in sport.",
+          "text": "Agissez de manière éclairée dans votre environnement sportif, individuellement et avec les autres, pour contribuer à créer des espaces plus sûrs dans le sport.",
           "note": "HTML allowed — bold lead verb"
         }
       }
     },
     "slide": {
       "whatYouWillGain": {
-        "text": "What you will gain from this course:",
+        "text": "Ce que vous retirerez de ce cours :",
         "note": "Welcome native subheading above learning-objectives timeline"
       },
       "buildReadiness": {
-        "text": "Build your readiness to act",
+        "text": "Préparez-vous à agir",
         "note": "Welcome native subheading above Continue CTA"
       },
       "euDisclaimer": {
         "body": {
-          "text": "<p style=\"text-align: left\"><span style=\"font-size: 11px\"><em>Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Education and Culture Executive Agency (EACEA). Neither the European Union nor EACEA can be held responsible for them.</em></span></p>",
+          "text": "Financé par l’Union européenne. Les opinions exprimées n’engagent que leurs auteurs et ne reflètent pas nécessairement celles de l’Union européenne ni de l’Agence exécutive européenne pour l’éducation et la culture (EACEA). Ni l’Union européenne ni l’EACEA ne sauraient en être tenues responsables.",
           "note": "Native text body on Welcome"
         }
       },
       "sportConnectsMillionsOfPeopleAcross": {
         "body": {
-          "text": "<p><span style=\"color: #091324\"><strong>Sport connects millions of people</strong> across countries, cultures, and generations through passion, pride, and the thrill of competition.<br><br><strong>Online abuse puts that connection at risk.</strong> When athletes, officials, volunteers, and fans are attacked online for who they are or how they perform, the consequences can extend far beyond the screen - hurting people, derailing careers, and normalizing abusive behaviour.<br><br><strong>United Against Online Abuse (UAOA)</strong> brings together more than 75 governments, sports, academics and and technology platforms around a shared goal: <strong>making sport safer from online abuse.</strong> Lasting change requires action across institutions, communities, <strong>and individuals, and that includes you.</strong></span></p><p></p><p><span style=\"color: #091324\">Developed in collaboration with the University of Notre Dame, with this <strong>eLearning Course</strong>, the main goal of the UAOA initiative is to help you to recognise different forms of online abuse, understand their impact on your sporting community, and use reporting procedures with confidence. Once completed, <strong>this Course will prepare you</strong> to take informed action and contribute to a safer sporting environment.</span></p><p></p><p><span style=\"color: #091324\"><strong>Thank you for joining the effort.</strong></span></p>",
+          "text": "Le sport unit des millions de personnes par-delà les frontières, les cultures et les générations grâce à la passion, la fierté et le frisson de la compétition. Les abus en ligne mettent ce lien en péril. Lorsque des athlètes, des officiels, des bénévoles et des supporters sont attaqués en ligne en raison de leur identité ou de leurs performances, les conséquences peuvent aller bien au-delà de l'écran : blesser des personnes, briser des carrières et banaliser les comportements abusifs. L'initiative « Unis contre les abus en ligne » (UAOA) rassemble plus de 75 gouvernements, organisations sportives, universités et plateformes technologiques autour d'un objectif commun : rendre le sport plus sûr face aux abus en ligne. Un changement durable exige l'action de toutes les institutions, communautés et individus, et vous aussi. Développé en collaboration avec l'Université de Notre Dame, ce cours en ligne de l'UAOA a pour principal objectif de vous aider à reconnaître les différentes formes d'abus en ligne, à comprendre leur impact sur votre communauté sportive et à utiliser les procédures de signalement avec assurance. Une fois ce cours terminé, vous serez en mesure d'agir en toute connaissance de cause et de contribuer à un environnement sportif plus sûr. Merci de vous joindre à cet effort.",
           "note": "Native text body on Welcome"
         },
         "p3": {
-          "text": "<p>United Against Online Abuse (UAOA) brings together more than 75 governments, sports, academics and technology platforms around a shared goal: making sport safer from online abuse. Lasting change requires action across institutions, communities, and individuals, and that includes you.</p>",
+          "text": "L’initiative United Against Online Abuse (UAOA) rassemble plus de 75 gouvernements, organisations sportives, universités et plateformes technologiques autour d’un objectif commun : protéger le sport contre les abus en ligne. Un changement durable exige l’action de toutes les institutions, communautés et individus, et vous aussi.",
           "note": "Native text body on Welcome"
         }
       },
       "welcomeTitle": {
         "heading": {
-          "text": "<span style=\"color: #1c3564\">Welcome: Thanks for joining the UAOA mission!</span>",
+          "text": "Bienvenue : Merci de rejoindre la mission de l’UAOA !",
           "note": "Native heading on Welcome"
         }
       },
       "buildReadinessBody": {
-        "text": "<p><span style=\"color: #091324\">Awareness is only the beginning. This course builds the practical knowledge and skills needed to understand online abuse and take informed action for yourself and for your sporting community.</span></p><p></p><p><span style=\"color: #091324\">The course is designed to meet you wherever you are in your understanding of the topic:</span></p><ul style=\"margin: 0.5em 0 0.75em; padding-left: calc(1.35em + 10pt);\"><li style=\"margin: 0 0 10pt; color: #091324;\"><p style=\"margin: 0;\"><span style=\"color: #091324\"><strong>If you are already familiar with online abuse</strong>, deepen your understanding of reporting systems, digital platforms, AI, and emerging approaches to prevention and response.</span></p></li><li style=\"margin: 0; color: #091324;\"><p style=\"margin: 0;\"><span style=\"color: #091324\"><strong>If the topic is new to you</strong>, build a strong foundation and identify practical ways to contribute to safer online practices and digital spaces in sport.</span></p></li></ul><p><span style=\"color: #091324\">By the end of the course, you will be better equipped to <strong>recognise online abuse, respond with confidence, and play an active role in creating safer sport.</strong></span></p>",
+        "text": "La sensibilisation n'est qu'un point de départ. Ce cours vous permettra d'acquérir les connaissances et les compétences pratiques nécessaires pour comprendre les abus en ligne et agir en toute connaissance de cause, pour vous-même et pour votre communauté sportive. Il est conçu pour s'adapter à votre niveau de compréhension du sujet : si vous êtes déjà familiarisé avec les abus en ligne, approfondissez votre compréhension des systèmes de signalement, des plateformes numériques, de l'intelligence artificielle et des nouvelles approches en matière de prévention et de réponse ; si le sujet vous est nouveau, acquérez de solides bases et découvrez des moyens concrets de contribuer à des pratiques et des espaces numériques plus sûrs dans le sport. À l'issue de ce cours, vous serez mieux armé pour reconnaître les abus en ligne, réagir avec assurance et jouer un rôle actif dans la création d'un sport plus sûr.",
         "note": "Native text body on Welcome"
       }
     },
     "about": {
       "aboutTheCourse": {
         "body": {
-          "text": "<p><span style=\"color: #091324\"><strong>Course duration</strong></span></p><p><span style=\"color: #091324\">Approximately <strong>90 minutes</strong>, completed at your own pace.</span></p><p><span style=\"color: #091324\"><br></span></p><p><span style=\"color: #091324\"><strong>Who is it for?</strong></span></p><p><span style=\"color: #091324\">Anyone who participates in, works in, or engages with sport and wants to better understand and respond to online abuse, including <strong>athletes, coaches, officials, staff, volunteers, administrators, media professionals, fans, and others across the sporting community</strong>.</span></p><p><span style=\"color: #091324\"><br><strong>What can you expect?</strong></span></p><p><span style=\"color: #091324\">Five short modules combine practical guidance, scenarios, and opportunities to apply what you learn. No prior knowledge of online abuse is required.</span></p><p></p>",
+          "text": "Durée du cours : Environ 90 minutes, à votre rythme. À qui s’adresse ce cours ? À toute personne impliquée dans le monde du sport (athlètes, entraîneurs, officiels, personnel, bénévoles, administrateurs, professionnels des médias, supporters, etc.) et souhaitant mieux comprendre et réagir face aux abus en ligne. Au programme : cinq modules courts alliant conseils pratiques, mises en situation et exercices d’application. Aucune connaissance préalable des abus en ligne n’est requise.",
           "note": "Native text body on About This Course"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">About the course</span>",
+          "text": "À propos du cours",
           "note": "Native heading on About This Course"
         }
       },
       "courseTitle": {
-        "text": "<span style=\"color: var(--background); font-size: 22pt\">UAOA eLearning Course</span><span style=\"color: var(--background)\"><br></span><span style=\"color: var(--background); font-size: 20px\"><em>Understanding and Responding to Online Abuse in Sport</em></span>",
+        "text": "Cours en ligne de l'UAOA : Comprendre et réagir aux abus en ligne dans le sport",
         "note": "About course hero title (HTML)"
       },
       "readyToBegin": {
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Ready to Begin?</span>",
+          "text": "Prêt à commencer ?",
           "note": "Native heading on About This Course"
         }
       },
       "startCourse": {
-        "text": "Start Course",
+        "text": "Commencer le cours",
         "note": "Native navigation_button on About This Course"
       },
       "tagline": {
         "body": {
-          "text": "<p><span style=\"color: #091324; font-size: 18px\">This course from <strong>United Against Online Abuse (UAOA)</strong> provides practical knowledge and tools to help you <strong>recognise online abuse, understand its impact, navigate reporting procedures, and take informed action within your sporting community</strong>.</span></p>",
+          "text": "Ce cours proposé par United Against Online Abuse (UAOA) fournit des connaissances et des outils pratiques pour vous aider à reconnaître les abus en ligne, à comprendre leur impact, à vous orienter dans les procédures de signalement et à prendre des mesures éclairées au sein de votre communauté sportive.",
           "note": "Native text body on About This Course"
         },
         "heading": {
-          "text": "<span style=\"color: #1c3564\">Building Safer Digital Spaces in Sport</span>",
+          "text": "Créer des espaces numériques plus sûrs dans le sport",
           "note": "Native heading on About This Course"
         }
       },
       "whatYoullExplore": {
         "body": {
-          "text": "<div style=\"margin:0;border:0;border-left:none;background:transparent;\"><p style=\"margin:0 0 0.35em;\"><span style=\"color: #091324\"><strong>Module 1 · Understanding Online Abuse</strong></span></p><p style=\"margin:0 0 1.35em; padding-left: 5em;\"><span style=\"color: #091324\">Learn to recognise different forms of online abuse, how they can overlap and escalate, and what groups of people face disproportionate risk.</span></p><p style=\"margin:0 0 0.35em;\"><span style=\"color: #091324\"><strong>Module 2 · Online Abuse in Sport: The Human Impact</strong></span></p><p style=\"margin:0 0 1.35em; padding-left: 5em;\"><span style=\"color: #091324\">Explore how online abuse can affect athletes with consequences for wellbeing, performance, participation, and sporting communities.</span></p><p style=\"margin:0 0 0.35em;\"><span style=\"color: #091324\"><strong>Module 3 · How Online Harm Spreads</strong></span></p><p style=\"margin:0 0 1.35em; padding-left: 5em;\"><span style=\"color: #091324\">Understand how digital platforms, online behaviours, and emerging technologies can amplify harmful content and influence how abuse develops and spreads.</span></p><p style=\"margin:0 0 0.35em;\"><span style=\"color: #091324\"><strong>Module 4 · Knowing Your Rights and Responsibilities</strong></span></p><p style=\"margin:0 0 1.35em; padding-left: 5em;\"><span style=\"color: #091324\">Build awareness of your rights, responsibilities, and available reporting pathways, including the roles of platforms, sporting organisations, and other relevant bodies.</span></p><p style=\"margin:0 0 0.35em;\"><span style=\"color: #091324\"><strong>Module 5 · Take Action: Building Safer Digital Sport Communities</strong></span></p><p style=\"margin:0 0 0; padding-left: 5em;\"><span style=\"color: #091324\">Turn knowledge into action by exploring practical ways to prevent, respond to, and challenge online abuse within your sporting community.</span></p></div>",
+          "text": "Module 1 · Comprendre les abus en ligne : Apprenez à reconnaître les différentes formes d’abus en ligne, leurs recoupements et leur escalade, ainsi que les groupes de personnes les plus exposés. Module 2 · Les abus en ligne dans le sport : L’impact humain : Découvrez comment les abus en ligne peuvent affecter les athlètes et avoir des conséquences sur leur bien-être, leurs performances, leur participation et les communautés sportives. Module 3 · Comment les préjudices en ligne se propagent : Comprenez comment les plateformes numériques, les comportements en ligne et les nouvelles technologies peuvent amplifier les contenus préjudiciables et influencer le développement et la propagation des abus. Module 4 · Connaître vos droits et vos responsabilités : Informez-vous sur vos droits, vos responsabilités et les voies de signalement disponibles, notamment le rôle des plateformes, des organisations sportives et des autres organismes compétents. Module 5 · Agir : Construire des communautés sportives numériques plus sûres : Mettez vos connaissances en pratique en explorant des solutions concrètes pour prévenir, gérer et combattre les abus en ligne au sein de votre communauté sportive.",
           "note": "Native text body on About This Course"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">What you’ll explore</span>",
+          "text": "Ce que vous explorerez",
           "note": "Native heading on About This Course"
         }
       }
@@ -4452,7 +4458,7 @@
     "outline": {
       "sections": {
         "uaoaCourse": {
-          "text": "UAOA eLearning Course",
+          "text": "Cours d'apprentissage en ligne de l'UAOA",
           "note": "Sidebar section title (outline) — ScormStack section `71c3c17e-9739-4b2e-8e61-040352b392d8`"
         },
         "introduction": {
@@ -4460,7 +4466,7 @@
           "note": "Sidebar section title (outline) — ScormStack section `b883660a-734f-415f-bb1b-6040ed02f678`"
         },
         "preCourseSurvey": {
-          "text": "Pre-course survey",
+          "text": "Enquête préalable au cours",
           "note": "Sidebar section title (outline) — ScormStack section `0a7799a0-b6bf-43cc-a775-5bcb87c82c06`"
         },
         "module1": {
@@ -4484,53 +4490,53 @@
           "note": "Sidebar section title (outline) — ScormStack section `0555be9c-0bc5-49a0-939f-7fd32d68b3c2`"
         },
         "summary": {
-          "text": "Summary",
+          "text": "Résumé",
           "note": "Sidebar section title (outline) — ScormStack section `a7b832f5-47a0-4bfe-a9b7-3c8367b189c7`"
         }
       },
       "slides": {
         "aboutThisCourse": {
-          "text": "About This Course",
+          "text": "À propos de ce cours",
           "note": "Sidebar slide title (outline) — ScormStack slide `ab3c7036-4eff-4989-97c6-13b819492121`"
         },
         "finalQuiz": {
-          "text": "Final Quiz",
+          "text": "Quiz final",
           "note": "Sidebar slide title (outline) — ScormStack slide `d4f62e1d-6153-42a0-893d-a2433efb98fe`"
         },
         "preCourseSurvey": {
-          "text": "Pre-course survey",
+          "text": "Enquête préalable au cours",
           "note": "Sidebar slide title (outline) — ScormStack slide `f11326b4-0133-4106-b4f5-6ce8842de2bf`"
         },
         "postCourseSurvey": {
-          "text": "Post-course Survey",
+          "text": "Enquête post-formation",
           "note": "Sidebar slide title (outline) — ScormStack slide `ff1b2975-4e6e-44d3-85d6-74c61a9cbb51`"
         },
         "welcome": {
-          "text": "Welcome",
+          "text": "Accueillir",
           "note": "Sidebar slide title (outline) — ScormStack slide `a366e60b-a619-46f0-b98a-cf6b88540ae5`"
         },
         "exitPage": {
-          "text": "Exit Page",
+          "text": "Quitter la page",
           "note": "Sidebar slide title (outline) — ScormStack slide `bdeace05-2d09-4056-8283-face7b8365e0`"
         },
         "module1": {
-          "text": "Understanding Online Abuse",
+          "text": "Comprendre les abus en ligne",
           "note": "Sidebar slide title (outline) — ScormStack slide `4c2d5f1a-37dd-4f89-9410-75ee3dface2a`"
         },
         "module2": {
-          "text": "Online Abuse in Sport: The Human Impact",
+          "text": "Abus en ligne dans le sport : l’impact humain",
           "note": "Sidebar slide title (outline) — ScormStack slide `b4fb888c-e41c-4b92-ba33-c3c6b9cfaeb4`"
         },
         "module3": {
-          "text": "How Online Harm Spreads",
+          "text": "Comment se propagent les dangers en ligne",
           "note": "Sidebar slide title (outline) — ScormStack slide `69085f32-b529-456b-bef0-6ceae5b34c1d`"
         },
         "module4": {
-          "text": "Knowing Your Rights and Responsibilities",
+          "text": "Connaître vos droits et vos responsabilités",
           "note": "Sidebar slide title (outline) — ScormStack slide `63c299a3-9125-4dae-9126-8417d7c6dd50`"
         },
         "module5": {
-          "text": "Take Action: Building Safer Digital Sport Communities",
+          "text": "Agir : Construire des communautés sportives numériques plus sûres",
           "note": "Sidebar slide title (outline) — ScormStack slide `e0eab6ca-b4df-4308-a725-19a2c232272b`"
         }
       }
