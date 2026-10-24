@@ -287,10 +287,17 @@ def save_lock(locale: str, lock: dict | None, message: str) -> None:
 
 
 def set_by_path(root: dict, key: str, text: str) -> None:
+    """Numeric parts index lists; existing plain strings stay plain (no {text} wrap)."""
     parts = key.split('.')
-    cur: dict = root
+    cur = root
     for p in parts[:-1]:
+        if isinstance(cur, list):
+            cur = cur[int(p)]
+            continue
         nxt = cur.get(p)
+        if isinstance(nxt, list):
+            cur = nxt
+            continue
         if not isinstance(nxt, dict) or (
             isinstance(nxt, dict) and 'text' in nxt and set(nxt.keys()) <= {'text', 'note'}
         ):
@@ -298,8 +305,14 @@ def set_by_path(root: dict, key: str, text: str) -> None:
             cur[p] = nxt
         cur = nxt
     leaf = parts[-1]
+    if isinstance(cur, list):
+        idx = int(leaf)
+        cur[idx] = text if isinstance(cur[idx], str) else {**cur[idx], 'text': text}
+        return
     existing = cur.get(leaf)
-    if isinstance(existing, dict) and 'text' in existing:
+    if isinstance(existing, str):
+        cur[leaf] = text
+    elif isinstance(existing, dict) and 'text' in existing:
         cur[leaf] = {**existing, 'text': text}
     else:
         cur[leaf] = {'text': text}

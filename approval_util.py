@@ -47,17 +47,21 @@ def is_leaf_entry(node: Any) -> bool:
 def flatten_catalog(obj: Any, prefix: str = '') -> dict[str, str]:
     """Return dotted-key → leaf text for a locale catalog (skips _meta keys)."""
     out: dict[str, str] = {}
-    if not isinstance(obj, dict):
+    if isinstance(obj, list):
+        items = [(str(i), v) for i, v in enumerate(obj)]
+    elif isinstance(obj, dict):
+        items = list(obj.items())
+    else:
         return out
-    for k, v in obj.items():
+    for k, v in items:
         if str(k).startswith('_'):
             continue
         path = f'{prefix}.{k}' if prefix else str(k)
         if is_leaf_entry(v):
             out[path] = leaf_text(v)
-        elif isinstance(v, dict):
+        elif isinstance(v, (dict, list)):
             out.update(flatten_catalog(v, path))
-        elif isinstance(v, str):
+        elif isinstance(v, str) and k != 'note':
             out[path] = v
     return out
 

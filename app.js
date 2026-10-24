@@ -252,6 +252,8 @@
   }
 
   function walk(obj, prefix, out) {
+    // Arrays are walked by index (links.act.items.0.text); a string `note`
+    // beside other fields is a translator note, not a learner string.
     if (!obj || typeof obj !== 'object') return;
     Object.keys(obj).forEach(function (k) {
       if (k.charAt(0) === '_') return;
@@ -259,9 +261,9 @@
       var v = obj[k];
       if (isLeafEntry(v)) {
         out.push({ key: path, text: leafText(v), note: leafNote(v) });
-      } else if (v && typeof v === 'object' && !Array.isArray(v)) {
+      } else if (v && typeof v === 'object') {
         walk(v, path, out);
-      } else if (typeof v === 'string') {
+      } else if (typeof v === 'string' && k !== 'note') {
         out.push({ key: path, text: v, note: '' });
       }
     });
@@ -694,6 +696,7 @@
     var cur = root;
     for (var i = 0; i < parts.length - 1; i++) {
       var p = parts[i];
+      if (Array.isArray(cur[p])) { cur = cur[p]; continue; }
       if (!cur[p] || typeof cur[p] !== 'object' || ('text' in cur[p] && Object.keys(cur[p]).every(function (k) {
         return k === 'text' || k === 'note';
       }))) {
@@ -703,7 +706,9 @@
     }
     var leaf = parts[parts.length - 1];
     var existing = cur[leaf];
-    if (existing && typeof existing === 'object' && 'text' in existing) {
+    if (typeof existing === 'string') {
+      cur[leaf] = text;
+    } else if (existing && typeof existing === 'object' && 'text' in existing) {
       cur[leaf] = Object.assign({}, existing, { text: text });
     } else {
       cur[leaf] = { text: text };
