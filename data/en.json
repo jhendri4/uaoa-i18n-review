@@ -108,6 +108,14 @@
     "wrongPlain": {
       "text": "Not quite. Review the options and try again.",
       "note": "uaoa_common.WRONG — plain, no HTML"
+    },
+    "questionNavAria": {
+      "text": "Question navigation",
+      "note": "aria-label on knowledge-check question nav"
+    },
+    "close": {
+      "text": "Close",
+      "note": "aria-label on dialog close (×) buttons, e.g. M5 layers why/ORP dialogs"
     }
   },
   "survey": {
@@ -794,6 +802,10 @@
         "p4": {
           "text": "<p>To recognise online abuse, it helps to understand the different forms it can take. Think of it as an umbrella covering three connected behaviours. Select each card to reveal the definition.</p>",
           "note": "Native text body on Understanding Online Abuse"
+        },
+        "p3": {
+          "text": "<p>Definitions vary across countries and contexts, so we focus on <em>what matters most</em>: recognising the harm and building the knowledge to prevent it in sport.</p>",
+          "note": "Native text on Understanding Online Abuse"
         }
       },
       "whenTheBehavioursOverlap": {
@@ -806,6 +818,10 @@
           "note": "Native heading on Understanding Online Abuse"
         }
       }
+    },
+    "protectedAria": {
+      "text": "Protected characteristics",
+      "note": "aria-label on protected characteristics tile group"
     }
   },
   "m2": {
@@ -914,6 +930,10 @@
       "ui": {
         "progress": {
           "text": "{n} of {total} explored"
+        },
+        "done": {
+          "text": "All groups explored",
+          "note": "Flip done banner — who is affected"
         }
       },
       "cards": {
@@ -1030,6 +1050,10 @@
         },
         "done": {
           "text": "Activity complete — you’ve reviewed all six impacts"
+        },
+        "sourceLabel": {
+          "text": "Source:",
+          "note": "Prefix before the citation under each impact card; a space and the source follow"
         }
       },
       "cards": {
@@ -2256,6 +2280,22 @@
         },
         "layerOf": {
           "text": "Layer {n} of 3"
+        },
+        "title": {
+          "text": "Three layers of action",
+          "note": "Overview heading"
+        },
+        "layerAria": {
+          "text": "Layer {n}: {title}",
+          "note": "aria-label on layer banner; {n} number, {title} layer name"
+        },
+        "exploredAria": {
+          "text": "explored",
+          "note": "aria suffix in parentheses when a layer is explored"
+        },
+        "layerN": {
+          "text": "Layer {n}",
+          "note": "Fallback eyebrow; {n} = layer number"
         }
       },
       "tracks": {
@@ -3209,6 +3249,10 @@
         "finish": {
           "text": "Close",
           "note": "Closes readiness flip modal on the back face after a pass"
+        },
+        "cardAria": {
+          "text": "Readiness score card",
+          "note": "aria-label on flip score card"
         }
       }
     },
@@ -3421,6 +3465,14 @@
       "noBlock": {
         "text": "No following block found on this slide.",
         "note": "Dev/fallback message"
+      },
+      "restoreFailed": {
+        "text": "Could not restore the following content. Refresh and try again.",
+        "note": "Scroll-fade error state"
+      },
+      "previewOnly": {
+        "text": "Preview only works inside the course player.",
+        "note": "Scroll-fade outside player"
       }
     },
     "supportFloater": {
@@ -4537,6 +4589,12 @@
       "buildReadinessBody": {
         "text": "<p><span style=\"color: #091324\">Awareness is only the beginning. This course builds the practical knowledge and skills needed to understand online abuse and take informed action for yourself and for your sporting community.</span></p><p></p><p><span style=\"color: #091324\">The course is designed to meet you wherever you are in your understanding of the topic:</span></p><ul style=\"margin: 0.5em 0 0.75em; padding-left: calc(1.35em + 10pt);\"><li style=\"margin: 0 0 10pt; color: #091324;\"><p style=\"margin: 0;\"><span style=\"color: #091324\"><strong>If you are already familiar with online abuse</strong>, deepen your understanding of reporting systems, digital platforms, AI, and emerging approaches to prevention and response.</span></p></li><li style=\"margin: 0; color: #091324;\"><p style=\"margin: 0;\"><span style=\"color: #091324\"><strong>If the topic is new to you</strong>, build a strong foundation and identify practical ways to contribute to safer online practices and digital spaces in sport.</span></p></li></ul><p><span style=\"color: #091324\">By the end of the course, you will be better equipped to <strong>recognise online abuse, respond with confidence, and play an active role in creating safer sport.</strong></span></p>",
         "note": "Native text body on Welcome"
+      },
+      "unitedAgainstOnlineAbuseUaoaBrings": {
+        "p3": {
+          "text": "<p>United Against Online Abuse (UAOA) brings together more than 75 governments, sports, academics and technology platforms around a shared goal: making sport safer from online abuse. Lasting change requires action across institutions, communities, and individuals, and that includes you.</p>",
+          "note": "Native text on Welcome"
+        }
       }
     },
     "about": {
@@ -4583,6 +4641,10 @@
           "text": "<span style=\"color: #21b7cb\">What you’ll explore</span>",
           "note": "Native heading on About This Course"
         }
+      },
+      "courseSubtitle": {
+        "text": "<h2 class=\"course-block-heading\"><em>Building Safer Digital Spaces in Sport</em></h2>",
+        "note": "Native text on About This Course"
       }
     }
   },
