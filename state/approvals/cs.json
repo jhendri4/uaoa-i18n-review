@@ -7082,5 +7082,11 @@
     "at": "2026-11-11T17:24:53Z",
     "enFp": "8d5e54fb828fed4e03df77a2e769de11f07ea5d456d8ed96d95df5ae66e7646c",
     "stale": false
+  },
+  "m2.affected.cards.c3.body": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T17:34:47Z",
+    "enFp": "6c6e86fa04dead9428614b175b85c106de4b99f3a39f2db37272b98120b8eac3"
   }
 }
