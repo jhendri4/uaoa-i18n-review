@@ -5974,12 +5974,20 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:54:51Z",
-    "enFp": "31fbef162594de01bab0cd525c51f74de7bcb15063029fa1a54b2cf5944c80d8"
+    "enFp": "31fbef162594de01bab0cd525c51f74de7bcb15063029fa1a54b2cf5944c80d8",
+    "stale": false
   },
   "player.systemLabels.access.enter_email": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:54:51Z",
-    "enFp": "7d8c7d88745736ea354e12671aa268cf84adccffd567e82d35d0cd4bd674fa0b"
+    "enFp": "7d8c7d88745736ea354e12671aa268cf84adccffd567e82d35d0cd4bd674fa0b",
+    "stale": false
+  },
+  "player.systemLabels.access.enter_email_description": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:54:54Z",
+    "enFp": "62ec43f798807e469d678eda83e62c232efaed911c663330130e4973a3dd38c4"
   }
 }
