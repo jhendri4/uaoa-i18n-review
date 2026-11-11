@@ -5449,6 +5449,37 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:51:38Z",
-    "enFp": "72d3f5144acf27069eccd5323b6846a2a56cfe3bfdaaee546e2406b9fd9a106d"
+    "enFp": "72d3f5144acf27069eccd5323b6846a2a56cfe3bfdaaee546e2406b9fd9a106d",
+    "stale": false
+  },
+  "m2.impacts.cards.c4.alt": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:51:49Z",
+    "enFp": "1e10a73bb4e4be200a160dde7af24d9083cf1c8dba96a06d4a73822dab9a3437"
+  },
+  "m2.impacts.cards.c4.short": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:51:49Z",
+    "enFp": "726d11bd5b230253cc5f795cfcb3268117267cb11fee8df060a472e6448abc56"
+  },
+  "m2.impacts.cards.c4.title": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:51:49Z",
+    "enFp": "0a61e3c250fc0769f4b68ace22ac881ab04883c016cde2506ba4c2b1188f27b1"
+  },
+  "m2.impacts.cards.c3.source": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:51:49Z",
+    "enFp": "a74e755c0702d1c11c87c8bfdc7abdfc640f00c15fe52b9418d2a4cf4f04bf17"
+  },
+  "m2.impacts.cards.c3.research": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:51:49Z",
+    "enFp": "9861da8b4d160326c0e17a32c3f498d7d7462a88f6ae619486c0ef05b48cce5e"
   }
 }
