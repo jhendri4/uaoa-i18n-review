@@ -5218,12 +5218,20 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:50:23Z",
-    "enFp": "d5c9c41d5461f8dcb7cb376fd25f4ef5f14cc63b7f6f47619facffcdc432ffd2"
+    "enFp": "d5c9c41d5461f8dcb7cb376fd25f4ef5f14cc63b7f6f47619facffcdc432ffd2",
+    "stale": false
   },
   "m2.slide.section2Body": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:50:23Z",
-    "enFp": "855fe5a7c5ae00fd6e48ae3cae804e608e13c8e582b21c6f0d518b1ebf9c18bb"
+    "enFp": "855fe5a7c5ae00fd6e48ae3cae804e608e13c8e582b21c6f0d518b1ebf9c18bb",
+    "stale": false
+  },
+  "m2.slide.section1Body": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:50:26Z",
+    "enFp": "ef8893b6dfd49225abf267a4af126d21934cc68cc9c62d003a114abc632689b4"
   }
 }
