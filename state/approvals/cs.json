@@ -5197,6 +5197,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:50:00Z",
-    "enFp": "035a75fff1802407a8527e89c00da98e06e6bc0009716b11a2fe8bf8703c6aff"
+    "enFp": "035a75fff1802407a8527e89c00da98e06e6bc0009716b11a2fe8bf8703c6aff",
+    "stale": false
+  },
+  "m2.slide.section5Body3": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:50:16Z",
+    "enFp": "4e132bea4e8af41f6badb2dcb779164cda6c707d1b6c05839910aa1972f5dfba"
   }
 }
