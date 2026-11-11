@@ -7031,6 +7031,19 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T17:24:29Z",
-    "enFp": "965e5bf6e734e77108e6fd8b08fc454b0c08613e5c0ae492a3c8af4d3163e3a0"
+    "enFp": "965e5bf6e734e77108e6fd8b08fc454b0c08613e5c0ae492a3c8af4d3163e3a0",
+    "stale": false
+  },
+  "m3.risksBenefits.risksHeading": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T17:24:38Z",
+    "enFp": "e6fba4e339da3550d80a261c5bc51b12504c3e347b8dc2737670a97c2025659c"
+  },
+  "m3.risksBenefits.benefitsHeading": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T17:24:38Z",
+    "enFp": "0f2ae66d356cc4bb7d26b4c70669e23e5d2f5ff54e7adfbd7d819ddd6a78e730"
   }
 }
