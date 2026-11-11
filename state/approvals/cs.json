@@ -6366,18 +6366,39 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:59:38Z",
-    "enFp": "610c65d84510bef5d54a2dbbb0db7272ecde19fb7ee52307ec6a6d6094695004"
+    "enFp": "610c65d84510bef5d54a2dbbb0db7272ecde19fb7ee52307ec6a6d6094695004",
+    "stale": false
   },
   "m3.regionTabs.ui.close": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:59:38Z",
-    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed"
+    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed",
+    "stale": false
   },
   "m3.regionTabs.ui.closeAria": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:59:38Z",
-    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed"
+    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed",
+    "stale": false
+  },
+  "m3.regionTabs.ui.subCountriesAria": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:59:43Z",
+    "enFp": "034b634c4eaf9ea913406ec4ed99e1a010e791c728b47920a4c285d0f8189ef5"
+  },
+  "m3.regionTabs.ui.overview": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:59:43Z",
+    "enFp": "d4b1ea5708dd532930a85188b45aff6f0a3ed458500c7577e0127a538eb0d100"
+  },
+  "m3.regionTabs.tabs.t1.title": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:59:43Z",
+    "enFp": "7fe24f2b7ba5e4553152d419a942666808849d1da2d54eea7c3e361436b61ab4"
   }
 }
