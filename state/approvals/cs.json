@@ -5211,6 +5211,19 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:50:19Z",
-    "enFp": "815aed4716abb0b5699db8cb0c1a2a1895170d643f11c0319a6e774370e9cbd0"
+    "enFp": "815aed4716abb0b5699db8cb0c1a2a1895170d643f11c0319a6e774370e9cbd0",
+    "stale": false
+  },
+  "m2.slide.section3Body": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:50:23Z",
+    "enFp": "d5c9c41d5461f8dcb7cb376fd25f4ef5f14cc63b7f6f47619facffcdc432ffd2"
+  },
+  "m2.slide.section2Body": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:50:23Z",
+    "enFp": "855fe5a7c5ae00fd6e48ae3cae804e608e13c8e582b21c6f0d518b1ebf9c18bb"
   }
 }
