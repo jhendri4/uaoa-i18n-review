@@ -2811,7 +2811,7 @@
         },
         "q4": {
           "prompt": {
-            "text": "<span class=\"scenario\">Hráč po prohře dostává ponižující komentáře. Podobné zprávy dál zaplavují jeho účet celé dny, včetně útoků na základě rasy.</span><strong>Které typy online zneužívání se v této situaci vyskytují?</strong>",
+            "text": "<span class=\"scenario\">Hráč po prohře dostává ponižující komentáře. Podobné zprávy dál zaplavují jeho účet celé dny, včetně útoků na základě rasy.</span><strong> Které typy online zneužívání se v této situaci vyskytují?</strong>",
             "note": "HTML allowed"
           },
           "choices": {
