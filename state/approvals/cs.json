@@ -5946,6 +5946,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:53:56Z",
-    "enFp": "77f0674359121237fe43d8bf5d3574351cbc91a2deb4b65d82f0f4b8547e8015"
+    "enFp": "77f0674359121237fe43d8bf5d3574351cbc91a2deb4b65d82f0f4b8547e8015",
+    "stale": false
+  },
+  "player.systemLabels.matching.pairedItemsAriaLabel": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:54:25Z",
+    "enFp": "634afc496ada2184d791d1430ace6bb27868fe1a7a6412f996b1ba2e5bad6a8a"
   }
 }
