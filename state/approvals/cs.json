@@ -7024,6 +7024,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T17:24:20Z",
-    "enFp": "f678a6a6d236433ad5935b2aa9ed8dbc8ba1e85197a977a906cffdda3c6ce4b9"
+    "enFp": "f678a6a6d236433ad5935b2aa9ed8dbc8ba1e85197a977a906cffdda3c6ce4b9",
+    "stale": false
+  },
+  "m3.slide.noteTheseActionsProvidePracticalGuidance.body": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T17:24:29Z",
+    "enFp": "965e5bf6e734e77108e6fd8b08fc454b0c08613e5c0ae492a3c8af4d3163e3a0"
   }
 }
