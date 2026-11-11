@@ -5162,24 +5162,34 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:49:50Z",
-    "enFp": "6682060f2cb81a17dcd856bc86e9c752b8688fa084abd48acf330debab5e6275"
+    "enFp": "6682060f2cb81a17dcd856bc86e9c752b8688fa084abd48acf330debab5e6275",
+    "stale": false
   },
   "player.systemLabels.matching.pairedItems": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:49:50Z",
-    "enFp": "fc2f41ef3ea609689e4c2ed68537f5fbad8aaea4d0354c2093e10f7fe28f52ee"
+    "enFp": "fc2f41ef3ea609689e4c2ed68537f5fbad8aaea4d0354c2093e10f7fe28f52ee",
+    "stale": false
   },
   "player.systemLabels.media.caption": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:49:50Z",
-    "enFp": "87d296ec94898c86baf805dbcc47af48e618ec25df0441f7471c60a7d6b05b4e"
+    "enFp": "87d296ec94898c86baf805dbcc47af48e618ec25df0441f7471c60a7d6b05b4e",
+    "stale": false
   },
   "player.systemLabels.media.alt_text": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:49:50Z",
-    "enFp": "42d964c12dfe09efd83691e1684def060924a89eeca894990a87a2b290dd6791"
+    "enFp": "42d964c12dfe09efd83691e1684def060924a89eeca894990a87a2b290dd6791",
+    "stale": false
+  },
+  "player.systemLabels.media.error": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:49:56Z",
+    "enFp": "13708bb33ec512461a7cbea88ee8eff811ea528c00b7152c8d439723ba99856c"
   }
 }
