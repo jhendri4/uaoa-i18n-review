@@ -4994,6 +4994,19 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:48:58Z",
-    "enFp": "837bb4525961e73d2d36e7fdd4fa12016a40cc33729fa4e97703a77eb7a8f85d"
+    "enFp": "837bb4525961e73d2d36e7fdd4fa12016a40cc33729fa4e97703a77eb7a8f85d",
+    "stale": false
+  },
+  "player.systemLabels.flashcard.press_to_flip": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:49:03Z",
+    "enFp": "bfd44ebb53abe680a431d15ecf2e4ed946b11caf18f0facde9832a19d89bddf5"
+  },
+  "player.systemLabels.flashcard.showing_back": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:49:03Z",
+    "enFp": "8e81edca3b1f254a792812e3dbc9ecf0b16af7ca8475f849de5ee5367e7ae801"
   }
 }
