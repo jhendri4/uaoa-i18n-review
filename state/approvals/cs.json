@@ -6884,6 +6884,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T17:12:10Z",
-    "enFp": "f0282a75f5d9c9befc7ea3a7eb7bf966186e89fb34d9d584b1113e4d70e1d2a9"
+    "enFp": "f0282a75f5d9c9befc7ea3a7eb7bf966186e89fb34d9d584b1113e4d70e1d2a9",
+    "stale": false
+  },
+  "m3.slide.continueToModule4": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T17:12:14Z",
+    "enFp": "0bfeb6f714724934355bcf7c1400123212609ea3c2964577969202500bb7bf51"
   }
 }
