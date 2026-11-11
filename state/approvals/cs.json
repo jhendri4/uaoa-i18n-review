@@ -4987,6 +4987,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:36:19Z",
-    "enFp": "cc20753b077d4db59472dda79667b912dc25b250dd1ccd1fe85f1f23c0c59b08"
+    "enFp": "cc20753b077d4db59472dda79667b912dc25b250dd1ccd1fe85f1f23c0c59b08",
+    "stale": false
+  },
+  "player.systemLabels.flashcard.no_flashcards": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:48:58Z",
+    "enFp": "837bb4525961e73d2d36e7fdd4fa12016a40cc33729fa4e97703a77eb7a8f85d"
   }
 }
