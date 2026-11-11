@@ -5953,6 +5953,19 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:54:25Z",
-    "enFp": "634afc496ada2184d791d1430ace6bb27868fe1a7a6412f996b1ba2e5bad6a8a"
+    "enFp": "634afc496ada2184d791d1430ace6bb27868fe1a7a6412f996b1ba2e5bad6a8a",
+    "stale": false
+  },
+  "player.systemLabels.access.choose_nickname": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:54:48Z",
+    "enFp": "609118ef7029897d6c545df6bf60e1e3830931695de710cd4d53b34e81e5690a"
+  },
+  "player.systemLabels.access.contact_provider": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:54:48Z",
+    "enFp": "64743df1562b62f101b06126a3a13ce55fff11b0c427bcbd54a9671472c9d7bf"
   }
 }
