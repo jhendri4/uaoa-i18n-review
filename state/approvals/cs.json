@@ -6891,6 +6891,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T17:12:14Z",
-    "enFp": "0bfeb6f714724934355bcf7c1400123212609ea3c2964577969202500bb7bf51"
+    "enFp": "0bfeb6f714724934355bcf7c1400123212609ea3c2964577969202500bb7bf51",
+    "stale": false
+  },
+  "m3.slide.aiAndOnlineHarm.body": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T17:13:41Z",
+    "enFp": "832e0eb5812f4e9fd6085bc23425691c3984bb53a61201a4540024171cb25826"
   }
 }
