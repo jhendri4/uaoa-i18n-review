@@ -5043,72 +5043,96 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:49:32Z",
-    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed"
+    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed",
+    "stale": false
   },
   "player.systemLabels.general.download": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:49:32Z",
-    "enFp": "d6eafe82359100423c93c5ce53c352c1b51ca1e699215fcec3f5c5dd9bf12d24"
+    "enFp": "d6eafe82359100423c93c5ce53c352c1b51ca1e699215fcec3f5c5dd9bf12d24",
+    "stale": false
   },
   "player.systemLabels.general.error": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:49:32Z",
-    "enFp": "54a0e8c17ebb21a11f8a25b8042786ef7efe52441e6cc87e92c67e0c4c0c6e78"
+    "enFp": "54a0e8c17ebb21a11f8a25b8042786ef7efe52441e6cc87e92c67e0c4c0c6e78",
+    "stale": false
   },
   "player.systemLabels.general.cancel": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:49:32Z",
-    "enFp": "19766ed6ccb2f4a32778eed80d1928d2c87a18d7c275ccb163ec6709d3eb2e27"
+    "enFp": "19766ed6ccb2f4a32778eed80d1928d2c87a18d7c275ccb163ec6709d3eb2e27",
+    "stale": false
   },
   "player.systemLabels.flow.step": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:49:32Z",
-    "enFp": "8e6a6cca7aae1d1e781d3ee04849d6b00f7aaf48f7c642f35105e4bf990a8cb4"
+    "enFp": "8e6a6cca7aae1d1e781d3ee04849d6b00f7aaf48f7c642f35105e4bf990a8cb4",
+    "stale": false
   },
   "player.systemLabels.general.loading": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:49:32Z",
-    "enFp": "47d2a515ef2f05b87d688656286a61e4f743da4b878684c7654969db17711c40"
+    "enFp": "47d2a515ef2f05b87d688656286a61e4f743da4b878684c7654969db17711c40",
+    "stale": false
   },
   "player.systemLabels.general.retry": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:49:32Z",
-    "enFp": "942087cc2d41e01304b7195558d093d10c72af8e838c7556d6a02d471ee71852"
+    "enFp": "942087cc2d41e01304b7195558d093d10c72af8e838c7556d6a02d471ee71852",
+    "stale": false
   },
   "player.systemLabels.homepage.course_home": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:49:32Z",
-    "enFp": "3a78695388b38b5cceefaf6796b0137877514593543b91af2752d5a17e3d736c"
+    "enFp": "3a78695388b38b5cceefaf6796b0137877514593543b91af2752d5a17e3d736c",
+    "stale": false
   },
   "player.systemLabels.general.save": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:49:32Z",
-    "enFp": "1509f561f2416598629b886ad7d3c05a7e221e4e0675c84bbff4ee6d9e03913d"
+    "enFp": "1509f561f2416598629b886ad7d3c05a7e221e4e0675c84bbff4ee6d9e03913d",
+    "stale": false
   },
   "player.systemLabels.homepage.start_course": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:49:32Z",
-    "enFp": "446dffbab8729f159afcb5e12f550fa01046d9ae7f30a7fa049e29a2a6d6246a"
+    "enFp": "446dffbab8729f159afcb5e12f550fa01046d9ae7f30a7fa049e29a2a6d6246a",
+    "stale": false
   },
   "player.systemLabels.homepage.table_of_contents": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:49:32Z",
-    "enFp": "e331da0741fb6d0552bc27483ba0720778440c520b59be917613781679ede70f"
+    "enFp": "e331da0741fb6d0552bc27483ba0720778440c520b59be917613781679ede70f",
+    "stale": false
   },
   "player.systemLabels.interactive_image.click_to_view": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:49:32Z",
-    "enFp": "98963e7abd89811c5a937a3d58b054ba6325ad6050f54c8db5113ac488601d26"
+    "enFp": "98963e7abd89811c5a937a3d58b054ba6325ad6050f54c8db5113ac488601d26",
+    "stale": false
+  },
+  "player.systemLabels.interactive_image.close_modal": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:49:35Z",
+    "enFp": "207bd886add536b45844d8e8db68ef17ba2a95064041da141c23d5486c70443c"
+  },
+  "player.systemLabels.interactive_image.close_sidebar": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:49:35Z",
+    "enFp": "17e28e2302175d33308a4706042528db0f8605f7ec27b2dff8cc51bc65fa2096"
   }
 }
