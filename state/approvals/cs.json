@@ -6639,6 +6639,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T17:09:50Z",
-    "enFp": "a3363c7ab2a31530345494e43c62bb8ec712b50946d9175e616b3f69a03e8249"
+    "enFp": "a3363c7ab2a31530345494e43c62bb8ec712b50946d9175e616b3f69a03e8249",
+    "stale": false
+  },
+  "m3.reportingSystems.items.es.title": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T17:09:57Z",
+    "enFp": "8ef41e6f4b07432a0cb4eb7a8774e7a3878fd3e385f49aa09b406768467db228"
   }
 }
