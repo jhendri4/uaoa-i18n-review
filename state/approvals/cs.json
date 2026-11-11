@@ -6933,6 +6933,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T17:15:36Z",
-    "enFp": "4ae7d2b670a83a2c4fe4030c59f2f5cf095d2dcb85da1c592c3ce42c356efa8c"
+    "enFp": "4ae7d2b670a83a2c4fe4030c59f2f5cf095d2dcb85da1c592c3ce42c356efa8c",
+    "stale": false
+  },
+  "m3.slide.howPlatformsHelpReduceOnlineAbuse.heading": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T17:21:08Z",
+    "enFp": "13542ce3d3d9fff860f1e1813377e0bea8f49954cb9d4bdfb86abcdbbf2a63d2"
   }
 }
