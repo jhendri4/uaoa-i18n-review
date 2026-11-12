@@ -3228,6 +3228,406 @@
       "title": {
         "text": "Mini slovník: Další možné formy online zneužívání",
         "note": "Dictionary document title"
+      },
+      "discretionLabel": {
+        "text": "Uvážení čtenáře:",
+        "note": "Bold label on the mini dictionary reader-discretion callout"
+      },
+      "discretion": {
+        "text": "Některé záznamy popisují škodlivé nebo zneužívající chování, které může být citlivé nebo znepokojivé. Prozkoumejte tento zdroj dle vlastního uvážení a vraťte se ke kurzu, až budete připraveni.",
+        "note": "Body of the mini dictionary reader-discretion callout"
+      },
+      "termsCount": {
+        "text": "{n} termínů",
+        "note": "Section badge in Mini Dictionary; {n} = entry count"
+      },
+      "sections": {
+        "toxicContent": {
+          "title": {
+            "text": "Toxický obsah",
+            "note": "Mini Dictionary category heading"
+          },
+          "entries": {
+            "purposefulEmbarrassment": {
+              "term": {
+                "text": "Záměrné zostuzení",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Úmyslné způsobení studu nebo ponížení, často veřejně.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "cyberbullying": {
+              "term": {
+                "text": "Kyberšikana",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Opakované využívání elektronické komunikace k zastrašování, vyvolávání strachu nebo zostuzování osoby.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "trolling": {
+              "term": {
+                "text": "Trollování",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Zveřejňování provokativních nebo urážlivých zpráv s cílem vyvolat silné reakce nebo narušit diskusi.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "profaneOrOffensiveContent": {
+              "term": {
+                "text": "Vulgární nebo urážlivý obsah",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Vulgární nebo neuctivý jazyk, obrázky nebo komunikace.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "threatsOfViolence": {
+              "term": {
+                "text": "Výhrůžky násilím",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Zprávy, jejichž cílem je vyvolat strach z fyzické újmy.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "incitement": {
+              "term": {
+                "text": "Podněcování",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Nabádání ostatních k násilnému nebo protiprávnímu jednání.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "sexualHarassment": {
+              "term": {
+                "text": "Sexuální obtěžování",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Nežádoucí sexuální návrhy nebo komentáře.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "unwantedExplicitContent": {
+              "term": {
+                "text": "Nežádoucí explicitní obsah",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Sdílení sexuálně explicitních obrázků nebo zpráv bez souhlasu.",
+                "note": "Mini Dictionary entry definition"
+              }
+            }
+          }
+        },
+        "contentLeakage": {
+          "title": {
+            "text": "Únik obsahu",
+            "note": "Mini Dictionary category heading"
+          },
+          "entries": {
+            "sextortion": {
+              "term": {
+                "text": "Sextorze",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Vydírání výhrůžkou zveřejnění soukromého materiálu, pokud nejsou splněny požadavky.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "doxxing": {
+              "term": {
+                "text": "Doxování",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Zveřejnění soukromých nebo identifikačních údajů se zlým úmyslem.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "outing": {
+              "term": {
+                "text": "Nedobrovolný coming out",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Odhalení něčí sexuality nebo genderové identity bez svolení.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "deadnaming": {
+              "term": {
+                "text": "Používání dřívějšího jména",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Používání dřívějšího jména trans nebo nebinární osoby bez jejího souhlasu.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "nonConsensualImageExposure": {
+              "term": {
+                "text": "Zveřejnění snímků bez souhlasu",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Sdílení soukromých nebo intimních obrázků či videí bez souhlasu.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "leakedChatsOrProfiles": {
+              "term": {
+                "text": "Uniklé chaty nebo profily",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Zveřejnění soukromých konverzací nebo účtů bez oprávnění.",
+                "note": "Mini Dictionary entry definition"
+              }
+            }
+          }
+        },
+        "overloading": {
+          "title": {
+            "text": "Přetěžování",
+            "note": "Mini Dictionary category heading"
+          },
+          "entries": {
+            "systemOrAccountFlooding": {
+              "term": {
+                "text": "Zahlcení systému nebo účtu",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Zahltit osobu nebo platformu nadměrným množstvím obsahu nebo požadavků, aby se narušil provoz nebo umlčel projev.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "zoombombing": {
+              "term": {
+                "text": "Zoombombing",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Nezvané vniknutí do videohovoru s cílem ho narušit.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "negativeRatingsAndReviews": {
+              "term": {
+                "text": "Negativní hodnocení a recenze",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Koordinovaná nespravedlivá nebo zaujatá zpětná vazba, jejímž cílem je poškodit pověst.",
+                "note": "Mini Dictionary entry definition"
+              }
+            }
+          }
+        },
+        "falseReporting": {
+          "title": {
+            "text": "Falešné nahlašování",
+            "note": "Mini Dictionary category heading"
+          },
+          "entries": {
+            "swatting": {
+              "term": {
+                "text": "Falešné tísňové hlášení (swatting)",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Falešné tísňové volání, jehož cílem je vyvolat ozbrojený zásah policie v místě, kde se někdo nachází.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "falsifiedAbuseReport": {
+              "term": {
+                "text": "Zfalšované nahlášení zneužívání",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Vědomé podání nepravdivého hlášení s cílem způsobit újmu.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "falsifiedAbuseFlag": {
+              "term": {
+                "text": "Falešné nahlášení obsahu",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Neoprávněné nahlášení legitimního obsahu jako zneužívajícího, aby byl odstraněn nebo cenzurován.",
+                "note": "Mini Dictionary entry definition"
+              }
+            }
+          }
+        },
+        "impersonation": {
+          "title": {
+            "text": "Vydávání se za jinou osobu",
+            "note": "Mini Dictionary category heading"
+          },
+          "entries": {
+            "impersonatedProfiles": {
+              "term": {
+                "text": "Podvodné profily",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Falešné účty vytvořené k oklamání nebo podvodu.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "impersonatedChatsOrImages": {
+              "term": {
+                "text": "Podvržené chaty nebo obrázky",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Vyrobený nebo pozměněný obsah, který je nepravdivě připisován někomu jinému.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "syntheticPornography": {
+              "term": {
+                "text": "Syntetická pornografie",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Technologie deepfake použitá k vytvoření explicitního obsahu bez souhlasu.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "impersonatedWebPages": {
+              "term": {
+                "text": "Podvržené webové stránky",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Podvržené weby vytvořené k oklamání uživatelů nebo k poškození postavení konkurenta.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "hijackedCommunication": {
+              "term": {
+                "text": "Ovládnutá komunikace",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Neoprávněné převzetí účtu nebo kanálu za účelem šíření nepravdivých zpráv.",
+                "note": "Mini Dictionary entry definition"
+              }
+            }
+          }
+        },
+        "surveillance": {
+          "title": {
+            "text": "Sledování",
+            "note": "Mini Dictionary category heading"
+          },
+          "entries": {
+            "stalkingOrTracking": {
+              "term": {
+                "text": "Pronásledování nebo sledování",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Opakované nežádoucí sledování pohybu nebo aktivity osoby.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "accountMonitoring": {
+              "term": {
+                "text": "Sledování účtu",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Neoprávněný přístup ke aktivitě něčího účtu a její sledování.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "deviceMonitoring": {
+              "term": {
+                "text": "Sledování zařízení",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Neoprávněné sledování aktivity na telefonu, počítači nebo tabletu osoby.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "iotMonitoring": {
+              "term": {
+                "text": "Sledování IoT",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Pasivní sběr dat z nositelné elektroniky nebo chytrých zařízení bez souhlasu.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "browserMonitoring": {
+              "term": {
+                "text": "Sledování prohlížeče",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Sledování historie nebo aktivity prohlížení někoho bez jeho vědomí.",
+                "note": "Mini Dictionary entry definition"
+              }
+            }
+          }
+        },
+        "lockoutAndControl": {
+          "title": {
+            "text": "Uzamčení a kontrola",
+            "note": "Mini Dictionary category heading"
+          },
+          "entries": {
+            "contentDeletion": {
+              "term": {
+                "text": "Mazání obsahu",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Neoprávněné odstranění souborů, příspěvků nebo dat s cílem potlačit informace nebo způsobit újmu.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "browserOrDeviceHijacking": {
+              "term": {
+                "text": "Ovládnutí prohlížeče nebo zařízení",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Převzetí kontroly nad něčím prohlížečem nebo připojenými zařízeními bez souhlasu.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "accountLockouts": {
+              "term": {
+                "text": "Uzamčení účtů",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Úmyslné zamezení přístupu osoby k jejím vlastním účtům nebo obsahu.",
+                "note": "Mini Dictionary entry definition"
+              }
+            }
+          }
+        }
       }
     },
     "scroll": {

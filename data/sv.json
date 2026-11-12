@@ -3228,6 +3228,406 @@
       "title": {
         "text": "Miniordbok: Andra möjliga former av övergrepp online",
         "note": "Dictionary document title"
+      },
+      "discretionLabel": {
+        "text": "Läsarens bedömning:",
+        "note": "Bold label on the mini dictionary reader-discretion callout"
+      },
+      "discretion": {
+        "text": "Vissa inlägg beskriver skadliga eller kränkande beteenden som kan vara känsliga eller upprörande. Utforska denna resurs efter eget gottfinnande och återvänd till kursen när du är redo.",
+        "note": "Body of the mini dictionary reader-discretion callout"
+      },
+      "termsCount": {
+        "text": "{n} termer",
+        "note": "Section badge in Mini Dictionary; {n} = entry count"
+      },
+      "sections": {
+        "toxicContent": {
+          "title": {
+            "text": "Toxiskt innehåll",
+            "note": "Mini Dictionary category heading"
+          },
+          "entries": {
+            "purposefulEmbarrassment": {
+              "term": {
+                "text": "Avsiktlig förödmjukelse",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Att avsiktligt få någon att skämmas eller känna sig förödmjukad, ofta offentligt.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "cyberbullying": {
+              "term": {
+                "text": "Nätmobbning",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Upprepad användning av elektronisk kommunikation för att skrämma, hota eller förödmjuka en person.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "trolling": {
+              "term": {
+                "text": "Trollning",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Att publicera provocerande eller stötande meddelanden för att väcka starka reaktioner eller störa en diskussion.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "profaneOrOffensiveContent": {
+              "term": {
+                "text": "Profant eller stötande innehåll",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Vulgärt eller respektlöst språk, bilder eller kommunikation.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "threatsOfViolence": {
+              "term": {
+                "text": "Hot om våld",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Meddelanden som ska skapa rädsla för fysisk skada.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "incitement": {
+              "term": {
+                "text": "Uppvigling",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Att uppmana andra att agera våldsamt eller olagligt.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "sexualHarassment": {
+              "term": {
+                "text": "Sexuella trakasserier",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Oönskade sexuella närmanden eller kommentarer.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "unwantedExplicitContent": {
+              "term": {
+                "text": "Oönskat explicit innehåll",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Att dela sexuellt explicita bilder eller meddelanden utan samtycke.",
+                "note": "Mini Dictionary entry definition"
+              }
+            }
+          }
+        },
+        "contentLeakage": {
+          "title": {
+            "text": "Innehållsläckage",
+            "note": "Mini Dictionary category heading"
+          },
+          "entries": {
+            "sextortion": {
+              "term": {
+                "text": "Sexuell utpressning",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Utpressning som hotar att sprida privat material om kraven inte uppfylls.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "doxxing": {
+              "term": {
+                "text": "Doxning",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Publicering av privata eller identifierande uppgifter i ont uppsåt.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "outing": {
+              "term": {
+                "text": "Ofrivilligt avslöjande",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Att avslöja någons sexualitet eller könsidentitet utan tillstånd.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "deadnaming": {
+              "term": {
+                "text": "Användning av tidigare namn",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Att använda en transperson eller ickebinär persons tidigare namn utan samtycke.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "nonConsensualImageExposure": {
+              "term": {
+                "text": "Spridning av bilder utan samtycke",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Att dela privata eller intima bilder eller videor utan samtycke.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "leakedChatsOrProfiles": {
+              "term": {
+                "text": "Läckta chattar eller profiler",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Att avslöja privata samtal eller konton utan tillåtelse.",
+                "note": "Mini Dictionary entry definition"
+              }
+            }
+          }
+        },
+        "overloading": {
+          "title": {
+            "text": "Överbelastning",
+            "note": "Mini Dictionary category heading"
+          },
+          "entries": {
+            "systemOrAccountFlooding": {
+              "term": {
+                "text": "Översvämning av system eller konto",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Att överväldiga en person eller en plattform med överdrivet mycket innehåll eller förfrågningar för att störa tjänsten eller tysta någons röst.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "zoombombing": {
+              "term": {
+                "text": "Zoombombning",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Objude intrång i ett videosamtal för att störa det.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "negativeRatingsAndReviews": {
+              "term": {
+                "text": "Negativa betyg och recensioner",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Samordnad orättvis eller partisk återkoppling som ska skada ett rykte.",
+                "note": "Mini Dictionary entry definition"
+              }
+            }
+          }
+        },
+        "falseReporting": {
+          "title": {
+            "text": "Falska rapporter",
+            "note": "Mini Dictionary category heading"
+          },
+          "entries": {
+            "swatting": {
+              "term": {
+                "text": "Falsklarm till polis (swatting)",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Ett falskt nödsamtal som ska utlösa ett beväpnat polisingripande där någon befinner sig.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "falsifiedAbuseReport": {
+              "term": {
+                "text": "Falskanmälan om övergrepp",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Att medvetet lämna in en falsk anmälan för att orsaka skada.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "falsifiedAbuseFlag": {
+              "term": {
+                "text": "Falskflaggning av innehåll",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Att felaktigt flagga legitimt innehåll som missbruk så att det tas bort eller censureras.",
+                "note": "Mini Dictionary entry definition"
+              }
+            }
+          }
+        },
+        "impersonation": {
+          "title": {
+            "text": "Identitetsförfalskning",
+            "note": "Mini Dictionary category heading"
+          },
+          "entries": {
+            "impersonatedProfiles": {
+              "term": {
+                "text": "Falska profiler",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Fejkade konton som skapats för att vilseleda eller lura någon.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "impersonatedChatsOrImages": {
+              "term": {
+                "text": "Falska chattar eller bilder",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Påhittat eller ändrat innehåll som felaktigt tillskrivs någon.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "syntheticPornography": {
+              "term": {
+                "text": "Syntetisk pornografi",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Deepfake-teknik som används för att skapa explicit innehåll utan samtycke.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "impersonatedWebPages": {
+              "term": {
+                "text": "Falska webbsidor",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Förfalskade webbplatser som byggts för att lura användare eller skada en konkurrents anseende.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "hijackedCommunication": {
+              "term": {
+                "text": "Kapad kommunikation",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Obehörigt övertagande av ett konto eller en kanal för att sprida falska meddelanden.",
+                "note": "Mini Dictionary entry definition"
+              }
+            }
+          }
+        },
+        "surveillance": {
+          "title": {
+            "text": "Övervakning",
+            "note": "Mini Dictionary category heading"
+          },
+          "entries": {
+            "stalkingOrTracking": {
+              "term": {
+                "text": "Stalkning eller spårning",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Upprepad, oönskad övervakning av en persons rörelser eller aktivitet.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "accountMonitoring": {
+              "term": {
+                "text": "Kontoövervakning",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Obehörig åtkomst till och spårning av någons kontoaktivitet.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "deviceMonitoring": {
+              "term": {
+                "text": "Enhetsövervakning",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Obehörig spårning av aktivitet på en persons telefon, dator eller surfplatta.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "iotMonitoring": {
+              "term": {
+                "text": "IoT-övervakning",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Passiv insamling av data från kroppsburna eller smarta enheter utan samtycke.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "browserMonitoring": {
+              "term": {
+                "text": "Webbläsarövervakning",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Att spåra någons webbhistorik eller aktivitet utan att personen vet om det.",
+                "note": "Mini Dictionary entry definition"
+              }
+            }
+          }
+        },
+        "lockoutAndControl": {
+          "title": {
+            "text": "Utestängning och kontroll",
+            "note": "Mini Dictionary category heading"
+          },
+          "entries": {
+            "contentDeletion": {
+              "term": {
+                "text": "Radering av innehåll",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Obehörig radering av filer, inlägg eller data för att undanhålla information eller orsaka skada.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "browserOrDeviceHijacking": {
+              "term": {
+                "text": "Kapning av webbläsare eller enhet",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Att ta kontroll över någons webbläsare eller anslutna enheter utan samtycke.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "accountLockouts": {
+              "term": {
+                "text": "Kontoutelåsningar",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Att avsiktligt hindra en person från att komma åt sina egna konton eller sitt innehåll.",
+                "note": "Mini Dictionary entry definition"
+              }
+            }
+          }
+        }
       }
     },
     "scroll": {

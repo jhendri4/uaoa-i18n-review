@@ -3228,6 +3228,406 @@
       "title": {
         "text": "Mini slovar: Druge možne oblike spletne zlorabe",
         "note": "Dictionary document title"
+      },
+      "discretionLabel": {
+        "text": "Presoja bralca:",
+        "note": "Bold label on the mini dictionary reader-discretion callout"
+      },
+      "discretion": {
+        "text": "Nekateri vnosi opisujejo škodljivo ali zlorabno vedenje, ki je lahko občutljivo ali vznemirljivo. Raziščite ta vir po lastni presoji in se vrnite k tečaju, ko boste pripravljeni.",
+        "note": "Body of the mini dictionary reader-discretion callout"
+      },
+      "termsCount": {
+        "text": "{n} izrazov",
+        "note": "Section badge in Mini Dictionary; {n} = entry count"
+      },
+      "sections": {
+        "toxicContent": {
+          "title": {
+            "text": "Toksična vsebina",
+            "note": "Mini Dictionary category heading"
+          },
+          "entries": {
+            "purposefulEmbarrassment": {
+              "term": {
+                "text": "Namerna osramotitev",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Namerno povzročanje sramu ali ponižanja, pogosto javno.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "cyberbullying": {
+              "term": {
+                "text": "Spletno nadlegovanje",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Ponavljajoča se uporaba elektronske komunikacije za ustrahovanje, strašenje ali sramotenje osebe.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "trolling": {
+              "term": {
+                "text": "Trolanje",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Objavljanje provokativnih ali žaljivih sporočil, da bi sprožili močne odzive ali zmotili razpravo.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "profaneOrOffensiveContent": {
+              "term": {
+                "text": "Nespodobna ali žaljiva vsebina",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Vulgaren ali nespoštljiv jezik, slike ali komunikacija.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "threatsOfViolence": {
+              "term": {
+                "text": "Grozje z nasiljem",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Sporočila, namenjena vzbujanju strahu pred telesno poškodbo.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "incitement": {
+              "term": {
+                "text": "Hujskanje",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Nagovarjanje drugih k nasilnemu ali nezakonitemu ravnanju.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "sexualHarassment": {
+              "term": {
+                "text": "Spolno nadlegovanje",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Nezaželena spolna namigovanja ali komentarji.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "unwantedExplicitContent": {
+              "term": {
+                "text": "Nezaželena eksplicitna vsebina",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Deljenje spolno eksplicitnih slik ali sporočil brez privolitve.",
+                "note": "Mini Dictionary entry definition"
+              }
+            }
+          }
+        },
+        "contentLeakage": {
+          "title": {
+            "text": "Uhajanje vsebine",
+            "note": "Mini Dictionary category heading"
+          },
+          "entries": {
+            "sextortion": {
+              "term": {
+                "text": "Spolno izsiljevanje",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Izsiljevanje z grožnjo razkritja zasebnega gradiva, če zahteve niso izpolnjene.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "doxxing": {
+              "term": {
+                "text": "Doxanje",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Objavljanje zasebnih ali identifikacijskih podatkov z zlonamernim namenom.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "outing": {
+              "term": {
+                "text": "Neprostovoljni coming out",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Razkritje spolne usmerjenosti ali spolne identitete osebe brez dovoljenja.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "deadnaming": {
+              "term": {
+                "text": "Uporaba prejšnjega imena",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Uporaba prejšnjega imena transspolne ali nebinarne osebe brez privolitve.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "nonConsensualImageExposure": {
+              "term": {
+                "text": "Razkritje posnetkov brez privolitve",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Deljenje zasebnih ali intimnih slik ali videoposnetkov brez privolitve.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "leakedChatsOrProfiles": {
+              "term": {
+                "text": "Razkrita klepeta ali profili",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Razkrivanje zasebnih pogovorov ali računov brez dovoljenja.",
+                "note": "Mini Dictionary entry definition"
+              }
+            }
+          }
+        },
+        "overloading": {
+          "title": {
+            "text": "Preobremenjevanje",
+            "note": "Mini Dictionary category heading"
+          },
+          "entries": {
+            "systemOrAccountFlooding": {
+              "term": {
+                "text": "Preplavljanje sistema ali računa",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Preobremeniti osebo ali platformo s preveliko količino vsebine ali zahtev, da bi motili storitev ali utišali govor.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "zoombombing": {
+              "term": {
+                "text": "Zoombombing",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Nepovabljen vdor v videoklic, da bi ga zmotili.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "negativeRatingsAndReviews": {
+              "term": {
+                "text": "Negativne ocene in mnenja",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Usklajene nepravične ali pristranske povratne informacije, namenjene škodi ugledu.",
+                "note": "Mini Dictionary entry definition"
+              }
+            }
+          }
+        },
+        "falseReporting": {
+          "title": {
+            "text": "Lažno prijavljanje",
+            "note": "Mini Dictionary category heading"
+          },
+          "entries": {
+            "swatting": {
+              "term": {
+                "text": "Lažni oboroženi odziv (swatting)",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Lažni klic v sili, namenjen sprožitvi oboroženega policijskega odziva na lokaciji osebe.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "falsifiedAbuseReport": {
+              "term": {
+                "text": "Ponarejena prijava zlorabe",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Zavestna oddaja lažne prijave z namenom povzročiti škodo.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "falsifiedAbuseFlag": {
+              "term": {
+                "text": "Lažna označitev zlorabe",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Napačno označevanje legitimne vsebine kot zlorabe, da bi jo odstranili ali cenzurirali.",
+                "note": "Mini Dictionary entry definition"
+              }
+            }
+          }
+        },
+        "impersonation": {
+          "title": {
+            "text": "Lažno predstavljanje",
+            "note": "Mini Dictionary category heading"
+          },
+          "entries": {
+            "impersonatedProfiles": {
+              "term": {
+                "text": "Lažni profili",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Lažni računi, ustvarjeni za zavajanje ali goljufijo.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "impersonatedChatsOrImages": {
+              "term": {
+                "text": "Ponarejena klepeta ali slike",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Izmišljena ali spremenjena vsebina, ki se lažno pripisuje nekomu.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "syntheticPornography": {
+              "term": {
+                "text": "Sintetična pornografija",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Tehnologija deepfake, uporabljena za ustvarjanje eksplicitne vsebine brez privolitve.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "impersonatedWebPages": {
+              "term": {
+                "text": "Ponarejene spletne strani",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Ponarejena spletna mesta, narejena za zavajanje uporabnikov ali za škodo ugledu konkurenta.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "hijackedCommunication": {
+              "term": {
+                "text": "Ugrabljena komunikacija",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Nepooblaščen prevzem računa ali kanala za širjenje lažnih sporočil.",
+                "note": "Mini Dictionary entry definition"
+              }
+            }
+          }
+        },
+        "surveillance": {
+          "title": {
+            "text": "Nadzor",
+            "note": "Mini Dictionary category heading"
+          },
+          "entries": {
+            "stalkingOrTracking": {
+              "term": {
+                "text": "Zalezovanje ali sledenje",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Ponavljajoče se, nezaželeno spremljanje gibanja ali dejavnosti osebe.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "accountMonitoring": {
+              "term": {
+                "text": "Spremljanje računa",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Nepooblaščen dostop do dejavnosti računa osebe in njeno spremljanje.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "deviceMonitoring": {
+              "term": {
+                "text": "Spremljanje naprave",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Nepooblaščeno spremljanje dejavnosti na telefonu, računalniku ali tablici osebe.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "iotMonitoring": {
+              "term": {
+                "text": "Spremljanje IoT",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Pasivno zbiranje podatkov iz nosljivih ali pametnih naprav brez privolitve.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "browserMonitoring": {
+              "term": {
+                "text": "Spremljanje brskalnika",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Sledenje zgodovini ali dejavnosti brskanja osebe brez njene vednosti.",
+                "note": "Mini Dictionary entry definition"
+              }
+            }
+          }
+        },
+        "lockoutAndControl": {
+          "title": {
+            "text": "Zaklepanje in nadzor",
+            "note": "Mini Dictionary category heading"
+          },
+          "entries": {
+            "contentDeletion": {
+              "term": {
+                "text": "Brisanje vsebine",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Nepooblaščeno brisanje datotek, objav ali podatkov, da bi zatrli informacije ali povzročili škodo.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "browserOrDeviceHijacking": {
+              "term": {
+                "text": "Ugrabitev brskalnika ali naprave",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Prevzem nadzora nad brskalnikom ali povezanimi napravami osebe brez privolitve.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "accountLockouts": {
+              "term": {
+                "text": "Zaklepanje računov",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Namerno onemogočanje osebi dostop do lastnih računov ali vsebine.",
+                "note": "Mini Dictionary entry definition"
+              }
+            }
+          }
+        }
       }
     },
     "scroll": {

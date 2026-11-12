@@ -3250,6 +3250,406 @@
       "title": {
         "text": "Mini Dictionary: Other Possible Forms of Online Abuse",
         "note": "Dictionary document title"
+      },
+      "discretionLabel": {
+        "text": "Reader discretion:",
+        "note": "Bold label on the mini dictionary reader-discretion callout"
+      },
+      "discretion": {
+        "text": "Some entries describe harmful or abusive behaviours that may be sensitive or upsetting. Explore this resource at your own discretion, and return to the course whenever you are ready.",
+        "note": "Body of the mini dictionary reader-discretion callout"
+      },
+      "termsCount": {
+        "text": "{n} terms",
+        "note": "Section badge in Mini Dictionary; {n} = entry count"
+      },
+      "sections": {
+        "toxicContent": {
+          "title": {
+            "text": "Toxic Content",
+            "note": "Mini Dictionary category heading"
+          },
+          "entries": {
+            "purposefulEmbarrassment": {
+              "term": {
+                "text": "Purposeful embarrassment",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Intentionally causing someone shame or humiliation, often publicly.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "cyberbullying": {
+              "term": {
+                "text": "Cyberbullying",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Repeated use of electronic communication to intimidate, scare, or shame a person.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "trolling": {
+              "term": {
+                "text": "Trolling",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Posting provocative or offensive messages to trigger strong reactions or disrupt discussion.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "profaneOrOffensiveContent": {
+              "term": {
+                "text": "Profane or offensive content",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Vulgar or disrespectful language, images, or communication.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "threatsOfViolence": {
+              "term": {
+                "text": "Threats of violence",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Messages meant to create fear of physical harm.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "incitement": {
+              "term": {
+                "text": "Incitement",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Urging others to act violently or unlawfully.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "sexualHarassment": {
+              "term": {
+                "text": "Sexual harassment",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Unwanted sexual advances or comments.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "unwantedExplicitContent": {
+              "term": {
+                "text": "Unwanted explicit content",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Sharing sexually explicit images or messages without consent.",
+                "note": "Mini Dictionary entry definition"
+              }
+            }
+          }
+        },
+        "contentLeakage": {
+          "title": {
+            "text": "Content Leakage",
+            "note": "Mini Dictionary category heading"
+          },
+          "entries": {
+            "sextortion": {
+              "term": {
+                "text": "Sextortion",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Blackmail that threatens to release private material unless demands are met.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "doxxing": {
+              "term": {
+                "text": "Doxxing",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Publishing private or identifying information with malicious intent.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "outing": {
+              "term": {
+                "text": "Outing",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Disclosing someone's sexuality or gender identity without permission.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "deadnaming": {
+              "term": {
+                "text": "Deadnaming",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Using a transgender or non-binary person's former name without consent.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "nonConsensualImageExposure": {
+              "term": {
+                "text": "Non-consensual image exposure",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Sharing private or intimate images or videos without consent.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "leakedChatsOrProfiles": {
+              "term": {
+                "text": "Leaked chats or profiles",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Exposing private conversations or accounts without authorisation.",
+                "note": "Mini Dictionary entry definition"
+              }
+            }
+          }
+        },
+        "overloading": {
+          "title": {
+            "text": "Overloading",
+            "note": "Mini Dictionary category heading"
+          },
+          "entries": {
+            "systemOrAccountFlooding": {
+              "term": {
+                "text": "System or account flooding",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Overwhelming a person or platform with excessive content or requests to disrupt service or silence speech.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "zoombombing": {
+              "term": {
+                "text": "Zoombombing",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Uninvited intrusion into a video call to disrupt it.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "negativeRatingsAndReviews": {
+              "term": {
+                "text": "Negative ratings and reviews",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Coordinated unfair or biased feedback meant to damage a reputation.",
+                "note": "Mini Dictionary entry definition"
+              }
+            }
+          }
+        },
+        "falseReporting": {
+          "title": {
+            "text": "False Reporting",
+            "note": "Mini Dictionary category heading"
+          },
+          "entries": {
+            "swatting": {
+              "term": {
+                "text": "Swatting",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "A hoax emergency call meant to trigger an armed police response at someone's location.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "falsifiedAbuseReport": {
+              "term": {
+                "text": "Falsified abuse report",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Knowingly submitting a false report to cause harm.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "falsifiedAbuseFlag": {
+              "term": {
+                "text": "Falsified abuse flag",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Wrongly flagging legitimate content as abusive to have it removed or censored.",
+                "note": "Mini Dictionary entry definition"
+              }
+            }
+          }
+        },
+        "impersonation": {
+          "title": {
+            "text": "Impersonation",
+            "note": "Mini Dictionary category heading"
+          },
+          "entries": {
+            "impersonatedProfiles": {
+              "term": {
+                "text": "Impersonated profiles",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Fake accounts created to deceive or defraud.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "impersonatedChatsOrImages": {
+              "term": {
+                "text": "Impersonated chats or images",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Fabricated or altered content falsely attributed to someone.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "syntheticPornography": {
+              "term": {
+                "text": "Synthetic pornography",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Deepfake technology used to create explicit content without consent.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "impersonatedWebPages": {
+              "term": {
+                "text": "Impersonated web pages",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Counterfeit sites built to deceive users or harm a competitor's standing.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "hijackedCommunication": {
+              "term": {
+                "text": "Hijacked communication",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Unauthorised takeover of an account or channel to spread false messages.",
+                "note": "Mini Dictionary entry definition"
+              }
+            }
+          }
+        },
+        "surveillance": {
+          "title": {
+            "text": "Surveillance",
+            "note": "Mini Dictionary category heading"
+          },
+          "entries": {
+            "stalkingOrTracking": {
+              "term": {
+                "text": "Stalking or tracking",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Repeated, unwanted monitoring of a person's movements or activity.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "accountMonitoring": {
+              "term": {
+                "text": "Account monitoring",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Unauthorised access to and tracking of someone's account activity.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "deviceMonitoring": {
+              "term": {
+                "text": "Device monitoring",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Unauthorised tracking of activity on a person's phone, computer, or tablet.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "iotMonitoring": {
+              "term": {
+                "text": "IoT monitoring",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Passive data collection from wearables or smart devices without consent.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "browserMonitoring": {
+              "term": {
+                "text": "Browser monitoring",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Tracking someone's browsing history or activity without their knowledge.",
+                "note": "Mini Dictionary entry definition"
+              }
+            }
+          }
+        },
+        "lockoutAndControl": {
+          "title": {
+            "text": "Lockout and Control",
+            "note": "Mini Dictionary category heading"
+          },
+          "entries": {
+            "contentDeletion": {
+              "term": {
+                "text": "Content deletion",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Unauthorised removal of files, posts, or data to suppress information or cause harm.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "browserOrDeviceHijacking": {
+              "term": {
+                "text": "Browser or device hijacking",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Taking control of someone's browser or connected devices without consent.",
+                "note": "Mini Dictionary entry definition"
+              }
+            },
+            "accountLockouts": {
+              "term": {
+                "text": "Account lockouts",
+                "note": "Mini Dictionary entry term"
+              },
+              "definition": {
+                "text": "Deliberately blocking a person from accessing their own accounts or content.",
+                "note": "Mini Dictionary entry definition"
+              }
+            }
+          }
+        }
       }
     },
     "scroll": {
